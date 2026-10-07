@@ -142,6 +142,7 @@ export function toLite(f: Family): FamilyLite {
     difficulty: f.difficulty,
     angles: imgs.length >= MIN_QUIZ_IMAGES ? [...new Set(imgs.map((i) => i.angle))] : [],
     thumb: heroImage(f.id)?.srcSmall ?? null,
+    quizzable: imgs.length >= MIN_QUIZ_IMAGES,
   };
 }
 

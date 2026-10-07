@@ -75,6 +75,11 @@ export function StudyGrid({ families, mastery }: { families: FamilyLite[]; maste
                       <div className="chart-grid size-full" />
                     )}
                     <span className={cn("absolute right-2 top-2 size-2.5 rounded-full ring-2 ring-[#08101a]", MASTERY_STYLE[m].className)} title={MASTERY_STYLE[m].label} />
+                    {!f.quizzable && (
+                      <span className="type-readout absolute bottom-2 left-2 rounded bg-[#08101a]/75 px-1.5 py-0.5 text-[0.6rem] text-[#e6ecf1]" title="Too few public photos to drill this type yet">
+                        Study only
+                      </span>
+                    )}
                   </div>
                   <div className="p-3">
                     <p className="type-condensed truncate text-[1.05rem] leading-tight">{f.label}</p>

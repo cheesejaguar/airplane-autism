@@ -56,11 +56,12 @@ The catalog is static data, versioned in `data/`:
 
 ```bash
 pnpm pipeline:faa          # download the FAA registry and count valid registrations per make/model
-pnpm pipeline:map          # Claude maps FAA codes → visual families (cached per batch)
+pnpm pipeline:map          # Claude maps FAA codes → visual families (cached per batch; human overrides in data/faa/curation.json)
+pnpm pipeline:reciprocals  # merge look-alike back-references from data/families/_reciprocals/
 pnpm pipeline:apply-faa    # write FAA codes/counts back into family files
 pnpm pipeline:families -- --group A --commons   # validate family JSON (+ Commons categories)
 pnpm pipeline:harvest      # candidate photos from Wikimedia Commons (license-filtered)
-pnpm pipeline:classify     # Claude vision: reject bad shots, tag view angle, pick ~8 diverse photos
+pnpm pipeline:classify     # batched vision pass (Gemini 2.5 Flash by default; PIPELINE_MODELS to override): reject bad shots, tag angle, pick ~8 diverse photos
 pnpm pipeline:upload       # resize to WebP, upload to Vercel Blob, write data/images.json
 pnpm catalog:validate      # strict checks before shipping
 ```
@@ -69,6 +70,8 @@ How scope is decided:
 
 - **Civil types:** the FAA count covers valid registrations of standard, limited, restricted, multiple and primary airworthiness classes, plus experimental exhibition/racing (where warbirds sit). Amateur-built kits, light-sport, gliders, balloons and airships are excluded. A family is in scope with more than 10 registrations. Registrations are used as a stand-in for "flying".
 - **Military types:** in scope when more than 10 are in active US service, based on service fact sheets and published inventories.
+
+The current catalog has 397 visual families and 2,933 photos. See [doc/catalog-report.md](doc/catalog-report.md) for scope decisions, exclusions and caveats.
 
 ## Tests
 

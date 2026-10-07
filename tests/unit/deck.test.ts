@@ -5,7 +5,7 @@ import { matchesDeck, type FamilyLite } from "@/lib/catalog/lite";
 
 const lite = (over: Partial<FamilyLite>): FamilyLite => ({
   id: "x", name: "X", label: "X", manufacturer: "Acme", sector: "military", category: "fixed-wing",
-  roles: ["fighter"], branches: ["usaf"], difficulty: 2, angles: ["side"], thumb: null, ...over,
+  roles: ["fighter"], branches: ["usaf"], difficulty: 2, angles: ["side"], thumb: null, quizzable: true, ...over,
 });
 
 describe("deck config", () => {

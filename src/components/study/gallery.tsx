@@ -21,7 +21,7 @@ export function Gallery({ images, name, priority = false }: { images: AircraftIm
   if (!img) {
     return (
       <div className="chart-grid grid aspect-[16/10] place-items-center rounded-xl border bg-card text-sm text-muted-foreground">
-        Photos for this aircraft are still being curated.
+        No freely licensed photos of this type yet, so it isn’t in drills. Use the WEFT notes below.
       </div>
     );
   }

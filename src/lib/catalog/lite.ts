@@ -13,6 +13,8 @@ export type FamilyLite = {
   difficulty: number;
   angles: string[];
   thumb: string | null;
+  /** Has enough curated photos to appear in drills */
+  quizzable: boolean;
 };
 
 export function matchesDeck(

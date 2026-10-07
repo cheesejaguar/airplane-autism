@@ -17,7 +17,9 @@ import type { Candidate } from "./harvest";
 
 // Calls are spread across three fast vision models so a single provider's rate limit doesn't
 // throttle the whole run; low-confidence matches always get a second opinion from the strong model.
-const FAST_MODELS = ["anthropic/claude-haiku-4.5", "google/gemini-2.5-flash", "openai/gpt-5-mini"];
+// Override with PIPELINE_MODELS=a,b,c. Default: one inexpensive, accurate multi-image model.
+const FAST_MODELS = (process.env.PIPELINE_MODELS ?? "google/gemini-2.5-flash").split(",");
+const RECHECK = process.env.PIPELINE_RECHECK === "1";
 const STRONG_MODEL = "anthropic/claude-sonnet-5.5";
 const PER_FAMILY = 8;
 const BATCH = 7;
@@ -171,7 +173,7 @@ export function selectDiverse<T extends { verdict: Verdict }>(items: T[], n: num
 async function main() {
   const args = process.argv.slice(2);
   const only = args.includes("--only") ? args[args.indexOf("--only") + 1].split(",") : undefined;
-  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 2;
+  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 3;
   const { families } = loadFamilies();
   const names = new Map(families.map((f) => [f.id, f.name]));
   // One limiter per fast provider plus one for the strong model.
@@ -204,7 +206,7 @@ async function main() {
           dl(async (): Promise<Prepared | null> => {
             try {
               const raw = await download(c.thumb);
-              const bytes = new Uint8Array(await sharp(raw).resize({ width: 512, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer());
+              const bytes = new Uint8Array(await sharp(raw).resize({ width: 384, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer());
               return { c, bytes };
             } catch (e) {
               cache[c.title] = { error: (e as Error).message };
@@ -247,13 +249,13 @@ async function main() {
       const v = cache[x.c.title];
       return v && !("error" in v) && v.matchesType && v.confidence < 0.75;
     });
-    if (borderline.length) await runBatches(borderline, () => ({ model: STRONG_MODEL, lane: FAST_MODELS.length }));
+    if (RECHECK && borderline.length) await runBatches(borderline, () => ({ model: STRONG_MODEL, lane: FAST_MODELS.length }));
     if (usableSoFar() < ENOUGH && todo.length !== pending.length) {
       const rest = pending.filter((c) => !todo.includes(c));
       const more = (await Promise.all(rest.map((c) => dl(async (): Promise<Prepared | null> => {
         try {
           const raw = await download(c.thumb);
-          return { c, bytes: new Uint8Array(await sharp(raw).resize({ width: 512, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer()) };
+          return { c, bytes: new Uint8Array(await sharp(raw).resize({ width: 384, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer()) };
         } catch (e) {
           cache[c.title] = { error: (e as Error).message };
           return null;
