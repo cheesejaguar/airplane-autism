@@ -61,6 +61,18 @@
     {
       "id": "c180",
       "howToTell": "The 180/185 is a taildragger; the 182 has a nose wheel."
+    },
+    {
+      "id": "c337",
+      "howToTell": "The Skymaster has two engines (one in the nose, one pusher behind the cabin) and twin tail booms; the 182 has one engine and a single fin."
+    },
+    {
+      "id": "c177",
+      "howToTell": "The 182 has a lift strut and a deeper, blunter cowl; the 177 Cardinal has a strutless wing, a smoother nose and a one-piece stabilator."
+    },
+    {
+      "id": "c195",
+      "howToTell": "The 182 has a flat engine, a lift strut and (mostly) a nosewheel; the 195 has a big radial engine, no struts and a tailwheel."
     }
   ],
   "difficulty": 4,
@@ -68,9 +80,37 @@
     "Cessna 182 Skylane"
   ],
   "usCount": {
-    "value": 13500,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 182 model codes",
-    "asOf": "2026"
+    "value": 13497,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2072701",
+    "2072702",
+    "2072703",
+    "2072704",
+    "2072706",
+    "2072708",
+    "2072710",
+    "2072712",
+    "2072714",
+    "2072716",
+    "2072718",
+    "2072722",
+    "2072723",
+    "2072724",
+    "2072726",
+    "2072728",
+    "2072730",
+    "2072731",
+    "2072732",
+    "2072733",
+    "2072734",
+    "2072735",
+    "2072736",
+    "2072738",
+    "2072779",
+    "2075816",
+    "7530302"
+  ]
 }

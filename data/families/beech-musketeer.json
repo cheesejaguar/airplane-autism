@@ -1,0 +1,95 @@
+{
+  "id": "beech-musketeer",
+  "name": "Beechcraft Musketeer / Sundowner / Sierra",
+  "shortName": "Musketeer",
+  "aka": [
+    "Sundowner",
+    "Sierra",
+    "Musketeer Custom",
+    "Musketeer Super R"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1961,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model 19 Musketeer Sport (150 hp)",
+    "Model 23 / A23 / B23 / C23 Musketeer & Sundowner (160–180 hp)",
+    "A23-24 Musketeer Super III (200 hp)",
+    "Model 24R Sierra (retractable gear)"
+  ],
+  "summary": "Four-seat all-metal low-wing from Beechcraft built 1963–83, known for a wide cabin and sturdy fixed gear; the Sierra variant has retractable landing gear.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts",
+      "Wing mounted low on a deep, wide fuselage"
+    ],
+    "engines": [
+      "Single flat-four in a smooth, rounded cowling",
+      "Two-blade fixed-pitch or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Wide four-seat cabin with large side windows",
+      "Fixed tricycle gear with short, stout legs and pants (retractable on the Sierra)"
+    ],
+    "tail": [
+      "Tall, swept fin with a rounded top",
+      "Low-set horizontal tail (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Low wing, wide cabin and tall swept fin on fixed tricycle gear",
+    "Rounded cowling on a stocky fuselage with a low-set horizontal tail",
+    "Stout short main gear legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The Musketeer has a rounder, wider cabin and a taller, more swept fin; the PA-28 has a narrower cabin, an all-flying stabilator and a lower, squarer fin."
+    },
+    {
+      "id": "beech-77",
+      "howToTell": "The Musketeer has a low-set horizontal tail and four seats; the Skipper is a smaller two-seater with a T-tail."
+    },
+    {
+      "id": "c172",
+      "howToTell": "The Musketeer is a low-wing with no struts; the 172 is a high-wing braced by a strut each side."
+    },
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The Musketeer has a conventional hinged-cabin four-seat layout with a swept fin; the AA-5 has a sliding bubble canopy and a shorter, rounder fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Musketeer"
+  ],
+  "usCount": {
+    "value": 1478,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1151202",
+    "1151204",
+    "1151208",
+    "1151212",
+    "1151214",
+    "1151215",
+    "1151226",
+    "1151240",
+    "1151242",
+    "1151252",
+    "1151253",
+    "1151254"
+  ]
+}

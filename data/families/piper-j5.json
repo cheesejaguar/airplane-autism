@@ -1,0 +1,84 @@
+{
+  "id": "piper-j5",
+  "name": "Piper J-5 Cub Cruiser",
+  "shortName": "Cub Cruiser",
+  "aka": [
+    "Cub Cruiser",
+    "J-5A",
+    "J-5B",
+    "J-5C"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "J-5A (75 hp Continental)",
+    "J-5B (75 hp Lycoming)",
+    "J-5C (100 hp, fully cowled)"
+  ],
+  "summary": "Wider, three-seat development of the J-3 Cub with the pilot in front and a bench seat for two behind; the later J-5C became the PA-12.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut per side",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single small flat-four, cowled on later models",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Wider fabric fuselage than a J-3 with a rear bench seat",
+      "Three-seat cabin with large side windows",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded Cub-style fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high-wing with a conspicuously wider cabin than its tandem cousins",
+    "Rounded, rolled-edge tail over a tailwheel",
+    "Strut-braced wing on a small, three-seat fabric aircraft"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The J-5 is wider with a bench seat for two behind the pilot; the J-3 is a narrow tandem aircraft."
+    },
+    {
+      "id": "pa-12",
+      "howToTell": "The J-5 is the earlier, less-cowled version; the PA-12 has a fully enclosed cowl, metal-spar wing and a smoother engine installation."
+    },
+    {
+      "id": "pa-11",
+      "howToTell": "The J-5 has a wider three-seat cabin; the PA-11 is a narrow tandem two-seater."
+    },
+    {
+      "id": "stinson-108",
+      "howToTell": "The J-5 is a small three-seater with a rounded Cub tail; the Stinson 108 is a larger four-seater with a six-cylinder nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper J-5"
+  ],
+  "usCount": {
+    "value": 279,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7100702",
+    "7100708",
+    "7100712"
+  ]
+}

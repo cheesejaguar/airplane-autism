@@ -1,0 +1,80 @@
+{
+  "id": "taylorcraft-f2x",
+  "name": "Taylorcraft F-21 / F-22",
+  "shortName": "F-21/F-22",
+  "aka": [
+    "F21",
+    "F21B",
+    "F22",
+    "F22A"
+  ],
+  "manufacturer": "Taylorcraft Aeroplane (Oregon) / Taylorcraft Inc.",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1980,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F-21 / F-21A / F-21B (tailwheel, Lycoming O-235)",
+    "F-22 (tailwheel, O-360)",
+    "F-22A / F-22C (tricycle gear)"
+  ],
+  "summary": "1980s-90s revival of the classic Taylorcraft side-by-side two-seat high-wing with a modern Lycoming engine. The F-22A variant has tricycle gear.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut on each side",
+      "Straight wing"
+    ],
+    "engines": [
+      "Single Lycoming O-235 or O-360 flat-four in a cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Side-by-side two-seat cabin with large windows",
+      "Fixed tailwheel gear on F-21; tricycle gear on F-22A/C"
+    ],
+    "tail": [
+      "Conventional fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Side-by-side two-seat high-wing with a strut each side",
+    "Postwar-style light two-seater with a modern cowl",
+    "Tailwheel or tricycle gear on a small tube-and-fabric-looking airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The BC-12 is the prewar original with a smaller engine and rounder tail; the F-21/F-22 is the 1980s Lycoming-powered revival."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 150 is a metal tricycle-gear trainer with a thick lift strut; the F-21 is a tube-and-fabric tailwheel two-seater."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Chief has a deep, rounded cabin and an older cowl; the F-21 has a boxier cabin and a larger modern engine."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Taylorcraft F-21"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8850909",
+    "8850910"
+  ]
+}

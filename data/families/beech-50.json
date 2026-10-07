@@ -1,0 +1,89 @@
+{
+  "id": "beech-50",
+  "name": "Beechcraft Twin Bonanza (Model 50)",
+  "shortName": "Twin Bonanza",
+  "aka": [
+    "Model 50",
+    "B50",
+    "D50",
+    "E50",
+    "L-23 Seminole (US Army)"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "50 / A50 / B50",
+    "C50 / D50 series (D50E, D50E-5000 turbo)",
+    "L-23A–F Seminole (US Army)"
+  ],
+  "summary": "Powerful, large-engined light twin built 1951–1962, Beechcraft's first twin of the postwar era and the basis for the Queen Air; the US Army flew it as the L-23.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with large engines set well out from the fuselage"
+    ],
+    "engines": [
+      "Two big engines in deep, widely spaced nacelles",
+      "Two-blade props on most; main wheels stay partly exposed when retracted"
+    ],
+    "fuselage": [
+      "Short, deep cabin with a Bonanza-style sloping windshield",
+      "Tricycle gear"
+    ],
+    "tail": [
+      "Tall, upright, squared-off fin and rudder",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Big, widely spaced engines on a straight low wing",
+    "Tall, upright, squared-off tail fin",
+    "Short Bonanza-style cabin with a sloping windshield"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-queen-air",
+      "howToTell": "The Queen Air has a much longer, deeper fuselage with more windows; the Twin Bonanza is short and compact."
+    },
+    {
+      "id": "beech-95",
+      "howToTell": "The Travel Air is much smaller with slim engines; the Twin Bonanza has big, deep, widely spaced nacelles."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a swept fin and slim nacelles; the Twin Bonanza has an upright squared fin and big engines."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Twin Bonanza"
+  ],
+  "usCount": {
+    "value": 118,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1152506",
+    "1152510",
+    "1152512",
+    "1152516",
+    "1152518",
+    "1152520",
+    "1152522",
+    "1152524",
+    "1152534",
+    "1152536",
+    "1152707"
+  ]
+}

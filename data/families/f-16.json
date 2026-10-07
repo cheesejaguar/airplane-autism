@@ -48,7 +48,7 @@
     ]
   },
   "tellTales": [
-    "Gaping intake mouth under the nose \u2014 no side intakes",
+    "Gaping intake mouth under the nose — no side intakes",
     "One engine and one vertical tail on a small, slim airframe",
     "Bubble canopy with no frame in front of the pilot"
   ],
@@ -76,5 +76,7 @@
     "source": "USAF F-16 fact sheet / FlightGlobal World Air Forces 2025",
     "asOf": "2025"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5260429"
+  ]
 }

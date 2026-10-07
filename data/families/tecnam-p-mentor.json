@@ -1,0 +1,76 @@
+{
+  "id": "tecnam-p-mentor",
+  "name": "Tecnam P-Mentor",
+  "shortName": "P-Mentor",
+  "aka": [
+    "Tecnam P Mentor"
+  ],
+  "manufacturer": "Tecnam (Costruzioni Aeronautiche Tecnam)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "trainer",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2021,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P-Mentor (Rotax 912iSc)"
+  ],
+  "summary": "Modern Italian two-seat glass-cockpit flight-training airplane with a bubble canopy, fixed spatted tricycle gear and a Rotax engine, now common in US flight schools.",
+  "weft": {
+    "wings": [
+      "Low, cantilever, tapered composite-leading-edge wing",
+      "Straight leading edge with clean tips"
+    ],
+    "engines": [
+      "Single Rotax four-cylinder with a two-blade constant-speed propeller",
+      "Narrow, low cowl"
+    ],
+    "fuselage": [
+      "Large bubble canopy over side-by-side seats",
+      "Fixed tricycle gear with wheel pants",
+      "Smooth, rounded fuselage"
+    ],
+    "tail": [
+      "Swept fin and rudder",
+      "Horizontal tailplane mounted on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Large bubble canopy over side-by-side seats on a tiny low-wing airplane",
+    "Fixed tricycle gear with wheel pants and a small Rotax nose",
+    "Modern, clean composite look with a tapered wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a swept-forward-looking wing with a longer, more rounded canopy and a different tail; the P-Mentor has a straighter wing and a more upright fin."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has tip tanks, retractable gear and a tandem layout; the P-Mentor has side-by-side seats, fixed gear and no tip tanks."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 152 is a high-wing; the P-Mentor is a low-wing with a bubble canopy."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Tecnam P-Mentor"
+  ],
+  "usCount": {
+    "value": 57,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0330565",
+    "05641YQ"
+  ]
+}

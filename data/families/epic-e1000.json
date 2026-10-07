@@ -1,0 +1,79 @@
+{
+  "id": "epic-e1000",
+  "name": "Epic E1000 / LT",
+  "shortName": "Epic E1000",
+  "aka": [
+    "Epic LT",
+    "Epic E1000 GX",
+    "Epic E1000 GT",
+    "Epic E1000 AX",
+    "E1000",
+    "LT"
+  ],
+  "manufacturer": "Epic Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2004,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Epic LT (kit-built and certified)",
+    "Epic E1000 / E1000 GX / GT / AX (certified)"
+  ],
+  "summary": "Fast single-engine turboprop with an all-composite airframe, a long tapering nose and a pressurized cabin.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with no winglets",
+      "Wing roots blend smoothly into the fuselage"
+    ],
+    "engines": [
+      "Single PT6A turboprop in a long nose",
+      "Four- or five-blade propeller"
+    ],
+    "fuselage": [
+      "Smooth composite fuselage with a long tapering nose",
+      "Large oval windows and a sweeping windshield",
+      "Main door at the rear left"
+    ],
+    "tail": [
+      "Conventional low-set tailplane (not a T-tail)",
+      "Swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Single-engine turboprop with a very long, smooth, tapering nose",
+    "Large oval cabin windows",
+    "Low tailplane (not a T-tail) on a sleek composite body"
+  ],
+  "confusedWith": [
+    {
+      "id": "tbm",
+      "howToTell": "The TBM has smaller rectangular windows and a shorter nose (900-series has winglets); the Epic has large oval windows, a longer nose and no winglets."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The PC-12 has a T-tail and a boxy, slab-sided fuselage; the Epic is a smooth, tapered composite aircraft with a low tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Epic LT",
+    "Epic E1000"
+  ],
+  "usCount": {
+    "value": 114,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05634CH",
+    "3390119"
+  ]
+}

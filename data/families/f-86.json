@@ -1,0 +1,81 @@
+{
+  "id": "f-86",
+  "name": "North American F-86 Sabre",
+  "shortName": "F-86 Sabre",
+  "aka": [
+    "Sabre",
+    "Sabrejet",
+    "CL-13 Sabre"
+  ],
+  "manufacturer": "North American Aviation (Canadair)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "F-86A / E / F",
+    "F-86H",
+    "Canadair Sabre Mk 5 / 6",
+    "Sabre Mk 6 (Canada)"
+  ],
+  "summary": "Iconic swept-wing day fighter of the Korean War; a dozen or so privately owned Sabres fly in the US as warbirds.",
+  "weft": {
+    "wings": [
+      "Mid-mounted wing swept back about 35 degrees",
+      "Leading-edge slats on most versions"
+    ],
+    "engines": [
+      "Single turbojet fed by a round nose intake",
+      "One round tailpipe at the rear"
+    ],
+    "fuselage": [
+      "Bubble canopy on a long, slim fuselage",
+      "Pointed nose with the intake below the nose cone",
+      "Tricycle gear"
+    ],
+    "tail": [
+      "Tall swept fin",
+      "Swept horizontal tail mounted lower than the MiG-15's"
+    ]
+  },
+  "tellTales": [
+    "Round nose intake and swept wings on a slim jet fighter",
+    "Bubble canopy and tall swept fin",
+    "Swept horizontal tail mounted low on the fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "hawker-hunter",
+      "howToTell": "The Hunter has wing-root intakes and a pointed nose; the Sabre has a nose intake."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has straight wings with tip tanks; the Sabre has swept wings."
+    },
+    {
+      "id": "f-5",
+      "howToTell": "The F-5 is a twin-engine supersonic fighter with side intakes; the Sabre is a single-engine jet with a nose intake."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "North American F-86 Sabre"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1900812",
+    "6401714"
+  ]
+}

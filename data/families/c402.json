@@ -1,0 +1,92 @@
+{
+  "id": "c402",
+  "name": "Cessna 401/402/404 Titan",
+  "shortName": "C401/402/404",
+  "aka": [
+    "Businessliner",
+    "Utiliner",
+    "Titan",
+    "Titan Ambassador",
+    "Titan Courier"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "regional",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "401 / 401A / 401B",
+    "402 / 402A / 402B Utiliner and Businessliner",
+    "402C (longer wing, no main tip tanks)",
+    "404 Titan (stretched, heavier, longer wing)"
+  ],
+  "summary": "Unpressurized six-to-ten-seat twin built from 1966 into the 1980s, a mainstay of air-taxi, cargo and small commuter operators.",
+  "weft": {
+    "wings": [
+      "Low, straight wing",
+      "Early 401/402 carry large tip tanks; the 402C and 404 have plain tips"
+    ],
+    "engines": [
+      "Two turbocharged flat-six engines in long nacelles",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Long, straight-sided cabin with a row of oval or rounded-square windows",
+      "Long pointed nose with a baggage compartment",
+      "Large cargo door on the left rear"
+    ],
+    "tail": [
+      "Tall, squared-off swept fin",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Long, straight-sided twin with a row of rounded windows and a pointed nose",
+    "Large tip tanks on many examples",
+    "Tall, squared-off swept fin above a low tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "c310",
+      "howToTell": "The 310 is smaller and slimmer with a shorter cabin; the 402 has a longer, deeper cabin that seats six to ten."
+    },
+    {
+      "id": "c340",
+      "howToTell": "The 340/414/421 are pressurized with small porthole-like windows on a portly cabin; the 402 is unpressurized with a longer, straighter cabin."
+    },
+    {
+      "id": "pa-31",
+      "howToTell": "The Navajo has a tapered wing with plain tips and a dorsal strake on the fin; early 402s have wingtip tanks and a more squared-off fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 402",
+    "Cessna 401",
+    "Cessna 404"
+  ],
+  "usCount": {
+    "value": 236,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2075901",
+    "207590C",
+    "207590D",
+    "207590E",
+    "207590K",
+    "207590M",
+    "207590P",
+    "207590R"
+  ]
+}

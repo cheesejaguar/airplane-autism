@@ -1,0 +1,81 @@
+{
+  "id": "meyers-200",
+  "name": "Meyers 200",
+  "shortName": "Meyers 200",
+  "aka": [
+    "200A",
+    "200B",
+    "200C",
+    "200D",
+    "Interceptor 400"
+  ],
+  "manufacturer": "Meyers Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "200A (Continental IO-470)",
+    "200B / 200C (raised roofline, larger windshield)",
+    "200D (Continental IO-520, flush-riveted wings)"
+  ],
+  "summary": "1950s-60s Meyers four-seat retractable low-wing, admired for its clean lines and very strong airframe. Rights later passed to Aero Commander.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Main gear retracts into the wing"
+    ],
+    "engines": [
+      "Single Continental flat-six in a slim cowl"
+    ],
+    "fuselage": [
+      "Narrow four-seat enclosed cabin with clean lines",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Slick four-seat low-wing with retractable tricycle gear and a conventional tail",
+    "Narrow, sleek fuselage with no struts and no fixed gear",
+    "Looks like a Bonanza without the V-tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "bonanza-v35",
+      "howToTell": "The V-tail Bonanza is obvious from its V-tail; the Meyers has a conventional fin and horizontal tail."
+    },
+    {
+      "id": "pa-24",
+      "howToTell": "The Comanche has a wider, rounder cabin and an all-moving stabilator; the Meyers is narrower and sleeker."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has a forward-raked fin trailing edge and a smaller cabin; the Meyers has an upright conventional fin."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Meyers 200"
+  ],
+  "usCount": {
+    "value": 81,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0140312",
+    "5650304",
+    "5650306",
+    "5650308",
+    "5650310"
+  ]
+}

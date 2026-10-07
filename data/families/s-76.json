@@ -70,9 +70,17 @@
     "Sikorsky S-76"
   ],
   "usCount": {
-    "value": 175,
-    "source": "FAA registry make/model inquiry (S-76A/B/C/D)",
+    "value": 157,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "4900103",
+    "4900105",
+    "8143006",
+    "8143007",
+    "8143008",
+    "8143009",
+    "8143021"
+  ]
 }

@@ -64,6 +64,18 @@
     {
       "id": "bonanza-v35",
       "howToTell": "The V35 has a V-tail; the Mooney has a conventional fin and horizontal tail."
+    },
+    {
+      "id": "cessna-400",
+      "howToTell": "The Mooney has a forward-swept fin and a narrow cabin; the Corvalis has a swept-back tail and a wide, sleek composite cabin."
+    },
+    {
+      "id": "bellanca-14-19",
+      "howToTell": "The Mooney has a single forward-swept fin; the Cruisemaster has three vertical fins on its tail."
+    },
+    {
+      "id": "socata-tb-20",
+      "howToTell": "The Mooney has a forward-swept fin and a narrow cabin; the TB 20 has a swept-back fin and a wide cabin."
     }
   ],
   "difficulty": 2,
@@ -73,9 +85,32 @@
     "Mooney M20K"
   ],
   "usCount": {
-    "value": 6200,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Mooney M20 model codes",
-    "asOf": "2026"
+    "value": 6050,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5870202",
+    "5870204",
+    "5870206",
+    "5870208",
+    "5870210",
+    "5870212",
+    "5870214",
+    "5870216",
+    "5870219",
+    "5870220",
+    "5870221",
+    "5870222",
+    "5870225",
+    "5870226",
+    "5870227",
+    "5870228",
+    "5870229",
+    "5870232",
+    "5870252",
+    "5870308",
+    "5870312",
+    "5870314"
+  ]
 }

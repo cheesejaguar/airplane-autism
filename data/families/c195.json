@@ -1,0 +1,85 @@
+{
+  "id": "c195",
+  "name": "Cessna 190/195",
+  "shortName": "C195",
+  "aka": [
+    "Businessliner",
+    "Cessna 190",
+    "LC-126"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "190 (Continental W670 radial)",
+    "195 / 195A / 195B (Jacobs R-755 radial)",
+    "LC-126 / U-20 (military)"
+  ],
+  "summary": "Cessna's only postwar radial-engine airplane: a large, all-metal 4–5 seat tailwheel 'Businessliner' with a cantilever wing and a big round cowling.",
+  "weft": {
+    "wings": [
+      "Cantilever high wing with no struts",
+      "Straight-tapered wing"
+    ],
+    "engines": [
+      "Single air-cooled radial in a large, round cowling",
+      "Two-blade propeller, often metal"
+    ],
+    "fuselage": [
+      "Deep, wide cabin with a door each side and a large rear window",
+      "Fixed spring-steel main gear with a tailwheel",
+      "Large round nose"
+    ],
+    "tail": [
+      "Tall, swept-back fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Radial engine in front of a high wing with no struts",
+    "Large round cowling and deep cabin on a tailwheel",
+    "Tall, swept tail and flat spring-steel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 195 has a radial engine and a bigger round cowl with no wing struts; the 180 has a slim flat engine and a strut-braced wing."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 195 has a radial engine in a large round cowl; the 170 has a flat engine in a slim nose."
+    },
+    {
+      "id": "beech-18",
+      "howToTell": "The 195 is a single with a high wing; the Beech 18 is a twin with a low wing."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The 195 has a radial engine, no struts and a tailwheel; the 182 has a flat engine, a lift strut and (mostly) a nosewheel."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 195"
+  ],
+  "usCount": {
+    "value": 494,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2072902",
+    "2073102",
+    "2073110",
+    "2073112"
+  ]
+}

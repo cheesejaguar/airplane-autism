@@ -60,6 +60,10 @@
     {
       "id": "hawker-800",
       "howToTell": "The Excel's tailplane sits low on the tail cone and its wing is straight; the Hawker has a mid-fin tailplane, swept wing and oval windows."
+    },
+    {
+      "id": "citation-sovereign",
+      "howToTell": "The Citation Sovereign has a swept wing and a T-tail; the Excel has a straight wing and a low-set tailplane."
     }
   ],
   "difficulty": 4,
@@ -68,9 +72,13 @@
     "Cessna Citation Excel on final approach"
   ],
   "usCount": {
-    "value": 700,
-    "source": "Textron Aviation deliveries (~1,100 560XL built) with ~65% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 707,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2076702",
+    "2076703",
+    "2076710"
+  ]
 }

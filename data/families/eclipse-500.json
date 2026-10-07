@@ -1,0 +1,78 @@
+{
+  "id": "eclipse-500",
+  "name": "Eclipse 500 / EA500",
+  "shortName": "Eclipse 500",
+  "aka": [
+    "EA500",
+    "Eclipse 550"
+  ],
+  "manufacturer": "Eclipse Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 2002,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Eclipse 500 (Eclipse Aviation, 2006-2008)",
+    "Eclipse 550 (Eclipse Aerospace, upgraded avionics)"
+  ],
+  "summary": "A tiny six-seat very light jet with two small turbofans, built in the hundreds before Eclipse Aviation collapsed in 2008 and a few later as the Eclipse 550.",
+  "weft": {
+    "wings": [
+      "Low, slightly swept wing with rounded pods or tanks at the wingtips",
+      "No winglets"
+    ],
+    "engines": [
+      "Two very small turbofans on short stubs on the rear fuselage sides"
+    ],
+    "fuselage": [
+      "Very short, stubby fuselage",
+      "Small oval windows and a short, rounded nose"
+    ],
+    "tail": [
+      "Swept fin with a low-set horizontal stabilizer that has noticeable dihedral (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "A very small twin jet with bulbous rounded pods on its wingtips",
+    "Tiny engines sitting right against the rear fuselage",
+    "Short, stubby cabin with a low-set tailplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-mustang",
+      "howToTell": "The Eclipse is shorter with a stubbier cabin and bulbous wingtip pods; the Mustang has a longer cabin, larger engine pods and plain wingtips."
+    },
+    {
+      "id": "phenom-100",
+      "howToTell": "The Phenom 100 has a T-tail and a much longer, larger cabin; the Eclipse has a low-set tailplane and wingtip pods."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The CitationJet is a bigger aircraft with a T-tail, long cabin and larger engines; the Eclipse is tiny with a low tailplane and wingtip pods."
+    },
+    {
+      "id": "sf50",
+      "howToTell": "The Vision Jet has a single engine mounted above its rear fuselage and a V-tail; the Eclipse has two engines on the sides and a conventional tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Eclipse 500"
+  ],
+  "usCount": {
+    "value": 235,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3350000",
+    "3350001"
+  ]
+}

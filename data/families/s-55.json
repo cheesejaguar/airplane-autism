@@ -1,0 +1,84 @@
+{
+  "id": "s-55",
+  "name": "Sikorsky S-55 / H-19",
+  "shortName": "S-55",
+  "aka": [
+    "H-19 Chickasaw",
+    "UH-19",
+    "S-55T"
+  ],
+  "manufacturer": "Sikorsky Aircraft",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "transport",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "S-55",
+    "S-55B",
+    "S-55T (turbine)",
+    "H-19D / UH-19D",
+    "Whirlwind"
+  ],
+  "summary": "An early Sikorsky transport with the engine in the nose and the cockpit perched above it; still flown by a handful of tour operators, firefighters and collectors.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor on a tall mast (five-blade on the quiet turbine conversions)"
+    ],
+    "engines": [
+      "Radial piston engine in the nose behind clamshell doors",
+      "Turbine conversions keep the engine in the nose, with different intakes and exhausts"
+    ],
+    "fuselage": [
+      "Bulbous rounded nose with the cockpit perched above the engine",
+      "Wheeled gear, with a high tail section and a four-post undercarriage",
+      "Large rectangular cabin windows"
+    ],
+    "tail": [
+      "Slim boom curving up to the tail rotor",
+      "Horizontal stabilizer low on the boom"
+    ]
+  },
+  "tellTales": [
+    "Radial engine in the nose with the cockpit perched above",
+    "Three-blade rotor over a bulbous round-nosed fuselage",
+    "Tailwheel gear and a slim tail boom"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-58",
+      "howToTell": "The S-58 is larger with a four-blade rotor and a longer boxy fuselage; the S-55 has three blades and a smaller body."
+    },
+    {
+      "id": "s-61",
+      "howToTell": "The S-61 has two turbines on the roof and a boat-shaped hull; the S-55 has an engine in the nose."
+    },
+    {
+      "id": "uh-1",
+      "howToTell": "The Huey has a turbine on top, a slim nose and a two-blade rotor; the S-55 has three blades and a bulbous nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Sikorsky H-19",
+    "Sikorsky S-55"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8141602",
+    "8141604",
+    "814161G"
+  ]
+}

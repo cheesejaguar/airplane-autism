@@ -76,5 +76,9 @@
     "source": "FAA registry make/model inquiry (A119/AW119) + 130 TH-73A ordered by USN (NAVAIR)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0260102",
+    "0260105",
+    "0260401"
+  ]
 }

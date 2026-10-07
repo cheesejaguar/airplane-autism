@@ -57,6 +57,10 @@
     {
       "id": "uh-1y",
       "howToTell": "Both share engines, rotor and tail, but the Viper has a narrow tandem gunship body with stub wings while the Venom has a wide side-by-side cockpit and troop cabin."
+    },
+    {
+      "id": "ah-1-cobra",
+      "howToTell": "The single-engine Cobra has two blades and one engine; the AH-1Z has four blades and twin engines."
     }
   ],
   "difficulty": 3,

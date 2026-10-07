@@ -1,0 +1,81 @@
+{
+  "id": "citation-i",
+  "name": "Cessna Citation I (500/501)",
+  "shortName": "Citation I",
+  "aka": [
+    "Citation 500",
+    "Citation 501",
+    "Citation I/SP",
+    "Fanjet 500"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1969,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Citation 500 (Fanjet 500)",
+    "Citation I (501)",
+    "Citation I/SP (single-pilot 501)"
+  ],
+  "summary": "The original Citation, a slow, forgiving light jet nicknamed the 'Slowtation' that launched Cessna's long-running business-jet line.",
+  "weft": {
+    "wings": [
+      "Low, essentially straight wing with a short span",
+      "No winglets"
+    ],
+    "engines": [
+      "Two small Pratt & Whitney Canada JT15D turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Small, slim fuselage with a short row of small windows",
+      "Long, drooped, pointed nose"
+    ],
+    "tail": [
+      "Swept fin with a low-set horizontal stabilizer (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Small light jet with straight, unswept wings",
+    "Low-set tailplane on a swept fin, not a T-tail",
+    "Short row of small windows on a small, slim fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-ii",
+      "howToTell": "The Citation II/Bravo is longer with a longer-span wing and more cabin windows; the Citation I is the smaller, shorter-winged original."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The CitationJet has a T-tail; the Citation I has a low-set tailplane."
+    },
+    {
+      "id": "citation-mustang",
+      "howToTell": "The Mustang is a newer design with sleek, smaller engine pods and a smoothly curved nose; the Citation I looks older, with a longer, drooped nose and larger pods."
+    },
+    {
+      "id": "learjet-35",
+      "howToTell": "The Learjet has a swept wing with tip tanks and a T-tail; the Citation I has a straight wing and a low-set tailplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna Citation I"
+  ],
+  "usCount": {
+    "value": 234,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2076602",
+    "2076603"
+  ]
+}

@@ -60,6 +60,10 @@
     {
       "id": "aw109",
       "howToTell": "The AW109 is slimmer with a pointed nose, retractable wheels and a two-blade tail rotor; the 429 is deeper and usually on skids."
+    },
+    {
+      "id": "bell-427",
+      "howToTell": "The Bell 427 is smaller and has a more swept cabin; the 429 is larger with a bigger rear cabin."
     }
   ],
   "difficulty": 4,
@@ -67,9 +71,12 @@
     "Bell 429"
   ],
   "usCount": {
-    "value": 170,
-    "source": "FAA registry make/model inquiry (Bell 429)",
+    "value": 144,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1182158",
+    "1182220"
+  ]
 }

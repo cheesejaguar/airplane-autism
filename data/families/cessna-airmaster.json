@@ -1,0 +1,86 @@
+{
+  "id": "cessna-airmaster",
+  "name": "Cessna Airmaster (C-34/C-37/C-38/C-145/C-165)",
+  "shortName": "Airmaster",
+  "aka": [
+    "C-34",
+    "C-37",
+    "C-38",
+    "C-145",
+    "C-165"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "C-34 (Warner Scarab)",
+    "C-37 (wider cabin, electric flaps)",
+    "C-38 (taller fin, belly flap)",
+    "C-145 / C-165 (Warner radials, lengthened fuselage)"
+  ],
+  "summary": "Fast 1930s Cessna cabin monoplane with a strut-free wooden wing and a radial engine, the design that helped revive Cessna after the Depression.",
+  "weft": {
+    "wings": [
+      "High cantilever wing with no struts",
+      "Thick, tapered wing"
+    ],
+    "engines": [
+      "Single radial engine (Warner Scarab) in a round, smooth cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Narrow fabric-covered cabin with small windows",
+      "Streamlined fixed main gear, curved legs on the C-38, with a tailwheel"
+    ],
+    "tail": [
+      "Rounded fin and rudder, taller on the C-38",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "1930s strut-free high wing on a narrow, rounded cabin",
+    "Round radial cowl up front on a tailwheel airframe",
+    "Streamlined, faired main gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "c195",
+      "howToTell": "The 195 is a larger, boxier all-metal cabin plane with a taller swept fin and a bigger radial; the Airmaster is smaller, rounder and fabric-covered."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 120/140 is a small two-seat strut-braced high-wing with a flat-four; the Airmaster is a strut-free radial-powered cabin plane."
+    },
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant is strut-braced with a rounded radial; the Airmaster's wing has no struts."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Cessna Airmaster",
+    "Cessna C-34 Airmaster"
+  ],
+  "usCount": {
+    "value": 39,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2070702",
+    "2070802",
+    "2070902",
+    "2071002",
+    "2071102"
+  ]
+}

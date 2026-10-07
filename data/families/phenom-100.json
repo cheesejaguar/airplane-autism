@@ -65,6 +65,10 @@
     {
       "id": "citation-cj",
       "howToTell": "The Phenom 100 has larger windows and a slightly swept wing; the CJ/M2 has small windows and a straight wing."
+    },
+    {
+      "id": "eclipse-500",
+      "howToTell": "The Eclipse 500 is much smaller, with a low-set tailplane and bulbous wingtip pods; the Phenom 100 has a T-tail and a longer cabin."
     }
   ],
   "difficulty": 3,
@@ -72,9 +76,13 @@
     "Embraer Phenom 100"
   ],
   "usCount": {
-    "value": 350,
-    "source": "Embraer deliveries (~700 Phenom 100 series) with ~50% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 211,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3260402",
+    "326040A",
+    "3260414"
+  ]
 }

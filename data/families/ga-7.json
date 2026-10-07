@@ -1,0 +1,74 @@
+{
+  "id": "ga-7",
+  "name": "Grumman American GA-7 Cougar",
+  "shortName": "GA-7 Cougar",
+  "aka": [
+    "Gulfstream American GA-7",
+    "Cougar",
+    "TB 320 Tangara"
+  ],
+  "manufacturer": "Grumman American / Gulfstream American",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "GA-7 Cougar (160 hp Lycoming O-320)"
+  ],
+  "summary": "Short-lived four-seat twin built in 1978–79, a twin-engine development of the AA-5 with only about 115 produced.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with rounded tips"
+    ],
+    "engines": [
+      "Two Lycoming engines in slim nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Sleek, rounded four-seat cabin with a wraparound windshield",
+      "Long, smooth nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Swept fin with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Smooth, rounded light twin with a wraparound windshield",
+    "Slim nacelles on a straight low wing with plain tips",
+    "Swept fin with a low horizontal tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-1/AA-5 is a single-engine airplane with a sliding canopy; the Cougar has an engine on each wing and a side door."
+    },
+    {
+      "id": "pa-30",
+      "howToTell": "The Twin Comanche has a straight wing and a squared-off, raked fin; the Cougar has a smooth rounded body with a swept fin."
+    },
+    {
+      "id": "beech-76",
+      "howToTell": "The Duchess has a T-tail; the Cougar has a conventional low tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Gulfstream American GA-7 Cougar"
+  ],
+  "usCount": {
+    "value": 43,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3960401"
+  ]
+}

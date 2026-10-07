@@ -66,6 +66,10 @@
     {
       "id": "bell-407",
       "howToTell": "The 407 has four blades and a JetRanger-style tail; the H125 has three blades."
+    },
+    {
+      "id": "ec120",
+      "howToTell": "The EC120 has a ducted tail fan and a rounder egg-shaped nose; the H125 has an exposed tail rotor and a taller boxy cabin."
     }
   ],
   "difficulty": 2,
@@ -75,9 +79,31 @@
     "Aerospatiale AS355"
   ],
   "usCount": {
-    "value": 990,
-    "source": "FAA registry make/model inquiry (AS350/H125 and AS355 series)",
+    "value": 871,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1145000",
+    "1145002",
+    "1145004",
+    "1145005",
+    "1145100",
+    "1145102",
+    "1155005",
+    "8680800",
+    "8680801",
+    "8680810",
+    "8680813",
+    "8680817",
+    "8680825",
+    "8680877",
+    "8680950",
+    "8680951",
+    "8680954",
+    "8680955",
+    "8680963",
+    "868096A",
+    "8680973"
+  ]
 }

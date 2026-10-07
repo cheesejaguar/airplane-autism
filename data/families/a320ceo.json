@@ -78,9 +78,33 @@
     "Airbus A321-211"
   ],
   "usCount": {
-    "value": 1150,
-    "source": "Airline fleet data (American, Delta, United, JetBlue, Allegiant, Spirit; planespotters.net / ch-aviation)",
-    "asOf": "2026"
+    "value": 1286,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3930316",
+    "3930317",
+    "3930320",
+    "3930322",
+    "3930323",
+    "3930326",
+    "3930340",
+    "3930350",
+    "3930370",
+    "3930402",
+    "3940000",
+    "3940001",
+    "3940002",
+    "3940004",
+    "3940005",
+    "3940006",
+    "3940009",
+    "3940015",
+    "3940028",
+    "3940032",
+    "3940034",
+    "3940305",
+    "3940329"
+  ]
 }

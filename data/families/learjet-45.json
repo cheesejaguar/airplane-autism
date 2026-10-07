@@ -67,6 +67,10 @@
     {
       "id": "citation-cj",
       "howToTell": "The Learjet 45 has winglets and a swept wing; the CJ series has plain wingtips on a straight wing."
+    },
+    {
+      "id": "learjet-55",
+      "howToTell": "The Learjet 55/60 has a shorter, stubbier wing with small winglets and a boxier cabin; the 45 has a longer-span wing with larger winglets and a more tapered fuselage."
     }
   ],
   "difficulty": 4,
@@ -76,9 +80,11 @@
     "Learjet 75"
   ],
   "usCount": {
-    "value": 560,
-    "source": "Bombardier production (~850 Learjet 40/45/70/75) with ~65% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 363,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5170805"
+  ]
 }

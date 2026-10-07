@@ -59,6 +59,14 @@
     {
       "id": "r66",
       "howToTell": "The R66 has a rounded bubble cabin, tall thin mast and tubular boom; the 505 is angular with a short mast and endplate stabilizer."
+    },
+    {
+      "id": "enstrom-480",
+      "howToTell": "The Enstrom 480 has a three-blade rotor and a sleek swept canopy; the Bell 505 has a two-blade rotor and a blunt nose."
+    },
+    {
+      "id": "ec120",
+      "howToTell": "The EC120 has a three-blade rotor and a ducted tail fan; the Bell 505 has a two-blade rotor and an open tail rotor."
     }
   ],
   "difficulty": 3,
@@ -66,9 +74,12 @@
     "Bell 505"
   ],
   "usCount": {
-    "value": 185,
-    "source": "FAA registry make/model inquiry (Bell 505)",
+    "value": 155,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1182165",
+    "1182166"
+  ]
 }

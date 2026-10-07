@@ -1,0 +1,89 @@
+{
+  "id": "c188",
+  "name": "Cessna 188 AgWagon / Ag Truck",
+  "shortName": "AgWagon",
+  "aka": [
+    "AgWagon",
+    "AgPickup",
+    "AgTruck",
+    "AgHusky"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "188 / 188A / 188B AgWagon (230–310 hp)",
+    "A188 / A188A / A188B AgWagon (higher power)",
+    "AgPickup / AgTruck / AgHusky"
+  ],
+  "summary": "Cessna's single-seat, strut-braced low-wing agricultural monoplane of 1966–83, using the tail of the Cessna 180 and a large fibreglass hopper in front of a raised cockpit.",
+  "weft": {
+    "wings": [
+      "Low wing braced by a strut each side",
+      "Straight wing with flaps along the trailing edge"
+    ],
+    "engines": [
+      "Single Continental flat-six in a deep, blunt cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Fibreglass hopper ahead of a high single-seat cockpit",
+      "Raised cab with a large windshield",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Tall, swept Cessna 180-style fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Low-wing crop sprayer with a strut under each wing",
+    "High cab behind a hopper",
+    "Tall, swept fin of a classic taildragger"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-25",
+      "howToTell": "The Cessna 188 has a deeper, blunter cowl for its larger engine and a tall swept fin; the Pawnee has a slimmer nose and a squarer Piper tail."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The 188 is a small strut-braced low-wing with a flat engine; the Air Tractor is bigger, cantilever and has a radial or turbine engine."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The 188 has struts and a flat engine; the Thrush is a cantilever monoplane with a blunt radial or turbine nose."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The 188 is a low-wing single-seat sprayer; the 180 is a high-wing four-seat taildragger."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 188"
+  ],
+  "usCount": {
+    "value": 311,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2073002",
+    "2073004",
+    "2073005",
+    "2073006",
+    "2073007",
+    "2073008",
+    "2073012"
+  ]
+}

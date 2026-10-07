@@ -57,6 +57,14 @@
     {
       "id": "baron",
       "howToTell": "The Baron has a conventional low tail; the Seminole has a T-tail."
+    },
+    {
+      "id": "beech-76",
+      "howToTell": "Both are T-tail four-seat twins; the Duchess has a rounder Beech-style cabin and smooth nose, while the Seminole's cabin is boxier and PA-28 derived."
+    },
+    {
+      "id": "ga-7",
+      "howToTell": "The Cougar has a conventional low tail and a smooth rounded fuselage; the Seminole has a T-tail."
     }
   ],
   "difficulty": 3,
@@ -64,9 +72,14 @@
     "Piper PA-44 Seminole"
   ],
   "usCount": {
-    "value": 600,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-44 model codes",
-    "asOf": "2026"
+    "value": 556,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7104402",
+    "7104403",
+    "7104404",
+    "7104406"
+  ]
 }

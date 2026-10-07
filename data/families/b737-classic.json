@@ -1,0 +1,90 @@
+{
+  "id": "b737-classic",
+  "name": "Boeing 737 Classic (-300/-400/-500)",
+  "shortName": "737 Classic",
+  "aka": [
+    "737-300",
+    "737-400",
+    "737-500"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody"
+  ],
+  "branches": [],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "737-300",
+    "737-400 (stretched)",
+    "737-500 (shortened)"
+  ],
+  "summary": "The 1980s-90s generation of the world's best-selling narrowbody, with the smaller CFM56-3 engines; US examples now fly mainly as freighters and charters.",
+  "weft": {
+    "wings": [
+      "Low swept wing with plain tips on most; some have aftermarket blended winglets"
+    ],
+    "engines": [
+      "Two CFM56-3 turbofans tucked tight under the wing, with a flat-bottomed 'hamster pouch' intake that looks small and oval"
+    ],
+    "fuselage": [
+      "Narrowbody fuselage; the -400 is stretched, the -500 shortened",
+      "Older-style rounded nose and windows"
+    ],
+    "tail": [
+      "Conventional tail with a dorsal fillet at the fin base and a short pointed tail cone"
+    ]
+  },
+  "tellTales": [
+    "Engines tucked tight under the wing with a flattened, oval look and a small diameter",
+    "Narrowbody with underwing engines and a plain swept wing",
+    "Older-style short pointed tail cone"
+  ],
+  "confusedWith": [
+    {
+      "id": "b737ng",
+      "howToTell": "The NG has larger, rounder engine nacelles and a bigger wing, usually with tall blended winglets; the Classic has smaller oval nacelles and mostly plain tips."
+    },
+    {
+      "id": "md-80",
+      "howToTell": "The MD-80 has rear-mounted engines and a T-tail; the 737 has engines slung under the wings."
+    },
+    {
+      "id": "a320ceo",
+      "howToTell": "The A320's engines are larger and rounder and its fuselage is bigger; the 737 Classic has small, flat-bottomed engines tucked tight under the wing."
+    },
+    {
+      "id": "b757",
+      "howToTell": "The 757 is longer and slimmer with a tall nose gear and larger engines on tall struts; the 737 Classic is shorter with engines tucked tight to the wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 737 Classic",
+    "Boeing 737-300",
+    "Boeing 737-400"
+  ],
+  "usCount": {
+    "value": 58,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "138447K",
+    "138447P",
+    "138447Q",
+    "138447W",
+    "138449A",
+    "138449C",
+    "138449M",
+    "13844BV",
+    "13844HC",
+    "13844KV",
+    "1384721"
+  ]
+}

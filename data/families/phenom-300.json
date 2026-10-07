@@ -60,6 +60,10 @@
     {
       "id": "beechjet-400",
       "howToTell": "The Phenom 300 has winglets and large windows; the Beechjet/Hawker 400 has plain wingtips and small windows."
+    },
+    {
+      "id": "beech-390",
+      "howToTell": "The Premier I has plain wingtips with no winglets and smaller round windows; the Phenom 300 has upturned winglets and larger oval windows."
     }
   ],
   "difficulty": 4,
@@ -67,9 +71,13 @@
     "Embraer Phenom 300"
   ],
   "usCount": {
-    "value": 560,
-    "source": "Embraer deliveries (900+ Phenom 300 series in service) with ~60% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 623,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3260390",
+    "3260407",
+    "326040C"
+  ]
 }

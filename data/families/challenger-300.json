@@ -63,6 +63,14 @@
     {
       "id": "citation-latitude",
       "howToTell": "The Challenger 300/350 has a slim, tapering body with prominent upturned winglets; the Latitude/Longitude has a fat, round fuselage with plain tips or only small winglets."
+    },
+    {
+      "id": "g200",
+      "howToTell": "The G200 has oval windows and a short, thick tail cone; the Challenger 300 has rounded-rectangle windows and a long tapering tail cone."
+    },
+    {
+      "id": "hawker-4000",
+      "howToTell": "The Hawker 4000 has plain wingtips with no winglets; the Challenger 300/350 has upturned winglets."
     }
   ],
   "difficulty": 5,
@@ -71,9 +79,12 @@
     "Bombardier Challenger 350"
   ],
   "usCount": {
-    "value": 680,
-    "source": "Bombardier 1,000th Challenger 300-series delivery (Feb 2025, AIN) with ~65% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 814,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1390044",
+    "1390050"
+  ]
 }

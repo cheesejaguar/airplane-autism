@@ -70,9 +70,12 @@
     "Airbus A350-900 on final approach"
   ],
   "usCount": {
-    "value": 40,
-    "source": "Delta Air Lines fleet data (A350-900; planespotters.net)",
-    "asOf": "2026"
+    "value": 38,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3940050",
+    "3940315"
+  ]
 }

@@ -1,0 +1,89 @@
+{
+  "id": "hiller-uh-12",
+  "name": "Hiller UH-12 / OH-23 Raven",
+  "shortName": "Hiller UH-12",
+  "aka": [
+    "OH-23 Raven",
+    "Hiller 12E",
+    "Soloy UH-12"
+  ],
+  "manufacturer": "Hiller Aircraft",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "UH-12A/B/C/D/E",
+    "UH-12E3/E4",
+    "OH-23B/C/D Raven",
+    "Soloy turbine conversions"
+  ],
+  "summary": "Mid-century three-seat piston light helicopter famous for its control paddles; widely flown for ag spraying, training and as the military OH-23 Raven.",
+  "weft": {
+    "wings": [
+      "Two-blade main rotor with a pair of small servo paddles on short bars at the hub, set 90 degrees to the blades",
+      "No stabilizer bar above the rotor head"
+    ],
+    "engines": [
+      "Piston engine behind the cabin (turbine on Soloy conversions)",
+      "Agricultural machines usually carry a hopper and spray booms"
+    ],
+    "fuselage": [
+      "Rounded goldfish-bowl bubble canopy over a three-seat bench",
+      "Skids; spray booms or float kits are common"
+    ],
+    "tail": [
+      "Slim tail boom ending in a two-blade tail rotor",
+      "Small ventral fin under the boom protects the tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Small paddles on short bars at the hub, turned 90 degrees to the two blades",
+    "Goldfish-bowl bubble canopy with a three-seat bench",
+    "Often seen with spray booms and a hopper"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has a stabilizer bar with paddle tips above the rotor head and a distinctive open boom; the Hiller has small paddles on short bars at the hub and no bar above."
+    },
+    {
+      "id": "alouette-ii",
+      "howToTell": "The Alouette has three main blades, a turbine perched on top and an open lattice boom; the Hiller has two blades with paddles and a piston engine."
+    },
+    {
+      "id": "r44",
+      "howToTell": "The R44 has no paddles on its thin two-blade rotor and has two seat rows; the Hiller has the hub paddles and a single bench seat."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Hiller UH-12"
+  ],
+  "usCount": {
+    "value": 190,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4360104",
+    "4360109",
+    "4360110",
+    "4360116",
+    "4360118",
+    "4360119",
+    "4360122",
+    "4360127",
+    "4360128"
+  ]
+}

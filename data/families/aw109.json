@@ -67,6 +67,14 @@
     {
       "id": "s-76",
       "howToTell": "The S-76 is larger with a four-blade tail rotor; the AW109 has a two-blade tail rotor."
+    },
+    {
+      "id": "bell-222",
+      "howToTell": "The Bell 222 has a two-blade rotor and stub-wing sponsons; the AW109 has a four-blade rotor and retractable gear in a more compact body."
+    },
+    {
+      "id": "aw169",
+      "howToTell": "The AW169 has a five-blade rotor and is larger; the AW109 has four blades and a smaller body."
     }
   ],
   "difficulty": 3,
@@ -74,9 +82,19 @@
     "AgustaWestland AW109"
   ],
   "usCount": {
-    "value": 160,
-    "source": "FAA registry make/model inquiry (A109/AW109 all variants)",
+    "value": 115,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0260101",
+    "0260103",
+    "0260112",
+    "0260113",
+    "0260116",
+    "0260117",
+    "0260118",
+    "0260120",
+    "33601QA"
+  ]
 }

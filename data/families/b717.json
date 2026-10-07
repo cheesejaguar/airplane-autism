@@ -58,6 +58,10 @@
     {
       "id": "erj145",
       "howToTell": "The 717 has a stubby, fat fuselage and plain wingtips; the ERJ145 is a very thin 3-abreast tube with a long pointed nose."
+    },
+    {
+      "id": "md-80",
+      "howToTell": "The MD-80 is a longer stretch with slimmer JT8D nacelles; the 717 is noticeably shorter with fatter BR715 engines."
     }
   ],
   "difficulty": 3,
@@ -66,9 +70,11 @@
     "Boeing 717 on final approach"
   ],
   "usCount": {
-    "value": 90,
-    "source": "Delta (~74 after 2026 retirements) and Hawaiian (19) fleet data; InsideFlyer / Wikipedia Delta fleet",
-    "asOf": "2026"
+    "value": 103,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1383700"
+  ]
 }

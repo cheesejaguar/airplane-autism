@@ -66,9 +66,11 @@
     "Robinson R66"
   ],
   "usCount": {
-    "value": 420,
-    "source": "FAA registry make/model inquiry (Robinson R66)",
+    "value": 378,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7640130"
+  ]
 }

@@ -70,9 +70,26 @@
     "Boeing 747-8 on final approach"
   ],
   "usCount": {
-    "value": 125,
-    "source": "Freighter fleet data (Atlas ~60 incl. 747-8F, UPS ~40, Kalitta ~22, National ~4; Atlas Air Worldwide / Cargo Facts / planespotters.net)",
-    "asOf": "2026"
+    "value": 127,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1384812",
+    "138488E",
+    "13848B2",
+    "13848BH",
+    "13848BP",
+    "13848BQ",
+    "13848BS",
+    "13848BT",
+    "13848CJ",
+    "13848CK",
+    "13848GA",
+    "13848QF",
+    "13848ZZ",
+    "1384935",
+    "1384947",
+    "1384961"
+  ]
 }

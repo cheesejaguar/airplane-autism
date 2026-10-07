@@ -1,0 +1,85 @@
+{
+  "id": "culver-cadet",
+  "name": "Culver Cadet",
+  "shortName": "Culver Cadet",
+  "aka": [
+    "LCA",
+    "LFA",
+    "PQ-8",
+    "TDC"
+  ],
+  "manufacturer": "Culver Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Cadet LCA (Continental A75)",
+    "Cadet LFA / LFA-90 (Franklin 80-90 hp)",
+    "PQ-8 / PQ-8A / PQ-14 radio-controlled target drones (some with fixed tricycle gear)"
+  ],
+  "summary": "Small pre-war two-seat low-wing designed by Al Mooney, also mass-produced as a radio-controlled target drone in WWII. Retractable main gear was unusual on such a small plane.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts"
+    ],
+    "engines": [
+      "Single small flat-four (75-90 hp) in a neat cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Smooth semi-monocoque fuselage with a long, rounded canopy over two seats",
+      "Retractable main gear with a tailwheel (drone versions fixed tricycle)"
+    ],
+    "tail": [
+      "Single fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tiny low-wing two-seater whose main wheels fold away yet sits on a tailwheel",
+    "Smooth enclosed cabin with a rounded glassy canopy line",
+    "No struts anywhere on a small prewar airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "culver-v",
+      "howToTell": "The Culver V is a postwar successor with retractable tricycle gear and outer wing panels that angle upward; the Cadet has a tailwheel and a more conventional wing."
+    },
+    {
+      "id": "dart-g",
+      "howToTell": "The Dart G is the earlier fixed-gear tube-and-fabric ancestor; the Cadet has a smoother metal fuselage and retractable main gear."
+    },
+    {
+      "id": "globe-swift",
+      "howToTell": "The Swift is a postwar all-metal two-seater with a tall swept fin and slender fuselage; the Cadet is a prewar design with a more conventional, rounder fuselage."
+    },
+    {
+      "id": "mooney-m18",
+      "howToTell": "The Mite is a tiny single-seater on retractable tricycle gear; the Cadet has two seats and a tailwheel."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Culver Cadet"
+  ],
+  "usCount": {
+    "value": 71,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8730202",
+    "8730204",
+    "8730206",
+    "8730208"
+  ]
+}

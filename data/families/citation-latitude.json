@@ -62,6 +62,10 @@
     {
       "id": "g280",
       "howToTell": "The Latitude/Longitude has rounded-rectangle windows on a fat body; the G280 has Gulfstream-style oval windows on a slimmer fuselage."
+    },
+    {
+      "id": "citation-sovereign",
+      "howToTell": "The Sovereign has a slimmer fuselage and a narrower cabin, with winglets only on the Sovereign+; the Latitude is wider and rounder."
     }
   ],
   "difficulty": 4,
@@ -70,9 +74,12 @@
     "Cessna Citation Longitude"
   ],
   "usCount": {
-    "value": 430,
-    "source": "Textron Aviation deliveries (400th Latitude Aug 2024; ~100 Longitude) with ~75% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 540,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2076814",
+    "2076819"
+  ]
 }

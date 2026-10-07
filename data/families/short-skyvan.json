@@ -1,0 +1,84 @@
+{
+  "id": "short-skyvan",
+  "name": "Short SC.7 Skyvan",
+  "shortName": "Skyvan",
+  "aka": [
+    "SC.7",
+    "SC.7 Skyvan",
+    "Skyvan 3",
+    "Short SC.7",
+    "Skyvan Series 3"
+  ],
+  "manufacturer": "Short Brothers",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "cargo",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "SC.7 Skyvan Series 2 and 3 (Garrett TPE331 turboprops)",
+    "Skyvan 3M / 3M-400 military transport (foreign users)"
+  ],
+  "summary": "Rugged, boxy British utility twin turboprop with twin fins and a rear cargo ramp; in the US it is almost entirely a skydiving jump ship.",
+  "weft": {
+    "wings": [
+      "High, straight, strut-braced wing with a strut on each side",
+      "Wing tips are square and unswept"
+    ],
+    "engines": [
+      "Two turboprops in nacelles on the wing",
+      "Three-blade propellers"
+    ],
+    "fuselage": [
+      "Extremely boxy, rectangular-section fuselage with a flat belly",
+      "Fixed landing gear in sponsons on the lower sides",
+      "Rear cargo ramp / door under the tail"
+    ],
+    "tail": [
+      "Twin fins and rudders on the ends of a boxy tailplane",
+      "Upswept rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slab-sided, rectangular fuselage with fixed wheels visible in side sponsons",
+    "Twin vertical fins on a boxy tailplane",
+    "High wing with a strut on each side and big, blunt engines"
+  ],
+  "confusedWith": [
+    {
+      "id": "shorts-360",
+      "howToTell": "The 330/360 has retracting landing gear and a longer, more modern fuselage; the Skyvan has fixed wheels in its sponsons and a blunt, shorter body (only the 330 shares its twin fins)."
+    },
+    {
+      "id": "casa-212",
+      "howToTell": "The C-212 has a single fin and an unbraced wing; the Skyvan has twin fins and strut-braced wings."
+    },
+    {
+      "id": "dhc-6",
+      "howToTell": "The Twin Otter has a single fin; the Skyvan has twin fins and a far boxier fuselage."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Short Skyvan"
+  ],
+  "usCount": {
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8100501",
+    "8100512",
+    "8100515"
+  ]
+}

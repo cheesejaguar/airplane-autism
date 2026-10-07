@@ -1,0 +1,84 @@
+{
+  "id": "piper-j2",
+  "name": "Piper J-2 / E-2 Cub",
+  "shortName": "J-2/E-2 Cub",
+  "aka": [
+    "Taylor E-2 Cub",
+    "Taylor J-2 Cub",
+    "J-2 Cub"
+  ],
+  "manufacturer": "Taylor Aircraft Company / Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1931,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "E-2 Cub (1931, Continental A-40)",
+    "Taylor J-2 Cub (1935)",
+    "Piper J-2 Cub (1936)"
+  ],
+  "summary": "The ancestors of the J-3 Cub: tiny tandem-seat high-wings with 37-40 hp engines, built by Taylor and then Piper in the early 1930s.",
+  "weft": {
+    "wings": [
+      "High wing braced by a V-strut on each side",
+      "Fabric-covered wing"
+    ],
+    "engines": [
+      "Tiny 37-40 hp flat-four, minimally cowled",
+      "Two-blade wooden propeller"
+    ],
+    "fuselage": [
+      "Tandem two-seat fabric-covered fuselage",
+      "Fixed tailwheel gear on spindly legs"
+    ],
+    "tail": [
+      "Conventional single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Prewar tandem high-wing on V-struts with a tiny, barely cowled engine",
+    "Light, spindly airframe with thin landing gear",
+    "Small flat-four sitting out front with its cylinders showing"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The J-3 is the refined successor with a fuller cowl and cleaner lines; the J-2/E-2 is earlier and plainer with a smaller, more exposed engine."
+    },
+    {
+      "id": "pa-11",
+      "howToTell": "The PA-11 has a fully enclosed, streamlined engine cowl and later styling; the J-2/E-2 shows more of its small engine and has an older, plainer nose."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ is a postwar design with a smooth fully cowled engine and a more rounded nose; the J-2/E-2 is older and plainer."
+    },
+    {
+      "id": "piper-j4",
+      "howToTell": "The J-4 Cub Coupe has side-by-side seating in a wider cabin; the J-2/E-2 has tandem seats in a narrow fuselage."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Taylor J-2"
+  ],
+  "usCount": {
+    "value": 80,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7100302",
+    "7100303",
+    "7100402",
+    "7100412"
+  ]
+}

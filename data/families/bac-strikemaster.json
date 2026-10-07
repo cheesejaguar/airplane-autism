@@ -1,0 +1,91 @@
+{
+  "id": "bac-strikemaster",
+  "name": "BAC 167 Strikemaster / Jet Provost",
+  "shortName": "Jet Provost",
+  "aka": [
+    "Strikemaster",
+    "BAC 167",
+    "Jet Provost T.5",
+    "JP"
+  ],
+  "manufacturer": "British Aircraft Corporation (Hunting Percival)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "attack"
+  ],
+  "branches": [],
+  "firstFlight": 1954,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "Jet Provost T.3 / T.3A / T.4",
+    "Jet Provost T.5 / T.5A (pressurized)",
+    "BAC 167 Strikemaster (armed export)"
+  ],
+  "summary": "British side-by-side jet trainer, the RAF's basic jet trainer for decades, with the armed Strikemaster variant exported to several air forces; many ex-RAF examples fly in the US as warbirds.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with a thin section",
+      "Wingtip tanks on most versions",
+      "Wing hardpoints on the Strikemaster"
+    ],
+    "engines": [
+      "Single Viper turbojet with wing-root intakes on each side",
+      "Single round tailpipe"
+    ],
+    "fuselage": [
+      "Side-by-side seating under a large, rounded bubble canopy",
+      "Retractable tricycle gear on short legs",
+      "Short, stubby fuselage"
+    ],
+    "tail": [
+      "Straight fin with a small dorsal fillet",
+      "Horizontal tail mounted mid-way on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Side-by-side seats under a big bubble canopy on a small straight-wing jet",
+    "Wing-root intakes and tip tanks on a stubby jet",
+    "Short legs and a stubby, rounded nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has tandem canopies and a pot-belly; the Jet Provost has side-by-side seats under one big canopy."
+    },
+    {
+      "id": "fouga-magister",
+      "howToTell": "The Magister has a V-tail and tandem seats; the Jet Provost has a conventional tail and side-by-side seats."
+    },
+    {
+      "id": "siai-marchetti-s211",
+      "howToTell": "The S-211 has a shoulder wing and tandem seats; the Jet Provost has a low wing and side-by-side seats."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has tandem seats and a long slim nose; the Jet Provost has side-by-side seats and a stubby nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "BAC Strikemaster",
+    "BAC Jet Provost"
+  ],
+  "usCount": {
+    "value": 35,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05620JU",
+    "05623P4",
+    "05625UF",
+    "05626K6",
+    "1480307"
+  ]
+}

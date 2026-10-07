@@ -1,0 +1,202 @@
+[
+  {
+    "existingId": "c172",
+    "newId": "vulcanair-v1",
+    "howToTell": "The 172 has tapered outer wing panels and only two doors; the Vulcanair V1.0 has a constant-chord rectangular wing and an extra door on the right rear."
+  },
+  {
+    "existingId": "c150",
+    "newId": "symphony-sa160",
+    "howToTell": "The 150/152 is a plain all-metal airframe with a boxy cabin and a thick lift strut; the Symphony SA160 has smooth, glossy composite skin and a rounder fuselage."
+  },
+  {
+    "existingId": "c150",
+    "newId": "pipistrel-virus-sw",
+    "howToTell": "The 150/152 is a boxy strut-braced high-wing with a conventional tail; the Pipistrel Virus is a strut-free, glider-like high-wing with a T-tail and a slim pod-and-boom fuselage."
+  },
+  {
+    "existingId": "c150",
+    "newId": "taylorcraft-f2x",
+    "howToTell": "The 150 is a metal tricycle-gear trainer with a thick lift strut; the Taylorcraft F-21 is a tube-and-fabric tailwheel two-seater with a different cabin shape."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "cub-crafters-xcub",
+    "howToTell": "The Super Cub has a slimmer nose, smaller tires and a narrower cabin; the CubCrafters XCub looks beefier, with a deeper cowl and much bigger tires."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "piper-j2",
+    "howToTell": "The J-3 has a fuller cowl and cleaner lines; the J-2/E-2 is the earlier, plainer ancestor with a smaller, more exposed engine."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "porterfield-65",
+    "howToTell": "The J-3 has V-struts and a rounder, wider fuselage; the Porterfield has two parallel struts per side and a narrow slab-sided body."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "aeronca-c3",
+    "howToTell": "The Champ is a postwar tandem two-seater with lift struts and a fully cowled flat-four; the C-2/C-3 is wire-braced with a bathtub cockpit and a tiny exposed engine."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "porterfield-65",
+    "howToTell": "The Champ has V-struts and a rounded teardrop fuselage; the Porterfield has two parallel struts per side and a narrow slab-sided fuselage."
+  },
+  {
+    "existingId": "c180",
+    "newId": "helio-courier",
+    "howToTell": "The 180/185 has a lift strut under each wing and plain flaps; the Helio Courier has a strut-free wing with full-span slats, huge flaps and much taller gear."
+  },
+  {
+    "existingId": "maule",
+    "newId": "helio-courier",
+    "howToTell": "A Maule's wing is braced by a lift strut and has simple flaps; the Helio Courier has a strut-free cantilever wing with slats and huge flaps, a taller fin and much taller gear."
+  },
+  {
+    "existingId": "c180",
+    "newId": "foundation-bush-hawk",
+    "howToTell": "The 180/185 has a slimmer cabin and smaller doors; the Found Bush Hawk has a taller, boxier cabin with large door openings."
+  },
+  {
+    "existingId": "maule",
+    "newId": "foundation-bush-hawk",
+    "howToTell": "A Maule is smaller with a shorter cabin; the Found Bush Hawk is a bigger, taller airframe with a long flat-six cowl."
+  },
+  {
+    "existingId": "c180",
+    "newId": "pzl-wilga",
+    "howToTell": "The 180/185 has a conventional cabin with small rear windows; the PZL Wilga has much more glass, a slender rear fuselage and tall, long-travel gear."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "mooney-m22",
+    "howToTell": "The M20 has a smaller fin and a narrower fuselage; the M22 Mustang has a taller fin, a larger leading-edge fillet and a longer, wider body with small windows."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "mooney-m18",
+    "howToTell": "The M20 is a full four-seat cabin airplane; the M-18 Mite is a tiny single-seater less than half its size."
+  },
+  {
+    "existingId": "pa-28",
+    "newId": "socata-tb-9",
+    "howToTell": "The PA-28 has a plain slab-sided fuselage; the Socata TB 9/10 has a rounded, humped cabin with side windows curving into the roof."
+  },
+  {
+    "existingId": "pa-28",
+    "newId": "socata-rallye",
+    "howToTell": "The PA-28 has a plain wing and a long slab-sided fuselage; the Socata Rallye has a slatted leading edge and a short, upright glazed cabin."
+  },
+  {
+    "existingId": "grumman-aa5",
+    "newId": "socata-rallye",
+    "howToTell": "The AA-5 has a sliding bubble canopy; the Socata Rallye has a tall, upright cabin glazing and a slatted wing."
+  },
+  {
+    "existingId": "da20",
+    "newId": "liberty-xl2",
+    "howToTell": "The DA20 has a T-tail; the Liberty XL-2 has a conventional low horizontal tail and a rectangular wing."
+  },
+  {
+    "existingId": "da20",
+    "newId": "alarus-ch2000",
+    "howToTell": "The DA20 has a T-tail and composite skin; the Alarus has a conventional tail and riveted metal skin."
+  },
+  {
+    "existingId": "da20",
+    "newId": "pipistrel-virus-sw",
+    "howToTell": "The DA20 is a low-wing; the Pipistrel Virus is a high-wing with a glider-like boom and T-tail."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "pzl-m-18",
+    "howToTell": "The Thrush shares parts with the Dromader but is usually smaller; the PZL M-18 has the bigger ~1,000 hp radial and larger dimensions."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "weatherly-620",
+    "howToTell": "The Thrush is usually larger, with a bigger radial or turbine up front and a stouter fuselage; the Weatherly 620 is a smaller R-985 airframe."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "weatherly-201",
+    "howToTell": "The Thrush is usually larger, with a bigger radial or turbine up front; the Weatherly 201 is a smaller R-985 airframe."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "pa-36",
+    "howToTell": "The Thrush usually has a radial or turbine up front and a heavier, squarer fuselage; the PA-36 Pawnee Brave has a flat piston engine."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "callair-a9",
+    "howToTell": "The Thrush has a strut-free cantilever wing; the Callair A-9's low wing is braced by struts."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "pa-36",
+    "howToTell": "The Air Tractor is bigger and heavier, with a taller cockpit and usually a radial or turbine nose; the PA-36 is a slimmer flat-engine piston plane."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "pzl-m-18",
+    "howToTell": "The Air Tractor has a taller cockpit and usually a turbine or smaller radial; the PZL M-18 has a large round radial cowl and a long glazed cockpit."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "callair-a9",
+    "howToTell": "The Air Tractor has a strut-free cantilever wing; the Callair A-9's low wing is braced by struts."
+  },
+  {
+    "existingId": "c206",
+    "newId": "gippsaero-ga8",
+    "howToTell": "The 206 is smaller with a shorter cabin and a lower body; the GippsAero GA8 has a much taller, longer, boxier fuselage."
+  },
+  {
+    "existingId": "c208",
+    "newId": "gippsaero-ga8",
+    "howToTell": "The Caravan has a turboprop's long tapered nose with exhaust stubs; the GippsAero GA8 has a short, blunt piston cowl."
+  },
+  {
+    "existingId": "kodiak",
+    "newId": "gippsaero-ga8",
+    "howToTell": "The Kodiak has a turbine nose and a big three-blade propeller; the GippsAero GA8 has a flat-six cowl and a smaller prop."
+  },
+  {
+    "existingId": "bonanza-v35",
+    "newId": "meyers-200",
+    "howToTell": "The V-tail Bonanza is obvious from its V-tail; the Meyers 200 has a conventional fin and horizontal tail."
+  },
+  {
+    "existingId": "pa-24",
+    "newId": "meyers-200",
+    "howToTell": "The Comanche has a wider, rounder cabin and an all-moving stabilator; the Meyers 200 is narrower and sleeker."
+  },
+  {
+    "existingId": "cirrus-sr",
+    "newId": "pipistrel-panthera",
+    "howToTell": "The SR20/22 has fixed gear and a parachute hatch on the roof; the Pipistrel Panthera has retractable gear and a long slender wing."
+  },
+  {
+    "existingId": "da40",
+    "newId": "pipistrel-panthera",
+    "howToTell": "The DA40 has a T-tail and fixed gear; the Pipistrel Panthera has retractable gear and a conventional tail."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "luscombe-11",
+    "howToTell": "The Luscombe 8 is a two-seater; the Luscombe 11 Sedan is the larger four-seat sibling with a much bigger cabin."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "an-2",
+    "howToTell": "The Stearman is a small open-cockpit trainer biplane; the Antonov An-2 is far bigger with a deep enclosed cabin and a longer upper wing."
+  },
+  {
+    "existingId": "ercoupe",
+    "newId": "culver-v",
+    "howToTell": "The Ercoupe has twin fins and fixed tricycle gear; the Culver V has a single fin and retractable gear."
+  }
+]

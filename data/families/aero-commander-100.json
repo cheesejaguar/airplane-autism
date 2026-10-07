@@ -1,0 +1,78 @@
+{
+  "id": "aero-commander-100",
+  "name": "Aero Commander 100 Darter / Lark",
+  "shortName": "Darter",
+  "aka": [
+    "Darter Commander",
+    "Lark Commander",
+    "Volaire 1050",
+    "Aero Commander 100"
+  ],
+  "manufacturer": "Aero Commander / Volaircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Volaire 1035 (three-seat)",
+    "100 / Darter Commander (four-seat, 150 hp)",
+    "Lark Commander 180 (swept fin, 180 hp)"
+  ],
+  "summary": "Four-seat, strut-braced high-wing with fixed tricycle gear designed by Volaircraft and sold by Aero Commander in 1965–71; the Lark Commander adds a swept fin.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a smooth cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Four-seat cabin with a door each side",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "Upright fin (Darter) or swept fin (Lark)",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced four-seat high wing on fixed tricycle gear",
+    "Upright fin on early examples, swept fin on the later version",
+    "Small, simple airframe with a rounded cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "Both are four-seat strut-braced high-wings on fixed tricycle gear; the Darter has a plainer cabin and tail, with an upright fin on early examples, while the 172 has a swept fin with a long dorsal fillet."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The Darter is smaller with a smaller cowl; the 182 has a deeper, blunter cowl and bigger cabin."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The Darter is a high-wing with a strut each side; the PA-28 is a low-wing without struts."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aero Commander 100"
+  ],
+  "usCount": {
+    "value": 160,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0140202",
+    "0140208"
+  ]
+}

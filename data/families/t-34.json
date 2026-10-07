@@ -60,6 +60,10 @@
     {
       "id": "t-6",
       "howToTell": "The Texan II is larger, with a turboprop and a one-piece bubble canopy; the T-34 has a framed canopy."
+    },
+    {
+      "id": "dhc-1",
+      "howToTell": "The Chipmunk is a smaller, lighter tailwheel airplane with a slim inline nose and fixed gear; the T-34 has a big flat-six nose and nose-wheel gear."
     }
   ],
   "difficulty": 3,
@@ -67,9 +71,19 @@
     "Beechcraft T-34 Mentor"
   ],
   "usCount": {
-    "value": 330,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): T-34, A45 and D45 model codes",
-    "asOf": "2026"
+    "value": 291,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1152003",
+    "1152006",
+    "1152008",
+    "1152010",
+    "1152012",
+    "1152014",
+    "1152016",
+    "1152020",
+    "1152024"
+  ]
 }

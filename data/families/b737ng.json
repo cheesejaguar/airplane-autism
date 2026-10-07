@@ -78,6 +78,10 @@
     {
       "id": "b757",
       "howToTell": "The 737NG has short gear and a shorter body; the 757 is far longer and stands on tall gear with much larger engines."
+    },
+    {
+      "id": "b737-classic",
+      "howToTell": "The 737 Classic has smaller, oval engine nacelles and mostly plain wingtips; the NG has larger, rounder nacelles and usually tall winglets."
     }
   ],
   "difficulty": 3,
@@ -91,5 +95,47 @@
     "source": "Airline fleet data (Southwest, United, American, Delta, Alaska; planespotters.net) plus ~30 C-40A/B/C (USN, USMC, USAF fact sheets)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1382526",
+    "1384404",
+    "138440A",
+    "1384413",
+    "1384414",
+    "1384418",
+    "13844BX",
+    "13844BY",
+    "13844BZ",
+    "13844C2",
+    "13844C3",
+    "13844CB",
+    "13844CD",
+    "13844CF",
+    "13844CH",
+    "13844CN",
+    "13844CT",
+    "13844CY",
+    "13844DA",
+    "13844DI",
+    "13844EC",
+    "13844FG",
+    "13844FM",
+    "13844FN",
+    "13844FY",
+    "13844HI",
+    "13844JA",
+    "13844NE",
+    "13844ZQ",
+    "13844ZZ",
+    "1384509",
+    "1384511",
+    "1384527",
+    "1384541",
+    "1384612",
+    "138488H",
+    "138488K",
+    "138488L",
+    "13848A1",
+    "13848A3",
+    "13848CE"
+  ]
 }

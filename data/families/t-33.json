@@ -1,0 +1,91 @@
+{
+  "id": "t-33",
+  "name": "Lockheed T-33 Shooting Star",
+  "shortName": "T-33",
+  "aka": [
+    "T-Bird",
+    "Shooting Star",
+    "CT-133 Silver Star",
+    "TV-2"
+  ],
+  "manufacturer": "Lockheed (Canadair)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "T-33A",
+    "CT-133 Silver Star (Canadair)",
+    "TV-2 / T2V",
+    "Drone/target variants"
+  ],
+  "summary": "Two-seat jet trainer derived from the P-80 Shooting Star that served in dozens of air forces; many ex-military 'T-Birds' are privately owned and fly as warbirds and adversary aircraft.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with large permanent tip tanks",
+      "Straight leading edge, rounded tips"
+    ],
+    "engines": [
+      "Single turbojet fed by flush side intakes ahead of the wing",
+      "Round tailpipe at the rear"
+    ],
+    "fuselage": [
+      "Long fuselage with a very long bubble canopy covering two tandem seats",
+      "Slim nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Tall single fin with a straight leading edge",
+      "Horizontal tail mounted mid-way on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Tip tanks on a straight wing and a very long canopy",
+    "Straight wings with a stretched fuselage and side intakes",
+    "Long, slim nose on a sleek early jet"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-86",
+      "howToTell": "The Sabre has swept wings and a nose intake; the T-33 has straight wings, side intakes and tip tanks."
+    },
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a pot-bellied fuselage with two separate canopies and no tip tanks; the T-33 has a long single canopy and big tip tanks."
+    },
+    {
+      "id": "t-38",
+      "howToTell": "The T-38 is a sleek twin-engine supersonic trainer with a pointed nose; the T-33 is a straight-wing single-engine jet."
+    },
+    {
+      "id": "f-5",
+      "howToTell": "The F-5 is a swept-wing twin-engine supersonic fighter; the T-33 is a straight-wing, tip-tank trainer."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Lockheed T-33 in flight",
+    "Lockheed T-33"
+  ],
+  "usCount": {
+    "value": 40,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05614GW",
+    "05616IQ",
+    "1900310",
+    "1901204",
+    "5260401",
+    "5260402"
+  ]
+}

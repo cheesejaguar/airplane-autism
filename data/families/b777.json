@@ -77,9 +77,24 @@
     "Boeing 777"
   ],
   "usCount": {
-    "value": 240,
-    "source": "Airline fleet data (United, American, FedEx, Atlas, Kalitta; planespotters.net)",
-    "asOf": "2026"
+    "value": 267,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1385213",
+    "1385219",
+    "1385225",
+    "1385229",
+    "1385232",
+    "1385253",
+    "1385256",
+    "1385278",
+    "138527B",
+    "138527D",
+    "138527H",
+    "138527M",
+    "1385324",
+    "1388000"
+  ]
 }

@@ -1,0 +1,92 @@
+{
+  "id": "as332",
+  "name": "Aérospatiale SA330 Puma / AS332 Super Puma / EC225",
+  "shortName": "Puma/Super Puma",
+  "aka": [
+    "SA330 Puma",
+    "AS332 Super Puma",
+    "EC225",
+    "H225"
+  ],
+  "manufacturer": "Aérospatiale / Eurocopter / Airbus Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "transport",
+    "utility",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "SA330J Puma",
+    "AS332L/L1 Super Puma",
+    "AS332L2",
+    "EC225LP / H225"
+  ],
+  "summary": "A large twin-turbine transport helicopter used offshore and for heavy utility; the Super Puma and EC225 are lengthened, upgraded versions of the original Puma.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor (five-blade on EC225/H225)",
+      "Tall mast and a smooth fairing"
+    ],
+    "engines": [
+      "Two turboshafts side by side on top of the cabin",
+      "Large intakes at the front of each engine hump"
+    ],
+    "fuselage": [
+      "Long boxy cabin with a deep nose and a row of square windows",
+      "Fixed or retractable wheeled landing gear, depending on version",
+      "Weather radar in a nose radome on offshore versions"
+    ],
+    "tail": [
+      "Upswept tail boom with a tall pylon",
+      "Horizontal stabilizer and a conventional tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Big twin-engine transport with a long boxy cabin and a deep, blunt nose",
+    "Two engine humps side by side on the roof",
+    "Upswept tail boom ending in a tall fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-92",
+      "howToTell": "The S-92 has a four-blade rotor and a rear cargo ramp, with a more rounded fuselage; the Puma/Super Puma has a longer boxy cabin and a smaller nose."
+    },
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 has a five-blade rotor, retractable wheels in sponsons and a sleeker body; the Puma has a longer cabin and a blunter nose."
+    },
+    {
+      "id": "uh-60",
+      "howToTell": "The Black Hawk has a slimmer body and a canted tail rotor; the Puma is boxier with a rounder nose."
+    },
+    {
+      "id": "mi-8",
+      "howToTell": "The Mi-8 has a more rounded blunt nose with large greenhouse windows; the Super Puma has a deep, angular nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus Helicopters H215 Super Puma",
+    "Airbus Helicopters H225 Super Puma 2"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680629",
+    "8680829",
+    "8680941",
+    "8680997",
+    "8682992"
+  ]
+}

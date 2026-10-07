@@ -57,6 +57,10 @@
     {
       "id": "dc-3",
       "howToTell": "The DC-3 has a single fin and is a low-wing taildragger; the B-25 has twin fins and tricycle gear."
+    },
+    {
+      "id": "a-26",
+      "howToTell": "The Invader has a single tall fin and a straight mid wing with a sleek fuselage; the B-25 has twin fins and a gull wing."
     }
   ],
   "difficulty": 2,
@@ -65,9 +69,13 @@
     "North American B-25 Mitchell"
   ],
   "usCount": {
-    "value": 35,
-    "source": "warbirdregistry.org B-25 registry (airworthy-coded airframes) cross-checked with FAA registry (~56 registered)",
-    "asOf": "2026"
+    "value": 41,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "6400710",
+    "6400712",
+    "6400714"
+  ]
 }

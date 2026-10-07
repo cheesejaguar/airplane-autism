@@ -1,0 +1,177 @@
+[
+  {
+    "existingId": "king-air-90",
+    "newId": "pa-31t",
+    "howToTell": "The King Air 90 has a rounder nose, a larger airliner-like cabin and no wingtip tanks; the PA-31T Cheyenne has a long pointed nose, a slimmer fuselage and usually wingtip tanks."
+  },
+  {
+    "existingId": "king-air-90",
+    "newId": "pa-42",
+    "howToTell": "The PA-42 Cheyenne III/400 has a slim, long fuselage with small cabin windows and a T-tail; the King Air 90 (except the F90) has a low tailplane, larger windows and a shorter cabin."
+  },
+  {
+    "existingId": "king-air-90",
+    "newId": "c441",
+    "howToTell": "The Conquest has small oval cabin windows and a long, tapered nose; the King Air 90 has larger rounded-square windows and a blunter, bulkier cabin."
+  },
+  {
+    "existingId": "king-air-90",
+    "newId": "aero-commander-690",
+    "howToTell": "The Aero Commander 690 is a high-wing aircraft with a boxy cabin and long nacelles; the King Air 90 is a low-wing aircraft."
+  },
+  {
+    "existingId": "king-air-350",
+    "newId": "pa-42",
+    "howToTell": "The PA-42 Cheyenne III/400 is slimmer with small rounded windows and no winglets; the King Air 350 has larger rounded-square windows, a bulkier cabin and often winglets."
+  },
+  {
+    "existingId": "king-air-350",
+    "newId": "piaggio-p180",
+    "howToTell": "The Avanti has pusher propellers on its rear-mounted main wing and small forward foreplanes; the King Air 350 has tractor props ahead of a low wing and no foreplanes."
+  },
+  {
+    "existingId": "beech-1900",
+    "newId": "beech-99",
+    "howToTell": "The Beech 99 is smaller and plainer, with a low conventional tail and no tail fins or stabilons; the 1900 has a T-tail with fins and a taller, bigger cabin."
+  },
+  {
+    "existingId": "beech-1900",
+    "newId": "metroliner",
+    "howToTell": "The Metro has a sharply pointed nose, a more slender fuselage and a low tailplane; the 1900 has a T-tail and fins on the tail cone."
+  },
+  {
+    "existingId": "beech-1900",
+    "newId": "saab-340",
+    "howToTell": "The Saab 340 is rounder with a low conventional tail and large engine nacelles slung from the wing; the 1900 is narrower with a T-tail and tail fins."
+  },
+  {
+    "existingId": "beech-1900",
+    "newId": "emb-110",
+    "howToTell": "The Bandeirante has a more rounded nose and a conventional low tail; the 1900 has a T-tail with small fins on the tail cone."
+  },
+  {
+    "existingId": "pc-12",
+    "newId": "epic-e1000",
+    "howToTell": "The Epic has a smooth, tapered composite fuselage, large oval windows and a low tailplane; the PC-12 has a T-tail and a boxy, slab-sided fuselage."
+  },
+  {
+    "existingId": "tbm",
+    "newId": "epic-e1000",
+    "howToTell": "The Epic has larger oval windows, a longer tapered nose and no winglets; the TBM has smaller rectangular windows and a shorter nose (900-series has winglets)."
+  },
+  {
+    "existingId": "c208",
+    "newId": "c408",
+    "howToTell": "The SkyCourier is a twin with a T-tail and a deeper, wider fuselage; the Caravan is a smaller single with a low tail."
+  },
+  {
+    "existingId": "c208",
+    "newId": "pac-750xl",
+    "howToTell": "The 750XL is a boxier, slab-sided aircraft with no pod; the Caravan has a rounder, tapered body and often a cargo pod under the belly."
+  },
+  {
+    "existingId": "c208",
+    "newId": "pc-6",
+    "howToTell": "The Porter is a tailwheel aircraft with a long, tapering nose; the Caravan has fixed tricycle gear."
+  },
+  {
+    "existingId": "c208",
+    "newId": "dhc-3",
+    "howToTell": "The Otter has a big round radial engine, a tailwheel or floats and a three-blade prop; the Caravan has a turboprop nose and tricycle gear."
+  },
+  {
+    "existingId": "kodiak",
+    "newId": "pc-6",
+    "howToTell": "The Porter is a tailwheel aircraft with a long, tapering nose; the Kodiak has fixed tricycle gear and a short, deep nose."
+  },
+  {
+    "existingId": "kodiak",
+    "newId": "dhc-3",
+    "howToTell": "The Otter has a big round radial nose and a tailwheel or floats; the Kodiak has a turboprop nose and tricycle gear."
+  },
+  {
+    "existingId": "dhc-6",
+    "newId": "c408",
+    "howToTell": "The SkyCourier has a T-tail, a deeper fuselage and a short blunt nose; the Twin Otter has a conventional low tail and a long pointed nose."
+  },
+  {
+    "existingId": "dhc-6",
+    "newId": "short-skyvan",
+    "howToTell": "The Skyvan has twin fins and a far boxier, slab-sided fuselage; the Twin Otter has a single fin."
+  },
+  {
+    "existingId": "dhc-6",
+    "newId": "dornier-228",
+    "howToTell": "The Dornier 228 has an unbraced wing and a long pointed nose; the Twin Otter has a strut on each wing."
+  },
+  {
+    "existingId": "dhc-6",
+    "newId": "casa-212",
+    "howToTell": "The C-212 has an unbraced high wing, a rear loading ramp and an upswept tail; the Twin Otter has wing struts and no rear ramp."
+  },
+  {
+    "existingId": "dhc-2",
+    "newId": "dhc-3",
+    "howToTell": "The Otter is the larger aircraft with a three-blade prop; the Beaver has a two-blade prop and is noticeably smaller."
+  },
+  {
+    "existingId": "dhc-2",
+    "newId": "pc-6",
+    "howToTell": "The Porter has a long, tapering turboprop nose; the Beaver has a short round radial nose and a two-blade prop."
+  },
+  {
+    "existingId": "atr",
+    "newId": "dhc-8",
+    "howToTell": "The Dash 8 has main landing gear that folds into very long engine nacelles; the ATR's gear folds into fuselage blisters."
+  },
+  {
+    "existingId": "atr",
+    "newId": "dhc-8-q400",
+    "howToTell": "The Q400 is longer with very long nacelles that house the main gear; the ATR 72's gear folds into blisters on the fuselage."
+  },
+  {
+    "existingId": "atr",
+    "newId": "emb-120",
+    "howToTell": "The EMB-120 is a low-wing aircraft with a T-tail; the ATR has a high wing."
+  },
+  {
+    "existingId": "atr",
+    "newId": "saab-340",
+    "howToTell": "The Saab 340 has a low wing and a conventional low tailplane; the ATR has a high wing and a T-tail."
+  },
+  {
+    "existingId": "c340",
+    "newId": "c441",
+    "howToTell": "The Conquest has turboprop cowlings with big spinners and a larger, longer fuselage; the 340/414/421 has piston engines with stub exhausts and a slightly smaller airframe."
+  },
+  {
+    "existingId": "pa-31",
+    "newId": "pa-31t",
+    "howToTell": "The Cheyenne has smoother turbine nacelles, prop spinners and a long pointed nose; the Navajo has piston-engine cowlings and a blunter nose."
+  },
+  {
+    "existingId": "pa-31",
+    "newId": "pa-42",
+    "howToTell": "The PA-42 Cheyenne III/400 has a T-tail and turboprop nacelles; the Navajo has a low horizontal tail and piston-engine cowlings."
+  },
+  {
+    "existingId": "dc-3",
+    "newId": "convair-240",
+    "howToTell": "The Convair has a nosewheel and sits level; the DC-3 is a taildragger that sits tail-low on the ground."
+  },
+  {
+    "existingId": "da40",
+    "newId": "da50",
+    "howToTell": "The DA50 is larger with a roomier cabin and, in the RG, retractable gear; the DA40 is smaller with fixed gear and a bubble canopy."
+  },
+  {
+    "existingId": "cirrus-sr",
+    "newId": "da50",
+    "howToTell": "The DA50 has a T-tail; the Cirrus has a conventional low tailplane."
+  },
+  {
+    "existingId": "pa-46",
+    "newId": "da50",
+    "howToTell": "The DA50 has a T-tail and a composite airframe; the PA-46 has a conventional low tailplane."
+  }
+]

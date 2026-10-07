@@ -1,0 +1,85 @@
+{
+  "id": "monocoupe-90",
+  "name": "Monocoupe 90 / 110",
+  "shortName": "Monocoupe",
+  "aka": [
+    "Monocoupe 90A",
+    "Monocoupe 110 Special",
+    "Monocoupe 70",
+    "Monocoupe 90AF"
+  ],
+  "manufacturer": "Monocoupe (Mono Aircraft / Monocoupe Aircraft Corporation)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1927,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Monocoupe 70",
+    "Monocoupe 90 / 90A (Lambert radial)",
+    "Monocoupe 90AF (Franklin)",
+    "Monocoupe 110 (Warner Scarab)",
+    "Monocoupe 110 Special (racer)"
+  ],
+  "summary": "Small two-seat high-wing 1930s sport and racing monoplane with a distinctive reverse-curve rear fuselage; remembered for air racing and aerobatics.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing monoplane",
+      "Short-span, rounded wingtips"
+    ],
+    "engines": [
+      "Small radial engine (Lambert or Warner) in the nose, often with cylinders partly exposed",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two seats side by side in a small enclosed cabin with side doors",
+      "Distinctive reverse-curve (concave) rear fuselage lines",
+      "Fixed tailwheel gear, often with wheel pants"
+    ],
+    "tail": [
+      "Tall rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Tiny two-seat high-wing monoplane with a small radial engine",
+    "Rear fuselage dips in a reverse curve behind the cabin",
+    "Side-by-side seating in a compact cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Luscombe is all-metal with a flat-four engine and a smoother fuselage line; the Monocoupe has a small radial and a distinctive reverse-curve rear fuselage."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria has tandem seating, a flat-four engine and a straight fuselage; the Monocoupe seats two side by side with a radial."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Monocoupe 90",
+    "Monocoupe 110"
+  ],
+  "usCount": {
+    "value": 72,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5810102",
+    "5810104",
+    "5810107",
+    "5810110",
+    "5810202",
+    "5810204",
+    "9250202",
+    "9250512"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "curtiss-wright-junior",
+  "name": "Curtiss-Wright CW-1 Junior",
+  "shortName": "CW-1 Junior",
+  "aka": [
+    "CW-1 Junior",
+    "Curtiss-Wright Junior",
+    "Curtiss Junior"
+  ],
+  "manufacturer": "Curtiss-Wright",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1930,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "CW-1 Junior (Szekely SR-3, 45 hp)",
+    "CW-1 with later engine installations"
+  ],
+  "summary": "Tiny 1930s parasol-wing pusher intended as an affordable 'Model T of the air'; about 270 were sold and only a few still fly.",
+  "weft": {
+    "wings": [
+      "Parasol monoplane: the wing is mounted above the fuselage on struts",
+      "Short, straight, strut-braced wing"
+    ],
+    "engines": [
+      "Small three-cylinder Szekely radial mounted on top of the fuselage behind the wing",
+      "Two-blade pusher propeller on the upper fuselage surface"
+    ],
+    "fuselage": [
+      "Open cockpit with pilot and passenger in tandem",
+      "Short, narrow fuselage with the engine mounted high behind the occupants",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional fixed tail with a tailwheel"
+    ]
+  },
+  "tellTales": [
+    "Parasol-wing monoplane with the propeller pushing from the top of the fuselage",
+    "Tiny open-cockpit aircraft with the engine above and behind the cockpit",
+    "Small strut-braced wing overhead and no engine in the nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Cub has a tractor engine and propeller in the nose and a high wing attached to the fuselage; the CW-1 Junior has a pusher propeller on top of the fuselage."
+    },
+    {
+      "id": "aeronca-c3",
+      "howToTell": "The Aeronca C-3 has a tractor engine in the nose and an enclosed cockpit; the Junior has a pusher engine behind an open cockpit."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Curtiss-Wright Junior"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2620502"
+  ]
+}

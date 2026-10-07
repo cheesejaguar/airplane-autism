@@ -1,0 +1,92 @@
+{
+  "id": "mu-2",
+  "name": "Mitsubishi MU-2",
+  "shortName": "MU-2",
+  "aka": [
+    "MU-2B",
+    "Marquise",
+    "Solitaire",
+    "MU-2 Solitaire",
+    "MU-2 Marquise",
+    "MU-2B-60"
+  ],
+  "manufacturer": "Mitsubishi Heavy Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "MU-2B-20 through -26A (short fuselage)",
+    "MU-2B-30 / -35 / -36 / -36A (stretched)",
+    "MU-2B-40 Solitaire and MU-2B-60 Marquise"
+  ],
+  "summary": "Fast Japanese twin turboprop with a short wing, cigar fuselage and full-span flaps, widely used for air freight and charter.",
+  "weft": {
+    "wings": [
+      "Short, thick high wing mounted on top of the fuselage",
+      "Large cylindrical tip tanks on most examples",
+      "Big flaps spanning most of the trailing edge"
+    ],
+    "engines": [
+      "Two Garrett turboprops in short, slim nacelles ahead of the wing",
+      "Three- or four-blade propellers"
+    ],
+    "fuselage": [
+      "Long, slender, cylindrical, tube-like fuselage",
+      "Small windows and a pointed nose"
+    ],
+    "tail": [
+      "Conventional tail with a swept fin",
+      "Tailplane mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Cylindrical tip tanks on short stubby wings",
+    "Long thin tube fuselage with small windows",
+    "Short engine nacelles mounted ahead of the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "aero-commander-690",
+      "howToTell": "Both are high-wing twins, but the Commander has a boxier cabin, long nacelles and no tip tanks; the MU-2 has a slim cigar-tube body, short nacelles and cylindrical tip tanks."
+    },
+    {
+      "id": "c441",
+      "howToTell": "The Conquest has a low-mounted wing with long nacelles and no tip tanks; the MU-2 has a short high wing with cylindrical tip tanks."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has a low wing with big nacelles and larger cabin windows; the MU-2 has a short high wing, tip tanks and small windows."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Mitsubishi MU-2",
+    "Mitsubishi MU-2B"
+  ],
+  "usCount": {
+    "value": 163,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5780407",
+    "5780408",
+    "5780409",
+    "5780411",
+    "5780412",
+    "5780413",
+    "5780414",
+    "5780440",
+    "5780460"
+  ]
+}

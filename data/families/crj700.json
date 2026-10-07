@@ -69,9 +69,13 @@
     "CRJ700"
   ],
   "usCount": {
-    "value": 480,
-    "source": "Airline fleet data (Endeavor, PSA, SkyWest, GoJet, Mesa; planespotters.net)",
-    "asOf": "2026"
+    "value": 575,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1390015",
+    "1390016",
+    "1390021"
+  ]
 }

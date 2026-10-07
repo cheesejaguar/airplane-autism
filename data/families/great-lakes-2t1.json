@@ -1,0 +1,82 @@
+{
+  "id": "great-lakes-2t1",
+  "name": "Great Lakes 2T-1A Sport Trainer",
+  "shortName": "Great Lakes",
+  "aka": [
+    "2T-1A",
+    "Great Lakes Sport Trainer",
+    "2T-1A-2"
+  ],
+  "manufacturer": "Great Lakes Aircraft Company / WACO Classic Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1929,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "2T-1 (Cirrus inline)",
+    "2T-1A / 2T-1A-1 (Cirrus Hi-Drive)",
+    "2T-1A-2 (180 hp Lycoming IO-360, 1970s and later)",
+    "WACO Classic Great Lakes (2011 onward)"
+  ],
+  "summary": "Compact two-seat 1929 sport trainer and aerobatic biplane, put back into production in the 1970s and again in 2011; popular with weekend aerobats.",
+  "weft": {
+    "wings": [
+      "Single-bay staggered biplane with an upper wing that is swept back",
+      "Short-span, rounded wings with ailerons"
+    ],
+    "engines": [
+      "Cowled flat-four Lycoming on most surviving examples (early ones had an inline Cirrus)",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits",
+      "Slim, fabric-covered fuselage",
+      "Fixed tailwheel gear with short main legs"
+    ],
+    "tail": [
+      "Enlarged tail with a large rounded rudder"
+    ]
+  },
+  "tellTales": [
+    "Compact tandem-seat open-cockpit biplane with a cowled flat engine",
+    "Swept-back upper wing on a short-span biplane",
+    "Slim fuselage with large rounded tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "pitts",
+      "howToTell": "The Pitts is smaller and stubbier; the Great Lakes has a longer, slimmer fuselage and a more pronounced upper-wing sweep."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger with a bare radial engine; the Great Lakes is small with a cowled flat engine."
+    },
+    {
+      "id": "stampe-sv4",
+      "howToTell": "The Stampe has a narrower nose sloping down to an inline engine; the Great Lakes has a wider, blunter cowl over a flat-four."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Great Lakes 2T-1A Sportster"
+  ],
+  "usCount": {
+    "value": 164,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3910101",
+    "3910102",
+    "3910106",
+    "3910107",
+    "9600427"
+  ]
+}

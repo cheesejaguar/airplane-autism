@@ -1,0 +1,85 @@
+{
+  "id": "s-64",
+  "name": "Sikorsky S-64 Skycrane",
+  "shortName": "S-64",
+  "aka": [
+    "Skycrane",
+    "CH-54 Tarhe",
+    "Erickson Air-Crane"
+  ],
+  "manufacturer": "Sikorsky / Erickson",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "cargo",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1962,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "S-64E",
+    "S-64F",
+    "CH-54A",
+    "CH-54B",
+    "Erickson S-64E Air-Crane"
+  ],
+  "summary": "A giant insect-like crane helicopter with a narrow open frame, flown for firefighting, logging and heavy lifting.",
+  "weft": {
+    "wings": [
+      "Six-blade main rotor on a huge mast"
+    ],
+    "engines": [
+      "Two turboshafts in pods on the top of the frame",
+      "Exhaust at the rear of each pod"
+    ],
+    "fuselage": [
+      "Narrow open frame with no cabin, a cockpit pod hung at the front",
+      "Long spidery legs with large wheels",
+      "Often carries a water tank or load slung under the belly"
+    ],
+    "tail": [
+      "Long slender tail boom",
+      "Tail rotor on a slim fin"
+    ]
+  },
+  "tellTales": [
+    "Insect-like open frame with no cabin behind the cockpit",
+    "Six-blade rotor over a skeletal body",
+    "Long spindly landing legs with a load slung underneath"
+  ],
+  "confusedWith": [
+    {
+      "id": "ch-47",
+      "howToTell": "The Chinook has two rotors on a boxy fuselage; the S-64 has one rotor on an open frame."
+    },
+    {
+      "id": "kaman-k-max",
+      "howToTell": "The K-MAX is much smaller with two intermeshing rotors and a single engine; the S-64 is a huge single-rotor machine."
+    },
+    {
+      "id": "ch-53e",
+      "howToTell": "The CH-53E has a full enclosed cabin and a rear ramp; the S-64 is an open frame with no cabin."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Sikorsky S-64 Skycrane",
+    "Sikorsky S-64 firefighting"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4450003",
+    "7400000",
+    "8142604",
+    "8142610"
+  ]
+}

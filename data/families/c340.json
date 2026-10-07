@@ -62,6 +62,18 @@
     {
       "id": "king-air-90",
       "howToTell": "The King Air has turboprop nacelles with exhaust stacks; the 340/414/421 have piston cowlings with no stacks."
+    },
+    {
+      "id": "c441",
+      "howToTell": "The Conquest has turboprop cowlings with big spinners and a larger, longer fuselage; the 340/414/421 has piston engines with stub exhausts and a slightly smaller airframe."
+    },
+    {
+      "id": "c402",
+      "howToTell": "The 402 is unpressurized with a long, straight-sided cabin and larger windows; the 340/414/421 have a portly pressurized cabin with small porthole-like windows."
+    },
+    {
+      "id": "beech-60",
+      "howToTell": "The Duke has plain wingtips, a smooth round fuselage and a swept fin without a dorsal fillet; the 340 is portly with a dorsal fillet and, on early models, tip tanks."
     }
   ],
   "difficulty": 4,
@@ -71,9 +83,20 @@
     "Cessna 421"
   ],
   "usCount": {
-    "value": 2080,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~710 Cessna 340 + ~600 Cessna 414 + ~770 Cessna 421",
-    "asOf": "2026"
+    "value": 1998,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2075601",
+    "2075902",
+    "2075907",
+    "2075908",
+    "2076010",
+    "2076012",
+    "2076014",
+    "2076016",
+    "2076404",
+    "2076405"
+  ]
 }

@@ -59,6 +59,22 @@
     {
       "id": "j-3",
       "howToTell": "The Cub is a high-wing cabin monoplane; the Stearman has two wings and open cockpits."
+    },
+    {
+      "id": "fairchild-m62",
+      "howToTell": "The PT-19/PT-26 Cornell is a low-wing monoplane trainer; the Stearman is a biplane with wires and struts between the two wings."
+    },
+    {
+      "id": "ryan-st",
+      "howToTell": "The Ryan PT-22 is a low-wing monoplane with big wheel spats; the Stearman is a biplane with interplane struts and wires."
+    },
+    {
+      "id": "n3n",
+      "howToTell": "The N3N is a Navy biplane that is usually yellow, with a smoother round cowl and a squatter body; the Stearman has a larger, more angular airframe and a bigger radial."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Stearman is a trainer with two open cockpits and no hopper; the Ag-Cat is a single-seat sprayer with a hopper and a high rear cockpit."
     }
   ],
   "difficulty": 1,
@@ -66,9 +82,28 @@
     "Boeing-Stearman Model 75"
   ],
   "usCount": {
-    "value": 1450,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): A75N1/PT-17, B75N1, E75 and N2S model codes",
-    "asOf": "2026"
+    "value": 1601,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1380102",
+    "1380104",
+    "1380106",
+    "1380108",
+    "1380112",
+    "1380116",
+    "1380120",
+    "1380122",
+    "1380124",
+    "1380132",
+    "1380134",
+    "1380136",
+    "1380144",
+    "1380146",
+    "1380148",
+    "1380152",
+    "1380154",
+    "1380165"
+  ]
 }

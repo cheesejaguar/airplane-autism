@@ -58,6 +58,14 @@
     {
       "id": "citation-latitude",
       "howToTell": "The G280 has oval windows on a slimmer fuselage; the Latitude/Longitude has rounded-rectangle windows on a fatter, rounder body."
+    },
+    {
+      "id": "g200",
+      "howToTell": "The G200 is the shorter, older design with smaller winglets; the G280 is longer with taller, more prominent winglets."
+    },
+    {
+      "id": "hawker-4000",
+      "howToTell": "The Hawker 4000 has plain wingtips; the G280 has large winglets."
     }
   ],
   "difficulty": 4,
@@ -65,9 +73,13 @@
     "Gulfstream G280"
   ],
   "usCount": {
-    "value": 170,
-    "source": "Gulfstream deliveries (~270 G280) with ~65% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 268,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3980211",
+    "3980218",
+    "4500314"
+  ]
 }

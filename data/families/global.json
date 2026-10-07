@@ -77,9 +77,13 @@
     "Bombardier Global 7500"
   ],
   "usCount": {
-    "value": 420,
-    "source": "Bombardier deliveries (~1,000 Global family) with ~40% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 580,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1390006",
+    "1390022",
+    "1390052"
+  ]
 }

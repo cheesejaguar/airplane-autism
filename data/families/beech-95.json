@@ -1,0 +1,86 @@
+{
+  "id": "beech-95",
+  "name": "Beechcraft Travel Air (95)",
+  "shortName": "Travel Air 95",
+  "aka": [
+    "Model 95",
+    "Travel Air 95",
+    "B95",
+    "B95A",
+    "D95A",
+    "E95"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "95 / 95A",
+    "B95 / B95A",
+    "D95A",
+    "E95"
+  ],
+  "summary": "Small four-seat twin developed from the Bonanza and built 1958–1968; it was the direct ancestor of the Baron.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing",
+      "Plain wingtips with no tip tanks"
+    ],
+    "engines": [
+      "Two small Lycoming engines in slim nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Compact four-seat cabin with a rounded, Bonanza-style profile",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Tall, upright, squared-off fin (not swept)",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tall, upright, square-topped fin on a compact twin",
+    "Small four-seat Bonanza-like cabin with a sloping nose",
+    "Slim engines and plain wingtips"
+  ],
+  "confusedWith": [
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a swept-back fin and a larger cabin with bigger engines; the Travel Air has a tall, upright, squared-off fin and is smaller."
+    },
+    {
+      "id": "pa-30",
+      "howToTell": "The Twin Comanche has a raked fin and an untapered wing; the Travel Air has an upright fin and a tapered wing."
+    },
+    {
+      "id": "c310",
+      "howToTell": "The 310 has large wingtip tanks and a swept fin; the Travel Air has plain tips and an upright fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Travel Air",
+    "Beechcraft 95 Travel Air"
+  ],
+  "usCount": {
+    "value": 249,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1153402",
+    "1153404",
+    "1153406",
+    "1153408",
+    "1153410"
+  ]
+}

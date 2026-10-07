@@ -68,9 +68,19 @@
     "Gulfstream G700"
   ],
   "usCount": {
-    "value": 380,
-    "source": "Gulfstream deliveries (~550 G650/ER plus 100+ G700/G800) with ~55% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 785,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05637SM",
+    "3980050",
+    "3980121",
+    "3980214",
+    "3980219",
+    "3980221",
+    "3980225",
+    "3980226",
+    "3980321"
+  ]
 }

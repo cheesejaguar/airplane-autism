@@ -69,5 +69,10 @@
     "source": "FlightGlobal World Air Forces 2026",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5262502",
+    "5262507",
+    "526414U",
+    "526414Z"
+  ]
 }

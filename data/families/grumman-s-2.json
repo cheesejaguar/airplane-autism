@@ -1,0 +1,89 @@
+{
+  "id": "grumman-s-2",
+  "name": "Grumman S-2 Tracker / C-1 Trader",
+  "shortName": "S-2 Tracker",
+  "aka": [
+    "S2F",
+    "Tracker",
+    "CS2F",
+    "Marsh Turbo Tracker",
+    "S-2T"
+  ],
+  "manufacturer": "Grumman (Marsh Aviation conversion)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "maritime-patrol"
+  ],
+  "branches": [],
+  "firstFlight": 1952,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "S2F-1 / S-2A (R-1820 radials)",
+    "S-2E / S-2F",
+    "US-2 / C-1 Trader",
+    "Marsh S-2F3AT / S-2T Turbo Tracker (firefighter)"
+  ],
+  "summary": "Grumman carrier anti-submarine airplane, now seen in the US mostly as turbine-powered aerial-firefighting tankers and as piston-engine warbirds.",
+  "weft": {
+    "wings": [
+      "High, straight, constant-chord wing that folds on the original carrier airplane",
+      "Large nacelles on the wing leading edge"
+    ],
+    "engines": [
+      "Two engines: round radial cowls on the original or longer turboprop nacelles with three-blade propellers on the Marsh conversion",
+      "Engines mounted on the wing"
+    ],
+    "fuselage": [
+      "Deep, bulky fuselage with a tailhook and a fat belly",
+      "Tricycle gear that retracts into the engine nacelles",
+      "Long boom behind the tail on ASW versions, or retardant doors on tanker conversions"
+    ],
+    "tail": [
+      "Single tall fin and rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Twin engines on a high wing with a fat, deep fuselage and tailhook",
+    "Tricycle gear folding into the nacelles on a carrier-type airframe",
+    "Stubby body and a single tall tail with a long rear fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "a-26",
+      "howToTell": "The A-26 is a sleek mid-wing bomber with a slim fuselage; the Tracker is a high-wing with a deep, fat fuselage."
+    },
+    {
+      "id": "hu-16",
+      "howToTell": "The Albatross has a boat hull and wingtip floats; the Tracker has a conventional fuselage and gear."
+    },
+    {
+      "id": "beech-18",
+      "howToTell": "The Beech 18 is a small twin-tail airplane with tailwheel gear; the Tracker is a much larger tricycle-gear airplane with a single tail."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 is a low-wing airliner with tailwheel gear; the Tracker is a high-wing with tricycle gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman S-2 Tracker",
+    "Grumman S-2T"
+  ],
+  "usCount": {
+    "value": 29,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3951008",
+    "3951014",
+    "5420000"
+  ]
+}

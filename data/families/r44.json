@@ -67,6 +67,10 @@
     {
       "id": "bell-206",
       "howToTell": "The JetRanger is larger with a turbine exhaust stack on the roof and a horizontal stabilizer with endplates; the R44 is smaller with a thin tubular boom and tall slender mast."
+    },
+    {
+      "id": "enstrom-280",
+      "howToTell": "The Enstrom 280 has a three-blade rotor and three seats under one rounded canopy; the R44 has a two-blade rotor and four seats in two rows."
     }
   ],
   "difficulty": 3,
@@ -74,9 +78,14 @@
     "Robinson R44"
   ],
   "usCount": {
-    "value": 1930,
-    "source": "FAA registry make/model inquiry (Robinson R44 / R44 II / Astro)",
+    "value": 1833,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7640120",
+    "7640121",
+    "7640122",
+    "7640123"
+  ]
 }

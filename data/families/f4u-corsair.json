@@ -1,0 +1,91 @@
+{
+  "id": "f4u-corsair",
+  "name": "Vought F4U Corsair",
+  "shortName": "F4U Corsair",
+  "aka": [
+    "Corsair",
+    "FG-1D",
+    "F4U-4",
+    "F4U-1D",
+    "Whistling Death"
+  ],
+  "manufacturer": "Vought (Goodyear / Brewster)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F4U-1 / F4U-1A (birdcage / bubble canopy)",
+    "F4U-1D / FG-1D (Goodyear)",
+    "F4U-4",
+    "F4U-5 / AU-1"
+  ],
+  "summary": "Carrier-based WWII fighter with a huge Pratt & Whitney R-2800 radial and a distinctive inverted gull wing; one of the best-known US Navy and Marine fighters, and a favorite at air shows.",
+  "weft": {
+    "wings": [
+      "Inverted gull wing: bent downward at the root and then outward",
+      "Wide, square-tipped wing that folds for carrier storage",
+      "Short, strong, outward-leaning main gear"
+    ],
+    "engines": [
+      "Huge R-2800 radial in a big round cowl",
+      "Three or four-blade propeller",
+      "Long nose that hides the cockpit's forward view"
+    ],
+    "fuselage": [
+      "Cockpit set far back on a long fuselage",
+      "Bubble canopy on the F4U-1D/FG-1D, framed 'birdcage' on early ones",
+      "Retractable tailwheel with an arrestor hook"
+    ],
+    "tail": [
+      "Tall fin with a large rudder",
+      "Horizontal tail mounted on the fuselage with a sharp-cornered shape"
+    ]
+  },
+  "tellTales": [
+    "Inverted gull wings: down at the root, up at the tip",
+    "Huge round radial nose with the cockpit set far behind it",
+    "Long nose, short legs and a sharp tail of a carrier fighter"
+  ],
+  "confusedWith": [
+    {
+      "id": "f8f-bearcat",
+      "howToTell": "The Bearcat is smaller and stubby with a straight low wing and a tall fin; the Corsair has the distinctive inverted gull wing and a much longer nose."
+    },
+    {
+      "id": "f4f-wildcat",
+      "howToTell": "The Wildcat is a short, chubby mid-wing fighter with straight wings; the Corsair has bent gull wings and a longer nose."
+    },
+    {
+      "id": "p-47",
+      "howToTell": "The Thunderbolt has a straight low wing, an oval chin intake and a deep belly; the Corsair has bent gull wings and a long nose."
+    },
+    {
+      "id": "sea-fury",
+      "howToTell": "The Sea Fury has a long straight wing and a slim fuselage with a five-blade prop; the Corsair has bent gull wings."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Vought F4U Corsair",
+    "Goodyear FG-1 Corsair"
+  ],
+  "usCount": {
+    "value": 24,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2152608",
+    "2152610",
+    "3870512"
+  ]
+}

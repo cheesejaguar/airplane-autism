@@ -1,0 +1,84 @@
+{
+  "id": "callair-a9",
+  "name": "Callair A-9 Ag Plane",
+  "shortName": "Callair A-9",
+  "aka": [
+    "A-9",
+    "A-9B",
+    "Quail Commander",
+    "Sparrow Commander"
+  ],
+  "manufacturer": "IMCO / Aero Commander (Rockwell)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1962,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "A-9 (Lycoming O-540, 235 hp)",
+    "A-9B Quail Commander (290 hp)",
+    "AAMSA A9B (Mexican-built)"
+  ],
+  "summary": "Single-seat crop duster developed from the earlier Callair line by IMCO, later built by Aero Commander. Braced low wing, large hopper and a flat-six.",
+  "weft": {
+    "wings": [
+      "Low wing braced to the fuselage by struts on each side",
+      "Spraying gear and booms under the wing"
+    ],
+    "engines": [
+      "Single Lycoming flat-six in a large cowl",
+      "Two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Large hopper ahead of a single-seat cockpit set high and aft",
+      "Cockpit enclosed by two bottom-hinged side doors",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Single-seat crop duster with struts under a low wing",
+    "Hopper ahead of an aft cockpit with drop-down side doors",
+    "Big flat-six nose on a tailwheel airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-25",
+      "howToTell": "The Pawnee is a smaller strut-braced low-wing with a Piper-style tail; the A-9 is a larger, more angular airframe with a flat-six nose."
+    },
+    {
+      "id": "pa-36",
+      "howToTell": "The PA-36 has a strut-free cantilever low wing; the A-9's low wing is braced by struts."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Thrush has a cantilever wing and usually a radial or turbine nose; the A-9 has struts and a flat-six."
+    },
+    {
+      "id": "callair-a",
+      "howToTell": "The A-series are the earlier two- to three-seat cabin and early ag types; the A-9 is a dedicated single-seat hopper airplane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "CallAir A-9"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0144202",
+    "0144206"
+  ]
+}

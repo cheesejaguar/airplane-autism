@@ -62,6 +62,18 @@
     {
       "id": "pc-12",
       "howToTell": "The Kodiak has a strut-braced high wing and fixed gear; the PC-12 has a low wing, retractable gear and a T-tail."
+    },
+    {
+      "id": "pc-6",
+      "howToTell": "The Porter is a tailwheel aircraft with a long, tapering nose; the Kodiak has fixed tricycle gear and a short, deep nose."
+    },
+    {
+      "id": "dhc-3",
+      "howToTell": "The Otter has a big round radial nose and a tailwheel or floats; the Kodiak has a turboprop nose and tricycle gear."
+    },
+    {
+      "id": "gippsaero-ga8",
+      "howToTell": "The Kodiak has a turbine nose and a big three-blade propeller; the GippsAero GA8 has a flat-six cowl and a smaller prop."
     }
   ],
   "difficulty": 3,
@@ -70,9 +82,15 @@
     "Quest Kodiak 100"
   ],
   "usCount": {
-    "value": 195,
-    "source": "FAA registry active aircraft (Quest Aircraft and Kodiak Aircraft Co KODIAK 100 via myplane.com)",
-    "asOf": "2026"
+    "value": 229,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05622SV",
+    "7320001",
+    "7320005",
+    "7320010",
+    "7320201"
+  ]
 }

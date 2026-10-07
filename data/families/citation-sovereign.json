@@ -1,0 +1,79 @@
+{
+  "id": "citation-sovereign",
+  "name": "Cessna Citation Sovereign (680)",
+  "shortName": "Citation Sovereign",
+  "aka": [
+    "Citation Sovereign",
+    "Citation Sovereign+",
+    "Model 680"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 2002,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Citation Sovereign (680)",
+    "Citation Sovereign+ (winglets, 2013 onward)"
+  ],
+  "summary": "Cessna's mid-size Citation with a swept wing and T-tail, a popular corporate and charter workhorse sitting between the Excel and the Citation X in size.",
+  "weft": {
+    "wings": [
+      "Low, moderately swept wing (far less sweep than the Citation X)",
+      "Sovereign+ has upturned winglets; earlier aircraft have plain tips"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW306 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Long, slim fuselage with a row of oval windows",
+      "Pointed nose, no belly fairing"
+    ],
+    "tail": [
+      "T-tail with a swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Swept wing and T-tail on a slim Citation-style body, with the wing noticeably less swept than the fastest Citation",
+    "Winglets on later aircraft, plain swept tips on earlier ones",
+    "Rear-mounted pods and a long row of oval windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-x",
+      "howToTell": "The Sovereign's wing is only moderately swept and its tailplane is smaller; the Citation X has a dramatically swept wing and a bigger, sharper T-tail."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The Latitude has a visibly wider, rounder fuselage with a bigger cabin; the Sovereign is slimmer, and only the Sovereign+ has winglets."
+    },
+    {
+      "id": "citation-excel",
+      "howToTell": "The Excel has a straight (unswept) wing and a low-set tailplane; the Sovereign has a swept wing and a T-tail."
+    },
+    {
+      "id": "citation-vii",
+      "howToTell": "The Citation III/VII has smaller, rounder windows and no winglets; the Sovereign has larger oval windows and a more modern wing (winglets on the Sovereign+)."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna Citation Sovereign"
+  ],
+  "usCount": {
+    "value": 283,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2076811",
+    "2076815"
+  ]
+}

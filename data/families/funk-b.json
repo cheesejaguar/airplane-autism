@@ -1,0 +1,84 @@
+{
+  "id": "funk-b",
+  "name": "Funk B",
+  "shortName": "Funk B",
+  "aka": [
+    "Funk Model B",
+    "B-75-L",
+    "B-85-C",
+    "Funk Bee"
+  ],
+  "manufacturer": "Funk Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1933,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model B (Ford-based engine)",
+    "B-75-L (75 hp Lycoming)",
+    "B-85-C Bee (85 hp Continental)"
+  ],
+  "summary": "Rare, 1930s-designed two-seat strut-braced high-wing cabin monoplane from Akron, Ohio and later Kansas, with fabric-covered wooden wings and a steel-tube fuselage.",
+  "weft": {
+    "wings": [
+      "High wing braced by struts",
+      "Fabric-covered wing"
+    ],
+    "engines": [
+      "Single small flat-four in a smooth cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Two-seat cabin",
+      "Fabric-covered welded steel-tube fuselage",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Small strut-braced high-wing two-seater on a tailwheel",
+    "Fabric fuselage with a smoothly cowled engine",
+    "Compact, rounded cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "Both are small fabric two-seat taildraggers; the Funk is far rarer, so check the cabin and cowl shape against Taylorcraft photos."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "Both are side-by-side fabric taildraggers; the Funk is much rarer, with a more streamlined cabin and smoother cowl."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Funk is fabric-covered; the Luscombe is all-metal with a polished skin."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Funk B"
+  ],
+  "usCount": {
+    "value": 114,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3720202",
+    "5480102",
+    "5480104",
+    "5480108",
+    "5480202",
+    "5480204",
+    "5480208"
+  ]
+}

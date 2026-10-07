@@ -58,6 +58,14 @@
     {
       "id": "t-45",
       "howToTell": "The Goshawk has a swept wing with no tip tanks; the L-39 has a straight wing with tip tanks."
+    },
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a rounder pot-bellied fuselage, straight wing with no tip tanks and a more bulbous nose; the L-39 is slimmer with a tapered wing and tip tanks."
+    },
+    {
+      "id": "ts-11-iskra",
+      "howToTell": "The Iskra is a slimmer jet with a straight wing and wing-root intakes under a long single canopy; the L-39 has larger fuselage-side intakes and wingtip tanks."
     }
   ],
   "difficulty": 3,
@@ -66,9 +74,15 @@
     "Aero L-39C Albatros"
   ],
   "usCount": {
-    "value": 210,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all L-39 model codes",
-    "asOf": "2026"
+    "value": 171,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05603SJ",
+    "05610PE",
+    "056185D",
+    "05620RN",
+    "05623NM"
+  ]
 }

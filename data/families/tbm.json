@@ -67,6 +67,10 @@
     {
       "id": "cirrus-sr",
       "howToTell": "The TBM has a turboprop with exhaust stacks and retractable gear; the Cirrus SR has a piston engine and fixed gear."
+    },
+    {
+      "id": "epic-e1000",
+      "howToTell": "The Epic has larger oval windows, a longer tapered nose and no winglets; the TBM has smaller rectangular windows and a shorter nose (900-series has winglets)."
     }
   ],
   "difficulty": 3,
@@ -76,9 +80,14 @@
     "Daher TBM"
   ],
   "usCount": {
-    "value": 720,
-    "source": "Daher deliveries (1,300th TBM delivered 2025) with ~55% US-registered per FAA registry (approx.)",
-    "asOf": "2025"
+    "value": 930,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8682000",
+    "8682003",
+    "8682004",
+    "8682010"
+  ]
 }

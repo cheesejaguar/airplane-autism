@@ -72,6 +72,10 @@
     {
       "id": "bell-206",
       "howToTell": "The JetRanger is far smaller with a teardrop cabin and no big sliding door; the Huey is a large boxy utility helicopter."
+    },
+    {
+      "id": "bell-214",
+      "howToTell": "The Bell 214B has wide-chord blades with no stabilizer bar and one large exhaust duct; the Huey has a stabilizer bar above the head and a slimmer body."
     }
   ],
   "difficulty": 3,
@@ -85,5 +89,21 @@
     "source": "FAA registry: ~560 civil UH-1/204/205/212 + USAF ~61 UH-1N and 28 TH-1H (Air & Space Forces 2026)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1180815",
+    "1181404",
+    "1181407",
+    "118140D",
+    "1181410",
+    "1181411",
+    "1181414",
+    "118141H",
+    "1181420",
+    "1181454",
+    "1182153",
+    "3740001",
+    "3740005",
+    "9640002",
+    "9790870"
+  ]
 }

@@ -1,0 +1,84 @@
+{
+  "id": "pa-25",
+  "name": "Piper PA-25 Pawnee",
+  "shortName": "Pawnee",
+  "aka": [
+    "Pawnee",
+    "Pawnee 235",
+    "Pawnee 260"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-25 (150 hp)",
+    "PA-25-235 (235 hp)",
+    "PA-25-260 (260 hp)"
+  ],
+  "summary": "Piper's single-seat, strut-braced low-wing agricultural monoplane with a high rear cockpit behind the hopper; also widely used as a glider tug and banner tower.",
+  "weft": {
+    "wings": [
+      "Low wing braced by a single strut each side",
+      "Straight wing with rounded tips"
+    ],
+    "engines": [
+      "Single Lycoming flat-four or flat-six in a slim cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Hopper ahead of the cockpit",
+      "Single-seat cockpit raised behind the hopper",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional tail with a Piper-style fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Small low-wing crop duster with a strut under each wing",
+    "High, aft-set cockpit behind a hopper",
+    "Slim flat-engine nose with a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "air-tractor",
+      "howToTell": "The Pawnee is a small strut-braced monoplane with a flat engine; the Air Tractor is bigger, cantilever and usually radial or turbine powered."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Pawnee has a strut under each wing and a slim nose; the Thrush has a cantilever wing and a blunt radial or turbine nose."
+    },
+    {
+      "id": "c188",
+      "howToTell": "Both are strut-braced low-wing sprayers; the Cessna 188 has a tall, swept Cessna fin and a deeper cowl for its larger Continental, while the Pawnee has a slimmer nose."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Pawnee is a monoplane; the Ag-Cat is a biplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-25 Pawnee"
+  ],
+  "usCount": {
+    "value": 434,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7102502",
+    "7102504",
+    "7102508"
+  ]
+}

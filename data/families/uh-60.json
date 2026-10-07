@@ -72,6 +72,10 @@
     {
       "id": "uh-1y",
       "howToTell": "The UH-1Y sits on skids with a narrow nose and an unswept fin; the Black Hawk has wheels, a tailwheel and a canted tail rotor over a low stabilator."
+    },
+    {
+      "id": "mi-8",
+      "howToTell": "The Mi-8 is a bulky machine with a blunt nose and fixed wheels; the Black Hawk has a slimmer body and a canted tail."
     }
   ],
   "difficulty": 3,
@@ -84,5 +88,14 @@
     "source": "US Army fleet ~2,300 UH/HH-60 (Army FY2026 aviation data) + USAF HH-60G/W + ~450 FAA-registered civil UH-60/S-70 (FAA registry)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8140330",
+    "8141835",
+    "8141900",
+    "8141920",
+    "8142220",
+    "8146004",
+    "8146010",
+    "8780001"
+  ]
 }

@@ -62,6 +62,10 @@
     {
       "id": "ch-47",
       "howToTell": "The CH-53E has a single seven-blade main rotor and a tail rotor; the Chinook has two tandem rotors and no tail rotor."
+    },
+    {
+      "id": "s-64",
+      "howToTell": "The S-64 is an open frame with no cabin; the CH-53E has a full enclosed cabin and a rear ramp."
     }
   ],
   "difficulty": 2,

@@ -68,9 +68,14 @@
     "North American T-28 Trojan"
   ],
   "usCount": {
-    "value": 210,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all North American T-28 model codes",
-    "asOf": "2026"
+    "value": 161,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "6402504",
+    "6402506",
+    "6402507",
+    "6402508"
+  ]
 }

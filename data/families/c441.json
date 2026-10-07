@@ -1,0 +1,84 @@
+{
+  "id": "c441",
+  "name": "Cessna 425/441 Conquest",
+  "shortName": "Conquest",
+  "aka": [
+    "Conquest",
+    "Conquest I",
+    "Conquest II",
+    "Cessna 425 Corsair",
+    "Cessna 441",
+    "Cessna 425"
+  ],
+  "manufacturer": "Cessna Aircraft / Textron",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Cessna 441 Conquest II (Garrett TPE331 turboprops)",
+    "Cessna 425 Conquest I / Corsair (Pratt & Whitney Canada PT6A turboprops)"
+  ],
+  "summary": "Pressurized twin turboprop from the Cessna 400-series piston-twin family, flown as a corporate and air-taxi aircraft; the 441 uses Garrett engines and the smaller-nacelled 425 uses PT6As.",
+  "weft": {
+    "wings": [
+      "Low, straight wing, tapered outboard",
+      "Plain wingtips with no winglets"
+    ],
+    "engines": [
+      "Two turboprops on the wing with long, slim nacelles",
+      "Large propeller spinners with three- or four-blade props"
+    ],
+    "fuselage": [
+      "Pressurized round-section cabin with small oval windows",
+      "Long, pointed nose with a sloping windshield",
+      "Stair door on the left rear of the cabin"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Tall swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Small oval cabin windows on a low-wing twin turboprop with a conventional (non-T) tail",
+    "Long, slim engine nacelles carrying turboprops on a pressurized-looking, round cabin",
+    "Long pointed nose with a gently sloping windshield"
+  ],
+  "confusedWith": [
+    {
+      "id": "c340",
+      "howToTell": "The 340/414/421 has piston engines with stub exhausts and a slightly smaller airframe; the Conquest has turboprop cowlings with big spinners and a larger, longer fuselage."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air 90 has larger rounded-square windows and a blunter, bulkier cabin; the Conquest has small oval windows and a longer, more tapered nose."
+    },
+    {
+      "id": "pa-31t",
+      "howToTell": "The Cheyenne has a Navajo-style cabin with larger squarish windows and usually wingtip tanks; the Conquest has small oval windows and a more tapered, rounder cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 441",
+    "Cessna 425"
+  ],
+  "usCount": {
+    "value": 305,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2076018",
+    "2076020"
+  ]
+}

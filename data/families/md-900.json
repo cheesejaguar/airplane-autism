@@ -1,0 +1,78 @@
+{
+  "id": "md-900",
+  "name": "MD 900 Explorer",
+  "shortName": "MD 900",
+  "aka": [
+    "MD Explorer",
+    "MD 902",
+    "MD900"
+  ],
+  "manufacturer": "MD Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1992,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "MD 900 Explorer",
+    "MD 902 Explorer"
+  ],
+  "summary": "A twin-turbine NOTAR helicopter with a five-blade rotor and no tail rotor, widely used for EMS and police work.",
+  "weft": {
+    "wings": [
+      "Five-blade bearingless main rotor"
+    ],
+    "engines": [
+      "Twin turboshafts under a hump behind the cabin",
+      "Exhausts on top at the rear"
+    ],
+    "fuselage": [
+      "Rounded pod with a large glass nose",
+      "Skids; side sliding doors"
+    ],
+    "tail": [
+      "NOTAR smooth boom with no tail rotor",
+      "Twin vertical fins at the boom end"
+    ]
+  },
+  "tellTales": [
+    "No tail rotor: smooth boom with twin fins",
+    "Five-blade rotor over a twin-engine pod",
+    "Rounded glazed nose on skids"
+  ],
+  "confusedWith": [
+    {
+      "id": "md-600n",
+      "howToTell": "The 600N has a single engine and six blades; the MD 900 has twin engines and five blades."
+    },
+    {
+      "id": "md-500",
+      "howToTell": "The MD 500 has a conventional tail rotor and a smaller egg-shaped body; the MD 900 is larger with a NOTAR boom."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 has a conventional tail rotor and four blades; the MD 900 has a NOTAR boom and five blades."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "MD Helicopters MD-900 Explorer"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3027375",
+    "3030004"
+  ]
+}

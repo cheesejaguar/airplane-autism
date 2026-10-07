@@ -66,6 +66,18 @@
     {
       "id": "citation-cj",
       "howToTell": "The Learjet has a swept fin with a bullet fairing and tip tanks/winglets; the CJ has a straight wing with plain tips."
+    },
+    {
+      "id": "learjet-55",
+      "howToTell": "The Learjet 55/60 has small winglets and a bigger cabin with no tip tanks; the 35 has large tip tanks (or winglets on the 31) and a smaller fuselage."
+    },
+    {
+      "id": "learjet-24",
+      "howToTell": "The Learjet 23/24/25 has slimmer turbojet pods and a smaller fuselage; the 35 has fatter turbofan pods and a longer body."
+    },
+    {
+      "id": "sabreliner",
+      "howToTell": "The Sabreliner has a more strongly swept wing without tip tanks and a thin oval-windowed fuselage; the Learjet 35 has wingtip tanks and ventral delta fins."
     }
   ],
   "difficulty": 4,
@@ -79,5 +91,14 @@
     "source": "FAA registry / JETNET fleet summaries (~350 active US Learjet 31/35/36, approx.) plus ~20 USAF C-21A (AMC fact sheet)",
     "asOf": "2025"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5170528",
+    "5170530",
+    "5170531",
+    "5170600",
+    "5170601",
+    "5170602",
+    "5170603",
+    "5170802"
+  ]
 }

@@ -69,6 +69,14 @@
     {
       "id": "r22",
       "howToTell": "The R22 has a two-blade rotor on a tall slender mast and a piston engine; the MD 500 has a short mast with four or five blades."
+    },
+    {
+      "id": "md-600n",
+      "howToTell": "The MD 600N has six blades, a NOTAR tail and a tall slim body; the MD 500 has five blades, a tail rotor and an egg-shaped pod."
+    },
+    {
+      "id": "md-900",
+      "howToTell": "The MD 900 is larger with twin engines and a NOTAR boom; the MD 500 has a single engine and a conventional tail rotor."
     }
   ],
   "difficulty": 2,
@@ -82,5 +90,24 @@
     "source": "FAA registry make/model inquiry (Hughes/MD 369, 500, 530, 520N) + ~50 Army MH-6M/AH-6M (FlightGlobal World Air Forces 2025)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "056266I",
+    "3027369",
+    "3027371",
+    "3027372",
+    "3027374",
+    "3030001",
+    "3030002",
+    "3030008",
+    "3030015",
+    "4470503",
+    "4470506",
+    "4470702",
+    "4470706",
+    "4470707",
+    "4470709",
+    "4470720",
+    "4470728",
+    "4470905"
+  ]
 }

@@ -62,6 +62,14 @@
     {
       "id": "p-51",
       "howToTell": "The Mustang has a pointed inline-engine nose and a belly air scoop; the Texan has a round radial nose and a long framed two-seat canopy."
+    },
+    {
+      "id": "fairchild-m62",
+      "howToTell": "The Cornell has fixed gear, a light inline-style nose and a wire-free wing; the Texan is bigger with retractable gear and a big radial."
+    },
+    {
+      "id": "bt-13",
+      "howToTell": "The BT-13 has fixed landing gear and a rounder, lower profile; the Texan has retractable gear and a taller canopy."
     }
   ],
   "difficulty": 3,
@@ -71,9 +79,35 @@
     "North American SNJ"
   ],
   "usCount": {
-    "value": 700,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~370 T-6/AT-6 + ~250 SNJ + ~90 Harvard registrations (not all airworthy)",
-    "asOf": "2026"
+    "value": 608,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1922828",
+    "6400399",
+    "6400402",
+    "6400404",
+    "6400406",
+    "6400408",
+    "6400410",
+    "6400412",
+    "6400413",
+    "6400414",
+    "6400415",
+    "6400416",
+    "6400417",
+    "6400418",
+    "6400419",
+    "6400420",
+    "6400422",
+    "6400430",
+    "6400432",
+    "6400433",
+    "6400434",
+    "6400441",
+    "6400442",
+    "6400449",
+    "6400469"
+  ]
 }

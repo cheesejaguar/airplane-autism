@@ -66,6 +66,14 @@
     {
       "id": "b777",
       "howToTell": "The 767 is much smaller with four-wheel bogies and smaller engines; the 777 has six-wheel bogies, huge engines and a blade tailcone."
+    },
+    {
+      "id": "a300",
+      "howToTell": "The A300-600 has a fatter, rounder fuselage and only small wingtip fences; the 767 is slimmer and many have tall blended winglets."
+    },
+    {
+      "id": "md-11",
+      "howToTell": "The MD-11 has a third engine in the tail; the 767 has only two wing engines."
     }
   ],
   "difficulty": 3,
@@ -75,9 +83,38 @@
     "Boeing 767-300F"
   ],
   "usCount": {
-    "value": 400,
-    "source": "Airline fleet data (FedEx, UPS, Amazon Air/ATSG, Delta, United; planespotters.net)",
-    "asOf": "2026"
+    "value": 495,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1385101",
+    "1385105",
+    "1385123",
+    "1385129",
+    "1385130",
+    "1385131",
+    "1385132",
+    "1385134",
+    "138513F",
+    "138513G",
+    "138513H",
+    "1385148",
+    "1385150",
+    "1385151",
+    "1385152",
+    "1385170",
+    "1385187",
+    "1385192",
+    "1385200",
+    "1385203",
+    "1385205",
+    "1385209",
+    "1385210",
+    "1385212",
+    "138526F",
+    "138526G",
+    "1385270",
+    "1385399"
+  ]
 }

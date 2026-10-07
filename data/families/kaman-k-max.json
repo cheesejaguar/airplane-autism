@@ -1,0 +1,66 @@
+{
+  "id": "kaman-k-max",
+  "name": "Kaman K-MAX K-1200",
+  "shortName": "K-MAX",
+  "aka": [
+    "K-1200",
+    "Kaman K-1200"
+  ],
+  "manufacturer": "Kaman Aerospace",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "cargo",
+    "heavy-lift",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "K-1200"
+  ],
+  "summary": "A unique single-seat sling-load helicopter with twin intermeshing rotors and no tail rotor.",
+  "weft": {
+    "wings": [
+      "Two intermeshing counter-rotating two-blade rotors on angled masts"
+    ],
+    "engines": [
+      "Single turboshaft behind the cockpit"
+    ],
+    "fuselage": [
+      "Narrow open-frame body behind the cockpit",
+      "Large glazed single-seat cockpit pod"
+    ],
+    "tail": [
+      "Slim tail boom with a small fin and horizontal stabilizers",
+      "No tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Two intermeshing rotors angled in a V",
+    "No tail rotor",
+    "Narrow open-frame body with a single-seat pod"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-64",
+      "howToTell": "The S-64 is much larger with a six-blade single rotor and twin engines; the K-MAX has two intermeshing rotors."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Kaman K-MAX"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "13027LS"
+  ]
+}

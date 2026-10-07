@@ -1,0 +1,137 @@
+[
+  {
+    "existingId": "citation-latitude",
+    "newId": "citation-sovereign",
+    "howToTell": "The Sovereign has a slimmer fuselage and a narrower cabin, with winglets only on the Sovereign+; the Latitude is wider and rounder."
+  },
+  {
+    "existingId": "citation-excel",
+    "newId": "citation-sovereign",
+    "howToTell": "The Citation Sovereign has a swept wing and a T-tail; the Excel has a straight wing and a low-set tailplane."
+  },
+  {
+    "existingId": "citation-ii",
+    "newId": "citation-i",
+    "howToTell": "The Citation I is the shorter, smaller original with a shorter-span wing and fewer cabin windows; the Citation II is longer with a longer-span wing."
+  },
+  {
+    "existingId": "citation-cj",
+    "newId": "citation-i",
+    "howToTell": "The Citation I has a low-set tailplane; the CitationJet has a T-tail."
+  },
+  {
+    "existingId": "citation-mustang",
+    "newId": "eclipse-500",
+    "howToTell": "The Eclipse 500 is stubbier with bulbous wingtip pods and tiny engines; the Mustang has plain wingtips and a longer cabin."
+  },
+  {
+    "existingId": "phenom-100",
+    "newId": "eclipse-500",
+    "howToTell": "The Eclipse 500 is much smaller, with a low-set tailplane and bulbous wingtip pods; the Phenom 100 has a T-tail and a longer cabin."
+  },
+  {
+    "existingId": "citation-cj",
+    "newId": "beech-390",
+    "howToTell": "The Premier I has a swept wing and round windows; the CitationJet has a straight wing and squarer windows."
+  },
+  {
+    "existingId": "phenom-300",
+    "newId": "beech-390",
+    "howToTell": "The Premier I has plain wingtips with no winglets and smaller round windows; the Phenom 300 has upturned winglets and larger oval windows."
+  },
+  {
+    "existingId": "learjet-35",
+    "newId": "learjet-55",
+    "howToTell": "The Learjet 55/60 has small winglets and a bigger cabin with no tip tanks; the 35 has large tip tanks (or winglets on the 31) and a smaller fuselage."
+  },
+  {
+    "existingId": "learjet-35",
+    "newId": "learjet-24",
+    "howToTell": "The Learjet 23/24/25 has slimmer turbojet pods and a smaller fuselage; the 35 has fatter turbofan pods and a longer body."
+  },
+  {
+    "existingId": "learjet-45",
+    "newId": "learjet-55",
+    "howToTell": "The Learjet 55/60 has a shorter, stubbier wing with small winglets and a boxier cabin; the 45 has a longer-span wing with larger winglets and a more tapered fuselage."
+  },
+  {
+    "existingId": "hawker-800",
+    "newId": "falcon-20",
+    "howToTell": "The Falcon 20 has small round windows and a low-set tailplane; the Hawker 800 has larger oval windows and a cruciform tail with a long dorsal fillet."
+  },
+  {
+    "existingId": "falcon-2000",
+    "newId": "falcon-20",
+    "howToTell": "The Falcon 20 is an older design with small round windows, plain wingtips and a low-set tailplane; the Falcon 2000 has oval windows and a cruciform tail."
+  },
+  {
+    "existingId": "g550",
+    "newId": "gulfstream-ii-iii",
+    "howToTell": "The Gulfstream II/III is shorter and older-looking with long Spey nacelles and (on the II) plain wingtips; the G550 is longer with more windows and winglets."
+  },
+  {
+    "existingId": "challenger-300",
+    "newId": "g200",
+    "howToTell": "The G200 has oval windows and a short, thick tail cone; the Challenger 300 has rounded-rectangle windows and a long tapering tail cone."
+  },
+  {
+    "existingId": "challenger-300",
+    "newId": "hawker-4000",
+    "howToTell": "The Hawker 4000 has plain wingtips with no winglets; the Challenger 300/350 has upturned winglets."
+  },
+  {
+    "existingId": "g280",
+    "newId": "g200",
+    "howToTell": "The G200 is the shorter, older design with smaller winglets; the G280 is longer with taller, more prominent winglets."
+  },
+  {
+    "existingId": "g280",
+    "newId": "hawker-4000",
+    "howToTell": "The Hawker 4000 has plain wingtips; the G280 has large winglets."
+  },
+  {
+    "existingId": "b737ng",
+    "newId": "b737-classic",
+    "howToTell": "The 737 Classic has smaller, oval engine nacelles and mostly plain wingtips; the NG has larger, rounder nacelles and usually tall winglets."
+  },
+  {
+    "existingId": "b717",
+    "newId": "md-80",
+    "howToTell": "The MD-80 is a longer stretch with slimmer JT8D nacelles; the 717 is noticeably shorter with fatter BR715 engines."
+  },
+  {
+    "existingId": "e175",
+    "newId": "e190",
+    "howToTell": "The E190/E195 is longer with a larger wing and engines; the E175 is shorter and smaller."
+  },
+  {
+    "existingId": "a220",
+    "newId": "e190",
+    "howToTell": "The E190 is a narrower, smaller regional jet with smaller winglets; the A220 is wider-bodied with large engines on pylons and tall winglets."
+  },
+  {
+    "existingId": "atr",
+    "newId": "dornier-328",
+    "howToTell": "The Dornier 328 is smaller and stubbier with a high wing, T-tail and (on the JET version) underwing turbofans; the ATR is longer with a larger wing and always has turboprops."
+  },
+  {
+    "existingId": "a330",
+    "newId": "a300",
+    "howToTell": "The A300-600 is shorter, with a fatter fuselage and tiny wingtip fences; the A330 is longer with large engines and angled winglets."
+  },
+  {
+    "existingId": "a330",
+    "newId": "md-11",
+    "howToTell": "The MD-11 has a third engine in the tail; the A330 has only two wing engines."
+  },
+  {
+    "existingId": "b767",
+    "newId": "a300",
+    "howToTell": "The A300-600 has a fatter, rounder fuselage and only small wingtip fences; the 767 is slimmer and many have tall blended winglets."
+  },
+  {
+    "existingId": "b767",
+    "newId": "md-11",
+    "howToTell": "The MD-11 has a third engine in the tail; the 767 has only two wing engines."
+  }
+]

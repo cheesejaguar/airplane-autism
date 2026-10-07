@@ -63,6 +63,10 @@
     {
       "id": "pa-34",
       "howToTell": "The Seneca has a tapered wing and a slimmer six-window cabin; the Aztec has a thick rectangular wing and a boxier fuselage."
+    },
+    {
+      "id": "pa-30",
+      "howToTell": "The Twin Comanche is slimmer and sleeker with a sloping nose and a raked fin; the Apache/Aztec is boxier with a thick wing."
     }
   ],
   "difficulty": 4,
@@ -71,9 +75,16 @@
     "Piper PA-23 Apache"
   ],
   "usCount": {
-    "value": 1300,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-23 model codes",
-    "asOf": "2026"
+    "value": 1245,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7102302",
+    "7102303",
+    "7102304",
+    "7102306",
+    "7102308",
+    "7102313"
+  ]
 }

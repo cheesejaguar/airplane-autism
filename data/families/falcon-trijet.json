@@ -74,9 +74,21 @@
     "Dassault Falcon 50"
   ],
   "usCount": {
-    "value": 480,
-    "source": "Dassault production (~1,350 Falcon 50/900/7X/8X) with ~35% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 761,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2730006",
+    "2730009",
+    "2730013",
+    "2730102",
+    "2730106",
+    "2730160",
+    "2730161",
+    "2730171",
+    "2730172",
+    "2730173",
+    "2730176"
+  ]
 }

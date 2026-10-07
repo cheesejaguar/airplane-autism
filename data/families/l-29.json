@@ -1,0 +1,80 @@
+{
+  "id": "l-29",
+  "name": "Aero L-29 Delfin",
+  "shortName": "L-29 Delfin",
+  "aka": [
+    "L-29",
+    "Delfin",
+    "Maya"
+  ],
+  "manufacturer": "Aero Vodochody",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "L-29 / L-29A",
+    "L-29R",
+    "L-29 Delfin acrobatic conversions"
+  ],
+  "summary": "Czech-built jet trainer that served as the standard Eastern Bloc trainer for 40 years and the most common ex-military jet in US private hands.",
+  "weft": {
+    "wings": [
+      "Straight, mid-set wing with rounded tips",
+      "Wing fences on the upper surface, usually no permanent tip tanks"
+    ],
+    "engines": [
+      "Single turbojet, with intakes on each side of the fuselage just ahead of the wing",
+      "One large tailpipe at the rear"
+    ],
+    "fuselage": [
+      "Pot-bellied, dolphin-like fuselage with a rounded belly",
+      "Two tandem bubble canopies with the rear seat raised",
+      "Retractable tricycle gear with a tall nose leg"
+    ],
+    "tail": [
+      "Swept-back fin with a short, rounded tip",
+      "Horizontal tail mounted mid-way on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Rounded, pot-bellied fuselage with a straight mid-mounted wing",
+    "Separate tandem canopies and side intakes like a miniature MiG",
+    "Straight (not swept) wings and a single big tailpipe"
+  ],
+  "confusedWith": [
+    {
+      "id": "l-39",
+      "howToTell": "The L-39 has a slimmer, straighter fuselage, a more tapered wing and usually wingtip tanks; the L-29 is rounder with a pot belly and no tip tanks."
+    },
+    {
+      "id": "ts-11-iskra",
+      "howToTell": "The Iskra has a longer, narrower fuselage with wing-root intakes and tip tanks; the L-29 has fuselage-side intakes and a bulbous belly."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has large tip tanks and a long canopy; the L-29 has two separate canopies and no tip tanks."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Aero L-29"
+  ],
+  "usCount": {
+    "value": 55,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056113D",
+    "0564310"
+  ]
+}

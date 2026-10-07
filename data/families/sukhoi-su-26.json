@@ -1,0 +1,83 @@
+{
+  "id": "sukhoi-su-26",
+  "name": "Sukhoi Su-26 / Su-29 / Su-31",
+  "shortName": "Su-26/29/31",
+  "aka": [
+    "Su-26",
+    "Su-26M",
+    "Su-29",
+    "Su-31"
+  ],
+  "manufacturer": "Sukhoi Design Bureau",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Su-26 / Su-26M (single seat)",
+    "Su-29 (two seat tandem)",
+    "Su-31 (single seat, carbon wing)",
+    "Su-26MX / Su-26M2 (export versions)"
+  ],
+  "summary": "Soviet unlimited aerobatic monoplane family that dominated world championships; the Su-29 is the two-seat version.",
+  "weft": {
+    "wings": [
+      "Straight mid-set monoplane wing with long ailerons and no flaps",
+      "Thin symmetrical section"
+    ],
+    "engines": [
+      "Nine-cylinder Vedeneyev M-14P radial under a round cowl",
+      "Three-blade propeller on later aircraft"
+    ],
+    "fuselage": [
+      "Single seat (Su-26, Su-31) or tandem two seats (Su-29) under a bubble canopy",
+      "Fixed gear with a curved titanium spring main leg and a tailwheel"
+    ],
+    "tail": [
+      "Large fin and rudder on a tapering fuselage"
+    ]
+  },
+  "tellTales": [
+    "Mid-wing radial-engined aerobatic monoplane with a short bubble canopy",
+    "Fixed gear with curved spring-steel main legs",
+    "Large round radial cowl on a thin symmetrical wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-55",
+      "howToTell": "The Yak-55 has a longer teardrop canopy and no root fillets; the Su-26 canopy is shorter and the wing has root fillets."
+    },
+    {
+      "id": "yak-50",
+      "howToTell": "The Yak-50 has retractable main gear and a low wing; the Su-26 has fixed spring gear and a mid-set wing."
+    },
+    {
+      "id": "extra-300",
+      "howToTell": "The Extra has a six-cylinder flat engine in a tight cowl; the Su-26 has a round radial cowl."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Sukhoi Su-26",
+    "Sukhoi Su-29"
+  ],
+  "usCount": {
+    "value": 35,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9850100",
+    "9850102",
+    "9850103",
+    "9850104",
+    "9850105"
+  ]
+}

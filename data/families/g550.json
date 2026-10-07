@@ -81,6 +81,10 @@
     {
       "id": "g280",
       "howToTell": "The GIV/G550 is a much larger long-range jet with longer nacelles and more windows; the G280 is a short super-midsize."
+    },
+    {
+      "id": "gulfstream-ii-iii",
+      "howToTell": "The Gulfstream II/III is shorter and older-looking with long Spey nacelles and (on the II) plain wingtips; the G550 is longer with more windows and winglets."
     }
   ],
   "difficulty": 5,
@@ -90,9 +94,21 @@
     "Gulfstream G550 on final approach"
   ],
   "usCount": {
-    "value": 930,
-    "source": "Gulfstream production (~1,700 GIV/G450/GV/G550) with ~50% active US-registered per JETNET fleet summaries, plus ~40 military C-20/C-37/EA-37B (approx.)",
-    "asOf": "2025"
+    "value": 1167,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3970109",
+    "3980101",
+    "3980115",
+    "3980116",
+    "3980119",
+    "3980203",
+    "3980204",
+    "3980205",
+    "3980208",
+    "3980220",
+    "3980295"
+  ]
 }

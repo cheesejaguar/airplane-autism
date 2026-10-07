@@ -1,0 +1,82 @@
+{
+  "id": "pa-42",
+  "name": "Piper PA-42 Cheyenne III/400",
+  "shortName": "Cheyenne III/400",
+  "aka": [
+    "Cheyenne III",
+    "Cheyenne IIIA",
+    "Cheyenne 400LS",
+    "PA-42-720",
+    "PA-42-1000"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1977,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PA-42 / PA-42-720 Cheyenne III (PT6A-41)",
+    "PA-42-1000 Cheyenne 400LS (Garrett TPE331)"
+  ],
+  "summary": "Piper's flagship twin turboprop, a stretched Cheyenne with a T-tail and either PT6A or TPE331 engines.",
+  "weft": {
+    "wings": [
+      "Low straight wing",
+      "Long, narrow straight wing"
+    ],
+    "engines": [
+      "Two turboprops in long slim nacelles",
+      "Large multi-blade propellers"
+    ],
+    "fuselage": [
+      "Long, narrow, Navajo-derived fuselage with a long pointed nose",
+      "Row of small, rounded cabin windows",
+      "Door with airstair at the rear left"
+    ],
+    "tail": [
+      "T-tail with the tailplane on top of the fin",
+      "Tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a low-wing Piper twin turboprop",
+    "Long fuselage with a long pointed nose and small rounded windows",
+    "Slim turboprop nacelles reaching well ahead of the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-31t",
+      "howToTell": "The PA-31T Cheyenne I/II is shorter with a low horizontal tail; the PA-42 has a T-tail and a longer fuselage."
+    },
+    {
+      "id": "king-air-350",
+      "howToTell": "The King Air 350 is larger and has bigger, rounded-square windows, a bulkier cabin and often winglets; the PA-42 is slimmer with small round windows."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air F90 also has a T-tail but a shorter, bulkier fuselage with large windows; the PA-42 is longer and slimmer."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-42 Cheyenne"
+  ],
+  "usCount": {
+    "value": 50,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7104202",
+    "7104212",
+    "7104225"
+  ]
+}

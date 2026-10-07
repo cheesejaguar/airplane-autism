@@ -66,6 +66,14 @@
     {
       "id": "da42",
       "howToTell": "The DA42 is a composite twin with long slender wings and a T-tail."
+    },
+    {
+      "id": "beech-95",
+      "howToTell": "The Travel Air looks like a smaller Baron but has a tall, upright, squared-off fin; the Baron's fin is swept back and its cabin and engines are larger."
+    },
+    {
+      "id": "beech-60",
+      "howToTell": "The Duke is a bigger, pressurized six-seater with a rounder fuselage, small rounded windows and large three-blade props; the Baron is smaller and sleeker."
     }
   ],
   "difficulty": 4,
@@ -74,9 +82,29 @@
     "Beechcraft 58 Baron"
   ],
   "usCount": {
-    "value": 2750,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~1,540 Beech 55-series + ~1,210 Beech 58-series",
-    "asOf": "2026"
+    "value": 2894,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1152702",
+    "1152703",
+    "1152704",
+    "1152705",
+    "1152706",
+    "1152708",
+    "1152729",
+    "1152730",
+    "1152732",
+    "1152736",
+    "1152738",
+    "1152740",
+    "1152744",
+    "1152746",
+    "4220005",
+    "4220032",
+    "4220042",
+    "7150003",
+    "7150060"
+  ]
 }

@@ -58,6 +58,18 @@
     {
       "id": "mooney-m20",
       "howToTell": "The Mooney has a conventional tail whose fin appears swept forward; the V35 has a V-tail."
+    },
+    {
+      "id": "bellanca-viking",
+      "howToTell": "The V35 has a V-tail; the Viking has a single tall vertical fin and a normal horizontal tail."
+    },
+    {
+      "id": "bellanca-14-19",
+      "howToTell": "The V35 has a V-tail; the Cruisemaster has three vertical fins on a conventional tail."
+    },
+    {
+      "id": "meyers-200",
+      "howToTell": "The V-tail Bonanza is obvious from its V-tail; the Meyers 200 has a conventional fin and horizontal tail."
     }
   ],
   "difficulty": 2,
@@ -65,9 +77,29 @@
     "Beechcraft 35 Bonanza"
   ],
   "usCount": {
-    "value": 5000,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): Beech 35-series V-tail model codes (excluding 35-33 Debonairs)",
-    "asOf": "2026"
+    "value": 4891,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1151502",
+    "1151504",
+    "1151506",
+    "1151508",
+    "1151510",
+    "1151512",
+    "1151514",
+    "1151516",
+    "1151518",
+    "1151520",
+    "1151522",
+    "1151524",
+    "1151526",
+    "1151528",
+    "1151530",
+    "1151532",
+    "1151538",
+    "1151544",
+    "1151548"
+  ]
 }

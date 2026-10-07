@@ -74,9 +74,14 @@
     "Embraer Praetor"
   ],
   "usCount": {
-    "value": 330,
-    "source": "Embraer deliveries (~550 Legacy 450/500 and Praetor 500/600) with ~60% US-registered, largely Flexjet, per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 290,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3260400",
+    "3260418",
+    "3260425",
+    "3260426"
+  ]
 }

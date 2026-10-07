@@ -51,10 +51,14 @@ export default function HomePage() {
   const cards = demoCards();
   const example = getFamily("f-16") ?? families[0];
   const pairs = families.reduce((n, f) => n + f.confusedWith.length, 0);
-  const marquee = families
-    .map((f) => ({ id: f.id, label: label(f), thumb: heroImage(f.id)?.srcSmall ?? "" }))
-    .filter((x) => x.thumb)
-    .slice(0, 40);
+  // Mix the most numerous civil and military types so the strip reads "fighters to floatplanes".
+  const byCount = [...families].filter((f) => heroImage(f.id)).sort((a, b) => b.usCount.value - a.usCount.value);
+  const mil = byCount.filter((f) => f.sector !== "civil");
+  const civ = byCount.filter((f) => f.sector === "civil");
+  const marquee = Array.from({ length: 20 }, (_, i) => [mil[i], civ[i]])
+    .flat()
+    .filter((f): f is (typeof families)[number] => !!f)
+    .map((f) => ({ id: f.id, label: label(f), thumb: heroImage(f.id)!.srcSmall }));
 
   return (
     <div>

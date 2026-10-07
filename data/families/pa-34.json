@@ -59,6 +59,10 @@
     {
       "id": "da42",
       "howToTell": "The DA42 is a slender composite twin with long thin wings and a T-tail; the Seneca is a metal twin with a low tail."
+    },
+    {
+      "id": "beech-76",
+      "howToTell": "The Duchess is a short four-seat T-tail twin; the Seneca has a conventional low tail and a longer six-seat cabin."
     }
   ],
   "difficulty": 4,
@@ -66,9 +70,16 @@
     "Piper PA-34 Seneca"
   ],
   "usCount": {
-    "value": 1000,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-34 model codes",
-    "asOf": "2026"
+    "value": 939,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7103202",
+    "7103223",
+    "7103404",
+    "7103405",
+    "7103406",
+    "7103420"
+  ]
 }

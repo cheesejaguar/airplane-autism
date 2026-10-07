@@ -1,0 +1,86 @@
+{
+  "id": "f8f-bearcat",
+  "name": "Grumman F8F Bearcat",
+  "shortName": "F8F Bearcat",
+  "aka": [
+    "Bearcat",
+    "Rare Bear",
+    "F8F-2"
+  ],
+  "manufacturer": "Grumman Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1944,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F8F-1",
+    "F8F-1B",
+    "F8F-2",
+    "Racing conversions"
+  ],
+  "summary": "Compact carrier fighter built around the biggest engine that would fit, the last piston fighter Grumman produced; many Bearcats race at Reno and fly in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing with a clipped look",
+      "Wide-track main gear folding inward"
+    ],
+    "engines": [
+      "Large R-2800 radial in a big round cowl",
+      "Three- or four-blade propeller"
+    ],
+    "fuselage": [
+      "Short, compact fuselage with a bubble canopy",
+      "Cockpit set far forward over the wing",
+      "Tailwheel with an arrestor hook"
+    ],
+    "tail": [
+      "Tall, sharp-edged fin and rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Compact airframe with an oversize radial nose and a tall tail",
+    "Bubble canopy set far forward on a short fuselage",
+    "Looks like a race plane: clipped wing and tall fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "f4u-corsair",
+      "howToTell": "The Corsair has inverted gull wings and a long nose; the Bearcat has a straight wing and a short, compact fuselage."
+    },
+    {
+      "id": "f4f-wildcat",
+      "howToTell": "The Wildcat has a mid wing and a stubbier shape; the Bearcat has a low wing and a longer cowl."
+    },
+    {
+      "id": "sea-fury",
+      "howToTell": "The Sea Fury is longer and slimmer; the Bearcat is shorter and stubbier."
+    },
+    {
+      "id": "p-47",
+      "howToTell": "The Thunderbolt is a larger barrel-shaped airplane with a chin intake; the Bearcat is much smaller."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman F8F Bearcat",
+    "F8F Bearcat warbirds"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3950801",
+    "3950802"
+  ]
+}

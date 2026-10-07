@@ -79,6 +79,14 @@
     {
       "id": "pc-12",
       "howToTell": "The King Air is a twin; the PC-12 is a single-engine turboprop, though both have T-tails."
+    },
+    {
+      "id": "pa-42",
+      "howToTell": "The PA-42 Cheyenne III/400 is slimmer with small rounded windows and no winglets; the King Air 350 has larger rounded-square windows, a bulkier cabin and often winglets."
+    },
+    {
+      "id": "piaggio-p180",
+      "howToTell": "The Avanti has pusher propellers on its rear-mounted main wing and small forward foreplanes; the King Air 350 has tractor props ahead of a low wing and no foreplanes."
     }
   ],
   "difficulty": 3,
@@ -92,5 +100,31 @@
     "source": "Textron Aviation production (~4,000 King Air 200/300/350 series) with ~45% active US-registered per FAA registry / JETNET (approx.), plus ~200 Army/Navy/USMC C-12/RC-12/MC-12/T-54A",
     "asOf": "2025"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1152920",
+    "1152921",
+    "1152922",
+    "1152924",
+    "1152926",
+    "1152928",
+    "1152930",
+    "1152931",
+    "1152932",
+    "1152933",
+    "4220003",
+    "4220004",
+    "4220012",
+    "4220014",
+    "4220031",
+    "4220033",
+    "4220035",
+    "4220038",
+    "4220039",
+    "4222080",
+    "7150002",
+    "7150006",
+    "7150007",
+    "7150041",
+    "7150063"
+  ]
 }

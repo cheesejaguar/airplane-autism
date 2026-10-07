@@ -64,6 +64,14 @@
     {
       "id": "s-76",
       "howToTell": "The S-76 is slim with a long pointed nose and no sponsons; the S-92 is bigger and boxier."
+    },
+    {
+      "id": "s-61",
+      "howToTell": "The S-61 has a five-blade rotor and a rounded boat-shaped hull; the S-92 has four blades and a boxy modern fuselage with a rear ramp."
+    },
+    {
+      "id": "as332",
+      "howToTell": "The Super Puma has a longer boxy cabin and a deep, blunt nose; the S-92 has a rounded fuselage and a rear loading ramp."
     }
   ],
   "difficulty": 3,
@@ -76,5 +84,7 @@
     "source": "FAA registry make/model inquiry (S-92A, ~49) + 23 VH-92A (USMC / Sikorsky)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8141832"
+  ]
 }

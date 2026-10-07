@@ -70,6 +70,14 @@
     {
       "id": "c172",
       "howToTell": "The PA-28 is a low-wing with no struts; the 172 is a strut-braced high-wing."
+    },
+    {
+      "id": "beech-musketeer",
+      "howToTell": "The PA-28 has a narrower cabin, an all-flying stabilator and a lower, squarer fin; the Musketeer has a rounder, wider cabin and a taller, more swept fin."
+    },
+    {
+      "id": "socata-tb-20",
+      "howToTell": "The PA-28 has a narrower, boxier cabin and an all-flying stabilator; the TB 20 has a rounder, wider cabin with a large wraparound windshield and retractable gear."
     }
   ],
   "difficulty": 4,
@@ -79,9 +87,32 @@
     "Piper PA-28R Arrow"
   ],
   "usCount": {
-    "value": 18600,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-28 model codes",
-    "asOf": "2026"
+    "value": 17935,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7102801",
+    "7102802",
+    "7102803",
+    "7102804",
+    "7102805",
+    "7102806",
+    "7102807",
+    "7102808",
+    "7102809",
+    "7102810",
+    "7102811",
+    "7102813",
+    "7102815",
+    "7102816",
+    "7102817",
+    "7102818",
+    "7102819",
+    "7102832",
+    "7102833",
+    "7102834",
+    "7103200",
+    "7103201"
+  ]
 }

@@ -69,9 +69,22 @@
     "Airbus Helicopters H135"
   ],
   "usCount": {
-    "value": 395,
-    "source": "FAA registry make/model inquiry (EC135 / H135 all variants)",
+    "value": 353,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5620010",
+    "5620026",
+    "5620027",
+    "5620028",
+    "5620030",
+    "5620031",
+    "5620032",
+    "5620033",
+    "5620038",
+    "5620040",
+    "8680151",
+    "8680990"
+  ]
 }

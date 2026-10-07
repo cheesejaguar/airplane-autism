@@ -1,0 +1,87 @@
+{
+  "id": "hu-16",
+  "name": "Grumman HU-16 Albatross",
+  "shortName": "HU-16 Albatross",
+  "aka": [
+    "Albatross",
+    "SA-16",
+    "UF-1",
+    "Goat"
+  ],
+  "manufacturer": "Grumman Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "seaplane",
+    "search-rescue"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "SA-16A / HU-16A",
+    "HU-16B (extended wing)",
+    "HU-16C / D / E (Navy / Coast Guard)"
+  ],
+  "summary": "Large twin-engine amphibious flying boat used for air-sea rescue by the USAF, USN and USCG; a small fleet of privately owned examples remains in flight.",
+  "weft": {
+    "wings": [
+      "High, straight wing mounted on top of the fuselage",
+      "Wingtip floats on short struts"
+    ],
+    "engines": [
+      "Two R-1820 radial engines on the wing leading edge",
+      "Round cowls with three-blade propellers"
+    ],
+    "fuselage": [
+      "Boat hull with a step and a high pilot canopy",
+      "Retractable main gear folding into the hull",
+      "Large nose with a radome on some versions"
+    ],
+    "tail": [
+      "Tall fin with a high-mounted horizontal tail (T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Large twin-radial amphibian flying boat with wingtip floats",
+    "High wing on a boat hull with a tall T-tail",
+    "Big, deep hull with retractable wheels"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-mallard",
+      "howToTell": "The Mallard is smaller with a conventional low tail and engines in the wing; the Albatross is much larger with a T-tail."
+    },
+    {
+      "id": "grumman-goose",
+      "howToTell": "The Goose is much smaller with a conventional tail; the Albatross is larger with a T-tail."
+    },
+    {
+      "id": "grumman-s-2",
+      "howToTell": "The Tracker has a conventional fuselage; the Albatross has a boat hull and wingtip floats."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 has no hull or floats; the Albatross is an amphibian."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman HU-16 Albatross"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3950405",
+    "3950408",
+    "3950411",
+    "3950414"
+  ]
+}

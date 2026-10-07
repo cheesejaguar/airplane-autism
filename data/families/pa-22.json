@@ -1,0 +1,84 @@
+{
+  "id": "pa-22",
+  "name": "Piper PA-22 Tri-Pacer / Colt",
+  "shortName": "Tri-Pacer",
+  "aka": [
+    "Tri-Pacer",
+    "Caribbean",
+    "Colt"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1950,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-22-135 / -150 / -160 Tri-Pacer (four-seat)",
+    "PA-22-150 Caribbean (1959–60)",
+    "PA-22-108 Colt (two-seat trainer)"
+  ],
+  "summary": "Fabric-covered, strut-braced high-wing four-seater with a nosewheel; the tricycle-gear sibling of the tailwheel Pacer, nicknamed the 'Flying Milk Stool'. The two-seat Colt is the same airframe with a shortened cabin.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Short, rectangular constant-chord wing with rounded tips (a 'short-wing Piper')"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a short, rounded cowling",
+      "Two-blade propeller on a small spinner or bare hub"
+    ],
+    "fuselage": [
+      "Boxy, slab-sided fabric-covered fuselage",
+      "Fixed tricycle gear with a tall nose leg and short main legs, often with wheel pants",
+      "Colt version has no rear side windows or rear door"
+    ],
+    "tail": [
+      "Tall, squared fin and rudder on a conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Short, rectangular strut-braced high wing on a boxy fabric fuselage",
+    "Tall nose leg on fixed tricycle gear below a Cub-style cabin",
+    "Squared-off tail with a tall rudder"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-20",
+      "howToTell": "The Tri-Pacer has a nosewheel; the Pacer is the same airframe with a tailwheel."
+    },
+    {
+      "id": "c172",
+      "howToTell": "The 172 has a tapered wing with metal skin and a swept fin; the Tri-Pacer has a short rectangular fabric wing, a boxy fuselage and a squared tail."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The Colt is similar in size, but has a short rectangular wing with a strut, a boxy fuselage and a squared tail; the 150 has a smoothly tapered metal wing and a smoother, rounder fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-22"
+  ],
+  "usCount": {
+    "value": 2817,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7102202",
+    "7102204",
+    "7102206",
+    "7102208",
+    "7102210",
+    "7102212",
+    "7102214"
+  ]
+}

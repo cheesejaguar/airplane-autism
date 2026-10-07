@@ -1,0 +1,77 @@
+{
+  "id": "md-600n",
+  "name": "MD 600N",
+  "shortName": "MD 600N",
+  "aka": [
+    "600N",
+    "MD600N"
+  ],
+  "manufacturer": "MD Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "ems"
+  ],
+  "branches": [],
+  "firstFlight": 1994,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "MD 600N"
+  ],
+  "summary": "A tall, slim single-turbine NOTAR helicopter with a six-blade rotor and no tail rotor; used for law enforcement and executive transport.",
+  "weft": {
+    "wings": [
+      "Six-blade fully articulated main rotor",
+      "Short mast and a wide rotor disc"
+    ],
+    "engines": [
+      "Single turboshaft behind the cabin",
+      "No tail rotor; air from the boom slot steers instead"
+    ],
+    "fuselage": [
+      "Tall slim cabin with a long glazed nose and a roomy cabin",
+      "Skids on tall legs"
+    ],
+    "tail": [
+      "NOTAR: a smooth tapered boom with no tail rotor",
+      "Twin vertical stabilizers with a horizontal stabilizer at the boom end"
+    ]
+  },
+  "tellTales": [
+    "Six-blade rotor on a slim tall body with no tail rotor",
+    "Smooth NOTAR boom with twin fins",
+    "Single turbine on a long narrow fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "md-500",
+      "howToTell": "The MD 500 has a five-blade rotor, an egg-shaped body and a conventional tail rotor; the 600N has six blades and a NOTAR tail."
+    },
+    {
+      "id": "md-900",
+      "howToTell": "The MD 900 has twin engines and a five-blade rotor; the 600N has one engine and six blades."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has a three-blade rotor and a conventional tail rotor; the 600N has six blades and no tail rotor."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "MD Helicopters MD 600"
+  ],
+  "usCount": {
+    "value": 22,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3027377",
+    "3030003"
+  ]
+}

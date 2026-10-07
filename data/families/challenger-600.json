@@ -77,9 +77,18 @@
     "Bombardier Challenger 600"
   ],
   "usCount": {
-    "value": 520,
-    "source": "Bombardier production (~1,150 CL-600 to 650) with ~45% active US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 589,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1390009",
+    "139000A",
+    "1900302",
+    "1900304",
+    "1900305",
+    "1900306",
+    "1900308",
+    "1900314"
+  ]
 }

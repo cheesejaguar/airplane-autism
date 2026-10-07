@@ -1,0 +1,88 @@
+{
+  "id": "fleet-biplane",
+  "name": "Fleet Biplane Trainers (Models 1/2/7/16)",
+  "shortName": "Fleet biplane",
+  "aka": [
+    "Fleet 2",
+    "Fleet 7",
+    "Fleet 16B Finch",
+    "Fleet Model 1",
+    "Brewster Fleet"
+  ],
+  "manufacturer": "Fleet Aircraft / Consolidated Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model 1 (Warner Scarab)",
+    "Model 2 (Kinner K-5)",
+    "Model 7",
+    "Model 16B Finch (RCAF)",
+    "Fleet 10 (Canadian Gipsy Major)"
+  ],
+  "summary": "Compact two-seat primary-training biplane of the late 1920s and 1930s, used by civil flight schools and several air forces and still flown by antiquers.",
+  "weft": {
+    "wings": [
+      "Equal-span, single-bay staggered biplane",
+      "Fabric-covered wings with wood spars and rounded tips"
+    ],
+    "engines": [
+      "Small radial engine (Kinner, Warner or similar), usually uncowled or with a ring cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits",
+      "Welded-tube fuselage with fabric covering",
+      "Fixed tailskid or tailwheel gear"
+    ],
+    "tail": [
+      "Conventional rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Compact open-cockpit tandem biplane with a small radial engine",
+    "Equal-span staggered wings with a single bay",
+    "Uncowled radial with exposed cylinders on a small, light airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger and heavier with a big radial engine; the Fleet is a small, light, small-radial biplane."
+    },
+    {
+      "id": "fairchild-kr",
+      "howToTell": "The two are alike in size and layout; the Fleet Models 2 and 7 have a distinctive looped radius rod on the port main gear leg."
+    },
+    {
+      "id": "meyers-otw",
+      "howToTell": "The Meyers OTW is a later design with a more streamlined, compact look; the Fleet is a plainer 1920s-30s trainer."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Fleet Finch",
+    "Fleet Model 2"
+  ],
+  "usCount": {
+    "value": 83,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1461102",
+    "1461202",
+    "1461204",
+    "1461502",
+    "1461512",
+    "3480502"
+  ]
+}

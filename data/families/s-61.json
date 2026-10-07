@@ -1,0 +1,88 @@
+{
+  "id": "s-61",
+  "name": "Sikorsky S-61 / SH-3 Sea King",
+  "shortName": "S-61",
+  "aka": [
+    "Sea King",
+    "SH-3",
+    "S-61N",
+    "VH-3D",
+    "CH-3"
+  ],
+  "manufacturer": "Sikorsky Aircraft",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "transport",
+    "search-rescue",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "S-61N",
+    "S-61A",
+    "S-61L",
+    "SH-3D/H Sea King",
+    "CH-3",
+    "VH-3D"
+  ],
+  "summary": "A big twin-turbine helicopter with a boat-shaped hull; flown by offshore, firefighting and heavy-lift operators and as the Navy and Marine Sea King.",
+  "weft": {
+    "wings": [
+      "Five-blade main rotor on a thick mast"
+    ],
+    "engines": [
+      "Two turboshafts side by side above the cabin on the roof",
+      "Round intakes and exhausts forming a hump over the cabin"
+    ],
+    "fuselage": [
+      "Boat-shaped hull with sponsons on each side, retractable wheels folding into the sponsons",
+      "Land-only version has no sponsons and fixed wheels",
+      "Round nose with a big windscreen and a long cabin with a row of windows"
+    ],
+    "tail": [
+      "Upswept tail pylon that folds on the Navy version",
+      "Tail rotor on one side of the pylon with a horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Boat-shaped hull with a big sponson on each side",
+    "Five-blade rotor above a hump of two roof-mounted engines",
+    "Long, round-bellied cabin with a canted tail pylon"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-92",
+      "howToTell": "The S-92 has a four-blade rotor and a modern boxy fuselage with a rear loading ramp; the S-61 has five blades and a rounded boat-shaped hull."
+    },
+    {
+      "id": "s-58",
+      "howToTell": "The S-58 has a nose-mounted engine and a four-blade rotor; the S-61 has two turbines on the roof and five blades."
+    },
+    {
+      "id": "mh-60",
+      "howToTell": "The MH-60 has four blades, a canted tail rotor and no boat hull; the S-61 has five blades and a boat-shaped body."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Sikorsky S-61N",
+    "Sikorsky S-61"
+  ],
+  "usCount": {
+    "value": 50,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2490000",
+    "8142104",
+    "814210C"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "slingsby-t67",
+  "name": "Slingsby T67 Firefly",
+  "shortName": "T67 Firefly",
+  "aka": [
+    "T-3A Firefly",
+    "Firefly",
+    "RF-6B",
+    "Fournier RF-6"
+  ],
+  "manufacturer": "Slingsby Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1982,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "T67A / T67B",
+    "T67C / T67M",
+    "T67M Mk II / M260",
+    "T-3A Firefly (USAF)"
+  ],
+  "summary": "British side-by-side aerobatic trainer derived from the Fournier RF-6B, built in composite and used by the RAF, USAF as the T-3A and flying schools; ex-service examples are now privately owned.",
+  "weft": {
+    "wings": [
+      "Low, straight tapered wing with rounded tips",
+      "Composite (GRP) construction with a smooth finish"
+    ],
+    "engines": [
+      "Single Lycoming flat-four (or Continental) with a two or three-blade propeller",
+      "Narrow, smooth cowl"
+    ],
+    "fuselage": [
+      "Large bubble canopy over side-by-side seats",
+      "Fixed tricycle gear with wheel fairings",
+      "Smooth fuselage tapering to the tail"
+    ],
+    "tail": [
+      "Swept fin and rudder",
+      "Horizontal tail mounted on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Big bubble canopy over side-by-side seats on a smooth composite low-wing",
+    "Fixed tricycle gear with wheel fairings and a swept fin",
+    "Sleek, clean aerobatic trainer look"
+  ],
+  "confusedWith": [
+    {
+      "id": "bulldog",
+      "howToTell": "The Bulldog is an angular metal airplane with a tall swept fin; the Firefly is a smooth composite with a more rounded look."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a more rounded canopy and fuselage with a T-tail-like profile; the Firefly has a bigger bubble and a slimmer body."
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The P-Mentor is a metal-and-carbon trainer with a different canopy; the Firefly is an all-composite with a larger bubble canopy."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Slingsby T.67 Firefly"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8323003",
+    "8323005",
+    "8323050"
+  ]
+}

@@ -62,6 +62,18 @@
     {
       "id": "ercoupe",
       "howToTell": "The Ercoupe has twin tail fins; the Grumman has a single fin."
+    },
+    {
+      "id": "ga-7",
+      "howToTell": "The Cougar has an engine on each wing and a side door; the AA-1/AA-5 has one engine and a sliding canopy."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The AA-5 has a conventional tail and a sliding canopy; the Tomahawk has a T-tail and hinged doors."
+    },
+    {
+      "id": "beech-musketeer",
+      "howToTell": "The AA-5 has a sliding bubble canopy and a shorter, rounder fuselage; the Musketeer has a hinged-cabin four-seat layout and a taller swept fin."
     }
   ],
   "difficulty": 4,
@@ -71,9 +83,23 @@
     "Grumman American AA-1"
   ],
   "usCount": {
-    "value": 2450,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~1,730 AA-5-series + ~720 AA-1-series",
-    "asOf": "2026"
+    "value": 2499,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0630610",
+    "0630710",
+    "0630820",
+    "0631410",
+    "3960100",
+    "3960103",
+    "3960104",
+    "3960105",
+    "3960106",
+    "3970104",
+    "3970106",
+    "3990100",
+    "3990101"
+  ]
 }

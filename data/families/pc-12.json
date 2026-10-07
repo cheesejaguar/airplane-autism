@@ -73,6 +73,10 @@
     {
       "id": "c208",
       "howToTell": "The PC-12 has a low wing, T-tail and retractable gear; the Caravan has a strut-braced high wing, low tail and fixed gear."
+    },
+    {
+      "id": "epic-e1000",
+      "howToTell": "The Epic has a smooth, tapered composite fuselage, large oval windows and a low tailplane; the PC-12 has a T-tail and a boxy, slab-sided fuselage."
     }
   ],
   "difficulty": 2,
@@ -82,9 +86,18 @@
     "Pilatus U-28"
   ],
   "usCount": {
-    "value": 1050,
-    "source": "Pilatus deliveries (~2,200 PC-12) with ~45% US-registered per FAA registry / JETNET (approx.), plus ~26 USAF U-28A (AFSOC)",
-    "asOf": "2025"
+    "value": 1334,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7090051",
+    "7090463",
+    "7090503",
+    "7090504",
+    "7090550",
+    "7090551",
+    "7090552",
+    "7090553"
+  ]
 }

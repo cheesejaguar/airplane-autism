@@ -56,6 +56,18 @@
     {
       "id": "t-28",
       "howToTell": "The T-6 has a slim turboprop nose with side exhaust stacks; the T-28 has a big round radial-engine cowling."
+    },
+    {
+      "id": "emb-312",
+      "howToTell": "The Tucano has a shorter nose and a lower, longer canopy; the T-6 Texan II has a taller canopy hump and a longer nose."
+    },
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a three-blade propeller, a smaller airframe and a lower canopy; the T-6 Texan II has a four-blade propeller and a bigger airframe."
+    },
+    {
+      "id": "pc-9",
+      "howToTell": "The PC-9 is the smaller, sleeker airplane the T-6 Texan II was derived from, with a lower canopy and a smaller tail; the T-6 is larger and heavier-looking."
     }
   ],
   "difficulty": 3,

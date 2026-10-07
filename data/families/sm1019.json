@@ -1,0 +1,80 @@
+{
+  "id": "sm1019",
+  "name": "SIAI-Marchetti SM.1019",
+  "shortName": "SM.1019",
+  "aka": [
+    "SM.1019E",
+    "L1019",
+    "Italian Bird Dog"
+  ],
+  "manufacturer": "SIAI-Marchetti",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1969,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "SM.1019 / SM.1019A",
+    "SM.1019B / SM.1019E (Italian Army)"
+  ],
+  "summary": "Italian turboprop conversion of the Cessna O-1 Bird Dog with an Allison 250 turbine, a long pointed nose and a new tail, built for the Italian Army and now owned privately by a few US pilots.",
+  "weft": {
+    "wings": [
+      "High, strut-braced wing with big flaps",
+      "Hardpoints under the wing on military examples"
+    ],
+    "engines": [
+      "Single Allison 250 turboprop with a long, pointed nose and a three-blade propeller",
+      "Exhaust stacks on each side of the nose"
+    ],
+    "fuselage": [
+      "Bird Dog-style tandem cabin with huge glazing",
+      "Spring-steel main gear legs on a tailwheel layout",
+      "Slender rear fuselage"
+    ],
+    "tail": [
+      "Revised tall, squared tail with a dorsal fin",
+      "Braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Bird Dog silhouette with a long turbine nose and a three-blade propeller",
+    "Tandem high-wing with huge side windows and a long snout",
+    "Exhaust stacks on the nose of a small spotter airplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "c305",
+      "howToTell": "The Bird Dog has a short stubby piston cowl and a two-blade propeller; the SM.1019 has a long turbine nose and a new tail."
+    },
+    {
+      "id": "stinson-l-5",
+      "howToTell": "The L-5 has a smooth piston cowl and rounded tail; the SM.1019 has a long turbine nose and a squared tail."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub has a short piston nose and a rounded tail; the SM.1019 has a long turboprop nose and a bigger airframe."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "SIAI-Marchetti SM.1019"
+  ],
+  "usCount": {
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8120410",
+    "8121215",
+    "8121222"
+  ]
+}

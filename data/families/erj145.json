@@ -72,9 +72,19 @@
     "Embraer ERJ 135"
   ],
   "usCount": {
-    "value": 120,
-    "source": "Operator fleet data (CommuteAir 59, JSX, Contour; Airdata News / planespotters.net)",
-    "asOf": "2026"
+    "value": 420,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3260210",
+    "3260212",
+    "3260214",
+    "3260221",
+    "3260302",
+    "3260305",
+    "3260306",
+    "3260307",
+    "3260308"
+  ]
 }

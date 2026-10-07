@@ -57,6 +57,26 @@
     {
       "id": "thrush",
       "howToTell": "The Air Tractor usually shows a longer, higher-aspect-ratio wing and a leaner look; the Thrush appears shorter and stockier with a tall, boxy multi-pane cockpit canopy."
+    },
+    {
+      "id": "pa-25",
+      "howToTell": "The Air Tractor is a large cantilever monoplane with a radial or turbine nose; the Pawnee is a small strut-braced monoplane with a flat engine."
+    },
+    {
+      "id": "c188",
+      "howToTell": "The Air Tractor is bigger, cantilever and radial or turbine powered; the Cessna 188 is a small strut-braced low-wing with a flat engine."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Air Tractor is a monoplane; the Ag-Cat is a biplane."
+    },
+    {
+      "id": "pa-36",
+      "howToTell": "The Air Tractor is bigger and heavier, with a taller cockpit and usually a radial or turbine nose; the PA-36 is a slimmer flat-engine piston plane."
+    },
+    {
+      "id": "pzl-m-18",
+      "howToTell": "The Air Tractor has a taller cockpit and usually a turbine or smaller radial; the PZL M-18 has a large round radial cowl and a long glazed cockpit."
     }
   ],
   "difficulty": 5,
@@ -66,9 +86,26 @@
     "Air Tractor AT-802 in flight"
   ],
   "usCount": {
-    "value": 1800,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Air Tractor AT-model codes",
-    "asOf": "2026"
+    "value": 1670,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0390103",
+    "0390202",
+    "0390203",
+    "0390204",
+    "0390205",
+    "0390206",
+    "0390207",
+    "0390208",
+    "0390302",
+    "0390303",
+    "0390305",
+    "0390306",
+    "0390307",
+    "0390308",
+    "0390309",
+    "0390310"
+  ]
 }

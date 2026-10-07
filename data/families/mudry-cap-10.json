@@ -1,0 +1,78 @@
+{
+  "id": "mudry-cap-10",
+  "name": "Mudry CAP 10",
+  "shortName": "CAP 10",
+  "aka": [
+    "CAP 10B",
+    "CAP 10C",
+    "CAP 10",
+    "Mudry CAP 10B"
+  ],
+  "manufacturer": "Avions Mudry et Cie",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1968,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "CAP 10 (prototype series)",
+    "CAP 10B (ventral fin, enlarged rudder)",
+    "CAP 10C (carbon-fibre spar)"
+  ],
+  "summary": "French two-seat side-by-side aerobatic trainer used by air forces and aerobatic schools; wooden construction with a distinctive ventral fin.",
+  "weft": {
+    "wings": [
+      "Low-set cantilever wing with large ailerons",
+      "Constant-chord inner panels"
+    ],
+    "engines": [
+      "Cowled four-cylinder Lycoming AEIO-360",
+      "Two-blade wooden propeller"
+    ],
+    "fuselage": [
+      "Two seats side by side under a large bubble canopy",
+      "Fixed tailwheel gear with sprung main legs"
+    ],
+    "tail": [
+      "Small ventral fin below the rear fuselage and a large rudder"
+    ]
+  },
+  "tellTales": [
+    "Low-wing aerobatic taildragger with two seats side by side",
+    "Large bubble canopy over a short, cowled four-cylinder engine",
+    "Small ventral fin under the tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "extra-300",
+      "howToTell": "The Extra has tandem seats (or one seat) and a six-cylinder engine with a three-blade prop; the CAP 10 has side-by-side seats and a two-blade prop."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria is a high-wing tandem taildragger; the CAP 10 is a low-wing with side-by-side seats."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has tricycle gear and a flat wide canopy; the CAP 10 is a taildragger with a ventral fin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Mudry CAP-10"
+  ],
+  "usCount": {
+    "value": 18,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0950102"
+  ]
+}

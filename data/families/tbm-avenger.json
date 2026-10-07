@@ -59,6 +59,10 @@
     {
       "id": "t-28",
       "howToTell": "The T-28 is a slim trainer on tricycle gear; the Avenger is a deep-bellied taildragger with a rear ball turret."
+    },
+    {
+      "id": "f4f-wildcat",
+      "howToTell": "The Wildcat is a small single-seat fighter with a stubby body and narrow-track gear; the Avenger is a much bigger bomber with a bulbous fuselage."
     }
   ],
   "difficulty": 2,
@@ -67,9 +71,12 @@
     "Grumman TBF Avenger"
   ],
   "usCount": {
-    "value": 25,
-    "source": "Vintage Aviation News / warbirdregistry.org Avenger registry (~25 airworthy in US); FAA registry ~40 registered",
-    "asOf": "2026"
+    "value": 34,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3950308",
+    "3950310"
+  ]
 }

@@ -64,6 +64,18 @@
     {
       "id": "pc-12",
       "howToTell": "The Caravan has a strut-braced high wing and fixed gear; the PC-12 has a low wing, retractable gear and a T-tail."
+    },
+    {
+      "id": "c408",
+      "howToTell": "The SkyCourier is a twin with a T-tail and a deeper, wider fuselage; the Caravan is a smaller single with a low tail."
+    },
+    {
+      "id": "pac-750xl",
+      "howToTell": "The 750XL is a boxier, slab-sided aircraft with no pod; the Caravan has a rounder, tapered body and often a cargo pod under the belly."
+    },
+    {
+      "id": "pc-6",
+      "howToTell": "The Porter is a tailwheel aircraft with a long, tapering nose; the Caravan has fixed tricycle gear."
     }
   ],
   "difficulty": 2,
@@ -72,9 +84,14 @@
     "Cessna 208 on final approach"
   ],
   "usCount": {
-    "value": 1060,
-    "source": "FAA registry active aircraft (Cessna and Textron Aviation 208/208B via myplane.com)",
-    "asOf": "2026"
+    "value": 917,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2073701",
+    "2073702",
+    "2073712",
+    "207371A"
+  ]
 }

@@ -55,6 +55,10 @@
     {
       "id": "c206",
       "howToTell": "The 206 has wing struts, fixed gear and a double cargo door; the 210 has a clean strutless wing and retractable gear."
+    },
+    {
+      "id": "c177",
+      "howToTell": "The 210 is a bigger six-seater with a larger cowl and a conventional tail; the 177RG is a four-seat strutless airplane with a one-piece stabilator."
     }
   ],
   "difficulty": 3,
@@ -63,9 +67,36 @@
     "Cessna 210L"
   ],
   "usCount": {
-    "value": 3250,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 210 model codes",
-    "asOf": "2026"
+    "value": 2901,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2073402",
+    "2073408",
+    "2073410",
+    "2073412",
+    "2073414",
+    "2073416",
+    "2073418",
+    "2073422",
+    "2073430",
+    "2073432",
+    "2073436",
+    "2073438",
+    "2073439",
+    "2073440",
+    "2073446",
+    "2073447",
+    "2073448",
+    "2073449",
+    "2073450",
+    "2073451",
+    "2073453",
+    "2073454",
+    "2073455",
+    "2073456",
+    "2073459",
+    "2073462"
+  ]
 }

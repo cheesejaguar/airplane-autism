@@ -60,6 +60,22 @@
     {
       "id": "c208",
       "howToTell": "The Twin Otter has two wing-mounted engines; the Caravan has a single engine in the nose."
+    },
+    {
+      "id": "c408",
+      "howToTell": "The SkyCourier has a T-tail, a deeper fuselage and a short blunt nose; the Twin Otter has a conventional low tail and a long pointed nose."
+    },
+    {
+      "id": "short-skyvan",
+      "howToTell": "The Skyvan has twin fins and a far boxier, slab-sided fuselage; the Twin Otter has a single fin."
+    },
+    {
+      "id": "dornier-228",
+      "howToTell": "The Dornier 228 has an unbraced wing and a long pointed nose; the Twin Otter has a strut on each wing."
+    },
+    {
+      "id": "casa-212",
+      "howToTell": "The C-212 has an unbraced high wing, a rear loading ramp and an upswept tail; the Twin Otter has wing struts and no rear ramp."
     }
   ],
   "difficulty": 2,
@@ -68,9 +84,15 @@
     "De Havilland Canada DHC-6 Twin Otter on final approach"
   ],
   "usCount": {
-    "value": 120,
-    "source": "FAA registry active aircraft (de Havilland and Viking Air DHC-6 models via myplane.com)",
-    "asOf": "2026"
+    "value": 92,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2802606",
+    "2802610",
+    "2802620",
+    "2802630",
+    "9502640"
+  ]
 }

@@ -1,0 +1,77 @@
+{
+  "id": "yak-18t",
+  "name": "Yakovlev Yak-18T",
+  "shortName": "Yak-18T",
+  "aka": [
+    "Yak-18",
+    "Max"
+  ],
+  "manufacturer": "Yakovlev",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Yak-18T",
+    "Yak-18TD"
+  ],
+  "summary": "Four-seat Soviet-era trainer with a 360-hp M-14P radial and retractable tricycle gear, used by Aeroflot and flying clubs and now flown privately in the US.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with rounded tips",
+      "Gear that folds into the wing"
+    ],
+    "engines": [
+      "Nine-cylinder M-14P radial in a round cowl",
+      "Two or three-blade propeller"
+    ],
+    "fuselage": [
+      "Four seats under a long bubble canopy",
+      "Retractable tricycle gear with the nose wheel partly exposed",
+      "Deep, rounded cabin section"
+    ],
+    "tail": [
+      "Large swept fin with a dorsal fairing",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Four-seat low-wing with a round radial nose and a long bubble canopy",
+    "Retractable gear with the nose wheel peeking out",
+    "Tall swept fin with a large dorsal fairing"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-52",
+      "howToTell": "The Yak-52 is a two-seat tandem airplane with a smaller canopy; the Yak-18T is a four-seater with a longer canopy."
+    },
+    {
+      "id": "cj-6",
+      "howToTell": "The CJ-6 is a two-seat tandem airplane with a smaller canopy; the Yak-18T has four seats."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The Cessna 182 is a high-wing; the Yak-18T is a low-wing with a radial."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Yakovlev Yak-18T"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9830120"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "pc-6",
+  "name": "Pilatus PC-6 Porter",
+  "shortName": "PC-6 Porter",
+  "aka": [
+    "Pilatus Porter",
+    "Turbo Porter",
+    "PC-6/B2-H4",
+    "PC-6/B2-H2",
+    "Porter",
+    "UV-20 Chiricahua"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PC-6/B2-H2 / H4 (Turbo Porter, PT6A)",
+    "Piston-engined PC-6 Porter (early)"
+  ],
+  "summary": "Swiss STOL utility turboprop with a long nose, a high wing on a strut and a taildragger layout, used for skydiving, bush flying and survey work.",
+  "weft": {
+    "wings": [
+      "High wing with a single strut on each side",
+      "Large flaps along the trailing edge"
+    ],
+    "engines": [
+      "Single PT6A turboprop in a long, tapering nose with exhaust stubs",
+      "Three- or four-blade propeller"
+    ],
+    "fuselage": [
+      "Slab-sided, boxy cabin behind a very long nose",
+      "Tailwheel (taildragger) gear with long main legs",
+      "Large windows and big side doors"
+    ],
+    "tail": [
+      "Tall fin and rudder",
+      "Conventional tailplane"
+    ]
+  },
+  "tellTales": [
+    "Long pointed turboprop nose on a boxy high-wing taildragger",
+    "Single strut per side on a high wing",
+    "Tall fin and a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-2",
+      "howToTell": "The Beaver has a short, round radial-engine nose and a two-blade prop; the Porter has a long, tapering turboprop nose."
+    },
+    {
+      "id": "dhc-3",
+      "howToTell": "The Otter is larger and has a round radial nose; the Porter has a long turbine nose."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The Caravan has tricycle gear; the Porter is a tailwheel aircraft."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Pilatus PC-6 Porter"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7090213",
+    "7090215"
+  ]
+}

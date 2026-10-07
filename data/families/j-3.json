@@ -63,6 +63,18 @@
     {
       "id": "citabria",
       "howToTell": "The Citabria has a squared-off tail, squared wingtips and spring-steel gear legs; the J-3 has a rounded tail and V-strut gear."
+    },
+    {
+      "id": "stinson-l-5",
+      "howToTell": "The L-4/J-3 Cub is a tiny narrow-fuselage airplane with a squared tail; the larger L-5 has a long glazed cabin and a six-cylinder cowl."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The J-3 seats two in tandem under a narrow roof; the Taylorcraft seats two side by side in a wider cabin."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The J-3 seats two in tandem in a narrow fuselage; the Chief seats two side by side in a deep, round-sided cabin."
     }
   ],
   "difficulty": 3,
@@ -70,9 +82,26 @@
     "Piper J-3 Cub"
   ],
   "usCount": {
-    "value": 3700,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper J3 model codes",
-    "asOf": "2026"
+    "value": 3594,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7100502",
+    "7100503",
+    "7100506",
+    "7100510",
+    "7100516",
+    "7100518",
+    "7100520",
+    "7100521",
+    "7100525",
+    "7100526",
+    "7100527",
+    "7100528",
+    "7100532",
+    "7100536",
+    "7100542",
+    "7100546"
+  ]
 }

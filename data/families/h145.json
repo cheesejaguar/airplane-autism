@@ -70,6 +70,14 @@
     {
       "id": "aw139",
       "howToTell": "The AW139 is larger with five blades, retractable wheels and sponsons; the H145 sits on skids."
+    },
+    {
+      "id": "bk117",
+      "howToTell": "The BK 117 is a smaller, boxier pod; the H145 is larger with a longer, sleeker cabin and a different nose."
+    },
+    {
+      "id": "bo-105",
+      "howToTell": "The Bo 105 is a short stubby pod with a very short mast; the H145 is much larger with sliding doors."
     }
   ],
   "difficulty": 4,
@@ -83,5 +91,13 @@
     "source": "US Army ~470 UH-72A/B (Army 2025) + ~270 FAA-registered EC145/H145 (BK117 C-2/D-2/D-3)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1145009",
+    "3940080",
+    "5620025",
+    "5620034",
+    "5620036",
+    "5620037",
+    "5626002"
+  ]
 }

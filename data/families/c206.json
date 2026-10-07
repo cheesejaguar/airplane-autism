@@ -64,6 +64,10 @@
     {
       "id": "kodiak",
       "howToTell": "The Kodiak has a long turboprop nose and a very large square-topped fin; the 206 has a piston cowl and a swept fin."
+    },
+    {
+      "id": "gippsaero-ga8",
+      "howToTell": "The 206 is smaller with a shorter cabin and a lower body; the GippsAero GA8 has a much taller, longer, boxier fuselage."
     }
   ],
   "difficulty": 4,
@@ -72,9 +76,48 @@
     "Cessna 207"
   ],
   "usCount": {
-    "value": 2400,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~2,230 Cessna 206 + ~180 Cessna 207",
-    "asOf": "2026"
+    "value": 2845,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2073202",
+    "2073204",
+    "2073301",
+    "2073302",
+    "2073303",
+    "2073304",
+    "2073306",
+    "2073308",
+    "2073309",
+    "2073310",
+    "2073311",
+    "2073312",
+    "2073313",
+    "2073316",
+    "2073318",
+    "2073322",
+    "2073324",
+    "2073332",
+    "2073333",
+    "2073334",
+    "2073338",
+    "2073340",
+    "2073342",
+    "2073343",
+    "2073344",
+    "2073346",
+    "2073350",
+    "2073353",
+    "2073356",
+    "2073357",
+    "2073404",
+    "2073406",
+    "2073602",
+    "2073604",
+    "2073605",
+    "2073612",
+    "2073614",
+    "2073615"
+  ]
 }

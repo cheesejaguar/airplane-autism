@@ -57,6 +57,10 @@
     {
       "id": "t-45",
       "howToTell": "The T-38 has two engines and a needle nose on a waisted body; the T-45 has one engine, a blunter nose and a drooping tailplane."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 is a straight-wing, single-engine jet with big tip tanks and a very long canopy; the T-38 has swept wings, twin engines and a sleek pointed nose."
     }
   ],
   "difficulty": 4,

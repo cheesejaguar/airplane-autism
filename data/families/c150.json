@@ -64,6 +64,18 @@
     {
       "id": "luscombe-8",
       "howToTell": "The Luscombe is a taildragger; the 150/152 sits on tricycle gear."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 150 sits on tricycle gear with a nosewheel; the 120/140 is a tailwheel aircraft with a nose-high stance and spring-steel gear legs."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Tomahawk is a low-wing with a T-tail."
+    },
+    {
+      "id": "beech-77",
+      "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Skipper is a low-wing with a T-tail."
     }
   ],
   "difficulty": 3,
@@ -72,9 +84,29 @@
     "Cessna 152"
   ],
   "usCount": {
-    "value": 9900,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~8,200 Cessna 150 + ~1,700 Cessna 152",
-    "asOf": "2026"
+    "value": 9532,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2071802",
+    "2071804",
+    "2071806",
+    "2071808",
+    "2071810",
+    "2071812",
+    "2071814",
+    "2071816",
+    "2071818",
+    "2071820",
+    "2071822",
+    "2071824",
+    "2071826",
+    "2071828",
+    "2071830",
+    "2071831",
+    "2071835",
+    "2071836",
+    "7530132"
+  ]
 }

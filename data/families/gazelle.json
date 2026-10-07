@@ -1,0 +1,85 @@
+{
+  "id": "gazelle",
+  "name": "Aérospatiale SA341/342 Gazelle",
+  "shortName": "Gazelle",
+  "aka": [
+    "SA341",
+    "SA342",
+    "Aérospatiale Gazelle"
+  ],
+  "manufacturer": "Aérospatiale / Eurocopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "SA341G/F",
+    "SA342J",
+    "SA342K/L",
+    "SA342M"
+  ],
+  "summary": "A fast, slender French light helicopter, best known for the first production fenestron tail and widely flown by civilian collectors and military operators.",
+  "weft": {
+    "wings": [
+      "Three-blade rigid-looking main rotor with a low mast fairing"
+    ],
+    "engines": [
+      "Single turboshaft behind the cabin with a short exhaust on the roof",
+      "Intake and exhaust on the upper rear"
+    ],
+    "fuselage": [
+      "Slim, tapered fuselage with a big glazed nose and pointed profile",
+      "Five seats, skids on short struts",
+      "Large front doors and rear doors"
+    ],
+    "tail": [
+      "Fenestron (ducted fan) in the vertical fin with a small stabilizer",
+      "Narrow tapering boom"
+    ]
+  },
+  "tellTales": [
+    "Ducted tail fan on a narrow, tapered single-turbine helicopter",
+    "Slim fuselage with a pointed glazed nose",
+    "Three-blade rotor and skids, no wheels"
+  ],
+  "confusedWith": [
+    {
+      "id": "ec120",
+      "howToTell": "The EC120 has a rounder, bulbous egg-shaped nose and larger cabin; the Gazelle is slimmer and more angular."
+    },
+    {
+      "id": "as365",
+      "howToTell": "The Dauphin is a big twin-engine helicopter with retractable wheels; the Gazelle is a small single-engine helicopter on skids."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has a conventional tail rotor and a tall boxy cabin; the Gazelle has a ducted fan and a slimmer, tapered body."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Aérospatiale SA 341/SA 342 Gazelle",
+    "Westland Gazelle"
+  ],
+  "usCount": {
+    "value": 42,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680610",
+    "8680701",
+    "8680828",
+    "8680831",
+    "8680998",
+    "868099B"
+  ]
+}

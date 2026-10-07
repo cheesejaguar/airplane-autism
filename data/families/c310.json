@@ -61,6 +61,10 @@
     {
       "id": "pa-23",
       "howToTell": "The Aztec has a boxy slab-sided fuselage, a thick constant-chord wing and plain wingtips; the 310 is sleeker with tip tanks."
+    },
+    {
+      "id": "c402",
+      "howToTell": "The 402 is a bigger, longer-cabin twin seating six to ten; the 310 is smaller and slimmer."
     }
   ],
   "difficulty": 3,
@@ -68,9 +72,38 @@
     "Cessna 310"
   ],
   "usCount": {
-    "value": 1600,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 310 model codes",
-    "asOf": "2026"
+    "value": 1708,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2073820",
+    "2074202",
+    "2074204",
+    "2074208",
+    "2074210",
+    "2074212",
+    "2074214",
+    "2074216",
+    "2074218",
+    "2074220",
+    "2074224",
+    "2074226",
+    "2074228",
+    "2074230",
+    "2074234",
+    "2074238",
+    "2074240",
+    "2074242",
+    "2074244",
+    "2074245",
+    "2074246",
+    "2074502",
+    "2074506",
+    "2074508",
+    "2074510",
+    "2074512",
+    "2074514",
+    "2074516"
+  ]
 }

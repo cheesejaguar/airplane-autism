@@ -1,0 +1,75 @@
+{
+  "id": "bae-146",
+  "name": "BAe 146 / Avro RJ",
+  "shortName": "BAe 146/Avro RJ",
+  "aka": [
+    "BAe 146",
+    "Avro RJ70",
+    "Avro RJ85",
+    "Avro RJ100",
+    "Jumbolino"
+  ],
+  "manufacturer": "British Aerospace / BAE Systems",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1981,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "BAe 146-100/200/300",
+    "Avro RJ70/85/100",
+    "BAe 146 freighter (QT)"
+  ],
+  "summary": "A quiet four-engine regional jet with a high wing, known for steep approaches; US examples are mostly cargo conversions and firefighting tankers.",
+  "weft": {
+    "wings": [
+      "High-mounted, moderately swept wing with plain tips",
+      "No winglets"
+    ],
+    "engines": [
+      "Four small turbofans in pods hung under the high wing"
+    ],
+    "fuselage": [
+      "Short landing gear that keeps the cabin close to the ground",
+      "Rounded nose with a deep fuselage and an airbrake at the tail cone"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "Four engines under a high wing on a small airliner",
+    "T-tail with a high wing and a short, stubby fuselage",
+    "Aircraft sits low to the ground"
+  ],
+  "confusedWith": [
+    {
+      "id": "atr",
+      "howToTell": "The ATR has two turboprops and propellers; the BAe 146 has four jet engines under a high wing."
+    },
+    {
+      "id": "dornier-328",
+      "howToTell": "The Dornier 328 has two engines; the BAe 146 has four."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Avro RJ",
+    "Avro RJ85"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1500097",
+    "1500266"
+  ]
+}

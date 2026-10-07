@@ -80,5 +80,7 @@
     "source": "FlightGlobal World Air Forces 2026 (USAF, USMC KC-130J, USCG HC-130J)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5264153"
+  ]
 }

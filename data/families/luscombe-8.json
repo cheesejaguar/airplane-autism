@@ -60,6 +60,18 @@
     {
       "id": "citabria",
       "howToTell": "The Citabria is fabric-covered with tandem seats and a squared tail; the Luscombe is all-metal with a rounded tail."
+    },
+    {
+      "id": "rearwin-skyranger",
+      "howToTell": "The Luscombe is all-metal with a polished skin and a V-strut; the Rearwin is fabric-covered with older 1930s styling."
+    },
+    {
+      "id": "funk-b",
+      "howToTell": "The Luscombe is all-metal with a V-strut; the Funk is fabric-covered with a single strut."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The Luscombe has short oleo-style struts with exposed rubber cord and an all-metal rounded fuselage; the 120/140 has flat spring-steel gear legs and squarer lines."
     }
   ],
   "difficulty": 4,
@@ -68,9 +80,24 @@
     "Luscombe 8A Silvaire"
   ],
   "usCount": {
-    "value": 1450,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Luscombe 8 model codes",
-    "asOf": "2026"
+    "value": 1553,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8190102",
+    "8190104",
+    "8190106",
+    "8190108",
+    "8190110",
+    "8190112",
+    "8190114",
+    "8190116",
+    "8190120",
+    "8190124",
+    "8190128",
+    "8190130",
+    "8190132",
+    "8190154"
+  ]
 }

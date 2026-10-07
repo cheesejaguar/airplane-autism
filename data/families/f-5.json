@@ -62,6 +62,10 @@
     {
       "id": "f-16",
       "howToTell": "The F-5 has small side intakes and two exhausts; the F-16 has a big chin intake under the nose and one large exhaust."
+    },
+    {
+      "id": "mirage-f1",
+      "howToTell": "The Mirage F1 is a single-engine jet with a strongly swept high-set wing and a long pointed nose; the F-5 is a smaller twin-engine jet with a thin straight-edged wing and a shark nose."
     }
   ],
   "difficulty": 4,
@@ -75,5 +79,9 @@
     "source": "NAVAIR adversary program / Seapower Magazine (44 F-5N/F plus ex-Swiss additions)",
     "asOf": "2025"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1900315",
+    "645035E",
+    "645035F"
+  ]
 }

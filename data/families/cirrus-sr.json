@@ -61,6 +61,18 @@
     {
       "id": "pa-28",
       "howToTell": "The PA-28 is a riveted metal airplane with a single right door and a stabilator; the Cirrus is a smooth composite with doors on both sides."
+    },
+    {
+      "id": "da50",
+      "howToTell": "The DA50 has a T-tail; the Cirrus has a conventional low tailplane."
+    },
+    {
+      "id": "cessna-400",
+      "howToTell": "The SR series has a parachute hatch on the rear deck; the Corvalis has no parachute cover and a smoother, more sloping windshield."
+    },
+    {
+      "id": "pipistrel-panthera",
+      "howToTell": "The SR20/22 has fixed gear and a parachute hatch on the roof; the Pipistrel Panthera has retractable gear and a long slender wing."
     }
   ],
   "difficulty": 3,
@@ -69,9 +81,13 @@
     "Cirrus SR20"
   ],
   "usCount": {
-    "value": 8700,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): Cirrus SR20 / SR22 / SR22T",
-    "asOf": "2026"
+    "value": 8161,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2130000",
+    "2130001",
+    "2130004"
+  ]
 }

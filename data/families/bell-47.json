@@ -61,6 +61,14 @@
     {
       "id": "r22",
       "howToTell": "The R22 has an enclosed tubular tail boom and a small pointed cabin; the Bell 47 has an open truss boom and a round fishbowl canopy."
+    },
+    {
+      "id": "hiller-uh-12",
+      "howToTell": "The Hiller has small control paddles on short bars at the hub and no stabilizer bar above the head; the Bell 47 has a stabilizer bar above the rotor."
+    },
+    {
+      "id": "alouette-ii",
+      "howToTell": "The Alouette II has three main blades with a turbine perched on top of an open frame; the Bell 47 has two blades and a stabilizer bar."
     }
   ],
   "difficulty": 1,
@@ -68,9 +76,33 @@
     "Bell 47"
   ],
   "usCount": {
-    "value": 525,
-    "source": "FAA registry make/model inquiry (Bell 47 series, all registered examples)",
+    "value": 449,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1180802",
+    "1180813",
+    "1181002",
+    "1181005",
+    "1181008",
+    "1181011",
+    "1181012",
+    "1181014",
+    "1181025",
+    "1181026",
+    "1181028",
+    "1181029",
+    "1181030",
+    "1181031",
+    "1181032",
+    "1181034",
+    "118103A",
+    "1181060",
+    "1181102",
+    "1181104",
+    "1181106",
+    "8930103",
+    "8930105"
+  ]
 }

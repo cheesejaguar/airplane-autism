@@ -1,0 +1,81 @@
+{
+  "id": "emb-110",
+  "name": "Embraer EMB-110 Bandeirante",
+  "shortName": "EMB-110",
+  "aka": [
+    "Bandeirante",
+    "EMB-110P1",
+    "EMB-110P2",
+    "Embraer 110"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1968,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "EMB-110 / 110C",
+    "EMB-110P1 / 110P2 (stretched commuter)",
+    "EMB-110P1 freighters"
+  ],
+  "summary": "Brazil's first big commercial hit, a 15- to 21-seat low-wing twin turboprop commuter and freighter with PT6A engines.",
+  "weft": {
+    "wings": [
+      "Low, straight, slightly tapered wing"
+    ],
+    "engines": [
+      "Two PT6A turboprops on the wing, mounted well forward",
+      "Three-blade propellers"
+    ],
+    "fuselage": [
+      "Long, slim, round fuselage with a rounded nose",
+      "Small oval windows along the length",
+      "Rear left door, often with a cargo door on freighters"
+    ],
+    "tail": [
+      "Single tall fin and rudder",
+      "Conventional low tailplane"
+    ]
+  },
+  "tellTales": [
+    "Slim low-wing twin turboprop with a rounded nose and small oval windows",
+    "Three-blade props on nacelles reaching well ahead of the wing",
+    "Conventional tail with a tall fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "metroliner",
+      "howToTell": "The Metro has a sharply pointed 'shark' nose and a slimmer fuselage; the Bandeirante has a more rounded nose and a deeper cabin."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The 1900 has a T-tail with small fins on the tail cone; the Bandeirante has a conventional low tail."
+    },
+    {
+      "id": "dornier-228",
+      "howToTell": "The Dornier 228 is a high-wing aircraft with a boxy fuselage; the Bandeirante is a low-wing with a round fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Embraer EMB 110"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3260122"
+  ]
+}

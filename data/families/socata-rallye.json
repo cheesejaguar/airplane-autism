@@ -1,0 +1,85 @@
+{
+  "id": "socata-rallye",
+  "name": "Socata Rallye",
+  "shortName": "Rallye",
+  "aka": [
+    "MS.880",
+    "Rallye Club",
+    "Commodore",
+    "Minerva",
+    "Gabier",
+    "Galopin"
+  ],
+  "manufacturer": "Socata / Morane-Saulnier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "MS.880B Rallye Club (100 hp)",
+    "MS.885 Super Rallye",
+    "MS.892 / 893 Rallye Commodore (150-180 hp)",
+    "MS.894 Rallye Minerva",
+    "Rallye 235 Gabier / 150ST"
+  ],
+  "summary": "French STOL-capable light single with an automatic-slatted wing. Easy to fly and used for touring, banner and glider towing; the forerunner of the TB series.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with automatic leading-edge slats",
+      "Large trailing-edge flaps"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a short, blunt cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Short, stubby fuselage with tall, upright cabin glazing",
+      "Fixed gear on short legs, mostly tricycle"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a low-set horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low wing with a slatted leading edge and big flaps",
+    "Short, stubby fuselage with a tall glazed cabin",
+    "Fixed tricycle gear on short legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 has a plain unslatted wing and a long slab-sided fuselage; the Rallye has a slatted leading edge and a short, upright glazed cabin."
+    },
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-5 has a sliding bubble canopy; the Rallye has a tall, upright cabin glazing and a slatted wing."
+    },
+    {
+      "id": "socata-tb-9",
+      "howToTell": "The TB 9/10 is the later, rounder, humped-cabin design with no slats; the Rallye is boxier with slats on the wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Morane-Saulnier MS.880-890 Rallye"
+  ],
+  "usCount": {
+    "value": 51,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5910304",
+    "8400125",
+    "8400135",
+    "8402842"
+  ]
+}

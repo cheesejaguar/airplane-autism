@@ -1,0 +1,86 @@
+{
+  "id": "casa-212",
+  "name": "CASA C-212 Aviocar",
+  "shortName": "C-212",
+  "aka": [
+    "Aviocar",
+    "CASA 212",
+    "C-212 Aviocar",
+    "C-212-200",
+    "C-212-300",
+    "C-212-400",
+    "Airbus C212"
+  ],
+  "manufacturer": "CASA / Airbus Defence and Space",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "cargo",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1971,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "C-212-100 / -200 / -300 Aviocar",
+    "C-212-400 (Airbus-built, with larger props)",
+    "Special mission and skydiving versions"
+  ],
+  "summary": "Spanish high-wing twin turboprop with a rear loading ramp, a fixed landing gear and a boxy fuselage, flown by cargo operators, skydivers and government agencies.",
+  "weft": {
+    "wings": [
+      "High, straight, unbraced wing (no struts)",
+      "Engines mounted at the wing leading edge"
+    ],
+    "engines": [
+      "Two Garrett TPE331 turboprops in nacelles that stretch ahead of and behind the wing"
+    ],
+    "fuselage": [
+      "Boxy, rectangular-section fuselage with a blunt, flat-fronted nose",
+      "Fixed main landing gear in blister sponsons on the lower fuselage",
+      "Rear fuselage sweeps up to a loading ramp and tail"
+    ],
+    "tail": [
+      "Single tall fin",
+      "Tailplane set on the upswept rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Boxy fuselage sweeping up to a rear ramp, with a single tall fin",
+    "High unbraced wing with engines on the leading edge",
+    "Fixed main gear in blisters on the lower fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "dornier-228",
+      "howToTell": "The Dornier 228 has a long, pointed nose and no rear ramp; the C-212 has a blunt flat-faced nose and an upswept rear ramp."
+    },
+    {
+      "id": "short-skyvan",
+      "howToTell": "The Skyvan has twin fins and wing struts; the C-212 has one fin and no struts."
+    },
+    {
+      "id": "shorts-360",
+      "howToTell": "The Shorts has wing struts and engines on top of the wing; the C-212 has an unbraced wing with engines at the leading edge."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "CASA C-212"
+  ],
+  "usCount": {
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2410204",
+    "2410205",
+    "2410304"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "aw169",
+  "name": "Leonardo AW169",
+  "shortName": "AW169",
+  "aka": [
+    "AW 169",
+    "Leonardo AW169"
+  ],
+  "manufacturer": "Leonardo Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "vip",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 2012,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AW169",
+    "AW169 FF"
+  ],
+  "summary": "A modern twin-turbine helicopter with a five-blade rotor, retractable landing gear and a sleek nose; used for EMS and VIP work.",
+  "weft": {
+    "wings": [
+      "Five-blade main rotor on a short mast",
+      "Rotor head blends into a smooth dorsal fairing"
+    ],
+    "engines": [
+      "Twin turboshafts under a long dorsal fairing",
+      "Exhaust on both sides at the rear"
+    ],
+    "fuselage": [
+      "Sleek swept nose with large windows",
+      "Retractable wheeled landing gear",
+      "Large sliding cabin doors"
+    ],
+    "tail": [
+      "Upswept boom with a conventional tail rotor",
+      "Horizontal stabilizer with end fins"
+    ]
+  },
+  "tellTales": [
+    "Five-blade rotor on a sleek twin-engine helicopter",
+    "Retractable wheeled gear and no skids",
+    "Pointed swept nose with large windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 is larger with a boxier fuselage and bigger sponsons; the AW169 is smaller and sleeker."
+    },
+    {
+      "id": "aw109",
+      "howToTell": "The AW109 has a four-blade rotor and a smaller body; the AW169 has five blades and a bigger cabin."
+    },
+    {
+      "id": "h145",
+      "howToTell": "The H145 has clamshell rear doors and fixed skids; the AW169 has retractable wheels."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "AgustaWestland AW169"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "33601QC"
+  ]
+}

@@ -73,9 +73,21 @@
     "Airbus A320neo family"
   ],
   "usCount": {
-    "value": 500,
-    "source": "Airline fleet data (Frontier, Spirit, American, Delta, United, JetBlue, Hawaiian; planespotters.net)",
-    "asOf": "2026"
+    "value": 635,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3930898",
+    "3930910",
+    "3930915",
+    "3930916",
+    "3940045",
+    "3940051",
+    "3940307",
+    "3940310",
+    "3940320",
+    "3940325",
+    "3940899"
+  ]
 }

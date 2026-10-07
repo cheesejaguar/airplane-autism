@@ -1,0 +1,95 @@
+{
+  "id": "aeronca-chief",
+  "name": "Aeronca Chief (50 / 11AC)",
+  "shortName": "Chief",
+  "aka": [
+    "Aeronca 11AC",
+    "Super Chief",
+    "Aeronca 50 Chief"
+  ],
+  "manufacturer": "Aeronca Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1938,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Aeronca 50-C / 50-F / 50-L",
+    "Aeronca 65-C / 65-CA Super Chief",
+    "Aeronca 11AC / 11BC / 11CC Chief (postwar)"
+  ],
+  "summary": "Side-by-side two-seat tube-and-fabric high-wing from Aeronca, the roomier, touring-style sibling of the tandem Champ.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut each side",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single flat-four Continental, cowled",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Deep, round-sided cabin with side-by-side seating",
+      "Large window area and a wide door",
+      "Fabric-covered; oleo-strut main gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Plump, deep fuselage with two seats side by side",
+    "Strut-braced high wing on a small tailwheel aircraft",
+    "Rounded, curved tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Chief seats two side by side in a deeper, rounder cabin; the Champ seats two in tandem in a long narrow cabin."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Chief has a deeper, rounder cabin and fuselage; the Taylorcraft's fuselage is narrower and more angular."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Chief has side-by-side seats; the Cub has tandem seats and a narrower, squarer roofline."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Chief is fabric-covered with a single strut; the Luscombe is all-metal with a V-strut."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aeronca 11 Chief"
+  ],
+  "usCount": {
+    "value": 977,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0190604",
+    "0190606",
+    "0190702",
+    "0190712",
+    "0190716",
+    "0190920",
+    "0190922",
+    "0190926",
+    "0190930",
+    "0190932",
+    "0191102",
+    "0191104",
+    "0191106",
+    "0191110"
+  ]
+}

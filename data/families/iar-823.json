@@ -1,0 +1,80 @@
+{
+  "id": "iar-823",
+  "name": "IAR 823",
+  "shortName": "IAR-823",
+  "aka": [
+    "IAR 823"
+  ],
+  "manufacturer": "IAv Brașov (IAR)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1973,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "IAR-823 (military trainer)",
+    "IAR-823 civil/light utility"
+  ],
+  "summary": "Romanian low-wing trainer with a Lycoming IO-540, retractable gear and room for five; used by the Romanian Air Force and aeroclubs and now owned by US sport and warbird pilots.",
+  "weft": {
+    "wings": [
+      "Low, cantilever, tapered wing with rounded tips",
+      "Plain wing with no wingtip tanks"
+    ],
+    "engines": [
+      "Single flat-six with a constant-speed propeller",
+      "Short, rounded cowl"
+    ],
+    "fuselage": [
+      "Large framed bubble canopy over side-by-side seats and a rear bench",
+      "Retractable tricycle gear",
+      "Smoothly tapered rear fuselage"
+    ],
+    "tail": [
+      "Swept fin and rudder",
+      "Horizontal tail mounted on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Large bubble canopy over side-by-side seats on a low-wing, retractable-gear airplane",
+    "Rounded, Piper-like proportions with a glazed canopy",
+    "No tip tanks or tandem seating, unlike most military trainers"
+  ],
+  "confusedWith": [
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has tandem-style seating, tip tanks and a pencil-slim fuselage; the IAR-823 has a deeper fuselage and a framed canopy."
+    },
+    {
+      "id": "siai-s205",
+      "howToTell": "The S.205 is a civilian four-seat with a cabin roof and a different canopy; the IAR-823 has a bubble canopy and a military look."
+    },
+    {
+      "id": "bulldog",
+      "howToTell": "The Bulldog has fixed gear and a tall swept fin; the IAR-823 has retractable gear."
+    },
+    {
+      "id": "da40",
+      "howToTell": "The DA40 is a composite with a T-tail and a different canopy; the IAR-823 is a metal low-wing with retractable gear."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "IAR 823"
+  ],
+  "usCount": {
+    "value": 32,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05607X6"
+  ]
+}

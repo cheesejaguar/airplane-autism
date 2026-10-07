@@ -59,6 +59,10 @@
     {
       "id": "t-28",
       "howToTell": "The T-28 is much larger with a deep cowl and usually a three-blade prop; the CJ-6 is small with a two-blade prop."
+    },
+    {
+      "id": "yak-18t",
+      "howToTell": "The Yak-18T seats four in a long cabin; the CJ-6 is a two-seat tandem trainer."
     }
   ],
   "difficulty": 4,
@@ -66,9 +70,16 @@
     "Nanchang CJ-6"
   ],
   "usCount": {
-    "value": 180,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all CJ-6 model codes",
-    "asOf": "2026"
+    "value": 171,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0560324",
+    "056183N",
+    "05618Z9",
+    "05622JA",
+    "05627OH",
+    "05628VC"
+  ]
 }

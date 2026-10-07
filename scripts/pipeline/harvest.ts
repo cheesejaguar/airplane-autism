@@ -203,7 +203,7 @@ async function main() {
   if (errors.length) console.warn(`Skipping ${errors.length} invalid family files`);
   const outDir = path.join(CACHE, "harvest");
   const targets = families.filter((f) => !only || only.includes(f.id));
-  const limit = pLimit(5);
+  const limit = pLimit(4);
   await Promise.all(
     targets.map((f) =>
       limit(async () => {

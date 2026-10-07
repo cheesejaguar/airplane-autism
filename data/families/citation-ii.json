@@ -73,6 +73,10 @@
     {
       "id": "citation-mustang",
       "howToTell": "The Citation II/V is much longer with more windows; the Mustang is a tiny four-to-five-seat jet with only a few windows."
+    },
+    {
+      "id": "citation-i",
+      "howToTell": "The Citation I is the shorter, smaller original with a shorter-span wing and fewer cabin windows; the Citation II is longer with a longer-span wing."
     }
   ],
   "difficulty": 4,
@@ -82,9 +86,14 @@
     "UC-35"
   ],
   "usCount": {
-    "value": 1050,
-    "source": "Textron Aviation production (~2,100 Model 550/560 built) with ~50% active US-registered per JETNET fleet summaries, plus ~30 Army/USMC UC-35 (approx.)",
-    "asOf": "2025"
+    "value": 1175,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2076604",
+    "2076605",
+    "2076607",
+    "2076750"
+  ]
 }

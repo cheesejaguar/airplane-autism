@@ -1,0 +1,92 @@
+{
+  "id": "fairchild-m62",
+  "name": "Fairchild PT-19 / PT-26 Cornell",
+  "shortName": "PT-19 Cornell",
+  "aka": [
+    "PT-19",
+    "PT-23",
+    "PT-26",
+    "Cornell",
+    "Fairchild M-62"
+  ],
+  "manufacturer": "Fairchild Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PT-19 / PT-19A (inline Ranger)",
+    "PT-23 (Continental radial)",
+    "PT-26 (enclosed canopy, Cornell II/III)",
+    "Civil M-62A"
+  ],
+  "summary": "Wooden-winged Fairchild primary trainer that was USAAF's first-phase trainer for WWII, produced as inline-powered PT-19, radial-powered PT-23 and canopy-covered PT-26 Cornell.",
+  "weft": {
+    "wings": [
+      "Low, cantilever wing with a wide centre section and tapered outer panels",
+      "Rounded wingtips, no bracing wires"
+    ],
+    "engines": [
+      "Inline-looking inverted six-cylinder (Ranger) nose on PT-19/26 or a small radial on PT-23",
+      "Thin, slightly drooped cowl with a two-blade propeller"
+    ],
+    "fuselage": [
+      "Two seats in tandem under open cockpits (PT-19) or a long sliding canopy (PT-26)",
+      "Fixed main gear with streamlined legs",
+      "Fabric-covered, tapering rear fuselage"
+    ],
+    "tail": [
+      "Conventional tail with a tall rounded fin",
+      "Unbraced rounded horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Low-wing tandem trainer with a slim inline-engine nose and no wing bracing",
+    "Long sliding canopy over tandem seats (or open cockpits) with a rounded tail",
+    "Fixed main gear with streamlined legs and a trim fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "bt-13",
+      "howToTell": "The Valiant is a heavier airplane with a big radial in a bulky cowl and a long greenhouse; the Cornell is lighter with a slim nose (or small radial) and an unbraced wing."
+    },
+    {
+      "id": "ryan-st",
+      "howToTell": "The Ryan has a very short, clean fuselage with wheel spats and a smaller radial or inline; the Cornell has a longer nose and wider-looking wing centre section."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is a biplane; the Cornell is a low-wing monoplane."
+    },
+    {
+      "id": "at-6",
+      "howToTell": "The Texan has retractable gear and a big radial; the Cornell has fixed gear and a light, slim nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Fairchild PT-19 Cornell",
+    "Fairchild PT-19 warbirds"
+  ],
+  "usCount": {
+    "value": 184,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3371604",
+    "3371606",
+    "3371618",
+    "3371620",
+    "3371624",
+    "3371630"
+  ]
+}

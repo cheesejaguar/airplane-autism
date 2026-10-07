@@ -70,9 +70,14 @@
     "Boeing 787-9 on final approach"
   ],
   "usCount": {
-    "value": 150,
-    "source": "Airline fleet data (United ~80, American ~65; planespotters.net)",
-    "asOf": "2026"
+    "value": 194,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05628NI",
+    "1385609",
+    "1386010",
+    "1388002"
+  ]
 }

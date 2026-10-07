@@ -69,9 +69,12 @@
     "HondaJet Elite II"
   ],
   "usCount": {
-    "value": 200,
-    "source": "Honda Aircraft deliveries (250th delivered Feb 2024) with ~75% US-registered per FAA registry (approx.)",
-    "asOf": "2025"
+    "value": 208,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05632GI",
+    "4400000"
+  ]
 }

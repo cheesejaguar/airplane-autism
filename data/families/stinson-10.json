@@ -1,0 +1,87 @@
+{
+  "id": "stinson-10",
+  "name": "Stinson 10 / HW75 Voyager",
+  "shortName": "Stinson 10",
+  "aka": [
+    "Voyager",
+    "Stinson 105",
+    "HW-75",
+    "10A"
+  ],
+  "manufacturer": "Stinson Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "HW-75 / Model 105",
+    "Model 10 (1940)",
+    "Model 10A Voyager (Franklin 90 hp)",
+    "Model 10B (Lycoming GO-145)"
+  ],
+  "summary": "Pre-war three-seat high-wing tourer that became the Voyager and the forerunner of the postwar Stinson 108. About 1,000 were built before the war.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut to the lower fuselage on each side",
+      "Fabric-covered wing"
+    ],
+    "engines": [
+      "Single small flat-four (65-90 hp) in a smooth, rounded cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Enclosed three-seat cabin with generous glazing",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Single curved fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Prewar three-seat high-wing with a strut each side and a tailwheel",
+    "Smooth, round cowl over a small engine",
+    "Large cabin glazing for a 1940-era light plane"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-108",
+      "howToTell": "The 108 is the larger postwar four-seater with a bigger, deeper cowl and flat-six; this is the smaller three-seat prewar airframe."
+    },
+    {
+      "id": "piper-j5",
+      "howToTell": "The Cub Cruiser has a Cub-style squared-off nose and straight lines; this one has a rounder, glassier cabin and a curved tail."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Chief is a two-seat side-by-side with a deeper, rounder fuselage and small cabin; this has three seats and bigger windows."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Luscombe is a smaller two-seater with a different, sleeker cowl and V-struts; this three-seater is wider and has a single strut per side."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Stinson 105",
+    "Stinson 10"
+  ],
+  "usCount": {
+    "value": 103,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8632002",
+    "8632004",
+    "8632102"
+  ]
+}

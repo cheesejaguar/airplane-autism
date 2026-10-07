@@ -1,0 +1,78 @@
+{
+  "id": "pa-38",
+  "name": "Piper PA-38 Tomahawk",
+  "shortName": "Tomahawk",
+  "aka": [
+    "Tomahawk II"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1977,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-38-112 Tomahawk",
+    "PA-38-112 Tomahawk II (1981–82)"
+  ],
+  "summary": "Piper's T-tailed two-seat trainer of 1978–82, with a spinnable NASA GA(W)-1 wing and a large greenhouse cabin.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts",
+      "Rectangular, constant-chord wing with squared tips"
+    ],
+    "engines": [
+      "Single flat-four in a short cowl with a sloping nose",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Large, rounded 'greenhouse' cabin with front-hinged doors",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "T-tail with the stabilator on top of the fin"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a small low-wing two-seater",
+    "Large rounded cabin glazing with two front-hinged doors",
+    "Sloping nose on fixed tricycle gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-77",
+      "howToTell": "Both have T-tails; the Tomahawk has a more rounded, bubble-like greenhouse cabin, while the Skipper's cabin looks more conventional."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The Tomahawk is a low-wing with a T-tail; the 150 is a strut-braced high-wing with a conventional tail."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The Tomahawk is metal with a T-tail and a framed cabin; the DA20 is composite with a conventional tail and a clear bubble canopy."
+    },
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The Tomahawk has a T-tail and hinged doors; the AA-5 has a conventional tail and a sliding canopy."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-38 Tomahawk"
+  ],
+  "usCount": {
+    "value": 427,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7103812"
+  ]
+}

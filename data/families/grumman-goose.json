@@ -1,0 +1,77 @@
+{
+  "id": "grumman-goose",
+  "name": "Grumman G-21 Goose",
+  "shortName": "Goose",
+  "aka": [
+    "G-21A",
+    "JRF",
+    "JRF-5",
+    "OA-9",
+    "OA-13",
+    "Turbo Goose"
+  ],
+  "manufacturer": "Grumman",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "seaplane",
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "G-21A",
+    "G-21C (McKinnon four-engine conversion)",
+    "G-21G Turbo Goose (turboprop)",
+    "JRF Goose (US Navy/Coast Guard)"
+  ],
+  "summary": "Eight-seat twin-radial amphibian built 1937–1945 for executives and the military; many still fly with piston or turboprop power in Alaska and the Caribbean.",
+  "weft": {
+    "wings": [
+      "Straight high wing with large engines on the leading edge",
+      "Floats at or near the wingtips"
+    ],
+    "engines": [
+      "Two large round radial engines (some turboprop conversions)",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Deep, tall boat hull with a row of windows along the cabin",
+      "Main wheels fold up into the hull sides"
+    ],
+    "tail": [
+      "Single tall rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Two radial engines on a high wing above a deep boat hull",
+    "Wheels that fold up into the sides of the hull",
+    "Floats near the wingtips on a large amphibian"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-widgeon",
+      "howToTell": "The Widgeon is much smaller with a stubby hull and a strut-braced tail; the Goose is bigger with large radial engines."
+    },
+    {
+      "id": "grumman-mallard",
+      "howToTell": "The Mallard is larger, with tricycle gear (nose wheel), wingtip tanks and a long row of square windows; the Goose has hull-mounted main wheels and no nose wheel."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman G-21 Goose"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3951204"
+  ]
+}

@@ -60,6 +60,18 @@
     {
       "id": "grumman-aa5",
       "howToTell": "The AA-1/AA-5 has a conventional low tail and stubby wing; the DA20 has a T-tail and long slender wing."
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The DA20 is a lower, rounder composite with a longer glazed canopy; the P-Mentor has an upright fin, a straighter wing and an alloy-and-carbon look."
+    },
+    {
+      "id": "slingsby-t67",
+      "howToTell": "The Firefly has a larger bubble canopy and fixed tricycle gear with fairings; the DA20 has a rounder canopy and a distinct tail shape."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The DA20 is a composite with a conventional tail and a clear bubble canopy; the Tomahawk is metal with a T-tail and a framed cabin."
     }
   ],
   "difficulty": 3,
@@ -67,9 +79,12 @@
     "Diamond DA20"
   ],
   "usCount": {
-    "value": 360,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): DA20-A1 and DA20-C1",
-    "asOf": "2026"
+    "value": 346,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2990000",
+    "2990001"
+  ]
 }

@@ -1,0 +1,75 @@
+{
+  "id": "yak-55",
+  "name": "Yakovlev Yak-55",
+  "shortName": "Yak-55",
+  "aka": [
+    "Yak-55M",
+    "Yak-55"
+  ],
+  "manufacturer": "Yakovlev Design Bureau",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1981,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Yak-55 (original)",
+    "Yak-55M (improved, 1990s)"
+  ],
+  "summary": "Single-seat Soviet competition aerobatic monoplane with a radial engine and fixed gear, built for tight, low-speed unlimited aerobatics.",
+  "weft": {
+    "wings": [
+      "Mid-set straight monoplane wing with a thick symmetrical section",
+      "Long ailerons and no flaps"
+    ],
+    "engines": [
+      "Nine-cylinder Vedeneyev M-14P radial under a rounded cowl",
+      "Two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Single seat under a long sliding teardrop canopy reaching back to the wing trailing edge",
+      "Fixed sprung main gear and tailwheel"
+    ],
+    "tail": [
+      "Large fin and rudder on a tapering rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Single-seat radial-engined monoplane with a long teardrop canopy",
+    "Fixed (non-retracting) spring main gear with a mid-set wing",
+    "Rounded radial cowl on a small aerobatic airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-50",
+      "howToTell": "The Yak-50 is a low-wing single seater with retractable main wheels; the Yak-55 has fixed gear and a mid-set wing."
+    },
+    {
+      "id": "sukhoi-su-26",
+      "howToTell": "The Su-26 has a shorter canopy and wing fillets at the root; the Yak-55 has a longer teardrop canopy."
+    },
+    {
+      "id": "yak-52",
+      "howToTell": "The Yak-52 has two seats and retractable tricycle gear; the Yak-55 is a single-seater with fixed taildragger gear."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Yakovlev Yak-55"
+  ],
+  "usCount": {
+    "value": 37,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9830224",
+    "9830225"
+  ]
+}

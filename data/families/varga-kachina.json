@@ -1,0 +1,83 @@
+{
+  "id": "varga-kachina",
+  "name": "Varga 2150 / 2180 Kachina",
+  "shortName": "Kachina",
+  "aka": [
+    "Varga 2150",
+    "Varga 2180",
+    "Shinn 2150A",
+    "Morrisey 2150"
+  ],
+  "manufacturer": "Varga Aircraft / Morrisey",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1958,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Morrisey 2150 (108 hp)",
+    "Shinn 2150A (150 hp)",
+    "Varga 2150A Kachina (150 hp)",
+    "Varga 2180 (180 hp)"
+  ],
+  "summary": "All-metal, low-wing two-seater with fixed tricycle gear, derived from the Morrisey Nifty and built by Varga in the 1970s–80s.",
+  "weft": {
+    "wings": [
+      "Cantilever low wing with no struts",
+      "Two-position trailing-edge flaps"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a short cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two-seat cabin under a large canopy",
+      "Fixed tricycle gear (tailwheel option)",
+      "All-metal skin"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Small all-metal low-wing two-seater on fixed tricycle gear",
+    "Large, framed canopy and a short cowl",
+    "Conventional (non-T) tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-38",
+      "howToTell": "The Kachina has a conventional tail; the Tomahawk has a T-tail."
+    },
+    {
+      "id": "beech-77",
+      "howToTell": "The Kachina has a conventional tail; the Skipper has a T-tail."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The Kachina is a low-wing without struts; the 150 is a high-wing with a strut each side."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Varga 2150 Kachina"
+  ],
+  "usCount": {
+    "value": 113,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5940202",
+    "5940204",
+    "9350102",
+    "9350104"
+  ]
+}

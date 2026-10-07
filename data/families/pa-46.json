@@ -73,6 +73,10 @@
     {
       "id": "cirrus-sr",
       "howToTell": "The PA-46 has retractable gear and a pressurized slim cabin; the Cirrus SR has fixed gear and gull-wing doors."
+    },
+    {
+      "id": "da50",
+      "howToTell": "The DA50 has a T-tail and a composite airframe; the PA-46 has a conventional low tailplane."
     }
   ],
   "difficulty": 3,
@@ -82,9 +86,25 @@
     "Piper PA-46 Malibu"
   ],
   "usCount": {
-    "value": 1900,
-    "source": "Piper production (~3,000+ PA-46 piston and turboprop) with ~65% US-registered per FAA registry (approx.)",
-    "asOf": "2025"
+    "value": 1574,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7104605",
+    "7104606",
+    "7104607",
+    "7104608",
+    "7104610",
+    "7104618",
+    "7104619",
+    "7104620",
+    "7104622",
+    "7104623",
+    "7104627",
+    "7104650",
+    "7104652",
+    "7105752",
+    "7107573"
+  ]
 }

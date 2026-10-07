@@ -61,6 +61,14 @@
     {
       "id": "c206",
       "howToTell": "The 206 has a flat-engine cowl, tricycle gear and a swept fin; the Beaver has a radial and an angular fin."
+    },
+    {
+      "id": "dhc-3",
+      "howToTell": "The Otter is the larger aircraft with a three-blade prop; the Beaver has a two-blade prop and is noticeably smaller."
+    },
+    {
+      "id": "pc-6",
+      "howToTell": "The Porter has a long, tapering turboprop nose; the Beaver has a short round radial nose and a two-blade prop."
     }
   ],
   "difficulty": 3,
@@ -68,9 +76,26 @@
     "De Havilland Canada DHC-2 Beaver"
   ],
   "usCount": {
-    "value": 400,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all DHC-2 model codes",
-    "asOf": "2026"
+    "value": 378,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2800102",
+    "2800104",
+    "2800105",
+    "2800107",
+    "2800108",
+    "2800109",
+    "2805001",
+    "2805075",
+    "2808001",
+    "2808002",
+    "2808005",
+    "2808006",
+    "2808007",
+    "2808010",
+    "2808011",
+    "2821703"
+  ]
 }

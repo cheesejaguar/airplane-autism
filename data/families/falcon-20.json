@@ -1,0 +1,89 @@
+{
+  "id": "falcon-20",
+  "name": "Dassault Falcon 20 / 200",
+  "shortName": "Falcon 20/200",
+  "aka": [
+    "Falcon 20",
+    "Falcon 200",
+    "Mystere 20",
+    "Fan Jet Falcon"
+  ],
+  "manufacturer": "Dassault Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Falcon 20 (CF700)",
+    "Falcon 20F/20-5 (later engines)",
+    "Falcon 200 (ATF3 engines)"
+  ],
+  "summary": "The classic 1960s French business jet, still seen in the US as cargo feeders, test platforms and older corporate jets.",
+  "weft": {
+    "wings": [
+      "Low swept wing with plain tips",
+      "No tip tanks or winglets"
+    ],
+    "engines": [
+      "Two turbofans on the sides of the rear fuselage, close-coupled to the body"
+    ],
+    "fuselage": [
+      "Row of small round porthole-style windows",
+      "Drooped, rounded nose"
+    ],
+    "tail": [
+      "Swept fin with a low-set tailplane on the rear fuselage (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Row of small round (porthole) windows",
+    "Rear engines blended close to the fuselage with a low-set tailplane",
+    "Older swept wing with plain tips"
+  ],
+  "confusedWith": [
+    {
+      "id": "falcon-10-100",
+      "howToTell": "The Falcon 10/100 is smaller and shorter with fewer windows; the Falcon 20 is a larger aircraft with more windows."
+    },
+    {
+      "id": "iai-westwind",
+      "howToTell": "The Westwind has large wingtip fuel tanks; the Falcon 20 has plain wingtips and small round windows."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Hawker 800 has larger, oval windows and a cruciform tail with a long dorsal fillet; the Falcon 20 has small round windows and a low tailplane."
+    },
+    {
+      "id": "falcon-2000",
+      "howToTell": "The Falcon 2000 has oval windows, a cruciform tail and a newer, more refined wing; the Falcon 20 has small round windows and a low-set tailplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Dassault Falcon 20",
+    "Dassault Falcon 200"
+  ],
+  "usCount": {
+    "value": 89,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2720302",
+    "2720304",
+    "2720305",
+    "2720306",
+    "2730005",
+    "2730103",
+    "2730105",
+    "2730107",
+    "2730150"
+  ]
+}

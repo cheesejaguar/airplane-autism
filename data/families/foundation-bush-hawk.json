@@ -1,0 +1,80 @@
+{
+  "id": "foundation-bush-hawk",
+  "name": "Found Bush Hawk (FBA-2C)",
+  "shortName": "Bush Hawk",
+  "aka": [
+    "FBA-2C",
+    "Bush Hawk XP",
+    "FBA-2C1",
+    "FBA-2C3"
+  ],
+  "manufacturer": "Found Aircraft Canada",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "FBA-2C / 2C1 (1960s)",
+    "FBA-2C2 Bush Hawk XP (2000s)",
+    "FBA-2C3 Bush Hawk XP"
+  ],
+  "summary": "Canadian four- to five-seat bush plane with an all-metal airframe, big doors and a powerful flat-six. Often seen on floats or skis.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut on each side",
+      "Long, straight wing"
+    ],
+    "engines": [
+      "Single Lycoming flat-six in a long cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Boxy cabin with large doors and a tall roof",
+      "Fixed tailwheel gear on sturdy legs, often with big tires, floats or skis"
+    ],
+    "tail": [
+      "Large squared fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Boxy high-wing bush plane with big doors and a flat-six",
+    "Tailwheel gear on sturdy legs, often with floats or skis",
+    "Tall, squared tail on a long wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 180/185 has a slimmer cabin and smaller doors; the Bush Hawk has a taller, boxier cabin with large door openings."
+    },
+    {
+      "id": "maule",
+      "howToTell": "The Maule is smaller with a shorter cabin; the Bush Hawk is a bigger, taller airframe with a long flat-six cowl."
+    },
+    {
+      "id": "helio-courier",
+      "howToTell": "The Courier has a strut-free wing with slats and huge flaps; the Bush Hawk has a lift strut and plainer flaps."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Found FBA-2"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3640103",
+    "3640104",
+    "3640105"
+  ]
+}

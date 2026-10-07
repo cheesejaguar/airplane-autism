@@ -1,0 +1,80 @@
+{
+  "id": "weatherly-620",
+  "name": "Weatherly 620 Ag Plane",
+  "shortName": "Weatherly 620",
+  "aka": [
+    "620A",
+    "620B"
+  ],
+  "manufacturer": "Weatherly Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "620 / 620A / 620B (Pratt & Whitney R-985 radial)",
+    "620TP / 620B-TG (turboprop)"
+  ],
+  "summary": "California-built single-seat ag plane, a larger development of the Weatherly 201. All-metal cantilever low wing with a big hopper and a radial engine.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Long, unswept wing with noticeable dihedral"
+    ],
+    "engines": [
+      "Single Pratt & Whitney R-985 radial in a round cowl",
+      "Three-blade propeller"
+    ],
+    "fuselage": [
+      "Large hopper in front of a single-seat cockpit set high and aft",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Single-seat crop duster with a radial nose and a strut-free low wing",
+    "Large hopper ahead of a high, aft cockpit",
+    "Three-blade prop and tailwheel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "weatherly-201",
+      "howToTell": "The 201 is the smaller, earlier version with a smaller hopper and a shorter span; the 620 has a longer wing (about 47 ft) and a bigger hopper."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Thrush is usually larger, with a bigger radial or a turbine up front and a stouter fuselage; the Weatherly is a smaller R-985 airframe."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The Air Tractor is bigger and heavier with a taller cockpit and a bigger nose; the Weatherly is a smaller R-985 airplane."
+    },
+    {
+      "id": "pzl-m-18",
+      "howToTell": "The Dromader is larger, with a ~1,000 hp radial and a bigger cowl; the Weatherly has a smaller R-985."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Weatherly 620"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9630603",
+    "9630605"
+  ]
+}

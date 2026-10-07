@@ -62,6 +62,18 @@
     {
       "id": "c-130h",
       "howToTell": "The ATR has two engines and a T-tail; the C-130 has four engines, a low tail and an upswept rear loading ramp."
+    },
+    {
+      "id": "dornier-328",
+      "howToTell": "The Dornier 328 is smaller and stubbier with a high wing, T-tail and (on the JET version) underwing turbofans; the ATR is longer with a larger wing and always has turboprops."
+    },
+    {
+      "id": "dhc-8",
+      "howToTell": "The Dash 8 has main landing gear that folds into very long engine nacelles; the ATR's gear folds into fuselage blisters."
+    },
+    {
+      "id": "dhc-8-q400",
+      "howToTell": "The Q400 is longer with very long nacelles that house the main gear; the ATR 72's gear folds into blisters on the fuselage."
     }
   ],
   "difficulty": 2,
@@ -71,9 +83,15 @@
     "ATR 72 on final approach"
   ],
   "usCount": {
-    "value": 50,
-    "source": "FedEx Feeder operator fleet data (Mountain Air Cargo 23, Empire Airlines 18, others; Mountain Air Cargo / ch-aviation)",
-    "asOf": "2025"
+    "value": 38,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8680905",
+    "8680920",
+    "8680930",
+    "8680945",
+    "8681050"
+  ]
 }

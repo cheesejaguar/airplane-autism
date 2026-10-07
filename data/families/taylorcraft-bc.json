@@ -1,0 +1,109 @@
+{
+  "id": "taylorcraft-bc",
+  "name": "Taylorcraft BC / Model A / L-2",
+  "shortName": "Taylorcraft",
+  "aka": [
+    "Taylorcraft Model B",
+    "BC-12D Twosome",
+    "L-2 Grasshopper"
+  ],
+  "manufacturer": "Taylorcraft Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1936,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model A (1936)",
+    "BC / BC-65 / BC-12-65 (L-2)",
+    "BC-12D Twosome / Traveller (postwar)",
+    "BC-12D1 Ace",
+    "BC-12D-85 / Model 19 Sportsman"
+  ],
+  "summary": "Light side-by-side two-seat tube-and-fabric high-wing taildragger from Alliance, Ohio; hugely numerous prewar, wartime as the L-2 spotter, and postwar as the BC-12D.",
+  "weft": {
+    "wings": [
+      "High wing braced by a steel-tube strut each side",
+      "Straight, tapered wing with rounded tips"
+    ],
+    "engines": [
+      "Single small flat-four, cowled around the cylinders",
+      "Two-blade fixed-pitch wooden or metal propeller"
+    ],
+    "fuselage": [
+      "Side-by-side two-seat cabin with a large, upright windshield",
+      "Fabric-covered tube fuselage tapering to the tail",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded fin and rudder on a conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Two-seat side-by-side cabin under a strut-braced high wing",
+    "Tube-and-fabric taildragger with a tapering rear fuselage",
+    "Rounded Cub-like tail on a very small high-wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Taylorcraft seats two side by side; the Champ is a tandem two-seater with a long, narrow cabin."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Taylorcraft has side-by-side seats in a wider cabin; the Cub's seats are in tandem under a narrow roof."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "Both are side-by-side tube-and-fabric high-wings; the Taylorcraft's fuselage is narrower and more angular, whereas the Chief's cabin is deeper and rounder."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Taylorcraft is fabric-covered with a straight single strut; the Luscombe is all-metal with a V-strut and a smoother, polished skin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Taylorcraft B"
+  ],
+  "usCount": {
+    "value": 1845,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8850202",
+    "8850302",
+    "8850306",
+    "8850310",
+    "8850316",
+    "8850318",
+    "8850320",
+    "8850322",
+    "8850323",
+    "8850324",
+    "8850326",
+    "8850336",
+    "8850340",
+    "8850346",
+    "8850350",
+    "8850356",
+    "8850402",
+    "8850408",
+    "8850414",
+    "8850416",
+    "8850902",
+    "8850904",
+    "8850906",
+    "8850907",
+    "8860102",
+    "9230916"
+  ]
+}

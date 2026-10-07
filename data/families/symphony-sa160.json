@@ -1,0 +1,77 @@
+{
+  "id": "symphony-sa160",
+  "name": "Symphony SA160",
+  "shortName": "SA160",
+  "aka": [
+    "SA-160",
+    "OMF-100-160",
+    "OMF Symphony"
+  ],
+  "manufacturer": "Symphony Aircraft Industries / OMF Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 2000,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "OMF-100-160 Symphony",
+    "Symphony SA 160"
+  ],
+  "summary": "Certified two-seat trainer derived from the Glastar kit plane; modern composite skin over a steel-tube frame and a wide, strut-braced high wing.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut on each side",
+      "Large slotted flaps over much of the span"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a smooth, rounded cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Glossy fiberglass-skinned fuselage with a wide, tall cabin",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Glossy modern composite two-seater with a strut-braced high wing",
+    "Wide, tall cabin with big glazing",
+    "Fixed tricycle gear under a clean fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "c150",
+      "howToTell": "The 150/152 is a plain all-metal airframe with a boxy cabin and a thick lift strut; the SA160 has smoother, glossy fiberglass skin and a rounder fuselage."
+    },
+    {
+      "id": "c172",
+      "howToTell": "The 172 is a larger four-seater with a tapered wing; the SA160 is a two-seater with a smoother composite fuselage."
+    },
+    {
+      "id": "vulcanair-v1",
+      "howToTell": "The V1.0 is a four-seater with a rectangular wing; the SA160 is a two-seater with a sleeker fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Symphony SA-160"
+  ],
+  "usCount": {
+    "value": 36,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05611Y0",
+    "05619SU"
+  ]
+}

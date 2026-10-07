@@ -75,9 +75,16 @@
     "Raytheon T-1 Jayhawk"
   ],
   "usCount": {
-    "value": 380,
-    "source": "Production (~600 Diamond/Beechjet/400XP civil) with ~70% US-registered per FAA registry / JETNET (approx.); USAF T-1A retired Aug 2026",
-    "asOf": "2026"
+    "value": 273,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1155400",
+    "1155402",
+    "1155404",
+    "4220001",
+    "5780602",
+    "7150010"
+  ]
 }

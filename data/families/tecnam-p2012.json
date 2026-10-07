@@ -1,0 +1,76 @@
+{
+  "id": "tecnam-p2012",
+  "name": "Tecnam P2012 Traveller",
+  "shortName": "P2012 Traveller",
+  "aka": [
+    "P2012",
+    "Traveller"
+  ],
+  "manufacturer": "Costruzioni Aeronautiche Tecnam",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "regional",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 2016,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "P2012 Traveller (nine-passenger commuter)",
+    "P2012 STOL",
+    "P2012 SMP (surveillance)"
+  ],
+  "summary": "Modern nine-passenger Italian piston twin delivered since 2019, flown in the US mainly by Cape Air as the replacement for its Cessna 402s.",
+  "weft": {
+    "wings": [
+      "High (shoulder) wing with no struts"
+    ],
+    "engines": [
+      "Two piston engines on the wing with multi-blade (three- or four-blade) props"
+    ],
+    "fuselage": [
+      "Long, boxy cabin with a row of large round windows",
+      "Fixed tricycle gear with the main legs faired below the fuselage",
+      "Rounded nose"
+    ],
+    "tail": [
+      "Tall swept fin with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "High-wing twin with a row of large round cabin windows",
+    "Fixed gear with the main legs faired at the bottom of the fuselage",
+    "Strut-free wing and a tall swept fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "bn-2-islander",
+      "howToTell": "The Islander is boxier with rectangular windows and a straight-edged tail; the P2012 is smoother with round windows and a swept fin."
+    },
+    {
+      "id": "c402",
+      "howToTell": "The 402 is a low-wing twin with retractable gear; the P2012 is a high-wing twin with fixed gear."
+    },
+    {
+      "id": "tecnam-p2006t",
+      "howToTell": "The P2006T is a small four-seat twin with retractable gear; the P2012 is much bigger with a row of round windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Tecnam P2012 Traveller"
+  ],
+  "usCount": {
+    "value": 44,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0330521"
+  ]
+}

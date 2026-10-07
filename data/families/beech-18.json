@@ -58,6 +58,10 @@
     {
       "id": "dc-3",
       "howToTell": "The DC-3 is far larger with a single tall fin; the Beech 18 has twin oval fins."
+    },
+    {
+      "id": "cessna-t-50",
+      "howToTell": "The Bobcat is smaller with a single rounded fin and a long glazed canopy; the Beech 18 has twin oval fins."
     }
   ],
   "difficulty": 3,
@@ -66,9 +70,26 @@
     "Beechcraft C-45"
   ],
   "usCount": {
-    "value": 230,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): Beech 18S-series and C-45 model codes",
-    "asOf": "2026"
+    "value": 264,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1150202",
+    "1150902",
+    "1150904",
+    "1150911",
+    "1151004",
+    "1151006",
+    "1151008",
+    "1151010",
+    "1151012",
+    "1151014",
+    "1151018",
+    "1151019",
+    "1151021",
+    "1151022",
+    "1151040",
+    "1151044"
+  ]
 }

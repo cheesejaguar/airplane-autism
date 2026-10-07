@@ -1,0 +1,79 @@
+{
+  "id": "hawker-hunter",
+  "name": "Hawker Hunter",
+  "shortName": "Hunter",
+  "aka": [
+    "Hunter F.58",
+    "Hawker Hunter Mk 58",
+    "Hunter T.7"
+  ],
+  "manufacturer": "Hawker Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1951,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "Hunter F.6",
+    "Hunter FGA.9",
+    "Hunter F.58",
+    "Hunter T.7 (two-seat)"
+  ],
+  "summary": "Elegant British swept-wing fighter, used by many air forces and now flown by US contractor adversary companies, with a few privately owned.",
+  "weft": {
+    "wings": [
+      "Mid-mounted wing swept back about 35 degrees",
+      "Dogtooth leading edge on later versions",
+      "Underwing pylons"
+    ],
+    "engines": [
+      "Single Avon turbojet fed by wing-root intakes on each side",
+      "One large round tailpipe"
+    ],
+    "fuselage": [
+      "Sharply pointed nose cone",
+      "Bubble canopy on a slim fuselage",
+      "Blister fairing under the front fuselage for the gun pack"
+    ],
+    "tail": [
+      "Tall swept fin",
+      "Swept horizontal tail mounted mid-way on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Wing-root intakes and a sharply pointed nose on a swept-wing jet",
+    "Bubble canopy with a long, smooth fuselage",
+    "Single large tailpipe and gun-pack blister under the nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-86",
+      "howToTell": "The Sabre has a round nose intake; the Hunter has wing-root intakes."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has straight wings and tip tanks; the Hunter has swept wings."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Hawker Hunter in flight",
+    "Hawker Hunter"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05619HW",
+    "4231004"
+  ]
+}

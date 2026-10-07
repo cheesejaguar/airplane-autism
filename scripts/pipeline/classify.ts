@@ -8,15 +8,19 @@
 import fs from "node:fs";
 import path from "node:path";
 import pLimit from "p-limit";
+import sharp from "sharp";
 import { generateText, Output } from "ai";
 import { z } from "zod";
 import { ANGLES, type Family } from "../../src/lib/catalog/schema";
 import { CACHE, USER_AGENT, loadFamilies, readJson, writeJson } from "./lib";
 import type { Candidate } from "./harvest";
 
-const FAST_MODEL = "anthropic/claude-haiku-4.5";
+// Calls are spread across three fast vision models so a single provider's rate limit doesn't
+// throttle the whole run; low-confidence matches always get a second opinion from the strong model.
+const FAST_MODELS = ["anthropic/claude-haiku-4.5", "google/gemini-2.5-flash", "openai/gpt-5-mini"];
 const STRONG_MODEL = "anthropic/claude-sonnet-5.5";
 const PER_FAMILY = 8;
+const BATCH = 7;
 
 const verdictSchema = z.object({
   matchesType: z
@@ -69,6 +73,7 @@ async function download(url: string): Promise<Uint8Array> {
     const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
     if (res.ok) return new Uint8Array(await res.arrayBuffer());
     if ((res.status === 429 || res.status >= 500) && attempt < 5) {
+      console.warn(`  download ${res.status}, retry ${attempt + 1}`);
       await new Promise((r) => setTimeout(r, 2000 * 2 ** attempt));
       continue;
     }
@@ -91,6 +96,41 @@ async function classify(model: string, f: Family, names: Map<string, string>, by
     ],
   });
   return { ...output, model } satisfies Verdict;
+}
+
+type Prepared = { c: Candidate; bytes: Uint8Array };
+
+/** One limiter for all Wikimedia downloads across families — upload.wikimedia.org rate-limits per IP. */
+const dl = pLimit(3);
+
+const batchSchema = z.object({
+  verdicts: z.array(verdictSchema.extend({ index: z.number().int().describe("0-based index of the photo this verdict is for") })),
+});
+
+/** Classifies several photos in one request (the gateway limits requests, not images). */
+async function classifyBatch(model: string, f: Family, names: Map<string, string>, images: Uint8Array[]): Promise<(Verdict | null)[]> {
+  const { output } = await generateText({
+    model,
+    output: Output.object({ schema: batchSchema }),
+    messages: [
+      {
+        role: "user",
+        content: [
+          {
+            type: "text",
+            text: `${prompt(f, names)}\n\nThere are ${images.length} photos, indexed 0 to ${images.length - 1} in the order given. Return exactly one verdict per photo, each with its index.`,
+          },
+          ...images.map((data) => ({ type: "file" as const, mediaType: "image/jpeg", data })),
+        ],
+      },
+    ],
+  });
+  return images.map((_, i) => {
+    const v = output.verdicts.find((x) => x.index === i);
+    if (!v) return null;
+    const { index: _index, ...rest } = v;
+    return { ...rest, model };
+  });
 }
 
 export function isUsable(v: Verdict) {
@@ -129,13 +169,15 @@ export function selectDiverse<T extends { verdict: Verdict }>(items: T[], n: num
 async function main() {
   const args = process.argv.slice(2);
   const only = args.includes("--only") ? args[args.indexOf("--only") + 1].split(",") : undefined;
-  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 10;
+  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 2;
   const { families } = loadFamilies();
   const names = new Map(families.map((f) => [f.id, f.name]));
-  const limit = pLimit(concurrency);
+  // One limiter per fast provider plus one for the strong model.
+  const limits = [...FAST_MODELS, STRONG_MODEL].map(() => pLimit(concurrency));
+  let rr = 0;
   let calls = 0;
 
-  const familyLimit = pLimit(5);
+  const familyLimit = pLimit(6);
   await Promise.all(families.filter((x) => !only || only.includes(x.id)).map((f) => familyLimit(async () => {
     const harvestFile = path.join(CACHE, "harvest", `${f.id}.json`);
     if (!fs.existsSync(harvestFile)) {
@@ -146,26 +188,59 @@ async function main() {
     const cacheFile = path.join(CACHE, "classify", `${f.id}.json`);
     const cache: Record<string, Verdict | { error: string }> = fs.existsSync(cacheFile) ? readJson(cacheFile) : {};
 
-    await Promise.all(
-      candidates.map((c) =>
-        limit(async () => {
-          if (cache[c.title] && !("error" in cache[c.title])) return;
-          try {
-            const bytes = await download(c.thumb);
-            let v = await classify(FAST_MODEL, f, names, bytes);
-            calls++;
-            // Borderline type match → second opinion from the stronger model.
-            if (v.matchesType && v.confidence < 0.75) {
-              v = await classify(STRONG_MODEL, f, names, bytes);
-              calls++;
+    const todo = candidates.filter((c) => !cache[c.title] || "error" in cache[c.title]);
+    // Fetch the already-rendered 960px Commons thumbnails (other sizes trigger Wikimedia's
+    // thumbnail rate limits) and downscale locally — 512px is plenty to judge type and angle.
+    const prepared = (
+      await Promise.all(
+        todo.map((c) =>
+          dl(async (): Promise<Prepared | null> => {
+            try {
+              const raw = await download(c.thumb);
+              const bytes = new Uint8Array(await sharp(raw).resize({ width: 512, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer());
+              return { c, bytes };
+            } catch (e) {
+              cache[c.title] = { error: (e as Error).message };
+              return null;
             }
-            cache[c.title] = v;
-          } catch (e) {
-            cache[c.title] = { error: (e as Error).message };
-          }
+          }),
+        ),
+      )
+    ).filter((x): x is Prepared => !!x);
+
+    const runBatches = async (items: typeof prepared, pickModel: () => { model: string; lane: number }) => {
+      const chunks: (typeof prepared)[] = [];
+      for (let i = 0; i < items.length; i += BATCH) chunks.push(items.slice(i, i + BATCH));
+      await Promise.all(
+        chunks.map((chunk) => {
+          const { model, lane } = pickModel();
+          return limits[lane](async () => {
+            try {
+              const t = Date.now();
+              const verdicts = await classifyBatch(model, f, names, chunk.map((x) => x.bytes));
+              calls++;
+              if (process.env.PIPELINE_DEBUG) console.log(`  ${f.id} batch ${chunk.length} ${model} ${Date.now() - t}ms`);
+              chunk.forEach((x, i) => {
+                if (verdicts[i]) cache[x.c.title] = verdicts[i]!;
+              });
+            } catch (e) {
+              for (const x of chunk) cache[x.c.title] = { error: (e as Error).message };
+            }
+          });
         }),
-      ),
-    );
+      );
+    };
+
+    await runBatches(prepared, () => {
+      const lane = rr++ % FAST_MODELS.length;
+      return { model: FAST_MODELS[lane], lane };
+    });
+    // Borderline type matches get a second opinion from the stronger model.
+    const borderline = prepared.filter((x) => {
+      const v = cache[x.c.title];
+      return v && !("error" in v) && v.matchesType && v.confidence < 0.75;
+    });
+    if (borderline.length) await runBatches(borderline, () => ({ model: STRONG_MODEL, lane: FAST_MODELS.length }));
     writeJson(cacheFile, cache);
 
     const usable = candidates

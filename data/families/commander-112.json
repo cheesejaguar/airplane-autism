@@ -1,0 +1,92 @@
+{
+  "id": "commander-112",
+  "name": "Rockwell Commander 112/114",
+  "shortName": "Commander 112",
+  "aka": [
+    "Commander 114",
+    "Commander 115",
+    "112TC",
+    "114B"
+  ],
+  "manufacturer": "Rockwell International / Commander Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1970,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "112 / 112A / 112B (200 hp)",
+    "112TC / 112TCA (turbocharged)",
+    "114 / 114A / 114B / 115 (260 hp)"
+  ],
+  "summary": "Rockwell's four-seat, low-wing, retractable-gear single (1972–80), later built by Commander Aircraft; known for a roomy cabin and rugged build.",
+  "weft": {
+    "wings": [
+      "Low wing, no struts",
+      "Straight, tapered wing with dihedral"
+    ],
+    "engines": [
+      "Single Lycoming flat-four or flat-six in a blunt, deep cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Wide, deep four-seat cabin",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Tall, swept-back fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing retractable with a deep, wide cabin and bulky nose",
+    "Tall, swept-back fin and rudder",
+    "Stout, short fuselage for a four-seater"
+  ],
+  "confusedWith": [
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Commander has a swept-back fin and a roomy cabin; the Mooney has a forward-swept fin and a narrow cabin."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The Commander has a bulkier cabin and a swept fin; the A36 has rear cargo doors and a squared tail."
+    },
+    {
+      "id": "bellanca-viking",
+      "howToTell": "The Commander has a deeper, shorter fuselage; the Viking has a very tall fin and a long, slim nose."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The Commander is an all-metal low-wing with retractable gear; the SR series is a composite, fixed-gear aircraft with a parachute hatch on the rear deck."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Rockwell Commander 112",
+    "Rockwell Commander 114"
+  ],
+  "usCount": {
+    "value": 581,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0144701",
+    "0145001",
+    "0145002",
+    "7630301",
+    "7630302",
+    "7630303",
+    "7630306",
+    "7630307",
+    "7630314",
+    "7630315"
+  ]
+}

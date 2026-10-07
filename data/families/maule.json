@@ -62,6 +62,18 @@
     {
       "id": "citabria",
       "howToTell": "The Citabria is a narrow tandem two-seater; the Maule has a wider four-seat cabin and a swept fin."
+    },
+    {
+      "id": "aeronca-sedan",
+      "howToTell": "The Maule has a squared, boxier fuselage and tail; the Sedan has a rounded fabric fuselage and a curved tail."
+    },
+    {
+      "id": "aviat-husky",
+      "howToTell": "The Maule seats four with side-by-side front seats in a boxier cabin; the Husky seats two in tandem."
+    },
+    {
+      "id": "helio-courier",
+      "howToTell": "A Maule's wing is braced by a lift strut and has simple flaps; the Helio Courier has a strut-free cantilever wing with slats and huge flaps, a taller fin and much taller gear."
     }
   ],
   "difficulty": 4,
@@ -70,9 +82,47 @@
     "Maule M-5"
   ],
   "usCount": {
-    "value": 1100,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): Maule M-series model codes",
-    "asOf": "2026"
+    "value": 1161,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "5460102",
+    "5460104",
+    "5460105",
+    "5460106",
+    "5460107",
+    "5460108",
+    "5460109",
+    "5460110",
+    "5460111",
+    "5460112",
+    "5460114",
+    "5460132",
+    "5460133",
+    "5460134",
+    "5460135",
+    "5460136",
+    "5460140",
+    "5460160",
+    "5460175",
+    "5460184",
+    "5460185",
+    "5460186",
+    "5460187",
+    "5460188",
+    "5460189",
+    "5460190",
+    "5460204",
+    "5470010",
+    "5470112",
+    "5470203",
+    "5470204",
+    "5470205",
+    "5470206",
+    "5470207",
+    "5470208",
+    "5470211",
+    "5470414"
+  ]
 }

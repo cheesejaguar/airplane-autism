@@ -64,6 +64,18 @@
     {
       "id": "atr",
       "howToTell": "The 1900 has a low wing and is far smaller; the ATR has a high wing and main gear in fuselage blisters."
+    },
+    {
+      "id": "beech-99",
+      "howToTell": "The Beech 99 is smaller and plainer, with a low conventional tail and no tail fins or stabilons; the 1900 has a T-tail with fins and a taller, bigger cabin."
+    },
+    {
+      "id": "metroliner",
+      "howToTell": "The Metro has a sharply pointed nose, a more slender fuselage and a low tailplane; the 1900 has a T-tail and fins on the tail cone."
+    },
+    {
+      "id": "saab-340",
+      "howToTell": "The Saab 340 is rounder with a low conventional tail and large engine nacelles slung from the wing; the 1900 is narrower with a T-tail and tail fins."
     }
   ],
   "difficulty": 3,
@@ -72,9 +84,14 @@
     "Beechcraft 1900 on final approach"
   ],
   "usCount": {
-    "value": 160,
-    "source": "FAA registry active aircraft (Beechcraft/Raytheon 1900, 1900C, 1900D via myplane.com)",
-    "asOf": "2026"
+    "value": 148,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1154160",
+    "1154161",
+    "1154162",
+    "7150005"
+  ]
 }

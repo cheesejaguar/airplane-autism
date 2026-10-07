@@ -1,0 +1,82 @@
+{
+  "id": "e190",
+  "name": "Embraer E190/E195",
+  "shortName": "E190/E195",
+  "aka": [
+    "ERJ 190",
+    "ERJ 195",
+    "E-Jet E1",
+    "Lineage 1000"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 2004,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "E190",
+    "E195 (stretched)",
+    "Lineage 1000 (ECJ business jet)"
+  ],
+  "summary": "Embraer's larger E-Jet regional airliners, flown in the US by airlines like JetBlue, with a few Lineage 1000 business conversions.",
+  "weft": {
+    "wings": [
+      "Low swept wing with canted winglets"
+    ],
+    "engines": [
+      "Two CF34-10E turbofans slung under the wings"
+    ],
+    "fuselage": [
+      "Long, narrow-body regional jet fuselage",
+      "Smooth rounded nose"
+    ],
+    "tail": [
+      "Conventional tail with a tall swept fin and low-set stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Regional jet with underwing engines and small winglets",
+    "Long, slender fuselage with a conventional low-set tail",
+    "Larger and longer than the E175"
+  ],
+  "confusedWith": [
+    {
+      "id": "e175",
+      "howToTell": "The E175 is shorter with smaller engines; the E190/E195 is longer with a larger wing."
+    },
+    {
+      "id": "a220",
+      "howToTell": "The A220 is wider-bodied with large engines on pylons and tall winglets; the E190 is a smaller, narrower regional jet."
+    },
+    {
+      "id": "crj700",
+      "howToTell": "The CRJ700/900 has rear-mounted engines and a T-tail; the E190 has underwing engines and a conventional tail."
+    },
+    {
+      "id": "a320ceo",
+      "howToTell": "The A320 is larger with a wider fuselage; the E190 is a smaller regional jet."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Embraer 190",
+    "Embraer 195"
+  ],
+  "usCount": {
+    "value": 36,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3260408",
+    "3260413",
+    "3260424"
+  ]
+}

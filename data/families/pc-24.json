@@ -65,9 +65,11 @@
     "Pilatus PC-24 taxiing"
   ],
   "usCount": {
-    "value": 140,
-    "source": "Pilatus deliveries (~300 PC-24 incl. 50 in 2025) with ~45% US-registered per FAA registry / JETNET (approx.)",
-    "asOf": "2025"
+    "value": 171,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7090453"
+  ]
 }

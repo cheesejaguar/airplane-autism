@@ -1,0 +1,83 @@
+{
+  "id": "ts-11-iskra",
+  "name": "PZL TS-11 Iskra",
+  "shortName": "TS-11 Iskra",
+  "aka": [
+    "Iskra",
+    "TS-11"
+  ],
+  "manufacturer": "PZL Mielec (WSK)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "TS-11 Iskra bis A / B / D",
+    "TS-11R (recon)",
+    "Iskra jet team aircraft"
+  ],
+  "summary": "Polish tandem jet trainer with a straight wing, wing-root intakes and a single turbojet, flown by the Polish Air Force and the Biało-Czerwone Iskry team; a score are registered in the US.",
+  "weft": {
+    "wings": [
+      "Low-mid, straight wing with rounded tips",
+      "Wingtip tanks on many examples",
+      "Large flaps"
+    ],
+    "engines": [
+      "Single turbojet with air intakes at the wing roots on each side of the fuselage",
+      "Single round tailpipe at the rear"
+    ],
+    "fuselage": [
+      "Slim, sleek fuselage with a long single bubble canopy over tandem seats",
+      "Pointed nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Swept fin with a gentle taper",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim straight-winged jet with wing-root intakes and a long tandem canopy",
+    "Smooth, narrow fuselage and a pointed nose",
+    "Often in white-and-red Polish colors with tip tanks"
+  ],
+  "confusedWith": [
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a pot-bellied fuselage, two separate canopies and fuselage-side intakes; the Iskra is slimmer with a long single canopy and wing-root intakes."
+    },
+    {
+      "id": "fouga-magister",
+      "howToTell": "The Magister has a V-tail and two engines; the Iskra has a conventional tail and a single engine."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has large tip tanks and a long, slim nose with fuselage intakes; the Iskra has wing-root intakes and a shorter fuselage."
+    },
+    {
+      "id": "l-39",
+      "howToTell": "The L-39 has a tapered wing, a short nose and side intakes; the Iskra has a straight wing and wing-root intakes."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "PZL TS-11 Iskra"
+  ],
+  "usCount": {
+    "value": 20,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9810107"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "curtiss-robin",
+  "name": "Curtiss Robin",
+  "shortName": "Curtiss Robin",
+  "aka": [
+    "Robin",
+    "Curtiss-Wright Robin",
+    "Robin C-1",
+    "Robin J-1"
+  ],
+  "manufacturer": "Curtiss Aeroplane and Motor Company / Curtiss-Wright",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Robin C-1 (OX-5 / Challenger)",
+    "Robin B",
+    "Robin J-1 (Wright J-6)",
+    "Robin on floats"
+  ],
+  "summary": "Late-1920s high-wing cabin monoplane famous for record endurance flights; 769 were built.",
+  "weft": {
+    "wings": [
+      "High-wing monoplane braced by a pair of parallel diagonal struts per side",
+      "Early models had large flat fairings over the struts"
+    ],
+    "engines": [
+      "Nose-mounted engine (OX-5 V-8, Challenger or Wright radial), often with cylinders exposed",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Enclosed cabin seating three, two passengers side by side behind the pilot",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "High-wing monoplane braced by parallel diagonal struts",
+    "Boxy three-seat cabin with an exposed-cylinder engine",
+    "Fixed tailwheel gear on an early high-wing monoplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant has a single strut per side and a gull wing; the Robin has two parallel diagonal struts and a straight wing."
+    },
+    {
+      "id": "monocoupe-90",
+      "howToTell": "The Monocoupe is smaller with two seats and a reverse-curve rear fuselage; the Robin seats three in a longer cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Curtiss Robin"
+  ],
+  "usCount": {
+    "value": 26,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2620802",
+    "2620806",
+    "2620812"
+  ]
+}

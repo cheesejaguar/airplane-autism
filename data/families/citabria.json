@@ -62,6 +62,14 @@
     {
       "id": "j-3",
       "howToTell": "The J-3 has a rounded tail, exposed engine cylinders and a V-strut gear; the Citabria has a squared tail and a closed cowl."
+    },
+    {
+      "id": "aviat-husky",
+      "howToTell": "The Citabria has a slimmer cabin and a smaller cowl; the Husky has a deeper fuselage, big flaps and a bigger engine."
+    },
+    {
+      "id": "mudry-cap-10",
+      "howToTell": "The CAP 10 is a low-wing taildragger with two seats side by side under a bubble canopy and a ventral fin; the Citabria is a high-wing tandem-seat aircraft."
     }
   ],
   "difficulty": 4,
@@ -70,9 +78,34 @@
     "American Champion 8KCAB Super Decathlon"
   ],
   "usCount": {
-    "value": 3600,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): 7ECA, 7GCAA, 7GCBC, 7KCAB, 8KCAB and 8GCBC model codes",
-    "asOf": "2026"
+    "value": 3595,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1220460",
+    "1220501",
+    "1220601",
+    "1220701",
+    "1220801",
+    "1220803",
+    "2110164",
+    "2110172",
+    "21101N2",
+    "21101N8",
+    "21101NN",
+    "21101P3",
+    "21101PC",
+    "21101PK",
+    "21101PL",
+    "21101PN",
+    "21101PT",
+    "2110612",
+    "2120003",
+    "2121000",
+    "2121001",
+    "2121002",
+    "2121004",
+    "2121005"
+  ]
 }

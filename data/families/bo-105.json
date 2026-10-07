@@ -1,0 +1,85 @@
+{
+  "id": "bo-105",
+  "name": "MBB Bo 105",
+  "shortName": "Bo 105",
+  "aka": [
+    "BO-105",
+    "Bölkow",
+    "BO 105 CBS"
+  ],
+  "manufacturer": "Messerschmitt-Bölkow-Blohm",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Bo 105C",
+    "Bo 105CBS",
+    "Bo 105D",
+    "Bo 105P",
+    "Bo 105M"
+  ],
+  "summary": "A compact twin-turbine helicopter famous as the first light twin with a rigid rotor; widely used for EMS and police work.",
+  "weft": {
+    "wings": [
+      "Four-blade rigid hingeless rotor with short, wide-chord blades",
+      "Very short, stubby mast"
+    ],
+    "engines": [
+      "Twin turboshafts side by side on the roof behind the head",
+      "Two exhaust stubs at the rear top"
+    ],
+    "fuselage": [
+      "Boxy compact pod with large clamshell rear doors",
+      "Skids on tall struts; big windscreen"
+    ],
+    "tail": [
+      "Straight tail boom with horizontal stabilizer carrying large end plates",
+      "Two-blade tail rotor on the side"
+    ]
+  },
+  "tellTales": [
+    "Short stubby mast with a four-blade rotor with broad blades",
+    "Boxy pod with twin exhausts and rear clamshell doors",
+    "Horizontal stabilizer with big endplate fins"
+  ],
+  "confusedWith": [
+    {
+      "id": "bk117",
+      "howToTell": "The BK 117 is larger and longer with a taller, more upswept tail; the Bo 105 is a smaller, stubbier box with a shorter fuselage."
+    },
+    {
+      "id": "h145",
+      "howToTell": "The H145 is much bigger with sliding doors and a longer cabin; the Bo 105 is a short boxy pod with rear clamshell doors."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 has smooth modern curves and larger windows; the Bo 105 is more boxy with a very short mast."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bo 105"
+  ],
+  "usCount": {
+    "value": 39,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5626004",
+    "5626005",
+    "5626006",
+    "5626008",
+    "5626034"
+  ]
+}

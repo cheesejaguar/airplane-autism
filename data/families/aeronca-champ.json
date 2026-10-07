@@ -63,6 +63,18 @@
     {
       "id": "luscombe-8",
       "howToTell": "The Luscombe is all-metal with side-by-side seats; the Champ is fabric-covered with tandem seats."
+    },
+    {
+      "id": "aeronca-tandem",
+      "howToTell": "The Champ is a post-war design with a lower cabin and a slim fuselage; the wartime L-3/O-58 has a taller greenhouse, wider glazing and a rounded-looking tail."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The Champ is a tandem fabric aircraft; the 120/140 is a side-by-side all-metal fuselage with fabric wings (or metal on the 140A) and spring-steel gear."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Champ seats two in tandem in a long narrow cabin; the Chief seats two side by side in a deeper, rounder cabin."
     }
   ],
   "difficulty": 4,
@@ -71,9 +83,40 @@
     "Aeronca 7AC Champion"
   ],
   "usCount": {
-    "value": 2350,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Aeronca 7-series model codes",
-    "asOf": "2026"
+    "value": 2940,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1220438",
+    "2110102",
+    "2110104",
+    "2110106",
+    "2110108",
+    "2110110",
+    "2110113",
+    "2110114",
+    "2110116",
+    "2110117",
+    "2110120",
+    "2110124",
+    "2110140",
+    "2110144",
+    "2110145",
+    "2110148",
+    "2110151",
+    "2110154",
+    "2110158",
+    "2110162",
+    "21101MA",
+    "21101ML",
+    "21101MW",
+    "21101NB",
+    "21101NL",
+    "21101NM",
+    "21101NX",
+    "2120001",
+    "2120002",
+    "2120004"
+  ]
 }

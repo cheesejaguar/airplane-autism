@@ -66,6 +66,14 @@
     {
       "id": "aw139",
       "howToTell": "The AW139 has five blades, a sleek nose and retractable wheels; the 412 has four blades on a boxy Huey cabin with skids."
+    },
+    {
+      "id": "bell-214",
+      "howToTell": "The Bell 214ST is larger, longer and bulkier than the 412; the 412 has a more compact body."
+    },
+    {
+      "id": "bell-222",
+      "howToTell": "The Bell 222/430 have a smoother body and a long swept nose; the 412 is a boxy utility machine with a blunt nose."
     }
   ],
   "difficulty": 4,
@@ -73,9 +81,14 @@
     "Bell 412"
   ],
   "usCount": {
-    "value": 85,
-    "source": "FAA registry make/model inquiry (Bell 412/412EP)",
+    "value": 61,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1182157",
+    "1182202",
+    "1182205",
+    "1182217"
+  ]
 }

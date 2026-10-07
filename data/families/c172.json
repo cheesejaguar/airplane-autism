@@ -65,6 +65,18 @@
     {
       "id": "pa-28",
       "howToTell": "The 172 is a strut-braced high-wing; the PA-28 is a low-wing with no struts."
+    },
+    {
+      "id": "c177",
+      "howToTell": "The 172 has a lift strut under each wing and a conventional horizontal tail; the 177 Cardinal has a strutless cantilever wing, a steeply raked windshield and a one-piece stabilator."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 172 has a nosewheel; the 170 is the tailwheel version, with flat spring-steel main gear and a nose-high ground stance."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 172 is a four-seater on tricycle gear; the 120/140 is a short two-seater on a tailwheel."
     }
   ],
   "difficulty": 3,
@@ -73,9 +85,41 @@
     "Cessna 172"
   ],
   "usCount": {
-    "value": 20200,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 172 model codes",
-    "asOf": "2026"
+    "value": 21693,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2072202",
+    "2072401",
+    "2072402",
+    "2072404",
+    "2072406",
+    "2072408",
+    "2072410",
+    "2072412",
+    "2072413",
+    "2072414",
+    "2072417",
+    "2072418",
+    "2072420",
+    "2072421",
+    "2072424",
+    "2072426",
+    "2072430",
+    "2072431",
+    "2072432",
+    "2072434",
+    "2072436",
+    "2072437",
+    "2072438",
+    "2072439",
+    "2072449",
+    "2072502",
+    "2072504",
+    "2072506",
+    "2072508",
+    "7530137",
+    "7530206"
+  ]
 }

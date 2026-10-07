@@ -1,0 +1,132 @@
+[
+  {
+    "existingId": "aeronca-champ",
+    "newId": "aeronca-tandem",
+    "howToTell": "The Champ is a post-war design with a lower cabin and a slim fuselage; the wartime L-3/O-58 has a taller greenhouse, wider glazing and a rounded-looking tail."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "c305",
+    "howToTell": "The Super Cub has a slim, flat-sided cabin and a rounded tail; the Bird Dog is bigger, with a huge glazed rear cabin, spring-steel gear legs and a squarer tail."
+  },
+  {
+    "existingId": "c180",
+    "newId": "c305",
+    "howToTell": "The 180 seats four side-by-side with one rear window; the Bird Dog seats two in tandem under an enormous glazed rear cabin."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "stinson-l-5",
+    "howToTell": "The L-4/J-3 Cub is a tiny narrow-fuselage airplane with a squared tail; the larger L-5 has a long glazed cabin and a six-cylinder cowl."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "fairchild-m62",
+    "howToTell": "The PT-19/PT-26 Cornell is a low-wing monoplane trainer; the Stearman is a biplane with wires and struts between the two wings."
+  },
+  {
+    "existingId": "at-6",
+    "newId": "fairchild-m62",
+    "howToTell": "The Cornell has fixed gear, a light inline-style nose and a wire-free wing; the Texan is bigger with retractable gear and a big radial."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "ryan-st",
+    "howToTell": "The Ryan PT-22 is a low-wing monoplane with big wheel spats; the Stearman is a biplane with interplane struts and wires."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "n3n",
+    "howToTell": "The N3N is a Navy biplane that is usually yellow, with a smoother round cowl and a squatter body; the Stearman has a larger, more angular airframe and a bigger radial."
+  },
+  {
+    "existingId": "t-34",
+    "newId": "dhc-1",
+    "howToTell": "The Chipmunk is a smaller, lighter tailwheel airplane with a slim inline nose and fixed gear; the T-34 has a big flat-six nose and nose-wheel gear."
+  },
+  {
+    "existingId": "at-6",
+    "newId": "bt-13",
+    "howToTell": "The BT-13 has fixed landing gear and a rounder, lower profile; the Texan has retractable gear and a taller canopy."
+  },
+  {
+    "existingId": "da20",
+    "newId": "tecnam-p-mentor",
+    "howToTell": "The DA20 is a lower, rounder composite with a longer glazed canopy; the P-Mentor has an upright fin, a straighter wing and an alloy-and-carbon look."
+  },
+  {
+    "existingId": "l-39",
+    "newId": "l-29",
+    "howToTell": "The L-29 has a rounder pot-bellied fuselage, straight wing with no tip tanks and a more bulbous nose; the L-39 is slimmer with a tapered wing and tip tanks."
+  },
+  {
+    "existingId": "t-38",
+    "newId": "t-33",
+    "howToTell": "The T-33 is a straight-wing, single-engine jet with big tip tanks and a very long canopy; the T-38 has swept wings, twin engines and a sleek pointed nose."
+  },
+  {
+    "existingId": "f-5",
+    "newId": "mirage-f1",
+    "howToTell": "The Mirage F1 is a single-engine jet with a strongly swept high-set wing and a long pointed nose; the F-5 is a smaller twin-engine jet with a thin straight-edged wing and a shark nose."
+  },
+  {
+    "existingId": "t-6",
+    "newId": "emb-312",
+    "howToTell": "The Tucano has a shorter nose and a lower, longer canopy; the T-6 Texan II has a taller canopy hump and a longer nose."
+  },
+  {
+    "existingId": "b-25",
+    "newId": "a-26",
+    "howToTell": "The Invader has a single tall fin and a straight mid wing with a sleek fuselage; the B-25 has twin fins and a gull wing."
+  },
+  {
+    "existingId": "learjet-35",
+    "newId": "sabreliner",
+    "howToTell": "The Sabreliner has a more strongly swept wing without tip tanks and a thin oval-windowed fuselage; the Learjet 35 has wingtip tanks and ventral delta fins."
+  },
+  {
+    "existingId": "l-39",
+    "newId": "ts-11-iskra",
+    "howToTell": "The Iskra is a slimmer jet with a straight wing and wing-root intakes under a long single canopy; the L-39 has larger fuselage-side intakes and wingtip tanks."
+  },
+  {
+    "existingId": "t-6",
+    "newId": "pc-7",
+    "howToTell": "The PC-7 has a three-blade propeller, a smaller airframe and a lower canopy; the T-6 Texan II has a four-blade propeller and a bigger airframe."
+  },
+  {
+    "existingId": "tbm-avenger",
+    "newId": "f4f-wildcat",
+    "howToTell": "The Wildcat is a small single-seat fighter with a stubby body and narrow-track gear; the Avenger is a much bigger bomber with a bulbous fuselage."
+  },
+  {
+    "existingId": "da20",
+    "newId": "slingsby-t67",
+    "howToTell": "The Firefly has a larger bubble canopy and fixed tricycle gear with fairings; the DA20 has a rounder canopy and a distinct tail shape."
+  },
+  {
+    "existingId": "t-6",
+    "newId": "pc-9",
+    "howToTell": "The PC-9 is the smaller, sleeker airplane the T-6 Texan II was derived from, with a lower canopy and a smaller tail; the T-6 is larger and heavier-looking."
+  },
+  {
+    "existingId": "p-51",
+    "newId": "sea-fury",
+    "howToTell": "The Sea Fury has a big radial nose with a smooth round cowl and a five-blade propeller; the Mustang has a pointed inline nose and a belly scoop."
+  },
+  {
+    "existingId": "p-51",
+    "newId": "p-47",
+    "howToTell": "The Thunderbolt is much bigger with a barrel-shaped fuselage, a round radial nose and an oval chin intake; the Mustang is slim with a pointed inline nose and a belly scoop."
+  },
+  {
+    "existingId": "yak-52",
+    "newId": "yak-18t",
+    "howToTell": "The Yak-18T seats four under a long bubble canopy; the Yak-52 is a two-seat tandem trainer with a smaller canopy."
+  },
+  {
+    "existingId": "cj-6",
+    "newId": "yak-18t",
+    "howToTell": "The Yak-18T seats four in a long cabin; the CJ-6 is a two-seat tandem trainer."
+  }
+]

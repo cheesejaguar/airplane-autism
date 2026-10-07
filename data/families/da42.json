@@ -62,6 +62,10 @@
     {
       "id": "baron",
       "howToTell": "The Baron has a conventional low tail and a rounded metal fuselage; the DA42 has a T-tail and long thin wings."
+    },
+    {
+      "id": "tecnam-p2006t",
+      "howToTell": "The P2006T is a high-wing twin with a conventional low tail; the DA42 is a low-wing composite twin with a T-tail and long slender wings."
     }
   ],
   "difficulty": 3,
@@ -70,9 +74,18 @@
     "Diamond DA62"
   ],
   "usCount": {
-    "value": 440,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~260 DA42 + ~170 DA62",
-    "asOf": "2026"
+    "value": 394,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05634V3",
+    "2990004",
+    "2990103",
+    "2990104",
+    "2990105",
+    "2990106",
+    "2990107",
+    "2990205"
+  ]
 }

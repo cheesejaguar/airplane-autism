@@ -1,0 +1,89 @@
+{
+  "id": "saab-340",
+  "name": "Saab 340",
+  "shortName": "Saab 340",
+  "aka": [
+    "Saab 340A",
+    "Saab 340B",
+    "Saab 340B Plus",
+    "SF340",
+    "Saab-Fairchild 340",
+    "340B"
+  ],
+  "manufacturer": "Saab / Fairchild",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1983,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Saab 340A",
+    "Saab 340B / 340B Plus",
+    "340 freighter and corporate conversions"
+  ],
+  "summary": "Swedish 30- to 37-seat regional turboprop with a low wing and a conventional low tail, flown by US regional carriers and now by cargo and charter operators.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with a slight taper",
+      "Plain wingtips"
+    ],
+    "engines": [
+      "Two General Electric CT7 turboprops in large nacelles slung from the low wing",
+      "Nacelles extend well aft of the wing's trailing edge"
+    ],
+    "fuselage": [
+      "Round, short regional fuselage with small oval windows",
+      "Rounded nose and a sloping windshield",
+      "Airstair door at the rear left; freighters have a large cargo door"
+    ],
+    "tail": [
+      "Conventional low tailplane (not a T-tail)",
+      "Swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Regional turboprop with a low wing and a low horizontal tail",
+    "Two large nacelles reaching back behind the trailing edge",
+    "Short, round fuselage with a rounded nose and small oval windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "emb-120",
+      "howToTell": "The EMB-120 has a T-tail, a more slender fuselage and a longer pointed nose; the Saab 340 has a conventional low tail and a rounded nose."
+    },
+    {
+      "id": "atr",
+      "howToTell": "The ATR has a high wing and a T-tail; the Saab 340 has a low wing and a low tail."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The 1900 is smaller with a T-tail and tail fins; the Saab 340 has a conventional low tail and a bigger, rounder fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Saab 340",
+    "Saab 340B"
+  ],
+  "usCount": {
+    "value": 63,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7850100",
+    "7860100",
+    "7860101",
+    "7860105",
+    "7860106",
+    "7860107"
+  ]
+}

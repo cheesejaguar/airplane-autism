@@ -1,0 +1,77 @@
+{
+  "id": "stinson-trimotor-sm8",
+  "name": "Stinson SM-8A",
+  "shortName": "Stinson SM-8A",
+  "aka": [
+    "SM-8A",
+    "Stinson Junior",
+    "Stinson Junior SM-8A",
+    "SM-8A Junior"
+  ],
+  "manufacturer": "Stinson Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1930,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SM-8A (Lycoming R-680 radial)",
+    "Related Stinson Junior models (S, R, SR)"
+  ],
+  "summary": "Early 1930s four-seat enclosed-cabin high-wing monoplane, one of the first small aircraft with a fully enclosed cabin; the nine-cylinder radial SM-8A is the best-known Junior.",
+  "weft": {
+    "wings": [
+      "Strut-braced high-wing monoplane",
+      "Wing struts also brace the main landing gear legs (outrigger undercarriage)"
+    ],
+    "engines": [
+      "Nine-cylinder Lycoming R-680 radial, often with exposed cylinders",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Enclosed cabin seating four",
+      "Wide-track outrigger fixed tailwheel gear braced to the wing struts"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "High-wing monoplane with main landing gear braced up to the wing struts",
+    "Enclosed cabin behind an exposed nine-cylinder radial",
+    "Early 1930s four-seat cabin monoplane with outrigger gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant is a later, more refined cabin monoplane with a gull wing and a cowled radial; the Junior has a straight wing with outrigger gear braced by the wing struts."
+    },
+    {
+      "id": "curtiss-robin",
+      "howToTell": "The Robin has two parallel diagonal bracing struts per side and gear mounted to the fuselage; the Junior's landing gear is braced to the wing struts."
+    },
+    {
+      "id": "stinson-junior",
+      "howToTell": "The SM-8A is the early radial-powered Junior with outrigger gear; the later R and SR models have a deeper fuselage and a stub wing carrying the struts and gear."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Stinson Junior"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8630802"
+  ]
+}

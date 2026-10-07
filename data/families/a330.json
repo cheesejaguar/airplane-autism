@@ -68,6 +68,14 @@
     {
       "id": "kc-46",
       "howToTell": "A civil A330 has no refuelling boom, drogue pods or military grey paint; the KC-46 is a 767 with a pointed nose and a boom under the tail."
+    },
+    {
+      "id": "a300",
+      "howToTell": "The A300-600 is shorter, with a fatter fuselage and tiny wingtip fences; the A330 is longer with large engines and angled winglets."
+    },
+    {
+      "id": "md-11",
+      "howToTell": "The MD-11 has a third engine in the tail; the A330 has only two wing engines."
     }
   ],
   "difficulty": 3,
@@ -77,9 +85,18 @@
     "Airbus A330"
   ],
   "usCount": {
-    "value": 95,
-    "source": "Airline fleet data (Delta ~70 incl. A330-900neo, Hawaiian 24; planespotters.net)",
-    "asOf": "2026"
+    "value": 134,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3940018",
+    "3940024",
+    "3940030",
+    "3940031",
+    "3940035",
+    "3940070",
+    "3940098",
+    "3940314"
+  ]
 }

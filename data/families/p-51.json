@@ -60,6 +60,14 @@
     {
       "id": "t-28",
       "howToTell": "The T-28 has a round radial nose and tricycle gear; the P-51 has a pointed inline nose and a tailwheel."
+    },
+    {
+      "id": "sea-fury",
+      "howToTell": "The Sea Fury has a big radial nose with a smooth round cowl and a five-blade propeller; the Mustang has a pointed inline nose and a belly scoop."
+    },
+    {
+      "id": "p-47",
+      "howToTell": "The Thunderbolt is much bigger with a barrel-shaped fuselage, a round radial nose and an oval chin intake; the Mustang is slim with a pointed inline nose and a belly scoop."
     }
   ],
   "difficulty": 2,
@@ -68,9 +76,14 @@
     "North American P-51D Mustang"
   ],
   "usCount": {
-    "value": 140,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~150 P-51 registrations; estimated airworthy share",
-    "asOf": "2026"
+    "value": 130,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "6402302",
+    "6402304",
+    "6402309",
+    "6402319"
+  ]
 }

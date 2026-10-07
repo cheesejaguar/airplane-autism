@@ -70,9 +70,12 @@
     "CRJ200 on final approach"
   ],
   "usCount": {
-    "value": 110,
-    "source": "SkyWest fleet data (~130 CRJ200 owned incl. stored and CRJ450 conversions, ~75 under contract; SkyWest Q1 2026 results) plus remaining charter aircraft",
-    "asOf": "2026"
+    "value": 365,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1390008",
+    "1900309"
+  ]
 }

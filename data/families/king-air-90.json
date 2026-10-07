@@ -68,6 +68,18 @@
     {
       "id": "beech-1900",
       "howToTell": "The King Air 90 is far shorter with a low tailplane; the 1900 is a long airliner with a T-tail and many small windows."
+    },
+    {
+      "id": "pa-31t",
+      "howToTell": "The King Air 90 has a rounder nose, a larger airliner-like cabin and no wingtip tanks; the PA-31T Cheyenne has a long pointed nose, a slimmer fuselage and usually wingtip tanks."
+    },
+    {
+      "id": "pa-42",
+      "howToTell": "The PA-42 Cheyenne III/400 has a slim, long fuselage with small cabin windows and a T-tail; the King Air 90 (except the F90) has a low tailplane, larger windows and a shorter cabin."
+    },
+    {
+      "id": "c441",
+      "howToTell": "The Conquest has small oval cabin windows and a long, tapered nose; the King Air 90 has larger rounded-square windows and a blunter, bulkier cabin."
     }
   ],
   "difficulty": 3,
@@ -77,9 +89,28 @@
     "Beechcraft C90A King Air"
   ],
   "usCount": {
-    "value": 1300,
-    "source": "Textron Aviation production (~3,300 King Air 90 series) with ~50% active US-registered per FAA registry / JETNET (approx.)",
-    "asOf": "2025"
+    "value": 980,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1152811",
+    "1152901",
+    "1152904",
+    "1152908",
+    "1152909",
+    "1152911",
+    "1152912",
+    "1152913",
+    "1152914",
+    "1152915",
+    "1152916",
+    "1152919",
+    "4220002",
+    "4220017",
+    "4220030",
+    "4226568",
+    "7150004",
+    "7150062"
+  ]
 }

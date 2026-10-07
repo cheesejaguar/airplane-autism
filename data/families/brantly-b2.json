@@ -1,0 +1,78 @@
+{
+  "id": "brantly-b2",
+  "name": "Brantly B-2",
+  "shortName": "Brantly B-2",
+  "aka": [
+    "B-2B",
+    "Brantly 305 (five-seat)"
+  ],
+  "manufacturer": "Brantly Helicopter Corporation",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "B-2",
+    "B-2A",
+    "B-2B",
+    "H-2 (Brantly-Hynes)"
+  ],
+  "summary": "An American two-seat piston light helicopter from the 1950s; small bubble canopy and a vertically mounted engine behind the cabin.",
+  "weft": {
+    "wings": [
+      "Three-blade articulated main rotor with narrow blades"
+    ],
+    "engines": [
+      "Piston engine mounted vertically behind the cabin",
+      "Engine bay is small, with louvers or fan cooling"
+    ],
+    "fuselage": [
+      "Small two-seat bubble canopy with a rounded nose",
+      "Skids, wheels or floats; some have a ground-handling wheel"
+    ],
+    "tail": [
+      "Slim tapered tail boom",
+      "Two-blade tail rotor with a vertical fin and small horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Tiny two-seat bubble helicopter with three narrow rotor blades",
+    "Rounded nose and slim boom, sometimes on wheels",
+    "Vertical piston engine tucked behind the seats"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The R22 has a two-blade teetering rotor on a tall thin mast; the Brantly has three narrow blades."
+    },
+    {
+      "id": "enstrom-280",
+      "howToTell": "The Enstrom 280 has three seats and a bigger bubble canopy with thick blades; the Brantly is a smaller two-seater."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has a two-blade rotor and a stabilizer bar and open truss boom; the Brantly has three blades and an enclosed boom."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Brantly B-2"
+  ],
+  "usCount": {
+    "value": 43,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1440502",
+    "1440506"
+  ]
+}

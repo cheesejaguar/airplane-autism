@@ -74,6 +74,10 @@
     {
       "id": "r44",
       "howToTell": "The R44 is smaller with a piston engine, tall thin mast and tubular boom; the 206 has a turbine exhaust stack and endplate stabilizer."
+    },
+    {
+      "id": "bell-427",
+      "howToTell": "The Bell 427 has a four-blade rotor, twin exhausts and a smoother swept cabin; the 206 has a two-blade rotor and a single exhaust."
     }
   ],
   "difficulty": 3,
@@ -86,5 +90,27 @@
     "source": "FAA registry make/model inquiry (Bell 206A/B/L series and civil OH-58/TH-57)",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1181455",
+    "1181502",
+    "1181505",
+    "1181506",
+    "1181508",
+    "1181510",
+    "1181511",
+    "1181518",
+    "1181519",
+    "1181522",
+    "1181579",
+    "1181580",
+    "1181583",
+    "1182107",
+    "1182108",
+    "1182110",
+    "1182156",
+    "1500003",
+    "3740002",
+    "3740004",
+    "3740006"
+  ]
 }

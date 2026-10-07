@@ -75,6 +75,14 @@
     {
       "id": "citation-mustang",
       "howToTell": "The CJ/M2 has a T-tail; the Mustang's tailplane sits low on the tail cone with dihedral."
+    },
+    {
+      "id": "citation-i",
+      "howToTell": "The Citation I has a low-set tailplane; the CitationJet has a T-tail."
+    },
+    {
+      "id": "beech-390",
+      "howToTell": "The Premier I has a swept wing and round windows; the CitationJet has a straight wing and squarer windows."
     }
   ],
   "difficulty": 4,
@@ -84,9 +92,20 @@
     "Cessna 525B CitationJet CJ3"
   ],
   "usCount": {
-    "value": 1500,
-    "source": "Textron Aviation delivery totals (~2,400 Model 525 built) with ~60% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 1878,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05642I6",
+    "2076601",
+    "2076611",
+    "2076615",
+    "2076616",
+    "2076618",
+    "2076619",
+    "2076628",
+    "2076653",
+    "2076655"
+  ]
 }

@@ -56,6 +56,10 @@
     {
       "id": "h135",
       "howToTell": "The H135 has four blades, two engines and rear clamshell doors; the H130 has three blades and a single engine."
+    },
+    {
+      "id": "ec120",
+      "howToTell": "The EC120 is smaller and narrower with five seats; the H130 has a bigger cabin that seats up to seven."
     }
   ],
   "difficulty": 3,
@@ -63,9 +67,14 @@
     "Airbus Helicopters H130 Ecureuil"
   ],
   "usCount": {
-    "value": 310,
-    "source": "FAA registry make/model inquiry (EC130 B4 / EC130 T2)",
+    "value": 279,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1145302",
+    "8680989",
+    "8680996",
+    "868099A"
+  ]
 }

@@ -1,0 +1,85 @@
+{
+  "id": "waco-10",
+  "name": "WACO 9 / 10 / GXE",
+  "shortName": "WACO 10/GXE",
+  "aka": [
+    "Waco 10",
+    "Waco 9",
+    "Waco GXE",
+    "Waco 10-W"
+  ],
+  "manufacturer": "Waco Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1927,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Waco 9",
+    "Waco 10 / GXE (OX-5 V-8)",
+    "Waco 10-W (Warner Scarab)",
+    "Various radial and V-engine versions, 90 to 330 hp"
+  ],
+  "summary": "The most numerous Waco, with over 1,600 built; the barnstorming workhorse of the late 1920s.",
+  "weft": {
+    "wings": [
+      "Single-bay staggered biplane with straight, untapered wings",
+      "Ailerons on both upper and lower wings, strut-linked"
+    ],
+    "engines": [
+      "Curtiss OX-5 water-cooled V-8 with a nose radiator on the GXE, or an air-cooled radial on later versions",
+      "Two-blade wooden propeller"
+    ],
+    "fuselage": [
+      "Two open cockpits with the passenger cockpit under the upper wing ahead of the pilot",
+      "Split-axle fixed tailwheel gear with hydraulic shock absorbers"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Biplane with a passenger cockpit ahead of the pilot, under the wing",
+    "Straight, untapered wings with strut-linked ailerons on both wings",
+    "Water-cooled V-8 with a front radiator or an exposed radial"
+  ],
+  "confusedWith": [
+    {
+      "id": "waco-taperwing",
+      "howToTell": "The Taperwing's wings taper toward the tips; the Waco 10's wings are straight."
+    },
+    {
+      "id": "waco-f-series",
+      "howToTell": "The F-series is a later, more streamlined design with a radial engine and wide-track gear; the Waco 10 is a boxier barnstormer often with a nose radiator."
+    },
+    {
+      "id": "travel-air-2000",
+      "howToTell": "The Travel Air has big overhanging balanced ailerons; the Waco 10 ailerons are strut-linked without big horns."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is larger with a bare radial and a narrower front cockpit; the Waco 10's front cockpit is wide and under the wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Waco 10",
+    "Waco GXE"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9600102",
+    "9600702",
+    "9602202"
+  ]
+}

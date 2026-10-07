@@ -65,6 +65,10 @@
     {
       "id": "bell-412",
       "howToTell": "The 412 has four blades on a boxy Huey cabin with skids; the AW139 has five blades and retractable wheels."
+    },
+    {
+      "id": "aw169",
+      "howToTell": "The AW169 is smaller and sleeker with smaller sponsons; the AW139 is larger and boxier."
     }
   ],
   "difficulty": 3,
@@ -77,5 +81,11 @@
     "source": "FAA registry make/model inquiry (AW139/AB139) + 27 MH-139A delivered (Air & Space Forces / Boeing 2026)",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0260106",
+    "0260110",
+    "0260111",
+    "0260400",
+    "33601QG"
+  ]
 }

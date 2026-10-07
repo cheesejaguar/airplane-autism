@@ -60,6 +60,14 @@
     {
       "id": "b-25",
       "howToTell": "The B-25 has twin tail fins, tricycle gear and a shoulder-mounted gull wing; the DC-3 is a low-wing taildragger with one fin."
+    },
+    {
+      "id": "convair-240",
+      "howToTell": "The Convair has a nosewheel and sits level; the DC-3 is a taildragger that sits tail-low on the ground."
+    },
+    {
+      "id": "dc-6",
+      "howToTell": "The DC-6 has four engines and a nose wheel; the DC-3 has two engines and sits on a tailwheel."
     }
   ],
   "difficulty": 2,
@@ -69,9 +77,21 @@
     "Douglas C-47 Skytrain"
   ],
   "usCount": {
-    "value": 160,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): DC-3 and C-47 model codes (registered; fewer are airworthy)",
-    "asOf": "2026"
+    "value": 127,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3021401",
+    "3021424",
+    "3021433",
+    "3021440",
+    "3021457",
+    "3021458",
+    "3021460",
+    "3021461",
+    "3021466",
+    "3021469",
+    "3021474"
+  ]
 }

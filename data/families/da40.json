@@ -61,6 +61,18 @@
     {
       "id": "da42",
       "howToTell": "The DA42 has two engines on the wings; the DA40 has one in the nose."
+    },
+    {
+      "id": "da50",
+      "howToTell": "The DA50 is larger with a roomier cabin and, in the RG, retractable gear; the DA40 is smaller with fixed gear and a bubble canopy."
+    },
+    {
+      "id": "cessna-400",
+      "howToTell": "The DA40 has a T-tail and a bubble canopy; the Corvalis has a conventional tail and a wide closed cabin."
+    },
+    {
+      "id": "pipistrel-panthera",
+      "howToTell": "The DA40 has a T-tail and fixed gear; the Pipistrel Panthera has retractable gear and a conventional tail."
     }
   ],
   "difficulty": 3,
@@ -68,9 +80,15 @@
     "Diamond DA40"
   ],
   "usCount": {
-    "value": 1000,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Diamond DA40 model codes",
-    "asOf": "2026"
+    "value": 961,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05611H8",
+    "2990002",
+    "2990003",
+    "2990010",
+    "2990014"
+  ]
 }

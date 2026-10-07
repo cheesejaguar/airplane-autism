@@ -1,0 +1,73 @@
+{
+  "id": "pipistrel-panthera",
+  "name": "Pipistrel Panthera",
+  "shortName": "Panthera",
+  "aka": [
+    "Panthera X152"
+  ],
+  "manufacturer": "Pipistrel",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2013,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Panthera (Lycoming IO-390, four-seat)",
+    "Electric / hybrid two-seat variants (planned)"
+  ],
+  "summary": "Slovenian all-composite four-seat cruiser with a slender high-efficiency wing, retractable gear and a big canopy.",
+  "weft": {
+    "wings": [
+      "Long, slender low wing with no struts",
+      "Wing sits low on a slim fuselage"
+    ],
+    "engines": [
+      "Single Lycoming IO-390 flat-four in a slim cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Slippery all-composite fuselage with a large canopy",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Small, clean tail surfaces on a slender tail cone"
+    ]
+  },
+  "tellTales": [
+    "Slippery all-composite four-seat low-wing with a long slender wing",
+    "Big canopy and retractable gear",
+    "Sleek cowl with no struts or fixed gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The SR20/22 has fixed gear and a parachute hatch on the roof; the Panthera has retractable gear and a long slender wing."
+    },
+    {
+      "id": "da40",
+      "howToTell": "The DA40 has a T-tail and fixed gear; the Panthera has retractable gear and a conventional tail."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has a forward-raked fin and a smaller cabin; the Panthera has a long slender wing and a sleeker composite fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Pipistrel Panthera"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05639J5"
+  ]
+}

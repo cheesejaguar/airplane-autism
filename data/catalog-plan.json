@@ -1052,11 +1052,6 @@
       "group": "F2"
     },
     {
-      "id": "mu-300",
-      "name": "Mitsubishi MU-300 Diamond",
-      "group": "F2"
-    },
-    {
       "id": "c441",
       "name": "Cessna 425/441 Conquest",
       "group": "F3"
@@ -1337,33 +1332,13 @@
       "group": "F4"
     },
     {
-      "id": "b-17",
-      "name": "B-17 Flying Fortress",
-      "group": "F4"
-    },
-    {
       "id": "pc-9",
       "name": "Pilatus PC-9",
       "group": "F4"
     },
     {
-      "id": "mig-15",
-      "name": "Mikoyan-Gurevich MiG-15 / MiG-15UTI",
-      "group": "F4"
-    },
-    {
-      "id": "pv-2",
-      "name": "Lockheed PV-2 Harpoon",
-      "group": "F4"
-    },
-    {
       "id": "sea-fury",
       "name": "Hawker Sea Fury",
-      "group": "F4"
-    },
-    {
-      "id": "mig-17",
-      "name": "MiG-17 Fresco / PZL-Mielec Lim-5",
       "group": "F4"
     },
     {
@@ -1397,18 +1372,8 @@
       "group": "F4"
     },
     {
-      "id": "ha-200",
-      "name": "Hispano HA-200 Saeta",
-      "group": "F4"
-    },
-    {
       "id": "fwp-149d",
       "name": "Focke-Wulf FWP 149D",
-      "group": "F4"
-    },
-    {
-      "id": "mig-21",
-      "name": "Mikoyan-Gurevich MiG-21",
       "group": "F4"
     },
     {
@@ -1509,11 +1474,6 @@
     {
       "id": "grumman-mallard",
       "name": "Grumman G-73 Mallard",
-      "group": "F5"
-    },
-    {
-      "id": "lockheed-12",
-      "name": "Lockheed Model 12 Electra Junior",
       "group": "F5"
     },
     {
@@ -1752,11 +1712,6 @@
       "group": "F7"
     },
     {
-      "id": "christen-eagle",
-      "name": "Christen Eagle",
-      "group": "F7"
-    },
-    {
       "id": "monocoupe-90",
       "name": "Monocoupe 90 / 110",
       "group": "F7"
@@ -1857,11 +1812,6 @@
       "group": "F7"
     },
     {
-      "id": "stearman-c3",
-      "name": "Stearman C3",
-      "group": "F7"
-    },
-    {
       "id": "helio-courier",
       "name": "Helio Courier",
       "group": "F8"
@@ -1909,11 +1859,6 @@
     {
       "id": "porterfield-65",
       "name": "Porterfield Collegiate / Flyabout (CP-50, CP-65, LP-65)",
-      "group": "F8"
-    },
-    {
-      "id": "aero-commander-200",
-      "name": "Aero Commander 200 Volaire",
       "group": "F8"
     },
     {

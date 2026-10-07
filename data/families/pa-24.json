@@ -60,6 +60,14 @@
     {
       "id": "bonanza-a36",
       "howToTell": "The Bonanza has a conventional elevator and a larger, rounder cabin with rear double doors; the Comanche has a stabilator and a single door."
+    },
+    {
+      "id": "pa-30",
+      "howToTell": "The Twin Comanche has an engine on each wing; the single-engine Comanche has one engine in the nose."
+    },
+    {
+      "id": "meyers-200",
+      "howToTell": "The Comanche has a wider, rounder cabin and an all-moving stabilator; the Meyers 200 is narrower and sleeker."
     }
   ],
   "difficulty": 4,
@@ -67,9 +75,15 @@
     "Piper PA-24 Comanche"
   ],
   "usCount": {
-    "value": 2400,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-24 model codes",
-    "asOf": "2026"
+    "value": 2341,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "7102402",
+    "7102403",
+    "7102404",
+    "7102406",
+    "7102408"
+  ]
 }

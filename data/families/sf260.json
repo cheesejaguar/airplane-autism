@@ -1,0 +1,92 @@
+{
+  "id": "sf260",
+  "name": "SIAI-Marchetti SF.260",
+  "shortName": "SF.260",
+  "aka": [
+    "SF-260",
+    "Marchetti",
+    "SF.260TP"
+  ],
+  "manufacturer": "SIAI-Marchetti",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SF.260 / SF.260C / SF.260D",
+    "SF.260M / SF.260W Warrior (military)",
+    "SF.260TP (turboprop)"
+  ],
+  "summary": "Italian aerobatic trainer with a six-cylinder Lycoming and retractable tricycle gear, used by air forces around the world and by civil display teams; many ex-military examples now fly privately in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing with a thin section",
+      "Permanent tip tanks on the wing tips",
+      "Small flaps and large ailerons"
+    ],
+    "engines": [
+      "Single flat-six with a two-blade propeller",
+      "Sleek, narrow cowl that flows smoothly into the canopy"
+    ],
+    "fuselage": [
+      "Long bubble canopy with two or three seats under one sliding canopy",
+      "Slim fuselage with a long dorsal spine behind the canopy",
+      "Retractable tricycle gear, with the nose gear folding aft"
+    ],
+    "tail": [
+      "Straight-edged, moderately swept fin with a dorsal fillet",
+      "Horizontal tailplane mounted low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Tip tanks on a small low-wing aerobatic trainer with a sleek bubble canopy",
+    "Retractable tricycle gear and a long, swept fin",
+    "Slim pencil-like fuselage with a long smooth canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The P-Mentor has fixed spatted gear, no tip tanks and a Rotax nose; the SF.260 has retractable gear, tip tanks and a six-cylinder cowl."
+    },
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a turboprop nose, a taller fuselage and no tip tanks; the SF.260 has a piston nose and tip tanks."
+    },
+    {
+      "id": "siai-marchetti-s211",
+      "howToTell": "The S-211 is a jet with a shoulder wing and a turbofan; the SF.260 is a low-wing piston airplane with tip tanks."
+    },
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 has no tip tanks and a larger, heavier look; the SF.260 is smaller with tip tanks and retractable gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "SIAI-Marchetti SF-260"
+  ],
+  "usCount": {
+    "value": 60,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0260402",
+    "8120417",
+    "8121206",
+    "8121207",
+    "8121208",
+    "8121209",
+    "8121220",
+    "8121221"
+  ]
+}

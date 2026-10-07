@@ -1,0 +1,79 @@
+{
+  "id": "pzl-m-18",
+  "name": "PZL M-18 Dromader",
+  "shortName": "Dromader",
+  "aka": [
+    "M-18",
+    "M-18A",
+    "M-18B"
+  ],
+  "manufacturer": "PZL-Mielec",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1976,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M-18 / M-18A",
+    "M-18B",
+    "Firefighting (water bomber) versions"
+  ],
+  "summary": "Large Polish single-seat ag plane, developed with Rockwell and sharing wing and fuselage parts with the Thrush Commander. Widely used for crop spraying and firefighting.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Long straight wing"
+    ],
+    "engines": [
+      "Single large 1,000 hp nine-cylinder radial in a big round cowl",
+      "Three- or four-blade propeller"
+    ],
+    "fuselage": [
+      "Large hopper in front of a single-seat cockpit set high and aft",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional tail with a tall fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Very large radial engine and big prop on a single-seat crop duster",
+    "Tall, aft-set cockpit behind a large hopper",
+    "Strut-free low wing on a heavy tailwheel airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "thrush",
+      "howToTell": "The Thrush shares parts but is smaller, with a smaller radial in many versions; the Dromader has the bigger ~1,000 hp radial and larger dimensions."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The Air Tractor has a taller cockpit and usually a turbine or smaller radial; the Dromader has a large round radial."
+    },
+    {
+      "id": "weatherly-620",
+      "howToTell": "The Weatherly 620 is smaller with an R-985 radial; the Dromader is larger with a bigger radial."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "PZL M18 Dromader"
+  ],
+  "usCount": {
+    "value": 23,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9810103",
+    "9810104",
+    "9810125"
+  ]
+}

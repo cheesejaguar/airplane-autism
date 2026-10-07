@@ -1,0 +1,87 @@
+{
+  "id": "zlin-z42",
+  "name": "Zlin Z-42/Z-142/Z-242 Trener",
+  "shortName": "Zlin Z-42/142",
+  "aka": [
+    "Z-42",
+    "Z-142",
+    "Z-242L Guru",
+    "Z-242"
+  ],
+  "manufacturer": "Moravan Otrokovice (Zlín)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Z-42 / Z-42M",
+    "Z-142 / Z-142C",
+    "Z-242L Guru",
+    "Z-242L Zeus"
+  ],
+  "summary": "Czech side-by-side aerobatic trainer with fixed tricycle gear, a sliding canopy and either an inverted inline six or a Lycoming flat-four, widely used by aeroclubs and flying schools.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with square-cut tips",
+      "Slight dihedral"
+    ],
+    "engines": [
+      "Inverted inline six (Z-42/142) or wide flat-four Lycoming (Z-242L)",
+      "Two or three-blade constant-speed propeller"
+    ],
+    "fuselage": [
+      "Two seats side by side under a large sliding canopy",
+      "Fixed tricycle gear with wheel fairings",
+      "Angular, boxy cowling lines"
+    ],
+    "tail": [
+      "Angular, upright fin and rudder",
+      "Horizontal tail mounted low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Angular side-by-side aerobatic trainer with fixed tricycle gear and a big sliding canopy",
+    "Squared-off tail and square-cut wing tips",
+    "Wide, flat-four nose on newer versions (Z-242)"
+  ],
+  "confusedWith": [
+    {
+      "id": "bulldog",
+      "howToTell": "The Bulldog has a more bubble-like canopy and a tall swept fin; the Zlin has a more angular tail and square tips."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 is a smooth composite with a swept-forward look; the Zlin is angular with square-cut surfaces."
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The P-Mentor has a bubble canopy and a modern composite look; the Zlin has an angular, boxy tail and cowling."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has retractable gear and tip tanks; the Zlin has fixed gear and no tip tanks."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Zlín Z-142",
+    "Zlin Z-242"
+  ],
+  "usCount": {
+    "value": 18,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5920207",
+    "5920208"
+  ]
+}

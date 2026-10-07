@@ -1,0 +1,80 @@
+{
+  "id": "stampe-sv4",
+  "name": "Stampe SV.4",
+  "shortName": "Stampe SV.4",
+  "aka": [
+    "Stampe",
+    "SV.4",
+    "SV4C",
+    "SV.4B",
+    "Stampe et Vertongen SV.4"
+  ],
+  "manufacturer": "Stampe et Vertongen / Nord Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1933,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SV.4A",
+    "SV.4B (Gipsy Major, postwar)",
+    "SV.4C (Nord licence)",
+    "SV.4E (Renault)"
+  ],
+  "summary": "Belgian 1930s two-seat trainer and aerobatic biplane, built after the war by Nord in France; a popular antique aerobat in Europe and a rarity in the US.",
+  "weft": {
+    "wings": [
+      "Staggered single-bay biplane with ailerons on all four wing panels",
+      "Upper wing swept back over a straighter lower wing"
+    ],
+    "engines": [
+      "Inverted inline four-cylinder de Havilland Gipsy Major with a neat narrow nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two open cockpits in tandem",
+      "Fixed gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Biplane with ailerons on both upper and lower wings",
+    "Narrow inline-engine nose with two tandem open cockpits",
+    "Compact aerobatic trainer with a swept upper wing and four ailerons"
+  ],
+  "confusedWith": [
+    {
+      "id": "dh-82",
+      "howToTell": "The Tiger Moth has swept-back wings with lower-wing ailerons only; the Stampe has ailerons on all four wing panels."
+    },
+    {
+      "id": "bucker-jungmann",
+      "howToTell": "Both have four ailerons; the Jungmann has swept-back upper and lower wings of near-equal span while the Stampe has a swept upper wing over a straighter lower wing."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger with a bare radial; the Stampe is a small inline-engine biplane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Stampe SV.4"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6383006"
+  ]
+}

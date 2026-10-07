@@ -1,0 +1,79 @@
+{
+  "id": "falcon-10-100",
+  "name": "Dassault Falcon 10 / 100",
+  "shortName": "Falcon 10/100",
+  "aka": [
+    "Mystere 10",
+    "Falcon 10",
+    "Falcon 100"
+  ],
+  "manufacturer": "Dassault Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1970,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Falcon 10",
+    "Falcon 100 (updated Falcon 10)"
+  ],
+  "summary": "A compact, nimble French business jet, the smaller sibling of the Falcon 20 and a popular choice for training and pilot-proficiency use.",
+  "weft": {
+    "wings": [
+      "Low swept wing with plain tips",
+      "No tip tanks or winglets"
+    ],
+    "engines": [
+      "Two Honeywell TFE731 turbofans on the sides of the rear fuselage"
+    ],
+    "fuselage": [
+      "Compact, small fuselage with a short row of small windows",
+      "Rounded nose"
+    ],
+    "tail": [
+      "Swept fin with a low-set horizontal stabilizer (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Small swept-wing twinjet with engines blended into the sides of the rear fuselage",
+    "Low-set tailplane, not a T-tail",
+    "Compact body with small windows and plain wingtips"
+  ],
+  "confusedWith": [
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 is larger with more windows; the Falcon 10 is smaller with fewer windows."
+    },
+    {
+      "id": "learjet-24",
+      "howToTell": "The Lear has tip tanks, a T-tail and a pencil-slim body; the Falcon 10 has plain tips, a low tailplane and a rounder body."
+    },
+    {
+      "id": "citation-i",
+      "howToTell": "The Citation I has a straight wing; the Falcon 10 has a distinctly swept wing."
+    },
+    {
+      "id": "beechjet-400",
+      "howToTell": "The Beechjet 400 has a T-tail; the Falcon 10 has a low-set tailplane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Dassault Falcon 10",
+    "Dassault Falcon 100"
+  ],
+  "usCount": {
+    "value": 49,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2730101"
+  ]
+}

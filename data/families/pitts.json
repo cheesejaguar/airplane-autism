@@ -1,0 +1,99 @@
+{
+  "id": "pitts",
+  "name": "Pitts Special (S-1 / S-2)",
+  "shortName": "Pitts",
+  "aka": [
+    "Pitts S-1",
+    "Pitts S-2",
+    "S-1S",
+    "S-1T",
+    "S-2B",
+    "S-2C"
+  ],
+  "manufacturer": "Pitts Aerospace / Christen Industries / Aviat Aircraft (Curtis Pitts design)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1944,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "S-1 (single seat, flat-four Lycoming)",
+    "S-1T / S-1S / S-1C",
+    "S-2A (two-seat tandem, flat-four)",
+    "S-2B / S-2C (two-seat, flat-six)",
+    "S-2S (single seat, flat-six)"
+  ],
+  "summary": "Tiny, ultra-agile aerobatic biplane that has dominated competition aerobatics since the 1960s; the single-seat S-1 and two-seat S-2 share one basic layout.",
+  "weft": {
+    "wings": [
+      "Very short-span staggered biplane with a single bay of struts and bracing wires",
+      "Ailerons on both upper and lower wings on later models"
+    ],
+    "engines": [
+      "Cowled horizontally opposed Lycoming, flat-four in the S-1 and S-2A, flat-six in the S-2B/S-2C/S-2S",
+      "Short nose with a two- or three-blade prop"
+    ],
+    "fuselage": [
+      "Very short, stubby fuselage with cockpit(s) set far back",
+      "Single open cockpit (S-1) or two tandem open cockpits (S-2)",
+      "Fixed tailwheel gear with short main legs"
+    ],
+    "tail": [
+      "Compact tail close behind the wings with a tall, rounded rudder"
+    ]
+  },
+  "tellTales": [
+    "Tiny, stubby biplane with very short wings and a very short fuselage",
+    "Staggered wings joined by a single bay of struts, with cockpit(s) set far back",
+    "Cowled flat engine with a short nose and an open cockpit"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is a much larger biplane with an uncowled radial engine; the Pitts is tiny with a cowled flat engine."
+    },
+    {
+      "id": "great-lakes-2t1",
+      "howToTell": "The Great Lakes is a bit bigger with a longer, slimmer fuselage and a swept-back upper wing; the Pitts is stubbier with straight wings."
+    },
+    {
+      "id": "extra-300",
+      "howToTell": "The Extra is a single-wing monoplane (no second wing) while the Pitts is a biplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Pitts S-2 Special",
+    "Pitts S-1 Special"
+  ],
+  "usCount": {
+    "value": 395,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0110101",
+    "0110201",
+    "0110202",
+    "0110301",
+    "0110303",
+    "0110304",
+    "2210002",
+    "2210006",
+    "2210308",
+    "2210310",
+    "2210403",
+    "2210409",
+    "7220401",
+    "7220404",
+    "7220450",
+    "7220499",
+    "8130001"
+  ]
+}

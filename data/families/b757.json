@@ -71,9 +71,32 @@
     "Boeing 757-200"
   ],
   "usCount": {
-    "value": 350,
-    "source": "Airline fleet data (Delta, United, FedEx, UPS; planespotters.net)",
-    "asOf": "2026"
+    "value": 377,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "13844CO",
+    "1384907",
+    "1384908",
+    "1384912",
+    "1384925",
+    "138492A",
+    "1384930",
+    "1384931",
+    "1384952",
+    "1384956",
+    "1384957",
+    "1384958",
+    "1384959",
+    "1384964",
+    "1384965",
+    "1384967",
+    "1384969",
+    "1384970",
+    "1384971",
+    "1384972",
+    "1384976",
+    "1384991"
+  ]
 }

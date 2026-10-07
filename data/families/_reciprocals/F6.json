@@ -1,0 +1,367 @@
+[
+  {
+    "existingId": "c172",
+    "newId": "c177",
+    "howToTell": "The 172 has a lift strut under each wing and a conventional horizontal tail; the 177 Cardinal has a strutless cantilever wing, a steeply raked windshield and a one-piece stabilator."
+  },
+  {
+    "existingId": "c172",
+    "newId": "c170",
+    "howToTell": "The 172 has a nosewheel; the 170 is the tailwheel version, with flat spring-steel main gear and a nose-high ground stance."
+  },
+  {
+    "existingId": "c172",
+    "newId": "c140",
+    "howToTell": "The 172 is a four-seater on tricycle gear; the 120/140 is a short two-seater on a tailwheel."
+  },
+  {
+    "existingId": "c172",
+    "newId": "pa-22",
+    "howToTell": "The 172 has a tapered metal wing, a rounded fuselage and a swept fin; the Tri-Pacer has a short rectangular fabric wing, a boxy fuselage and a squared tail."
+  },
+  {
+    "existingId": "c172",
+    "newId": "tecnam-p2010",
+    "howToTell": "The 172 has unfaired struts and wheels and a conventional tail; the P2010 has faired wheels, a sleeker fuselage and an all-moving stabilator."
+  },
+  {
+    "existingId": "c172",
+    "newId": "aero-commander-100",
+    "howToTell": "The 172 has a swept fin with a long dorsal fillet; the Darter Commander has a plainer tail, upright on early examples."
+  },
+  {
+    "existingId": "c182",
+    "newId": "c177",
+    "howToTell": "The 182 has a lift strut and a deeper, blunter cowl; the 177 Cardinal has a strutless wing, a smoother nose and a one-piece stabilator."
+  },
+  {
+    "existingId": "c182",
+    "newId": "c195",
+    "howToTell": "The 182 has a flat engine, a lift strut and (mostly) a nosewheel; the 195 has a big radial engine, no struts and a tailwheel."
+  },
+  {
+    "existingId": "c182",
+    "newId": "tecnam-p2010",
+    "howToTell": "The 182 has a deep, blunt cowl and unfaired gear; the P2010 has a lighter-looking nose and faired wheels."
+  },
+  {
+    "existingId": "c180",
+    "newId": "c170",
+    "howToTell": "The 180 has a bigger cowl, a taller swept fin and more cabin glazing; the 170 is smaller with a slimmer cowl and a smaller fin."
+  },
+  {
+    "existingId": "c180",
+    "newId": "c195",
+    "howToTell": "The 180 has a flat engine in a slimmer cowl and a lift strut; the 195 has a big radial engine in a round cowl and no wing struts."
+  },
+  {
+    "existingId": "c180",
+    "newId": "c188",
+    "howToTell": "The 180 is a four-seat high-wing; the 188 AgWagon is a single-seat low-wing sprayer with a hopper, sharing the 180's tail."
+  },
+  {
+    "existingId": "c150",
+    "newId": "c140",
+    "howToTell": "The 150 sits on tricycle gear with a nosewheel; the 120/140 is a tailwheel aircraft with a nose-high stance and spring-steel gear legs."
+  },
+  {
+    "existingId": "c150",
+    "newId": "pa-38",
+    "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Tomahawk is a low-wing with a T-tail."
+  },
+  {
+    "existingId": "c150",
+    "newId": "beech-77",
+    "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Skipper is a low-wing with a T-tail."
+  },
+  {
+    "existingId": "c150",
+    "newId": "pa-22",
+    "howToTell": "The 150 has a smoothly tapered metal wing and a smoother, rounder fuselage; the Colt (two-seat Tri-Pacer) has a short rectangular wing, a boxy fuselage and a squared tail."
+  },
+  {
+    "existingId": "c150",
+    "newId": "varga-kachina",
+    "howToTell": "The 150 is a high-wing with a strut each side; the Kachina is a strutless low-wing."
+  },
+  {
+    "existingId": "c180",
+    "newId": "stinson-108",
+    "howToTell": "The 180 has an all-metal fuselage and a taller, swept, angular fin; the Stinson 108 has a fabric fuselage, a flat-six nose and a large curved fin."
+  },
+  {
+    "existingId": "c180",
+    "newId": "pa-12",
+    "howToTell": "The 180 is a bigger all-metal four-seater with a large cowl; the PA-12 is a small fabric three-seater with a rounded Cub tail."
+  },
+  {
+    "existingId": "maule",
+    "newId": "aeronca-sedan",
+    "howToTell": "The Maule has a squared, boxier fuselage and tail; the Sedan has a rounded fabric fuselage and a curved tail."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "cessna-400",
+    "howToTell": "The Mooney has a forward-swept fin and a narrow cabin; the Corvalis has a swept-back tail and a wide, sleek composite cabin."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "c140",
+    "howToTell": "The Champ is a tandem fabric aircraft; the 120/140 is a side-by-side all-metal fuselage with fabric wings (or metal on the 140A) and spring-steel gear."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "taylorcraft-bc",
+    "howToTell": "The J-3 seats two in tandem under a narrow roof; the Taylorcraft seats two side by side in a wider cabin."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "aeronca-chief",
+    "howToTell": "The J-3 seats two in tandem in a narrow fuselage; the Chief seats two side by side in a deep, round-sided cabin."
+  },
+  {
+    "existingId": "c180",
+    "newId": "aviat-husky",
+    "howToTell": "The 180 has four seats, side-by-side up front, and an angular swept fin; the Husky has two tandem seats and a bigger flaps-and-tires bush look."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "bellanca-14-19",
+    "howToTell": "The Mooney has a single forward-swept fin; the Cruisemaster has three vertical fins on its tail."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "rearwin-skyranger",
+    "howToTell": "The Luscombe is all-metal with a polished skin and a V-strut; the Rearwin is fabric-covered with older 1930s styling."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "funk-b",
+    "howToTell": "The Luscombe is all-metal with a V-strut; the Funk is fabric-covered with a single strut."
+  },
+  {
+    "existingId": "c210",
+    "newId": "c177",
+    "howToTell": "The 210 is a bigger six-seater with a larger cowl and a conventional tail; the 177RG is a four-seat strutless airplane with a one-piece stabilator."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "aviat-husky",
+    "howToTell": "The PA-18 is slimmer with a smaller cowl and squared tips; the Husky has a bigger engine, a wider cabin and large flaps."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "pa-12",
+    "howToTell": "The PA-18 has squared tips and a squared tail; the PA-12 has rounded tips, a rounded Cub tail and a wider three-seat cabin."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "pa-11",
+    "howToTell": "The PA-18 has squared tips and a squared fin and a bigger engine; the PA-11 has rounded tips, a rounded tail and a small engine."
+  },
+  {
+    "existingId": "pa-18",
+    "newId": "pa-20",
+    "howToTell": "The PA-18 is a tandem two-seater with a long, narrow wing; the Pacer is a deeper four-seater with a short, stubby wing."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "pa-11",
+    "howToTell": "The J-3 often shows its cylinder heads and has a more upright windshield; the PA-11 has a fully enclosed cowl and a more sloping windshield."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "piper-j5",
+    "howToTell": "The J-3 is a narrow tandem aircraft; the J-5 Cub Cruiser has a wider cabin with a bench seat behind the pilot."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "piper-j4",
+    "howToTell": "The J-3 seats two in tandem in a narrow fuselage; the J-4 Cub Coupe seats two side by side in a wider fuselage."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "pa-15",
+    "howToTell": "The J-3 has tandem seats and a longer wing; the Vagabond has side-by-side seats and a shorter wing."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "pa-12",
+    "howToTell": "The J-3 is a narrow tandem two-seater; the PA-12 has a wider three-seat cabin and a fully enclosed cowl."
+  },
+  {
+    "existingId": "j-3",
+    "newId": "interstate-s1",
+    "howToTell": "The J-3 has light bungee-sprung gear; the Interstate has sturdier oleo-sprung main gear."
+  },
+  {
+    "existingId": "pa-28",
+    "newId": "beech-musketeer",
+    "howToTell": "The PA-28 has a narrower cabin, an all-flying stabilator and a lower, squarer fin; the Musketeer has a rounder, wider cabin and a taller, more swept fin."
+  },
+  {
+    "existingId": "pa-28",
+    "newId": "socata-tb-20",
+    "howToTell": "The PA-28 has a narrower, boxier cabin and an all-flying stabilator; the TB 20 has a rounder, wider cabin with a large wraparound windshield and retractable gear."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "socata-tb-20",
+    "howToTell": "The Mooney has a forward-swept fin and a narrow cabin; the TB 20 has a swept-back fin and a wide cabin."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "commander-112",
+    "howToTell": "The Mooney has a forward-swept fin and a narrow cabin; the Commander has a swept-back fin and a roomy cabin."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "bellanca-viking",
+    "howToTell": "The Mooney has a forward-swept fin and a small cabin; the Viking has a very tall swept-back fin and a long, slim nose."
+  },
+  {
+    "existingId": "mooney-m20",
+    "newId": "globe-swift",
+    "howToTell": "The Mooney is a four-seater with tricycle gear and a forward-swept fin; the Swift is a smaller two-seater with a tailwheel and a swept-back fin."
+  },
+  {
+    "existingId": "bonanza-a36",
+    "newId": "bellanca-viking",
+    "howToTell": "The A36 has a shorter fin and a deeper cabin with a big rear cargo door; the Viking has a much larger, taller fin and a slimmer cabin."
+  },
+  {
+    "existingId": "bonanza-a36",
+    "newId": "commander-112",
+    "howToTell": "The A36 has a squared tail and rear cargo doors; the Commander has a bulkier cabin and a swept tail."
+  },
+  {
+    "existingId": "bonanza-v35",
+    "newId": "bellanca-viking",
+    "howToTell": "The V35 has a V-tail; the Viking has a single tall vertical fin and a normal horizontal tail."
+  },
+  {
+    "existingId": "bonanza-v35",
+    "newId": "bellanca-14-19",
+    "howToTell": "The V35 has a V-tail; the Cruisemaster has three vertical fins on a conventional tail."
+  },
+  {
+    "existingId": "cirrus-sr",
+    "newId": "cessna-400",
+    "howToTell": "The SR series has a parachute hatch on the rear deck; the Corvalis has no parachute cover and a smoother, more sloping windshield."
+  },
+  {
+    "existingId": "da40",
+    "newId": "cessna-400",
+    "howToTell": "The DA40 has a T-tail and a bubble canopy; the Corvalis has a conventional tail and a wide closed cabin."
+  },
+  {
+    "existingId": "da20",
+    "newId": "pa-38",
+    "howToTell": "The DA20 is a composite with a conventional tail and a clear bubble canopy; the Tomahawk is metal with a T-tail and a framed cabin."
+  },
+  {
+    "existingId": "da20",
+    "newId": "beech-77",
+    "howToTell": "The DA20 is a composite with a conventional tail and a clear bubble canopy; the Skipper is metal with a T-tail."
+  },
+  {
+    "existingId": "grumman-aa5",
+    "newId": "pa-38",
+    "howToTell": "The AA-5 has a conventional tail and a sliding canopy; the Tomahawk has a T-tail and hinged doors."
+  },
+  {
+    "existingId": "grumman-aa5",
+    "newId": "beech-musketeer",
+    "howToTell": "The AA-5 has a sliding bubble canopy and a shorter, rounder fuselage; the Musketeer has a hinged-cabin four-seat layout and a taller swept fin."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "pa-25",
+    "howToTell": "The Air Tractor is a large cantilever monoplane with a radial or turbine nose; the Pawnee is a small strut-braced monoplane with a flat engine."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "c188",
+    "howToTell": "The Air Tractor is bigger, cantilever and radial or turbine powered; the Cessna 188 is a small strut-braced low-wing with a flat engine."
+  },
+  {
+    "existingId": "air-tractor",
+    "newId": "ag-cat",
+    "howToTell": "The Air Tractor is a monoplane; the Ag-Cat is a biplane."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "pa-25",
+    "howToTell": "The Thrush has a cantilever wing and a blunt radial or turbine nose; the Pawnee has a strut under each wing and a slim nose."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "c188",
+    "howToTell": "The Thrush is a cantilever monoplane with a blunt nose; the Cessna 188 has struts and a flat engine."
+  },
+  {
+    "existingId": "thrush",
+    "newId": "ag-cat",
+    "howToTell": "The Thrush is a monoplane; the Ag-Cat is a biplane."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "ag-cat",
+    "howToTell": "The Stearman is a trainer with two open cockpits and no hopper; the Ag-Cat is a single-seat sprayer with a hopper and a high rear cockpit."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "aeronca-chief",
+    "howToTell": "The Champ seats two in tandem in a long narrow cabin; the Chief seats two side by side in a deeper, rounder cabin."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "taylorcraft-bc",
+    "howToTell": "The Champ seats two in tandem; the Taylorcraft seats two side by side."
+  },
+  {
+    "existingId": "aeronca-champ",
+    "newId": "pa-15",
+    "howToTell": "The Champ is tandem with a longer wing and cabin; the Vagabond is side-by-side with a short wing."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "c140",
+    "howToTell": "The Luscombe has short oleo-style struts with exposed rubber cord and an all-metal rounded fuselage; the 120/140 has flat spring-steel gear legs and squarer lines."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "taylorcraft-bc",
+    "howToTell": "The Luscombe is all-metal with a V-strut; the Taylorcraft is fabric-covered with a single strut."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "aeronca-chief",
+    "howToTell": "The Luscombe is all-metal with a V-strut; the Chief is fabric-covered with a single strut."
+  },
+  {
+    "existingId": "maule",
+    "newId": "aviat-husky",
+    "howToTell": "The Maule seats four with side-by-side front seats in a boxier cabin; the Husky seats two in tandem."
+  },
+  {
+    "existingId": "citabria",
+    "newId": "aviat-husky",
+    "howToTell": "The Citabria has a slimmer cabin and a smaller cowl; the Husky has a deeper fuselage, big flaps and a bigger engine."
+  },
+  {
+    "existingId": "navion",
+    "newId": "globe-swift",
+    "howToTell": "The Navion is a four-seater with a long canopy and tricycle gear; the Swift is a smaller two-seater with a tailwheel."
+  },
+  {
+    "existingId": "navion",
+    "newId": "bellanca-14-13",
+    "howToTell": "The Navion has a single fin, a nosewheel and a long canopy; the Cruisair has a triple-fin tail and a tailwheel."
+  },
+  {
+    "existingId": "ercoupe",
+    "newId": "globe-swift",
+    "howToTell": "The Ercoupe has a twin-fin tail and fixed tricycle gear; the Swift has a single fin, retractable gear and a tailwheel."
+  }
+]

@@ -61,6 +61,14 @@
     {
       "id": "bell-47",
       "howToTell": "The Bell 47 has an open lattice truss boom and two blades; the 300 has a tubular strut-braced boom and three blades."
+    },
+    {
+      "id": "enstrom-280",
+      "howToTell": "The Enstrom 280 has a rounder, bulbous canopy with three seats abreast; the Schweizer 300 has a narrower cabin and a slim open tail boom."
+    },
+    {
+      "id": "brantly-b2",
+      "howToTell": "The Brantly B-2 has narrow blades and a vertical engine behind the bubble; the Schweizer 300 has a deeper cabin and a horizontal engine."
     }
   ],
   "difficulty": 2,
@@ -69,9 +77,21 @@
     "Sikorsky S-300"
   ],
   "usCount": {
-    "value": 455,
-    "source": "FAA registry make/model inquiry (Hughes/Schweizer 269 and S-300 series)",
+    "value": 400,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
     "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "4470402",
+    "4470404",
+    "4470502",
+    "4470504",
+    "4471002",
+    "4471004",
+    "8059498",
+    "8059501",
+    "8059502",
+    "8059503",
+    "8059504"
+  ]
 }

@@ -61,9 +61,12 @@
     "Cirrus Vision SF50"
   ],
   "usCount": {
-    "value": 550,
-    "source": "Cirrus deliveries (721 SF50 delivered by end of 2025, AIN/GAMA) with ~75% US-registered per FAA registry (approx.)",
-    "asOf": "2025"
+    "value": 686,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "0563277",
+    "2130010"
+  ]
 }

@@ -73,9 +73,15 @@
     "Boeing 737 MAX"
   ],
   "usCount": {
-    "value": 740,
-    "source": "Airline fleet data (Southwest, United, American, Alaska; planespotters.net)",
-    "asOf": "2026"
+    "value": 843,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "138441D",
+    "13844FZ",
+    "13845FZ",
+    "138469A",
+    "138470A"
+  ]
 }

@@ -60,6 +60,10 @@
     {
       "id": "citation-ii",
       "howToTell": "The Mustang is far smaller with only a few windows; the Citation II/V is a longer jet with many more windows."
+    },
+    {
+      "id": "eclipse-500",
+      "howToTell": "The Eclipse 500 is stubbier with bulbous wingtip pods and tiny engines; the Mustang has plain wingtips and a longer cabin."
     }
   ],
   "difficulty": 3,
@@ -68,9 +72,12 @@
     "Cessna Citation Mustang take offs"
   ],
   "usCount": {
-    "value": 300,
-    "source": "Textron Aviation production (~480 built) with ~65% US-registered per FAA registry / JETNET (approx.)",
-    "asOf": "2025"
+    "value": 265,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2076617",
+    "2076627"
+  ]
 }

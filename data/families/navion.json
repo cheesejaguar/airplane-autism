@@ -58,6 +58,14 @@
     {
       "id": "pa-24",
       "howToTell": "The Comanche has a door, a stabilator and a slimmer fuselage; the Navion has a sliding canopy."
+    },
+    {
+      "id": "globe-swift",
+      "howToTell": "The Navion is a four-seater with a long canopy and tricycle gear; the Swift is a smaller two-seater with a tailwheel."
+    },
+    {
+      "id": "bellanca-14-13",
+      "howToTell": "The Navion has a single fin, a nosewheel and a long canopy; the Cruisair has a triple-fin tail and a tailwheel."
     }
   ],
   "difficulty": 4,
@@ -65,9 +73,24 @@
     "Ryan Navion"
   ],
   "usCount": {
-    "value": 870,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Navion model codes",
-    "asOf": "2026"
+    "value": 825,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "6150104",
+    "6150106",
+    "6150112",
+    "6150114",
+    "6150118",
+    "6150120",
+    "6150122",
+    "6150130",
+    "6150132",
+    "6150140",
+    "6150160",
+    "6150162",
+    "6150170",
+    "6150178"
+  ]
 }

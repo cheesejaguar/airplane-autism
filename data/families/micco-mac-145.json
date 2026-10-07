@@ -1,0 +1,77 @@
+{
+  "id": "micco-mac-145",
+  "name": "Micco MAC-145 / SP20",
+  "shortName": "MAC-145",
+  "aka": [
+    "Meyers MAC-145",
+    "Micco SP20",
+    "SP26"
+  ],
+  "manufacturer": "Meyers Aircraft Company / Micco Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Meyers MAC-125 / MAC-145 (1947-55)",
+    "Micco SP20 (200 hp, bubble canopy)",
+    "Micco SP26 (260 hp, aerobatic)"
+  ],
+  "summary": "Sleek all-metal two-seat low-wing with retractable main gear and a tailwheel, originally from Al Meyers and revived by the Micco company in 1997 as the SP20.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Main gear retracts into the wing"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a slim cowl"
+    ],
+    "fuselage": [
+      "Enclosed side-by-side two-seat cabin; SP20 has a sliding bubble canopy",
+      "Retractable main gear with a tailwheel"
+    ],
+    "tail": [
+      "Single large fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Sleek low-wing two-seater with retractable main wheels and a tailwheel",
+    "Smooth enclosed cabin, sometimes with a sliding bubble canopy",
+    "Large fin on a slim metal fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "globe-swift",
+      "howToTell": "The Swift has a long sloping canopy, a tall swept fin and a slender fuselage; the MAC-145 has a more upright cabin and a larger fin."
+    },
+    {
+      "id": "culver-cadet",
+      "howToTell": "The Cadet is a prewar, lower-powered design with a rounder fuselage; the MAC-145 is a postwar all-metal retractable with a larger engine."
+    },
+    {
+      "id": "meyers-200",
+      "howToTell": "The Meyers 200 is the larger four-seat sibling with tricycle gear; the MAC-145 is a two-seater with a tailwheel."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Meyers 145"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5660000",
+    "5660002"
+  ]
+}

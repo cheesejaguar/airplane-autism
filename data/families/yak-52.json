@@ -60,6 +60,18 @@
     {
       "id": "t-28",
       "howToTell": "The T-28 is much larger and heavier with a deep cowl; the Yak-52 is small and compact."
+    },
+    {
+      "id": "yak-18t",
+      "howToTell": "The Yak-18T seats four under a long bubble canopy; the Yak-52 is a two-seat tandem trainer with a smaller canopy."
+    },
+    {
+      "id": "yak-50",
+      "howToTell": "The Yak-50 is a single-seater with a tailwheel and retractable main gear; the Yak-52 has two seats in tandem and a retractable tricycle undercarriage."
+    },
+    {
+      "id": "yak-55",
+      "howToTell": "The Yak-55 is a single-seat mid-wing aerobatic monoplane with fixed gear and a tailwheel; the Yak-52 has two seats and retractable tricycle gear."
     }
   ],
   "difficulty": 4,
@@ -67,9 +79,16 @@
     "Yakovlev Yak-52"
   ],
   "usCount": {
-    "value": 200,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Yak-52 model codes",
-    "asOf": "2026"
+    "value": 185,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "05607AN",
+    "1140000",
+    "1140001",
+    "1140003",
+    "1140004",
+    "9830220"
+  ]
 }

@@ -1,0 +1,82 @@
+{
+  "id": "socata-tb-30",
+  "name": "Socata TB 30 Epsilon",
+  "shortName": "TB 30 Epsilon",
+  "aka": [
+    "Epsilon",
+    "TB30"
+  ],
+  "manufacturer": "Socata (Daher)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "TB 30 Epsilon",
+    "TB 31 Omega (turboprop prototype)"
+  ],
+  "summary": "French tandem two-seat primary trainer with a Lycoming flat-six and a sliding canopy, used by the French Air Force and Portugal, Togo and Tunisia; a few now fly privately.",
+  "weft": {
+    "wings": [
+      "Low, tapered cantilever wing with squared-off tips",
+      "Slight dihedral"
+    ],
+    "engines": [
+      "Single six-cylinder Lycoming with a two-blade propeller",
+      "Smooth, drooped cowl"
+    ],
+    "fuselage": [
+      "Tandem seats under a long sliding bubble canopy",
+      "Retractable nosewheel gear",
+      "Slender fuselage with a smooth dorsal line"
+    ],
+    "tail": [
+      "Swept fin with a small dorsal fillet",
+      "Horizontal stabilizer mounted low"
+    ]
+  },
+  "tellTales": [
+    "Tandem two-seater with a long bubble canopy and a low-slung, smooth fuselage",
+    "Tapered low wing with squared tips and a flat-six nose",
+    "Looks like a miniature jet trainer with a propeller"
+  ],
+  "confusedWith": [
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a turboprop nose with exhaust stacks; the Epsilon has a piston cowl and no exhaust stubs."
+    },
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 has a different tail and nose with a higher canopy hump; the Epsilon has a longer canopy and a more swept fin."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has tip tanks and a thinner pencil-like fuselage; the Epsilon has none."
+    },
+    {
+      "id": "emb-312",
+      "howToTell": "The Tucano has a turboprop nose and a ventral scoop; the Epsilon has a piston cowl."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Socata TB-30 Epsilon"
+  ],
+  "usCount": {
+    "value": 39,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680601",
+    "8682011"
+  ]
+}

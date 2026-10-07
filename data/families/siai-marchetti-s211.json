@@ -1,0 +1,79 @@
+{
+  "id": "siai-marchetti-s211",
+  "name": "SIAI-Marchetti S-211",
+  "shortName": "S-211",
+  "aka": [
+    "Aermacchi S-211",
+    "M-311"
+  ],
+  "manufacturer": "SIAI-Marchetti (Aermacchi)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1981,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "S-211",
+    "S-211A",
+    "M-311"
+  ],
+  "summary": "Compact Italian jet trainer with a shoulder-mounted wing and a single JT15D turbofan, used by Singapore, the Philippines and Haiti; a few are privately owned in the US.",
+  "weft": {
+    "wings": [
+      "High, shoulder-mounted straight wing",
+      "Rounded tips"
+    ],
+    "engines": [
+      "Single JT15D turbofan fed by side intakes ahead of the wing root",
+      "One small round tailpipe"
+    ],
+    "fuselage": [
+      "Compact fuselage with a long tandem bubble canopy",
+      "Retractable tricycle gear",
+      "Short nose"
+    ],
+    "tail": [
+      "Swept fin with a small dorsal fillet",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Compact jet trainer with a high shoulder-mounted wing",
+    "Tandem canopy and a small turbofan with side intakes",
+    "Short, stubby proportions"
+  ],
+  "confusedWith": [
+    {
+      "id": "bac-strikemaster",
+      "howToTell": "The Jet Provost has a low wing and side-by-side seats; the S-211 has a high wing and tandem seats."
+    },
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a low-mid wing and a pot belly; the S-211 has a shoulder wing."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 is a piston airplane with a propeller; the S-211 is a jet."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "SIAI-Marchetti S-211"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8120416",
+    "8120419"
+  ]
+}

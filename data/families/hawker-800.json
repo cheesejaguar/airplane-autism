@@ -68,6 +68,10 @@
     {
       "id": "falcon-trijet",
       "howToTell": "The Hawker 800 has two engines; the Falcon 50/900 has a third engine intake at the fin root."
+    },
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 has small round windows and a low-set tailplane; the Hawker 800 has larger oval windows and a cruciform tail with a long dorsal fillet."
     }
   ],
   "difficulty": 4,
@@ -77,9 +81,27 @@
     "Hawker 800XP"
   ],
   "usCount": {
-    "value": 500,
-    "source": "Production (~1,000 Hawker 800/850/900 series) with ~55% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 596,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1500103",
+    "1500104",
+    "1500119",
+    "1500204",
+    "1500285",
+    "1500287",
+    "4220007",
+    "4220010",
+    "4220011",
+    "4230170",
+    "7150012",
+    "7150016",
+    "7450001",
+    "7450002",
+    "7450004",
+    "7450005",
+    "7450006"
+  ]
 }

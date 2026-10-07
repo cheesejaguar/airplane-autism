@@ -1,0 +1,80 @@
+{
+  "id": "siai-s205",
+  "name": "SIAI-Marchetti S.205",
+  "shortName": "S.205",
+  "aka": [
+    "S.205/22R",
+    "Waco S.220",
+    "Marchetti S.205"
+  ],
+  "manufacturer": "SIAI-Marchetti",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "light",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "S.205/18F (fixed gear)",
+    "S.205/18R and /22R (retractable gear)",
+    "S.205/20R",
+    "Waco Aircraft S.220 (US-built)"
+  ],
+  "summary": "Italian four-seat all-metal touring airplane with a sleek low-wing layout and retractable gear, built in the 1960s and 70s and found in small numbers in the US.",
+  "weft": {
+    "wings": [
+      "Low, tapered cantilever wing with squared-off tips",
+      "Flaps along the inboard trailing edge"
+    ],
+    "engines": [
+      "Single Lycoming flat-four or flat-six with a two-blade propeller",
+      "Smooth, low cowl"
+    ],
+    "fuselage": [
+      "Long glazed cabin with a sloping windscreen and a raised roof",
+      "Retractable tricycle gear (R variants)",
+      "Smooth honeycomb-panel fuselage"
+    ],
+    "tail": [
+      "Tall swept fin with a large rudder",
+      "Low-set horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Sleek four-seat low-wing with a long glazed cabin and a tall swept fin",
+    "Retractable tricycle gear on a smooth, sporty airframe",
+    "European look: rakish windscreen and tapered wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The Arrow has a more upright cabin and a stubbier tail; the S.205 has a sleeker, more raked cabin and a taller swept fin."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 is a tandem trainer with tip tanks; the S.205 is a four-seat tourer with a long glazed cabin."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has a forward-swept tail and a smaller cabin; the S.205 has a tall swept fin and a larger cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "SIAI-Marchetti S.205"
+  ],
+  "usCount": {
+    "value": 22,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8120412"
+  ]
+}

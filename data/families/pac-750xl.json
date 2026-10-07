@@ -1,0 +1,75 @@
+{
+  "id": "pac-750xl",
+  "name": "Pacific Aerospace 750XL",
+  "shortName": "750XL",
+  "aka": [
+    "PAC 750XL",
+    "P-750 XSTOL",
+    "Pacific Aerospace 750"
+  ],
+  "manufacturer": "Pacific Aerospace",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 2001,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PAC 750XL (utility and skydiving)",
+    "P-750 XSTOL (Amateur-built and FAA-certified versions)"
+  ],
+  "summary": "New Zealand-built single turboprop utility plane with a boxy fuselage and a big rear door, popular as a skydiving aircraft.",
+  "weft": {
+    "wings": [
+      "High, constant-chord straight wing",
+      "One strut on each side"
+    ],
+    "engines": [
+      "Single PT6A turboprop in the nose",
+      "Large propeller"
+    ],
+    "fuselage": [
+      "Deep, boxy, slab-sided fuselage",
+      "Large rear door for cargo or skydivers",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "Tall swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Boxy high-wing single turboprop with a big, flat-sided fuselage",
+    "Large door in the rear fuselage, common on skydiving aircraft",
+    "Fixed tricycle gear and a single strut per side"
+  ],
+  "confusedWith": [
+    {
+      "id": "c208",
+      "howToTell": "The Caravan has a rounder, tapered body and often a belly cargo pod; the 750XL is a boxier, slab-sided aircraft with no pod."
+    },
+    {
+      "id": "pc-6",
+      "howToTell": "The Porter has a tailwheel and a long pointed nose with an exhaust; the 750XL has tricycle gear and a short, deep nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "PAC 750XL"
+  ],
+  "usCount": {
+    "value": 23,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05617YD",
+    "6460300"
+  ]
+}

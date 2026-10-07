@@ -58,6 +58,10 @@
     {
       "id": "erj145",
       "howToTell": "The E175 has underwing engines and a low tail; the ERJ145 has rear engines, a T-tail and a pencil-thin body."
+    },
+    {
+      "id": "e190",
+      "howToTell": "The E190/E195 is longer with a larger wing and engines; the E175 is shorter and smaller."
     }
   ],
   "difficulty": 3,
@@ -67,9 +71,21 @@
     "Embraer 170 on final approach"
   ],
   "usCount": {
-    "value": 700,
-    "source": "Airline fleet data (Republic, SkyWest, Envoy, Horizon, Mesa; planespotters.net / ch-aviation)",
-    "asOf": "2026"
+    "value": 745,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "3260121",
+    "326021A",
+    "3260403",
+    "3260406",
+    "326040B",
+    "3260410",
+    "3260415",
+    "3260416",
+    "326041A",
+    "3260979",
+    "3260988"
+  ]
 }

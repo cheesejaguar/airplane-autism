@@ -1,0 +1,102 @@
+{
+  "id": "waco-cabin",
+  "name": "WACO cabin biplane (C-series / YKS)",
+  "shortName": "WACO cabin",
+  "aka": [
+    "Waco YKS-6",
+    "Waco Custom Cabin",
+    "Waco Standard Cabin",
+    "UIC",
+    "UKC",
+    "YKC",
+    "QDC"
+  ],
+  "manufacturer": "Waco Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1931,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "QDC / UIC / UEC / UKC / YKC (Standard Cabin)",
+    "OC / UC / QC / GC series (Custom Cabin)",
+    "YKS (Jacobs-powered Standard Cabin)",
+    "VN and RE series",
+    "Cabin biplanes with 210 to 450 hp radials"
+  ],
+  "summary": "Luxury four-to-five-seat enclosed-cabin biplane built from 1931 (Standard Cabin) through 1939 (Custom Cabin sesquiplanes); mostly seen at antique fly-ins and airshows.",
+  "weft": {
+    "wings": [
+      "Biplane wings; the later Custom Cabin models are sesquiplanes with a noticeably shorter lower wing",
+      "Upper wing carries the split flaps"
+    ],
+    "engines": [
+      "Round radial engine (Continental, Jacobs, Wright or Pratt & Whitney) under a cowl",
+      "Two-blade or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Fully enclosed cabin with large side windows",
+      "Welded-tube fuselage with a rounded, faired shape",
+      "Fixed gear with spatted or faired wheels on oleo legs"
+    ],
+    "tail": [
+      "Aerodynamically balanced rudder and elevators with wire bracing"
+    ]
+  },
+  "tellTales": [
+    "Biplane with a fully enclosed cabin and a small lower wing",
+    "Lower wing noticeably smaller than the upper on the later models",
+    "Cowled radial and fixed spatted main gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-17",
+      "howToTell": "The Staggerwing has the lower wing forward of the upper wing and retractable gear; the Waco has the upper wing forward and fixed gear."
+    },
+    {
+      "id": "waco-f-series",
+      "howToTell": "The F-series has open cockpits; the cabin Waco has a fully enclosed cabin."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Waco Standard Cabin",
+    "Waco Custom Cabin",
+    "Waco YKS-6"
+  ],
+  "usCount": {
+    "value": 133,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9600504",
+    "9600508",
+    "9600510",
+    "9600602",
+    "9600610",
+    "9600622",
+    "9600644",
+    "9600646",
+    "9600648",
+    "9600662",
+    "9600808",
+    "9600810",
+    "9600816",
+    "9600818",
+    "9600826",
+    "9600830",
+    "9600832",
+    "9600835",
+    "9600838",
+    "9600910",
+    "9601402"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "aero-commander-690",
+  "name": "Aero Commander 680/690 Jetprop (Gulfstream Commander)",
+  "shortName": "Turbo Commander",
+  "aka": [
+    "Turbo Commander",
+    "Jetprop Commander",
+    "Commander 680",
+    "Commander 690",
+    "Commander 695",
+    "Commander 840",
+    "Commander 900",
+    "Commander 980",
+    "Commander 1000",
+    "Rockwell Commander",
+    "Gulfstream Commander"
+  ],
+  "manufacturer": "Aero Commander / Rockwell / Gulfstream American / Twin Commander",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Turbo Commander 680T / 681 / 690 (Garrett TPE331 turboprops)",
+    "Jetprop 840 / 900 / 980 / 1000",
+    "Gulfstream Commander 690C / 690D / 695"
+  ],
+  "summary": "High-wing, pressurized-cabin twin turboprop descended from the Aero Commander piston twins and sold under Rockwell, Gulfstream American and Twin Commander names.",
+  "weft": {
+    "wings": [
+      "High, straight wing with slight taper",
+      "Wing sits on top of the fuselage, so the cabin hangs beneath it"
+    ],
+    "engines": [
+      "Two Garrett turboprops in long slender nacelles mounted on the wing",
+      "Nacelles project well ahead of the wing leading edge"
+    ],
+    "fuselage": [
+      "Boxy, squared-off cabin with large, rectangular windows",
+      "Pointed nose with a flat sloping windshield"
+    ],
+    "tail": [
+      "Tall swept fin with a dorsal fillet",
+      "Conventional tailplane set low on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "High wing on a boxy cabin with big rectangular windows",
+    "Two long slender turboprop nacelles reaching well ahead of the wing",
+    "Tall tail and a pointed nose on an otherwise slab-sided body"
+  ],
+  "confusedWith": [
+    {
+      "id": "mu-2",
+      "howToTell": "The MU-2 has a cigar-shaped tube fuselage, stubby nacelles, a shoulder-mounted short wing and cylindrical tip tanks; the Commander is boxier with long nacelles and no tip tanks."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air is a low-wing aircraft; the Commander is a high-wing aircraft with the cabin hanging beneath the wing."
+    },
+    {
+      "id": "aero-commander-500",
+      "howToTell": "The piston Aero Commander 500 has shorter nacelles with piston-engine cowls and a smaller cabin; the 690 has longer turboprop nacelles, a taller fin and a longer fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Rockwell Turbo Commander",
+    "Aero Commander 690"
+  ],
+  "usCount": {
+    "value": 193,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0141716",
+    "0141718",
+    "0141720",
+    "0141722",
+    "3970404",
+    "3970405",
+    "3970411",
+    "3970610",
+    "7630515",
+    "7630516",
+    "7630517",
+    "7630518"
+  ]
+}

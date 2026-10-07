@@ -62,9 +62,14 @@
     "Curtiss P-40 Warhawk"
   ],
   "usCount": {
-    "value": 20,
-    "source": "warbirdregistry.org P-40 registry (28 airworthy-coded worldwide) cross-checked with FAA registry (~44 registered)",
-    "asOf": "2026"
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2622203",
+    "2622206",
+    "2622210",
+    "2622212"
+  ]
 }

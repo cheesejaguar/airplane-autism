@@ -1,0 +1,80 @@
+{
+  "id": "pa-36",
+  "name": "Piper PA-36 Pawnee Brave",
+  "shortName": "PA-36",
+  "aka": [
+    "Brave",
+    "Pawnee Brave"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1972,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-36-285 Pawnee Brave",
+    "PA-36-300 Pawnee Brave",
+    "PA-36-375 Pawnee Brave (eight-cylinder)"
+  ],
+  "summary": "Larger, all-metal successor to the PA-25 Pawnee for heavy-duty spraying. Its low wing needs no bracing struts.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no bracing struts",
+      "Spray booms often visible behind the trailing edge"
+    ],
+    "engines": [
+      "Single Lycoming flat-six or flat-eight in a large cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Large hopper in front of the cockpit",
+      "Single-seat cockpit set high and well aft",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder",
+      "Horizontal tail set on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Single-seat crop duster with a strut-free low wing",
+    "Hopper ahead of a high, aft-set cockpit",
+    "Flat-engine nose on tailwheel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-25",
+      "howToTell": "The earlier Pawnee is smaller with a strut under each low wing; this one has a larger, cleaner cantilever wing."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Thrush usually has a radial or turbine up front and a heavier, squarer fuselage; this has a flat-engine cowl."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The Air Tractor is bigger and heavier, with a taller cockpit and usually a radial or turbine nose; this is a slimmer flat-engine piston plane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-36 Pawnee Brave"
+  ],
+  "usCount": {
+    "value": 92,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7103610",
+    "7103612",
+    "7103620"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "h160",
+  "name": "Airbus H160",
+  "shortName": "H160",
+  "aka": [
+    "H160-B"
+  ],
+  "manufacturer": "Airbus Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "vip",
+    "ems",
+    "utility",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 2015,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "H160-B",
+    "H160M (military Guépard)"
+  ],
+  "summary": "A sleek modern twin-turbine helicopter with a five-blade rotor, canted fenestron tail and swept Blue Edge blade tips.",
+  "weft": {
+    "wings": [
+      "Five-blade rotor with swept Blue Edge tips",
+      "Smooth mast fairing"
+    ],
+    "engines": [
+      "Twin turboshafts in a smooth dorsal cowl"
+    ],
+    "fuselage": [
+      "Sleek smooth body with a dolphin-like nose",
+      "Retractable wheeled gear"
+    ],
+    "tail": [
+      "Canted fenestron tail",
+      "V-shaped butterfly stabilizers"
+    ]
+  },
+  "tellTales": [
+    "Swept curved rotor blade tips",
+    "Canted fenestron with butterfly tail",
+    "Smooth dolphin-like body"
+  ],
+  "confusedWith": [
+    {
+      "id": "ec155",
+      "howToTell": "The EC155 is boxier with a straight fenestron; the H160 is sleeker with curved blade tips and a canted tail."
+    },
+    {
+      "id": "as365",
+      "howToTell": "The Dauphin has a four-blade rotor and a straight fenestron."
+    },
+    {
+      "id": "aw169",
+      "howToTell": "The AW169 has a conventional tail rotor; the H160 has a canted ducted fan."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus Helicopters H160"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8681992"
+  ]
+}

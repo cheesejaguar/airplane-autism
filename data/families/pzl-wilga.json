@@ -1,0 +1,81 @@
+{
+  "id": "pzl-wilga",
+  "name": "PZL-104 Wilga",
+  "shortName": "Wilga",
+  "aka": [
+    "Wilga 35",
+    "Wilga 80",
+    "Wilga 2000"
+  ],
+  "manufacturer": "PZL Warszawa-Okecie / EADS PZL",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1962,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Wilga 35 / 35A (radial)",
+    "Wilga 80",
+    "Wilga 2000 (Lycoming)"
+  ],
+  "summary": "Polish STOL utility plane widely used for glider towing and parachuting. A slim, deeply glazed fuselage gives excellent all-round visibility.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut on each side",
+      "Large flaps"
+    ],
+    "engines": [
+      "Single engine in the nose: radial on the Wilga 35, flat-six on later models"
+    ],
+    "fuselage": [
+      "Deeply glazed four-seat cabin on a slender, tapering rear fuselage",
+      "Tall, long-travel fixed landing gear and a nose-high stance"
+    ],
+    "tail": [
+      "Single fin and rudder on a slender tail cone",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing over a deeply glazed cabin with a slender tail cone",
+    "Tall, long-travel fixed gear and a nose-high stance",
+    "Glass-heavy fuselage tapering to a small tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 180 has a conventional cabin with small rear windows; the Wilga has much more glass and a slender, tapering rear fuselage."
+    },
+    {
+      "id": "maule",
+      "howToTell": "The Maule has a deep boxy cabin with small rear windows; the Wilga has a deeply glazed cabin and taller, longer-travel gear."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub is a tandem two-seater with V-struts; the Wilga is a four-seater with a deep glass cabin and a single strut per side."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "PZL-104 Wilga"
+  ],
+  "usCount": {
+    "value": 31,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0561404",
+    "7360104",
+    "7360105",
+    "7360321",
+    "9810280"
+  ]
+}

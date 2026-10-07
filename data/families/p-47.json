@@ -1,0 +1,80 @@
+{
+  "id": "p-47",
+  "name": "Republic P-47 Thunderbolt",
+  "shortName": "P-47 Thunderbolt",
+  "aka": [
+    "Thunderbolt",
+    "Jug",
+    "P-47D"
+  ],
+  "manufacturer": "Republic Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1941,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P-47D (razorback)",
+    "P-47D-25+ (bubble canopy)",
+    "P-47N"
+  ],
+  "summary": "Huge, rugged WWII fighter powered by an R-2800 radial with a turbosupercharger; more than a dozen fly in the US.",
+  "weft": {
+    "wings": [
+      "Large, elliptical-looking wing with rounded tips",
+      "Long, strong main gear"
+    ],
+    "engines": [
+      "Huge R-2800 radial with an oval chin intake under the cowl",
+      "Four-blade propeller"
+    ],
+    "fuselage": [
+      "Big, barrel-shaped fuselage with a deep belly",
+      "Bubble canopy on later D models or a razorback on early ones",
+      "Turbosupercharger bulge and exhaust duct under the rear"
+    ],
+    "tail": [
+      "Tall fin with a large rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Huge barrel-shaped fuselage with a round radial and an oval chin intake",
+    "Deep belly and a bubble canopy on a big single-engine fighter",
+    "Large, rounded wing and long gear legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "p-51",
+      "howToTell": "The Mustang is slim with an inline nose and a belly scoop; the Thunderbolt is huge and barrel-shaped with a radial."
+    },
+    {
+      "id": "f4u-corsair",
+      "howToTell": "The Corsair has inverted gull wings; the Thunderbolt has a straight, deep-bellied fuselage."
+    },
+    {
+      "id": "p-40",
+      "howToTell": "The P-40 has an inline nose with a radiator scoop; the Thunderbolt has a radial and a chin intake."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Republic P-47 Thunderbolt"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7570404",
+    "7570405"
+  ]
+}

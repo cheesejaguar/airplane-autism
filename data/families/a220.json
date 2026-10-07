@@ -61,6 +61,10 @@
     {
       "id": "a320neo",
       "howToTell": "Both carry big geared-fan engines, but the A220 has plain wingtips, a narrower body and larger square windows; the A320neo always has tall sharklets."
+    },
+    {
+      "id": "e190",
+      "howToTell": "The E190 is a narrower, smaller regional jet with smaller winglets; the A220 is wider-bodied with large engines on pylons and tall winglets."
     }
   ],
   "difficulty": 3,
@@ -70,9 +74,13 @@
     "Airbus A220 in flight"
   ],
   "usCount": {
-    "value": 180,
-    "source": "Airline fleet data (Delta ~80, JetBlue ~50, Breeze ~50; planespotters.net)",
-    "asOf": "2026"
+    "value": 204,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1400010",
+    "1400012",
+    "1400015"
+  ]
 }

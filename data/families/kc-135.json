@@ -75,5 +75,7 @@
     "source": "USAF KC-135 fact sheet / FlightGlobal World Air Forces 2026",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1381620"
+  ]
 }

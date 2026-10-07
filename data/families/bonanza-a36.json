@@ -60,6 +60,14 @@
     {
       "id": "pa-46",
       "howToTell": "The Malibu/M-series has a taller fin and a pressurized cabin with small windows and an airstair door on the left."
+    },
+    {
+      "id": "bellanca-viking",
+      "howToTell": "The A36 has a shorter fin and a deeper cabin with a big rear cargo door; the Viking has a much larger, taller fin and a slimmer cabin."
+    },
+    {
+      "id": "commander-112",
+      "howToTell": "The A36 has a squared tail and rear cargo doors; the Commander has a bulkier cabin and a swept tail."
     }
   ],
   "difficulty": 4,
@@ -69,9 +77,33 @@
     "Beechcraft 33 Bonanza"
   ],
   "usCount": {
-    "value": 4000,
-    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~2,100 Beech A36 + ~2,000 Beech 33-series",
-    "asOf": "2026"
+    "value": 4980,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "1151402",
+    "1151404",
+    "1151406",
+    "1151408",
+    "1151410",
+    "1151422",
+    "1151423",
+    "1151424",
+    "1151425",
+    "1151432",
+    "1151434",
+    "1151435",
+    "1151602",
+    "1151603",
+    "1151604",
+    "1151609",
+    "4220009",
+    "4220034",
+    "4223554",
+    "7150000",
+    "7150001",
+    "7150008",
+    "7150061"
+  ]
 }

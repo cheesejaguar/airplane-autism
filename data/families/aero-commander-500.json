@@ -1,0 +1,103 @@
+{
+  "id": "aero-commander-500",
+  "name": "Aero Commander 500/700 Shrike",
+  "shortName": "Shrike Commander",
+  "aka": [
+    "Shrike Commander",
+    "Aero Commander 520",
+    "Aero Commander 560",
+    "Aero Commander 680 Grand Commander",
+    "Rockwell 500S",
+    "L-26 (US Army)"
+  ],
+  "manufacturer": "Aero Commander / Rockwell International",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "520 / 560 (early)",
+    "500 / 500A / 500B / 500U",
+    "500S Shrike Commander",
+    "680 Grand Commander",
+    "720 Alti-Cruiser",
+    "700 (pressurized)"
+  ],
+  "summary": "Big, roomy high-wing piston twin built from the 1950s to 1986, widely used as an executive and utility aircraft; its family also includes the turboprop Turbo Commanders.",
+  "weft": {
+    "wings": [
+      "High-set wing above a deep, wide fuselage",
+      "Engine nacelles blend into the leading edge"
+    ],
+    "engines": [
+      "Long nacelles extending well behind the wing",
+      "Main gear retracts into the nacelles"
+    ],
+    "fuselage": [
+      "Deep, wide cabin with a blunt rounded nose",
+      "Large rounded windshield",
+      "Tricycle gear"
+    ],
+    "tail": [
+      "Tall, sharply swept fin with a squared top",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "High wing on a deep fuselage with long nacelles slung beneath it",
+    "Tall, sharply swept fin",
+    "Blunt rounded nose with a large windshield"
+  ],
+  "confusedWith": [
+    {
+      "id": "aero-commander-690",
+      "howToTell": "The 690 has turboprop engines with slim turbine cowls, spinners and exhaust stubs; the piston Commander has blunter piston cowlings."
+    },
+    {
+      "id": "beech-queen-air",
+      "howToTell": "The Queen Air is a low-wing aircraft; the Commander's wing is set high on the fuselage."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has a low wing, turboprop nacelles with exhaust stacks and often a T-tail; the Commander has a high wing and piston cowlings."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aero Commander 500",
+    "Aero Commander 500S",
+    "Aero Commander 500B"
+  ],
+  "usCount": {
+    "value": 259,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0141102",
+    "0141104",
+    "0141106",
+    "0141107",
+    "0141108",
+    "0141202",
+    "0141404",
+    "0141406",
+    "0141408",
+    "0141602",
+    "0141604",
+    "0141606",
+    "0141608",
+    "0141610",
+    "0141612",
+    "7630410",
+    "7630520"
+  ]
+}

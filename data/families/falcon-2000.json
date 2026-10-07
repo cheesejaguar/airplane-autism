@@ -60,6 +60,10 @@
     {
       "id": "hawker-800",
       "howToTell": "The Falcon 2000 is larger with rounded-rectangle windows; the Hawker 800 is smaller with oval windows and a big belly fairing."
+    },
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 is an older design with small round windows, plain wingtips and a low-set tailplane; the Falcon 2000 has oval windows and a cruciform tail."
     }
   ],
   "difficulty": 5,
@@ -68,9 +72,13 @@
     "Dassault Falcon 2000EX"
   ],
   "usCount": {
-    "value": 300,
-    "source": "Dassault production (~700 Falcon 2000 series) with ~45% US-registered per JETNET fleet summaries (approx.)",
-    "asOf": "2025"
+    "value": 462,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "2730012",
+    "2730110",
+    "2730170"
+  ]
 }

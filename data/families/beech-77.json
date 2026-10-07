@@ -1,0 +1,78 @@
+{
+  "id": "beech-77",
+  "name": "Beechcraft Skipper (77)",
+  "shortName": "Skipper",
+  "aka": [
+    "Beechcraft Skipper",
+    "Model 77"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model 77 Skipper (Lycoming O-235)"
+  ],
+  "summary": "Beechcraft's side-by-side two-seat, T-tailed trainer of 1979–82, with the Musketeer's construction methods and a spin-resistant-by-design GA(W)-1 wing.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts",
+      "Wing mounted low on the fuselage"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a short cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Side-by-side two-seat cabin",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "T-tail with the stabilator atop the fin"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a small low-wing two-seater",
+    "Fixed tricycle gear with a short cowl",
+    "Trainer-sized fuselage with a high horizontal tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-38",
+      "howToTell": "Both have T-tails; the Skipper's cabin looks more conventional with less bubble-like glass, while the Tomahawk's is a rounded greenhouse."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The Skipper is a low-wing with a T-tail; the 150 is a high-wing with a conventional tail."
+    },
+    {
+      "id": "beech-musketeer",
+      "howToTell": "The Skipper is a smaller two-seater with a T-tail; the Musketeer is a four-seater with a low-set horizontal tail."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The Skipper is a framed metal aircraft with a T-tail; the DA20 is a composite with a clear bubble canopy and a conventional tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Skipper"
+  ],
+  "usCount": {
+    "value": 109,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1153007"
+  ]
+}

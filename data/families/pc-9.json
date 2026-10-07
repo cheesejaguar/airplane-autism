@@ -1,0 +1,82 @@
+{
+  "id": "pc-9",
+  "name": "Pilatus PC-9",
+  "shortName": "PC-9",
+  "aka": [
+    "Pilatus PC-9",
+    "PC-9/A"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PC-9 / PC-9A",
+    "PC-9M",
+    "PC-9/A (RAAF)"
+  ],
+  "summary": "Swiss turboprop trainer developed from the PC-7 with a more powerful PT6A and a four-blade propeller; ex-RAAF PC-9/As are owned privately in the US and the type is the basis of the T-6 Texan II.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing with squared tips",
+      "Strong wing with simple flaps"
+    ],
+    "engines": [
+      "Single PT6A turboprop with a four-blade propeller",
+      "Long, slim cowl with a chin scoop and exhaust stacks"
+    ],
+    "fuselage": [
+      "Tandem seats under a long bubble canopy, rear seat higher",
+      "Retractable tricycle gear",
+      "Longer, sleeker fuselage than the PC-7"
+    ],
+    "tail": [
+      "Swept fin with a dorsal fillet",
+      "Horizontal tail on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim turboprop trainer with a four-blade propeller and a long tandem canopy",
+    "Long cowl with a chin scoop and exhaust stubs ahead of a straight wing",
+    "Stepped tandem seating under a long bubble canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a three-blade propeller and a shorter cowl; the PC-9 has a four-blade propeller and a longer cowl."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The T-6 Texan II is larger with a taller canopy and a bigger tail; the PC-9 is smaller and sleeker."
+    },
+    {
+      "id": "emb-312",
+      "howToTell": "The Tucano has a short snub nose and a long flat canopy; the PC-9 has a longer nose."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 has a big piston radial; the PC-9 has a slim turboprop nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Pilatus PC-9 in flight"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7090303"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "luscombe-11",
+  "name": "Luscombe 11 Sedan",
+  "shortName": "Luscombe 11",
+  "aka": [
+    "Sedan",
+    "Luscombe 11A",
+    "11E"
+  ],
+  "manufacturer": "Luscombe Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "11A Sedan (Continental, tailwheel)",
+    "11E (tricycle gear, Continental IO-360, Quartz Mountain)"
+  ],
+  "summary": "Four-seat postwar Luscombe designed for flying farmers, then upgraded for businessmen. A larger high-wing sibling of the Silvaire.",
+  "weft": {
+    "wings": [
+      "High wing braced by struts on each side",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single Continental flat-six in a rounded cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Four-seat cabin with large windows all round",
+      "Fixed tailwheel gear (11A)"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat strut-braced high-wing tailwheel with a roomy cabin",
+    "Larger, boxier cabin than a two-seat postwar tourer",
+    "Rounded cowl on a deep fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Luscombe 8 is the smaller two-seat sibling; the Sedan has a much bigger four-seat cabin."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 170 has a swept-back fin and flat spring-steel gear; the Sedan has a different, rounder tail and a deeper cabin."
+    },
+    {
+      "id": "stinson-108",
+      "howToTell": "The 108 has a curved, tall fin and a longer cowl; the Sedan has a squarer cabin and a different tail."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Luscombe 11 Sedan"
+  ],
+  "usCount": {
+    "value": 24,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8890402"
+  ]
+}

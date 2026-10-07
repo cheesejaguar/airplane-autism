@@ -64,6 +64,14 @@
     {
       "id": "ch-53e",
       "howToTell": "The CH-53E has one huge seven-blade main rotor and a tail rotor; the Chinook has two three-blade rotors and no tail rotor."
+    },
+    {
+      "id": "ch-46",
+      "howToTell": "The CH-46 is smaller with a rounder body and stub sponsons; the Chinook is larger and boxier with full-length sponsons."
+    },
+    {
+      "id": "s-64",
+      "howToTell": "The S-64 has a single rotor on an open frame; the Chinook has two rotors on a boxy fuselage."
     }
   ],
   "difficulty": 1,
@@ -76,5 +84,12 @@
     "source": "US Army CH-47F + MH-47G (FlightGlobal World Air Forces 2025) + ~35 FAA-registered civil CH-47D/234",
     "asOf": "2025"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "138160A",
+    "138160B",
+    "1385049",
+    "1385051",
+    "2340100",
+    "8840351"
+  ]
 }

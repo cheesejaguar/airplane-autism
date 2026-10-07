@@ -1,0 +1,75 @@
+{
+  "id": "citation-x",
+  "name": "Cessna Citation X (750)",
+  "shortName": "Citation X",
+  "aka": [
+    "Citation X",
+    "Citation X+",
+    "Model 750"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1993,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Citation X (750)",
+    "Citation X+ (winglets, 2013 onward)"
+  ],
+  "summary": "One of the fastest civil business jets (about Mach 0.9), built around a heavily swept wing and two Rolls-Royce AE3007 turbofans.",
+  "weft": {
+    "wings": [
+      "Low wing swept far more than any other Citation (about 37 degrees)",
+      "Winglets on the X+; plain tips on earlier aircraft"
+    ],
+    "engines": [
+      "Two large Rolls-Royce AE3007C turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Long, slim fuselage with a row of oval windows",
+      "Sleek pointed nose"
+    ],
+    "tail": [
+      "T-tail with a large, swept horizontal stabilizer on a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Sharply swept wing on a Citation-style airframe",
+    "Large swept T-tail and big rear engine pods",
+    "Slim, long fuselage with a row of oval windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-sovereign",
+      "howToTell": "The Citation X wing is much more swept and its tailplane larger and more raked; the Sovereign has only a moderately swept wing."
+    },
+    {
+      "id": "citation-vii",
+      "howToTell": "The Citation III/VII has less wing sweep, smaller windows and no winglets; the Citation X looks faster, with a far more swept wing."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The Latitude has a fat, round fuselage and modest sweep; the Citation X is slimmer with extreme wing sweep."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna Citation X"
+  ],
+  "usCount": {
+    "value": 276,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2076810",
+    "2076820"
+  ]
+}

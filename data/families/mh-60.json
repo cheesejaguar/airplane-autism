@@ -73,6 +73,10 @@
     {
       "id": "s-92",
       "howToTell": "The S-92 is taller and boxier with sponsons for retractable gear and a rear ramp; the MH-60 is long and low with fixed wheels."
+    },
+    {
+      "id": "s-61",
+      "howToTell": "The S-61 has five blades and a boat-shaped hull; the MH-60 has four blades and a canted tail rotor."
     }
   ],
   "difficulty": 4,

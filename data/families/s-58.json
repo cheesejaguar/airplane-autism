@@ -1,0 +1,85 @@
+{
+  "id": "s-58",
+  "name": "Sikorsky S-58 / H-34",
+  "shortName": "S-58",
+  "aka": [
+    "H-34 Choctaw",
+    "UH-34",
+    "S-58T",
+    "Wessex (UK)"
+  ],
+  "manufacturer": "Sikorsky Aircraft",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "transport",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1954,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "S-58",
+    "S-58T (twin turbine)",
+    "H-34/UH-34",
+    "CH-34"
+  ],
+  "summary": "A Korean War-era transport with the radial engine in the nose and cockpit above it; flown by firefighters and collectors today.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor on a tall mast"
+    ],
+    "engines": [
+      "Radial piston engine in the nose behind clamshell doors",
+      "S-58T turbine conversion has a Twin-Pac in the nose behind a cowling with twin rectangular intakes"
+    ],
+    "fuselage": [
+      "Large round nose with the cockpit perched above the engine",
+      "Tail-dragger undercarriage with a tailwheel",
+      "Row of square cabin windows"
+    ],
+    "tail": [
+      "Tall angled tail pylon",
+      "Tail rotor and a stabilizer on the side"
+    ]
+  },
+  "tellTales": [
+    "Engine in the nose with the cockpit perched above it",
+    "Four-blade rotor over a boxy fuselage",
+    "Tailwheel gear with a canted tail pylon"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-55",
+      "howToTell": "The S-55 has three blades and a smaller body; the S-58 has four blades and is larger and boxier."
+    },
+    {
+      "id": "s-61",
+      "howToTell": "The S-61 has turbines on the roof and a boat hull; the S-58 has a nose engine and a smaller body."
+    },
+    {
+      "id": "uh-1",
+      "howToTell": "The Huey has a turbine on top and a slim nose with a two-blade rotor; the S-58 has four blades and a bulbous nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Sikorsky S-58",
+    "Sikorsky H-34"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8141803",
+    "8141806",
+    "8141807",
+    "8141811"
+  ]
+}

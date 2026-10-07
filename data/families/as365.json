@@ -66,6 +66,14 @@
     {
       "id": "s-76",
       "howToTell": "The S-76 has an open four-blade tail rotor and a longer pointed nose; the Dauphin has a Fenestron."
+    },
+    {
+      "id": "ec155",
+      "howToTell": "The EC155 has a five-blade rotor and a longer cabin with an extra window; the Dauphin has four blades and a shorter body."
+    },
+    {
+      "id": "h160",
+      "howToTell": "The H160 has curved Blue Edge blade tips, a canted fenestron and a sleeker body; the Dauphin has a four-blade rotor and a straight fenestron."
     }
   ],
   "difficulty": 3,
@@ -78,5 +86,9 @@
     "source": "USCG 84 MH-65E (Navy League Seapower Almanac 2026) + ~28 FAA-registered civil AS365",
     "asOf": "2026"
   },
-  "faaModelCodes": []
+  "faaModelCodes": [
+    "8680815",
+    "8680903",
+    "8680952"
+  ]
 }
