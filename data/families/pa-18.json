@@ -1,0 +1,78 @@
+{
+  "id": "pa-18",
+  "name": "Piper PA-18 Super Cub",
+  "shortName": "PA-18",
+  "aka": [
+    "Super Cub",
+    "L-18",
+    "L-21"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-18-95 / -105 / -125 / -135 / -150",
+    "PA-18A agricultural",
+    "L-18C / L-21 (military)",
+    "Modern clones (e.g. Top Cub, Super Cub kits)"
+  ],
+  "summary": "Two-seat tandem tube-and-fabric taildragger, the archetypal bush plane for short, rough strips, floats and banner towing.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts from the lower fuselage",
+      "Constant-chord rectangular wing with rounded tips and flaps"
+    ],
+    "engines": [
+      "Single flat-four in a fully enclosed cowling",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Narrow tandem two-seat fabric-covered fuselage",
+      "Tailwheel gear with V-strut main legs, often on oversized tundra tires",
+      "Split door on the right: upper half hinges up, lower half drops down"
+    ],
+    "tail": [
+      "Small rounded fin and rudder",
+      "Strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "V-strut high wing on a narrow tandem-seat fabric fuselage",
+    "Tailwheel, often on huge bush tires",
+    "Fully enclosed cowling with no exposed cylinders"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Super Cub has a fully enclosed cowl, wing flaps and usually bigger tires; the J-3 typically shows exposed cylinder heads and has no flaps."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria has spring-steel main gear legs and a squared-off fin and rudder; the Super Cub has a strut-braced gear vee and a rounded tail."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has a deeper, rounder forward fuselage with much more window area; the Super Cub is slimmer and boxier."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-18 Super Cub"
+  ],
+  "usCount": {
+    "value": 3700,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-18 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

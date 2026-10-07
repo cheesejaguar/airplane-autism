@@ -1,0 +1,71 @@
+{
+  "id": "c210",
+  "name": "Cessna 210 Centurion",
+  "shortName": "C210",
+  "aka": [
+    "Centurion",
+    "Pressurized Centurion"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1957,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "210 / 210A–210F (1960–66, strut-braced)",
+    "210G–210N (cantilever wing)",
+    "T210 turbo",
+    "P210 pressurized"
+  ],
+  "summary": "Fast six-seat high-wing single with retractable gear; most have a strutless cantilever wing, setting them apart from other high-wing Cessnas.",
+  "weft": {
+    "wings": [
+      "High wing with no struts on 1967 and later models (cantilever)",
+      "Early 1960–66 models have a single lift strut"
+    ],
+    "engines": [
+      "Large six-cylinder engine in a deep cowling",
+      "Two- or three-blade constant-speed prop"
+    ],
+    "fuselage": [
+      "Retractable tricycle gear; main legs swing aft into the fuselage behind the cabin",
+      "Six-seat cabin; pressurized P210 has small rounded windows"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "High-wing single with no wing struts",
+    "Clean belly in flight — gear retracts",
+    "Main gear folds back into the fuselage behind the cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c182",
+      "howToTell": "The 210 normally has no wing struts and retractable gear; the 182 has struts and fixed gear."
+    },
+    {
+      "id": "c206",
+      "howToTell": "The 206 has wing struts, fixed gear and a double cargo door; the 210 has a clean strutless wing and retractable gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 210 Centurion",
+    "Cessna 210L"
+  ],
+  "usCount": {
+    "value": 3250,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 210 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

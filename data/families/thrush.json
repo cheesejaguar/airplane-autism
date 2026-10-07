@@ -1,0 +1,70 @@
+{
+  "id": "thrush",
+  "name": "Thrush (Ayres) S2R",
+  "shortName": "Thrush",
+  "aka": [
+    "Ayres Thrush",
+    "Thrush Commander",
+    "Thrush 510",
+    "Thrush 710"
+  ],
+  "manufacturer": "Snow / Rockwell / Ayres / Thrush Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "turboprop"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Snow S-2 / Ag Commander / Thrush Commander (radial piston)",
+    "S2R-T11 to S2R-T34 (PT6 turboprop)",
+    "S2R-H80 (Walter/GE)",
+    "Thrush 510G / 510P",
+    "Thrush 710"
+  ],
+  "summary": "Long-running family of single-engine agricultural aircraft, from radial-engined Thrush Commanders to modern turboprop Thrush 510s and 710s.",
+  "weft": {
+    "wings": [
+      "Low, constant-chord wing with squared tips",
+      "Spray booms along the trailing edge"
+    ],
+    "engines": [
+      "Long slim turboprop nose with exhaust stacks on most; big round radial on older piston examples"
+    ],
+    "fuselage": [
+      "Large hopper ahead of a tall, upright cockpit with a boxy multi-pane canopy",
+      "Fixed tailwheel gear",
+      "Wire-cutter cable from canopy to fin"
+    ],
+    "tail": [
+      "Tall angular fin; strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Single-engine low-wing taildragger with a tall, boxy cockpit behind a hopper",
+    "Spray booms along the wing trailing edge",
+    "Long slim turboprop nose, or a round radial on older examples"
+  ],
+  "confusedWith": [
+    {
+      "id": "air-tractor",
+      "howToTell": "The Thrush appears shorter and stockier with a tall, boxy multi-pane cockpit canopy; the Air Tractor usually shows a longer, higher-aspect-ratio wing and a leaner look."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Ayres Thrush"
+  ],
+  "usCount": {
+    "value": 560,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all S2R / Thrush model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

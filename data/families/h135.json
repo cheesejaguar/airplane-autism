@@ -1,0 +1,77 @@
+{
+  "id": "h135",
+  "name": "Airbus H135 / EC135",
+  "shortName": "H135",
+  "aka": [
+    "EC135",
+    "EC635"
+  ],
+  "manufacturer": "Airbus Helicopters (Eurocopter)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "ems",
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1994,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "EC135 P1/T1",
+    "EC135 P2+/T2+",
+    "H135 (P3/T3)",
+    "H135 Helionix"
+  ],
+  "summary": "Light twin-engine helicopter with a Fenestron tail and rear clamshell doors, one of the most common air-ambulance and police helicopters in the US.",
+  "weft": {
+    "wings": [
+      "Four-blade bearingless main rotor with a compact, low hub"
+    ],
+    "engines": [
+      "Two engines side by side on the roof behind the mast",
+      "Two exhausts at the rear of the cowling"
+    ],
+    "fuselage": [
+      "Compact rounded cabin with large curved windscreen",
+      "Rear clamshell doors under a high-mounted tail boom for stretcher loading",
+      "Low skids"
+    ],
+    "tail": [
+      "Shrouded Fenestron tail rotor in the fin",
+      "Horizontal stabilizer with prominent endplate fins"
+    ]
+  },
+  "tellTales": [
+    "Small twin with four blades and a shrouded fan in the tail",
+    "Clamshell doors under a high-mounted tail boom",
+    "Endplate fins on the horizontal stabilizer"
+  ],
+  "confusedWith": [
+    {
+      "id": "h145",
+      "howToTell": "The H145 is noticeably bigger with a taller, boxier cabin and high skids; the H135 is smaller and sits low, and the older EC145 has an open tail rotor."
+    },
+    {
+      "id": "h130",
+      "howToTell": "The H130 has three blades and a single engine; the H135 has four blades and two engines."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 has an open four-blade tail rotor; the H135 has a shrouded Fenestron."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus Helicopters H135"
+  ],
+  "usCount": {
+    "value": 395,
+    "source": "FAA registry make/model inquiry (EC135 / H135 all variants)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

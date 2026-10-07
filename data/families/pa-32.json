@@ -1,0 +1,78 @@
+{
+  "id": "pa-32",
+  "name": "Piper PA-32 Cherokee Six / Saratoga",
+  "shortName": "PA-32",
+  "aka": [
+    "Cherokee Six",
+    "Saratoga",
+    "Lance",
+    "6X"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Cherokee Six 260 / 300 (fixed gear)",
+    "Lance / Lance II (PA-32R; Lance II has a T-tail)",
+    "Saratoga / Saratoga SP / Saratoga II",
+    "6X / 6XT"
+  ],
+  "summary": "Stretched six-seat development of the PA-28 family with fixed or retractable gear, used for personal travel and air taxi.",
+  "weft": {
+    "wings": [
+      "Low wing; constant-chord on Cherokee Six, tapered on Saratoga",
+      "Noticeable dihedral"
+    ],
+    "engines": [
+      "Single flat-six with a long nose",
+      "Two- or three-blade prop"
+    ],
+    "fuselage": [
+      "Long six-seat cabin with four side windows",
+      "Large double rear door on the left plus a front door on the right",
+      "Fixed gear (Cherokee Six/6X) or retractable gear (Lance/Saratoga SP)"
+    ],
+    "tail": [
+      "Swept fin with stabilator; some Lance and Turbo Saratoga models have a T-tail"
+    ]
+  },
+  "tellTales": [
+    "Stretched low-wing single with four side windows per side",
+    "Large double rear door on the left side",
+    "Long nose well ahead of the windshield"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 is shorter with three side windows and only a right door; the PA-32 has an extra window and a double rear door on the left."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The A36 has its rear double doors on the right and a sleeker, rounder fuselage; the PA-32's rear doors are on the left."
+    },
+    {
+      "id": "pa-46",
+      "howToTell": "The Malibu/M-series has a pressurized cabin with small windows and an airstair door; the PA-32 has large unpressurized windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-32 Cherokee Six",
+    "Piper PA-32R"
+  ],
+  "usCount": {
+    "value": 3900,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-32 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

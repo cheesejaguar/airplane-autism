@@ -1,0 +1,77 @@
+{
+  "id": "hondajet",
+  "name": "HondaJet",
+  "shortName": "HondaJet",
+  "aka": [
+    "HA-420",
+    "HondaJet Elite",
+    "HondaJet Elite S",
+    "HondaJet Elite II"
+  ],
+  "manufacturer": "Honda Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2003,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "HA-420 HondaJet",
+    "HondaJet Elite",
+    "HondaJet Elite S",
+    "HondaJet Elite II"
+  ],
+  "summary": "Very light jet built in Greensboro, North Carolina; its engines are mounted on pylons above the wings rather than on the fuselage.",
+  "weft": {
+    "wings": [
+      "Low, nearly straight wing",
+      "Engine pylons rising from the top of each wing"
+    ],
+    "engines": [
+      "Two GE Honda HF120 turbofans mounted on pylons over the wings (over-the-wing engine mounts)"
+    ],
+    "fuselage": [
+      "Curvy natural-laminar-flow nose with a distinctive bulbous profile",
+      "Clean rear fuselage with no engines attached"
+    ],
+    "tail": [
+      "T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Engines perched on pylons on top of the wings",
+    "Clean rear fuselage with nothing mounted on it",
+    "Curvy, bulbous laminar-flow nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "phenom-100",
+      "howToTell": "The HondaJet's engines sit above the wings; the Phenom 100's engines are on the rear fuselage."
+    },
+    {
+      "id": "citation-mustang",
+      "howToTell": "The HondaJet's engines sit above the wings; the Mustang's engines are on the rear fuselage and its tailplane is low."
+    },
+    {
+      "id": "sf50",
+      "howToTell": "The HondaJet has two engines over the wings and a T-tail; the Vision Jet has one engine on top of the fuselage and a V-tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Honda HA-420 HondaJet",
+    "HondaJet Elite II"
+  ],
+  "usCount": {
+    "value": 200,
+    "source": "Honda Aircraft deliveries (250th delivered Feb 2024) with ~75% US-registered per FAA registry (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

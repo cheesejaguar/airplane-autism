@@ -1,0 +1,76 @@
+{
+  "id": "bell-47",
+  "name": "Bell 47",
+  "shortName": "Bell 47",
+  "aka": [
+    "H-13 Sioux",
+    "47G",
+    "47J Ranger"
+  ],
+  "manufacturer": "Bell",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "piston-single",
+    "agricultural",
+    "warbird"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "47D",
+    "47G series",
+    "47J Ranger (enclosed cabin)",
+    "H-13 Sioux (military)",
+    "TH-13T"
+  ],
+  "summary": "Iconic early piston helicopter with a goldfish-bowl canopy and open truss tail boom, still flown for crop spraying, sightseeing and as a warbird.",
+  "weft": {
+    "wings": [
+      "Two-blade main rotor with a weighted stabilizer bar crossing below the blades"
+    ],
+    "engines": [
+      "Exposed piston engine mounted upright behind the cabin",
+      "47G: two saddle fuel tanks on either side above the engine"
+    ],
+    "fuselage": [
+      "Large fishbowl-shaped plexiglass bubble canopy",
+      "Skids, often with spray booms on ag aircraft"
+    ],
+    "tail": [
+      "Open welded-tube lattice (truss) tail boom",
+      "Small two-blade tail rotor with a tubular guard below it",
+      "Small elevator on the boom"
+    ]
+  },
+  "tellTales": [
+    "Open lattice framework tail boom you can see through",
+    "Big fishbowl bubble canopy",
+    "Exposed upright engine with saddle tanks behind the canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "s-300",
+      "howToTell": "The Schweizer/Hughes 300 has a three-blade rotor and an enclosed tubular boom held by struts; the Bell 47 has two blades and an open lattice boom."
+    },
+    {
+      "id": "r22",
+      "howToTell": "The R22 has an enclosed tubular tail boom and a small pointed cabin; the Bell 47 has an open truss boom and a round fishbowl canopy."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Bell 47"
+  ],
+  "usCount": {
+    "value": 525,
+    "source": "FAA registry make/model inquiry (Bell 47 series, all registered examples)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

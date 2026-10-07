@@ -1,0 +1,77 @@
+{
+  "id": "bonanza-a36",
+  "name": "Beechcraft Bonanza A36 / F33",
+  "shortName": "A36 Bonanza",
+  "aka": [
+    "Model 36",
+    "G36",
+    "F33A",
+    "Debonair"
+  ],
+  "manufacturer": "Beechcraft / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "33 Debonair / E33 / F33A (four-to-five seats)",
+    "36 / A36 / G36 (stretched, rear double doors)",
+    "B36TC turbo"
+  ],
+  "summary": "Conventional-tail Bonanzas: the shorter 33 series and the stretched six-seat A36/G36, still in production as a premium piston single.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with marked dihedral"
+    ],
+    "engines": [
+      "Single flat-six with a long, smooth cowl",
+      "Three-blade prop common"
+    ],
+    "fuselage": [
+      "A36: long cabin with four side windows and large double doors on the right rear",
+      "F33: shorter four-seat cabin",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Conventional swept fin with low horizontal tail (no V-tail)"
+    ]
+  },
+  "tellTales": [
+    "Long low-wing retractable single with double doors on the right rear",
+    "Conventional tail on a slim, rounded fuselage",
+    "Long smooth cowl with a three-blade prop"
+  ],
+  "confusedWith": [
+    {
+      "id": "bonanza-v35",
+      "howToTell": "The V35 has a V-tail; the A36/F33 has a conventional fin and horizontal tail."
+    },
+    {
+      "id": "pa-32",
+      "howToTell": "The PA-32's rear double doors are on the left and it has a stabilator; the A36's rear doors are on the right."
+    },
+    {
+      "id": "pa-46",
+      "howToTell": "The Malibu/M-series has a taller fin and a pressurized cabin with small windows and an airstair door on the left."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft 36 Bonanza",
+    "Beechcraft F33A Bonanza",
+    "Beechcraft 33 Bonanza"
+  ],
+  "usCount": {
+    "value": 4000,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~2,100 Beech A36 + ~2,000 Beech 33-series",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

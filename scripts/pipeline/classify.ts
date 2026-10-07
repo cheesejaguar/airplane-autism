@@ -129,13 +129,13 @@ export function selectDiverse<T extends { verdict: Verdict }>(items: T[], n: num
 async function main() {
   const args = process.argv.slice(2);
   const only = args.includes("--only") ? args[args.indexOf("--only") + 1].split(",") : undefined;
-  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 6;
+  const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 10;
   const { families } = loadFamilies();
   const names = new Map(families.map((f) => [f.id, f.name]));
   const limit = pLimit(concurrency);
   let calls = 0;
 
-  const familyLimit = pLimit(3);
+  const familyLimit = pLimit(5);
   await Promise.all(families.filter((x) => !only || only.includes(x.id)).map((f) => familyLimit(async () => {
     const harvestFile = path.join(CACHE, "harvest", `${f.id}.json`);
     if (!fs.existsSync(harvestFile)) {

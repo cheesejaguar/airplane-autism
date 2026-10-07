@@ -19,7 +19,10 @@
     "pipeline:images": "tsx scripts/pipeline/harvest.ts && tsx scripts/pipeline/classify.ts && tsx scripts/pipeline/upload.ts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "pipeline:faa": "tsx scripts/pipeline/faa-aggregate.ts",
+    "pipeline:map": "tsx scripts/pipeline/families-map.ts",
+    "pipeline:apply-faa": "tsx scripts/pipeline/families-apply-faa.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.8.1",

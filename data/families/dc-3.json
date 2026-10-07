@@ -1,0 +1,77 @@
+{
+  "id": "dc-3",
+  "name": "Douglas DC-3 / C-47 Skytrain",
+  "shortName": "DC-3",
+  "aka": [
+    "C-47",
+    "Dakota",
+    "R4D",
+    "Gooney Bird"
+  ],
+  "manufacturer": "Douglas Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "cargo",
+    "warbird"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "DC-3 (airliner)",
+    "C-47 / C-47A / C-47B Skytrain",
+    "R4D (US Navy)",
+    "Basler BT-67 (turboprop conversion)"
+  ],
+  "summary": "Twin-radial airliner and WWII transport that revolutionised air travel; survivors fly as cargo haulers, warbirds and heritage airliners.",
+  "weft": {
+    "wings": [
+      "Low wing with a swept leading edge and straight trailing edge",
+      "Outer panels have dihedral; rounded tips"
+    ],
+    "engines": [
+      "Two large radial engines in long nacelles",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Long round fuselage with a row of rectangular windows",
+      "Tailwheel gear — sits steeply nose-up; main wheels partly exposed when retracted",
+      "Large double cargo door on the rear left (C-47)"
+    ],
+    "tail": [
+      "Single large rounded fin with dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Large taildragger airliner with two radial engines",
+    "Swept leading edge with a straight trailing edge",
+    "Single large rounded fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-18",
+      "howToTell": "The Beech 18 is much smaller with twin oval fins; the DC-3 has a single large fin."
+    },
+    {
+      "id": "b-25",
+      "howToTell": "The B-25 has twin tail fins, tricycle gear and a shoulder-mounted gull wing; the DC-3 is a low-wing taildragger with one fin."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Douglas DC-3 in flight",
+    "Douglas DC-3",
+    "Douglas C-47 Skytrain"
+  ],
+  "usCount": {
+    "value": 160,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): DC-3 and C-47 model codes (registered; fewer are airworthy)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

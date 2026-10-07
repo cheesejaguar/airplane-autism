@@ -1,0 +1,78 @@
+{
+  "id": "da42",
+  "name": "Diamond DA42 / DA62",
+  "shortName": "DA42/62",
+  "aka": [
+    "Twin Star",
+    "DA42 NG",
+    "DA42 MPP",
+    "DA62"
+  ],
+  "manufacturer": "Diamond Aircraft Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 2002,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "DA42 Twin Star",
+    "DA42 NG / DA42-VI (Austro diesel)",
+    "DA42 MPP (surveillance)",
+    "DA62 (larger, seven seats)"
+  ],
+  "summary": "Composite light twins with diesel piston engines; the DA42 is a common multi-engine trainer and the DA62 a larger touring twin.",
+  "weft": {
+    "wings": [
+      "Long, slender glider-like wing with winglets"
+    ],
+    "engines": [
+      "Two compact diesel engines in slim, smooth nacelles",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Smooth composite fuselage with a large canopy (DA62 has gull-wing side doors and a longer cabin)",
+      "Long, pointed nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "T-tail"
+    ]
+  },
+  "tellTales": [
+    "Slender-winged composite twin with a T-tail and winglets",
+    "Long pointed nose and large canopy",
+    "Slim, smooth engine nacelles"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-44",
+      "howToTell": "The Seminole has a metal fuselage with conventional side windows and a shorter, thicker wing; the DA42 is a smooth composite with long slender wings."
+    },
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca has a conventional low tail and a riveted metal cabin; the DA42 has a T-tail and composite construction."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a conventional low tail and a rounded metal fuselage; the DA42 has a T-tail and long thin wings."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Diamond DA42",
+    "Diamond DA62"
+  ],
+  "usCount": {
+    "value": 440,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~260 DA42 + ~170 DA62",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

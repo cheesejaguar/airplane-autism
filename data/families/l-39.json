@@ -1,0 +1,74 @@
+{
+  "id": "l-39",
+  "name": "Aero L-39 Albatros",
+  "shortName": "L-39",
+  "aka": [
+    "Albatros",
+    "L-39C",
+    "L-39ZA"
+  ],
+  "manufacturer": "Aero Vodochody",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1968,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "L-39C (trainer)",
+    "L-39ZA (armed)",
+    "L-39ZO",
+    "L-39V (target tug)"
+  ],
+  "summary": "Czechoslovak jet trainer used by Warsaw Pact air forces; the most common privately owned jet warbird in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight unswept wing",
+      "Permanent fuel tanks on the wingtips"
+    ],
+    "engines": [
+      "Single turbofan with small intakes on both sides of the fuselage behind the cockpit",
+      "Exhaust at the tail"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit with a stepped canopy (rear seat raised)",
+      "Pointed nose; tricycle gear"
+    ],
+    "tail": [
+      "Large swept fin",
+      "Horizontal tail mounted on the fuselage below the fin"
+    ]
+  },
+  "tellTales": [
+    "Straight wing with permanent tip tanks on a small jet trainer",
+    "Side intakes behind a stepped tandem canopy",
+    "Short, stubby fuselage with a pointed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-38",
+      "howToTell": "The T-38 is a slim twin-engine jet with thin swept wings and no tip tanks; the L-39 has a straight wing with tip tanks."
+    },
+    {
+      "id": "t-45",
+      "howToTell": "The Goshawk has a swept wing with no tip tanks; the L-39 has a straight wing with tip tanks."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Aero L-39",
+    "Aero L-39C Albatros"
+  ],
+  "usCount": {
+    "value": 210,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all L-39 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

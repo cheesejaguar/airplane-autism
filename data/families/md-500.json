@@ -1,0 +1,86 @@
+{
+  "id": "md-500",
+  "name": "MD 500 / 530 (Hughes 500)",
+  "shortName": "MD 500",
+  "aka": [
+    "Hughes 500",
+    "Hughes 369",
+    "OH-6 Cayuse",
+    "Little Bird",
+    "MH-6",
+    "AH-6",
+    "MD 530F",
+    "MD 520N"
+  ],
+  "manufacturer": "MD Helicopters (Hughes / McDonnell Douglas)",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "special-ops",
+    "attack"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "OH-6A / Hughes 369 / 500C (four-blade)",
+    "500D/E, 530F (five-blade)",
+    "MH-6M / AH-6M Little Bird (160th SOAR)",
+    "MD 520N (NOTAR)"
+  ],
+  "summary": "Small, egg-shaped light turbine helicopter used by police, utility and film operators and by the Army's 160th SOAR as the MH-6/AH-6 Little Bird.",
+  "weft": {
+    "wings": [
+      "Four-blade (early) or five-blade (500D/E, 530) main rotor on a short mast",
+      "Little Birds carry benches or weapon mounts on outriggers"
+    ],
+    "engines": [
+      "Single small turbine behind the cabin",
+      "Exhaust exits from the rear of the egg-shaped pod under the tail boom"
+    ],
+    "fuselage": [
+      "Rounded egg/teardrop-shaped cabin with a big curved windscreen",
+      "Short skids",
+      "Very compact; pod-and-boom layout"
+    ],
+    "tail": [
+      "Thin tail boom from the top of the pod",
+      "500D/E/530: T-tail with small endplate fins; early models: upper and lower fins with a small stabilizer",
+      "Two-blade tail rotor, or no tail rotor on the NOTAR 520N"
+    ]
+  },
+  "tellTales": [
+    "Tiny egg-shaped pod with a thin boom attached at its top",
+    "Five (or four) short blades on a stubby mast",
+    "Exhaust coming out the back of the pod beneath the boom"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-206",
+      "howToTell": "The JetRanger has a longer teardrop cabin, a two-blade rotor and an exhaust stack on the roof; the MD 500 is a stubby egg with four or five blades."
+    },
+    {
+      "id": "r22",
+      "howToTell": "The R22 has a two-blade rotor on a tall slender mast and a piston engine; the MD 500 has a short mast with four or five blades."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "MD Helicopters MD 500",
+    "OH-6 Cayuse",
+    "MD 500 Defender"
+  ],
+  "usCount": {
+    "value": 740,
+    "source": "FAA registry make/model inquiry (Hughes/MD 369, 500, 530, 520N) + ~50 Army MH-6M/AH-6M (FlightGlobal World Air Forces 2025)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

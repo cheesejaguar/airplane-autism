@@ -1,0 +1,74 @@
+{
+  "id": "beech-18",
+  "name": "Beechcraft Model 18",
+  "shortName": "Beech 18",
+  "aka": [
+    "Twin Beech",
+    "C-45 Expeditor",
+    "SNB",
+    "AT-11 Kansan"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "C18S / D18S / E18S / G18S / H18",
+    "C-45 Expeditor / SNB (military)",
+    "AT-11 Kansan",
+    "Volpar tricycle and turboprop conversions"
+  ],
+  "summary": "Twin-radial light transport built 1937–1970, used as a military trainer/transport, airliner and freighter; many fly as vintage aircraft.",
+  "weft": {
+    "wings": [
+      "Low wing with tapered outer panels"
+    ],
+    "engines": [
+      "Two round radial engines in short nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Tailwheel gear; sits nose-high on the ground",
+      "Streamlined fuselage with a row of round-cornered windows",
+      "Short rounded nose"
+    ],
+    "tail": [
+      "Twin oval fins and rudders at the ends of the horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Twin radial engines with twin oval tail fins",
+    "Taildragger stance with the nose pointing up",
+    "Compact, streamlined fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-25",
+      "howToTell": "The B-25 is much larger with a shoulder-mounted gull wing, tricycle gear and a glazed or gun nose; the Beech 18 is a low-wing taildragger."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 is far larger with a single tall fin; the Beech 18 has twin oval fins."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Model 18",
+    "Beechcraft C-45"
+  ],
+  "usCount": {
+    "value": 230,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): Beech 18S-series and C-45 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

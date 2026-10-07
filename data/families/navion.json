@@ -1,0 +1,73 @@
+{
+  "id": "navion",
+  "name": "North American / Ryan Navion",
+  "shortName": "Navion",
+  "aka": [
+    "L-17",
+    "Rangemaster"
+  ],
+  "manufacturer": "North American Aviation / Ryan Aeronautical / Navion",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Navion (NA-145)",
+    "Navion A / B (Ryan)",
+    "Navion Rangemaster (H)",
+    "L-17 (military)"
+  ],
+  "summary": "Rugged postwar four-seat retractable single designed by the makers of the P-51, with a sliding canopy and a tall stance.",
+  "weft": {
+    "wings": [
+      "Low, moderately tapered wing with dihedral; wingtip tanks on some"
+    ],
+    "engines": [
+      "Single flat-six in a large cowl",
+      "Two- or three-blade prop"
+    ],
+    "fuselage": [
+      "Sliding canopy over a deep, roomy cabin (Rangemaster has doors instead)",
+      "Tall, sturdy retractable tricycle gear"
+    ],
+    "tail": [
+      "Broad fin with straight leading edge and large horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing single with a sliding canopy and a tall stance on the ground",
+    "Thick wing and deep, robust fuselage with a fighter-like look",
+    "Large, broad tail surfaces"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-5 is smaller with fixed gear and skinny tubular legs; the Navion is bigger with tall retractable gear."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The Bonanza has doors and a sleeker, longer fuselage; the Navion has a sliding canopy and a taller, chunkier stance."
+    },
+    {
+      "id": "pa-24",
+      "howToTell": "The Comanche has a door, a stabilator and a slimmer fuselage; the Navion has a sliding canopy."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Ryan Navion"
+  ],
+  "usCount": {
+    "value": 870,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Navion model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

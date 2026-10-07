@@ -1,0 +1,82 @@
+{
+  "id": "falcon-trijet",
+  "name": "Dassault Falcon 50/900/7X/8X",
+  "shortName": "Falcon 900/7X",
+  "aka": [
+    "Falcon 50",
+    "Falcon 50EX",
+    "Falcon 900",
+    "Falcon 900B",
+    "Falcon 900EX",
+    "Falcon 900LX",
+    "Falcon 7X",
+    "Falcon 8X"
+  ],
+  "manufacturer": "Dassault Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1976,
+  "engines": {
+    "count": 3,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Falcon 50 / 50EX",
+    "Falcon 900 / 900B / 900C / 900EX / 900DX / 900LX (winglets)",
+    "Falcon 7X",
+    "Falcon 8X"
+  ],
+  "summary": "Dassault's three-engine long-range business jets, valued for short-field performance and the ability to overfly oceans with three engines.",
+  "weft": {
+    "wings": [
+      "Low swept wing; the 7X/8X wing is thinner and more swept",
+      "Winglets on the 900LX, 7X and 8X; plain tips on older 50/900s"
+    ],
+    "engines": [
+      "Three engines: two pods on the rear fuselage plus a third in the tail fed by an intake at the base of the fin"
+    ],
+    "fuselage": [
+      "Fuselage with a long pointed nose and a row of rounded windows",
+      "Falcon 50 is noticeably shorter than the 900/7X/8X"
+    ],
+    "tail": [
+      "Cruciform tail: horizontal stabilizer mounted partway up the fin, not on top"
+    ]
+  },
+  "tellTales": [
+    "Air intake for a third engine at the base of the fin",
+    "Three engine exhausts at the tail",
+    "Tailplane set partway up the fin, below the top"
+  ],
+  "confusedWith": [
+    {
+      "id": "falcon-2000",
+      "howToTell": "The trijet has a third engine with an intake at the fin root; the Falcon 2000 has only two engine pods and a clean fin root."
+    },
+    {
+      "id": "g650",
+      "howToTell": "The Falcon trijet has three engines and a mid-fin tailplane; the G650/G700 has two engines and a T-tail."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Falcon trijet has three engines; the Hawker 800 has two and oval windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Dassault Falcon 900",
+    "Dassault Falcon 7X",
+    "Dassault Falcon 50"
+  ],
+  "usCount": {
+    "value": 480,
+    "source": "Dassault production (~1,350 Falcon 50/900/7X/8X) with ~35% US-registered per JETNET fleet summaries (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

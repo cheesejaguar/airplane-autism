@@ -1,0 +1,83 @@
+{
+  "id": "h125",
+  "name": "Airbus H125 / AS350 / AS355",
+  "shortName": "H125",
+  "aka": [
+    "AStar",
+    "Écureuil",
+    "Squirrel",
+    "TwinStar",
+    "AS350",
+    "AS355"
+  ],
+  "manufacturer": "Airbus Helicopters (Aérospatiale / Eurocopter)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "ems"
+  ],
+  "branches": [],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AS350 B/BA/B2/B3 AStar",
+    "H125",
+    "AS355 / AS355N TwinStar (twin engine)"
+  ],
+  "summary": "The workhorse light single-turbine helicopter of US tour, EMS, police, utility and firefighting operators; the AS355 TwinStar is the twin-engine sibling.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor on a compact Starflex hub"
+    ],
+    "engines": [
+      "Single turbine on the roof behind the mast under a long cowling",
+      "Exhaust exits at the rear of the cowling above the tail boom; AS355 shows two exhausts"
+    ],
+    "fuselage": [
+      "Tall, rounded cabin with a large curved windscreen and big side doors",
+      "Skids, often high skid gear or emergency floats",
+      "Baggage hatches on the rear fuselage sides"
+    ],
+    "tail": [
+      "Open two-blade tail rotor (not shrouded)",
+      "Horizontal stabilizer with small endplate fins",
+      "Vertical fin with both an upper part and a ventral fin carrying a tail skid"
+    ]
+  },
+  "tellTales": [
+    "Three-blade main rotor over a tall rounded single-engine cabin",
+    "Open two-blade tail rotor on a fin with a ventral skid",
+    "Stabilizer with endplate fins near the end of a slim boom"
+  ],
+  "confusedWith": [
+    {
+      "id": "h130",
+      "howToTell": "The H125 has an open two-blade tail rotor and a narrower cabin; the H130 has a shrouded Fenestron and a wider cabin with a one-piece wraparound windscreen."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The H125 has three blades and a taller, rounder cabin; the 206 has two blades."
+    },
+    {
+      "id": "bell-407",
+      "howToTell": "The 407 has four blades and a JetRanger-style tail; the H125 has three blades."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Airbus Helicopters H125 Écureuil",
+    "Aerospatiale AS350",
+    "Aerospatiale AS355"
+  ],
+  "usCount": {
+    "value": 990,
+    "source": "FAA registry make/model inquiry (AS350/H125 and AS355 series)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

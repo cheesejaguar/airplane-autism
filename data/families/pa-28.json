@@ -1,0 +1,87 @@
+{
+  "id": "pa-28",
+  "name": "Piper PA-28 Cherokee / Warrior / Archer / Arrow",
+  "shortName": "PA-28",
+  "aka": [
+    "Cherokee",
+    "Warrior",
+    "Archer",
+    "Arrow",
+    "Dakota"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Cherokee 140 / 150 / 160 / 180 (constant-chord wing)",
+    "Warrior (PA-28-151/161)",
+    "Archer (PA-28-181)",
+    "Dakota (PA-28-236)",
+    "Arrow (PA-28R, retractable; Arrow IV has a T-tail)"
+  ],
+  "summary": "Low-wing four-seat single family that rivals the Cessna 172 as the most common US trainer and private aircraft.",
+  "weft": {
+    "wings": [
+      "Low wing with noticeable dihedral",
+      "Constant-chord 'Hershey bar' wing on early models; tapered outer panels on Warrior, Archer and later Arrows"
+    ],
+    "engines": [
+      "Single flat-four in a squared-off cowl with two air inlets either side of the spinner",
+      "Two-blade prop on most"
+    ],
+    "fuselage": [
+      "Four-seat cabin with a single door on the right side, over the wing",
+      "Fixed tricycle gear with oleo struts and wheel fairings (Arrow retracts)",
+      "Three side windows per side on later models"
+    ],
+    "tail": [
+      "Swept fin with all-moving stabilator",
+      "Arrow IV variant has a T-tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing four-seater with fixed tricycle gear and a slim swept fin",
+    "One cabin door only, on the right side",
+    "All-moving horizontal tail (stabilator)"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The Grumman has a sliding canopy and skinny tubular main gear legs; the PA-28 has a car-style right door and oleo-strut gear."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has retractable gear and a vertical tail that appears swept forward; the PA-28 has a conventionally swept fin."
+    },
+    {
+      "id": "pa-32",
+      "howToTell": "The PA-32 is longer with an extra side window and a double rear door on the left; the PA-28 has a shorter cabin and one door."
+    },
+    {
+      "id": "c172",
+      "howToTell": "The PA-28 is a low-wing with no struts; the 172 is a strut-braced high-wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-28 Cherokee",
+    "Piper PA-28",
+    "Piper PA-28R Arrow"
+  ],
+  "usCount": {
+    "value": 18600,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-28 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

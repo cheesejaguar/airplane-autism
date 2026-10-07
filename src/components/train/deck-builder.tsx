@@ -3,9 +3,9 @@
 import { useEffect, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
-import { Bookmark, Check, ChevronsUpDown, Crosshair, Trash2 } from "lucide-react";
+import { Bookmark, Check, ChevronsUpDown, Crosshair, History, Trash2 } from "lucide-react";
 import { toast } from "sonner";
-import { deletePreset, getDefaultDeck, listPresets, savePreset, saveDefaultDeck, type PresetDTO } from "@/app/train/deck-actions";
+import { deletePreset, getDefaultDeck, getDueSummary, listPresets, savePreset, saveDefaultDeck, type PresetDTO } from "@/app/train/deck-actions";
 import { Button } from "@/components/ui/button";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
 import { Input } from "@/components/ui/input";
@@ -98,11 +98,13 @@ export function DeckBuilder({ families, manufacturers }: { families: FamilyLite[
   const [deck, setDeck] = useState<DeckConfig>(DEFAULT_DECK);
   const [presets, setPresets] = useState<PresetDTO[]>([]);
   const [presetName, setPresetName] = useState("");
+  const [due, setDue] = useState<{ due: number; learned: number } | null>(null);
   const [starting, startTransition] = useTransition();
 
   useEffect(() => {
     getDefaultDeck().then((d) => d && setDeck({ ...d, familyIds: [] })).catch(() => {});
     listPresets().then(setPresets).catch(() => {});
+    getDueSummary().then(setDue).catch(() => {});
   }, []);
 
   const set = <K extends keyof DeckConfig>(k: K, v: DeckConfig[K]) => setDeck((d) => ({ ...d, [k]: v, familyIds: [] }));
@@ -127,6 +129,22 @@ export function DeckBuilder({ families, manufacturers }: { families: FamilyLite[
   return (
     <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_340px]">
       <div className="min-w-0">
+        {due && due.due > 0 && (
+          <button
+            type="button"
+            onClick={() => startTransition(() => router.push(trainHref({ ...DEFAULT_DECK, newPerSession: 0, sessionLength: Math.min(50, Math.max(10, due.due)) })))}
+            className="mb-4 flex w-full items-center justify-between gap-3 rounded-lg border border-[var(--info)]/60 bg-[color-mix(in_oklab,var(--info)_10%,var(--card))] p-4 text-left transition-colors hover:border-[var(--info)]"
+          >
+            <span className="flex items-center gap-3">
+              <History className="size-5 text-[var(--info)]" />
+              <span>
+                <span className="type-condensed block text-lg leading-tight">{due.due} aircraft due for review</span>
+                <span className="text-sm text-muted-foreground">Spaced repetition says now is the best time to see these again.</span>
+              </span>
+            </span>
+            <span className="type-readout shrink-0 text-[var(--info)]">Review now →</span>
+          </button>
+        )}
         {/* Quick decks */}
         <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
           {QUICK_DECKS.map((q) => {

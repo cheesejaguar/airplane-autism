@@ -1,0 +1,76 @@
+{
+  "id": "c310",
+  "name": "Cessna 310",
+  "shortName": "C310",
+  "aka": [
+    "U-3 Blue Canoe",
+    "Skyknight"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "310 / 310A–310R (1954–80)",
+    "T310 turbo",
+    "U-3A / U-3B (USAF)",
+    "320 Skyknight"
+  ],
+  "summary": "Five-to-six-seat light piston twin and Cessna's first postwar twin, recognisable by its wingtip fuel tanks.",
+  "weft": {
+    "wings": [
+      "Low straight wing with fuel tanks on the wingtips",
+      "Engines mounted on the wing close to the fuselage"
+    ],
+    "engines": [
+      "Two flat-six engines in slim nacelles that extend well behind the wing",
+      "Two- or three-blade props"
+    ],
+    "fuselage": [
+      "Slim five-to-six-seat cabin with large side windows",
+      "Retractable tricycle gear",
+      "Long pointed nose on later models"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet (straight-edged fin on early models)",
+      "Conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing piston twin with fuel tanks on the wingtips",
+    "Long pointed nose and swept fin",
+    "Slim nacelles extending behind the wing trailing edge"
+  ],
+  "confusedWith": [
+    {
+      "id": "baron",
+      "howToTell": "The Baron has plain wingtips with no tip tanks; the 310 has prominent wingtip tanks."
+    },
+    {
+      "id": "c340",
+      "howToTell": "The 340/414/421 have a fatter cabin-class fuselage with small rounded windows; the 310 is slimmer with large rectangular windows."
+    },
+    {
+      "id": "pa-23",
+      "howToTell": "The Aztec has a boxy slab-sided fuselage, a thick constant-chord wing and plain wingtips; the 310 is sleeker with tip tanks."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 310"
+  ],
+  "usCount": {
+    "value": 1600,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Cessna 310 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

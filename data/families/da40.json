@@ -1,0 +1,76 @@
+{
+  "id": "da40",
+  "name": "Diamond DA40 Diamond Star",
+  "shortName": "DA40",
+  "aka": [
+    "Diamond Star",
+    "DA40 NG",
+    "DA40 XLS"
+  ],
+  "manufacturer": "Diamond Aircraft Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DA40 (Lycoming)",
+    "DA40 XL / XLS",
+    "DA40 NG (Austro diesel)",
+    "DA40 TDI"
+  ],
+  "summary": "Four-seat composite low-wing single with a T-tail, popular with flight schools and airline training academies.",
+  "weft": {
+    "wings": [
+      "Long, slender composite low wing with glider-like proportions"
+    ],
+    "engines": [
+      "Single engine in a slim composite cowl",
+      "Three-blade prop on the diesel NG; two- or three-blade on petrol versions"
+    ],
+    "fuselage": [
+      "Large forward-hinged bubble canopy over the front seats plus a rear passenger door",
+      "Fixed tricycle gear with wheel pants",
+      "Slim tail boom tapering from the cabin"
+    ],
+    "tail": [
+      "T-tail on a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Slender low wing with a T-tail and fixed gear",
+    "Large bubble canopy over the front seats",
+    "Long, thin tail boom behind the cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "da20",
+      "howToTell": "The DA20 is a two-seater with a shorter cabin and no rear windows; the DA40 has a longer four-seat cabin with rear side windows."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The Cirrus has a conventional low tail and side doors; the DA40 has a T-tail and a bubble canopy."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 has two engines on the wings; the DA40 has one in the nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Diamond DA40"
+  ],
+  "usCount": {
+    "value": 1000,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Diamond DA40 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

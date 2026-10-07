@@ -1,0 +1,75 @@
+{
+  "id": "yak-52",
+  "name": "Yakovlev Yak-52",
+  "shortName": "Yak-52",
+  "aka": [
+    "Iak-52",
+    "Yak-52TW"
+  ],
+  "manufacturer": "Yakovlev / Aerostar (Romania)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1976,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Yak-52 (tricycle)",
+    "Yak-52W / Yak-52TW (tailwheel)",
+    "Yak-52M"
+  ],
+  "summary": "Soviet-designed, Romanian-built radial-engined aerobatic trainer, widely imported to the US as an affordable warbird.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with squared tips"
+    ],
+    "engines": [
+      "Nine-cylinder radial in a cowl with a front shutter",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit with separate sliding canopy sections",
+      "Tricycle gear whose wheels stay partly exposed when retracted",
+      "Short, compact metal fuselage"
+    ],
+    "tail": [
+      "Single fin with low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Radial-engined tandem trainer on tricycle gear with wheels that stay partly exposed when retracted",
+    "Cowl with a louvered shutter across the front",
+    "Short, compact fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "cj-6",
+      "howToTell": "The CJ-6 has a flat wing center section with sharply upturned outer panels; the Yak-52's wing has more uniform dihedral and the aircraft is smaller."
+    },
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 has a slim flat-engine nose and fully retracting gear; the Yak-52 has a round radial nose and partly exposed wheels."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 is much larger and heavier with a deep cowl; the Yak-52 is small and compact."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Yakovlev Yak-52"
+  ],
+  "usCount": {
+    "value": 200,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Yak-52 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

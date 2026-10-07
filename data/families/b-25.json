@@ -1,0 +1,73 @@
+{
+  "id": "b-25",
+  "name": "B-25 Mitchell",
+  "shortName": "B-25",
+  "aka": [
+    "Mitchell",
+    "PBJ-1"
+  ],
+  "manufacturer": "North American Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "bomber"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "B-25C / D",
+    "B-25H (solid gun nose)",
+    "B-25J (glazed or solid nose)",
+    "TB-25 trainers",
+    "PBJ-1 (USMC)"
+  ],
+  "summary": "WWII twin-engine medium bomber famous for the Doolittle Raid; dozens fly in the US as airshow and ride warbirds.",
+  "weft": {
+    "wings": [
+      "Shoulder-mounted wing with a gull-like dihedral break at the engine nacelles"
+    ],
+    "engines": [
+      "Two big radial engines in long nacelles",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Glazed bombardier nose (or solid gun nose)",
+      "Tricycle landing gear",
+      "Dorsal gun turret behind the cockpit and tail-gunner position"
+    ],
+    "tail": [
+      "Twin fins and rudders at the ends of the horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Twin-radial bomber with twin tail fins",
+    "Wing dihedral breaks at the engine nacelles (gull wing)",
+    "Tricycle gear with a glazed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-18",
+      "howToTell": "The Beech 18 is much smaller, low-winged and a taildragger; the B-25 has a shoulder gull wing and tricycle gear."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 has a single fin and is a low-wing taildragger; the B-25 has twin fins and tricycle gear."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "North American B-25 Mitchell in flight",
+    "North American B-25 Mitchell"
+  ],
+  "usCount": {
+    "value": 35,
+    "source": "warbirdregistry.org B-25 registry (airworthy-coded airframes) cross-checked with FAA registry (~56 registered)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -1,6 +1,6 @@
 import "server-only";
 import { eq, sql } from "drizzle-orm";
-import { db } from "@/db";
+import { db as defaultDb, type DB } from "@/db";
 import { cardState, deckPreset, review, trainingSession, userPrefs } from "@/db/schema";
 
 /**
@@ -8,7 +8,7 @@ import { cardState, deckPreset, review, trainingSession, userPrefs } from "@/db/
  * signed into. Card states conflict-resolve to whichever was reviewed most recently.
  * Runs before Better Auth deletes the anonymous user (which would cascade-delete rows).
  */
-export async function mergeGuestProgress(fromUserId: string, toUserId: string) {
+export async function mergeGuestProgress(fromUserId: string, toUserId: string, db: Pick<DB, "transaction"> = defaultDb) {
   if (fromUserId === toUserId) return;
   await db.transaction(async (tx) => {
     await tx.update(trainingSession).set({ userId: toUserId }).where(eq(trainingSession.userId, fromUserId));

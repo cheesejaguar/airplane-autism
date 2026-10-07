@@ -1,0 +1,76 @@
+{
+  "id": "g650",
+  "name": "Gulfstream G650 / G700 / G800",
+  "shortName": "G650/G700",
+  "aka": [
+    "G650",
+    "G650ER",
+    "G700",
+    "G800"
+  ],
+  "manufacturer": "Gulfstream Aerospace",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 2009,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "G650",
+    "G650ER",
+    "G700",
+    "G800"
+  ],
+  "summary": "Gulfstream's flagship ultra-long-range jets with the widest Gulfstream cabin and the brand's largest oval windows.",
+  "weft": {
+    "wings": [
+      "Low wing with strong sweep and large blended, sharply raked winglets"
+    ],
+    "engines": [
+      "Two large Rolls-Royce BR725 or Pearl 700 turbofans in big nacelles on the rear fuselage"
+    ],
+    "fuselage": [
+      "Wide, round fuselage with very large oval windows",
+      "Blunt, rounded nose with very large windscreen panes"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "Very large oval windows on a wide, round fuselage",
+    "Blunt rounded nose with very large windscreen panes",
+    "Strongly swept wing with large blended winglets"
+  ],
+  "confusedWith": [
+    {
+      "id": "g550",
+      "howToTell": "The G650/G700 is fatter with larger ovals, a blunter nose and a more swept wing; the GIV/G550 is slimmer with a pointed nose and smaller ovals."
+    },
+    {
+      "id": "global",
+      "howToTell": "The G650/G700 has oval windows; the Global series has rounded-rectangle windows."
+    },
+    {
+      "id": "falcon-trijet",
+      "howToTell": "The G650/G700 has two engines and a T-tail; the Falcon 7X/8X has three engines and a cruciform tail."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Gulfstream G650",
+    "Gulfstream G700"
+  ],
+  "usCount": {
+    "value": 380,
+    "source": "Gulfstream deliveries (~550 G650/ER plus 100+ G700/G800) with ~55% US-registered per JETNET fleet summaries (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

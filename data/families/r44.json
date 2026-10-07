@@ -1,0 +1,82 @@
+{
+  "id": "r44",
+  "name": "Robinson R44",
+  "shortName": "R44",
+  "aka": [
+    "Raven",
+    "Raven II",
+    "Clipper",
+    "Newscopter",
+    "Cadet"
+  ],
+  "manufacturer": "Robinson Helicopter Company",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1990,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "R44 Astro",
+    "R44 Raven I",
+    "R44 Raven II",
+    "R44 Clipper (floats)",
+    "R44 Newscopter",
+    "R44 Cadet (two-seat)"
+  ],
+  "summary": "The world's best-selling helicopter: a four-seat piston light helicopter used for training, tours, ranching, news and private flying.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a tall mast with a small streamlined mast fairing"
+    ],
+    "engines": [
+      "Piston engine behind the cabin, mostly cowled with side cooling openings",
+      "No tall turbine exhaust stack above the engine bay"
+    ],
+    "fuselage": [
+      "Rounded bubble cabin with two doors on each side (four seats)",
+      "Skids on curved struts, or pop-out floats on the Clipper",
+      "Small and light, roughly car-sized cabin"
+    ],
+    "tail": [
+      "Slender tubular tail boom",
+      "Two-blade tail rotor with small upper and lower fins and a horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Two doors on each side of a small rounded bubble cabin",
+    "Thin two-blade rotor on a tall mast with a small mast fairing",
+    "Piston engine bay behind the cabin with no turbine exhaust stack"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The R44 has two doors per side and a cowled engine; the R22 has one door per side and an exposed engine frame."
+    },
+    {
+      "id": "r66",
+      "howToTell": "The R66 has a taller, fully enclosed turbine cowling with an exhaust stack and a baggage door behind the cabin; the R44's piston engine bay is lower and more open."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The JetRanger is larger with a turbine exhaust stack on the roof and a horizontal stabilizer with endplates; the R44 is smaller with a thin tubular boom and tall slender mast."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Robinson R44"
+  ],
+  "usCount": {
+    "value": 1930,
+    "source": "FAA registry make/model inquiry (Robinson R44 / R44 II / Astro)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

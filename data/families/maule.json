@@ -1,0 +1,78 @@
+{
+  "id": "maule",
+  "name": "Maule M-series",
+  "shortName": "Maule",
+  "aka": [
+    "M-4 Rocket",
+    "M-5 Lunar Rocket",
+    "M-7",
+    "Orion"
+  ],
+  "manufacturer": "Maule Aircraft / Maule Air",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M-4 Rocket",
+    "M-5 Lunar Rocket",
+    "M-6 Super Rocket",
+    "M-7 / MX-7 (incl. tricycle MT-7 and turbine M-7-420)",
+    "M-9"
+  ],
+  "summary": "Family of four-to-five-seat STOL bush planes with tube-and-fabric fuselages, popular on floats and in the backcountry.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing with long-span flaps"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a short, deep cowl",
+      "Two- or three-blade prop"
+    ],
+    "fuselage": [
+      "Tube-and-fabric four-to-five-seat fuselage with large rear windows and rear cargo door",
+      "Tailwheel gear on most (some tricycle versions); often on floats"
+    ],
+    "tail": [
+      "Swept fin with a squared-off top and large rudder"
+    ]
+  },
+  "tellTales": [
+    "Fabric-covered high-wing four-seater on a tailwheel",
+    "Swept fin with a squared-off top",
+    "Short, stubby nose and large rear cabin windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 180/185 is all-metal with a smoothly tapered rear fuselage; the Maule is fabric-covered with a square-topped swept fin."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub is a narrow tandem two-seater with a rounded tail; the Maule is a wider four-seater with a squared-off swept fin."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria is a narrow tandem two-seater; the Maule has a wider four-seat cabin and a swept fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Maule M-7",
+    "Maule M-5"
+  ],
+  "usCount": {
+    "value": 1100,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): Maule M-series model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

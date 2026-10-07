@@ -1,0 +1,75 @@
+{
+  "id": "tbm-avenger",
+  "name": "Grumman TBM Avenger",
+  "shortName": "TBM Avenger",
+  "aka": [
+    "Avenger",
+    "TBF",
+    "TBM-3E"
+  ],
+  "manufacturer": "Grumman / General Motors (Eastern Aircraft)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "bomber",
+    "attack"
+  ],
+  "branches": [],
+  "firstFlight": 1941,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "TBF-1 (Grumman)",
+    "TBM-1 / TBM-3 (GM Eastern Aircraft)",
+    "TBM-3E",
+    "Postwar firebomber and sprayer conversions"
+  ],
+  "summary": "WWII carrier-based torpedo bomber; the largest single-engine warbird type commonly seen at US airshows.",
+  "weft": {
+    "wings": [
+      "Large, broad mid-mounted wing with squared tips",
+      "Wings fold back alongside the fuselage when parked"
+    ],
+    "engines": [
+      "Big round radial engine",
+      "Three-blade prop"
+    ],
+    "fuselage": [
+      "Very deep, portly fuselage with a long greenhouse canopy for three crew",
+      "Ball turret at the rear of the canopy",
+      "Internal bomb bay; tailwheel gear"
+    ],
+    "tail": [
+      "Large angular fin with a straight leading edge"
+    ]
+  },
+  "tellTales": [
+    "Huge single-engine radial airplane with a very deep, barrel-like fuselage",
+    "Long greenhouse canopy ending in a rear ball turret",
+    "Wings fold back along the fuselage when parked"
+  ],
+  "confusedWith": [
+    {
+      "id": "at-6",
+      "howToTell": "The Texan is a much smaller, slimmer two-seat trainer; the Avenger is huge with a deep belly and a rear ball turret."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 is a slim trainer on tricycle gear; the Avenger is a deep-bellied taildragger with a rear ball turret."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Grumman TBF Avenger in flight",
+    "Grumman TBF Avenger"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "Vintage Aviation News / warbirdregistry.org Avenger registry (~25 airworthy in US); FAA registry ~40 registered",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

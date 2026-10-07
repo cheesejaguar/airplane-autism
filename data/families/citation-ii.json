@@ -1,0 +1,90 @@
+{
+  "id": "citation-ii",
+  "name": "Cessna Citation II / V / Ultra / Encore / Bravo",
+  "shortName": "Citation II/V",
+  "aka": [
+    "Citation II",
+    "Citation S/II",
+    "Citation Bravo",
+    "Citation V",
+    "Citation Ultra",
+    "Citation Encore",
+    "Citation Encore+",
+    "UC-35",
+    "Model 550",
+    "Model 560"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "transport",
+    "vip"
+  ],
+  "branches": [
+    "army",
+    "usmc"
+  ],
+  "firstFlight": 1977,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "550 Citation II / S/II",
+    "550 Citation Bravo",
+    "560 Citation V",
+    "560 Citation Ultra (UC-35A)",
+    "560 Citation Encore / Encore+ (UC-35B/C/D)"
+  ],
+  "summary": "Long-running family of straight-wing light/midsize Citations; the Army and Marine Corps fly the Ultra/Encore as the UC-35 for staff and priority transport.",
+  "weft": {
+    "wings": [
+      "Low, straight (unswept) wing with a long span",
+      "No winglets on most aircraft"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada JT15D/PW530/PW535 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Slender fuselage with a long tapered nose and small rounded-square windows",
+      "Citation V/Ultra/Encore are a slight stretch with an extra window"
+    ],
+    "tail": [
+      "Horizontal stabilizer mounted low on the tail cone with pronounced dihedral (not a T-tail)",
+      "Tall swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Straight unswept wing on a twinjet whose tailplane sits low on the tail cone",
+    "Tailplane angled upward with strong dihedral below a tall swept fin",
+    "Long slim nose and small windows on a slender tube fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-cj",
+      "howToTell": "The Citation II/V family has its tailplane low on the tail cone with dihedral; the CJ series has a T-tail."
+    },
+    {
+      "id": "citation-excel",
+      "howToTell": "The Citation II/V has a slim, low fuselage; the Excel/XLS has a noticeably deeper, fatter stand-up cabin on the same style of straight wing."
+    },
+    {
+      "id": "citation-mustang",
+      "howToTell": "The Citation II/V is much longer with more windows; the Mustang is a tiny four-to-five-seat jet with only a few windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna Citation II",
+    "Cessna Citation V",
+    "UC-35"
+  ],
+  "usCount": {
+    "value": 1050,
+    "source": "Textron Aviation production (~2,100 Model 550/560 built) with ~50% active US-registered per JETNET fleet summaries, plus ~30 Army/USMC UC-35 (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

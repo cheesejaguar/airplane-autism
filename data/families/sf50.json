@@ -1,0 +1,69 @@
+{
+  "id": "sf50",
+  "name": "Cirrus SF50 Vision Jet",
+  "shortName": "Vision Jet",
+  "aka": [
+    "SF50",
+    "Vision Jet G2",
+    "Vision Jet G2+"
+  ],
+  "manufacturer": "Cirrus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2008,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "SF50 G1",
+    "SF50 G2 / G2+"
+  ],
+  "summary": "Single-engine personal jet with a whole-airframe parachute; the most-delivered business jet each year since 2019.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing",
+      "No winglets"
+    ],
+    "engines": [
+      "Single Williams FJ33 turbofan buried on top of the rear fuselage, intake behind the cabin"
+    ],
+    "fuselage": [
+      "Short, rounded composite fuselage with a big wraparound windscreen",
+      "Large windows and a nose similar to a Cirrus piston single"
+    ],
+    "tail": [
+      "V-tail (two canted surfaces) straddling the engine exhaust"
+    ]
+  },
+  "tellTales": [
+    "Single jet engine on top of the fuselage behind the cabin",
+    "V-tail straddling the engine exhaust",
+    "Small composite body that looks like a piston single with a jet on its back"
+  ],
+  "confusedWith": [
+    {
+      "id": "hondajet",
+      "howToTell": "The Vision Jet has one engine on its back and a V-tail; the HondaJet has two engines over the wings and a T-tail."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The Vision Jet has a jet engine on its back and a V-tail; the SR20/SR22 has a nose propeller and conventional tail."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Cirrus Vision SF50"
+  ],
+  "usCount": {
+    "value": 550,
+    "source": "Cirrus deliveries (721 SF50 delivered by end of 2025, AIN/GAMA) with ~75% US-registered per FAA registry (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "baron",
+  "name": "Beechcraft Baron",
+  "shortName": "Baron",
+  "aka": [
+    "Model 55",
+    "Model 58",
+    "G58",
+    "T-42 Cochise"
+  ],
+  "manufacturer": "Beechcraft / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "55 / A55–E55 (short cabin)",
+    "58 / G58 (stretched, rear double doors)",
+    "58P pressurized",
+    "58TC turbo",
+    "T-42A Cochise (US Army)"
+  ],
+  "summary": "High-performance four-to-six-seat piston twin in production since 1961, a benchmark owner-flown and training twin.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with dihedral"
+    ],
+    "engines": [
+      "Two flat-six engines in slim, rounded nacelles",
+      "Two- or three-blade props"
+    ],
+    "fuselage": [
+      "Sleek rounded fuselage with a long pointed nose",
+      "Retractable tricycle gear",
+      "Model 58 has double doors at the rear right"
+    ],
+    "tail": [
+      "Swept fin with conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Sleek, rounded-fuselage light twin with a conventional low tail",
+    "Long pointed nose",
+    "Plain wingtips with no tip tanks"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca has a shorter, blunter nose and a single-engine-style cabin; the Baron is sleeker with a long pointed nose."
+    },
+    {
+      "id": "c310",
+      "howToTell": "The 310 has wingtip fuel tanks; the Baron has plain wingtips."
+    },
+    {
+      "id": "pa-44",
+      "howToTell": "The Seminole has a T-tail; the Baron has a conventional low tail."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 is a composite twin with long slender wings and a T-tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Baron",
+    "Beechcraft 58 Baron"
+  ],
+  "usCount": {
+    "value": 2750,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~1,540 Beech 55-series + ~1,210 Beech 58-series",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

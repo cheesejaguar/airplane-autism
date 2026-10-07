@@ -1,0 +1,74 @@
+{
+  "id": "air-tractor",
+  "name": "Air Tractor AT-400/500/800",
+  "shortName": "Air Tractor",
+  "aka": [
+    "AT-502",
+    "AT-602",
+    "AT-802",
+    "Fire Boss"
+  ],
+  "manufacturer": "Air Tractor",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "turboprop"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "AT-401 (radial piston)",
+    "AT-402 / AT-502 (PT6)",
+    "AT-504 two-seat trainer",
+    "AT-602",
+    "AT-802 / AT-802A (incl. Fire Boss amphibious firefighter)"
+  ],
+  "summary": "The dominant US family of single-engine agricultural and firefighting aircraft, mostly turboprop-powered.",
+  "weft": {
+    "wings": [
+      "Long, straight constant-chord low wing with squared tips",
+      "Spray booms along the trailing edge"
+    ],
+    "engines": [
+      "Long turboprop nose with exhaust stacks (radial on the oldest piston versions)",
+      "Three- or four-blade prop"
+    ],
+    "fuselage": [
+      "Large chemical hopper ahead of the cockpit",
+      "Single-seat (some two-seat) enclosed cockpit set high behind the hopper",
+      "Fixed tailwheel gear with spring-steel main legs"
+    ],
+    "tail": [
+      "Tall angular fin with a large rudder",
+      "Wire-cutter cable from cockpit roof to the fin"
+    ]
+  },
+  "tellTales": [
+    "Single-engine low-wing taildragger with a hopper in front of a high-set cockpit",
+    "Spray booms along the wing trailing edge",
+    "Long turboprop nose with exhaust stacks"
+  ],
+  "confusedWith": [
+    {
+      "id": "thrush",
+      "howToTell": "The Air Tractor usually shows a longer, higher-aspect-ratio wing and a leaner look; the Thrush appears shorter and stockier with a tall, boxy multi-pane cockpit canopy."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Air Tractor AT-802",
+    "Air Tractor AT-502",
+    "Air Tractor AT-802 in flight"
+  ],
+  "usCount": {
+    "value": 1800,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Air Tractor AT-model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

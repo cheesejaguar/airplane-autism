@@ -1,0 +1,76 @@
+{
+  "id": "citation-excel",
+  "name": "Cessna Citation Excel / XLS",
+  "shortName": "Citation Excel/XLS",
+  "aka": [
+    "Citation Excel",
+    "Citation XLS",
+    "Citation XLS+",
+    "Citation XLS Gen2",
+    "Model 560XL"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1996,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "560XL Citation Excel",
+    "560XL Citation XLS",
+    "560XL Citation XLS+ / XLS Gen2"
+  ],
+  "summary": "Popular midsize Citation that mates a deep stand-up cabin with a straight Citation wing; a fractional and charter staple (NetJets, Flexjet) in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight (unswept) wing without winglets"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW545 turbofans in fairly large pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Short, deep, round-sectioned fuselage giving a chunky, tall-cabin look",
+      "XLS+ / Gen2 have a reshaped, more pointed nose"
+    ],
+    "tail": [
+      "Tailplane mounted low on the tail cone with strong dihedral (not a T-tail)",
+      "Swept fin with dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Chunky, deep fuselage on a straight unswept wing",
+    "Tailplane low on the tail cone with strong dihedral, not on top of the fin",
+    "Large engine pods close to the trailing edge of the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-ii",
+      "howToTell": "The Excel/XLS fuselage is noticeably deeper and fatter; the Citation II/V/Encore is a slim, low tube with smaller engines."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The Excel/XLS has a low-set tailplane; the Latitude has a T-tail and a much fatter, rounder fuselage."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Excel's tailplane sits low on the tail cone and its wing is straight; the Hawker has a mid-fin tailplane, swept wing and oval windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna Citation Excel",
+    "Cessna Citation Excel on final approach"
+  ],
+  "usCount": {
+    "value": 700,
+    "source": "Textron Aviation deliveries (~1,100 560XL built) with ~65% US-registered per JETNET fleet summaries (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

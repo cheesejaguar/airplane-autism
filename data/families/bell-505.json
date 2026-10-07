@@ -1,0 +1,74 @@
+{
+  "id": "bell-505",
+  "name": "Bell 505 Jet Ranger X",
+  "shortName": "Bell 505",
+  "aka": [
+    "Jet Ranger X",
+    "505 JRX"
+  ],
+  "manufacturer": "Bell",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 2014,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "505"
+  ],
+  "summary": "Five-seat light single-turbine helicopter that pairs JetRanger dynamics with an all-new boxy cabin; used for training, private flying and light utility work.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor derived from the JetRanger"
+    ],
+    "engines": [
+      "Single Safran Arrius turbine behind the cabin under a squared-off cowling",
+      "Single exhaust angled up and aft"
+    ],
+    "fuselage": [
+      "Angular, boxy cabin with very large flat windshield and side windows",
+      "Flat floor and big rear doors",
+      "Skids"
+    ],
+    "tail": [
+      "Slim tail boom with a horizontal stabilizer carrying endplate fins",
+      "Two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Boxy, angular cabin with huge flat windows under a two-blade rotor",
+    "Squared-off engine cowling with one exhaust on a light single",
+    "Two-blade tail rotor with endplate-fin stabilizer"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-206",
+      "howToTell": "The 505 has an angular, slab-sided cabin with very large flat windows; the 206 has a rounded teardrop cabin."
+    },
+    {
+      "id": "bell-407",
+      "howToTell": "The 407 has four main rotor blades; the 505 has two."
+    },
+    {
+      "id": "r66",
+      "howToTell": "The R66 has a rounded bubble cabin, tall thin mast and tubular boom; the 505 is angular with a short mast and endplate stabilizer."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bell 505"
+  ],
+  "usCount": {
+    "value": 185,
+    "source": "FAA registry make/model inquiry (Bell 505)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

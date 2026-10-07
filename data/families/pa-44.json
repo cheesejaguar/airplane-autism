@@ -1,0 +1,72 @@
+{
+  "id": "pa-44",
+  "name": "Piper PA-44 Seminole",
+  "shortName": "PA-44",
+  "aka": [
+    "Seminole",
+    "Turbo Seminole"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1976,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-44-180 Seminole",
+    "PA-44-180T Turbo Seminole"
+  ],
+  "summary": "Four-seat light twin with a T-tail, one of the most common multi-engine trainers at US flight schools.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing from the single-engine Arrow family"
+    ],
+    "engines": [
+      "Two flat-four engines in compact nacelles",
+      "Counter-rotating two-blade props"
+    ],
+    "fuselage": [
+      "Four-seat cabin with a single door on the right and three side windows",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "T-tail: stabilator mounted on top of a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Small low-wing light twin with a T-tail",
+    "Short four-seat cabin with only a right-side door",
+    "Compact nacelles with two-blade props"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca has a low tail and a longer six-seat cabin; the Seminole has a T-tail and a short cabin."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 has very long slender wings, a sleek composite fuselage and a large canopy; the Seminole has a conventional metal cabin with a door and side windows."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a conventional low tail; the Seminole has a T-tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-44 Seminole"
+  ],
+  "usCount": {
+    "value": 600,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-44 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

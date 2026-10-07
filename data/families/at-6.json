@@ -1,0 +1,79 @@
+{
+  "id": "at-6",
+  "name": "North American T-6 / SNJ Texan",
+  "shortName": "AT-6/SNJ Texan",
+  "aka": [
+    "Texan",
+    "Harvard",
+    "SNJ",
+    "AT-6"
+  ],
+  "manufacturer": "North American Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "AT-6 / AT-6A–D",
+    "SNJ-2 to SNJ-6 (US Navy)",
+    "T-6G (postwar rebuild)",
+    "Harvard II / IV (RAF/RCAF; Canadian Car & Foundry)"
+  ],
+  "summary": "WWII advanced trainer that trained most Allied fighter pilots; today the most common radial-engined warbird at US airshows and races.",
+  "weft": {
+    "wings": [
+      "Low wing with a swept leading edge and straight trailing edge",
+      "Outer panels with dihedral and blunt, near-triangular tips"
+    ],
+    "engines": [
+      "Big round radial engine",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Long framed greenhouse canopy over a tandem two-seat cockpit",
+      "Tailwheel gear; main wheels retract inward but stay partly visible"
+    ],
+    "tail": [
+      "Triangular, sharp-cornered fin and rudder (rounded on early versions)"
+    ]
+  },
+  "tellTales": [
+    "Radial-engined tandem trainer with a long framed greenhouse canopy",
+    "Taildragger with a triangular fin and rudder",
+    "Swept leading edge with a straight trailing edge"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 sits on tricycle gear and is bulkier; the Texan is a taildragger."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The modern Texan II is a turboprop with a long pointed nose, frameless bubble canopy and tricycle gear; the WWII Texan has a radial and a tailwheel."
+    },
+    {
+      "id": "p-51",
+      "howToTell": "The Mustang has a pointed inline-engine nose and a belly air scoop; the Texan has a round radial nose and a long framed two-seat canopy."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "North American T-6 Texan in flight",
+    "North American T-6 Texan",
+    "North American SNJ"
+  ],
+  "usCount": {
+    "value": 700,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~370 T-6/AT-6 + ~250 SNJ + ~90 Harvard registrations (not all airworthy)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,80 @@
+{
+  "id": "c206",
+  "name": "Cessna 206/207 Stationair",
+  "shortName": "C206",
+  "aka": [
+    "Stationair",
+    "Super Skywagon",
+    "Skywagon 207"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1962,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "U206 / P206 (1964–86)",
+    "TU206 turbo",
+    "206H / T206H Stationair (1998–)",
+    "207 / T207 (stretched, 7–8 seats)",
+    "Floatplane and amphibian versions"
+  ],
+  "summary": "Six-seat high-wing utility single (seven/eight-seat in stretched 207 form), a workhorse for skydiving, bush flying, cargo and floatplane operations.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single lift strut per side",
+      "Constant-chord inner section with tapered outer panels"
+    ],
+    "engines": [
+      "Big six-cylinder engine in a deep cowling",
+      "Three-blade prop is typical"
+    ],
+    "fuselage": [
+      "Long six-seat cabin with three windows per side",
+      "Wide double cargo doors on the right rear fuselage",
+      "Fixed tricycle gear; the 207 is visibly stretched with an extra window"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet",
+      "Conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing on a long cabin with three windows per side",
+    "Wide double cargo doors on the right rear fuselage",
+    "Big, deep nose with a three-blade prop"
+  ],
+  "confusedWith": [
+    {
+      "id": "c182",
+      "howToTell": "The 206 has a longer cabin with an extra rear window and a big double cargo door on the right; the 182 has a shorter four-seat cabin."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The Caravan is much larger with a long turboprop nose, exhaust stack and usually an under-belly cargo pod; the 206 has a piston cowl and no pod."
+    },
+    {
+      "id": "kodiak",
+      "howToTell": "The Kodiak has a long turboprop nose and a very large square-topped fin; the 206 has a piston cowl and a swept fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 206",
+    "Cessna 207"
+  ],
+  "usCount": {
+    "value": 2400,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): ~2,230 Cessna 206 + ~180 Cessna 207",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

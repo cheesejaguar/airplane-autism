@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Crosshair, Scale } from "lucide-react";
+import { Suspense } from "react";
 import { Gallery } from "@/components/study/gallery";
+import { FamilyRecordPanel } from "@/components/study/family-record";
 import { WeftStrip } from "@/components/quiz/weft-strip";
 import { Button } from "@/components/ui/button";
 import {
@@ -82,6 +84,12 @@ export default async function FamilyPage({ params }: { params: Promise<Params> }
               </div>
             ))}
           </dl>
+
+          <div className="mt-6">
+            <Suspense fallback={<div className="h-20 animate-pulse rounded-lg bg-muted" />}>
+              <FamilyRecordPanel familyId={f.id} />
+            </Suspense>
+          </div>
 
           <div className="mt-6 flex flex-wrap gap-2">
             <Button asChild size="lg">

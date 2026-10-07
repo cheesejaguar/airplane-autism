@@ -1,0 +1,74 @@
+{
+  "id": "cj-6",
+  "name": "Nanchang CJ-6",
+  "shortName": "CJ-6",
+  "aka": [
+    "Chuji-6",
+    "PT-6A (export)"
+  ],
+  "manufacturer": "Nanchang Aircraft Factory (Hongdu)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1958,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "CJ-6",
+    "CJ-6A (285 hp HS6A)",
+    "CJ-6B (armed)"
+  ],
+  "summary": "Chinese tandem two-seat radial-engined primary trainer; hundreds were imported to the US as civil warbirds.",
+  "weft": {
+    "wings": [
+      "Low wing with a flat center section and sharply dihedralled outer panels"
+    ],
+    "engines": [
+      "Nine-cylinder radial in a ringed cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit under a long framed canopy",
+      "Retractable tricycle gear",
+      "All-metal fuselage"
+    ],
+    "tail": [
+      "Tall, angular fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Flat wing center section with outer panels angled sharply upward",
+    "Radial-engined tandem trainer on tricycle gear",
+    "Long framed canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-52",
+      "howToTell": "The Yak-52 is smaller with more uniform wing dihedral and partly exposed retracted wheels; the CJ-6 has a flat center section and upturned outer panels."
+    },
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 has a slim flat-engine nose; the CJ-6 has a round radial."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 is much larger with a deep cowl and usually a three-blade prop; the CJ-6 is small with a two-blade prop."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Nanchang CJ-6"
+  ],
+  "usCount": {
+    "value": 180,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all CJ-6 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

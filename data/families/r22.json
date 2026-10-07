@@ -1,0 +1,77 @@
+{
+  "id": "r22",
+  "name": "Robinson R22",
+  "shortName": "R22",
+  "aka": [
+    "Beta II",
+    "Mariner"
+  ],
+  "manufacturer": "Robinson Helicopter Company",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "R22 / Alpha / Beta",
+    "R22 Beta II",
+    "R22 Mariner (floats)"
+  ],
+  "summary": "Tiny two-seat piston helicopter that dominates US primary helicopter flight training and is also used for ranch and private flying.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a tall, slender mast with a small fairing",
+      "Very thin, narrow-chord blades"
+    ],
+    "engines": [
+      "Piston engine mounted low behind the seats, largely exposed in an open frame",
+      "Cooling fan shroud and exhaust visible below the mast"
+    ],
+    "fuselage": [
+      "Very small bubble cabin with one door per side and only two seats",
+      "Thin skids on short struts",
+      "Overall tiny size relative to people standing next to it"
+    ],
+    "tail": [
+      "Thin tubular tail boom",
+      "Small two-blade tail rotor with upper and lower vertical fins and a small horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Only one door per side on a tiny two-seat bubble cabin",
+    "Engine and frame largely exposed below the rotor mast",
+    "Very thin two-blade rotor on a tall slender mast"
+  ],
+  "confusedWith": [
+    {
+      "id": "r44",
+      "howToTell": "The R22 is smaller with one door per side and an open engine bay; the R44 has two doors per side, four seats and a cowled engine."
+    },
+    {
+      "id": "s-300",
+      "howToTell": "The R22 has a two-blade rotor and an unbraced tubular boom; the Schweizer/Hughes 300 has three blades and a boom held up by struts."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has an open lattice (truss) tail boom and a fishbowl canopy; the R22 has an enclosed tubular boom and a pointed cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Robinson R22"
+  ],
+  "usCount": {
+    "value": 815,
+    "source": "FAA registry make/model inquiry (Robinson R22/Alpha/Beta/Mariner)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

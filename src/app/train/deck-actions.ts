@@ -49,3 +49,18 @@ export async function saveDefaultDeck(config: unknown): Promise<void> {
     .values({ userId: viewer.id, data })
     .onConflictDoUpdate({ target: userPrefs.userId, set: { data } });
 }
+
+export async function getDueSummary(): Promise<{ due: number; learned: number } | null> {
+  const viewer = await getViewer();
+  if (!viewer) return null;
+  const { cardState } = await import("@/db/schema");
+  const { sql } = await import("drizzle-orm");
+  const [row] = await db
+    .select({
+      due: sql<number>`count(*) filter (where ${cardState.reps} > 0 and ${cardState.due} <= now())::int`,
+      learned: sql<number>`count(*) filter (where ${cardState.reps} > 0)::int`,
+    })
+    .from(cardState)
+    .where(eq(cardState.userId, viewer.id));
+  return row ?? { due: 0, learned: 0 };
+}

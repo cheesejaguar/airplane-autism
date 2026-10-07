@@ -1,0 +1,90 @@
+{
+  "id": "pc-12",
+  "name": "Pilatus PC-12 / U-28 Draco",
+  "shortName": "PC-12",
+  "aka": [
+    "PC-12/45",
+    "PC-12/47",
+    "PC-12 NG",
+    "PC-12 NGX",
+    "U-28A Draco"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "isr",
+    "special-ops"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PC-12/45",
+    "PC-12/47",
+    "PC-12/47E (NG)",
+    "PC-12 NGX",
+    "U-28A Draco (AFSOC ISR)"
+  ],
+  "summary": "Best-selling single-engine business turboprop, used by PlaneSense, Boutique Air and air ambulances; AFSOC flies it as the U-28A Draco ISR aircraft.",
+  "weft": {
+    "wings": [
+      "Low, straight, long-span wing with upturned winglets"
+    ],
+    "engines": [
+      "Single PT6A turboprop with a four- or five-blade propeller",
+      "Exhaust stacks on both sides of the cowling"
+    ],
+    "fuselage": [
+      "Long fuselage with large rectangular windows",
+      "Large cargo door on the left rear fuselage",
+      "U-28A: gray paint, belly sensor turret and many antennas"
+    ],
+    "tail": [
+      "T-tail with a small swept horizontal stabilizer",
+      "Tall swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Single-engine turboprop with a T-tail",
+    "Winglets on a long straight low wing",
+    "Big cargo door on the left rear fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "tbm",
+      "howToTell": "The PC-12 has a T-tail and winglets on a long wing; the TBM has a conventional low tail and a stubbier fuselage."
+    },
+    {
+      "id": "pa-46",
+      "howToTell": "The PC-12 is much larger with a T-tail; the PA-46 is a small low-tail single with a slim fuselage."
+    },
+    {
+      "id": "kodiak",
+      "howToTell": "The PC-12 has a low wing and retractable gear; the Kodiak has a strut-braced high wing and fixed gear."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The PC-12 has a low wing, T-tail and retractable gear; the Caravan has a strut-braced high wing, low tail and fixed gear."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Pilatus PC-12 in flight",
+    "Pilatus PC-12 on final approach",
+    "Pilatus U-28"
+  ],
+  "usCount": {
+    "value": 1050,
+    "source": "Pilatus deliveries (~2,200 PC-12) with ~45% US-registered per FAA registry / JETNET (approx.), plus ~26 USAF U-28A (AFSOC)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

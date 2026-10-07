@@ -1,0 +1,74 @@
+{
+  "id": "r66",
+  "name": "Robinson R66",
+  "shortName": "R66",
+  "aka": [
+    "R66 Turbine",
+    "R66 Police",
+    "R66 Marine"
+  ],
+  "manufacturer": "Robinson Helicopter Company",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 2010,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "R66 Turbine",
+    "R66 Police",
+    "R66 Newscopter",
+    "R66 Marine (floats)",
+    "R66 NxG"
+  ],
+  "summary": "Robinson's five-seat turbine helicopter, built on an enlarged R44-style airframe with a Rolls-Royce RR300 engine.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a tall mast with a larger, taller mast fairing than the R44"
+    ],
+    "engines": [
+      "Single turbine fully enclosed in a tall cowling behind the cabin",
+      "Turbine exhaust stack pointing up and aft at the back of the cowling"
+    ],
+    "fuselage": [
+      "R44-like bubble cabin with two doors per side, but slightly larger",
+      "Separate baggage compartment door on the side behind the rear passenger door",
+      "Skids on curved struts"
+    ],
+    "tail": [
+      "Slender tubular tail boom",
+      "Two-blade tail rotor with upper and lower fins and a horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Tall, fully enclosed engine cowling with an exhaust stack, behind a small bubble cabin",
+    "Small baggage door on the side between cabin and tail boom",
+    "Two-blade rotor on a tall mast with a bulky fairing"
+  ],
+  "confusedWith": [
+    {
+      "id": "r44",
+      "howToTell": "The R66 has a tall enclosed turbine cowling, an exhaust stack and a rear baggage door; the R44 has a lower piston engine bay and no exhaust stack."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The JetRanger has a stockier cabin, a short thick mast and endplate fins on its horizontal stabilizer; the R66 has Robinson's tall slender mast and tubular boom."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Robinson R66"
+  ],
+  "usCount": {
+    "value": 420,
+    "source": "FAA registry make/model inquiry (Robinson R66)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "t-34",
+  "name": "Beechcraft T-34 Mentor",
+  "shortName": "T-34",
+  "aka": [
+    "Mentor",
+    "Model 45",
+    "T-34C Turbo-Mentor"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "T-34A (USAF)",
+    "T-34B (USN)",
+    "Civil Model 45 / A45 / D45",
+    "T-34C Turbo-Mentor (PT6 turboprop, longer nose)"
+  ],
+  "summary": "Bonanza-derived tandem two-seat military trainer; piston A/B models are popular civil warbirds.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with dihedral"
+    ],
+    "engines": [
+      "Single flat-six in a slim cowl with two-blade prop (turboprop C has a longer nose with exhaust stacks)"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit under a long, multi-framed canopy",
+      "Retractable tricycle gear",
+      "Slender, rounded fuselage"
+    ],
+    "tail": [
+      "Swept fin with conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Small tandem trainer with a long multi-framed canopy and tricycle gear",
+    "Slim flat-engine nose — no radial",
+    "Swept fin on a slender rounded fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-52",
+      "howToTell": "The Yak-52 has a round radial nose and wheels that stay partly exposed when retracted; the T-34 has a slim flat-engine nose."
+    },
+    {
+      "id": "cj-6",
+      "howToTell": "The CJ-6 has a radial engine and outer wing panels angled sharply upward; the T-34 has a slim cowl and a uniformly tapered wing."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The Texan II is larger, with a turboprop and a one-piece bubble canopy; the T-34 has a framed canopy."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft T-34 Mentor"
+  ],
+  "usCount": {
+    "value": 330,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): T-34, A45 and D45 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

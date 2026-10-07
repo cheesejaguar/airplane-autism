@@ -1,0 +1,78 @@
+{
+  "id": "citabria",
+  "name": "Citabria / Decathlon / Scout",
+  "shortName": "Citabria",
+  "aka": [
+    "Decathlon",
+    "Super Decathlon",
+    "Scout",
+    "Champion 7ECA"
+  ],
+  "manufacturer": "Champion / Bellanca / American Champion Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "aerobatic",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "7ECA / 7GCAA / 7GCBC / 7KCAB Citabria",
+    "8KCAB Decathlon / Super Decathlon",
+    "8GCBC Scout"
+  ],
+  "summary": "Family of tandem two-seat tube-and-fabric taildraggers used for tailwheel and aerobatic training, glider towing and backcountry flying.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts",
+      "Straight constant-chord wing with squared-off tips"
+    ],
+    "engines": [
+      "Single flat-four in an enclosed cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Narrow tandem two-seat fabric-covered fuselage with a door on the right",
+      "Tailwheel gear with spring-steel or aluminum main legs (no strut vee)"
+    ],
+    "tail": [
+      "Squared-off fin and rudder with straight edges"
+    ]
+  },
+  "tellTales": [
+    "Tandem two-seat high-wing taildragger with a squared-off tail",
+    "Plain spring-steel main gear legs rather than a strut vee",
+    "Squared wingtips"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub has a rounded tail and a strut-braced gear vee; the Citabria has a squared tail and spring-steel legs."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has a rounded tail and rounded wingtips with a deeper forward fuselage; the Citabria's tail and wingtips are squared."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The J-3 has a rounded tail, exposed engine cylinders and a V-strut gear; the Citabria has a squared tail and a closed cowl."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "American Champion Citabria",
+    "American Champion 8KCAB Super Decathlon"
+  ],
+  "usCount": {
+    "value": 3600,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): 7ECA, 7GCAA, 7GCBC, 7KCAB, 8KCAB and 8GCBC model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -30,7 +30,7 @@ type Props = {
 };
 
 const BRACKET_COLOR: Record<ViewportState, string> = {
-  live: "var(--foreground)",
+  live: "#e6ecf1", // the scope is always night-dark, regardless of theme
   locked: "var(--go)",
   missed: "var(--caution)",
 };
@@ -72,8 +72,8 @@ function TickRuler({ side }: { side: "top" | "left" }) {
       )}
       style={{
         backgroundImage: horizontal
-          ? "repeating-linear-gradient(90deg, var(--foreground) 0 1px, transparent 1px 12px), repeating-linear-gradient(90deg, var(--foreground) 0 1px, transparent 1px 60px)"
-          : "repeating-linear-gradient(180deg, var(--foreground) 0 1px, transparent 1px 12px), repeating-linear-gradient(180deg, var(--foreground) 0 1px, transparent 1px 60px)",
+          ? "repeating-linear-gradient(90deg, #e6ecf1 0 1px, transparent 1px 12px), repeating-linear-gradient(90deg, #e6ecf1 0 1px, transparent 1px 60px)"
+          : "repeating-linear-gradient(180deg, #e6ecf1 0 1px, transparent 1px 12px), repeating-linear-gradient(180deg, #e6ecf1 0 1px, transparent 1px 60px)",
         backgroundSize: horizontal ? "100% 50%, 100% 100%" : "50% 100%, 100% 100%",
         backgroundRepeat: "no-repeat",
       }}
@@ -108,18 +108,13 @@ export function PhotoViewport({
   const [loaded, setLoaded] = useState(false);
   const [expired, setExpired] = useState(false);
   const [progress, setProgress] = useState(1);
-  const imgRef = useRef<HTMLImageElement>(null);
   const shownRef = useRef(false);
 
-  // Reset per photo
-  useEffect(() => {
-    setLoaded(false);
-    setExpired(false);
-    setProgress(1);
-    shownRef.current = false;
-    const img = imgRef.current;
-    if (img?.complete && img.naturalWidth > 0) setLoaded(true);
-  }, [src]);
+  // Parents remount this component per photo (via `key`), so state starts fresh each time.
+  // A photo served from cache may finish loading before hydration; catch it via the ref.
+  const imgRef = (el: HTMLImageElement | null) => {
+    if (el?.complete && el.naturalWidth > 0 && !loaded) setLoaded(true);
+  };
 
   useEffect(() => {
     if (!loaded || hold || shownRef.current) return;
@@ -247,8 +242,8 @@ export function PhotoViewport({
       {/* Readouts */}
       {(readouts?.left || readouts?.right) && (
         <div className="type-readout pointer-events-none absolute inset-x-0 top-0 flex justify-between gap-3 px-12 pt-4 text-[#e6ecf1]/85 sm:px-14">
-          <span className="rounded bg-[#08101a]/60 px-1.5 py-0.5 backdrop-blur-sm">{readouts.left}</span>
-          <span className="rounded bg-[#08101a]/60 px-1.5 py-0.5 backdrop-blur-sm">{readouts.right}</span>
+          {readouts.left && <span className="rounded bg-[#08101a]/60 px-1.5 py-0.5 backdrop-blur-sm">{readouts.left}</span>}
+          {readouts.right && <span className="hidden rounded bg-[#08101a]/60 px-1.5 py-0.5 backdrop-blur-sm sm:inline">{readouts.right}</span>}
         </div>
       )}
 

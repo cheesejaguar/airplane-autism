@@ -1,0 +1,79 @@
+{
+  "id": "pa-23",
+  "name": "Piper PA-23 Apache / Aztec",
+  "shortName": "PA-23",
+  "aka": [
+    "Apache",
+    "Aztec",
+    "U-11A"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1952,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "Apache 150 / 160 (rounded tail, short nose)",
+    "Apache 235",
+    "Aztec / Aztec A–F (swept square fin, long nose)",
+    "Turbo Aztec",
+    "U-11A (US Navy)"
+  ],
+  "summary": "Piper's first twin: the early Apache and the larger, longer-nosed Aztec, a sturdy six-seat utility and freight twin.",
+  "weft": {
+    "wings": [
+      "Low, thick constant-chord wing with squared tips",
+      "Engines mounted close to the fuselage"
+    ],
+    "engines": [
+      "Two flat engines in squat nacelles; short and rounded on the early version"
+    ],
+    "fuselage": [
+      "Deep, boxy, slab-sided cabin",
+      "Aztec has a long nose with baggage compartment; Apache nose is short and rounded",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Aztec: tall swept fin with a square top and all-moving stabilator",
+      "Apache: rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Boxy, slab-sided cabin on a low-wing piston twin",
+    "Thick constant-chord wing with squared tips",
+    "Tall, square-cornered swept fin (rounded fin on the earlier version)"
+  ],
+  "confusedWith": [
+    {
+      "id": "c310",
+      "howToTell": "The 310 has wingtip fuel tanks and a sleeker fuselage; the Aztec is boxier with plain wingtips."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a tapered wing and a sleek rounded fuselage; the Aztec has a thick constant-chord wing and slab sides."
+    },
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca has a tapered wing and a slimmer six-window cabin; the Aztec has a thick rectangular wing and a boxier fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-23-250 Aztec",
+    "Piper PA-23 Apache"
+  ],
+  "usCount": {
+    "value": 1300,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Piper PA-23 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

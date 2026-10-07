@@ -1,0 +1,73 @@
+{
+  "id": "bonanza-v35",
+  "name": "Beechcraft Bonanza V35 (V-tail)",
+  "shortName": "V-tail Bonanza",
+  "aka": [
+    "Model 35",
+    "V35B",
+    "V-tail"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "35 (1947) and A35–S35",
+    "V35 / V35A / V35B",
+    "V35TC / V35A-TC turbo"
+  ],
+  "summary": "Postwar high-performance four-to-six-seat retractable single famous for its butterfly V-tail, built from 1947 to 1982.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with marked dihedral"
+    ],
+    "engines": [
+      "Single flat-six in a long, smooth cowl",
+      "Two- or three-blade constant-speed prop"
+    ],
+    "fuselage": [
+      "Sleek four-to-six-seat cabin with a single right-side door",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Butterfly V-tail: two surfaces in a V with no separate vertical fin"
+    ]
+  },
+  "tellTales": [
+    "V-shaped tail with no vertical fin",
+    "Sleek low-wing single with retractable gear",
+    "Single cabin door on the right side"
+  ],
+  "confusedWith": [
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The A36/F33 has a conventional fin and horizontal tail; the V35 has a V-tail."
+    },
+    {
+      "id": "pa-24",
+      "howToTell": "The Comanche has a conventional swept fin with stabilator; the V35 has no fin, just a V-tail."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has a conventional tail whose fin appears swept forward; the V35 has a V-tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Beechcraft 35 Bonanza"
+  ],
+  "usCount": {
+    "value": 5000,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): Beech 35-series V-tail model codes (excluding 35-33 Debonairs)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

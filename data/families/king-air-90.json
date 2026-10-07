@@ -1,0 +1,85 @@
+{
+  "id": "king-air-90",
+  "name": "Beechcraft King Air 90 series",
+  "shortName": "King Air 90",
+  "aka": [
+    "King Air",
+    "C90",
+    "C90GTx",
+    "E90",
+    "F90",
+    "King Air 90GX",
+    "T-44 Pegasus",
+    "U-21 Ute"
+  ],
+  "manufacturer": "Beechcraft / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "King Air 90 / A90 / B90",
+    "C90 / C90A / C90B / C90GT / C90GTx",
+    "E90",
+    "F90 (T-tail)",
+    "H90 / T-44 Pegasus (US Navy trainer, retiring)",
+    "U-21 Ute (former Army)"
+  ],
+  "summary": "The original King Air, a compact twin turboprop in production since 1964 and the most common business twin turboprop in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with the engines in nacelles on the wing"
+    ],
+    "engines": [
+      "Two PT6A turboprops in long nacelles with exhaust stacks pointing outboard",
+      "Three- or four-blade propellers"
+    ],
+    "fuselage": [
+      "Short cabin with a few rounded-square windows",
+      "Rounded nose; main gear retracts into the nacelles"
+    ],
+    "tail": [
+      "Conventional low-set tailplane with dihedral on most variants (the F90 has a T-tail)",
+      "Swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Twin turboprop with its tailplane low on the fuselage, not on top of the fin",
+    "Short cabin with only a few windows",
+    "Engine exhaust stacks pointing outward from the nacelles"
+  ],
+  "confusedWith": [
+    {
+      "id": "king-air-350",
+      "howToTell": "The 90-series has a low-set tailplane (except the F90) and a short cabin; the 200/250/350 has a T-tail and a longer cabin."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The King Air 90 is larger with pressurized round-cornered windows and turboprop nacelles with exhaust stacks; the Baron is a smaller piston twin with short nacelles."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The King Air 90 is far shorter with a low tailplane; the 1900 is a long airliner with a T-tail and many small windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft 90 King Air",
+    "Beechcraft C90 King Air",
+    "Beechcraft C90A King Air"
+  ],
+  "usCount": {
+    "value": 1300,
+    "source": "Textron Aviation production (~3,300 King Air 90 series) with ~50% active US-registered per FAA registry / JETNET (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

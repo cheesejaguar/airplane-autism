@@ -1,0 +1,73 @@
+{
+  "id": "pc-24",
+  "name": "Pilatus PC-24",
+  "shortName": "PC-24",
+  "aka": [
+    "Super Versatile Jet"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light",
+    "ems"
+  ],
+  "branches": [],
+  "firstFlight": 2015,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "PC-24"
+  ],
+  "summary": "Swiss light jet built for short and unpaved runways, with a large rear cargo door; operated in the US by owner-pilots and fractional provider PlaneSense.",
+  "weft": {
+    "wings": [
+      "Low wing with only slight sweep and plain tips"
+    ],
+    "engines": [
+      "Two Williams FJ44-4A turbofans in pods high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Large square-ish cargo door on the left rear fuselage",
+      "Big rounded-rectangle windows",
+      "Sturdy trailing-link main gear for rough fields"
+    ],
+    "tail": [
+      "T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Large cargo door on the left side of the rear fuselage of a light twinjet",
+    "Nearly straight wing with plain tips under a T-tail",
+    "Rugged trailing-link landing gear on a business jet"
+  ],
+  "confusedWith": [
+    {
+      "id": "phenom-300",
+      "howToTell": "The PC-24 has plain wingtips and a big rear cargo door; the Phenom 300 has winglets and no cargo door."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The PC-24 is deeper and bulkier with a large cargo door; the CJ series is a slimmer tube with small windows."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The PC-24 is a twinjet; the PC-12 is a single-engine turboprop with a similar T-tail and cargo door."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Pilatus PC-24 on final approach",
+    "Pilatus PC-24 in flight",
+    "Pilatus PC-24 taxiing"
+  ],
+  "usCount": {
+    "value": 140,
+    "source": "Pilatus deliveries (~300 PC-24 incl. 50 in 2025) with ~45% US-registered per FAA registry / JETNET (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

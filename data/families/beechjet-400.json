@@ -1,0 +1,83 @@
+{
+  "id": "beechjet-400",
+  "name": "Beechjet 400 / Hawker 400XP / T-1 Jayhawk",
+  "shortName": "Beechjet 400",
+  "aka": [
+    "Mitsubishi Diamond",
+    "MU-300",
+    "Beechjet 400A",
+    "Hawker 400XP",
+    "Nextant 400XT",
+    "T-1A Jayhawk"
+  ],
+  "manufacturer": "Mitsubishi / Beechcraft / Raytheon / Hawker Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1978,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Mitsubishi Diamond I / II",
+    "Beechjet 400 / 400A",
+    "Hawker 400XP",
+    "Nextant 400XT / XTi remanufacture",
+    "T-1A Jayhawk (USAF trainer, retired Aug 2026)"
+  ],
+  "summary": "Light jet derived from the Mitsubishi Diamond; the USAF's T-1A Jayhawk trainer version was retired in 2026, so the US fleet is now civil.",
+  "weft": {
+    "wings": [
+      "Low swept wing without winglets"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada JT15D turbofans in pods high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Short, fairly deep fuselage with small windows",
+      "Drooping pointed nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Swept wing with plain tips on a small T-tail twinjet",
+    "Short, deep fuselage with small windows",
+    "Engines mounted high on the rear fuselage close below the tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "learjet-45",
+      "howToTell": "The Beechjet/Hawker 400 has plain wingtips and no ventral fins; the Learjet 45 has winglets and small ventral fins under the tail."
+    },
+    {
+      "id": "learjet-35",
+      "howToTell": "The Beechjet/Hawker 400 has plain wingtips; the Learjet 35 has tip tanks (or winglets on the 31)."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Beechjet/Hawker 400 has a T-tail; the Hawker 800 has its tailplane partway up the fin and oval windows."
+    },
+    {
+      "id": "phenom-300",
+      "howToTell": "The Beechjet/Hawker 400 has plain wingtips and small windows; the Phenom 300 has winglets and very large windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Hawker 400",
+    "Raytheon T-1 Jayhawk"
+  ],
+  "usCount": {
+    "value": 380,
+    "source": "Production (~600 Diamond/Beechjet/400XP civil) with ~70% US-registered per FAA registry / JETNET (approx.); USAF T-1A retired Aug 2026",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

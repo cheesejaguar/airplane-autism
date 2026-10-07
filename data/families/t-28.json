@@ -1,0 +1,76 @@
+{
+  "id": "t-28",
+  "name": "North American T-28 Trojan",
+  "shortName": "T-28",
+  "aka": [
+    "Trojan",
+    "Nomad",
+    "Fennec"
+  ],
+  "manufacturer": "North American Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "T-28A (USAF, 800 hp, two-blade prop)",
+    "T-28B / T-28C (USN, 1,425 hp, three-blade prop; C has tailhook)",
+    "AT-28D (attack)",
+    "Fennec (French)"
+  ],
+  "summary": "Postwar radial-engined military trainer with tricycle gear; a popular and powerful warbird in the US civil fleet.",
+  "weft": {
+    "wings": [
+      "Low, straight-tapered wing with squared tips"
+    ],
+    "engines": [
+      "Big radial engine in a deep cowl",
+      "Three-blade (B/C) or two-blade (A) prop"
+    ],
+    "fuselage": [
+      "Tricycle landing gear with a long nose leg",
+      "Large framed tandem two-seat canopy",
+      "Stout, deep fuselage"
+    ],
+    "tail": [
+      "Tall, square-topped fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Radial-engined trainer sitting on tricycle gear",
+    "Tall, upright stance with a long nose leg",
+    "Large framed tandem canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "at-6",
+      "howToTell": "The WWII Texan is a taildragger with a smaller cowl; the T-28 has tricycle gear and a bigger radial."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The Texan II is a turboprop with a pointed nose and frameless canopy; the T-28 has a round radial nose."
+    },
+    {
+      "id": "cj-6",
+      "howToTell": "The CJ-6 is far smaller with a slimmer cowl and a two-blade prop; the T-28 is a heavy airframe with a large deep cowl."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "North American T-28 Trojan"
+  ],
+  "usCount": {
+    "value": 210,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all North American T-28 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

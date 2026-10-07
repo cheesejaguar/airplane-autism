@@ -1,0 +1,77 @@
+{
+  "id": "s-300",
+  "name": "Schweizer 300 / Hughes 269",
+  "shortName": "Schweizer 300",
+  "aka": [
+    "Hughes 269",
+    "Hughes 300",
+    "Sikorsky S-300C",
+    "TH-55 Osage",
+    "300CBi"
+  ],
+  "manufacturer": "Schweizer / Hughes (now Sikorsky)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "piston-single",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Hughes 269A/B/C",
+    "TH-55A Osage (Army trainer, retired)",
+    "Schweizer 300C / 300CB / 300CBi",
+    "Sikorsky S-300C"
+  ],
+  "summary": "Light piston training helicopter with a three-blade rotor and strut-braced tail boom, long used for flight training, agriculture and police patrol.",
+  "weft": {
+    "wings": [
+      "Three-blade fully articulated main rotor"
+    ],
+    "engines": [
+      "Piston engine mounted behind and below the seats, largely exposed",
+      "Exhaust and cooling ducts visible in the open engine bay"
+    ],
+    "fuselage": [
+      "Rounded goldfish-bowl bubble cabin for two or three seats",
+      "Skids with oleo shock struts"
+    ],
+    "tail": [
+      "Thin tubular tail boom braced by two diagonal struts from the fuselage",
+      "Small two-blade tail rotor with a small vertical and horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Three-blade rotor on a tiny piston bubble helicopter",
+    "Thin tail boom held up by diagonal bracing struts",
+    "Exposed engine under and behind the bubble"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The R22 has a two-blade rotor and an unbraced boom; the 300 has three blades and a strut-braced boom."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has an open lattice truss boom and two blades; the 300 has a tubular strut-braced boom and three blades."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Hughes Model 269",
+    "Sikorsky S-300"
+  ],
+  "usCount": {
+    "value": 455,
+    "source": "FAA registry make/model inquiry (Hughes/Schweizer 269 and S-300 series)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

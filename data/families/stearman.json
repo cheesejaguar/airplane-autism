@@ -1,0 +1,74 @@
+{
+  "id": "stearman",
+  "name": "Boeing-Stearman Model 75 Kaydet",
+  "shortName": "Stearman",
+  "aka": [
+    "Kaydet",
+    "PT-17",
+    "PT-13",
+    "N2S"
+  ],
+  "manufacturer": "Stearman Aircraft / Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1934,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PT-13 (Lycoming)",
+    "PT-17 (Continental)",
+    "PT-18 (Jacobs)",
+    "N2S (US Navy)",
+    "Postwar crop-duster and wing-walking conversions"
+  ],
+  "summary": "WWII primary trainer biplane built in thousands; many survive as sport, airshow and wing-walking aircraft.",
+  "weft": {
+    "wings": [
+      "Biplane: staggered upper and lower wings joined by N-struts and flying wires"
+    ],
+    "engines": [
+      "Uncowled round radial engine with bare cylinders",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Two open cockpits in tandem",
+      "Fixed tailwheel gear with tall main legs"
+    ],
+    "tail": [
+      "Rounded fin and rudder",
+      "Strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Biplane with two open tandem cockpits",
+    "Radial engine with bare cylinders and no cowling",
+    "Fixed tailwheel gear with tall main legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "at-6",
+      "howToTell": "The Texan is a monoplane with an enclosed canopy and retractable gear; the Stearman is an open-cockpit biplane."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Cub is a high-wing cabin monoplane; the Stearman has two wings and open cockpits."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Boeing-Stearman Model 75"
+  ],
+  "usCount": {
+    "value": 1450,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): A75N1/PT-17, B75N1, E75 and N2S model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

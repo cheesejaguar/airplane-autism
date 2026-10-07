@@ -1,0 +1,82 @@
+{
+  "id": "praetor",
+  "name": "Embraer Legacy 450/500 / Praetor 500/600",
+  "shortName": "Praetor/Legacy 500",
+  "aka": [
+    "Legacy 450",
+    "Legacy 500",
+    "Praetor 500",
+    "Praetor 600",
+    "EMB-545",
+    "EMB-550"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 2012,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Legacy 450 (midsize)",
+    "Legacy 500 (midsize)",
+    "Praetor 500 (midsize, winglets)",
+    "Praetor 600 (super-midsize, winglets)"
+  ],
+  "summary": "Embraer's fly-by-wire midsize/super-midsize jets with flat-floor stand-up cabins; Flexjet is the dominant US operator.",
+  "weft": {
+    "wings": [
+      "Low swept wing; Praetor models add tall upswept winglets",
+      "Legacy 450/500 have plain wingtips"
+    ],
+    "engines": [
+      "Two Honeywell HTF7500E turbofans on pylons high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Straight-sided stand-up cabin with large rounded-rectangle windows",
+      "Pointed nose with a large windscreen"
+    ],
+    "tail": [
+      "T-tail with a strongly swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Tall upswept winglets on a midsize twinjet with a T-tail",
+    "Long, straight-sided cabin with large rounded windows",
+    "Engines on pylons high on the rear fuselage under a sharply swept fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "challenger-300",
+      "howToTell": "Very hard to separate: the Praetor has more upright winglets and a stubbier tail cone ending close behind the engines, whereas the Challenger 300/350 tapers into a longer tail cone with outward-canted winglets (350/3500)."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The Praetor has upswept winglets and a slimmer fuselage; the Latitude has plain wingtips and a fatter, rounder body."
+    },
+    {
+      "id": "g280",
+      "howToTell": "The Praetor has rounded-rectangle windows; the G280 has Gulfstream-style oval windows."
+    },
+    {
+      "id": "phenom-300",
+      "howToTell": "The Praetor is a much longer midsize jet with more windows; the Phenom 300 is a short light jet."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Embraer Legacy 500",
+    "Embraer Praetor"
+  ],
+  "usCount": {
+    "value": 330,
+    "source": "Embraer deliveries (~550 Legacy 450/500 and Praetor 500/600) with ~60% US-registered, largely Flexjet, per JETNET fleet summaries (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

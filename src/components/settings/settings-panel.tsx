@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState, useTransition } from "react";
+import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
 import { toast } from "sonner";
@@ -21,7 +21,38 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
+import { useLocalFlag } from "@/hooks/use-local-flag";
 import { authClient } from "@/lib/auth-client";
+
+function NameForm({ email, initialName }: { email: string; initialName: string }) {
+  const [name, setName] = useState(initialName);
+  const [pending, start] = useTransition();
+  return (
+    <form
+      className="grid gap-4 sm:max-w-md"
+      onSubmit={(e) => {
+        e.preventDefault();
+        start(async () => {
+          const res = await authClient.updateUser({ name: name.trim() });
+          if (res.error) toast.error(res.error.message ?? "Couldn't save your name.");
+          else toast.success("Name saved");
+        });
+      }}
+    >
+      <div className="grid gap-1.5">
+        <Label htmlFor="email">Email</Label>
+        <Input id="email" value={email} disabled />
+      </div>
+      <div className="grid gap-1.5">
+        <Label htmlFor="name">Display name</Label>
+        <Input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={60} />
+      </div>
+      <Button type="submit" className="w-fit" disabled={pending || !name.trim()}>
+        Save name
+      </Button>
+    </form>
+  );
+}
 
 function Row({ title, description, children }: { title: string; description?: string; children: React.ReactNode }) {
   return (
@@ -39,19 +70,9 @@ export function SettingsPanel() {
   const router = useRouter();
   const { data, isPending } = authClient.useSession();
   const { resolvedTheme, setTheme } = useTheme();
-  const [name, setName] = useState("");
-  const [autoAdvance, setAutoAdvance] = useState(true);
-  const [pending, start] = useTransition();
+  const [autoAdvance, setAutoAdvance] = useLocalFlag("tally:auto-advance", true);
+  const [, start] = useTransition();
   const user = data?.user as (NonNullable<typeof data>["user"] & { isAnonymous?: boolean }) | undefined;
-
-  useEffect(() => {
-    if (user?.name && !user.isAnonymous) setName(user.name);
-  }, [user?.name, user?.isAnonymous]);
-  useEffect(() => {
-    try {
-      setAutoAdvance(localStorage.getItem("tally:auto-advance") !== "off");
-    } catch {}
-  }, []);
 
   if (isPending) return <div className="h-64 animate-pulse rounded-xl bg-muted" />;
 
@@ -74,29 +95,7 @@ export function SettingsPanel() {
             </div>
           </div>
         ) : (
-          <form
-            className="grid gap-4 sm:max-w-md"
-            onSubmit={(e) => {
-              e.preventDefault();
-              start(async () => {
-                const res = await authClient.updateUser({ name: name.trim() });
-                if (res.error) toast.error(res.error.message ?? "Couldn't save your name.");
-                else toast.success("Name saved");
-              });
-            }}
-          >
-            <div className="grid gap-1.5">
-              <Label htmlFor="email">Email</Label>
-              <Input id="email" value={user.email} disabled />
-            </div>
-            <div className="grid gap-1.5">
-              <Label htmlFor="name">Display name</Label>
-              <Input id="name" value={name} onChange={(e) => setName(e.target.value)} maxLength={60} />
-            </div>
-            <Button type="submit" className="w-fit" disabled={pending || !name.trim()}>
-              Save name
-            </Button>
-          </form>
+          <NameForm key={user.id} email={user.email} initialName={user.name} />
         )}
       </section>
 
@@ -108,12 +107,7 @@ export function SettingsPanel() {
         <Row title="Auto-advance after a correct answer" description="Moves to the next aircraft after a short debrief.">
           <Switch
             checked={autoAdvance}
-            onCheckedChange={(v) => {
-              setAutoAdvance(v);
-              try {
-                localStorage.setItem("tally:auto-advance", v ? "on" : "off");
-              } catch {}
-            }}
+            onCheckedChange={setAutoAdvance}
             aria-label="Auto-advance"
           />
         </Row>

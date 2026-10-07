@@ -1,0 +1,71 @@
+{
+  "id": "h130",
+  "name": "Airbus H130 / EC130",
+  "shortName": "H130",
+  "aka": [
+    "EC130",
+    "EC130 B4",
+    "EC130 T2"
+  ],
+  "manufacturer": "Airbus Helicopters (Eurocopter)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "ems"
+  ],
+  "branches": [],
+  "firstFlight": 1999,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "EC130 B4",
+    "EC130 T2 / H130"
+  ],
+  "summary": "Wide-cabin single-turbine development of the AStar with a Fenestron tail, the signature aircraft of Grand Canyon and Las Vegas tour operators and also used for EMS.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor on a Starflex hub"
+    ],
+    "engines": [
+      "Single turbine behind the rotor mast with exhaust at the rear of the cowling"
+    ],
+    "fuselage": [
+      "Wide cabin with a one-piece wraparound windscreen and very large windows",
+      "Skids",
+      "Large sliding and hinged cabin doors"
+    ],
+    "tail": [
+      "Shrouded Fenestron tail rotor in a large fin",
+      "Horizontal stabilizer with endplate fins ahead of the Fenestron"
+    ]
+  },
+  "tellTales": [
+    "Three-blade light single with a shrouded fan in the tail fin",
+    "Very wide cabin with a one-piece wraparound windscreen",
+    "Tour-operator paint schemes are common"
+  ],
+  "confusedWith": [
+    {
+      "id": "h125",
+      "howToTell": "The H130 has a shrouded Fenestron tail and a wider wraparound-glass cabin; the H125 has an open two-blade tail rotor."
+    },
+    {
+      "id": "h135",
+      "howToTell": "The H135 has four blades, two engines and rear clamshell doors; the H130 has three blades and a single engine."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus Helicopters H130 Ecureuil"
+  ],
+  "usCount": {
+    "value": 310,
+    "source": "FAA registry make/model inquiry (EC130 B4 / EC130 T2)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

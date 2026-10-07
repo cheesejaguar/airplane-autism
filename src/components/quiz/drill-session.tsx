@@ -8,6 +8,7 @@ import { ArrowRight, Lightbulb, Pause, Play, X } from "lucide-react";
 import { toast } from "sonner";
 import { finishSession, getHint, startSession, submitAnswer } from "@/app/train/actions";
 import { Button } from "@/components/ui/button";
+import { useLocalFlag } from "@/hooks/use-local-flag";
 import { ensureSession } from "@/lib/auth-client";
 import { CONDITIONS, EXPOSURES } from "@/lib/deck/config";
 import { decodeDeck } from "@/lib/deck/url";
@@ -56,16 +57,10 @@ export function DrillSession() {
   const [index, setIndex] = useState(0);
   const [q, setQ] = useState<QState>(freshQ);
   const [pending, startTransition] = useTransition();
-  const [autoAdvance, setAutoAdvance] = useState(true);
+  const [autoAdvance, setAutoAdvance] = useLocalFlag(AUTO_KEY, true);
   const [paused, setPaused] = useState(false);
   const shownAt = useRef<number>(0);
   const booted = useRef(false);
-
-  useEffect(() => {
-    try {
-      setAutoAdvance(localStorage.getItem(AUTO_KEY) !== "off");
-    } catch {}
-  }, []);
 
   // Boot: ensure a (guest) session, then fetch questions.
   useEffect(() => {
@@ -238,7 +233,7 @@ export function DrillSession() {
         </span>
       </div>
 
-      <div className="mt-3 grid flex-1 gap-4 lg:mt-5 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] lg:gap-6">
+      <div className="mt-3 grid flex-1 content-start gap-4 lg:mt-5 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] lg:gap-6">
         {/* Left: scope */}
         <div className="min-w-0">
           {current ? (
@@ -329,12 +324,7 @@ export function DrillSession() {
                 type="checkbox"
                 className="accent-[var(--primary)]"
                 checked={autoAdvance}
-                onChange={(e) => {
-                  setAutoAdvance(e.target.checked);
-                  try {
-                    localStorage.setItem(AUTO_KEY, e.target.checked ? "on" : "off");
-                  } catch {}
-                }}
+                onChange={(e) => setAutoAdvance(e.target.checked)}
               />
               Auto-advance
             </label>

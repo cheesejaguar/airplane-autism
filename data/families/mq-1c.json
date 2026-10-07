@@ -35,13 +35,13 @@
       "Single heavy-fuel piston engine driving a rear pusher propeller"
     ],
     "fuselage": [
-      "No cockpit: slender fuselage with a bulbous nose for the satellite dish",
+      "No cockpit: slender fuselage with a large bulbous nose hump for the satellite dish",
       "Sensor ball under the nose",
       "Slimmer body than the larger Reaper"
     ],
     "tail": [
-      "Inverted V-tail with both surfaces pointing downward",
-      "Small ventral fin below the propeller"
+      "Inverted V-tail with both surfaces pointing downward, below the propeller",
+      "Thin antenna masts standing up from the rear spine"
     ]
   },
   "tellTales": [

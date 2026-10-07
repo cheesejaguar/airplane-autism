@@ -1,0 +1,82 @@
+{
+  "id": "as365",
+  "name": "Airbus AS365 Dauphin / MH-65 Dolphin",
+  "shortName": "AS365",
+  "aka": [
+    "Dauphin",
+    "Dolphin",
+    "HH-65",
+    "MH-65",
+    "SA365"
+  ],
+  "manufacturer": "Airbus Helicopters (Aérospatiale / Eurocopter)",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "search-rescue",
+    "ems",
+    "utility"
+  ],
+  "branches": [
+    "uscg"
+  ],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AS365N2/N3 Dauphin",
+    "HH-65A/B/C",
+    "MH-65D/E Dolphin (USCG)"
+  ],
+  "summary": "Sleek medium twin with a Fenestron tail and retractable gear; in the US it is best known as the Coast Guard's orange-and-white short-range rescue helicopter, with some civil EMS examples.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor on a Starflex hub"
+    ],
+    "engines": [
+      "Two engines side by side on the roof behind the mast",
+      "Two exhausts at the back of the engine cowling"
+    ],
+    "fuselage": [
+      "Streamlined teardrop fuselage with a pointed nose",
+      "Retractable tricycle gear with main wheels pulling into the lower fuselage",
+      "Coast Guard: orange-red with a white stripe, rescue hoist above the cabin door, nose FLIR/radar"
+    ],
+    "tail": [
+      "Shrouded Fenestron in a tall swept fin",
+      "Horizontal stabilizer with endplate fins"
+    ]
+  },
+  "tellTales": [
+    "Sleek twin on wheels with a shrouded fan in a tall swept fin",
+    "Orange-and-white Coast Guard paint with a hoist over the door",
+    "Small pointed nose and short cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "mh-60",
+      "howToTell": "The Jayhawk is far bigger with an open canted tail rotor; the Dolphin is smaller with a shrouded Fenestron."
+    },
+    {
+      "id": "h135",
+      "howToTell": "The H135 sits on skids with clamshell doors; the Dauphin has retractable wheels and a sleeker pointed nose."
+    },
+    {
+      "id": "s-76",
+      "howToTell": "The S-76 has an open four-blade tail rotor and a longer pointed nose; the Dauphin has a Fenestron."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "MH-65 Dolphin",
+    "Airbus Helicopters AS365 Dauphin"
+  ],
+  "usCount": {
+    "value": 110,
+    "source": "USCG 84 MH-65E (Navy League Seapower Almanac 2026) + ~28 FAA-registered civil AS365",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

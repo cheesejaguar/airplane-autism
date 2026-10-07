@@ -1,0 +1,81 @@
+{
+  "id": "mooney-m20",
+  "name": "Mooney M20",
+  "shortName": "M20",
+  "aka": [
+    "Mooney",
+    "Ovation",
+    "Acclaim",
+    "Bravo",
+    "201"
+  ],
+  "manufacturer": "Mooney Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M20C Ranger",
+    "M20E Chaparral / Super 21",
+    "M20J 201",
+    "M20K 231 / 252 / Encore",
+    "M20M Bravo",
+    "M20R Ovation",
+    "M20TN Acclaim"
+  ],
+  "summary": "Fast, efficient four-seat retractable single produced in many versions since 1955, known for its distinctive 'backwards' tail.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with a straight trailing edge, set low on the fuselage"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a long, low cowl",
+      "Two- or three-blade constant-speed prop"
+    ],
+    "fuselage": [
+      "Low-slung, compact four-seat cabin with a single right-side door",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Vertical tail with a vertical rudder hinge line so the fin appears swept forward"
+    ]
+  },
+  "tellTales": [
+    "Vertical tail that looks swept forward",
+    "Low-slung, slim retractable single",
+    "Short cabin with a long nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-24",
+      "howToTell": "The Comanche's fin is swept back; the Mooney's tail appears to lean forward."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 has fixed gear and a conventionally swept fin; the Mooney has retractable gear and a forward-looking tail."
+    },
+    {
+      "id": "bonanza-v35",
+      "howToTell": "The V35 has a V-tail; the Mooney has a conventional fin and horizontal tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Mooney M20",
+    "Mooney M20J",
+    "Mooney M20K"
+  ],
+  "usCount": {
+    "value": 6200,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Mooney M20 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

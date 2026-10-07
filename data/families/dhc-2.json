@@ -1,0 +1,76 @@
+{
+  "id": "dhc-2",
+  "name": "DHC-2 Beaver",
+  "shortName": "Beaver",
+  "aka": [
+    "L-20 / U-6A",
+    "Turbo Beaver"
+  ],
+  "manufacturer": "de Havilland Canada",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DHC-2 Mk I",
+    "L-20A / U-6A (US Army)",
+    "DHC-2 Mk III Turbo Beaver",
+    "Turbine conversions"
+  ],
+  "summary": "Rugged radial-engined bush plane, the classic Alaskan and Pacific Northwest floatplane workhorse.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut per side",
+      "Wide constant-chord wing"
+    ],
+    "engines": [
+      "Big round radial engine in a short cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Boxy, slab-sided fuselage with large doors on both sides",
+      "Tailwheel gear or, very often, floats"
+    ],
+    "tail": [
+      "Angular fin and rudder with straight edges"
+    ]
+  },
+  "tellTales": [
+    "Round radial nose on a boxy high-wing bush plane",
+    "Very often on floats",
+    "Angular, squared-off fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 180/185 is smaller with a flat-engine cowl; the Beaver has a round radial nose and boxy fuselage."
+    },
+    {
+      "id": "kodiak",
+      "howToTell": "The Kodiak has a long turboprop nose and tricycle gear; the Beaver has a short radial nose and a tailwheel."
+    },
+    {
+      "id": "c206",
+      "howToTell": "The 206 has a flat-engine cowl, tricycle gear and a swept fin; the Beaver has a radial and an angular fin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "De Havilland Canada DHC-2 Beaver"
+  ],
+  "usCount": {
+    "value": 400,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all DHC-2 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

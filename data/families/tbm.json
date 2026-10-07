@@ -1,0 +1,84 @@
+{
+  "id": "tbm",
+  "name": "Daher TBM 700–960",
+  "shortName": "TBM",
+  "aka": [
+    "Socata TBM 700",
+    "TBM 850",
+    "TBM 900",
+    "TBM 910",
+    "TBM 930",
+    "TBM 940",
+    "TBM 960",
+    "TBM 980"
+  ],
+  "manufacturer": "Socata / Daher",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1988,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "TBM 700A/B/C",
+    "TBM 850",
+    "TBM 900 / 910 / 930 (winglets, five-blade prop)",
+    "TBM 940",
+    "TBM 960 / 980"
+  ],
+  "summary": "Fast single-engine pressurized turboprop built in France, popular with US owner-pilots.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing; winglets on the TBM 900 and later",
+      "Wide-track inward-retracting main gear"
+    ],
+    "engines": [
+      "Single PT6A turboprop in a long nose; four-blade prop on early models, five-blade on the 900 series and later"
+    ],
+    "fuselage": [
+      "Compact, stout fuselage with a few rectangular windows",
+      "Main door at left rear; many also have a separate pilot door at front left"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Swept fin with a long dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Single turboprop with a conventional low tail and a stout fuselage",
+    "Winglets and a five-blade propeller on later models",
+    "Short, tapered wing with wide-track main gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-46",
+      "howToTell": "The TBM is a larger, stouter aircraft with a shorter tapered wing, wide-track gear and (on the 900 and later) winglets; the PA-46 has a slimmer fuselage and a long, slender wing without winglets."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The TBM has a conventional low tail; the PC-12 is larger with a T-tail."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The TBM has a turboprop with exhaust stacks and retractable gear; the Cirrus SR has a piston engine and fixed gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Socata TBM",
+    "Socata TBM 850",
+    "Daher TBM"
+  ],
+  "usCount": {
+    "value": 720,
+    "source": "Daher deliveries (1,300th TBM delivered 2025) with ~55% US-registered per FAA registry (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,90 @@
+{
+  "id": "bell-206",
+  "name": "Bell 206 JetRanger / LongRanger",
+  "shortName": "Bell 206",
+  "aka": [
+    "JetRanger",
+    "LongRanger",
+    "OH-58 Kiowa",
+    "TH-57 Sea Ranger",
+    "206B",
+    "206L"
+  ],
+  "manufacturer": "Bell",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility",
+    "trainer",
+    "ems"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "206A/B JetRanger (I/II/III)",
+    "206L LongRanger (stretched)",
+    "OH-58A/C Kiowa (ex-Army, police)",
+    "TH-57B/C Sea Ranger (Navy trainer, retired 2025)"
+  ],
+  "summary": "The classic light turbine helicopter, flown in huge numbers by US news, police, tour, utility and training operators; the Navy trained helicopter pilots in its TH-57 version until 2025.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a short mast"
+    ],
+    "engines": [
+      "Single turbine on the roof behind the rotor mast",
+      "Single exhaust stack angled up and aft at the back of the engine cowling"
+    ],
+    "fuselage": [
+      "Teardrop-shaped cabin with a curved windscreen",
+      "Skids",
+      "LongRanger: stretched cabin with an extra window/door section behind the rear doors"
+    ],
+    "tail": [
+      "Long, slim tail boom",
+      "Horizontal stabilizer with small vertical endplate fins",
+      "Two-blade tail rotor on a fin with upper and lower (ventral) parts"
+    ]
+  },
+  "tellTales": [
+    "Teardrop cabin on skids with a two-blade rotor and one exhaust stack on top",
+    "Horizontal stabilizer with little endplate fins on a slim tail boom",
+    "Long slim boom ending in a fin with a lower ventral part"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-407",
+      "howToTell": "The 206 has two main rotor blades; the 407 has four blades on a wider LongRanger-style cabin."
+    },
+    {
+      "id": "bell-505",
+      "howToTell": "The 505 has a boxy, angular cabin with huge flat windows; the 206 has a rounded teardrop cabin."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has three blades and a taller, rounder cabin; the 206 has two blades."
+    },
+    {
+      "id": "r44",
+      "howToTell": "The R44 is smaller with a piston engine, tall thin mast and tubular boom; the 206 has a turbine exhaust stack and endplate stabilizer."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bell 206",
+    "Bell 206L"
+  ],
+  "usCount": {
+    "value": 1800,
+    "source": "FAA registry make/model inquiry (Bell 206A/B/L series and civil OH-58/TH-57)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

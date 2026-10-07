@@ -1,0 +1,82 @@
+{
+  "id": "aw109",
+  "name": "Leonardo AW109",
+  "shortName": "AW109",
+  "aka": [
+    "A109",
+    "Power",
+    "Grand",
+    "GrandNew",
+    "Trekker"
+  ],
+  "manufacturer": "Leonardo (Agusta / AgustaWestland)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "ems",
+    "vip",
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1971,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "A109A/C",
+    "A109E Power",
+    "A109S Grand",
+    "AW109SP GrandNew",
+    "AW109 Trekker (skids)"
+  ],
+  "summary": "Fast, sleek light twin used in the US for air ambulance, corporate and police work.",
+  "weft": {
+    "wings": [
+      "Four-blade fully articulated main rotor"
+    ],
+    "engines": [
+      "Two engines side by side behind the mast with two exhausts"
+    ],
+    "fuselage": [
+      "Slim, streamlined fuselage with a long pointed nose",
+      "Retractable tricycle wheels (Trekker uses skids)",
+      "Low-slung, sports-car-like profile"
+    ],
+    "tail": [
+      "Two-blade open tail rotor",
+      "Vertical fin with a ventral fin below the boom",
+      "Small horizontal stabilizer on the boom"
+    ]
+  },
+  "tellTales": [
+    "Slim, pointed-nose light twin on retractable wheels",
+    "Four blades with a two-blade open tail rotor",
+    "Low, sleek profile with no sponsons"
+  ],
+  "confusedWith": [
+    {
+      "id": "aw139",
+      "howToTell": "The AW109 is smaller with four blades and no sponsons; the AW139 has five blades and gear sponsons."
+    },
+    {
+      "id": "aw119",
+      "howToTell": "The AW119 has a single engine and fixed skids; the AW109 has two engines and usually retractable wheels."
+    },
+    {
+      "id": "s-76",
+      "howToTell": "The S-76 is larger with a four-blade tail rotor; the AW109 has a two-blade tail rotor."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "AgustaWestland AW109"
+  ],
+  "usCount": {
+    "value": 160,
+    "source": "FAA registry make/model inquiry (A109/AW109 all variants)",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": []
+}

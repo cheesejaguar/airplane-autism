@@ -1,0 +1,78 @@
+{
+  "id": "ch-53e",
+  "name": "CH-53E Super Stallion",
+  "shortName": "CH-53E",
+  "aka": [
+    "Super Stallion",
+    "MH-53E Sea Dragon",
+    "Echo"
+  ],
+  "manufacturer": "Sikorsky",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "transport"
+  ],
+  "branches": [
+    "usmc",
+    "usn"
+  ],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 3,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "CH-53E Super Stallion (USMC)",
+    "MH-53E Sea Dragon (USN mine countermeasures)"
+  ],
+  "summary": "Three-engine heavy-lift helicopter that has carried Marine Corps vehicles, troops and cargo since the 1980s; the Navy's MH-53E Sea Dragon tows minesweeping gear.",
+  "weft": {
+    "wings": [
+      "Huge seven-blade main rotor with a large dome-shaped hub fairing",
+      "No wing; stub sponsons on the lower fuselage hold the main gear"
+    ],
+    "engines": [
+      "Three engines: one pod on each side of the upper fuselage plus a third behind the rotor mast on the left",
+      "Intake of the third engine visible on top of the fuselage behind the rotor head"
+    ],
+    "fuselage": [
+      "Long fuselage with a long refueling probe extending from the right side of the nose",
+      "Sponsons on both lower sides housing retractable main gear, usually with external drop tanks hung on them",
+      "Rear loading ramp; MH-53E has even larger sponsons",
+      "Often stained with oil and grease around the rotor head and sides"
+    ],
+    "tail": [
+      "Tail fin canted strongly to the left",
+      "Strut-braced gull-wing (bent) horizontal stabilizer on the right side of the fin",
+      "Four-blade tail rotor at the top of the canted fin"
+    ]
+  },
+  "tellTales": [
+    "Seven main rotor blades and three engines on top",
+    "Fin canted sharply to one side with a bent, strut-braced gull-wing stabilizer",
+    "Drop tanks hung off the outside of the lower sponsons"
+  ],
+  "confusedWith": [
+    {
+      "id": "ch-53k",
+      "howToTell": "The E has a bent gull-wing stabilizer, a big hub fairing and drop tanks on smaller sponsons; the K has a straight stabilizer, larger clean sponsons and anhedral-tipped composite blades."
+    },
+    {
+      "id": "ch-47",
+      "howToTell": "The CH-53E has a single seven-blade main rotor and a tail rotor; the Chinook has two tandem rotors and no tail rotor."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Sikorsky CH-53E Super Stallion in flight",
+    "Sikorsky CH-53E Super Stallion"
+  ],
+  "usCount": {
+    "value": 150,
+    "source": "USMC 147 CH-53E (FlightGlobal 2026) + remaining USN MH-53E (World Air Forces 2025)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

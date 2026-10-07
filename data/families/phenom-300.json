@@ -1,0 +1,75 @@
+{
+  "id": "phenom-300",
+  "name": "Embraer Phenom 300",
+  "shortName": "Phenom 300",
+  "aka": [
+    "Phenom 300E",
+    "EMB-505"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2008,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Phenom 300",
+    "Phenom 300E"
+  ],
+  "summary": "The world's best-selling light jet for more than a decade, heavily used by fractional and charter fleets such as NetJets and Flexjet.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW535E turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Large rounded-rectangle windows",
+      "Curvy, smoothly rounded nose with a large windscreen"
+    ],
+    "tail": [
+      "T-tail with a sharply swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Upturned winglets on a light twinjet with a T-tail",
+    "Very large windows on a relatively short fuselage",
+    "Rounded, curvy nose blending into a big windscreen"
+  ],
+  "confusedWith": [
+    {
+      "id": "phenom-100",
+      "howToTell": "The Phenom 300 is longer with upturned winglets; the Phenom 100 is shorter with plain wingtips."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The Phenom 300 has winglets and much bigger windows; the CJ4 has plain wingtips and small windows."
+    },
+    {
+      "id": "learjet-45",
+      "howToTell": "The Phenom 300 has very large windows and a rounded nose; the Learjet 45/75 has small windows, a long pointed nose and small ventral fins under the tail."
+    },
+    {
+      "id": "beechjet-400",
+      "howToTell": "The Phenom 300 has winglets and large windows; the Beechjet/Hawker 400 has plain wingtips and small windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Embraer Phenom 300"
+  ],
+  "usCount": {
+    "value": 560,
+    "source": "Embraer deliveries (900+ Phenom 300 series in service) with ~60% US-registered per JETNET fleet summaries (approx.)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "luscombe-8",
+  "name": "Luscombe 8 Silvaire",
+  "shortName": "Luscombe 8",
+  "aka": [
+    "Silvaire",
+    "8A",
+    "8E"
+  ],
+  "manufacturer": "Luscombe Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "8 / 8A Silvaire",
+    "8C / 8D",
+    "8E / 8F",
+    "T-8F Observer (tandem)"
+  ],
+  "summary": "Small two-seat all-metal high-wing taildragger from the late 1930s–50s, many still flown in polished aluminum.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing"
+    ],
+    "engines": [
+      "Small flat-four in a smooth, close-fitting cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "All-metal monocoque fuselage, often polished bare aluminum",
+      "Side-by-side two-seat cabin",
+      "Tailwheel gear with spring/oleo main legs"
+    ],
+    "tail": [
+      "Tall, rounded fin and rudder on a slim metal tail cone"
+    ]
+  },
+  "tellTales": [
+    "Small all-metal high-wing taildragger, often polished bare aluminum",
+    "Side-by-side two-seat cabin with a slim tapering metal tail cone",
+    "Smooth, close-cowled nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ is fabric-covered with tandem seats; the Luscombe is all-metal with side-by-side seats."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 150/152 sits on tricycle gear; the Luscombe is a taildragger."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria is fabric-covered with tandem seats and a squared tail; the Luscombe is all-metal with a rounded tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Luscombe 8",
+    "Luscombe 8A Silvaire"
+  ],
+  "usCount": {
+    "value": 1450,
+    "source": "FAA Aircraft Registry make/model query (registered aircraft): all Luscombe 8 model codes",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}
