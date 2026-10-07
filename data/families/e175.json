@@ -1,0 +1,75 @@
+{
+  "id": "e175",
+  "name": "Embraer E170/E175",
+  "shortName": "E175",
+  "aka": [
+    "E-Jet",
+    "ERJ-175",
+    "ERJ-170"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 2002,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "E170",
+    "E175 (short-wing and long-wing/enhanced winglet versions)"
+  ],
+  "summary": "The most numerous US regional jet, flown at 76 seats by Republic, SkyWest, Envoy, Horizon and others.",
+  "weft": {
+    "wings": [
+      "Low swept wing with canted winglets (larger on newer enhanced versions)"
+    ],
+    "engines": [
+      "Two CF34-8E turbofans under the wings"
+    ],
+    "fuselage": [
+      "4-abreast 'double-bubble' fuselage, taller than it is wide",
+      "Rounded nose with a large four-pane windshield",
+      "Large passenger windows"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Tall swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Small airliner with engines under the wings and winglets",
+    "Large four-pane windshield on a rounded nose",
+    "Low-set tail on a short 4-abreast body"
+  ],
+  "confusedWith": [
+    {
+      "id": "crj700",
+      "howToTell": "The E175 has engines under the wings and a low tail; the CRJ700/900 has rear-mounted engines and a T-tail."
+    },
+    {
+      "id": "a220",
+      "howToTell": "The E175 has small engines and winglets; the A220 has huge geared-fan engines, plain wingtips and a wider body."
+    },
+    {
+      "id": "erj145",
+      "howToTell": "The E175 has underwing engines and a low tail; the ERJ145 has rear engines, a T-tail and a pencil-thin body."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Embraer 175",
+    "Embraer 175 on final approach",
+    "Embraer 170 on final approach"
+  ],
+  "usCount": {
+    "value": 700,
+    "source": "Airline fleet data (Republic, SkyWest, Envoy, Horizon, Mesa; planespotters.net / ch-aviation)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

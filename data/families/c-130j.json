@@ -1,0 +1,84 @@
+{
+  "id": "c-130j",
+  "name": "C-130J Super Hercules",
+  "shortName": "C-130J",
+  "aka": [
+    "Super Hercules"
+  ],
+  "manufacturer": "Lockheed Martin",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "tanker",
+    "special-ops",
+    "search-rescue"
+  ],
+  "branches": [
+    "usaf",
+    "usmc",
+    "uscg"
+  ],
+  "firstFlight": 1996,
+  "engines": {
+    "count": 4,
+    "type": "turboprop"
+  },
+  "variants": [
+    "C-130J / C-130J-30 (stretched)",
+    "KC-130J (USMC tanker)",
+    "HC-130J Combat King II",
+    "MC-130J Commando II",
+    "AC-130J Ghostrider",
+    "WC-130J",
+    "EC-130J",
+    "HC-130J (Coast Guard)"
+  ],
+  "summary": "Modernized four-turboprop tactical airlifter with glass cockpit and new engines, flown by the Air Force, Marine Corps and Coast Guard in transport, tanker, special-operations and rescue versions.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing with tapered outer panels",
+      "KC-130J, HC-130J and MC-130J carry hose-and-drogue refueling pods under the outer wings"
+    ],
+    "engines": [
+      "Four turboprops with six-blade, curved scimitar propellers",
+      "Slimmer engine nacelles than older Hercules models"
+    ],
+    "fuselage": [
+      "Wide, boxy fuselage with upswept tail, rear ramp and landing-gear sponsons",
+      "No eyebrow windows above the cockpit windscreen",
+      "Variants add a refueling probe over the cockpit (MC/HC), side-firing guns (AC-130J) or a stretched fuselage (-30)"
+    ],
+    "tail": [
+      "Tall single vertical fin with a dorsal fillet",
+      "Large horizontal tail at the top of the upswept rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Six-blade curved scimitar propellers on a four-turboprop",
+    "High-winged boxy transport with upswept tail, rear ramp and gear sponsons",
+    "Plain cockpit windscreen with no small windows above it"
+  ],
+  "confusedWith": [
+    {
+      "id": "c-130h",
+      "howToTell": "The C-130J has six-blade curved scimitar props and no eyebrow windows; the C-130H has four-blade paddle props (or straight eight-blade props) and eyebrow windows over the cockpit."
+    },
+    {
+      "id": "c-17",
+      "howToTell": "The C-130J is a smaller four-turboprop with propellers; the C-17 is a much larger four-jet with a T-tail and winglets."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Lockheed C-130J Hercules of the United States Air Force",
+    "Lockheed KC-130J Hercules of the United States Marine Corps in flight",
+    "Lockheed Martin C-130J Super Hercules"
+  ],
+  "usCount": {
+    "value": 260,
+    "source": "FlightGlobal World Air Forces 2026 (USAF, USMC KC-130J, USCG HC-130J)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

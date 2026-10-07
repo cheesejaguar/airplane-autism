@@ -1,0 +1,95 @@
+{
+  "id": "b737ng",
+  "name": "Boeing 737 Next Generation",
+  "shortName": "737NG",
+  "aka": [
+    "737-700",
+    "737-800",
+    "737-900ER",
+    "C-40 Clipper",
+    "BBJ"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody",
+    "transport",
+    "vip"
+  ],
+  "branches": [
+    "usaf",
+    "usn",
+    "usmc"
+  ],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "737-600",
+    "737-700 / BBJ",
+    "737-800 / BBJ2",
+    "737-900 / 737-900ER",
+    "C-40A Clipper (USN/USMC)",
+    "C-40B/C (USAF)",
+    "737-800BCF freighter"
+  ],
+  "summary": "Third-generation 737, still the most common airliner in the US with Southwest, United, American, Delta and Alaska; the military flies it as the C-40 Clipper.",
+  "weft": {
+    "wings": [
+      "Low swept wing that looks long for the fuselage",
+      "Tall curved blended winglets, split-scimitar winglets (big curved upper blade plus small lower strake), or plain tips"
+    ],
+    "engines": [
+      "Two CFM56-7B engines in nacelles with a flattened bottom ('hamster pouch' intake)",
+      "Engines mounted very close under and ahead of the wing",
+      "Plain, smooth nacelle trailing edge — no chevrons"
+    ],
+    "fuselage": [
+      "Narrow, pointed nose with V-notched cockpit side windows",
+      "Short landing gear — sits low to the ground",
+      "Main wheels have no outer doors; hubcaps are visible in the belly in flight"
+    ],
+    "tail": [
+      "Long dorsal fillet sweeping up into the fin",
+      "Tailcone ending in a short pointed vertical wedge"
+    ]
+  },
+  "tellTales": [
+    "Flat-bottomed engine intakes tucked tight under the wing",
+    "Exposed main-wheel hubcaps in the belly",
+    "Pointed nose with a long dorsal fillet into the fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "b737max",
+      "howToTell": "The NG has smooth nacelle exhausts, flat-bottomed intakes and blended or scimitar winglets; the MAX has sawtooth chevron exhausts, rounder bigger engines and a twin-blade 'AT' winglet."
+    },
+    {
+      "id": "a320ceo",
+      "howToTell": "The 737NG has a pointed nose with V-notched side windows, shorter gear and exposed wheel hubs; the A320 has a blunt rounded nose and covered main wheels."
+    },
+    {
+      "id": "p-8",
+      "howToTell": "The P-8 is a grey 737-800 airframe with raked wingtips instead of winglets, few cabin windows and a weapons bay and sensor fairings under the fuselage."
+    },
+    {
+      "id": "b757",
+      "howToTell": "The 737NG has short gear and a shorter body; the 757 is far longer and stands on tall gear with much larger engines."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 737-800 on final approach",
+    "Boeing 737-700 on final approach",
+    "Boeing 737-900 on final approach"
+  ],
+  "usCount": {
+    "value": 1700,
+    "source": "Airline fleet data (Southwest, United, American, Delta, Alaska; planespotters.net) plus ~30 C-40A/B/C (USN, USMC, USAF fact sheets)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

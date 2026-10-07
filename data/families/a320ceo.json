@@ -1,0 +1,86 @@
+{
+  "id": "a320ceo",
+  "name": "Airbus A319/A320/A321 (ceo)",
+  "shortName": "A320ceo fam.",
+  "aka": [
+    "A320 family",
+    "A319",
+    "A320",
+    "A321"
+  ],
+  "manufacturer": "Airbus",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody"
+  ],
+  "branches": [],
+  "firstFlight": 1987,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A319-100",
+    "A320-200",
+    "A321-200",
+    "Wingtip-fence and sharklet-equipped versions"
+  ],
+  "summary": "The original A320 family of 6-abreast single-aisle jets, the backbone of American, Delta, United, JetBlue, Allegiant and others.",
+  "weft": {
+    "wings": [
+      "Low swept wing with small arrowhead wingtip fences above and below the tip on older airframes",
+      "Later builds and retrofits carry tall curved sharklets instead",
+      "Wing root with a prominent fairing and short main gear legs"
+    ],
+    "engines": [
+      "Two underwing turbofans of moderate diameter: short round CFM56 nacelles or long full-length IAE V2500 nacelles",
+      "Nacelle bottoms sit well clear of the ground and close under the wing"
+    ],
+    "fuselage": [
+      "Circular 6-abreast fuselage; A319 short, A320 medium, A321 long with extra doors ahead of and behind the wing",
+      "Rounded, blunt nose with a six-pane windshield whose lower edge runs in a straight line",
+      "Main wheels retract into covered wells — in flight the belly looks smooth"
+    ],
+    "tail": [
+      "Tall swept fin with a pointed tip and a small dorsal fillet",
+      "Low-set swept tailplane",
+      "Tailcone ends in a horizontal wedge with the APU exhaust"
+    ]
+  },
+  "tellTales": [
+    "Small arrowhead fences at the wingtips (if fitted)",
+    "Blunt rounded nose with straight-bottomed cockpit windows",
+    "Moderate-size engines that do not reach far ahead of the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "a320neo",
+      "howToTell": "The ceo has noticeably smaller nacelles that hang well clear of the ground; the neo's much fatter LEAP or GTF nacelles reach far ahead of the wing, and wingtip fences mean it is definitely a ceo."
+    },
+    {
+      "id": "b737ng",
+      "howToTell": "The A320 has a rounded blunt nose, taller gear and covered main wheels; the 737NG has a pointed nose, V-shaped cockpit side windows, flat-bottomed engine intakes and exposed wheel hubs."
+    },
+    {
+      "id": "a220",
+      "howToTell": "The A320 is wider (6-abreast) with smaller engines relative to its body and wingtip fences or sharklets; the A220 has plain wingtips and oversized engines."
+    },
+    {
+      "id": "b757",
+      "howToTell": "The A321 is shorter-legged with a rounded Airbus nose and smaller engines; the 757 stands on tall gear with a droopy pointed nose and very large engines."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus A319 on final approach",
+    "Airbus A320-214",
+    "Airbus A321-211"
+  ],
+  "usCount": {
+    "value": 1150,
+    "source": "Airline fleet data (American, Delta, United, JetBlue, Allegiant, Spirit; planespotters.net / ch-aviation)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

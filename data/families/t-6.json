@@ -1,0 +1,72 @@
+{
+  "id": "t-6",
+  "name": "T-6 Texan II",
+  "shortName": "T-6",
+  "aka": [
+    "Texan II"
+  ],
+  "manufacturer": "Beechcraft / Textron Aviation",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "trainer"
+  ],
+  "branches": [
+    "usaf",
+    "usn"
+  ],
+  "firstFlight": 1998,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "T-6A (USAF)",
+    "T-6B (USN/USMC)"
+  ],
+  "summary": "Single-turboprop primary trainer, derived from the Pilatus PC-9, used for the first stage of USAF, Navy and Marine Corps pilot training.",
+  "weft": {
+    "wings": [
+      "Low-mounted straight tapered wing with dihedral",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single turboprop driving a four-blade propeller",
+      "Exhaust stacks on both sides of the long nose"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit under a long bubble canopy, rear seat raised",
+      "Slim fuselage, usually white with blue (USAF) or white/orange (Navy) trim"
+    ],
+    "tail": [
+      "Single vertical fin with a dorsal fillet sweeping forward along the spine",
+      "Small ventral strake under the tail"
+    ]
+  },
+  "tellTales": [
+    "Single turboprop with tandem seats under a bubble canopy",
+    "Long nose with exhaust stacks on each side",
+    "Dorsal fin fillet sweeping forward from the tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-34",
+      "howToTell": "The T-6 is larger with a four-blade prop, a raised rear seat under a one-piece bubble canopy and a dorsal fin fillet; the T-34 is smaller with a framed sliding canopy."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-6 has a slim turboprop nose with side exhaust stacks; the T-28 has a big round radial-engine cowling."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "T-6 Texan II in United States service",
+    "Beechcraft T-6 Texan II"
+  ],
+  "usCount": {
+    "value": 700,
+    "source": "FlightGlobal World Air Forces 2026 (USAF T-6A and USN/USMC T-6B)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

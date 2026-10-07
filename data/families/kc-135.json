@@ -1,0 +1,79 @@
+{
+  "id": "kc-135",
+  "name": "KC-135 Stratotanker",
+  "shortName": "KC-135",
+  "aka": [
+    "Stratotanker"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "tanker"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "KC-135R",
+    "KC-135T"
+  ],
+  "summary": "Four-engine aerial refueling tanker based on the Boeing 367-80/707 design; still the most numerous USAF tanker, flown heavily by Guard and Reserve units.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with noticeable dihedral",
+      "Plain wingtips with no winglets; some aircraft carry hose-drogue pods at the outer wing"
+    ],
+    "engines": [
+      "Four large high-bypass turbofans in fat nacelles on individual pylons"
+    ],
+    "fuselage": [
+      "Narrow single-deck fuselage, shorter than a 707 airliner",
+      "Very few cabin windows",
+      "Flying refueling boom hanging beneath the tail, with a boom operator's window under the rear fuselage"
+    ],
+    "tail": [
+      "Tall swept single vertical fin with a thin antenna probe at the top",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Refueling boom hanging under the tail of a four-engine jet",
+    "Almost no cabin windows along a narrow fuselage",
+    "Four fat high-bypass engines on pylons under a swept low wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "kc-46",
+      "howToTell": "The KC-135 has four engines and a narrow fuselage; the KC-46 has two big engines on a wider widebody fuselage."
+    },
+    {
+      "id": "rc-135",
+      "howToTell": "The KC-135 has a refueling boom and a plain nose and sides; the RC-135 has a long thimble nose, cheek fairings and many belly antennas but no boom."
+    },
+    {
+      "id": "e-6",
+      "howToTell": "The KC-135 has a boom and plain wingtips on a shorter fuselage; the E-6 has wingtip pods, no boom and a longer fuselage."
+    },
+    {
+      "id": "e-3",
+      "howToTell": "The KC-135 has no radar disc and has high-bypass engines; the E-3 carries a large rotating radar disc on struts above the rear fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing KC-135 Stratotanker in flight",
+    "Boeing KC-135R Stratotanker"
+  ],
+  "usCount": {
+    "value": 370,
+    "source": "USAF KC-135 fact sheet / FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

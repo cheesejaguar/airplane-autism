@@ -1,0 +1,71 @@
+{
+  "id": "kc-46",
+  "name": "KC-46 Pegasus",
+  "shortName": "KC-46",
+  "aka": [
+    "Pegasus"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "tanker",
+    "transport"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 2015,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "KC-46A"
+  ],
+  "summary": "Twin-engine aerial refueling tanker and cargo aircraft based on the Boeing 767, replacing the KC-135 in USAF service.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with no winglets",
+      "Hose-and-drogue refueling pods under each outer wing"
+    ],
+    "engines": [
+      "Two large high-bypass turbofans on pylons under the wing"
+    ],
+    "fuselage": [
+      "Wide twin-aisle-size fuselage in grey with only a few windows near the front",
+      "Large cargo door on the forward left side",
+      "Refueling boom under the tail plus a centerline drogue unit"
+    ],
+    "tail": [
+      "Tall swept single fin",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Twin-engine widebody with a refueling boom under the tail",
+    "Hose-drogue pods under each outer wing",
+    "Grey widebody with only a handful of windows near the front"
+  ],
+  "confusedWith": [
+    {
+      "id": "b767",
+      "howToTell": "The KC-46 is grey with a refueling boom, wing refueling pods and almost no windows; a 767 airliner has full rows of cabin windows and no boom."
+    },
+    {
+      "id": "kc-135",
+      "howToTell": "The KC-46 has two big engines on a wide fuselage; the KC-135 has four engines on a narrow fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Boeing KC-46 Pegasus in flight",
+    "Boeing KC-46 Pegasus"
+  ],
+  "usCount": {
+    "value": 110,
+    "source": "Boeing KC-46 delivery reports (105th delivered April 2026) / Air & Space Forces Magazine",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

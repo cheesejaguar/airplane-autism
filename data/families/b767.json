@@ -1,0 +1,83 @@
+{
+  "id": "b767",
+  "name": "Boeing 767",
+  "shortName": "767",
+  "aka": [
+    "767-300ER",
+    "767-300F",
+    "767-400ER"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1981,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "767-200 / 767-200ER",
+    "767-300 / 767-300ER",
+    "767-300F / BCF",
+    "767-400ER"
+  ],
+  "summary": "Mid-size twin-aisle twinjet, now chiefly a freighter (FedEx, UPS, Amazon Air) and still a passenger aircraft with Delta and United; the KC-46 tanker is a separate military family.",
+  "weft": {
+    "wings": [
+      "Moderately swept wing",
+      "Many -300ERs carry tall blended winglets; others have plain tips"
+    ],
+    "engines": [
+      "Two large underwing turbofans (CF6 or PW4000)"
+    ],
+    "fuselage": [
+      "Short, stubby 7-abreast widebody — looks chubby for its length (except the longer -400ER)",
+      "Pointed, slightly drooping nose identical to the 757's",
+      "Two four-wheel main bogies; freighters have no windows and a large forward side cargo door"
+    ],
+    "tail": [
+      "Tall swept fin",
+      "Low-set tailplane; tailcone ends in a short point"
+    ]
+  },
+  "tellTales": [
+    "Short, fat widebody with only two engines",
+    "Pointed narrowbody-style nose on a twin-aisle body",
+    "Freighter versions with no cabin windows and a big forward side door"
+  ],
+  "confusedWith": [
+    {
+      "id": "kc-46",
+      "howToTell": "A civil 767 has no refuelling boom under the tail or wing-mounted drogue pods and usually wears airline or cargo colours."
+    },
+    {
+      "id": "a330",
+      "howToTell": "The 767 is shorter and stubbier with a pointed nose and tall blended winglets (if any); the A330 is longer with a blunt Airbus nose and small angular winglets."
+    },
+    {
+      "id": "b757",
+      "howToTell": "The 767 is a short, wide twin-aisle body; the 757 is a long, thin single-aisle body on tall gear with the same nose."
+    },
+    {
+      "id": "b777",
+      "howToTell": "The 767 is much smaller with four-wheel bogies and smaller engines; the 777 has six-wheel bogies, huge engines and a blade tailcone."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 767 on final approach",
+    "Boeing 767-300ER",
+    "Boeing 767-300F"
+  ],
+  "usCount": {
+    "value": 400,
+    "source": "Airline fleet data (FedEx, UPS, Amazon Air/ATSG, Delta, United; planespotters.net)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

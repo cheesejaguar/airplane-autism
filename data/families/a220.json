@@ -1,0 +1,78 @@
+{
+  "id": "a220",
+  "name": "Airbus A220",
+  "shortName": "A220",
+  "aka": [
+    "Bombardier CSeries",
+    "CS100",
+    "CS300"
+  ],
+  "manufacturer": "Airbus Canada (Bombardier)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody"
+  ],
+  "branches": [],
+  "firstFlight": 2013,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A220-100 (ex-CS100)",
+    "A220-300 (ex-CS300)"
+  ],
+  "summary": "Clean-sheet 100–150-seat narrowbody designed by Bombardier and taken over by Airbus; flown in the US by Delta, JetBlue and Breeze.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with plain tips — no winglets or sharklets",
+      "Long, slender high-aspect-ratio wing for the aircraft's size"
+    ],
+    "engines": [
+      "Two underwing geared turbofans whose nacelles look oversized for the slim body",
+      "Nacelles hang well ahead of the wing leading edge, close to the ground"
+    ],
+    "fuselage": [
+      "Slim 5-abreast fuselage, noticeably narrower than a 6-abreast single-aisle",
+      "Large, square-ish passenger windows",
+      "Rounded nose with a four-pane windshield and a short, stubby profile"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Tall swept fin with a nearly straight leading edge",
+      "Tapered tailcone ending in a small APU exhaust"
+    ]
+  },
+  "tellTales": [
+    "Huge round engines on a slender narrow body",
+    "Clean wingtips with no winglets on a modern-looking twinjet",
+    "Big square cabin windows on a 5-abreast tube"
+  ],
+  "confusedWith": [
+    {
+      "id": "e175",
+      "howToTell": "The A220 has much bigger engines, plain wingtips and a wider 5-abreast body; the E175 has small engines, canted winglets and a 4-abreast double-bubble body."
+    },
+    {
+      "id": "a320ceo",
+      "howToTell": "The A220 is slimmer and shorter with plain wingtips and proportionally huge engines; the A320 has wingtip fences or sharklets and a wider 6-abreast fuselage."
+    },
+    {
+      "id": "a320neo",
+      "howToTell": "Both carry big geared-fan engines, but the A220 has plain wingtips, a narrower body and larger square windows; the A320neo always has tall sharklets."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus A220",
+    "Airbus A220 on final approach",
+    "Airbus A220 in flight"
+  ],
+  "usCount": {
+    "value": 180,
+    "source": "Airline fleet data (Delta ~80, JetBlue ~50, Breeze ~50; planespotters.net)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

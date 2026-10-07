@@ -1,0 +1,85 @@
+{
+  "id": "b777",
+  "name": "Boeing 777",
+  "shortName": "777",
+  "aka": [
+    "Triple Seven",
+    "777-200ER",
+    "777-300ER",
+    "777F"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1994,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "777-200 / 777-200ER",
+    "777-200LR",
+    "777-300 / 777-300ER",
+    "777F"
+  ],
+  "summary": "Largest twinjet in common service, flown by United and American and as the 777F by FedEx, Atlas and Kalitta.",
+  "weft": {
+    "wings": [
+      "Very long-span swept wing",
+      "Square plain tips on the -200/-200ER; long raked tips on the -300ER, -200LR and 777F"
+    ],
+    "engines": [
+      "Two enormous circular nacelles (GE90, Trent 800 or PW4000) — the biggest on any twin",
+      "Each nacelle is roughly as wide as a single-aisle airliner's fuselage"
+    ],
+    "fuselage": [
+      "Very long circular widebody fuselage",
+      "Two six-wheel (three-axle) main-gear bogies",
+      "Rounded nose with a sloping windshield"
+    ],
+    "tail": [
+      "Tall swept fin",
+      "Tailcone ends in a flattened vertical blade-like edge"
+    ]
+  },
+  "tellTales": [
+    "Six wheels on each main-gear bogie",
+    "Gigantic round engines on a long twin",
+    "Knife-edge blade-shaped tailcone"
+  ],
+  "confusedWith": [
+    {
+      "id": "a350",
+      "howToTell": "The 777 has a blade-like tailcone and raked or square tips; the A350 has curling blended winglets and a black 'raccoon mask' around its cockpit windows."
+    },
+    {
+      "id": "b787",
+      "howToTell": "The 777 has six-wheel bogies, smooth nacelle exhausts and a blade tailcone; the 787 has four-wheel bogies, serrated exhausts and a smooth 4-pane nose."
+    },
+    {
+      "id": "a330",
+      "howToTell": "The 777 has six-wheel bogies and much bigger engines; the A330 has four-wheel bogies and small angular winglets."
+    },
+    {
+      "id": "b747",
+      "howToTell": "The 777 has two engines and no hump; the 747 has four engines and a raised upper deck."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 777 in flight",
+    "Boeing 777 on final approach",
+    "Boeing 777"
+  ],
+  "usCount": {
+    "value": 240,
+    "source": "Airline fleet data (United, American, FedEx, Atlas, Kalitta; planespotters.net)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

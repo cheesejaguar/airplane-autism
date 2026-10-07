@@ -1,0 +1,73 @@
+{
+  "id": "c-17",
+  "name": "C-17 Globemaster III",
+  "shortName": "C-17",
+  "aka": [
+    "Globemaster III"
+  ],
+  "manufacturer": "McDonnell Douglas / Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "heavy-lift"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "C-17A"
+  ],
+  "summary": "Large four-engine strategic and tactical airlifter able to operate from short, rough runways; the backbone of USAF airlift.",
+  "weft": {
+    "wings": [
+      "High-mounted swept wing with slight droop (anhedral)",
+      "Upturned winglets at the wingtips",
+      "Prominent flap-track fairings under the trailing edge"
+    ],
+    "engines": [
+      "Four turbofans on pylons under the wing",
+      "Engines fitted with large thrust reversers"
+    ],
+    "fuselage": [
+      "Wide, bulky fuselage with large landing-gear sponsons along the lower sides",
+      "Upswept rear fuselage with a cargo ramp and doors",
+      "Short blunt nose; usually dark grey"
+    ],
+    "tail": [
+      "T-tail: tall swept fin with the horizontal tail on top",
+      "Slight dihedral on the horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a high-winged four-jet transport",
+    "Upturned winglets at the wingtips",
+    "Bulky gear sponsons along the lower fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "c-5",
+      "howToTell": "The C-17 is shorter and stockier with winglets and gear sponsons; the C-5 is much longer, has no winglets and a large rounded visor nose."
+    },
+    {
+      "id": "c-130j",
+      "howToTell": "The C-17 is a four-jet with a T-tail and winglets; the C-130J has propellers and a conventional tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Boeing C-17 Globemaster III in flight",
+    "Boeing C-17 Globemaster III"
+  ],
+  "usCount": {
+    "value": 222,
+    "source": "USAF C-17 Globemaster III fact sheet",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

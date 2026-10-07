@@ -1,0 +1,73 @@
+{
+  "id": "b-1b",
+  "name": "B-1B Lancer",
+  "shortName": "B-1B",
+  "aka": [
+    "Lancer",
+    "Bone"
+  ],
+  "manufacturer": "Rockwell / Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "bomber"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "B-1B"
+  ],
+  "summary": "Long-range supersonic swing-wing bomber, flown by Air Force Global Strike Command as a conventional heavy bomber.",
+  "weft": {
+    "wings": [
+      "Variable-sweep (swing) wings: spread wide at low speed, swept back against the body when fast",
+      "Wings blend into the fuselage through broad, smooth wing-glove fairings",
+      "Low-mounted wing roots"
+    ],
+    "engines": [
+      "Four engines in two paired nacelles beneath the wing roots",
+      "Rectangular intakes at the front of each paired nacelle"
+    ],
+    "fuselage": [
+      "Long, slender blended fuselage with a pointed nose",
+      "Small vanes (fins) on each side of the nose just behind the radome",
+      "Usually dark grey overall"
+    ],
+    "tail": [
+      "Single large swept vertical fin with a long dorsal fillet",
+      "All-moving horizontal tails mounted at the base of the fin, above the exhausts"
+    ]
+  },
+  "tellTales": [
+    "Long slender bomber whose wings sweep back when fast and spread out when slow",
+    "Engines grouped in two paired nacelles under the blended wing roots",
+    "Small vanes on the nose behind the radome"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-52",
+      "howToTell": "The B-1B is sleek and blended with swing wings and paired engines under the body; the B-52 has fixed high wings with eight engines in four pods."
+    },
+    {
+      "id": "b-2",
+      "howToTell": "The B-1B has a long fuselage and a tall fin; the B-2 is a tailless flying wing."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Rockwell B-1 Lancer in flight",
+    "Rockwell B-1B Lancer"
+  ],
+  "usCount": {
+    "value": 45,
+    "source": "USAF B-1B fact sheet",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

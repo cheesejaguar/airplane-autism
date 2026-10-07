@@ -1,0 +1,79 @@
+{
+  "id": "atr",
+  "name": "ATR 42 / ATR 72",
+  "shortName": "ATR 42/72",
+  "aka": [
+    "ATR 42",
+    "ATR 72",
+    "ATR 72-600F"
+  ],
+  "manufacturer": "ATR (Airbus / Leonardo)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional",
+    "turboprop",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "ATR 42-300/320 (freighter)",
+    "ATR 72-200F",
+    "ATR 72-600F"
+  ],
+  "summary": "High-wing twin turboprop; in the US flown mainly as FedEx Feeder freighters by Mountain Air Cargo and Empire Airlines.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing with slight taper",
+      "Engine nacelles slung under the wing"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW120-series turboprops",
+      "Four-blade props on older 42/72s, six-blade composite props on -500/-600"
+    ],
+    "fuselage": [
+      "Long slender fuselage with an upswept rear",
+      "Main landing gear retracts into blister fairings on the lower fuselage sides, not the engine nacelles",
+      "Freighters have no cabin windows and a large forward cargo door"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin and dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "High wing with a T-tail on a twin-turboprop airliner",
+    "Main-gear blisters on the lower fuselage sides",
+    "Slim engine nacelles hanging under the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-6",
+      "howToTell": "The ATR is a much larger pressurized airliner with retractable gear and a T-tail; the Twin Otter has a strut-braced wing, fixed gear and a low tail."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The ATR has a high wing; the 1900 has a low wing with engines on top of it and small fins on the rear fuselage."
+    },
+    {
+      "id": "c-130h",
+      "howToTell": "The ATR has two engines and a T-tail; the C-130 has four engines, a low tail and an upswept rear loading ramp."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "ATR 72",
+    "ATR 42",
+    "ATR 72 on final approach"
+  ],
+  "usCount": {
+    "value": 50,
+    "source": "FedEx Feeder operator fleet data (Mountain Air Cargo 23, Empire Airlines 18, others; Mountain Air Cargo / ch-aviation)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

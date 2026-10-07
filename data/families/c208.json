@@ -1,0 +1,80 @@
+{
+  "id": "c208",
+  "name": "Cessna 208 Caravan",
+  "shortName": "Caravan",
+  "aka": [
+    "Grand Caravan",
+    "208B",
+    "Super Cargomaster",
+    "Caravan EX"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "turboprop",
+    "cargo",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1982,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "208 Caravan",
+    "208B Grand Caravan / Super Cargomaster",
+    "208B Grand Caravan EX",
+    "Amphibian / float versions"
+  ],
+  "summary": "Single-engine utility turboprop used for FedEx Feeder cargo, commuter, skydiving and floatplane work.",
+  "weft": {
+    "wings": [
+      "High-mounted, strut-braced straight wing with one strut per side"
+    ],
+    "engines": [
+      "Single PT6A turboprop in a long nose, usually with a three-blade prop",
+      "Exhaust stack on the right side of the cowling"
+    ],
+    "fuselage": [
+      "Long, boxy fuselage with rectangular windows",
+      "Fixed tricycle gear with spring-steel main legs",
+      "Often a large cargo pod under the belly; some on amphibious floats"
+    ],
+    "tail": [
+      "Conventional low tail with a tall swept fin and dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Single turboprop with a strut-braced high wing on a long boxy body",
+    "Large cargo pod slung under the belly",
+    "Fixed tricycle landing gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "kodiak",
+      "howToTell": "The Caravan is longer and lower-slung with a boxy body; the Kodiak is shorter and stubbier on taller gear with a tall fin."
+    },
+    {
+      "id": "c206",
+      "howToTell": "The Caravan is much larger with a turboprop nose and tricycle gear plus often a belly pod; the 206 is a small piston single."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The Caravan has a strut-braced high wing and fixed gear; the PC-12 has a low wing, retractable gear and a T-tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Cessna 208",
+    "Cessna 208 on final approach"
+  ],
+  "usCount": {
+    "value": 1060,
+    "source": "FAA registry active aircraft (Cessna and Textron Aviation 208/208B via myplane.com)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

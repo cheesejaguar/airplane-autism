@@ -1,0 +1,69 @@
+{
+  "id": "b-2",
+  "name": "B-2 Spirit",
+  "shortName": "B-2",
+  "aka": [
+    "Spirit",
+    "Stealth Bomber"
+  ],
+  "manufacturer": "Northrop Grumman",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "bomber"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1989,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "B-2A"
+  ],
+  "summary": "Tailless stealth flying-wing heavy bomber based at Whiteman AFB; one of the rarest and most recognizable aircraft in the US inventory.",
+  "weft": {
+    "wings": [
+      "Pure flying wing with no separate fuselage",
+      "Straight swept leading edge with a sawtooth W-shaped trailing edge",
+      "Thin wingtips with no winglets"
+    ],
+    "engines": [
+      "Four engines buried inside the wing, two on each side of the center",
+      "Jagged intakes on the upper surface of the wing",
+      "Exhausts recessed in trenches on top of the wing trailing edge"
+    ],
+    "fuselage": [
+      "Raised central hump holding the cockpit with small angular windows",
+      "Dark grey, smooth stealth finish"
+    ],
+    "tail": [
+      "No vertical or horizontal tail at all",
+      "Control surfaces along the sawtooth trailing edge"
+    ]
+  },
+  "tellTales": [
+    "Bat-like flying wing with no tail",
+    "Sawtooth W-shaped trailing edge",
+    "Engine intakes on top of the wing either side of a central hump"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-1b",
+      "howToTell": "The B-2 is a tailless flying wing with no fuselage; the B-1B is a long-bodied swing-wing bomber with a tall fin."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Northrop Grumman B-2 Spirit in flight",
+    "Northrop Grumman B-2 Spirit"
+  ],
+  "usCount": {
+    "value": 19,
+    "source": "USAF B-2 Spirit fact sheet",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

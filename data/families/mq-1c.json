@@ -1,0 +1,68 @@
+{
+  "id": "mq-1c",
+  "name": "MQ-1C Gray Eagle",
+  "shortName": "MQ-1C",
+  "aka": [
+    "Gray Eagle",
+    "Sky Warrior"
+  ],
+  "manufacturer": "General Atomics Aeronautical Systems",
+  "sector": "military",
+  "category": "uas",
+  "roles": [
+    "isr",
+    "attack"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 2004,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "MQ-1C Gray Eagle",
+    "MQ-1C Gray Eagle Extended Range"
+  ],
+  "summary": "Army medium-altitude long-endurance drone in the Predator family, powered by a heavy-fuel piston engine and armed with Hellfire missiles.",
+  "weft": {
+    "wings": [
+      "Very long, narrow straight wing mounted mid-fuselage",
+      "Underwing pylons for Hellfire missiles"
+    ],
+    "engines": [
+      "Single heavy-fuel piston engine driving a rear pusher propeller"
+    ],
+    "fuselage": [
+      "No cockpit: slender fuselage with a bulbous nose for the satellite dish",
+      "Sensor ball under the nose",
+      "Slimmer body than the larger Reaper"
+    ],
+    "tail": [
+      "Inverted V-tail with both surfaces pointing downward",
+      "Small ventral fin below the propeller"
+    ]
+  },
+  "tellTales": [
+    "Downward-pointing inverted V-tail",
+    "Slender windowless drone with a nose sensor ball and rear pusher propeller",
+    "Very long narrow wings with missile pylons"
+  ],
+  "confusedWith": [
+    {
+      "id": "mq-9",
+      "howToTell": "The MQ-1C has a downward inverted V-tail and a slimmer body; the MQ-9 has an upward V-tail with a fin underneath and a fatter fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "MQ-1C Gray Eagle"
+  ],
+  "usCount": {
+    "value": 150,
+    "source": "US Army / GA-ASI deliveries; FlightGlobal World Air Forces 2025",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "dhc-6",
+  "name": "DHC-6 Twin Otter",
+  "shortName": "Twin Otter",
+  "aka": [
+    "Twotter",
+    "UV-18",
+    "DHC-6 Series 400"
+  ],
+  "manufacturer": "de Havilland Canada / Viking Air",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "turboprop",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "DHC-6-100/200 (short nose)",
+    "DHC-6-300",
+    "DHC-6 Series 400",
+    "UV-18 (USAF)",
+    "Float and ski versions"
+  ],
+  "summary": "Rugged STOL twin turboprop used for skydiving, bush, island and polar work; the USAF Academy flies a few as the UV-18.",
+  "weft": {
+    "wings": [
+      "High-mounted, straight untapered wing",
+      "Single strut bracing each wing",
+      "Full-span slotted flaps"
+    ],
+    "engines": [
+      "Two PT6A turboprops mounted on the wing leading edge, with three-blade props"
+    ],
+    "fuselage": [
+      "Long, slab-sided boxy fuselage with a long pointed baggage nose (short on Series 100)",
+      "Fixed tricycle gear, or floats or skis"
+    ],
+    "tail": [
+      "Conventional low tail with a tall fin and prominent dorsal fillet",
+      "Rectangular tailplane"
+    ]
+  },
+  "tellTales": [
+    "Twin turboprops on a straight, strut-braced high wing",
+    "Fixed landing gear on a boxy twin",
+    "Long pointed nose ahead of a slab-sided cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "atr",
+      "howToTell": "The Twin Otter is much smaller with fixed gear, wing struts and a low tail; the ATR has retractable gear, no struts and a T-tail."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The Twin Otter has two wing-mounted engines; the Caravan has a single engine in the nose."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "De Havilland Canada DHC-6 Twin Otter",
+    "De Havilland Canada DHC-6 Twin Otter on final approach"
+  ],
+  "usCount": {
+    "value": 120,
+    "source": "FAA registry active aircraft (de Havilland and Viking Air DHC-6 models via myplane.com)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "b757",
+  "name": "Boeing 757",
+  "shortName": "757",
+  "aka": [
+    "757-200",
+    "757-300",
+    "C-32"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1982,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "757-200",
+    "757-200PF / 757-200SF freighters",
+    "757-300",
+    "C-32A (USAF VIP)"
+  ],
+  "summary": "Long, powerful single-aisle twin flown by Delta and United and as a freighter by FedEx and UPS; the USAF flies a handful as the C-32A.",
+  "weft": {
+    "wings": [
+      "Swept low wing that looks short for the long fuselage",
+      "Many US airframes have tall blended winglets; others have plain tips"
+    ],
+    "engines": [
+      "Two very large turbofans (RB211 or PW2000) for a narrowbody, hung far forward of the wing"
+    ],
+    "fuselage": [
+      "Very long, slender 6-abreast fuselage (the -300 even longer)",
+      "Tall landing gear gives a nose-high, stalky stance",
+      "Droopy pointed nose with a sloping six-pane windshield"
+    ],
+    "tail": [
+      "Tall swept fin with a straight leading edge",
+      "Low-set tailplane"
+    ]
+  },
+  "tellTales": [
+    "Long thin pencil-like fuselage on tall stilt-like gear",
+    "Big engines on a single-aisle body",
+    "Downward-sloping pointed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "b767",
+      "howToTell": "The 757 is long and slender with a single aisle and four-wheel bogies on tall gear; the 767 is a short, fat twin-aisle widebody."
+    },
+    {
+      "id": "a320ceo",
+      "howToTell": "The 757 is far longer with tall gear, much larger engines and a droopy pointed nose; the A321 sits low with a blunt rounded nose."
+    },
+    {
+      "id": "b737ng",
+      "howToTell": "The 757 is much longer with tall gear and huge engines; the 737 sits low with flat-bottomed engine intakes."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 757 in flight",
+    "Boeing 757 on final approach",
+    "Boeing 757-200"
+  ],
+  "usCount": {
+    "value": 350,
+    "source": "Airline fleet data (Delta, United, FedEx, UPS; planespotters.net)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}
