@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import { DrillSession } from "@/components/quiz/drill-session";
+import { DrillSessionRoute } from "@/components/quiz/drill-session";
 
 export const metadata: Metadata = { title: "Drill" };
 
@@ -13,7 +13,7 @@ export default function SessionPage() {
         </div>
       }
     >
-      <DrillSession />
+      <DrillSessionRoute />
     </Suspense>
   );
 }

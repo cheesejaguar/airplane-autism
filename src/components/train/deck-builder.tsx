@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { Bookmark, Check, ChevronsUpDown, Crosshair, History, Trash2 } from "lucide-react";
@@ -95,14 +95,22 @@ const toggle = <T,>(list: T[], v: T) => (list.includes(v) ? list.filter((x) => x
 
 export function DeckBuilder({ families, manufacturers }: { families: FamilyLite[]; manufacturers: string[] }) {
   const router = useRouter();
-  const [deck, setDeck] = useState<DeckConfig>(DEFAULT_DECK);
+  const [deck, setDeckState] = useState<DeckConfig>(DEFAULT_DECK);
+  const touched = useRef(false);
+  const setDeck: typeof setDeckState = (v) => {
+    touched.current = true;
+    setDeckState(v);
+  };
   const [presets, setPresets] = useState<PresetDTO[]>([]);
   const [presetName, setPresetName] = useState("");
   const [due, setDue] = useState<{ due: number; learned: number } | null>(null);
   const [starting, startTransition] = useTransition();
 
   useEffect(() => {
-    getDefaultDeck().then((d) => d && setDeck({ ...d, familyIds: [] })).catch(() => {});
+    // Only restore the saved default if the user hasn't started editing yet.
+    getDefaultDeck()
+      .then((d) => d && !touched.current && setDeckState({ ...d, familyIds: [] }))
+      .catch(() => {});
     listPresets().then(setPresets).catch(() => {});
     getDueSummary().then(setDue).catch(() => {});
   }, []);

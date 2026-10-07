@@ -122,7 +122,7 @@ export async function startSession(configInput: unknown): Promise<SessionStart> 
     .where(and(eq(cardState.userId, viewer.id), inArray(cardState.familyId, pool.map((f) => f.id))));
   const cards = new Map<string, CardRow>(rows.map((r) => [r.familyId, r]));
   const rng = createRng();
-  const queue = buildQueue({ pool, cards, size: config.sessionLength, newLimit: config.newPerSession, now: new Date(), rng });
+  const queue = buildQueue({ pool, cards, size: config.sessionLength, newLimit: config.newPerSession, now: new Date(), rng, cycle: config.familyIds.length > 0 });
 
   const sessionId = id();
   await db.insert(trainingSession).values({ id: sessionId, userId: viewer.id, deckConfig: config, targetCount: queue.length });
@@ -166,13 +166,16 @@ function revealFor(familyId: string, imageId: string): FamilyReveal {
   };
 }
 
-function pickedSummary(pickedId: string, targetId: string): PickedSummary {
+/**
+ * Summary of the type the user picked. `howToTell` sentences usually name both aircraft, so they
+ * are only included once the answer has been revealed — never in a retry hint.
+ */
+function pickedSummary(pickedId: string, targetId: string, revealed: boolean): PickedSummary {
   const p = getFamily(pickedId)!;
   const target = getFamily(targetId)!;
-  // How-to-tell text written from the target's perspective names the target, so only the
-  // picked family's own sentence (if it lists the target) is safe to show before reveal.
-  const howToTell =
-    target.confusedWith.find((c) => c.id === pickedId)?.howToTell ?? p.confusedWith.find((c) => c.id === targetId)?.howToTell;
+  const howToTell = revealed
+    ? (target.confusedWith.find((c) => c.id === pickedId)?.howToTell ?? p.confusedWith.find((c) => c.id === targetId)?.howToTell)
+    : undefined;
   return { id: p.id, name: p.name, label: label(p), tellTales: p.tellTales.slice(0, 2), howToTell };
 }
 
@@ -198,18 +201,22 @@ export async function submitAnswer(input: {
   const attemptNo = Math.min(Math.max(1, Math.round(input.attemptNo)), 2);
   const latencyMs = Math.min(Math.max(0, Math.round(input.latencyMs)), 120_000);
 
-  const already = await db
-    .select({ id: review.id })
-    .from(review)
-    .where(and(eq(review.questionId, q.qid), eq(review.attemptNo, attemptNo)))
-    .limit(1);
-  if (already.length) return { status: "error", message: "Already answered" };
+  // A second attempt is only allowed after a recorded wrong first attempt.
+  if (attemptNo === 2) {
+    const [first] = await db
+      .select({ correct: review.correct })
+      .from(review)
+      .where(and(eq(review.questionId, q.qid), eq(review.attemptNo, 1)))
+      .limit(1);
+    if (!first || first.correct) return { status: "error", message: "Already answered" };
+  }
 
   const correct = input.chosenId === q.fid;
   const final = correct || attemptNo >= 2;
   const rating = final ? ratingFor({ correct, attempts: attemptNo, hintUsed: input.hintUsed, latencyMs, exposure: q.exposure }) : null;
 
-  await db.insert(review).values({
+  // The unique (question_id, attempt_no) index makes double submits a no-op.
+  const inserted = await db.insert(review).values({
     id: id(),
     userId: viewer.id,
     sessionId: q.sid,
@@ -225,7 +232,8 @@ export async function submitAnswer(input: {
     hintShown: input.hintUsed || attemptNo > 1,
     latencyMs,
     rating,
-  });
+  }).onConflictDoNothing().returning({ id: review.id });
+  if (!inserted.length) return { status: "error", message: "Already answered" };
 
   if (final && rating) {
     const now = new Date();
@@ -247,7 +255,7 @@ export async function submitAnswer(input: {
     return {
       status: "retry",
       eliminated: input.chosenId,
-      hint: { lookFor: f.tellTales[input.hintUsed && f.tellTales.length > 1 ? 1 : 0], picked: pickedSummary(input.chosenId, q.fid) },
+      hint: { lookFor: f.tellTales[input.hintUsed && f.tellTales.length > 1 ? 1 : 0], picked: pickedSummary(input.chosenId, q.fid, false) },
     };
   }
 
@@ -267,7 +275,7 @@ export async function submitAnswer(input: {
     status: "revealed",
     rating: rating!,
     reveal: revealFor(q.fid, q.iid),
-    picked: pickedSummary(input.chosenId, q.fid),
+    picked: pickedSummary(input.chosenId, q.fid, true),
     requeue,
   };
 }
@@ -302,16 +310,24 @@ export async function finishSession(sessionId: string): Promise<SessionSummary |
     }
     latencySum += last.latencyMs;
   }
-  const newLearned = await db
-    .select({ n: sql<number>`count(*)::int` })
-    .from(cardState)
-    .where(and(eq(cardState.userId, viewer.id), eq(cardState.reps, 1), inArray(cardState.familyId, [...new Set(rows.map((r) => r.familyId))].concat("__none__"))));
+  // Aircraft seen for the very first time in this session and answered correctly at the end.
+  const [sess] = await db.select({ startedAt: trainingSession.startedAt }).from(trainingSession).where(eq(trainingSession.id, sessionId));
+  const sessionFamilies = [...new Set(rows.map((r) => r.familyId))];
+  let newLearned = 0;
+  if (sess && sessionFamilies.length) {
+    const seenBefore = await db
+      .selectDistinct({ familyId: review.familyId })
+      .from(review)
+      .where(and(eq(review.userId, viewer.id), inArray(review.familyId, sessionFamilies), sql`${review.createdAt} < ${sess.startedAt}`));
+    const before = new Set(seenBefore.map((r) => r.familyId));
+    newLearned = sessionFamilies.filter((fid) => !before.has(fid) && rows.some((r) => r.familyId === fid && r.correct)).length;
+  }
   return {
     total: byQuestion.size,
     firstTry,
     afterHint,
     missed: [...missed.values()],
     avgLatencyMs: byQuestion.size ? Math.round(latencySum / byQuestion.size) : 0,
-    newLearned: newLearned[0]?.n ?? 0,
+    newLearned,
   };
 }

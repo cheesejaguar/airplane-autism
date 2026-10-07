@@ -16,6 +16,8 @@ export function buildQueue(opts: {
   newLimit: number;
   now: Date;
   rng: Rng;
+  /** Repeat the pool to fill the session (used for explicit family lists). */
+  cycle?: boolean;
 }): string[] {
   const { pool, cards, size, newLimit, now, rng } = opts;
   const due: CardRow[] = [];
@@ -48,5 +50,16 @@ export function buildQueue(opts: {
   if (out.length === 0) for (const f of newOrdered) if (out.length < size) out.push(f.id);
 
   // Interleave new and review so the session doesn't front-load all reviews.
-  return shuffle(out, rng);
+  const ordered = shuffle(out, rng);
+
+  // Small explicit decks (a confusion pair, "drill the misses") cycle until the session is full,
+  // never showing the same aircraft twice in a row.
+  if (opts.cycle && ordered.length) {
+    while (ordered.length < size) {
+      const round = shuffle([...new Set(ordered)], rng);
+      if (round.length > 1 && round[0] === ordered[ordered.length - 1]) round.push(round.shift()!);
+      ordered.push(...round.slice(0, size - ordered.length));
+    }
+  }
+  return ordered;
 }

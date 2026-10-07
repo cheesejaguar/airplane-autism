@@ -23,6 +23,12 @@ export function decodeDeck(value: string | null | undefined): DeckConfig {
   }
 }
 
-export function trainHref(config: Partial<DeckConfig>): string {
-  return `/train/session?deck=${encodeDeck(parseDeckConfig({ ...DEFAULT_DECK, ...config }))}`;
+export function trainHref(config: Partial<DeckConfig>, run?: number): string {
+  const merged = {
+    ...DEFAULT_DECK,
+    ...config,
+    sessionLength: Math.min(100, Math.max(5, Math.round(config.sessionLength ?? DEFAULT_DECK.sessionLength))),
+    newPerSession: Math.min(50, Math.max(0, Math.round(config.newPerSession ?? DEFAULT_DECK.newPerSession))),
+  };
+  return `/train/session?deck=${encodeDeck(parseDeckConfig(merged))}${run ? `&run=${run}` : ""}`;
 }

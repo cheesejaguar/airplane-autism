@@ -10,6 +10,7 @@ import {
   smallint,
   text,
   timestamp,
+  uniqueIndex,
 } from "drizzle-orm/pg-core";
 import { user } from "./auth-schema";
 import type { DeckConfig } from "@/lib/deck/config";
@@ -79,7 +80,7 @@ export const review = pgTable(
   (t) => [
     index("review_user_created_idx").on(t.userId, t.createdAt),
     index("review_user_family_idx").on(t.userId, t.familyId),
-    index("review_question_idx").on(t.questionId),
+    uniqueIndex("review_question_attempt_uq").on(t.questionId, t.attemptNo),
   ],
 );
 

@@ -27,6 +27,8 @@ type Props = {
   /** Keep the photo hidden and the clock stopped until released (e.g. a "flash it" button) */
   hold?: boolean;
   overlay?: React.ReactNode;
+  /** The photo failed to load */
+  onError?: () => void;
 };
 
 const BRACKET_COLOR: Record<ViewportState, string> = {
@@ -104,11 +106,13 @@ export function PhotoViewport({
   alt = "Aircraft to identify",
   hold = false,
   overlay,
+  onError,
 }: Props) {
   const [loaded, setLoaded] = useState(false);
   const [expired, setExpired] = useState(false);
   const [progress, setProgress] = useState(1);
-  const shownRef = useRef(false);
+  /** When the photo first became visible; survives effect re-runs (StrictMode, Activity re-show). */
+  const shownAtRef = useRef<number | null>(null);
 
   // Parents remount this component per photo (via `key`), so state starts fresh each time.
   // A photo served from cache may finish loading before hydration; catch it via the ref.
@@ -117,11 +121,13 @@ export function PhotoViewport({
   };
 
   useEffect(() => {
-    if (!loaded || hold || shownRef.current) return;
-    shownRef.current = true;
-    onShown?.();
+    if (!loaded || hold) return;
+    if (shownAtRef.current === null) {
+      shownAtRef.current = performance.now();
+      onShown?.();
+    }
     if (!exposureMs) return;
-    const start = performance.now();
+    const start = shownAtRef.current;
     let raf = 0;
     const tick = () => {
       const p = 1 - (performance.now() - start) / exposureMs;
@@ -132,6 +138,9 @@ export function PhotoViewport({
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
   }, [loaded, hold, exposureMs, onShown]);
+
+  // Timed exposures appear instantly so no fade eats into the viewing window.
+  const timed = !!exposureMs && !revealed;
 
   const hidden = (expired || hold) && !revealed;
   const distant = conditions === "distant" && !revealed;
@@ -151,7 +160,7 @@ export function PhotoViewport({
       <motion.div
         className="absolute inset-0 grid place-items-center"
         animate={{ scale: distant ? 0.34 : 1, opacity: hidden ? 0 : 1 }}
-        transition={{ duration: hidden ? 0.12 : 0.5, ease: [0.2, 0.8, 0.2, 1] }}
+        transition={{ duration: hidden ? 0.12 : timed ? 0 : 0.5, ease: [0.2, 0.8, 0.2, 1] }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element -- pre-sized Blob renditions; no optimizer needed */}
         <img
@@ -165,8 +174,10 @@ export function PhotoViewport({
           alt={alt}
           draggable={false}
           onLoad={() => setLoaded(true)}
+          onError={() => onError?.()}
           className={cn(
-            "size-full select-none object-cover transition-[filter,opacity] duration-500",
+            "size-full select-none object-cover duration-500",
+            timed ? "transition-[filter]" : "transition-[filter,opacity]",
             loaded ? "opacity-100" : "opacity-0",
             distant && "rounded-md object-contain",
           )}

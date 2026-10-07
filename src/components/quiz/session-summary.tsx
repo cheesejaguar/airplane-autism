@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { animate, motion } from "motion/react";
 import { RotateCcw, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -24,6 +25,7 @@ function Count({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 export function SessionSummaryView({ summary, deck }: { summary: SessionSummary; deck: DeckConfig }) {
+  const router = useRouter();
   const pct = summary.total ? Math.round((summary.firstTry / summary.total) * 100) : 0;
   const ring = 2 * Math.PI * 52;
   return (
@@ -89,16 +91,20 @@ export function SessionSummaryView({ summary, deck }: { summary: SessionSummary;
       )}
 
       <div className="mt-10 flex flex-wrap gap-3">
-        <Button asChild size="lg">
-          <Link href={trainHref(deck)}>
-            <RotateCcw /> Train again
-          </Link>
+        <Button size="lg" onClick={() => router.push(trainHref(deck, Date.now()))}>
+          <RotateCcw /> Train again
         </Button>
         {summary.missed.length > 0 && (
-          <Button asChild size="lg" variant="outline">
-            <Link href={trainHref({ ...deck, familyIds: summary.missed.map((m) => m.id), sessionLength: Math.max(5, summary.missed.length * 2), newPerSession: 50 })}>
-              <Target /> Drill the misses
-            </Link>
+          <Button
+            size="lg"
+            variant="outline"
+            onClick={() =>
+              router.push(
+                trainHref({ ...deck, familyIds: summary.missed.map((m) => m.id), sessionLength: summary.missed.length * 2, newPerSession: 50 }, Date.now()),
+              )
+            }
+          >
+            <Target /> Drill the misses
           </Button>
         )}
         <Button asChild size="lg" variant="ghost">

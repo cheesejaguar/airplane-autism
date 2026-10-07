@@ -108,11 +108,13 @@ export async function getStats(userId: string, tz: string): Promise<StatsData> {
       .select({
         id: trainingSession.id,
         startedAt: trainingSession.startedAt,
-        questions: sql<number>`(select count(*)::int from ${review} r where r.session_id = ${trainingSession.id} and r.attempt_no = 1)`,
-        firstTry: sql<number>`(select count(*)::int from ${review} r where r.session_id = ${trainingSession.id} and r.attempt_no = 1 and r.correct and not r.hint_shown)`,
+        questions: sql<number>`count(${review.id}) filter (where ${review.attemptNo} = 1)::int`,
+        firstTry: sql<number>`count(${review.id}) filter (where ${review.attemptNo} = 1 and ${review.correct} and not ${review.hintShown})::int`,
       })
       .from(trainingSession)
+      .leftJoin(review, eq(review.sessionId, trainingSession.id))
       .where(eq(trainingSession.userId, userId))
+      .groupBy(trainingSession.id, trainingSession.startedAt)
       .orderBy(desc(trainingSession.startedAt))
       .limit(12),
     db.select({ n }).from(trainingSession).where(eq(trainingSession.userId, userId)),

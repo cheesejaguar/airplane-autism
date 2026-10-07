@@ -27,6 +27,12 @@ describe("buildQueue", () => {
     expect(q.length).toBe(6); // 2 due + 3 new + 1 study-ahead
     expect(new Set(q).size).toBe(q.length);
   });
+  it("cycles a small explicit deck to fill the session without back-to-back repeats", () => {
+    const pair = [fam("x"), fam("y")];
+    const q = buildQueue({ pool: pair, cards: new Map(), size: 10, newLimit: 20, now, rng: createRng(3), cycle: true });
+    expect(q).toHaveLength(10);
+    for (let i = 1; i < q.length; i++) expect(q[i]).not.toBe(q[i - 1]);
+  });
   it("never returns an empty session for review-only decks", () => {
     const q = buildQueue({ pool, cards: new Map(), size: 5, newLimit: 0, now, rng: createRng(1) });
     expect(q).toHaveLength(5);

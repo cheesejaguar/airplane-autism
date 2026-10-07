@@ -46,10 +46,16 @@ function preload(q?: ClientQuestion) {
   img.src = q.image.src;
 }
 
-export function DrillSession() {
+/** Remounts the drill whenever the deck or run changes (search params alone don't remount a page). */
+export function DrillSessionRoute() {
   const params = useSearchParams();
+  const key = `${params.get("deck") ?? ""}|${params.get("run") ?? ""}`;
+  return <DrillSession key={key} deckParam={params.get("deck")} />;
+}
+
+export function DrillSession({ deckParam }: { deckParam: string | null }) {
   const router = useRouter();
-  const deck = useMemo(() => decodeDeck(params.get("deck")), [params]);
+  const deck = useMemo(() => decodeDeck(deckParam), [deckParam]);
   const [phase, setPhase] = useState<Phase>({ kind: "booting" });
   const [sessionId, setSessionId] = useState("");
   const [queue, setQueue] = useState<ClientQuestion[]>([]);
@@ -60,6 +66,7 @@ export function DrillSession() {
   const [autoAdvance, setAutoAdvance] = useLocalFlag(AUTO_KEY, true);
   const [paused, setPaused] = useState(false);
   const shownAt = useRef<number>(0);
+  const [shown, setShown] = useState(false);
   const booted = useRef(false);
 
   // Boot: ensure a (guest) session, then fetch questions.
@@ -91,6 +98,7 @@ export function DrillSession() {
 
   const onShown = useCallback(() => {
     shownAt.current = performance.now();
+    setShown(true);
   }, []);
 
   const finish = useCallback(async () => {
@@ -105,6 +113,8 @@ export function DrillSession() {
       startTransition(finish);
       return;
     }
+    shownAt.current = 0;
+    setShown(false);
     setIndex((i) => i + 1);
     setQ(freshQ());
     setMarks((m) => m.map((x, i) => (i === index + 1 ? "current" : x)));
@@ -149,7 +159,7 @@ export function DrillSession() {
 
   const choose = useCallback(
     (chosenId: string) => {
-      if (!current || q.result || pending) return;
+      if (!current || q.result || pending || !shown) return;
       const latencyMs = shownAt.current ? performance.now() - shownAt.current : 0;
       startTransition(async () => {
         const res = await submitAnswer({ token: current.token, chosenId, attemptNo: q.attempt, latencyMs, hintUsed: q.hintUsed });
@@ -160,7 +170,7 @@ export function DrillSession() {
         applyResult(res, chosenId);
       });
     },
-    [applyResult, current, pending, q.attempt, q.hintUsed, q.result],
+    [applyResult, current, pending, q.attempt, q.hintUsed, q.result, shown],
   );
 
   const askHint = useCallback(() => {
@@ -248,6 +258,10 @@ export function DrillSession() {
               state={viewportState}
               revealed={!!q.result}
               onShown={onShown}
+              onError={() => {
+                toast.error("That photo didn't load — skipping to the next aircraft.");
+                next();
+              }}
               shakeKey={q.shake}
               readouts={{
                 left: current.isNew ? "New contact" : "Review",
@@ -313,7 +327,7 @@ export function DrillSession() {
           </AnimatePresence>
 
           {current && !q.result && (
-            <ChoiceGrid key={current.token} options={current.options} statuses={q.statuses} disabled={!!q.result || pending} onChoose={choose} />
+            <ChoiceGrid key={current.token} options={current.options} statuses={q.statuses} disabled={!!q.result || pending || !shown} onChoose={choose} />
           )}
 
 

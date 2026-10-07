@@ -28,7 +28,9 @@ function GoogleMark() {
 export function AuthForm({ mode, providers }: { mode: "sign-in" | "sign-up"; providers: ("github" | "google")[] }) {
   const router = useRouter();
   const params = useSearchParams();
-  const next = params.get("next") || "/stats";
+  // Only same-origin paths are allowed as post-auth destinations (no open redirects).
+  const rawNext = params.get("next");
+  const next = rawNext && rawNext.startsWith("/") && !rawNext.startsWith("//") && !rawNext.startsWith("/\\") ? rawNext : "/stats";
   const [error, setError] = useState<string | null>(null);
   const [pending, start] = useTransition();
   const { data } = authClient.useSession();
