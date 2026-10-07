@@ -37,6 +37,7 @@ Required environment variables:
 |---|---|
 | `DATABASE_URL` / `DATABASE_URL_UNPOOLED` | Neon Postgres (from the Vercel Marketplace) |
 | `BETTER_AUTH_SECRET` | Session signing |
+| `BETTER_AUTH_URL` | Public origin of the deployment (e.g. `https://tally.example.com`); required for custom domains and OAuth callbacks |
 | `QUESTION_TOKEN_SECRET` | Encrypts quiz question tokens, so the answer never reaches the client |
 | `BLOB_READ_WRITE_TOKEN` | Image uploads (pipeline only) |
 | `VERCEL_OIDC_TOKEN` | AI Gateway auth for the pipeline (refresh with `vercel env pull`) |
