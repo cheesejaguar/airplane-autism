@@ -21,6 +21,8 @@ const FAST_MODELS = ["anthropic/claude-haiku-4.5", "google/gemini-2.5-flash", "o
 const STRONG_MODEL = "anthropic/claude-sonnet-5.5";
 const PER_FAMILY = 8;
 const BATCH = 7;
+const FIRST_PASS = 14;
+const ENOUGH = 6;
 
 const verdictSchema = z.object({
   matchesType: z
@@ -188,7 +190,12 @@ async function main() {
     const cacheFile = path.join(CACHE, "classify", `${f.id}.json`);
     const cache: Record<string, Verdict | { error: string }> = fs.existsSync(cacheFile) ? readJson(cacheFile) : {};
 
-    const todo = candidates.filter((c) => !cache[c.title] || "error" in cache[c.title]);
+    // Lazy: classify the best-ranked half first; only fall back to the rest if too few are usable.
+    const usableSoFar = () => candidates.filter((c) => { const v = cache[c.title]; return v && !("error" in v) && isUsable(v); }).length;
+    const pending = candidates.filter((c) => !cache[c.title] || "error" in cache[c.title]);
+    const firstPass = candidates.slice(0, FIRST_PASS);
+    let todo = pending.filter((c) => firstPass.includes(c));
+    if (!todo.length && usableSoFar() < ENOUGH) todo = pending;
     // Fetch the already-rendered 960px Commons thumbnails (other sizes trigger Wikimedia's
     // thumbnail rate limits) and downscale locally — 512px is plenty to judge type and angle.
     const prepared = (
@@ -241,6 +248,22 @@ async function main() {
       return v && !("error" in v) && v.matchesType && v.confidence < 0.75;
     });
     if (borderline.length) await runBatches(borderline, () => ({ model: STRONG_MODEL, lane: FAST_MODELS.length }));
+    if (usableSoFar() < ENOUGH && todo.length !== pending.length) {
+      const rest = pending.filter((c) => !todo.includes(c));
+      const more = (await Promise.all(rest.map((c) => dl(async (): Promise<Prepared | null> => {
+        try {
+          const raw = await download(c.thumb);
+          return { c, bytes: new Uint8Array(await sharp(raw).resize({ width: 512, withoutEnlargement: true }).jpeg({ quality: 82 }).toBuffer()) };
+        } catch (e) {
+          cache[c.title] = { error: (e as Error).message };
+          return null;
+        }
+      })))).filter((x): x is Prepared => !!x);
+      await runBatches(more, () => {
+        const lane = rr++ % FAST_MODELS.length;
+        return { model: FAST_MODELS[lane], lane };
+      });
+    }
     writeJson(cacheFile, cache);
 
     const usable = candidates

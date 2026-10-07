@@ -1,5 +1,10 @@
 import { expect, test, type Page } from "@playwright/test";
 
+// Deterministic drills: no auto-advance racing the test's clicks.
+test.beforeEach(async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem("tally:auto-advance", "off"));
+});
+
 /** Answers the current question wrong first (if possible), returning the option labels. */
 async function options(page: Page) {
   const group = page.getByRole("group", { name: "Choose the aircraft" });
@@ -17,7 +22,8 @@ test("guest drill: wrong answer shows a hint, second miss reveals, session summa
   // First question: pick options until we get either a retry hint or a correct reveal.
   const opts = await options(page);
   await opts.first().click();
-  const hint = page.getByText("Look for");
+  // Next keeps previously visited pages mounted (hidden), so scope to the live hint panel.
+  const hint = page.getByRole("status").filter({ hasText: "Look for" });
   const verdict = page.getByText(/Tally — confirmed|Confirmed on second look|Missed/);
   await expect(hint.or(verdict)).toBeVisible();
 
@@ -28,18 +34,15 @@ test("guest drill: wrong answer shows a hint, second miss reveals, session summa
     await expect(verdict).toBeVisible();
   }
 
-  // Answer the rest of the session quickly via keyboard.
-  for (let i = 0; i < 60; i++) {
-    if (await page.getByRole("heading", { name: /Session complete/i }).isVisible()) break;
-    const next = page.getByRole("button", { name: /Next aircraft|Finish session/ });
-    if (await next.isVisible()) {
-      await next.click();
-      continue;
-    }
+  // Answer the rest of the session with the keyboard shortcuts (1–4 answer, Enter = next).
+  const done = page.getByRole("heading", { name: /Session complete/i });
+  for (let i = 0; i < 80 && !(await done.isVisible()); i++) {
+    await page.keyboard.press("Enter");
+    await page.waitForTimeout(300);
     await page.keyboard.press("1");
-    await page.waitForTimeout(400);
-    if (await page.getByText("Look for").isVisible()) await page.keyboard.press("2");
-    await page.waitForTimeout(400);
+    await page.waitForTimeout(500);
+    await page.keyboard.press("2");
+    await page.waitForTimeout(500);
   }
   await expect(page.getByRole("heading", { name: /Session complete/i })).toBeVisible();
 
@@ -71,10 +74,11 @@ test("study page and compare page render", async ({ page }) => {
   const first = page.locator("ul a[href^='/study/']").first();
   await first.click();
   await expect(page.getByRole("heading", { name: "WEFT breakdown" })).toBeVisible();
-  const compare = page.getByRole("link", { name: /Compare/ }).first();
-  if (await compare.isVisible()) {
-    await compare.click();
+  const href = await page.locator("a[href^='/compare/']").first().getAttribute("href");
+  if (href) {
+    await page.goto(href);
     await expect(page.getByText("Head to head")).toBeVisible();
+    await expect(page.getByRole("table")).toBeVisible();
   }
 });
 
@@ -83,7 +87,7 @@ test("sign up merges guest progress", async ({ page }) => {
   const deck = Buffer.from(JSON.stringify({ sessionLength: 5 })).toString("base64url");
   await page.goto(`/train/session?deck=${deck}`);
   await (await options(page)).first().click();
-  await expect(page.getByText(/Look for|Tally — confirmed|Missed/).first()).toBeVisible();
+  await expect(page.getByRole("status").filter({ hasText: /Look for|Tally — confirmed|Missed/ }).first()).toBeVisible();
 
   await page.goto("/sign-up");
   await page.getByLabel("Name").fill("E2E Pilot");

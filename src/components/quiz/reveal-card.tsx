@@ -49,6 +49,7 @@ export function RevealCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", stiffness: 260, damping: 26 }}
       className="space-y-4"
+      role="status"
       aria-live="polite"
     >
       <div>
