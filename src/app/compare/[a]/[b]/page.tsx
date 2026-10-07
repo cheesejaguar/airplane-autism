@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { Crosshair } from "lucide-react";
 import { CompareView } from "@/components/study/compare-view";
 import { Button } from "@/components/ui/button";
@@ -33,7 +34,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 const WEFT_LABEL = { wings: "Wings", engines: "Engines", fuselage: "Fuselage", tail: "Tail" } as const;
 
-export default async function ComparePage({ params }: { params: Promise<Params> }) {
+export default function ComparePage({ params }: { params: Promise<Params> }) {
+  return (
+    <Suspense fallback={<div className="mx-auto w-full max-w-6xl px-4 py-12"><div className="h-96 animate-pulse rounded-xl bg-muted" /></div>}>
+      <CompareContent params={params} />
+    </Suspense>
+  );
+}
+
+async function CompareContent({ params }: { params: Promise<Params> }) {
   const { a, b } = await params;
   const fa = getFamily(a);
   const fb = getFamily(b);

@@ -152,15 +152,27 @@ async function main() {
     merges = output.merges;
     writeJson(mergeFile, merges);
   }
+  // Human curation (data/faa/curation.json) is applied on top of the model's merges.
+  type Curation = { merges: { from: string; into: string }[]; names: Record<string, string>; codeOverrides: Record<string, string | null>; exclude: Record<string, string> };
+  const curationFile = path.join(DATA, "faa", "curation.json");
+  const curation: Curation = fs.existsSync(curationFile) ? readJson(curationFile) : { merges: [], names: {}, codeOverrides: {}, exclude: {} };
+  const allMerges = [...merges, ...curation.merges];
   const resolve = (id: string) => {
     let cur = id;
-    for (let i = 0; i < 5; i++) {
-      const m = merges.find((x) => x.from === cur);
+    for (let i = 0; i < 6; i++) {
+      const m = allMerges.find((x) => x.from === cur);
       if (!m) break;
       cur = m.into;
     }
-    return cur;
+    return curation.exclude[cur] ? null : cur;
   };
+  for (const a of all) {
+    if (a.code in curation.codeOverrides) {
+      const to = curation.codeOverrides[a.code];
+      a.decision = to ? (proposed.has(to) || !readPlan().some((p) => p.id === to) ? "new" : "existing") : "exclude";
+      a.familyId = to;
+    }
+  }
 
   const existingIds = new Set([...families.map((f) => f.id), ...readPlan().map((p) => p.id)]);
   const familyMap: Record<string, string | null> = {};
@@ -168,11 +180,12 @@ async function main() {
   const newFamilies = new Map<string, { id: string; name: string; count: number; codes: string[]; examples: string[]; typeAircraft: string }>();
   for (const a of all) {
     const id = a.decision === "exclude" || !a.familyId ? null : resolve(a.familyId);
+    if (!id && a.familyId && curation.exclude[a.familyId]) a.decision = "exclude";
     familyMap[a.code] = id;
     if (!id) continue;
     totals.set(id, (totals.get(id) ?? 0) + a.count);
     if (!existingIds.has(id)) {
-      const nf = newFamilies.get(id) ?? { id, name: proposed.get(id)?.name ?? a.newFamilyName ?? id, count: 0, codes: [], examples: [], typeAircraft: a.typeAircraft };
+      const nf = newFamilies.get(id) ?? { id, name: curation.names[id] ?? proposed.get(id)?.name ?? a.newFamilyName ?? id, count: 0, codes: [], examples: [], typeAircraft: a.typeAircraft };
       nf.count += a.count;
       nf.codes.push(a.code);
       if (nf.examples.length < 6) nf.examples.push(`${a.mfr} ${a.model} (${a.count})`);
@@ -183,6 +196,7 @@ async function main() {
   writeJson(path.join(DATA, "faa", "family-map.json"), familyMap);
   const qualifying = [...newFamilies.values()].filter((f) => f.count > THRESHOLD).sort((a, b) => b.count - a.count);
   writeJson(path.join(DATA, "faa", "new-families.json"), qualifying);
+  writeJson(path.join(DATA, "faa", "excluded-families.json"), curation.exclude);
   writeJson(
     path.join(DATA, "faa", "family-totals.json"),
     Object.fromEntries([...totals.entries()].sort((a, b) => b[1] - a[1])),

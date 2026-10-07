@@ -1,0 +1,30 @@
+{
+  "_note": "Human review of the AI-proposed FAA family mapping. Applied by families-map.ts after the model's own merges.",
+  "merges": [
+    { "from": "aeronca-50-chief", "into": "aeronca-chief", "reason": "Pre- and post-war Chiefs are not distinguishable at a glance" },
+    { "from": "hs-125-700", "into": "hawker-800", "reason": "Same HS.125 airframe lineage" },
+    { "from": "mu-2-short", "into": "mu-2", "reason": "One visual family; fuselage length is an expert-level cue" },
+    { "from": "mu-2-long", "into": "mu-2", "reason": "One visual family; fuselage length is an expert-level cue" },
+    { "from": "waco-ymf", "into": "waco-f-series", "reason": "YMF is a modern-built F-series open-cockpit biplane" },
+    { "from": "pitts-s1", "into": "pitts", "reason": "S-1 and S-2 differ mainly in seat count" },
+    { "from": "pitts-s2", "into": "pitts", "reason": "S-1 and S-2 differ mainly in seat count" },
+    { "from": "iai-astra", "into": "g150", "reason": "G100/G150 are developments of the Astra with the same planform" },
+    { "from": "beech-sierra", "into": "beech-musketeer", "reason": "Sierra is the retractable Musketeer; nearly identical in the air" }
+  ],
+  "names": {
+    "mu-2": "Mitsubishi MU-2",
+    "pitts": "Pitts Special (S-1 / S-2)",
+    "g150": "IAI Astra / Gulfstream G100 / G150",
+    "beech-musketeer": "Beechcraft Musketeer / Sundowner / Sierra",
+    "stinson-junior": "Stinson Junior (S / R / SR)",
+    "aeronca-chief": "Aeronca Chief (50 / 11AC)",
+    "ch-46": "CH-46 Sea Knight / Boeing Vertol 107"
+  },
+  "codeOverrides": {
+    "8632004": "stinson-10"
+  },
+  "exclude": {
+    "dc-10": "FedEx retired its MD-10 freighters in 2022–23; the remaining registrations are stored airframes, not flying aircraft",
+    "temco-d16": "Twin Navion conversions — a handful of modified Navions, not a distinct production type"
+  }
+}

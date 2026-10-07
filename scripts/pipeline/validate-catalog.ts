@@ -8,7 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { ANGLES, imageSchema, type AircraftImage } from "../../src/lib/catalog/schema";
-import { DATA, loadFamilies, readJson } from "./lib";
+import { DATA, loadFamilies, readJson, readPlan } from "./lib";
 
 const warnOnly = process.argv.includes("--warn-only");
 const { families, errors } = loadFamilies();
@@ -38,12 +38,20 @@ for (const img of images) {
   else if (!img.author || !img.license || !img.sourceUrl) errors.push(`image ${img.id}: missing attribution`);
   if (!ids.has(img.familyId)) warnings.push(`image ${img.id}: orphaned (family ${img.familyId} not in catalog)`);
 }
+// Core (Phase 1) families must be drillable; long-tail families with too few public photos are
+// allowed to be study-only (reported as warnings).
+const core = new Set(readPlan().filter((p) => /^[A-E]$/.test(p.group)).map((p) => p.id));
+const studyOnly: string[] = [];
 for (const f of families) {
   const imgs = images.filter((i) => i.familyId === f.id);
   const angles = new Set(imgs.map((i) => i.angle));
-  if (imgs.length < 3) errors.push(`${f.id}: only ${imgs.length} images (need ≥3)`);
-  else if (angles.size < 3) errors.push(`${f.id}: only ${angles.size} distinct angles (${[...angles].join(", ")}; need ≥3 of ${ANGLES.join("/")})`);
+  const msg = `${f.id}: ${imgs.length} images, ${angles.size} angles (${[...angles].join(", ") || "none"})`;
+  if (imgs.length < 2) {
+    studyOnly.push(f.id);
+    (core.has(f.id) ? errors : warnings).push(`${msg} — study-only (needs ≥2 images to be drilled)`);
+  } else if (imgs.length < 3 || angles.size < 3) warnings.push(`${msg} — fewer than 3 images or angles of ${ANGLES.join("/")}`);
 }
+if (studyOnly.length) console.log(`study-only families (${studyOnly.length}): ${studyOnly.join(", ")}`);
 
 const totalsFile = path.join(DATA, "faa", "family-totals.json");
 if (fs.existsSync(totalsFile)) {

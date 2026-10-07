@@ -9,7 +9,7 @@ import { CATEGORY_LABELS_CLIENT } from "@/lib/catalog/labels";
 import type { FamilyLite } from "@/lib/catalog/lite";
 import type { Category } from "@/lib/catalog/schema";
 import type { Mastery } from "@/lib/srs";
-import { MASTERY_STEP } from "@/components/stats/mastery-map";
+import { MASTERY_STEP } from "@/lib/progress/mastery-style";
 import { cn } from "@/lib/utils";
 
 const MASTERY_STYLE = MASTERY_STEP;

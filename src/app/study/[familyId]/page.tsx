@@ -35,7 +35,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 const ANGLE_ORDER = ["side", "front-quarter", "front", "belly", "top", "rear-quarter", "rear"];
 
-export default async function FamilyPage({ params }: { params: Promise<Params> }) {
+export default function FamilyPage({ params }: { params: Promise<Params> }) {
+  return (
+    <Suspense fallback={<div className="mx-auto w-full max-w-6xl px-4 py-12"><div className="aspect-[16/10] w-full max-w-3xl animate-pulse rounded-xl bg-muted" /></div>}>
+      <FamilyContent params={params} />
+    </Suspense>
+  );
+}
+
+async function FamilyContent({ params }: { params: Promise<Params> }) {
   const f = getFamily((await params).familyId);
   if (!f) notFound();
   const imgs = [...familyImages(f.id)].sort((a, b) => ANGLE_ORDER.indexOf(a.angle) - ANGLE_ORDER.indexOf(b.angle) || b.quality - a.quality);

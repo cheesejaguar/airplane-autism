@@ -22,7 +22,8 @@
     "db:studio": "drizzle-kit studio",
     "pipeline:faa": "tsx scripts/pipeline/faa-aggregate.ts",
     "pipeline:map": "tsx scripts/pipeline/families-map.ts",
-    "pipeline:apply-faa": "tsx scripts/pipeline/families-apply-faa.ts"
+    "pipeline:apply-faa": "tsx scripts/pipeline/families-apply-faa.ts",
+    "pipeline:reciprocals": "tsx scripts/pipeline/apply-reciprocals.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.8.1",

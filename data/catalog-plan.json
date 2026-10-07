@@ -1,170 +1,2055 @@
 {
-  "_note": "Master list of Phase-1 family ids. Authoring groups: A=military fixed-wing & UAS, B=rotorcraft & tiltrotor (mil+civil), C=airliners/regional/cargo + utility turboprops, D=business jets & business turboprops, E=piston GA, vintage & warbirds. Cross-group confusedWith refs must use ids from this list.",
+  "_note": "Master list of Phase-1 family ids. Authoring groups: A=military fixed-wing & UAS, B=rotorcraft & tiltrotor (mil+civil), C=airliners/regional/cargo + utility turboprops, D=business jets & business turboprops, E=piston GA, vintage & warbirds. Cross-group confusedWith refs must use ids from this list. Phase 2 (FAA long tail): F1=rotorcraft, F2=jets/airliners, F3=turboprops, F4=ex-military warbirds/jets/trainers, F5=piston twins & amphibians, F6/F8=piston singles, F7=vintage biplanes, aerobatic & civil classics.",
   "families": [
-    { "id": "f-35", "name": "F-35 Lightning II", "group": "A" },
-    { "id": "f-22", "name": "F-22 Raptor", "group": "A" },
-    { "id": "f-15c", "name": "F-15C/D Eagle", "group": "A" },
-    { "id": "f-15e", "name": "F-15E Strike Eagle / F-15EX Eagle II", "group": "A" },
-    { "id": "f-16", "name": "F-16 Fighting Falcon", "group": "A" },
-    { "id": "fa-18ef", "name": "F/A-18E/F Super Hornet", "group": "A" },
-    { "id": "ea-18g", "name": "EA-18G Growler", "group": "A" },
-    { "id": "fa-18cd", "name": "F/A-18C/D Hornet", "group": "A" },
-    { "id": "f-5", "name": "F-5 Tiger II", "group": "A" },
-    { "id": "av-8b", "name": "AV-8B Harrier II", "group": "A" },
-    { "id": "a-10", "name": "A-10 Thunderbolt II", "group": "A" },
-    { "id": "b-1b", "name": "B-1B Lancer", "group": "A" },
-    { "id": "b-2", "name": "B-2 Spirit", "group": "A" },
-    { "id": "b-52", "name": "B-52H Stratofortress", "group": "A" },
-    { "id": "c-130h", "name": "C-130H Hercules", "group": "A" },
-    { "id": "c-130j", "name": "C-130J Super Hercules", "group": "A" },
-    { "id": "c-17", "name": "C-17 Globemaster III", "group": "A" },
-    { "id": "c-5", "name": "C-5M Super Galaxy", "group": "A" },
-    { "id": "kc-135", "name": "KC-135 Stratotanker", "group": "A" },
-    { "id": "rc-135", "name": "RC-135 Rivet Joint (and variants)", "group": "A" },
-    { "id": "kc-46", "name": "KC-46 Pegasus", "group": "A" },
-    { "id": "e-3", "name": "E-3 Sentry (AWACS)", "group": "A" },
-    { "id": "e-2", "name": "E-2 Hawkeye", "group": "A" },
-    { "id": "p-8", "name": "P-8 Poseidon", "group": "A" },
-    { "id": "e-6", "name": "E-6B Mercury", "group": "A" },
-    { "id": "u-2", "name": "U-2 Dragon Lady", "group": "A" },
-    { "id": "t-38", "name": "T-38 Talon", "group": "A" },
-    { "id": "t-6", "name": "T-6 Texan II", "group": "A" },
-    { "id": "t-45", "name": "T-45 Goshawk", "group": "A" },
-    { "id": "t-7", "name": "T-7 Red Hawk", "group": "A" },
-    { "id": "mq-9", "name": "MQ-9 Reaper", "group": "A" },
-    { "id": "mq-1c", "name": "MQ-1C Gray Eagle", "group": "A" },
-
-    { "id": "uh-60", "name": "UH-60 Black Hawk", "group": "B" },
-    { "id": "mh-60", "name": "MH-60 Seahawk / Jayhawk", "group": "B" },
-    { "id": "ah-64", "name": "AH-64 Apache", "group": "B" },
-    { "id": "ch-47", "name": "CH-47 Chinook", "group": "B" },
-    { "id": "ch-53e", "name": "CH-53E Super Stallion", "group": "B" },
-    { "id": "ch-53k", "name": "CH-53K King Stallion", "group": "B" },
-    { "id": "ah-1z", "name": "AH-1Z Viper", "group": "B" },
-    { "id": "uh-1y", "name": "UH-1Y Venom", "group": "B" },
-    { "id": "uh-1", "name": "UH-1 Huey / Bell 205 / 212", "group": "B" },
-    { "id": "bell-412", "name": "Bell 412", "group": "B" },
-    { "id": "v-22", "name": "V-22 Osprey", "group": "B" },
-    { "id": "r22", "name": "Robinson R22", "group": "B" },
-    { "id": "r44", "name": "Robinson R44", "group": "B" },
-    { "id": "r66", "name": "Robinson R66", "group": "B" },
-    { "id": "bell-206", "name": "Bell 206 JetRanger / LongRanger", "group": "B" },
-    { "id": "bell-407", "name": "Bell 407", "group": "B" },
-    { "id": "bell-429", "name": "Bell 429", "group": "B" },
-    { "id": "bell-505", "name": "Bell 505 Jet Ranger X", "group": "B" },
-    { "id": "bell-47", "name": "Bell 47", "group": "B" },
-    { "id": "h125", "name": "Airbus H125 / AS350 / AS355", "group": "B" },
-    { "id": "h130", "name": "Airbus H130 / EC130", "group": "B" },
-    { "id": "h135", "name": "Airbus H135 / EC135", "group": "B" },
-    { "id": "h145", "name": "Airbus H145 / EC145 / UH-72 Lakota", "group": "B" },
-    { "id": "as365", "name": "Airbus AS365 Dauphin / MH-65 Dolphin", "group": "B" },
-    { "id": "aw139", "name": "Leonardo AW139 / MH-139 Grey Wolf", "group": "B" },
-    { "id": "aw109", "name": "Leonardo AW109", "group": "B" },
-    { "id": "aw119", "name": "Leonardo AW119 / TH-73 Thrasher", "group": "B" },
-    { "id": "s-76", "name": "Sikorsky S-76", "group": "B" },
-    { "id": "s-92", "name": "Sikorsky S-92", "group": "B" },
-    { "id": "md-500", "name": "MD 500 / 530 (Hughes 500)", "group": "B" },
-    { "id": "s-300", "name": "Schweizer 300 / Hughes 269", "group": "B" },
-
-    { "id": "a220", "name": "Airbus A220", "group": "C" },
-    { "id": "a320ceo", "name": "Airbus A319/A320/A321 (ceo)", "group": "C" },
-    { "id": "a320neo", "name": "Airbus A320neo family", "group": "C" },
-    { "id": "a330", "name": "Airbus A330", "group": "C" },
-    { "id": "a350", "name": "Airbus A350", "group": "C" },
-    { "id": "b717", "name": "Boeing 717", "group": "C" },
-    { "id": "b737ng", "name": "Boeing 737 Next Generation", "group": "C" },
-    { "id": "b737max", "name": "Boeing 737 MAX", "group": "C" },
-    { "id": "b747", "name": "Boeing 747", "group": "C" },
-    { "id": "b757", "name": "Boeing 757", "group": "C" },
-    { "id": "b767", "name": "Boeing 767", "group": "C" },
-    { "id": "b777", "name": "Boeing 777", "group": "C" },
-    { "id": "b787", "name": "Boeing 787 Dreamliner", "group": "C" },
-    { "id": "crj200", "name": "Bombardier CRJ100/200", "group": "C" },
-    { "id": "crj700", "name": "Bombardier CRJ700/900", "group": "C" },
-    { "id": "e175", "name": "Embraer E170/E175", "group": "C" },
-    { "id": "erj145", "name": "Embraer ERJ 135/140/145", "group": "C" },
-    { "id": "atr", "name": "ATR 42 / ATR 72", "group": "C" },
-    { "id": "beech-1900", "name": "Beechcraft 1900", "group": "C" },
-    { "id": "c208", "name": "Cessna 208 Caravan", "group": "C" },
-    { "id": "dhc-6", "name": "DHC-6 Twin Otter", "group": "C" },
-    { "id": "kodiak", "name": "Kodiak 100", "group": "C" },
-
-    { "id": "citation-cj", "name": "Cessna CitationJet / CJ series / M2", "group": "D" },
-    { "id": "citation-ii", "name": "Cessna Citation II / V / Ultra / Encore / Bravo", "group": "D" },
-    { "id": "citation-excel", "name": "Cessna Citation Excel / XLS", "group": "D" },
-    { "id": "citation-latitude", "name": "Cessna Citation Latitude / Longitude", "group": "D" },
-    { "id": "citation-mustang", "name": "Cessna Citation Mustang", "group": "D" },
-    { "id": "phenom-100", "name": "Embraer Phenom 100", "group": "D" },
-    { "id": "phenom-300", "name": "Embraer Phenom 300", "group": "D" },
-    { "id": "praetor", "name": "Embraer Legacy 450/500 / Praetor 500/600", "group": "D" },
-    { "id": "g280", "name": "Gulfstream G280", "group": "D" },
-    { "id": "g550", "name": "Gulfstream GIV / GV / G450 / G550", "group": "D" },
-    { "id": "g650", "name": "Gulfstream G650 / G700 / G800", "group": "D" },
-    { "id": "challenger-300", "name": "Bombardier Challenger 300/350/3500", "group": "D" },
-    { "id": "challenger-600", "name": "Bombardier Challenger 600 series", "group": "D" },
-    { "id": "global", "name": "Bombardier Global series", "group": "D" },
-    { "id": "learjet-35", "name": "Learjet 31/35/36", "group": "D" },
-    { "id": "learjet-45", "name": "Learjet 40/45/70/75", "group": "D" },
-    { "id": "falcon-trijet", "name": "Dassault Falcon 50/900/7X/8X", "group": "D" },
-    { "id": "falcon-2000", "name": "Dassault Falcon 2000", "group": "D" },
-    { "id": "hawker-800", "name": "Hawker 800 / 850 / 900", "group": "D" },
-    { "id": "beechjet-400", "name": "Beechjet 400 / Hawker 400XP / T-1 Jayhawk", "group": "D" },
-    { "id": "hondajet", "name": "HondaJet", "group": "D" },
-    { "id": "sf50", "name": "Cirrus SF50 Vision Jet", "group": "D" },
-    { "id": "pc-24", "name": "Pilatus PC-24", "group": "D" },
-    { "id": "pc-12", "name": "Pilatus PC-12 / U-28 Draco", "group": "D" },
-    { "id": "king-air-90", "name": "Beechcraft King Air 90 series", "group": "D" },
-    { "id": "king-air-350", "name": "Beechcraft King Air 200/250/350 / C-12 Huron", "group": "D" },
-    { "id": "tbm", "name": "Daher TBM 700–960", "group": "D" },
-    { "id": "pa-46", "name": "Piper PA-46 Malibu / Mirage / Meridian / M-series", "group": "D" },
-
-    { "id": "c150", "name": "Cessna 150/152", "group": "E" },
-    { "id": "c172", "name": "Cessna 172 Skyhawk", "group": "E" },
-    { "id": "c182", "name": "Cessna 182 Skylane", "group": "E" },
-    { "id": "c180", "name": "Cessna 180/185 Skywagon", "group": "E" },
-    { "id": "c206", "name": "Cessna 206/207 Stationair", "group": "E" },
-    { "id": "c210", "name": "Cessna 210 Centurion", "group": "E" },
-    { "id": "c310", "name": "Cessna 310", "group": "E" },
-    { "id": "c340", "name": "Cessna 340/414/421", "group": "E" },
-    { "id": "pa-18", "name": "Piper PA-18 Super Cub", "group": "E" },
-    { "id": "j-3", "name": "Piper J-3 Cub", "group": "E" },
-    { "id": "pa-28", "name": "Piper PA-28 Cherokee / Warrior / Archer / Arrow", "group": "E" },
-    { "id": "pa-32", "name": "Piper PA-32 Cherokee Six / Saratoga", "group": "E" },
-    { "id": "pa-34", "name": "Piper PA-34 Seneca", "group": "E" },
-    { "id": "pa-44", "name": "Piper PA-44 Seminole", "group": "E" },
-    { "id": "pa-23", "name": "Piper PA-23 Apache / Aztec", "group": "E" },
-    { "id": "pa-24", "name": "Piper PA-24 Comanche", "group": "E" },
-    { "id": "pa-31", "name": "Piper PA-31 Navajo / Chieftain", "group": "E" },
-    { "id": "cirrus-sr", "name": "Cirrus SR20 / SR22", "group": "E" },
-    { "id": "da40", "name": "Diamond DA40 Diamond Star", "group": "E" },
-    { "id": "da42", "name": "Diamond DA42 / DA62", "group": "E" },
-    { "id": "da20", "name": "Diamond DA20 Katana / Eclipse", "group": "E" },
-    { "id": "bonanza-v35", "name": "Beechcraft Bonanza V35 (V-tail)", "group": "E" },
-    { "id": "bonanza-a36", "name": "Beechcraft Bonanza A36 / F33", "group": "E" },
-    { "id": "baron", "name": "Beechcraft Baron", "group": "E" },
-    { "id": "mooney-m20", "name": "Mooney M20", "group": "E" },
-    { "id": "citabria", "name": "Citabria / Decathlon / Scout", "group": "E" },
-    { "id": "aeronca-champ", "name": "Aeronca 7 Champ", "group": "E" },
-    { "id": "luscombe-8", "name": "Luscombe 8 Silvaire", "group": "E" },
-    { "id": "ercoupe", "name": "Ercoupe 415", "group": "E" },
-    { "id": "grumman-aa5", "name": "Grumman American AA-1 / AA-5", "group": "E" },
-    { "id": "maule", "name": "Maule M-series", "group": "E" },
-    { "id": "navion", "name": "North American / Ryan Navion", "group": "E" },
-    { "id": "dhc-2", "name": "DHC-2 Beaver", "group": "E" },
-    { "id": "beech-18", "name": "Beechcraft Model 18", "group": "E" },
-    { "id": "dc-3", "name": "Douglas DC-3 / C-47 Skytrain", "group": "E" },
-    { "id": "air-tractor", "name": "Air Tractor AT-400/500/800", "group": "E" },
-    { "id": "thrush", "name": "Thrush (Ayres) S2R", "group": "E" },
-    { "id": "at-6", "name": "North American T-6 / SNJ Texan", "group": "E" },
-    { "id": "stearman", "name": "Boeing-Stearman Model 75 Kaydet", "group": "E" },
-    { "id": "p-51", "name": "P-51 Mustang", "group": "E" },
-    { "id": "t-28", "name": "North American T-28 Trojan", "group": "E" },
-    { "id": "t-34", "name": "Beechcraft T-34 Mentor", "group": "E" },
-    { "id": "l-39", "name": "Aero L-39 Albatros", "group": "E" },
-    { "id": "yak-52", "name": "Yakovlev Yak-52", "group": "E" },
-    { "id": "cj-6", "name": "Nanchang CJ-6", "group": "E" },
-    { "id": "b-25", "name": "B-25 Mitchell", "group": "E" },
-    { "id": "p-40", "name": "P-40 Warhawk", "group": "E" },
-    { "id": "tbm-avenger", "name": "Grumman TBM Avenger", "group": "E" }
+    {
+      "id": "f-35",
+      "name": "F-35 Lightning II",
+      "group": "A"
+    },
+    {
+      "id": "f-22",
+      "name": "F-22 Raptor",
+      "group": "A"
+    },
+    {
+      "id": "f-15c",
+      "name": "F-15C/D Eagle",
+      "group": "A"
+    },
+    {
+      "id": "f-15e",
+      "name": "F-15E Strike Eagle / F-15EX Eagle II",
+      "group": "A"
+    },
+    {
+      "id": "f-16",
+      "name": "F-16 Fighting Falcon",
+      "group": "A"
+    },
+    {
+      "id": "fa-18ef",
+      "name": "F/A-18E/F Super Hornet",
+      "group": "A"
+    },
+    {
+      "id": "ea-18g",
+      "name": "EA-18G Growler",
+      "group": "A"
+    },
+    {
+      "id": "fa-18cd",
+      "name": "F/A-18C/D Hornet",
+      "group": "A"
+    },
+    {
+      "id": "f-5",
+      "name": "F-5 Tiger II",
+      "group": "A"
+    },
+    {
+      "id": "av-8b",
+      "name": "AV-8B Harrier II",
+      "group": "A"
+    },
+    {
+      "id": "a-10",
+      "name": "A-10 Thunderbolt II",
+      "group": "A"
+    },
+    {
+      "id": "b-1b",
+      "name": "B-1B Lancer",
+      "group": "A"
+    },
+    {
+      "id": "b-2",
+      "name": "B-2 Spirit",
+      "group": "A"
+    },
+    {
+      "id": "b-52",
+      "name": "B-52H Stratofortress",
+      "group": "A"
+    },
+    {
+      "id": "c-130h",
+      "name": "C-130H Hercules",
+      "group": "A"
+    },
+    {
+      "id": "c-130j",
+      "name": "C-130J Super Hercules",
+      "group": "A"
+    },
+    {
+      "id": "c-17",
+      "name": "C-17 Globemaster III",
+      "group": "A"
+    },
+    {
+      "id": "c-5",
+      "name": "C-5M Super Galaxy",
+      "group": "A"
+    },
+    {
+      "id": "kc-135",
+      "name": "KC-135 Stratotanker",
+      "group": "A"
+    },
+    {
+      "id": "rc-135",
+      "name": "RC-135 Rivet Joint (and variants)",
+      "group": "A"
+    },
+    {
+      "id": "kc-46",
+      "name": "KC-46 Pegasus",
+      "group": "A"
+    },
+    {
+      "id": "e-3",
+      "name": "E-3 Sentry (AWACS)",
+      "group": "A"
+    },
+    {
+      "id": "e-2",
+      "name": "E-2 Hawkeye",
+      "group": "A"
+    },
+    {
+      "id": "p-8",
+      "name": "P-8 Poseidon",
+      "group": "A"
+    },
+    {
+      "id": "e-6",
+      "name": "E-6B Mercury",
+      "group": "A"
+    },
+    {
+      "id": "u-2",
+      "name": "U-2 Dragon Lady",
+      "group": "A"
+    },
+    {
+      "id": "t-38",
+      "name": "T-38 Talon",
+      "group": "A"
+    },
+    {
+      "id": "t-6",
+      "name": "T-6 Texan II",
+      "group": "A"
+    },
+    {
+      "id": "t-45",
+      "name": "T-45 Goshawk",
+      "group": "A"
+    },
+    {
+      "id": "t-7",
+      "name": "T-7 Red Hawk",
+      "group": "A"
+    },
+    {
+      "id": "mq-9",
+      "name": "MQ-9 Reaper",
+      "group": "A"
+    },
+    {
+      "id": "mq-1c",
+      "name": "MQ-1C Gray Eagle",
+      "group": "A"
+    },
+    {
+      "id": "uh-60",
+      "name": "UH-60 Black Hawk",
+      "group": "B"
+    },
+    {
+      "id": "mh-60",
+      "name": "MH-60 Seahawk / Jayhawk",
+      "group": "B"
+    },
+    {
+      "id": "ah-64",
+      "name": "AH-64 Apache",
+      "group": "B"
+    },
+    {
+      "id": "ch-47",
+      "name": "CH-47 Chinook",
+      "group": "B"
+    },
+    {
+      "id": "ch-53e",
+      "name": "CH-53E Super Stallion",
+      "group": "B"
+    },
+    {
+      "id": "ch-53k",
+      "name": "CH-53K King Stallion",
+      "group": "B"
+    },
+    {
+      "id": "ah-1z",
+      "name": "AH-1Z Viper",
+      "group": "B"
+    },
+    {
+      "id": "uh-1y",
+      "name": "UH-1Y Venom",
+      "group": "B"
+    },
+    {
+      "id": "uh-1",
+      "name": "UH-1 Huey / Bell 205 / 212",
+      "group": "B"
+    },
+    {
+      "id": "bell-412",
+      "name": "Bell 412",
+      "group": "B"
+    },
+    {
+      "id": "v-22",
+      "name": "V-22 Osprey",
+      "group": "B"
+    },
+    {
+      "id": "r22",
+      "name": "Robinson R22",
+      "group": "B"
+    },
+    {
+      "id": "r44",
+      "name": "Robinson R44",
+      "group": "B"
+    },
+    {
+      "id": "r66",
+      "name": "Robinson R66",
+      "group": "B"
+    },
+    {
+      "id": "bell-206",
+      "name": "Bell 206 JetRanger / LongRanger",
+      "group": "B"
+    },
+    {
+      "id": "bell-407",
+      "name": "Bell 407",
+      "group": "B"
+    },
+    {
+      "id": "bell-429",
+      "name": "Bell 429",
+      "group": "B"
+    },
+    {
+      "id": "bell-505",
+      "name": "Bell 505 Jet Ranger X",
+      "group": "B"
+    },
+    {
+      "id": "bell-47",
+      "name": "Bell 47",
+      "group": "B"
+    },
+    {
+      "id": "h125",
+      "name": "Airbus H125 / AS350 / AS355",
+      "group": "B"
+    },
+    {
+      "id": "h130",
+      "name": "Airbus H130 / EC130",
+      "group": "B"
+    },
+    {
+      "id": "h135",
+      "name": "Airbus H135 / EC135",
+      "group": "B"
+    },
+    {
+      "id": "h145",
+      "name": "Airbus H145 / EC145 / UH-72 Lakota",
+      "group": "B"
+    },
+    {
+      "id": "as365",
+      "name": "Airbus AS365 Dauphin / MH-65 Dolphin",
+      "group": "B"
+    },
+    {
+      "id": "aw139",
+      "name": "Leonardo AW139 / MH-139 Grey Wolf",
+      "group": "B"
+    },
+    {
+      "id": "aw109",
+      "name": "Leonardo AW109",
+      "group": "B"
+    },
+    {
+      "id": "aw119",
+      "name": "Leonardo AW119 / TH-73 Thrasher",
+      "group": "B"
+    },
+    {
+      "id": "s-76",
+      "name": "Sikorsky S-76",
+      "group": "B"
+    },
+    {
+      "id": "s-92",
+      "name": "Sikorsky S-92",
+      "group": "B"
+    },
+    {
+      "id": "md-500",
+      "name": "MD 500 / 530 (Hughes 500)",
+      "group": "B"
+    },
+    {
+      "id": "s-300",
+      "name": "Schweizer 300 / Hughes 269",
+      "group": "B"
+    },
+    {
+      "id": "a220",
+      "name": "Airbus A220",
+      "group": "C"
+    },
+    {
+      "id": "a320ceo",
+      "name": "Airbus A319/A320/A321 (ceo)",
+      "group": "C"
+    },
+    {
+      "id": "a320neo",
+      "name": "Airbus A320neo family",
+      "group": "C"
+    },
+    {
+      "id": "a330",
+      "name": "Airbus A330",
+      "group": "C"
+    },
+    {
+      "id": "a350",
+      "name": "Airbus A350",
+      "group": "C"
+    },
+    {
+      "id": "b717",
+      "name": "Boeing 717",
+      "group": "C"
+    },
+    {
+      "id": "b737ng",
+      "name": "Boeing 737 Next Generation",
+      "group": "C"
+    },
+    {
+      "id": "b737max",
+      "name": "Boeing 737 MAX",
+      "group": "C"
+    },
+    {
+      "id": "b747",
+      "name": "Boeing 747",
+      "group": "C"
+    },
+    {
+      "id": "b757",
+      "name": "Boeing 757",
+      "group": "C"
+    },
+    {
+      "id": "b767",
+      "name": "Boeing 767",
+      "group": "C"
+    },
+    {
+      "id": "b777",
+      "name": "Boeing 777",
+      "group": "C"
+    },
+    {
+      "id": "b787",
+      "name": "Boeing 787 Dreamliner",
+      "group": "C"
+    },
+    {
+      "id": "crj200",
+      "name": "Bombardier CRJ100/200",
+      "group": "C"
+    },
+    {
+      "id": "crj700",
+      "name": "Bombardier CRJ700/900",
+      "group": "C"
+    },
+    {
+      "id": "e175",
+      "name": "Embraer E170/E175",
+      "group": "C"
+    },
+    {
+      "id": "erj145",
+      "name": "Embraer ERJ 135/140/145",
+      "group": "C"
+    },
+    {
+      "id": "atr",
+      "name": "ATR 42 / ATR 72",
+      "group": "C"
+    },
+    {
+      "id": "beech-1900",
+      "name": "Beechcraft 1900",
+      "group": "C"
+    },
+    {
+      "id": "c208",
+      "name": "Cessna 208 Caravan",
+      "group": "C"
+    },
+    {
+      "id": "dhc-6",
+      "name": "DHC-6 Twin Otter",
+      "group": "C"
+    },
+    {
+      "id": "kodiak",
+      "name": "Kodiak 100",
+      "group": "C"
+    },
+    {
+      "id": "citation-cj",
+      "name": "Cessna CitationJet / CJ series / M2",
+      "group": "D"
+    },
+    {
+      "id": "citation-ii",
+      "name": "Cessna Citation II / V / Ultra / Encore / Bravo",
+      "group": "D"
+    },
+    {
+      "id": "citation-excel",
+      "name": "Cessna Citation Excel / XLS",
+      "group": "D"
+    },
+    {
+      "id": "citation-latitude",
+      "name": "Cessna Citation Latitude / Longitude",
+      "group": "D"
+    },
+    {
+      "id": "citation-mustang",
+      "name": "Cessna Citation Mustang",
+      "group": "D"
+    },
+    {
+      "id": "phenom-100",
+      "name": "Embraer Phenom 100",
+      "group": "D"
+    },
+    {
+      "id": "phenom-300",
+      "name": "Embraer Phenom 300",
+      "group": "D"
+    },
+    {
+      "id": "praetor",
+      "name": "Embraer Legacy 450/500 / Praetor 500/600",
+      "group": "D"
+    },
+    {
+      "id": "g280",
+      "name": "Gulfstream G280",
+      "group": "D"
+    },
+    {
+      "id": "g550",
+      "name": "Gulfstream GIV / GV / G450 / G550",
+      "group": "D"
+    },
+    {
+      "id": "g650",
+      "name": "Gulfstream G650 / G700 / G800",
+      "group": "D"
+    },
+    {
+      "id": "challenger-300",
+      "name": "Bombardier Challenger 300/350/3500",
+      "group": "D"
+    },
+    {
+      "id": "challenger-600",
+      "name": "Bombardier Challenger 600 series",
+      "group": "D"
+    },
+    {
+      "id": "global",
+      "name": "Bombardier Global series",
+      "group": "D"
+    },
+    {
+      "id": "learjet-35",
+      "name": "Learjet 31/35/36",
+      "group": "D"
+    },
+    {
+      "id": "learjet-45",
+      "name": "Learjet 40/45/70/75",
+      "group": "D"
+    },
+    {
+      "id": "falcon-trijet",
+      "name": "Dassault Falcon 50/900/7X/8X",
+      "group": "D"
+    },
+    {
+      "id": "falcon-2000",
+      "name": "Dassault Falcon 2000",
+      "group": "D"
+    },
+    {
+      "id": "hawker-800",
+      "name": "Hawker 800 / 850 / 900",
+      "group": "D"
+    },
+    {
+      "id": "beechjet-400",
+      "name": "Beechjet 400 / Hawker 400XP / T-1 Jayhawk",
+      "group": "D"
+    },
+    {
+      "id": "hondajet",
+      "name": "HondaJet",
+      "group": "D"
+    },
+    {
+      "id": "sf50",
+      "name": "Cirrus SF50 Vision Jet",
+      "group": "D"
+    },
+    {
+      "id": "pc-24",
+      "name": "Pilatus PC-24",
+      "group": "D"
+    },
+    {
+      "id": "pc-12",
+      "name": "Pilatus PC-12 / U-28 Draco",
+      "group": "D"
+    },
+    {
+      "id": "king-air-90",
+      "name": "Beechcraft King Air 90 series",
+      "group": "D"
+    },
+    {
+      "id": "king-air-350",
+      "name": "Beechcraft King Air 200/250/350 / C-12 Huron",
+      "group": "D"
+    },
+    {
+      "id": "tbm",
+      "name": "Daher TBM 700–960",
+      "group": "D"
+    },
+    {
+      "id": "pa-46",
+      "name": "Piper PA-46 Malibu / Mirage / Meridian / M-series",
+      "group": "D"
+    },
+    {
+      "id": "c150",
+      "name": "Cessna 150/152",
+      "group": "E"
+    },
+    {
+      "id": "c172",
+      "name": "Cessna 172 Skyhawk",
+      "group": "E"
+    },
+    {
+      "id": "c182",
+      "name": "Cessna 182 Skylane",
+      "group": "E"
+    },
+    {
+      "id": "c180",
+      "name": "Cessna 180/185 Skywagon",
+      "group": "E"
+    },
+    {
+      "id": "c206",
+      "name": "Cessna 206/207 Stationair",
+      "group": "E"
+    },
+    {
+      "id": "c210",
+      "name": "Cessna 210 Centurion",
+      "group": "E"
+    },
+    {
+      "id": "c310",
+      "name": "Cessna 310",
+      "group": "E"
+    },
+    {
+      "id": "c340",
+      "name": "Cessna 340/414/421",
+      "group": "E"
+    },
+    {
+      "id": "pa-18",
+      "name": "Piper PA-18 Super Cub",
+      "group": "E"
+    },
+    {
+      "id": "j-3",
+      "name": "Piper J-3 Cub",
+      "group": "E"
+    },
+    {
+      "id": "pa-28",
+      "name": "Piper PA-28 Cherokee / Warrior / Archer / Arrow",
+      "group": "E"
+    },
+    {
+      "id": "pa-32",
+      "name": "Piper PA-32 Cherokee Six / Saratoga",
+      "group": "E"
+    },
+    {
+      "id": "pa-34",
+      "name": "Piper PA-34 Seneca",
+      "group": "E"
+    },
+    {
+      "id": "pa-44",
+      "name": "Piper PA-44 Seminole",
+      "group": "E"
+    },
+    {
+      "id": "pa-23",
+      "name": "Piper PA-23 Apache / Aztec",
+      "group": "E"
+    },
+    {
+      "id": "pa-24",
+      "name": "Piper PA-24 Comanche",
+      "group": "E"
+    },
+    {
+      "id": "pa-31",
+      "name": "Piper PA-31 Navajo / Chieftain",
+      "group": "E"
+    },
+    {
+      "id": "cirrus-sr",
+      "name": "Cirrus SR20 / SR22",
+      "group": "E"
+    },
+    {
+      "id": "da40",
+      "name": "Diamond DA40 Diamond Star",
+      "group": "E"
+    },
+    {
+      "id": "da42",
+      "name": "Diamond DA42 / DA62",
+      "group": "E"
+    },
+    {
+      "id": "da20",
+      "name": "Diamond DA20 Katana / Eclipse",
+      "group": "E"
+    },
+    {
+      "id": "bonanza-v35",
+      "name": "Beechcraft Bonanza V35 (V-tail)",
+      "group": "E"
+    },
+    {
+      "id": "bonanza-a36",
+      "name": "Beechcraft Bonanza A36 / F33",
+      "group": "E"
+    },
+    {
+      "id": "baron",
+      "name": "Beechcraft Baron",
+      "group": "E"
+    },
+    {
+      "id": "mooney-m20",
+      "name": "Mooney M20",
+      "group": "E"
+    },
+    {
+      "id": "citabria",
+      "name": "Citabria / Decathlon / Scout",
+      "group": "E"
+    },
+    {
+      "id": "aeronca-champ",
+      "name": "Aeronca 7 Champ",
+      "group": "E"
+    },
+    {
+      "id": "luscombe-8",
+      "name": "Luscombe 8 Silvaire",
+      "group": "E"
+    },
+    {
+      "id": "ercoupe",
+      "name": "Ercoupe 415",
+      "group": "E"
+    },
+    {
+      "id": "grumman-aa5",
+      "name": "Grumman American AA-1 / AA-5",
+      "group": "E"
+    },
+    {
+      "id": "maule",
+      "name": "Maule M-series",
+      "group": "E"
+    },
+    {
+      "id": "navion",
+      "name": "North American / Ryan Navion",
+      "group": "E"
+    },
+    {
+      "id": "dhc-2",
+      "name": "DHC-2 Beaver",
+      "group": "E"
+    },
+    {
+      "id": "beech-18",
+      "name": "Beechcraft Model 18",
+      "group": "E"
+    },
+    {
+      "id": "dc-3",
+      "name": "Douglas DC-3 / C-47 Skytrain",
+      "group": "E"
+    },
+    {
+      "id": "air-tractor",
+      "name": "Air Tractor AT-400/500/800",
+      "group": "E"
+    },
+    {
+      "id": "thrush",
+      "name": "Thrush (Ayres) S2R",
+      "group": "E"
+    },
+    {
+      "id": "at-6",
+      "name": "North American T-6 / SNJ Texan",
+      "group": "E"
+    },
+    {
+      "id": "stearman",
+      "name": "Boeing-Stearman Model 75 Kaydet",
+      "group": "E"
+    },
+    {
+      "id": "p-51",
+      "name": "P-51 Mustang",
+      "group": "E"
+    },
+    {
+      "id": "t-28",
+      "name": "North American T-28 Trojan",
+      "group": "E"
+    },
+    {
+      "id": "t-34",
+      "name": "Beechcraft T-34 Mentor",
+      "group": "E"
+    },
+    {
+      "id": "l-39",
+      "name": "Aero L-39 Albatros",
+      "group": "E"
+    },
+    {
+      "id": "yak-52",
+      "name": "Yakovlev Yak-52",
+      "group": "E"
+    },
+    {
+      "id": "cj-6",
+      "name": "Nanchang CJ-6",
+      "group": "E"
+    },
+    {
+      "id": "b-25",
+      "name": "B-25 Mitchell",
+      "group": "E"
+    },
+    {
+      "id": "p-40",
+      "name": "P-40 Warhawk",
+      "group": "E"
+    },
+    {
+      "id": "tbm-avenger",
+      "name": "Grumman TBM Avenger",
+      "group": "E"
+    },
+    {
+      "id": "enstrom-280",
+      "name": "Enstrom 280 / F-28",
+      "group": "F1"
+    },
+    {
+      "id": "hiller-uh-12",
+      "name": "Hiller UH-12 / OH-23 Raven",
+      "group": "F1"
+    },
+    {
+      "id": "guimbal-cabri-g2",
+      "name": "Guimbal Cabri G2",
+      "group": "F1"
+    },
+    {
+      "id": "enstrom-480",
+      "name": "Enstrom 480 / 480B",
+      "group": "F1"
+    },
+    {
+      "id": "ec120",
+      "name": "Eurocopter EC120 Colibri",
+      "group": "F1"
+    },
+    {
+      "id": "bell-222",
+      "name": "Bell 222 / 230 / 430",
+      "group": "F1"
+    },
+    {
+      "id": "s-61",
+      "name": "Sikorsky S-61 / SH-3 Sea King",
+      "group": "F1"
+    },
+    {
+      "id": "brantly-b2",
+      "name": "Brantly B-2",
+      "group": "F1"
+    },
+    {
+      "id": "gazelle",
+      "name": "Aérospatiale SA341/342 Gazelle",
+      "group": "F1"
+    },
+    {
+      "id": "bo-105",
+      "name": "MBB Bo 105",
+      "group": "F1"
+    },
+    {
+      "id": "as332",
+      "name": "Aérospatiale SA330 Puma / AS332 Super Puma / EC225",
+      "group": "F1"
+    },
+    {
+      "id": "bk117",
+      "name": "MBB BK 117 (A/B/C-1)",
+      "group": "F1"
+    },
+    {
+      "id": "alouette-ii",
+      "name": "Aérospatiale Alouette II / SA315B Lama",
+      "group": "F1"
+    },
+    {
+      "id": "bell-214",
+      "name": "Bell 214",
+      "group": "F1"
+    },
+    {
+      "id": "s-64",
+      "name": "Sikorsky S-64 Skycrane",
+      "group": "F1"
+    },
+    {
+      "id": "md-600n",
+      "name": "MD 600N",
+      "group": "F1"
+    },
+    {
+      "id": "s-55",
+      "name": "Sikorsky S-55 / H-19",
+      "group": "F1"
+    },
+    {
+      "id": "aw169",
+      "name": "Leonardo AW169",
+      "group": "F1"
+    },
+    {
+      "id": "ch-46",
+      "name": "CH-46 Sea Knight / Boeing Vertol 107",
+      "group": "F1"
+    },
+    {
+      "id": "md-900",
+      "name": "MD 900 Explorer",
+      "group": "F1"
+    },
+    {
+      "id": "s-58",
+      "name": "Sikorsky S-58 / H-34",
+      "group": "F1"
+    },
+    {
+      "id": "bell-427",
+      "name": "Bell 427",
+      "group": "F1"
+    },
+    {
+      "id": "ec155",
+      "name": "Airbus EC155 / H155",
+      "group": "F1"
+    },
+    {
+      "id": "ah-1-cobra",
+      "name": "Bell AH-1 Cobra (single-engine)",
+      "group": "F1"
+    },
+    {
+      "id": "h160",
+      "name": "Airbus H160",
+      "group": "F1"
+    },
+    {
+      "id": "kaman-k-max",
+      "name": "Kaman K-MAX K-1200",
+      "group": "F1"
+    },
+    {
+      "id": "mi-8",
+      "name": "Mil Mi-8 / Mi-17 / Mi-171 Hip",
+      "group": "F1"
+    },
+    {
+      "id": "citation-sovereign",
+      "name": "Cessna Citation Sovereign (680)",
+      "group": "F2"
+    },
+    {
+      "id": "learjet-55",
+      "name": "Learjet 55/60",
+      "group": "F2"
+    },
+    {
+      "id": "citation-x",
+      "name": "Cessna Citation X (750)",
+      "group": "F2"
+    },
+    {
+      "id": "eclipse-500",
+      "name": "Eclipse 500 / EA500",
+      "group": "F2"
+    },
+    {
+      "id": "citation-i",
+      "name": "Cessna Citation I (500/501)",
+      "group": "F2"
+    },
+    {
+      "id": "citation-vii",
+      "name": "Cessna Citation III/VI/VII (650)",
+      "group": "F2"
+    },
+    {
+      "id": "g150",
+      "name": "IAI Astra / Gulfstream G100 / G150",
+      "group": "F2"
+    },
+    {
+      "id": "g200",
+      "name": "Gulfstream G200 / Galaxy",
+      "group": "F2"
+    },
+    {
+      "id": "beech-390",
+      "name": "Beechcraft Premier I (390)",
+      "group": "F2"
+    },
+    {
+      "id": "a300",
+      "name": "Airbus A300-600",
+      "group": "F2"
+    },
+    {
+      "id": "md-80",
+      "name": "McDonnell Douglas MD-80 / MD-90",
+      "group": "F2"
+    },
+    {
+      "id": "md-11",
+      "name": "McDonnell Douglas MD-11",
+      "group": "F2"
+    },
+    {
+      "id": "falcon-20",
+      "name": "Dassault Falcon 20 / 200",
+      "group": "F2"
+    },
+    {
+      "id": "iai-westwind",
+      "name": "IAI 1124 Westwind",
+      "group": "F2"
+    },
+    {
+      "id": "b737-classic",
+      "name": "Boeing 737 Classic (-300/-400/-500)",
+      "group": "F2"
+    },
+    {
+      "id": "learjet-24",
+      "name": "Learjet 23/24/25",
+      "group": "F2"
+    },
+    {
+      "id": "falcon-10-100",
+      "name": "Dassault Falcon 10 / 100",
+      "group": "F2"
+    },
+    {
+      "id": "hawker-4000",
+      "name": "Hawker 4000",
+      "group": "F2"
+    },
+    {
+      "id": "gulfstream-ii-iii",
+      "name": "Gulfstream II / III",
+      "group": "F2"
+    },
+    {
+      "id": "e190",
+      "name": "Embraer E190/E195",
+      "group": "F2"
+    },
+    {
+      "id": "dornier-328",
+      "name": "Dornier 328",
+      "group": "F2"
+    },
+    {
+      "id": "bae-146",
+      "name": "BAe 146 / Avro RJ",
+      "group": "F2"
+    },
+    {
+      "id": "mu-300",
+      "name": "Mitsubishi MU-300 Diamond",
+      "group": "F2"
+    },
+    {
+      "id": "c441",
+      "name": "Cessna 425/441 Conquest",
+      "group": "F3"
+    },
+    {
+      "id": "aero-commander-690",
+      "name": "Aero Commander 680/690 Jetprop (Gulfstream Commander)",
+      "group": "F3"
+    },
+    {
+      "id": "pa-31t",
+      "name": "Piper PA-31T Cheyenne",
+      "group": "F3"
+    },
+    {
+      "id": "mu-2",
+      "name": "Mitsubishi MU-2",
+      "group": "F3"
+    },
+    {
+      "id": "metroliner",
+      "name": "Fairchild Metroliner / Merlin",
+      "group": "F3"
+    },
+    {
+      "id": "epic-e1000",
+      "name": "Epic E1000 / LT",
+      "group": "F3"
+    },
+    {
+      "id": "piaggio-p180",
+      "name": "Piaggio P.180 Avanti",
+      "group": "F3"
+    },
+    {
+      "id": "beech-99",
+      "name": "Beechcraft 99 Airliner",
+      "group": "F3"
+    },
+    {
+      "id": "saab-340",
+      "name": "Saab 340",
+      "group": "F3"
+    },
+    {
+      "id": "shorts-360",
+      "name": "Shorts 330 / 360 / C-23 Sherpa",
+      "group": "F3"
+    },
+    {
+      "id": "dhc-3",
+      "name": "DHC-3 Otter",
+      "group": "F3"
+    },
+    {
+      "id": "c408",
+      "name": "Cessna 408 SkyCourier",
+      "group": "F3"
+    },
+    {
+      "id": "pa-42",
+      "name": "Piper PA-42 Cheyenne III/400",
+      "group": "F3"
+    },
+    {
+      "id": "emb-120",
+      "name": "Embraer EMB-120 Brasilia",
+      "group": "F3"
+    },
+    {
+      "id": "dhc-8",
+      "name": "DHC-8 Dash 8 (100/200/300)",
+      "group": "F3"
+    },
+    {
+      "id": "da50",
+      "name": "Diamond DA50 RG / DA50 C",
+      "group": "F3"
+    },
+    {
+      "id": "pac-750xl",
+      "name": "Pacific Aerospace 750XL",
+      "group": "F3"
+    },
+    {
+      "id": "short-skyvan",
+      "name": "Short SC.7 Skyvan",
+      "group": "F3"
+    },
+    {
+      "id": "casa-212",
+      "name": "CASA C-212 Aviocar",
+      "group": "F3"
+    },
+    {
+      "id": "convair-240",
+      "name": "Convair 240/340/440 / C-131 Samaritan",
+      "group": "F3"
+    },
+    {
+      "id": "dhc-8-q400",
+      "name": "DHC-8 Q400",
+      "group": "F3"
+    },
+    {
+      "id": "emb-110",
+      "name": "Embraer EMB-110 Bandeirante",
+      "group": "F3"
+    },
+    {
+      "id": "pc-6",
+      "name": "Pilatus PC-6 Porter",
+      "group": "F3"
+    },
+    {
+      "id": "dornier-228",
+      "name": "Dornier 228",
+      "group": "F3"
+    },
+    {
+      "id": "aeronca-tandem",
+      "name": "Aeronca 65-T Defender / O-58 / L-3 Grasshopper",
+      "group": "F4"
+    },
+    {
+      "id": "c305",
+      "name": "Cessna 305 / O-1 Bird Dog",
+      "group": "F4"
+    },
+    {
+      "id": "stinson-l-5",
+      "name": "Stinson L-5 Sentinel",
+      "group": "F4"
+    },
+    {
+      "id": "fairchild-m62",
+      "name": "Fairchild PT-19 / PT-26 Cornell",
+      "group": "F4"
+    },
+    {
+      "id": "ryan-st",
+      "name": "Ryan ST / PT-22 Recruit",
+      "group": "F4"
+    },
+    {
+      "id": "n3n",
+      "name": "Naval Aircraft Factory N3N Canary",
+      "group": "F4"
+    },
+    {
+      "id": "dhc-1",
+      "name": "DHC-1 Chipmunk",
+      "group": "F4"
+    },
+    {
+      "id": "bt-13",
+      "name": "Vultee BT-13 Valiant",
+      "group": "F4"
+    },
+    {
+      "id": "sf260",
+      "name": "SIAI-Marchetti SF.260",
+      "group": "F4"
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "name": "Tecnam P-Mentor",
+      "group": "F4"
+    },
+    {
+      "id": "l-29",
+      "name": "Aero L-29 Delfin",
+      "group": "F4"
+    },
+    {
+      "id": "bulldog",
+      "name": "Scottish Aviation Bulldog",
+      "group": "F4"
+    },
+    {
+      "id": "t-33",
+      "name": "Lockheed T-33 Shooting Star",
+      "group": "F4"
+    },
+    {
+      "id": "mirage-f1",
+      "name": "Dassault Mirage F1",
+      "group": "F4"
+    },
+    {
+      "id": "socata-tb-30",
+      "name": "Socata TB 30 Epsilon",
+      "group": "F4"
+    },
+    {
+      "id": "fouga-magister",
+      "name": "Fouga CM.170 Magister",
+      "group": "F4"
+    },
+    {
+      "id": "bac-strikemaster",
+      "name": "BAC 167 Strikemaster / Jet Provost",
+      "group": "F4"
+    },
+    {
+      "id": "emb-312",
+      "name": "Embraer EMB-312 Tucano",
+      "group": "F4"
+    },
+    {
+      "id": "iar-823",
+      "name": "IAR 823",
+      "group": "F4"
+    },
+    {
+      "id": "grumman-s-2",
+      "name": "Grumman S-2 Tracker / C-1 Trader",
+      "group": "F4"
+    },
+    {
+      "id": "a-26",
+      "name": "Douglas A-26 Invader",
+      "group": "F4"
+    },
+    {
+      "id": "sabreliner",
+      "name": "North American Sabreliner",
+      "group": "F4"
+    },
+    {
+      "id": "hu-16",
+      "name": "Grumman HU-16 Albatross",
+      "group": "F4"
+    },
+    {
+      "id": "f4u-corsair",
+      "name": "Vought F4U Corsair",
+      "group": "F4"
+    },
+    {
+      "id": "pilatus-p3",
+      "name": "Pilatus P-3",
+      "group": "F4"
+    },
+    {
+      "id": "siai-s205",
+      "name": "SIAI-Marchetti S.205",
+      "group": "F4"
+    },
+    {
+      "id": "sm1019",
+      "name": "SIAI-Marchetti SM.1019",
+      "group": "F4"
+    },
+    {
+      "id": "ts-11-iskra",
+      "name": "PZL TS-11 Iskra",
+      "group": "F4"
+    },
+    {
+      "id": "zlin-z42",
+      "name": "Zlin Z-42/Z-142/Z-242 Trener",
+      "group": "F4"
+    },
+    {
+      "id": "pc-7",
+      "name": "Pilatus PC-7",
+      "group": "F4"
+    },
+    {
+      "id": "f4f-wildcat",
+      "name": "Grumman F4F / FM-2 Wildcat",
+      "group": "F4"
+    },
+    {
+      "id": "slingsby-t67",
+      "name": "Slingsby T67 Firefly",
+      "group": "F4"
+    },
+    {
+      "id": "b-17",
+      "name": "B-17 Flying Fortress",
+      "group": "F4"
+    },
+    {
+      "id": "pc-9",
+      "name": "Pilatus PC-9",
+      "group": "F4"
+    },
+    {
+      "id": "mig-15",
+      "name": "Mikoyan-Gurevich MiG-15 / MiG-15UTI",
+      "group": "F4"
+    },
+    {
+      "id": "pv-2",
+      "name": "Lockheed PV-2 Harpoon",
+      "group": "F4"
+    },
+    {
+      "id": "sea-fury",
+      "name": "Hawker Sea Fury",
+      "group": "F4"
+    },
+    {
+      "id": "mig-17",
+      "name": "MiG-17 Fresco / PZL-Mielec Lim-5",
+      "group": "F4"
+    },
+    {
+      "id": "f-86",
+      "name": "North American F-86 Sabre",
+      "group": "F4"
+    },
+    {
+      "id": "f8f-bearcat",
+      "name": "Grumman F8F Bearcat",
+      "group": "F4"
+    },
+    {
+      "id": "hawker-hunter",
+      "name": "Hawker Hunter",
+      "group": "F4"
+    },
+    {
+      "id": "p-47",
+      "name": "Republic P-47 Thunderbolt",
+      "group": "F4"
+    },
+    {
+      "id": "yak-18t",
+      "name": "Yakovlev Yak-18T",
+      "group": "F4"
+    },
+    {
+      "id": "siai-marchetti-s211",
+      "name": "SIAI-Marchetti S-211",
+      "group": "F4"
+    },
+    {
+      "id": "ha-200",
+      "name": "Hispano HA-200 Saeta",
+      "group": "F4"
+    },
+    {
+      "id": "fwp-149d",
+      "name": "Focke-Wulf FWP 149D",
+      "group": "F4"
+    },
+    {
+      "id": "mig-21",
+      "name": "Mikoyan-Gurevich MiG-21",
+      "group": "F4"
+    },
+    {
+      "id": "pa-30",
+      "name": "Piper PA-30/39 Twin Comanche",
+      "group": "F5"
+    },
+    {
+      "id": "c337",
+      "name": "Cessna 336/337 Skymaster",
+      "group": "F5"
+    },
+    {
+      "id": "aerostar",
+      "name": "Piper/Ted Smith Aerostar",
+      "group": "F5"
+    },
+    {
+      "id": "aero-commander-500",
+      "name": "Aero Commander 500/700 Shrike",
+      "group": "F5"
+    },
+    {
+      "id": "beech-95",
+      "name": "Beechcraft Travel Air (95)",
+      "group": "F5"
+    },
+    {
+      "id": "beech-60",
+      "name": "Beechcraft Duke (60)",
+      "group": "F5"
+    },
+    {
+      "id": "c402",
+      "name": "Cessna 401/402/404 Titan",
+      "group": "F5"
+    },
+    {
+      "id": "beech-76",
+      "name": "Beechcraft Duchess (76)",
+      "group": "F5"
+    },
+    {
+      "id": "beech-50",
+      "name": "Beechcraft Twin Bonanza (Model 50)",
+      "group": "F5"
+    },
+    {
+      "id": "tecnam-p2006t",
+      "name": "Tecnam P2006T",
+      "group": "F5"
+    },
+    {
+      "id": "grumman-widgeon",
+      "name": "Grumman G-44 Widgeon",
+      "group": "F5"
+    },
+    {
+      "id": "bn-2-islander",
+      "name": "Britten-Norman BN-2 Islander",
+      "group": "F5"
+    },
+    {
+      "id": "tecnam-p2012",
+      "name": "Tecnam P2012 Traveller",
+      "group": "F5"
+    },
+    {
+      "id": "ga-7",
+      "name": "Grumman American GA-7 Cougar",
+      "group": "F5"
+    },
+    {
+      "id": "beech-queen-air",
+      "name": "Beechcraft Queen Air",
+      "group": "F5"
+    },
+    {
+      "id": "partenavia-p68",
+      "name": "Partenavia P.68 / Vulcanair P.68",
+      "group": "F5"
+    },
+    {
+      "id": "cessna-t-50",
+      "name": "Cessna T-50 Bobcat",
+      "group": "F5"
+    },
+    {
+      "id": "grumman-goose",
+      "name": "Grumman G-21 Goose",
+      "group": "F5"
+    },
+    {
+      "id": "dc-6",
+      "name": "Douglas DC-6 / C-118",
+      "group": "F5"
+    },
+    {
+      "id": "grumman-mallard",
+      "name": "Grumman G-73 Mallard",
+      "group": "F5"
+    },
+    {
+      "id": "lockheed-12",
+      "name": "Lockheed Model 12 Electra Junior",
+      "group": "F5"
+    },
+    {
+      "id": "pa-22",
+      "name": "Piper PA-22 Tri-Pacer / Colt",
+      "group": "F6"
+    },
+    {
+      "id": "c140",
+      "name": "Cessna 120/140",
+      "group": "F6"
+    },
+    {
+      "id": "c177",
+      "name": "Cessna 177 Cardinal",
+      "group": "F6"
+    },
+    {
+      "id": "c170",
+      "name": "Cessna 170",
+      "group": "F6"
+    },
+    {
+      "id": "taylorcraft-bc",
+      "name": "Taylorcraft BC / Model A / L-2",
+      "group": "F6"
+    },
+    {
+      "id": "beech-musketeer",
+      "name": "Beechcraft Musketeer / Sundowner / Sierra",
+      "group": "F6"
+    },
+    {
+      "id": "stinson-108",
+      "name": "Stinson 108 Voyager",
+      "group": "F6"
+    },
+    {
+      "id": "pa-12",
+      "name": "Piper PA-12 Super Cruiser / PA-14 Family Cruiser",
+      "group": "F6"
+    },
+    {
+      "id": "aeronca-chief",
+      "name": "Aeronca Chief (50 / 11AC)",
+      "group": "F6"
+    },
+    {
+      "id": "aviat-husky",
+      "name": "Aviat Husky",
+      "group": "F6"
+    },
+    {
+      "id": "cessna-400",
+      "name": "Cessna 350/400 Corvalis",
+      "group": "F6"
+    },
+    {
+      "id": "bellanca-viking",
+      "name": "Bellanca Viking / Super Viking 17-30/31",
+      "group": "F6"
+    },
+    {
+      "id": "commander-112",
+      "name": "Rockwell Commander 112/114",
+      "group": "F6"
+    },
+    {
+      "id": "pa-20",
+      "name": "Piper PA-16 Clipper / PA-20 Pacer",
+      "group": "F6"
+    },
+    {
+      "id": "globe-swift",
+      "name": "Globe/Temco Swift",
+      "group": "F6"
+    },
+    {
+      "id": "c195",
+      "name": "Cessna 190/195",
+      "group": "F6"
+    },
+    {
+      "id": "ag-cat",
+      "name": "Grumman G-164 Ag-Cat",
+      "group": "F6"
+    },
+    {
+      "id": "pa-25",
+      "name": "Piper PA-25 Pawnee",
+      "group": "F6"
+    },
+    {
+      "id": "pa-38",
+      "name": "Piper PA-38 Tomahawk",
+      "group": "F6"
+    },
+    {
+      "id": "pa-11",
+      "name": "Piper PA-11 Cub Special",
+      "group": "F6"
+    },
+    {
+      "id": "lake-la-4",
+      "name": "Lake LA-4 Buccaneer / Renegade",
+      "group": "F6"
+    },
+    {
+      "id": "c188",
+      "name": "Cessna 188 AgWagon / Ag Truck",
+      "group": "F6"
+    },
+    {
+      "id": "piper-j5",
+      "name": "Piper J-5 Cub Cruiser",
+      "group": "F6"
+    },
+    {
+      "id": "pa-15",
+      "name": "Piper PA-15/17 Vagabond",
+      "group": "F6"
+    },
+    {
+      "id": "socata-tb-20",
+      "name": "Socata TB 20/21 Trinidad",
+      "group": "F6"
+    },
+    {
+      "id": "fairchild-24",
+      "name": "Fairchild 24 Argus",
+      "group": "F6"
+    },
+    {
+      "id": "piper-j4",
+      "name": "Piper J-4 Cub Coupe",
+      "group": "F6"
+    },
+    {
+      "id": "aeronca-sedan",
+      "name": "Aeronca 15AC Sedan",
+      "group": "F6"
+    },
+    {
+      "id": "bellanca-14-19",
+      "name": "Bellanca 14-19 Cruisemaster",
+      "group": "F6"
+    },
+    {
+      "id": "aero-commander-100",
+      "name": "Aero Commander 100 Darter / Lark",
+      "group": "F6"
+    },
+    {
+      "id": "bellanca-14-13",
+      "name": "Bellanca 14-13 Cruisair",
+      "group": "F6"
+    },
+    {
+      "id": "republic-rc-3",
+      "name": "Republic RC-3 Seabee",
+      "group": "F6"
+    },
+    {
+      "id": "tecnam-p2010",
+      "name": "Tecnam P2010",
+      "group": "F6"
+    },
+    {
+      "id": "rearwin-skyranger",
+      "name": "Rearwin Sportster / Cloudster / Skyranger",
+      "group": "F6"
+    },
+    {
+      "id": "funk-b",
+      "name": "Funk B",
+      "group": "F6"
+    },
+    {
+      "id": "varga-kachina",
+      "name": "Varga 2150 / 2180 Kachina",
+      "group": "F6"
+    },
+    {
+      "id": "interstate-s1",
+      "name": "Interstate S-1 Cadet",
+      "group": "F6"
+    },
+    {
+      "id": "beech-77",
+      "name": "Beechcraft Skipper (77)",
+      "group": "F6"
+    },
+    {
+      "id": "pitts",
+      "name": "Pitts Special (S-1 / S-2)",
+      "group": "F7"
+    },
+    {
+      "id": "waco-f-series",
+      "name": "WACO F-series / UPF-7 open-cockpit biplane",
+      "group": "F7"
+    },
+    {
+      "id": "extra-300",
+      "name": "Extra EA-300",
+      "group": "F7"
+    },
+    {
+      "id": "beech-17",
+      "name": "Beechcraft Staggerwing (Model 17)",
+      "group": "F7"
+    },
+    {
+      "id": "great-lakes-2t1",
+      "name": "Great Lakes 2T-1A Sport Trainer",
+      "group": "F7"
+    },
+    {
+      "id": "waco-cabin",
+      "name": "WACO cabin biplane (C-series / YKS)",
+      "group": "F7"
+    },
+    {
+      "id": "travel-air-2000",
+      "name": "Travel Air 2000 / 4000 Biplane",
+      "group": "F7"
+    },
+    {
+      "id": "howard-dga",
+      "name": "Howard DGA-15 / DGA-11",
+      "group": "F7"
+    },
+    {
+      "id": "fleet-biplane",
+      "name": "Fleet Biplane Trainers (Models 1/2/7/16)",
+      "group": "F7"
+    },
+    {
+      "id": "christen-eagle",
+      "name": "Christen Eagle",
+      "group": "F7"
+    },
+    {
+      "id": "monocoupe-90",
+      "name": "Monocoupe 90 / 110",
+      "group": "F7"
+    },
+    {
+      "id": "waco-taperwing",
+      "name": "WACO Taperwing (ASO / ATO / BSO / CSO / CTO / DSO)",
+      "group": "F7"
+    },
+    {
+      "id": "dh-82",
+      "name": "de Havilland DH.82 Tiger Moth",
+      "group": "F7"
+    },
+    {
+      "id": "meyers-otw",
+      "name": "Meyers OTW / MAC-145",
+      "group": "F7"
+    },
+    {
+      "id": "stinson-reliant",
+      "name": "Stinson SR Reliant",
+      "group": "F7"
+    },
+    {
+      "id": "yak-55",
+      "name": "Yakovlev Yak-55",
+      "group": "F7"
+    },
+    {
+      "id": "bucker-jungmann",
+      "name": "Bücker Bü 131 Jungmann / CASA 1.131",
+      "group": "F7"
+    },
+    {
+      "id": "sukhoi-su-26",
+      "name": "Sukhoi Su-26 / Su-29 / Su-31",
+      "group": "F7"
+    },
+    {
+      "id": "yak-50",
+      "name": "Yakovlev Yak-50",
+      "group": "F7"
+    },
+    {
+      "id": "brunner-winkle-bird",
+      "name": "Brunner-Winkle Bird",
+      "group": "F7"
+    },
+    {
+      "id": "waco-10",
+      "name": "WACO 9 / 10 / GXE",
+      "group": "F7"
+    },
+    {
+      "id": "curtiss-robin",
+      "name": "Curtiss Robin",
+      "group": "F7"
+    },
+    {
+      "id": "fairchild-kr",
+      "name": "Fairchild KR Biplane",
+      "group": "F7"
+    },
+    {
+      "id": "zivko-edge-540",
+      "name": "Zivko Edge 540",
+      "group": "F7"
+    },
+    {
+      "id": "spartan-executive",
+      "name": "Spartan 7W Executive",
+      "group": "F7"
+    },
+    {
+      "id": "mudry-cap-10",
+      "name": "Mudry CAP 10",
+      "group": "F7"
+    },
+    {
+      "id": "stampe-sv4",
+      "name": "Stampe SV.4",
+      "group": "F7"
+    },
+    {
+      "id": "curtiss-wright-junior",
+      "name": "Curtiss-Wright CW-1 Junior",
+      "group": "F7"
+    },
+    {
+      "id": "stinson-trimotor-sm8",
+      "name": "Stinson SM-8A",
+      "group": "F7"
+    },
+    {
+      "id": "xtremeair-xa42",
+      "name": "XtremeAir XA42 Sbach 342",
+      "group": "F7"
+    },
+    {
+      "id": "stearman-c3",
+      "name": "Stearman C3",
+      "group": "F7"
+    },
+    {
+      "id": "helio-courier",
+      "name": "Helio Courier",
+      "group": "F8"
+    },
+    {
+      "id": "stinson-10",
+      "name": "Stinson 10 / HW75 Voyager",
+      "group": "F8"
+    },
+    {
+      "id": "mooney-m18",
+      "name": "Mooney M-18 Mite",
+      "group": "F8"
+    },
+    {
+      "id": "socata-tb-9",
+      "name": "Socata TB 9/10 Tampico / Tobago",
+      "group": "F8"
+    },
+    {
+      "id": "pa-36",
+      "name": "Piper PA-36 Pawnee Brave",
+      "group": "F8"
+    },
+    {
+      "id": "cub-crafters-xcub",
+      "name": "CubCrafters XCub",
+      "group": "F8"
+    },
+    {
+      "id": "aeronca-c3",
+      "name": "Aeronca C-2 / C-3 / K Scout",
+      "group": "F8"
+    },
+    {
+      "id": "piper-j2",
+      "name": "Piper J-2 / E-2 Cub",
+      "group": "F8"
+    },
+    {
+      "id": "culver-cadet",
+      "name": "Culver Cadet",
+      "group": "F8"
+    },
+    {
+      "id": "porterfield-65",
+      "name": "Porterfield Collegiate / Flyabout (CP-50, CP-65, LP-65)",
+      "group": "F8"
+    },
+    {
+      "id": "aero-commander-200",
+      "name": "Aero Commander 200 Volaire",
+      "group": "F8"
+    },
+    {
+      "id": "socata-rallye",
+      "name": "Socata Rallye",
+      "group": "F8"
+    },
+    {
+      "id": "liberty-xl2",
+      "name": "Liberty XL-2",
+      "group": "F8"
+    },
+    {
+      "id": "alarus-ch2000",
+      "name": "Alarus CH 2000",
+      "group": "F8"
+    },
+    {
+      "id": "pipistrel-virus-sw",
+      "name": "Pipistrel Virus SW",
+      "group": "F8"
+    },
+    {
+      "id": "callair-a",
+      "name": "Callair A-series",
+      "group": "F8"
+    },
+    {
+      "id": "gippsaero-ga8",
+      "name": "GippsAero GA8 Airvan",
+      "group": "F8"
+    },
+    {
+      "id": "cessna-airmaster",
+      "name": "Cessna Airmaster (C-34/C-37/C-38/C-145/C-165)",
+      "group": "F8"
+    },
+    {
+      "id": "symphony-sa160",
+      "name": "Symphony SA160",
+      "group": "F8"
+    },
+    {
+      "id": "pzl-wilga",
+      "name": "PZL-104 Wilga",
+      "group": "F8"
+    },
+    {
+      "id": "callair-a9",
+      "name": "Callair A-9 Ag Plane",
+      "group": "F8"
+    },
+    {
+      "id": "foundation-bush-hawk",
+      "name": "Found Bush Hawk (FBA-2C)",
+      "group": "F8"
+    },
+    {
+      "id": "jmb-vl-3",
+      "name": "JMB VL-3 Evolution",
+      "group": "F8"
+    },
+    {
+      "id": "meyers-200",
+      "name": "Meyers 200",
+      "group": "F8"
+    },
+    {
+      "id": "weatherly-620",
+      "name": "Weatherly 620 Ag Plane",
+      "group": "F8"
+    },
+    {
+      "id": "luscombe-11",
+      "name": "Luscombe 11 Sedan",
+      "group": "F8"
+    },
+    {
+      "id": "pzl-m-18",
+      "name": "PZL M-18 Dromader",
+      "group": "F8"
+    },
+    {
+      "id": "stinson-junior",
+      "name": "Stinson Junior (S / R / SR)",
+      "group": "F8"
+    },
+    {
+      "id": "dart-g",
+      "name": "Dart G",
+      "group": "F8"
+    },
+    {
+      "id": "vulcanair-v1",
+      "name": "Vulcanair V1.0",
+      "group": "F8"
+    },
+    {
+      "id": "culver-v",
+      "name": "Culver V",
+      "group": "F8"
+    },
+    {
+      "id": "taylorcraft-f2x",
+      "name": "Taylorcraft F-21 / F-22",
+      "group": "F8"
+    },
+    {
+      "id": "fairchild-22",
+      "name": "Fairchild 22",
+      "group": "F8"
+    },
+    {
+      "id": "pipistrel-panthera",
+      "name": "Pipistrel Panthera",
+      "group": "F8"
+    },
+    {
+      "id": "micco-mac-145",
+      "name": "Micco MAC-145 / SP20",
+      "group": "F8"
+    },
+    {
+      "id": "mooney-m22",
+      "name": "Mooney M22 Mustang",
+      "group": "F8"
+    },
+    {
+      "id": "an-2",
+      "name": "Antonov An-2 Colt",
+      "group": "F8"
+    },
+    {
+      "id": "weatherly-201",
+      "name": "Weatherly 201 Ag Plane",
+      "group": "F8"
+    }
   ]
 }

@@ -17,7 +17,7 @@ const MAX_TITLES = 600;
 const MIN_WIDTH = 1200;
 
 const BAD_CATEGORY =
-  /interior|cockpit|cabin|engines?\b|\bmodels\b|scale model|drawing|diagram|crash|accident|wreck|patch|insignia|logo|video|manufactur|production|construction|assembly|simulator|maintenance|\bseats?\b|galley|instrument|livery details|nose art|details|parts|mockup|replica|toy|museum|memorial|gate guard|on display|static display|wheel|landing gear|propeller|weapon|bomb|missile|ordnance|people|crew|pilot|ceremon|stamp|\bart\b|paintings|in art|postcard|scale/i;
+  /interior|cockpit|cabin|engines?\b|\bmodels\b|scale model|drawing|diagram|crash|accident|wreck|patch|insignia|logo|video|manufactur|production|construction|assembly|simulator|maintenance|\bseats?\b|galley|instrument|livery details|nose art|details|parts|mock-?up|replica|rolls-royce|pratt|general electric|\bcfm|honeywell|williams international|lycoming|continental motors|rotax|\bpt6|toy|museum|memorial|gate guard|on display|static display|wheel|landing gear|propeller|weapon|bomb|missile|ordnance|people|crew|pilot|ceremon|stamp|\bart\b|paintings|in art|postcard|scale/i;
 const BAD_TITLE =
   /cockpit|interior|cabin|panel|\bseats?\b|engine|nacelle|propeller|wheel|\bgear\b|\btire|\btyre|wreck|crash|museum|\bmodels?\b(?! ?\d)|\btoy|diagram|drawing|patch|logo|crew|pilot|inside|galley|lavatory|instrument|detail|close-?up|stamp|replica/i;
 const LICENSE_OK = /^(cc[ -]?by(-sa)?([ -][\d.]+)?|cc0|public domain|pd\b|pd-)/i;

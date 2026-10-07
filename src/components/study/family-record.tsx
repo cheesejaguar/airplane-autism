@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getFamily, label } from "@/lib/catalog";
 import { familyRecord } from "@/lib/progress/queries";
 import { getViewer } from "@/lib/session";
-import { MASTERY_STEP } from "@/components/stats/mastery-map";
+import { MASTERY_STEP } from "@/lib/progress/mastery-style";
 import { cn } from "@/lib/utils";
 
 function relative(d: Date) {

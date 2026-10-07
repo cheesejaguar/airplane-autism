@@ -34,8 +34,11 @@ export function familyImagesForAngles(id: string, angles: readonly Angle[]): Air
   return familyImages(id).filter((i) => angles.includes(i.angle));
 }
 
+/** A family needs at least this many curated photos to appear in drills; fewer = study-only. */
+export const MIN_QUIZ_IMAGES = 2;
+
 export function isQuizzable(id: string): boolean {
-  return familyImages(id).length > 0;
+  return familyImages(id).length >= MIN_QUIZ_IMAGES;
 }
 
 export function label(f: Pick<Family, "name" | "shortName">): string {
@@ -120,7 +123,7 @@ export function filterFamilies(config: DeckConfig, source: readonly Family[] = f
 /** Families in the deck that have at least one image for the selected view. */
 export function quizPool(config: DeckConfig): Family[] {
   const angles = VIEWS[config.view].angles;
-  return filterFamilies(config).filter((f) => familyImagesForAngles(f.id, angles).length > 0);
+  return filterFamilies(config).filter((f) => isQuizzable(f.id) && familyImagesForAngles(f.id, angles).length > 0);
 }
 
 import type { FamilyLite } from "./lite";
@@ -137,7 +140,7 @@ export function toLite(f: Family): FamilyLite {
     roles: f.roles,
     branches: f.branches,
     difficulty: f.difficulty,
-    angles: [...new Set(imgs.map((i) => i.angle))],
+    angles: imgs.length >= MIN_QUIZ_IMAGES ? [...new Set(imgs.map((i) => i.angle))] : [],
     thumb: heroImage(f.id)?.srcSmall ?? null,
   };
 }
