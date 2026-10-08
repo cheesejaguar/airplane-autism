@@ -34,6 +34,11 @@ if (noImages.length) warnings.push(`${noImages.length} families have no images y
 
 families.sort((a, b) => a.name.localeCompare(b.name));
 writeJson(path.join(ROOT, "src/generated/catalog.json"), { builtAt: new Date().toISOString(), families, images });
+// Tiny client-safe index (id / label / name) for pickers such as the report dialog.
+writeJson(
+  path.join(ROOT, "src/generated/family-index.json"),
+  families.map((f) => ({ id: f.id, label: f.shortName ?? f.name, name: f.name })),
+);
 
 for (const w of warnings) console.warn("catalog WARN ", w);
 for (const e of errors) console.error("catalog ERROR", e);

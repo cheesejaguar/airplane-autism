@@ -12,7 +12,7 @@ import sharp from "sharp";
 import { generateText, Output } from "ai";
 import { z } from "zod";
 import { ANGLES, type Family } from "../../src/lib/catalog/schema";
-import { CACHE, USER_AGENT, loadFamilies, readJson, writeJson } from "./lib";
+import { CACHE, USER_AGENT, imageIdFor, loadFamilies, loadImageOverrides, readJson, writeJson } from "./lib";
 import type { Candidate } from "./harvest";
 
 // Calls are spread across three fast vision models so a single provider's rate limit doesn't
@@ -175,6 +175,7 @@ async function main() {
   const only = args.includes("--only") ? args[args.indexOf("--only") + 1].split(",") : undefined;
   const concurrency = args.includes("--concurrency") ? Number(args[args.indexOf("--concurrency") + 1]) : 3;
   const { families } = loadFamilies();
+  const overrides = loadImageOverrides();
   const names = new Map(families.map((f) => [f.id, f.name]));
   // One limiter per fast provider plus one for the strong model.
   const limits = [...FAST_MODELS, STRONG_MODEL].map(() => pLimit(concurrency));
@@ -271,7 +272,13 @@ async function main() {
     const usable = candidates
       .map((c) => ({ candidate: c, verdict: cache[c.title] }))
       .filter((x): x is { candidate: Candidate; verdict: Verdict } => !!x.verdict && !("error" in x.verdict))
-      .filter((x) => isUsable(x.verdict));
+      .filter((x) => isUsable(x.verdict))
+      // Human corrections from user reports: drop blocked photos, fix angle tags.
+      .filter((x) => !overrides.blocked[imageIdFor(f.id, x.candidate.title)])
+      .map((x) => {
+        const angle = overrides.angles[imageIdFor(f.id, x.candidate.title)];
+        return angle ? { ...x, verdict: { ...x.verdict, angle: angle as Verdict["angle"] } } : x;
+      });
     const selected = selectDiverse(usable, PER_FAMILY);
     writeJson(path.join(CACHE, "selected", `${f.id}.json`), selected);
     const angles = new Set(selected.map((s) => s.verdict.angle));

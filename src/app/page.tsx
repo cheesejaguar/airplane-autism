@@ -64,7 +64,7 @@ export default function HomePage() {
     <div>
       {/* Hero */}
       <section className="chart-grid border-b">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:py-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center lg:py-20">
+        <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)] gap-10 px-4 py-12 sm:py-16 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.1fr)] lg:items-center lg:py-20">
           <div>
             <p className="type-readout text-primary">Aircraft recognition trainer</p>
             <h1 className="type-display mt-4 text-[clamp(2.8rem,8vw,5.6rem)]">
@@ -114,7 +114,7 @@ export default function HomePage() {
       {/* WEFT */}
       {example && (
         <section className="mx-auto max-w-6xl px-4 py-16 sm:py-24">
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
+          <div className="grid grid-cols-[minmax(0,1fr)] gap-10 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
             <div>
               <p className="type-readout text-muted-foreground">The method</p>
               <h2 className="type-display mt-3 text-4xl sm:text-5xl">Wings. Engines. Fuselage. Tail.</h2>

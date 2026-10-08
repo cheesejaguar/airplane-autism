@@ -11,7 +11,7 @@ import pLimit from "p-limit";
 import sharp from "sharp";
 import { put } from "@vercel/blob";
 import { imageSchema, type AircraftImage } from "../../src/lib/catalog/schema";
-import { CACHE, DATA, USER_AGENT, loadFamilies, readJson, writeJson } from "./lib";
+import { CACHE, DATA, USER_AGENT, imageIdFor as imageId, loadFamilies, loadImageOverrides, readJson, writeJson } from "./lib";
 import type { Candidate } from "./harvest";
 import type { Verdict } from "./classify";
 
@@ -20,10 +20,6 @@ type Uploaded = { src: string; srcSmall: string; width: number; height: number }
 
 const IMAGES_FILE = path.join(DATA, "images.json");
 const UPLOADED_FILE = path.join(CACHE, "uploaded.json");
-
-function imageId(familyId: string, title: string) {
-  return `${familyId}-${crypto.createHash("sha1").update(title).digest("hex").slice(0, 10)}`;
-}
 
 async function download(url: string): Promise<Buffer> {
   for (let attempt = 0; ; attempt++) {
@@ -49,6 +45,7 @@ async function main() {
   const { families } = loadFamilies();
   const uploaded: Record<string, Uploaded> = fs.existsSync(UPLOADED_FILE) ? readJson(UPLOADED_FILE) : {};
   const existing: AircraftImage[] = fs.existsSync(IMAGES_FILE) ? readJson(IMAGES_FILE) : [];
+  const overrides = loadImageOverrides();
   const limit = pLimit(4);
   const targets = families.filter((f) => !only || only.includes(f.id));
   const targetIds = new Set(targets.map((f) => f.id));
@@ -57,7 +54,7 @@ async function main() {
   for (const f of targets) {
     const selFile = path.join(CACHE, "selected", `${f.id}.json`);
     if (!fs.existsSync(selFile)) continue;
-    const selected = readJson<Selected[]>(selFile);
+    const selected = readJson<Selected[]>(selFile).filter((x) => !overrides.blocked[imageId(f.id, x.candidate.title)]);
     const results = await Promise.all(
       selected.map(({ candidate: c, verdict: v }) =>
         limit(async (): Promise<AircraftImage | null> => {
@@ -85,7 +82,7 @@ async function main() {
               srcSmall: u.srcSmall,
               width: u.width,
               height: u.height,
-              angle: v.angle,
+              angle: overrides.angles[id] ?? v.angle,
               inFlight: v.inFlight,
               quality: v.quality,
               author: c.author,
@@ -107,7 +104,8 @@ async function main() {
     console.log(`${f.id}: ${ok.length} images`);
   }
 
-  const merged = [...existing.filter((img) => !targetIds.has(img.familyId)), ...fresh].sort(
+  const extras = (overrides.extra ?? []).filter((x) => targetIds.has(x.familyId));
+  const merged = [...existing.filter((img) => !targetIds.has(img.familyId)), ...fresh, ...extras].sort(
     (a, b) => a.familyId.localeCompare(b.familyId) || a.id.localeCompare(b.id),
   );
   writeJson(IMAGES_FILE, merged);

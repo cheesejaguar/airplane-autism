@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { Flag } from "lucide-react";
+import { ReportDialog } from "@/components/reports/report-dialog";
+import { Button } from "@/components/ui/button";
 import type { AircraftImage } from "@/lib/catalog/schema";
 import { cn } from "@/lib/utils";
 
@@ -15,7 +18,7 @@ export const ANGLE_LABEL: Record<string, string> = {
   belly: "Belly",
 };
 
-export function Gallery({ images, name, priority = false }: { images: AircraftImage[]; name: string; priority?: boolean }) {
+export function Gallery({ images, name, familyId, priority = false }: { images: AircraftImage[]; name: string; familyId: string; priority?: boolean }) {
   const [i, setI] = useState(0);
   const img = images[i];
   if (!img) {
@@ -43,12 +46,23 @@ export function Gallery({ images, name, priority = false }: { images: AircraftIm
             transition={{ duration: 0.35 }}
           />
         </AnimatePresence>
-        <span className="type-readout absolute left-3 top-3 rounded bg-[#08101a]/70 px-1.5 py-0.5 text-[#e6ecf1]">{ANGLE_LABEL[img.angle]}</span>
+        <span className="type-readout absolute left-3 top-3 z-10 rounded bg-[#08101a]/70 px-1.5 py-0.5 text-[#e6ecf1]">{ANGLE_LABEL[img.angle]}</span>
+        <div className="absolute right-2 top-2 z-10">
+          <ReportDialog
+            target={{ familyId, imageId: img.id, source: "study" }}
+            subject={`this ${ANGLE_LABEL[img.angle].toLowerCase()} photo of the ${name}`}
+            trigger={
+              <Button size="sm" variant="ghost" className="h-7 bg-[#08101a]/70 px-2 text-xs text-[#e6ecf1] hover:bg-[#08101a]/90 hover:text-white" aria-label="Report this photo">
+                <Flag className="size-3.5" /> Report
+              </Button>
+            }
+          />
+        </div>
         <a
           href={img.sourceUrl}
           target="_blank"
           rel="noreferrer"
-          className="absolute bottom-2 right-2 max-w-[70%] truncate rounded bg-[#08101a]/70 px-1.5 py-0.5 text-[0.7rem] text-[#e6ecf1]/80 hover:text-white"
+          className="absolute bottom-2 right-2 z-10 max-w-[70%] truncate rounded bg-[#08101a]/70 px-1.5 py-0.5 text-[0.7rem] text-[#e6ecf1]/80 hover:text-white"
         >
           {img.author} · {img.license}
         </a>

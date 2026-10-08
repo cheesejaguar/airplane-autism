@@ -4,9 +4,10 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowRight, Lightbulb, Pause, Play, X } from "lucide-react";
+import { ArrowRight, Flag, Lightbulb, Pause, Play, X } from "lucide-react";
 import { toast } from "sonner";
 import { finishSession, getHint, startSession, submitAnswer } from "@/app/train/actions";
+import { ReportDialog } from "@/components/reports/report-dialog";
 import { Button } from "@/components/ui/button";
 import { useLocalFlag } from "@/hooks/use-local-flag";
 import { ensureSession } from "@/lib/auth-client";
@@ -28,6 +29,8 @@ type Phase =
 
 type QState = {
   attempt: 1 | 2;
+  /** Last option the user picked (sent along with reports) */
+  lastChosen?: string;
   statuses: Record<string, ChoiceStatus>;
   hint: { lookFor: string; picked?: PickedSummary } | null;
   hintUsed: boolean;
@@ -161,6 +164,7 @@ export function DrillSession({ deckParam }: { deckParam: string | null }) {
     (chosenId: string) => {
       if (!current || q.result || pending || !shown) return;
       const latencyMs = shownAt.current ? performance.now() - shownAt.current : 0;
+      setQ((s) => ({ ...s, lastChosen: chosenId }));
       startTransition(async () => {
         const res = await submitAnswer({ token: current.token, chosenId, attemptNo: q.attempt, latencyMs, hintUsed: q.hintUsed });
         if (res.status === "error") {
@@ -243,7 +247,7 @@ export function DrillSession({ deckParam }: { deckParam: string | null }) {
         </span>
       </div>
 
-      <div className="mt-3 grid flex-1 content-start gap-4 lg:mt-5 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] lg:gap-6">
+      <div className="mt-3 grid flex-1 grid-cols-[minmax(0,1fr)] content-start gap-4 lg:mt-5 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] lg:gap-6">
         {/* Left: scope */}
         <div className="min-w-0">
           {current ? (
@@ -285,6 +289,19 @@ export function DrillSession({ deckParam }: { deckParam: string | null }) {
                   outcome={q.result.outcome}
                   picked={q.result.picked}
                   showWeft={q.result.outcome !== "first"}
+                  reportSlot={
+                    current && (
+                      <ReportDialog
+                        target={{ token: current.token, chosenFamilyId: q.lastChosen, source: "drill" }}
+                        subject={`this photo, labelled ${q.result.reveal.label}`}
+                        trigger={
+                          <Button variant="ghost" size="sm" className="h-7 px-2 text-xs text-muted-foreground">
+                            <Flag className="size-3.5" /> Report
+                          </Button>
+                        }
+                      />
+                    )
+                  }
                   actions={
                     <div className="relative flex items-center gap-2">
                       <Button size="lg" className="relative flex-1 overflow-hidden" onClick={next} disabled={pending} autoFocus>

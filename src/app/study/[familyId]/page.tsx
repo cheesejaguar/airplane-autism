@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import { Gallery } from "@/components/study/gallery";
 import { FamilyRecordPanel } from "@/components/study/family-record";
 import { WeftStrip } from "@/components/quiz/weft-strip";
+import { ReportDialog } from "@/components/reports/report-dialog";
 import { Button } from "@/components/ui/button";
 import {
   BRANCH_LABELS,
@@ -66,8 +67,8 @@ async function FamilyContent({ params }: { params: Promise<Params> }) {
         / {label(f)}
       </nav>
 
-      <div className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)]">
-        <Gallery images={imgs} name={f.name} priority />
+      <div className="mt-4 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)]">
+        <Gallery images={imgs} name={f.name} familyId={f.id} priority />
 
         <div>
           <div className="flex flex-wrap gap-1.5">
@@ -123,7 +124,10 @@ async function FamilyContent({ params }: { params: Promise<Params> }) {
 
       <section className="mt-12">
         <h2 className="type-condensed text-2xl">WEFT breakdown</h2>
-        <p className="mt-1 text-sm text-muted-foreground">Wings, engines, fuselage, tail — the order recognition instructors scan an airframe.</p>
+        <div className="mt-1 flex flex-wrap items-center justify-between gap-2">
+          <p className="text-sm text-muted-foreground">Wings, engines, fuselage, tail — the order recognition instructors scan an airframe.</p>
+          <ReportDialog target={{ familyId: f.id, source: "study" }} subject={`the ${label(f)}'s features and cues`} photo={false} />
+        </div>
         <WeftStrip weft={f.weft} className="mt-4" />
       </section>
 

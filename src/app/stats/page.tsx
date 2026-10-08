@@ -16,7 +16,7 @@ export const metadata: Metadata = { title: "Stats" };
 
 function Panel({ title, hint, children, className }: { title: string; hint?: string; children: React.ReactNode; className?: string }) {
   return (
-    <section className={`rounded-xl border bg-card p-4 sm:p-5 ${className ?? ""}`}>
+    <section className={`min-w-0 rounded-xl border bg-card p-4 sm:p-5 ${className ?? ""}`}>
       <div className="mb-4 flex items-baseline justify-between gap-3">
         <h2 className="type-condensed text-lg">{title}</h2>
         {hint && <p className="text-xs text-muted-foreground">{hint}</p>}
@@ -105,7 +105,7 @@ async function Dashboard() {
         </Button>
       )}
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-2">
         <Panel title="Activity" hint="Aircraft answered per day · last 30 days">
           <ActivityChart data={s.daily} />
         </Panel>
@@ -118,7 +118,7 @@ async function Dashboard() {
         <MasteryMap cells={s.mastery} />
       </Panel>
 
-      <div className="grid gap-6 lg:grid-cols-3">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-3">
         <Panel title="By viewing angle">
           <BreakdownBars rows={s.byAngle} />
         </Panel>
@@ -130,7 +130,7 @@ async function Dashboard() {
         </Panel>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-2">
         <Panel title="Most confused pairs" hint="What you said vs what it was">
           {s.confusions.length ? (
             <ul className="divide-y">
@@ -157,7 +157,7 @@ async function Dashboard() {
         </Panel>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-2">
         <Panel title="Weakest aircraft" hint="Seen at least twice">
           {s.weakest.length ? (
             <>
@@ -231,7 +231,7 @@ function DashboardSkeleton() {
     <div className="space-y-6">
       <Skeleton className="h-40 rounded-xl" />
       <Skeleton className="h-24 rounded-xl" />
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-6 lg:grid-cols-2">
         <Skeleton className="h-64 rounded-xl" />
         <Skeleton className="h-64 rounded-xl" />
       </div>

@@ -23,7 +23,9 @@
     "pipeline:faa": "tsx scripts/pipeline/faa-aggregate.ts",
     "pipeline:map": "tsx scripts/pipeline/families-map.ts",
     "pipeline:apply-faa": "tsx scripts/pipeline/families-apply-faa.ts",
-    "pipeline:reciprocals": "tsx scripts/pipeline/apply-reciprocals.ts"
+    "pipeline:reciprocals": "tsx scripts/pipeline/apply-reciprocals.ts",
+    "reports": "tsx scripts/reports.ts",
+    "images": "tsx scripts/images-admin.ts"
   },
   "dependencies": {
     "@vercel/blob": "^2.8.1",

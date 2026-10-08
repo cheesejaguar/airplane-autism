@@ -115,6 +115,30 @@ export const userPrefs = pgTable("user_prefs", {
     .$onUpdate(() => new Date()),
 });
 
+/** User reports of mislabeled photos or inaccurate aircraft data, triaged by an admin / Claude. */
+export const report = pgTable(
+  "report",
+  {
+    id: text("id").primaryKey(),
+    userId: text("user_id").references(() => user.id, { onDelete: "set null" }),
+    familyId: text("family_id").notNull(),
+    /** Null when the report is about the aircraft's text rather than a specific photo */
+    imageId: text("image_id"),
+    reason: text("reason").notNull(),
+    /** What the reporter thinks the aircraft actually is (for wrong-aircraft reports) */
+    suggestedFamilyId: text("suggested_family_id"),
+    /** The option the reporter picked in a drill, if any */
+    chosenFamilyId: text("chosen_family_id"),
+    note: text("note"),
+    source: text("source").notNull(),
+    status: text("status").notNull().default("open"),
+    resolution: text("resolution"),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    resolvedAt: timestamp("resolved_at", { withTimezone: true }),
+  },
+  (t) => [index("report_status_idx").on(t.status, t.createdAt), index("report_image_idx").on(t.imageId), index("report_user_idx").on(t.userId)],
+);
+
 export const reviewRelations = relations(review, ({ one }) => ({
   user: one(user, { fields: [review.userId], references: [user.id] }),
   session: one(trainingSession, { fields: [review.sessionId], references: [trainingSession.id] }),

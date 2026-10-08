@@ -34,12 +34,14 @@ export function RevealCard({
   picked,
   showWeft,
   actions,
+  reportSlot,
 }: {
   reveal: FamilyReveal;
   outcome: "first" | "second" | "missed";
   picked?: PickedSummary;
   showWeft: boolean;
   actions?: React.ReactNode;
+  reportSlot?: React.ReactNode;
 }) {
   const tone = outcome === "missed" ? "var(--caution)" : "var(--go)";
   const verdict = { first: "Tally — confirmed", second: "Confirmed on second look", missed: "Missed — study the differences" }[outcome];
@@ -101,6 +103,7 @@ export function RevealCard({
 
       {showWeft && <WeftStrip weft={reveal.weft} compact className="lg:grid-cols-2" />}
 
+      <div className="flex flex-wrap items-center justify-between gap-2">
       <p className={cn("text-xs text-muted-foreground")}>
         Photo:{" "}
         <a href={reveal.credit.sourceUrl} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-foreground">
@@ -108,6 +111,8 @@ export function RevealCard({
         </a>{" "}
         · {reveal.credit.license} · Wikimedia Commons
       </p>
+      {reportSlot}
+      </div>
     </motion.section>
   );
 }

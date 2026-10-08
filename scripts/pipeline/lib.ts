@@ -1,7 +1,8 @@
+import crypto from "node:crypto";
 import fs from "node:fs";
 import { config as loadEnv } from "dotenv";
 import path from "node:path";
-import { familySchema, type Family } from "../../src/lib/catalog/schema";
+import { familySchema, type AircraftImage, type Family } from "../../src/lib/catalog/schema";
 
 export const ROOT = path.resolve(import.meta.dirname, "../..");
 loadEnv({ path: path.join(ROOT, ".env.local"), quiet: true });
@@ -74,4 +75,26 @@ export async function fetchJson<T>(url: string, init: RequestInit = {}, retries 
     }
     throw new Error(`${res.status} ${res.statusText} for ${url}`);
   }
+}
+
+
+/** Stable image id: family + Commons file title. Shared by classify/upload/admin scripts. */
+export function imageIdFor(familyId: string, title: string) {
+  return `${familyId}-${crypto.createHash("sha1").update(title).digest("hex").slice(0, 10)}`;
+}
+
+export type ImageOverrides = {
+  /** imageId → why it was removed (never re-selected by the pipeline) */
+  blocked: Record<string, { familyId: string; reason: string; reportIds?: string[]; at: string }>;
+  /** imageId → corrected viewing angle */
+  angles: Record<string, string>;
+  /** Photos re-assigned to a different family (e.g. a reported mislabel); kept on every upload */
+  extra?: AircraftImage[];
+};
+
+export const OVERRIDES_FILE = path.join(DATA, "image-overrides.json");
+
+export function loadImageOverrides(): ImageOverrides {
+  const o = fs.existsSync(OVERRIDES_FILE) ? readJson<ImageOverrides>(OVERRIDES_FILE) : { blocked: {}, angles: {} };
+  return { blocked: o.blocked ?? {}, angles: o.angles ?? {}, extra: o.extra ?? [] };
 }

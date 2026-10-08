@@ -41,6 +41,7 @@ Required environment variables:
 | `QUESTION_TOKEN_SECRET` | Encrypts quiz question tokens, so the answer never reaches the client |
 | `BLOB_READ_WRITE_TOKEN` | Image uploads (pipeline only) |
 | `VERCEL_OIDC_TOKEN` | AI Gateway auth for the pipeline (refresh with `vercel env pull`) |
+| `ADMIN_EMAILS` | Comma-separated emails of signed-in users who can open `/admin/reports` |
 | `GITHUB_CLIENT_ID/SECRET`, `GOOGLE_CLIENT_ID/SECRET` | Optional social sign-in |
 
 ## The catalog
@@ -73,6 +74,29 @@ How scope is decided:
 - **Military types:** in scope when more than 10 are in active US service, based on service fact sheets and published inventories.
 
 The current catalog has 397 visual families and 2,933 photos. See [doc/catalog-report.md](doc/catalog-report.md) for scope decisions, exclusions and caveats.
+
+## Reporting mislabeled aircraft
+
+Anyone can flag a problem with **Report**. The button is on the drill answer card and on every study-page photo. Study pages also have a "Report a problem" button for the WEFT text. Reasons are:
+
+- wrong aircraft (with an optional "it's actually…" picker)
+- unusable photo
+- wrong viewing angle
+- wrong hint or feature text
+- other
+
+Reports are stored in the `report` table.
+
+**Fixing them with Claude.** Ask Claude Code in this repo to run `/fix-reports` (`.claude/skills/fix-reports/SKILL.md`). It follows these steps:
+
+1. `pnpm reports export` writes a brief, grouped by photo, to `.cache/reports/open-reports.md`.
+2. Claude verifies each item against the photo and references.
+3. It fixes the item:
+   - `pnpm images block|retag|move …` for photos. Changes are recorded in `data/image-overrides.json`, so pipeline re-runs keep them.
+   - Edits to `data/families/*.json` for text.
+4. It validates, then marks the reports with `pnpm reports resolve <ids> --status fixed|dismissed --note "…"`.
+
+**Admin page.** Admins (`ADMIN_EMAILS`) can also triage at `/admin/reports`. From there, "Copy for Claude" or "Download .md" produces the same brief to paste into a Claude session.
 
 ## Tests
 

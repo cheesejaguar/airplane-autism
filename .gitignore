@@ -48,4 +48,5 @@ next-env.d.ts
 
 # agent skills installed by integrations
 /.agents
-/.claude/skills
+/.claude/skills/neon
+/.claude/skills/neon-postgres
