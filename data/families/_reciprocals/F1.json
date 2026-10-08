@@ -1,0 +1,177 @@
+[
+  {
+    "existingId": "r22",
+    "newId": "guimbal-cabri-g2",
+    "howToTell": "The Cabri G2 has three blades and a ducted tail fan in the fin; the R22 has a two-blade teetering rotor and an exposed tail rotor."
+  },
+  {
+    "existingId": "r22",
+    "newId": "enstrom-280",
+    "howToTell": "The Enstrom 280 has a three-blade rotor and a wider three-seat egg-shaped canopy; the R22 has a thin two-blade rotor and only two seats."
+  },
+  {
+    "existingId": "r22",
+    "newId": "brantly-b2",
+    "howToTell": "The Brantly B-2 has three narrow rotor blades and a vertical engine behind its bubble; the R22 has a two-blade teetering rotor."
+  },
+  {
+    "existingId": "r44",
+    "newId": "enstrom-280",
+    "howToTell": "The Enstrom 280 has a three-blade rotor and three seats under one rounded canopy; the R44 has a two-blade rotor and four seats in two rows."
+  },
+  {
+    "existingId": "s-300",
+    "newId": "enstrom-280",
+    "howToTell": "The Enstrom 280 has a rounder, bulbous canopy with three seats abreast; the Schweizer 300 has a narrower cabin and a slim open tail boom."
+  },
+  {
+    "existingId": "s-300",
+    "newId": "brantly-b2",
+    "howToTell": "The Brantly B-2 has narrow blades and a vertical engine behind the bubble; the Schweizer 300 has a deeper cabin and a horizontal engine."
+  },
+  {
+    "existingId": "bell-47",
+    "newId": "hiller-uh-12",
+    "howToTell": "The Hiller has small control paddles on short bars at the hub and no stabilizer bar above the head; the Bell 47 has a stabilizer bar above the rotor."
+  },
+  {
+    "existingId": "bell-47",
+    "newId": "alouette-ii",
+    "howToTell": "The Alouette II has three main blades with a turbine perched on top of an open frame; the Bell 47 has two blades and a stabilizer bar."
+  },
+  {
+    "existingId": "h125",
+    "newId": "ec120",
+    "howToTell": "The EC120 has a ducted tail fan and a rounder egg-shaped nose; the H125 has an exposed tail rotor and a taller boxy cabin."
+  },
+  {
+    "existingId": "h130",
+    "newId": "ec120",
+    "howToTell": "The EC120 is smaller and narrower with five seats; the H130 has a bigger cabin that seats up to seven."
+  },
+  {
+    "existingId": "bell-505",
+    "newId": "enstrom-480",
+    "howToTell": "The Enstrom 480 has a three-blade rotor and a sleek swept canopy; the Bell 505 has a two-blade rotor and a blunt nose."
+  },
+  {
+    "existingId": "bell-505",
+    "newId": "ec120",
+    "howToTell": "The EC120 has a three-blade rotor and a ducted tail fan; the Bell 505 has a two-blade rotor and an open tail rotor."
+  },
+  {
+    "existingId": "bell-206",
+    "newId": "bell-427",
+    "howToTell": "The Bell 427 has a four-blade rotor, twin exhausts and a smoother swept cabin; the 206 has a two-blade rotor and a single exhaust."
+  },
+  {
+    "existingId": "bell-407",
+    "newId": "bell-427",
+    "howToTell": "The Bell 427 has twin exhausts and is slightly longer; the 407 has a single engine and exhaust."
+  },
+  {
+    "existingId": "bell-429",
+    "newId": "bell-427",
+    "howToTell": "The Bell 427 is smaller and has a more swept cabin; the 429 is larger with a bigger rear cabin."
+  },
+  {
+    "existingId": "md-500",
+    "newId": "md-600n",
+    "howToTell": "The MD 600N has six blades, a NOTAR tail and a tall slim body; the MD 500 has five blades, a tail rotor and an egg-shaped pod."
+  },
+  {
+    "existingId": "md-500",
+    "newId": "md-900",
+    "howToTell": "The MD 900 is larger with twin engines and a NOTAR boom; the MD 500 has a single engine and a conventional tail rotor."
+  },
+  {
+    "existingId": "uh-1",
+    "newId": "bell-214",
+    "howToTell": "The Bell 214B has wide-chord blades with no stabilizer bar and one large exhaust duct; the Huey has a stabilizer bar above the head and a slimmer body."
+  },
+  {
+    "existingId": "bell-412",
+    "newId": "bell-214",
+    "howToTell": "The Bell 214ST is larger, longer and bulkier than the 412; the 412 has a more compact body."
+  },
+  {
+    "existingId": "bell-412",
+    "newId": "bell-222",
+    "howToTell": "The Bell 222/430 have a smoother body and a long swept nose; the 412 is a boxy utility machine with a blunt nose."
+  },
+  {
+    "existingId": "aw109",
+    "newId": "bell-222",
+    "howToTell": "The Bell 222 has a two-blade rotor and stub-wing sponsons; the AW109 has a four-blade rotor and retractable gear in a more compact body."
+  },
+  {
+    "existingId": "aw109",
+    "newId": "aw169",
+    "howToTell": "The AW169 has a five-blade rotor and is larger; the AW109 has four blades and a smaller body."
+  },
+  {
+    "existingId": "aw139",
+    "newId": "aw169",
+    "howToTell": "The AW169 is smaller and sleeker with smaller sponsons; the AW139 is larger and boxier."
+  },
+  {
+    "existingId": "as365",
+    "newId": "ec155",
+    "howToTell": "The EC155 has a five-blade rotor and a longer cabin with an extra window; the Dauphin has four blades and a shorter body."
+  },
+  {
+    "existingId": "as365",
+    "newId": "h160",
+    "howToTell": "The H160 has curved Blue Edge blade tips, a canted fenestron and a sleeker body; the Dauphin has a four-blade rotor and a straight fenestron."
+  },
+  {
+    "existingId": "h145",
+    "newId": "bk117",
+    "howToTell": "The BK 117 is a smaller, boxier pod; the H145 is larger with a longer, sleeker cabin and a different nose."
+  },
+  {
+    "existingId": "h145",
+    "newId": "bo-105",
+    "howToTell": "The Bo 105 is a short stubby pod with a very short mast; the H145 is much larger with sliding doors."
+  },
+  {
+    "existingId": "s-92",
+    "newId": "s-61",
+    "howToTell": "The S-61 has a five-blade rotor and a rounded boat-shaped hull; the S-92 has four blades and a boxy modern fuselage with a rear ramp."
+  },
+  {
+    "existingId": "s-92",
+    "newId": "as332",
+    "howToTell": "The Super Puma has a longer boxy cabin and a deep, blunt nose; the S-92 has a rounded fuselage and a rear loading ramp."
+  },
+  {
+    "existingId": "ch-47",
+    "newId": "ch-46",
+    "howToTell": "The CH-46 is smaller with a rounder body and stub sponsons; the Chinook is larger and boxier with full-length sponsons."
+  },
+  {
+    "existingId": "ah-1z",
+    "newId": "ah-1-cobra",
+    "howToTell": "The single-engine Cobra has two blades and one engine; the AH-1Z has four blades and twin engines."
+  },
+  {
+    "existingId": "ch-53e",
+    "newId": "s-64",
+    "howToTell": "The S-64 is an open frame with no cabin; the CH-53E has a full enclosed cabin and a rear ramp."
+  },
+  {
+    "existingId": "mh-60",
+    "newId": "s-61",
+    "howToTell": "The S-61 has five blades and a boat-shaped hull; the MH-60 has four blades and a canted tail rotor."
+  },
+  {
+    "existingId": "uh-60",
+    "newId": "mi-8",
+    "howToTell": "The Mi-8 is a bulky machine with a blunt nose and fixed wheels; the Black Hawk has a slimmer body and a canted tail."
+  },
+  {
+    "existingId": "ch-47",
+    "newId": "s-64",
+    "howToTell": "The S-64 has a single rotor on an open frame; the Chinook has two rotors on a boxy fuselage."
+  }
+]

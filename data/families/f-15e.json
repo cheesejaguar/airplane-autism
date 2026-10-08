@@ -1,0 +1,76 @@
+{
+  "id": "f-15e",
+  "name": "F-15E Strike Eagle / F-15EX Eagle II",
+  "shortName": "F-15E/EX",
+  "aka": [
+    "Strike Eagle",
+    "Mudhen",
+    "Eagle II"
+  ],
+  "manufacturer": "McDonnell Douglas / Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter",
+    "attack"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1986,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F-15E Strike Eagle",
+    "F-15EX Eagle II"
+  ],
+  "summary": "Two-seat, twin-engine dual-role strike fighter derived from the F-15 Eagle; the F-15EX Eagle II is the modernized fly-by-wire version replacing F-15Cs.",
+  "weft": {
+    "wings": [
+      "Large high-mounted wing with about 45 degrees of leading-edge sweep and cropped tips",
+      "Underwing pylons often loaded with fuel tanks and missiles"
+    ],
+    "engines": [
+      "Two engines with round nozzles side by side",
+      "Rectangular box intakes on each side, with targeting and navigation pods often carried underneath"
+    ],
+    "fuselage": [
+      "Two-seat tandem cockpit under a long bubble canopy",
+      "Bulged conformal fuel tanks along the intake sides carrying rows of bombs on stub pylons",
+      "F-15E in dark gunship grey; F-15EX in lighter two-tone grey"
+    ],
+    "tail": [
+      "Twin upright vertical fins",
+      "Horizontal stabilizers with a notched leading edge"
+    ]
+  },
+  "tellTales": [
+    "Two-seat canopy on a twin-tail heavy fighter",
+    "Bulged tanks along the fuselage sides with bombs mounted directly on them",
+    "Big box intakes with sensor pods hung underneath"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-15c",
+      "howToTell": "The Strike Eagle has two seats and conformal tanks, often in dark grey with bombs; the F-15C is usually a single-seater with smooth sides in light grey."
+    },
+    {
+      "id": "f-22",
+      "howToTell": "The Strike Eagle has upright fins, box intakes and round nozzles with external weapons; the F-22 has canted fins, flat nozzles and a clean stealth shape."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "F-15E Strike Eagle in flight",
+    "F-15E Strike Eagle",
+    "F-15EX Eagle II"
+  ],
+  "usCount": {
+    "value": 230,
+    "source": "USAF F-15E/F-15EX fact sheets / FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

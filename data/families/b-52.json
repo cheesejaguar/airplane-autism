@@ -1,0 +1,73 @@
+{
+  "id": "b-52",
+  "name": "B-52H Stratofortress",
+  "shortName": "B-52",
+  "aka": [
+    "Stratofortress",
+    "BUFF"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "bomber"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1952,
+  "engines": {
+    "count": 8,
+    "type": "turbofan"
+  },
+  "variants": [
+    "B-52H"
+  ],
+  "summary": "Eight-engine long-range strategic bomber that has served since the 1950s and is planned to fly into the 2050s with new engines.",
+  "weft": {
+    "wings": [
+      "High-mounted, long swept wing that droops noticeably when parked",
+      "Small outrigger wheels near the wingtips",
+      "Large external fuel tanks under the outer wings"
+    ],
+    "engines": [
+      "Eight engines in four paired pods hung under the wings",
+      "Older low-bypass engines with long, slender nacelles, often trailing smoke"
+    ],
+    "fuselage": [
+      "Long slab-sided fuselage with bicycle-style main landing gear",
+      "Blunt nose with two blister sensor turrets underneath",
+      "Usually dark grey overall"
+    ],
+    "tail": [
+      "Very tall, square-topped single vertical fin",
+      "Large horizontal tail set low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Eight engines in four paired pods under the wings",
+    "Tall slab fin and drooping high wings with outrigger wheels near the tips",
+    "Two blister turrets under a blunt nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-1b",
+      "howToTell": "The B-52 has fixed, high-mounted wings with eight engines in four pods and a tall slab fin; the B-1B is sleek with swing wings and engines paired under the body."
+    },
+    {
+      "id": "kc-135",
+      "howToTell": "The B-52 has eight engines in pairs on a high wing; the KC-135 has four single engines on a low wing and a refueling boom."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Boeing B-52H Stratofortress in flight",
+    "Boeing B-52H Stratofortress"
+  ],
+  "usCount": {
+    "value": 76,
+    "source": "USAF B-52H fact sheet",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

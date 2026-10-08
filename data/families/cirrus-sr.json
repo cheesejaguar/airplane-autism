@@ -1,0 +1,93 @@
+{
+  "id": "cirrus-sr",
+  "name": "Cirrus SR20 / SR22",
+  "shortName": "SR20/22",
+  "aka": [
+    "SR22",
+    "SR22T",
+    "SR20"
+  ],
+  "manufacturer": "Cirrus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SR20",
+    "SR22",
+    "SR22T (turbocharged)",
+    "Generations G1–G7"
+  ],
+  "summary": "Composite four-to-five-seat single with a whole-airframe parachute; the best-selling piston single of the 2000s–2020s.",
+  "weft": {
+    "wings": [
+      "Low, tapered composite wing with rounded tips",
+      "Drooped leading-edge cuff on the outer wing"
+    ],
+    "engines": [
+      "Single flat-six in a smooth composite cowling",
+      "Three-blade prop on most"
+    ],
+    "fuselage": [
+      "Smooth, rivet-free composite fuselage",
+      "Upward-opening doors on both sides",
+      "Fixed tricycle gear with wheel pants and a castering nose wheel"
+    ],
+    "tail": [
+      "Swept fin with conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Smooth composite low-wing single with fixed gear and wheel pants",
+    "Car-like doors on both sides",
+    "Conventional low tail on a rivet-free airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "da40",
+      "howToTell": "The DA40 has a T-tail and a large bubble canopy; the Cirrus has a conventional low tail and side doors."
+    },
+    {
+      "id": "pa-46",
+      "howToTell": "The Malibu/M-series has retractable gear and a pressurized cabin with small windows; the Cirrus has fixed gear and large windows."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 is a riveted metal airplane with a single right door and a stabilator; the Cirrus is a smooth composite with doors on both sides."
+    },
+    {
+      "id": "da50",
+      "howToTell": "The DA50 has a T-tail; the Cirrus has a conventional low tailplane."
+    },
+    {
+      "id": "cessna-400",
+      "howToTell": "The SR series has a parachute hatch on the rear deck; the Corvalis has no parachute cover and a smoother, more sloping windshield."
+    },
+    {
+      "id": "pipistrel-panthera",
+      "howToTell": "The SR20/22 has fixed gear and a parachute hatch on the roof; the Pipistrel Panthera has retractable gear and a long slender wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cirrus SR22",
+    "Cirrus SR20"
+  ],
+  "usCount": {
+    "value": 8161,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2130000",
+    "2130001",
+    "2130004"
+  ]
+}

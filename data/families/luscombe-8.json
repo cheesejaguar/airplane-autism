@@ -1,0 +1,103 @@
+{
+  "id": "luscombe-8",
+  "name": "Luscombe 8 Silvaire",
+  "shortName": "Luscombe 8",
+  "aka": [
+    "Silvaire",
+    "8A",
+    "8E"
+  ],
+  "manufacturer": "Luscombe Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "8 / 8A Silvaire",
+    "8C / 8D",
+    "8E / 8F",
+    "T-8F Observer (tandem)"
+  ],
+  "summary": "Small two-seat all-metal high-wing taildragger from the late 1930s–50s, many still flown in polished aluminum.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing"
+    ],
+    "engines": [
+      "Small flat-four in a smooth, close-fitting cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "All-metal monocoque fuselage, often polished bare aluminum",
+      "Side-by-side two-seat cabin",
+      "Tailwheel gear with spring/oleo main legs"
+    ],
+    "tail": [
+      "Tall, rounded fin and rudder on a slim metal tail cone"
+    ]
+  },
+  "tellTales": [
+    "Small all-metal high-wing taildragger, often polished bare aluminum",
+    "Side-by-side two-seat cabin with a slim tapering metal tail cone",
+    "Smooth, close-cowled nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ is fabric-covered with tandem seats; the Luscombe is all-metal with side-by-side seats."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 150/152 sits on tricycle gear; the Luscombe is a taildragger."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria is fabric-covered with tandem seats and a squared tail; the Luscombe is all-metal with a rounded tail."
+    },
+    {
+      "id": "rearwin-skyranger",
+      "howToTell": "The Luscombe is all-metal with a polished skin and a V-strut; the Rearwin is fabric-covered with older 1930s styling."
+    },
+    {
+      "id": "funk-b",
+      "howToTell": "The Luscombe is all-metal with a V-strut; the Funk is fabric-covered with a single strut."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The Luscombe has short oleo-style struts with exposed rubber cord and an all-metal rounded fuselage; the 120/140 has flat spring-steel gear legs and squarer lines."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Luscombe 8",
+    "Luscombe 8A Silvaire"
+  ],
+  "usCount": {
+    "value": 1553,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8190102",
+    "8190104",
+    "8190106",
+    "8190108",
+    "8190110",
+    "8190112",
+    "8190114",
+    "8190116",
+    "8190120",
+    "8190124",
+    "8190128",
+    "8190130",
+    "8190132",
+    "8190154"
+  ]
+}

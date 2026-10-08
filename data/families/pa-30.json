@@ -1,0 +1,80 @@
+{
+  "id": "pa-30",
+  "name": "Piper PA-30/39 Twin Comanche",
+  "shortName": "Twin Comanche",
+  "aka": [
+    "PA-30",
+    "PA-39 Twin Comanche C/R",
+    "Twin Comanche B",
+    "Twin Comanche C"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1962,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-30 (160 hp Lycoming IO-320)",
+    "PA-30B / PA-30C (turbo option, tip tanks, six-seat)",
+    "PA-39 Twin Comanche C/R (counter-rotating props)"
+  ],
+  "summary": "Slim, economical four-to-six-seat retractable-gear twin built 1963–1972, the twin-engine sibling of the Comanche and a popular owner-flown light twin.",
+  "weft": {
+    "wings": [
+      "Low, straight constant-chord wing with no taper",
+      "Later models often carry small tip tanks on the wingtips"
+    ],
+    "engines": [
+      "Two small Lycoming engines in slim, compact nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Slim, sleek cabin with a sloping nose and a flat-topped canopy line",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Strongly raked fin with a squared-off top",
+      "Low-set one-piece stabilator"
+    ]
+  },
+  "tellTales": [
+    "Small, slim twin with a straight constant-chord wing",
+    "Strongly raked, square-topped fin with a low stabilator",
+    "Narrow sloping nose on a compact cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-23",
+      "howToTell": "The Apache has a blunter, rounder nose and a deeper, boxier cabin on a thick wing; the Twin Comanche is slimmer with a sloping nose."
+    },
+    {
+      "id": "pa-24",
+      "howToTell": "The single-engine Comanche has one engine in the nose; the Twin Comanche has an engine on each wing."
+    },
+    {
+      "id": "beech-95",
+      "howToTell": "The Travel Air has a tall, upright, squared-off fin and a tapered wing; the Twin Comanche has a raked fin and a straight wing with no taper."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-30 Twin Comanche",
+    "Piper PA-39 Twin Comanche C/R"
+  ],
+  "usCount": {
+    "value": 922,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7103002",
+    "7103902"
+  ]
+}

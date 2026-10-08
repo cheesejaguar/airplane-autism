@@ -1,0 +1,86 @@
+{
+  "id": "c177",
+  "name": "Cessna 177 Cardinal",
+  "shortName": "C177",
+  "aka": [
+    "Cardinal",
+    "Cardinal RG"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "177 / 177A Cardinal (fixed gear, 150–180 hp)",
+    "177B Cardinal (180 hp, constant-speed prop)",
+    "177RG Cardinal RG (retractable gear, 200 hp)"
+  ],
+  "summary": "Cessna's strutless successor-that-wasn't to the 172: a four-seat cantilever high-wing with a stabilator, steeply raked windshield and sleek lines. The 177RG adds retractable gear.",
+  "weft": {
+    "wings": [
+      "Cantilever high wing with no lift struts",
+      "Tapered wing mounted well aft of the windshield"
+    ],
+    "engines": [
+      "Single flat-four in a smoothly tapered, low cowling",
+      "Two-blade (fixed-pitch) or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Steeply raked windshield and wide, bubble-like cabin glazing",
+      "Fixed tricycle gear (177/177B) or retractable tricycle gear (177RG)",
+      "Pilot sits ahead of the wing leading edge"
+    ],
+    "tail": [
+      "Swept fin with a dorsal fillet",
+      "All-flying stabilator in place of separate stabilizer and elevator"
+    ]
+  },
+  "tellTales": [
+    "High wing with no struts at all",
+    "Steeply raked windshield and a sleek, sloping nose",
+    "Swept fin with a one-piece moving horizontal tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The 177 has a strutless cantilever wing, a stabilator and a raked windshield; the 172 has a lift strut on each wing and a conventional tail."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The 182 has lift struts and a deeper, blunter cowl; the 177 has a clean wing with no struts and a smoother nose."
+    },
+    {
+      "id": "c210",
+      "howToTell": "The 177RG is a strutless four-seater with a small cowl and a one-piece stabilator; the 210 is a larger six-seater with a bigger cowl and a conventional tail."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The 177 is a high-wing aluminium aircraft; the SR20/22 is a low-wing composite with a parachute hatch behind the cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 177 Cardinal",
+    "Cessna 177RG"
+  ],
+  "usCount": {
+    "value": 2108,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2073704",
+    "2073706",
+    "2073708",
+    "2073709",
+    "7530211"
+  ]
+}

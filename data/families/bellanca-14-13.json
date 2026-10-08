@@ -1,0 +1,86 @@
+{
+  "id": "bellanca-14-13",
+  "name": "Bellanca 14-13 Cruisair",
+  "shortName": "Cruisair",
+  "aka": [
+    "Cruisair Senior",
+    "Bellanca 14-13",
+    "Bellanca 14-12"
+  ],
+  "manufacturer": "Bellanca Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "14-13 Cruisair Senior (150 hp Franklin)",
+    "14-13-2 (165 hp)",
+    "14-13-3 Cruisair Senior",
+    "14-12F-3 / 14-9 (earlier postwar types)"
+  ],
+  "summary": "Postwar four-seat, wood-and-fabric low-wing tourer with fixed conventional gear, recognized by the oval end-plate fins on its horizontal tail ('cardboard Constellation').",
+  "weft": {
+    "wings": [
+      "Low wing, no struts",
+      "Fabric-covered wing with rounded tips"
+    ],
+    "engines": [
+      "Single flat-six Franklin (150–165 hp) in a smooth cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Fabric-covered steel-tube fuselage with a four-seat cabin",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Central fin plus an oval end-plate fin on each horizontal stabilizer (triple-fin look)"
+    ]
+  },
+  "tellTales": [
+    "Triple-fin tail on a low-wing four-seater",
+    "Fixed main gear with a tailwheel on a low-wing airplane",
+    "Oval end-plate fins on the horizontal tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "bellanca-14-19",
+      "howToTell": "The Cruisair has fixed gear and a smaller engine; the Cruisemaster is a more powerful retractable version with the same triple tail."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Cruisair is a low-wing four-seater with a triple fin; the Luscombe is a high-wing two-seater."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The Cruisair has a triple-fin tail and a tailwheel; the PA-28 has a single fin and a nosewheel."
+    },
+    {
+      "id": "navion",
+      "howToTell": "The Cruisair has a triple-fin tail and a tailwheel; the Navion has a single fin, a nosewheel and a long canopy."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bellanca 14-13",
+    "Bellanca Cruisair"
+  ],
+  "usCount": {
+    "value": 137,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1200802",
+    "1200902",
+    "1201002",
+    "1201004",
+    "1201006"
+  ]
+}

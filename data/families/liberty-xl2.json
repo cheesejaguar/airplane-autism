@@ -1,0 +1,76 @@
+{
+  "id": "liberty-xl2",
+  "name": "Liberty XL-2",
+  "shortName": "XL-2",
+  "aka": [
+    "Liberty XL2",
+    "Discovery XL-2"
+  ],
+  "manufacturer": "Liberty Aerospace",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 2000,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Liberty XL2 (2004-2011)",
+    "Discovery XL-2 (2018 restart)"
+  ],
+  "summary": "Sleek certified two-seat trainer and tourer from Florida, derived from the Europa XS kit plane. Composite fuselage, aluminum wing and FADEC engine.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Rectangular, untapered wing with large Fowler flaps"
+    ],
+    "engines": [
+      "Single Continental IOF-240 flat-four with FADEC, in a smooth cowl",
+      "Composite propeller"
+    ],
+    "fuselage": [
+      "Slim composite fuselage with a big, bubble-like windscreen",
+      "Fixed tricycle gear on slim sprung-steel legs"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Sleek two-seat low-wing with a large, bubble-like windscreen",
+    "Rectangular, untapered wing with big flaps",
+    "Tricycle gear on three slim sprung-steel legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a T-tail; the XL-2 has a conventional low horizontal tail."
+    },
+    {
+      "id": "alarus-ch2000",
+      "howToTell": "The Alarus is a blunt-nosed all-metal two-seater; the XL-2 is slimmer with a composite fuselage and a big, bubble-like windscreen."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The Tomahawk has a T-tail and a rounded greenhouse cabin; the XL-2 has a conventional tail and a more tapered fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Liberty XL2"
+  ],
+  "usCount": {
+    "value": 50,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5200000",
+    "5200001"
+  ]
+}

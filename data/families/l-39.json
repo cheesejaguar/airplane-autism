@@ -1,0 +1,88 @@
+{
+  "id": "l-39",
+  "name": "Aero L-39 Albatros",
+  "shortName": "L-39",
+  "aka": [
+    "Albatros",
+    "L-39C",
+    "L-39ZA"
+  ],
+  "manufacturer": "Aero Vodochody",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1968,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "L-39C (trainer)",
+    "L-39ZA (armed)",
+    "L-39ZO",
+    "L-39V (target tug)"
+  ],
+  "summary": "Czechoslovak jet trainer used by Warsaw Pact air forces; the most common privately owned jet warbird in the US.",
+  "weft": {
+    "wings": [
+      "Low, straight unswept wing",
+      "Permanent fuel tanks on the wingtips"
+    ],
+    "engines": [
+      "Single turbofan with small intakes on both sides of the fuselage behind the cockpit",
+      "Exhaust at the tail"
+    ],
+    "fuselage": [
+      "Tandem two-seat cockpit with a stepped canopy (rear seat raised)",
+      "Pointed nose; tricycle gear"
+    ],
+    "tail": [
+      "Large swept fin",
+      "Horizontal tail mounted on the fuselage below the fin"
+    ]
+  },
+  "tellTales": [
+    "Straight wing with permanent tip tanks on a small jet trainer",
+    "Side intakes behind a stepped tandem canopy",
+    "Short, stubby fuselage with a pointed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-38",
+      "howToTell": "The T-38 is a slim twin-engine jet with thin swept wings and no tip tanks; the L-39 has a straight wing with tip tanks."
+    },
+    {
+      "id": "t-45",
+      "howToTell": "The Goshawk has a swept wing with no tip tanks; the L-39 has a straight wing with tip tanks."
+    },
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a rounder pot-bellied fuselage, straight wing with no tip tanks and a more bulbous nose; the L-39 is slimmer with a tapered wing and tip tanks."
+    },
+    {
+      "id": "ts-11-iskra",
+      "howToTell": "The Iskra is a slimmer jet with a straight wing and wing-root intakes under a long single canopy; the L-39 has larger fuselage-side intakes and wingtip tanks."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Aero L-39",
+    "Aero L-39C Albatros"
+  ],
+  "usCount": {
+    "value": 171,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05603SJ",
+    "05610PE",
+    "056185D",
+    "05620RN",
+    "05623NM"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "ercoupe",
+  "name": "Ercoupe 415",
+  "shortName": "Ercoupe",
+  "aka": [
+    "Aircoupe",
+    "Forney F-1",
+    "Alon A-2",
+    "Mooney M10 Cadet"
+  ],
+  "manufacturer": "ERCO (Engineering and Research Corporation) and successors",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "ERCO 415-C / 415-CD / 415-D / 415-E / 415-G",
+    "Forney F-1 Aircoupe",
+    "Alon A-2",
+    "Mooney M10 Cadet (single fin)"
+  ],
+  "summary": "Two-seat low-wing light aircraft designed to be spin-proof, with linked controls and a distinctive twin tail.",
+  "weft": {
+    "wings": [
+      "Low wing with marked dihedral on the outer panels"
+    ],
+    "engines": [
+      "Small flat-four",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Short, rounded two-seat side-by-side cockpit with a canopy whose side windows slide down",
+      "Fixed tricycle gear with a tall nose leg",
+      "Often polished aluminum"
+    ],
+    "tail": [
+      "Twin vertical fins and rudders at the ends of the horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tiny low-wing two-seater with twin fins at the ends of the tailplane",
+    "Tall nose gear giving a nose-high stance",
+    "Bubble-like canopy with drop-down side windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-1/AA-5 has a single fin; the Ercoupe has twin fins at the tailplane tips."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a T-tail and long slender wings; the Ercoupe has twin fins and a short wing."
+    },
+    {
+      "id": "globe-swift",
+      "howToTell": "The Ercoupe has a twin-fin tail and fixed tricycle gear; the Swift has a single fin, retractable gear and a tailwheel."
+    },
+    {
+      "id": "culver-v",
+      "howToTell": "The Ercoupe has twin fins and fixed tricycle gear; the Culver V has a single fin and retractable gear."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "ERCO 415 Ercoupe"
+  ],
+  "usCount": {
+    "value": 1618,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0420104",
+    "0420202",
+    "0420204",
+    "0420302",
+    "0420304",
+    "0420306",
+    "0420308",
+    "0420310",
+    "0420312",
+    "0420314",
+    "0420316",
+    "0420318",
+    "0420322",
+    "0420324",
+    "0420326",
+    "0420328",
+    "0420330",
+    "0420332",
+    "0420402",
+    "0420406",
+    "0420502",
+    "0420504",
+    "0420722",
+    "0540102",
+    "0540104",
+    "5872018"
+  ]
+}

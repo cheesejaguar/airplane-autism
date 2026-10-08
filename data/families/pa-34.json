@@ -1,0 +1,85 @@
+{
+  "id": "pa-34",
+  "name": "Piper PA-34 Seneca",
+  "shortName": "PA-34",
+  "aka": [
+    "Seneca",
+    "EMB-810"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "Seneca I (PA-34-200)",
+    "Seneca II / III (200T / 220T, turbocharged)",
+    "Seneca IV / V",
+    "EMB-810 (Embraer licence-built)"
+  ],
+  "summary": "Six-seat light piston twin derived from the Cherokee Six fuselage, widely used for multi-engine training, charter and personal travel.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing derived from the single-engine family"
+    ],
+    "engines": [
+      "Two flat-six engines in slim nacelles; counter-rotating props",
+      "Nacelles end near the wing trailing edge"
+    ],
+    "fuselage": [
+      "Long six-seat cabin with four side windows and a double rear door on the left",
+      "Short, blunt nose with baggage compartment",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Swept fin with a low-set stabilator — not a T-tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing piston twin with a long single-engine-style six-seat cabin",
+    "Low-set horizontal tail rather than a T-tail",
+    "Double rear door on the left side"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-44",
+      "howToTell": "The Seminole has a T-tail and a shorter four-seat cabin; the Seneca has a low tail and a longer six-seat cabin."
+    },
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a longer, more pointed nose and a sleeker rounded fuselage; the Seneca's nose is short and blunt."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 is a slender composite twin with long thin wings and a T-tail; the Seneca is a metal twin with a low tail."
+    },
+    {
+      "id": "beech-76",
+      "howToTell": "The Duchess is a short four-seat T-tail twin; the Seneca has a conventional low tail and a longer six-seat cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-34 Seneca"
+  ],
+  "usCount": {
+    "value": 939,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7103202",
+    "7103223",
+    "7103404",
+    "7103405",
+    "7103406",
+    "7103420"
+  ]
+}

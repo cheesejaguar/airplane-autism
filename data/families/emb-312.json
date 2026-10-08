@@ -1,0 +1,85 @@
+{
+  "id": "emb-312",
+  "name": "Embraer EMB-312 Tucano",
+  "shortName": "Tucano",
+  "aka": [
+    "EMB-312",
+    "Short Tucano",
+    "T-27",
+    "Tucano T1"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1980,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "EMB-312 / EMB-312F",
+    "Short S312 Tucano T Mk1 (RAF)",
+    "EMB-312H (Super Tucano precursor)"
+  ],
+  "summary": "Brazilian turboprop basic trainer used by the RAF, France and many others; a few ex-RAF Short Tucanos and French EMB-312Fs are now privately owned in the US.",
+  "weft": {
+    "wings": [
+      "Low, tapered straight wing",
+      "Slight dihedral on the outer panels"
+    ],
+    "engines": [
+      "Single PT6A turboprop with a three- or four-blade propeller",
+      "Short, snub nose with a chin scoop and exhaust stacks on each side"
+    ],
+    "fuselage": [
+      "Tandem seats under a long bubble canopy, rear seat raised",
+      "Retractable tricycle gear",
+      "Shallow dorsal spine behind the canopy"
+    ],
+    "tail": [
+      "Swept fin with a dorsal fillet",
+      "Horizontal tail mounted low on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Turboprop trainer with a short snub nose and a long tandem canopy",
+    "Chin scoop and exhaust stubs ahead of the low wing",
+    "Stepped tandem seating under a long bubble canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a longer pointed nose and a more upright canopy; the Tucano has a shorter snub nose and a long, flat canopy."
+    },
+    {
+      "id": "pc-9",
+      "howToTell": "The PC-9 has a four-blade propeller and a longer nose; the Tucano has a shorter nose and a ventral chin scoop."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The T-6 Texan II has a taller canopy hump and a long slim nose; the Tucano has a shorter nose and a lower canopy line."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 has a big radial piston engine; the Tucano has a slim turboprop nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Embraer EMB 312 Tucano"
+  ],
+  "usCount": {
+    "value": 33,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3260250",
+    "8100527"
+  ]
+}

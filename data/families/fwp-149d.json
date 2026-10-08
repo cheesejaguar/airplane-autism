@@ -1,0 +1,77 @@
+{
+  "id": "fwp-149d",
+  "name": "Focke-Wulf FWP 149D",
+  "shortName": "FWP 149D",
+  "aka": [
+    "Piaggio P.149",
+    "P.149D"
+  ],
+  "manufacturer": "Focke-Wulf (Piaggio)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Piaggio P.149D",
+    "Focke-Wulf FWP.149D (Luftwaffe)"
+  ],
+  "summary": "Four-seat liaison and trainer built by Focke-Wulf under licence from Piaggio for the German Air Force; a handful survive as private airplanes in the US.",
+  "weft": {
+    "wings": [
+      "Low, tapered cantilever wing",
+      "Large flaps"
+    ],
+    "engines": [
+      "Single six-cylinder Lycoming GO-480 in a smooth cowl",
+      "Two or three-blade propeller"
+    ],
+    "fuselage": [
+      "Long glazed cabin seating four or five",
+      "Retractable tricycle gear",
+      "Boxy, upright fuselage"
+    ],
+    "tail": [
+      "Angular, upright fin and rudder",
+      "Low-set horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat low-wing with a long glazed cabin and a boxy upright tail",
+    "Retractable tricycle gear and a flat-six nose",
+    "1950s European look"
+  ],
+  "confusedWith": [
+    {
+      "id": "navion",
+      "howToTell": "The Navion has a long sliding canopy and a rounded tail; the FWP 149D has a boxy cabin and an angular tail."
+    },
+    {
+      "id": "pa-24",
+      "howToTell": "The Comanche has a more modern, rounded shape with a swept tail; the FWP 149D has a boxier cabin and angular tail."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The Bonanza has a larger, more rounded cabin; the FWP 149D has a boxier, more angular shape."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Focke-Wulf FWP 149D"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3540106"
+  ]
+}

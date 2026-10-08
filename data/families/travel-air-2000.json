@@ -1,0 +1,92 @@
+{
+  "id": "travel-air-2000",
+  "name": "Travel Air 2000 / 4000 Biplane",
+  "shortName": "Travel Air 4000",
+  "aka": [
+    "Travel Air 4000",
+    "Travel Air 2000",
+    "E-4000",
+    "D-4000",
+    "Travel Air 4-D"
+  ],
+  "manufacturer": "Travel Air Manufacturing Company / Curtiss-Wright",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1925,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Travel Air 2000 (OX-5 V-8)",
+    "Travel Air 4000 / 4-D (OX-5 or radial)",
+    "Travel Air D-4000 / E-4000 (Wright J-5 / Whirlwind)",
+    "Speedwing variants"
+  ],
+  "summary": "Barnstorming-era open-cockpit biplane of the late 1920s; the Model 4000 family has a rugged steel-tube fuselage and was a staple of early commercial flying.",
+  "weft": {
+    "wings": [
+      "Single-bay staggered biplane braced with N-struts",
+      "Large 'elephant ear' ailerons with overhanging balance horns"
+    ],
+    "engines": [
+      "Radial engine (Wright J-5 or similar), or a water-cooled OX-5 V-8 with a nose radiator on early models",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits with the front one wide enough for two",
+      "Fixed tailskid gear, with oleo outrigger on some variants"
+    ],
+    "tail": [
+      "Rounded rudder with a tailskid"
+    ]
+  },
+  "tellTales": [
+    "Biplane with big elephant-ear ailerons overhanging the wing tips",
+    "1920s open-cockpit biplane with a radial or V-8 engine",
+    "N-strut bracing and a wide front cockpit"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is a later, larger design without the overhanging balanced ailerons; the Travel Air has distinctive horn-balanced ailerons."
+    },
+    {
+      "id": "waco-10",
+      "howToTell": "The Waco 10 has strut-linked upper and lower ailerons without big overhanging horns."
+    },
+    {
+      "id": "waco-f-series",
+      "howToTell": "The Waco F-series has a smoother, later-style fuselage and wide-track gear; the Travel Air is a boxier 1920s design."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Travel Air 4000",
+    "Travel Air 2000"
+  ],
+  "usCount": {
+    "value": 121,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2621004",
+    "2621012",
+    "2621506",
+    "2621602",
+    "2621606",
+    "2621802",
+    "2621804",
+    "2621808",
+    "2621810",
+    "2621818",
+    "2621824",
+    "2621826",
+    "2621830"
+  ]
+}

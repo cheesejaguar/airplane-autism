@@ -1,0 +1,94 @@
+{
+  "id": "bell-412",
+  "name": "Bell 412",
+  "shortName": "Bell 412",
+  "aka": [
+    "412EP",
+    "Subaru Bell 412EPX",
+    "Griffon"
+  ],
+  "manufacturer": "Bell (Subaru for 412EPX)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "ems",
+    "search-rescue",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "412",
+    "412SP",
+    "412EP",
+    "412EPI",
+    "412EPX"
+  ],
+  "summary": "Four-blade development of the Bell 212 used in the US mostly by law enforcement, firefighting, EMS and offshore operators.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor on a short, compact hub",
+      "No stabilizer bar"
+    ],
+    "engines": [
+      "Twin-Pac engine with two exhausts side by side on the roof",
+      "Wide rear engine cowling like the Bell 212"
+    ],
+    "fuselage": [
+      "Boxy Huey-style cabin with large sliding doors",
+      "Skids (wheels on some), often with floats or a hoist",
+      "Plain rounded nose, sometimes with a weather radar bulge"
+    ],
+    "tail": [
+      "Two-blade tail rotor on the fin",
+      "Small horizontal stabilizers mid-boom"
+    ]
+  },
+  "tellTales": [
+    "Classic boxy utility cabin on skids but with four main rotor blades",
+    "Two exhausts side by side and only a two-blade tail rotor",
+    "Civil paint, often police, fire or EMS"
+  ],
+  "confusedWith": [
+    {
+      "id": "uh-1",
+      "howToTell": "The 412 has a four-blade main rotor; the UH-1/205/212 has two blades."
+    },
+    {
+      "id": "uh-1y",
+      "howToTell": "The UH-1Y has a four-blade tail rotor, FLIR nose and Marine gray paint; the 412 keeps a two-blade tail rotor."
+    },
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 has five blades, a sleek nose and retractable wheels; the 412 has four blades on a boxy Huey cabin with skids."
+    },
+    {
+      "id": "bell-214",
+      "howToTell": "The Bell 214ST is larger, longer and bulkier than the 412; the 412 has a more compact body."
+    },
+    {
+      "id": "bell-222",
+      "howToTell": "The Bell 222/430 have a smoother body and a long swept nose; the 412 is a boxy utility machine with a blunt nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bell 412"
+  ],
+  "usCount": {
+    "value": 61,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1182157",
+    "1182202",
+    "1182205",
+    "1182217"
+  ]
+}

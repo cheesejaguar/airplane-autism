@@ -1,0 +1,107 @@
+{
+  "id": "hawker-800",
+  "name": "Hawker 800 / 850 / 900",
+  "shortName": "Hawker 800",
+  "aka": [
+    "BAe 125-800",
+    "Hawker 800XP",
+    "Hawker 850XP",
+    "Hawker 900XP",
+    "Hawker 750",
+    "HS.125"
+  ],
+  "manufacturer": "British Aerospace / Raytheon / Hawker Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1983,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "BAe 125-800 / Hawker 800",
+    "Hawker 800XP / 800XPi",
+    "Hawker 750",
+    "Hawker 850XP (winglets)",
+    "Hawker 900XP (winglets)"
+  ],
+  "summary": "Midsize descendant of the 1960s de Havilland/Hawker Siddeley HS.125, built in large numbers in the UK and later the US.",
+  "weft": {
+    "wings": [
+      "Low wing with moderate sweep and noticeable dihedral",
+      "Winglets on the 850XP and 900XP; plain tips on most 800s"
+    ],
+    "engines": [
+      "Two Honeywell TFE731 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Fuselage with a row of small oval windows",
+      "Large belly fairing (ventral fuel tank) under the wing center section"
+    ],
+    "tail": [
+      "Horizontal stabilizer mounted partway up the fin (cruciform), not on top",
+      "Fin with a long dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Small oval windows on a midsize twinjet with a mid-fin tailplane",
+    "Bulging belly fairing under the wing",
+    "Wing with visible dihedral and moderate sweep"
+  ],
+  "confusedWith": [
+    {
+      "id": "falcon-2000",
+      "howToTell": "The Hawker 800 is smaller with oval windows and a belly fairing; the Falcon 2000 is wider with rounded-rectangle windows."
+    },
+    {
+      "id": "beechjet-400",
+      "howToTell": "The Hawker 800 has its tailplane partway up the fin and oval windows; the Beechjet/Hawker 400 is smaller with a T-tail."
+    },
+    {
+      "id": "citation-excel",
+      "howToTell": "The Hawker 800 has a swept wing and mid-fin tailplane; the Excel has a straight wing and a tailplane low on the tail cone."
+    },
+    {
+      "id": "falcon-trijet",
+      "howToTell": "The Hawker 800 has two engines; the Falcon 50/900 has a third engine intake at the fin root."
+    },
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 has small round windows and a low-set tailplane; the Hawker 800 has larger oval windows and a cruciform tail with a long dorsal fillet."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Hawker 800",
+    "Hawker 900XP",
+    "Hawker 800XP"
+  ],
+  "usCount": {
+    "value": 596,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1500103",
+    "1500104",
+    "1500119",
+    "1500204",
+    "1500285",
+    "1500287",
+    "4220007",
+    "4220010",
+    "4220011",
+    "4230170",
+    "7150012",
+    "7150016",
+    "7450001",
+    "7450002",
+    "7450004",
+    "7450005",
+    "7450006"
+  ]
+}

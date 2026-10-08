@@ -1,0 +1,79 @@
+{
+  "id": "culver-v",
+  "name": "Culver V",
+  "shortName": "Culver V",
+  "aka": [
+    "Culver Model V",
+    "V-1",
+    "V-2",
+    "Superior Satellite"
+  ],
+  "manufacturer": "Culver Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "V-1",
+    "V-2",
+    "Superior Satellite (1956, 95 hp Continental)",
+    "TD4C / UC-1K (target drone)"
+  ],
+  "summary": "Postwar two-seat cabin low-wing built by Culver, known for its Simpli-Fly one-knob flap/trim control. Retractable tricycle gear and a distinctive upward-bent outer wing.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with outer panels angled sharply upward (pronounced dihedral break)"
+    ],
+    "engines": [
+      "Single Continental flat-four (85-95 hp) in a smooth cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Enclosed side-by-side two-seat cabin with a rounded glasshouse",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Single fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low wing whose outer panels angle upward",
+    "Two-seat cabin on retractable tricycle gear",
+    "No struts and a clean, rounded cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "culver-cadet",
+      "howToTell": "The Cadet is a prewar tailwheel two-seater with a conventional wing; the V has tricycle gear and a pronounced upward bend in the outer wing."
+    },
+    {
+      "id": "ercoupe",
+      "howToTell": "The Ercoupe has twin fins; the Culver V has a single fin and retractable gear."
+    },
+    {
+      "id": "mooney-m18",
+      "howToTell": "The Mite is a tiny single-seater; the Culver V is a two-seater with a larger cabin."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Culver Model V"
+  ],
+  "usCount": {
+    "value": 16,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8730302",
+    "8730306"
+  ]
+}

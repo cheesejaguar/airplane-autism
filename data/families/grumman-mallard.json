@@ -1,0 +1,73 @@
+{
+  "id": "grumman-mallard",
+  "name": "Grumman G-73 Mallard",
+  "shortName": "Mallard",
+  "aka": [
+    "G-73",
+    "G-73T Turbo Mallard"
+  ],
+  "manufacturer": "Grumman",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "seaplane",
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "G-73",
+    "G-73T Turbo Mallard (PT6A turboprop conversion)"
+  ],
+  "summary": "Twin-radial 10-seat amphibian built 1946–1951, the larger successor to the Goose and the first Grumman amphibian with tricycle gear; most survivors fly in the Bahamas and Pacific.",
+  "weft": {
+    "wings": [
+      "Large, straight high wing with wingtip fuel tanks"
+    ],
+    "engines": [
+      "Two large radial (or turboprop) engines on the wing leading edge"
+    ],
+    "fuselage": [
+      "Big two-step hull with a long row of square windows",
+      "Tricycle landing gear with a nose wheel"
+    ],
+    "tail": [
+      "Large single fin and rudder with the horizontal tail on the aft hull"
+    ]
+  },
+  "tellTales": [
+    "Large twin-engine amphibian with a nose wheel",
+    "Long row of square windows along a deep hull",
+    "Tall single fin on an upswept aft hull"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-goose",
+      "howToTell": "The Goose is smaller with hull-mounted main wheels and no nose wheel; the Mallard has tricycle gear and wingtip tanks."
+    },
+    {
+      "id": "grumman-widgeon",
+      "howToTell": "The Widgeon is a small five-seater with a stubby hull and a strut-braced tail; the Mallard is much larger."
+    },
+    {
+      "id": "hu-16",
+      "howToTell": "The HU-16 Albatross is bigger still, with a gull-like wing, tall tail and military markings; the Mallard is a smaller civil amphibian."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman G-73 Mallard"
+  ],
+  "usCount": {
+    "value": 13,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3951802"
+  ]
+}

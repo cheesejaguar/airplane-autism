@@ -1,0 +1,97 @@
+{
+  "id": "extra-300",
+  "name": "Extra EA-300",
+  "shortName": "Extra 300",
+  "aka": [
+    "Extra 300",
+    "EA-300/L",
+    "EA-300/S",
+    "EA-300/LC",
+    "EA-300/LT"
+  ],
+  "manufacturer": "Extra Flugzeugbau",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1988,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "EA-300 (two-seat, mid-wing)",
+    "EA-300L (two-seat, low wing)",
+    "EA-300S (single seat)",
+    "EA-300LP / LC (single seat, low wing)",
+    "EA-300SC / SR / LT (variants)"
+  ],
+  "summary": "German world-class unlimited aerobatic monoplane with a composite wing and tube-and-fabric fuselage; flown by airshow and competition pilots worldwide.",
+  "weft": {
+    "wings": [
+      "Thin, straight cantilever monoplane wing, mid-set (low-set on the 300L) with no flaps",
+      "Long ailerons covering most of the trailing edge"
+    ],
+    "engines": [
+      "Six-cylinder Lycoming in a tight cowl",
+      "Three-blade constant-speed propeller"
+    ],
+    "fuselage": [
+      "Tandem cockpits under a long bubble canopy on the two-seat models; single seat on the S and LC",
+      "Slim fuselage tapering to the tail",
+      "Fixed tailwheel gear with composite spring legs"
+    ],
+    "tail": [
+      "Large rudder and fin with big elevators"
+    ]
+  },
+  "tellTales": [
+    "Single-wing aerobatic taildragger with a long bubble canopy and three-blade prop",
+    "Thin straight wing with huge ailerons and no flaps",
+    "Tight cowl over a six-cylinder engine with composite spring gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "pitts",
+      "howToTell": "The Pitts is a tiny biplane; the Extra is a monoplane with a long single wing."
+    },
+    {
+      "id": "zivko-edge-540",
+      "howToTell": "The Edge is a single-seater with an all-composite smooth fuselage; most Extras are two-seaters with a fabric-covered rear fuselage."
+    },
+    {
+      "id": "xtremeair-xa42",
+      "howToTell": "The XA42 is a newer all-composite airframe with a different cowl, canopy and wing-root shape; the Extra 300 has a fabric-covered rear fuselage."
+    },
+    {
+      "id": "yak-55",
+      "howToTell": "The Yak-55 has a radial engine with a rounded cowl; the Extra has a flat-six with a tight, narrow cowl."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Extra 300"
+  ],
+  "usCount": {
+    "value": 330,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056263C",
+    "056389B",
+    "1130864",
+    "7021803",
+    "7021810",
+    "70218BP",
+    "70218DE",
+    "70218DG",
+    "70218DI",
+    "70218DN",
+    "70218DO",
+    "70218DQ",
+    "70218DR"
+  ]
+}

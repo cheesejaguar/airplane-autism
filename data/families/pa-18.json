@@ -1,0 +1,114 @@
+{
+  "id": "pa-18",
+  "name": "Piper PA-18 Super Cub",
+  "shortName": "PA-18",
+  "aka": [
+    "Super Cub",
+    "L-18",
+    "L-21"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-18-95 / -105 / -125 / -135 / -150",
+    "PA-18A agricultural",
+    "L-18C / L-21 (military)",
+    "Modern clones (e.g. Top Cub, Super Cub kits)"
+  ],
+  "summary": "Two-seat tandem tube-and-fabric taildragger, the archetypal bush plane for short, rough strips, floats and banner towing.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts from the lower fuselage",
+      "Constant-chord rectangular wing with rounded tips and flaps"
+    ],
+    "engines": [
+      "Single flat-four in a fully enclosed cowling",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Narrow tandem two-seat fabric-covered fuselage",
+      "Tailwheel gear with V-strut main legs, often on oversized tundra tires",
+      "Split door on the right: upper half hinges up, lower half drops down"
+    ],
+    "tail": [
+      "Small rounded fin and rudder",
+      "Strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "V-strut high wing on a narrow tandem-seat fabric fuselage",
+    "Tailwheel, often on huge bush tires",
+    "Fully enclosed cowling with no exposed cylinders"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Super Cub has a fully enclosed cowl, wing flaps and usually bigger tires; the J-3 typically shows exposed cylinder heads and has no flaps."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria has spring-steel main gear legs and a squared-off fin and rudder; the Super Cub has a strut-braced gear vee and a rounded tail."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has a deeper, rounder forward fuselage with much more window area; the Super Cub is slimmer and boxier."
+    },
+    {
+      "id": "c305",
+      "howToTell": "The Super Cub has a slim, flat-sided cabin and a rounded tail; the Bird Dog is bigger, with a huge glazed rear cabin, spring-steel gear legs and a squarer tail."
+    },
+    {
+      "id": "aviat-husky",
+      "howToTell": "The PA-18 is slimmer with a smaller cowl and squared tips; the Husky has a bigger engine, a wider cabin and large flaps."
+    },
+    {
+      "id": "pa-12",
+      "howToTell": "The PA-18 has squared tips and a squared tail; the PA-12 has rounded tips, a rounded Cub tail and a wider three-seat cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-18 Super Cub"
+  ],
+  "usCount": {
+    "value": 3621,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0600085",
+    "2470000",
+    "2470001",
+    "2470003",
+    "7101802",
+    "7101804",
+    "7101806",
+    "7101808",
+    "7101809",
+    "7101812",
+    "7101814",
+    "7101815",
+    "7101816",
+    "7101820",
+    "7101822",
+    "7101826",
+    "7101828",
+    "7101832",
+    "7101837",
+    "7101843",
+    "7101902",
+    "7101904",
+    "7104221"
+  ]
+}

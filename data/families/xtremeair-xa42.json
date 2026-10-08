@@ -1,0 +1,75 @@
+{
+  "id": "xtremeair-xa42",
+  "name": "XtremeAir XA42 Sbach 342",
+  "shortName": "XA42/Sbach 342",
+  "aka": [
+    "XA42",
+    "Sbach 342",
+    "XtremeAir Sbach 342",
+    "XA41"
+  ],
+  "manufacturer": "XtremeAir GmbH",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 2008,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "XA41 (single seat)",
+    "XA42 / Sbach 342 (tandem two seat)",
+    "XA41 / XA42 variants"
+  ],
+  "summary": "Modern German all-composite unlimited aerobatic monoplane designed by Sbach; it is flown in competition and airshows.",
+  "weft": {
+    "wings": [
+      "Low-set cantilever carbon-composite wing with long ailerons",
+      "No flaps"
+    ],
+    "engines": [
+      "Six-cylinder Lycoming AEIO-580 in a tight cowl",
+      "Three-blade MT composite propeller"
+    ],
+    "fuselage": [
+      "Tandem cockpits under a long bubble canopy",
+      "Smooth carbon-composite fuselage",
+      "Fixed spring gear with a tailwheel"
+    ],
+    "tail": [
+      "Large rudder and tailplane on a sleek tapering rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Low-wing aerobatic taildragger with a long tandem bubble canopy",
+    "Smooth all-composite fuselage with a three-blade prop",
+    "Tight cowl over a six-cylinder engine and fixed spring gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "extra-300",
+      "howToTell": "The Extra 300 has a fabric-covered rear fuselage and a different cowl; the XA42 is smooth carbon composite throughout."
+    },
+    {
+      "id": "zivko-edge-540",
+      "howToTell": "The Edge 540 is usually a single-seater with a short canopy; the XA42 has two seats under a long canopy."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "XtremeAir XA42"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056319W",
+    "9860102"
+  ]
+}

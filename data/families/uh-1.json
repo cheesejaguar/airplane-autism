@@ -1,0 +1,109 @@
+{
+  "id": "uh-1",
+  "name": "UH-1 Huey / Bell 205 / 212",
+  "shortName": "UH-1",
+  "aka": [
+    "Huey",
+    "Iroquois",
+    "Twin Huey",
+    "Bell 204",
+    "Bell 205",
+    "Bell 212",
+    "UH-1N",
+    "TH-1H"
+  ],
+  "manufacturer": "Bell",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "transport",
+    "search-rescue"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "UH-1H / Bell 205 (single engine)",
+    "UH-1N / Bell 212 Twin Huey (twin engine)",
+    "TH-1H (USAF trainer)",
+    "UH-1B and other ex-military civil examples"
+  ],
+  "summary": "The classic two-blade utility helicopter: ex-military UH-1H and civil Bell 205/212s still fight fires and lift cargo across the US, and the USAF flies twin-engine UH-1Ns and TH-1Hs.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a tall mast",
+      "Single-engine versions often show a stabilizer bar across the mast below the blades"
+    ],
+    "engines": [
+      "UH-1H/205: one engine on the roof with a single exhaust pipe angled up behind the cowling",
+      "UH-1N/212: a 'Twin-Pac' with two exhausts side by side and a wider rear cowling"
+    ],
+    "fuselage": [
+      "Boxy cabin with large sliding doors and a rounded nose with chin windows",
+      "Skid landing gear",
+      "Sloping windshield with an overhead greenhouse panel"
+    ],
+    "tail": [
+      "Two-blade tail rotor at the top of the fin",
+      "Small synchronized elevators (horizontal stabilizers) mid-way along the tail boom",
+      "Long, tapering tail boom"
+    ]
+  },
+  "tellTales": [
+    "Two-blade main rotor over a boxy sliding-door cabin on skids",
+    "Two-blade tail rotor at the top of a short fin",
+    "Small stabilizers halfway along a long tapering tail boom"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-412",
+      "howToTell": "The 412 has the same airframe but a four-blade main rotor; the Huey family has two blades."
+    },
+    {
+      "id": "uh-1y",
+      "howToTell": "The UH-1Y has four-blade main and tail rotors and a FLIR nose; the older Hueys have two-blade main and tail rotors."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The JetRanger is far smaller with a teardrop cabin and no big sliding door; the Huey is a large boxy utility helicopter."
+    },
+    {
+      "id": "bell-214",
+      "howToTell": "The Bell 214B has wide-chord blades with no stabilizer bar and one large exhaust duct; the Huey has a stabilizer bar above the head and a slimmer body."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bell UH-1 Iroquois",
+    "Bell UH-1N Twin Huey",
+    "Bell 212"
+  ],
+  "usCount": {
+    "value": 600,
+    "source": "FAA registry: ~560 civil UH-1/204/205/212 + USAF ~61 UH-1N and 28 TH-1H (Air & Space Forces 2026)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "1180815",
+    "1181404",
+    "1181407",
+    "118140D",
+    "1181410",
+    "1181411",
+    "1181414",
+    "118141H",
+    "1181420",
+    "1181454",
+    "1182153",
+    "3740001",
+    "3740005",
+    "9640002",
+    "9790870"
+  ]
+}

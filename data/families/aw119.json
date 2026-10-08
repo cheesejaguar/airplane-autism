@@ -1,0 +1,84 @@
+{
+  "id": "aw119",
+  "name": "Leonardo AW119 / TH-73 Thrasher",
+  "shortName": "AW119",
+  "aka": [
+    "Koala",
+    "AW119Kx",
+    "TH-73A Thrasher"
+  ],
+  "manufacturer": "Leonardo (AgustaWestland Philadelphia)",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "ems",
+    "utility"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "A119 Koala",
+    "AW119Kx / AW119Ke",
+    "TH-73A Thrasher (USN trainer)"
+  ],
+  "summary": "Single-engine sibling of the AW109 built in Philadelphia; used by EMS and police operators and, as the TH-73A Thrasher, as the Navy's primary helicopter trainer.",
+  "weft": {
+    "wings": [
+      "Four-blade fully articulated main rotor"
+    ],
+    "engines": [
+      "Single turbine with one exhaust at the rear of the cowling"
+    ],
+    "fuselage": [
+      "Wide AW109-style cabin with a pointed nose",
+      "Fixed skids",
+      "Large side doors"
+    ],
+    "tail": [
+      "Two-blade open tail rotor",
+      "Small horizontal stabilizer and ventral fin"
+    ]
+  },
+  "tellTales": [
+    "Single-engine light helicopter with four blades on skids",
+    "Pointed nose on a wide streamlined cabin",
+    "Two-blade tail rotor"
+  ],
+  "confusedWith": [
+    {
+      "id": "aw109",
+      "howToTell": "The AW119 has a single engine and fixed skids; the AW109 is a twin, usually on retractable wheels."
+    },
+    {
+      "id": "bell-407",
+      "howToTell": "The 407 has a JetRanger-style teardrop cabin and endplate-fin stabilizer; the AW119 has a broader cabin with a pointed nose."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The 206 has two main blades; the AW119 has four."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "AgustaWestland AW119",
+    "AgustaWestland TH-73 Thrasher"
+  ],
+  "usCount": {
+    "value": 300,
+    "source": "FAA registry make/model inquiry (A119/AW119) + 130 TH-73A ordered by USN (NAVAIR)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "0260102",
+    "0260105",
+    "0260401"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "metroliner",
+  "name": "Fairchild Metroliner / Merlin",
+  "shortName": "Metro/Merlin",
+  "aka": [
+    "Metro",
+    "Metro II",
+    "Metro III",
+    "Metro 23",
+    "Metroliner",
+    "Merlin III",
+    "Merlin IV",
+    "Merlin 300",
+    "Swearingen Metro",
+    "SA226",
+    "SA227",
+    "C-26 Metroliner",
+    "C-26A",
+    "C-26B",
+    "C-26D",
+    "C-26E"
+  ],
+  "manufacturer": "Fairchild Swearingen / Fairchild Aircraft",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo",
+    "isr"
+  ],
+  "branches": [
+    "usaf",
+    "army"
+  ],
+  "firstFlight": 1969,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "SA226 Merlin III / Metro / Metro II",
+    "SA227-AC Metro III, SA227-DC Metro 23",
+    "SA226 Merlin IV / SA227 Merlin 300 (corporate)",
+    "C-26A/B/D/E (Air National Guard and Army counterdrug, ISR and transport)"
+  ],
+  "summary": "Slender 19-seat twin turboprop commuter with Garrett engines and a sharp 'shark' nose, also built as the Merlin corporate twin and flown by the US military as the C-26.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with large span"
+    ],
+    "engines": [
+      "Two Garrett TPE331 turboprops mounted on the wing in slim nacelles",
+      "Three- or four-blade propellers"
+    ],
+    "fuselage": [
+      "Long, slender, tube fuselage with a sharp pointed nose",
+      "Row of small, rectangular windows",
+      "Cargo variants have a large rear cargo door; C-26s may carry antennas or a belly sensor"
+    ],
+    "tail": [
+      "Tall single fin with a dorsal fillet",
+      "Low-set tailplane"
+    ]
+  },
+  "tellTales": [
+    "Thin, tube-like commuter fuselage with a very sharp, pointed nose",
+    "Low wing with slim turboprop nacelles",
+    "Small rectangular cabin windows in a long straight row"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-1900",
+      "howToTell": "The 1900 has a T-tail with fins on the tail cone and winglets on the D model, plus PT6 engines in over-wing nacelles; the Metro has a low horizontal tail and a sharper nose."
+    },
+    {
+      "id": "beech-99",
+      "howToTell": "The Beech 99 has a rounder, blunter nose and a deeper cabin; the Metro has a sharper nose and a more slender fuselage."
+    },
+    {
+      "id": "emb-110",
+      "howToTell": "The Bandeirante has a more rounded nose and a deeper cabin; the Metro's nose is a sharp point and its fuselage more slender."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Fairchild Metroliner",
+    "Fairchild C-26 Metroliner"
+  ],
+  "usCount": {
+    "value": 155,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3377509",
+    "3377510",
+    "3377516",
+    "3377519",
+    "3377520",
+    "3377521",
+    "8780112",
+    "8780122",
+    "8780404",
+    "8780405",
+    "8780406",
+    "8780603",
+    "8780610",
+    "8780620"
+  ]
+}

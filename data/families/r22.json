@@ -1,0 +1,94 @@
+{
+  "id": "r22",
+  "name": "Robinson R22",
+  "shortName": "R22",
+  "aka": [
+    "Beta II",
+    "Mariner"
+  ],
+  "manufacturer": "Robinson Helicopter Company",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "R22 / Alpha / Beta",
+    "R22 Beta II",
+    "R22 Mariner (floats)"
+  ],
+  "summary": "Tiny two-seat piston helicopter that dominates US primary helicopter flight training and is also used for ranch and private flying.",
+  "weft": {
+    "wings": [
+      "Two-blade teetering main rotor on a tall, slender mast with a small fairing",
+      "Very thin, narrow-chord blades"
+    ],
+    "engines": [
+      "Piston engine mounted low behind the seats, largely exposed in an open frame",
+      "Cooling fan shroud and exhaust visible below the mast"
+    ],
+    "fuselage": [
+      "Very small bubble cabin with one door per side and only two seats",
+      "Thin skids on short struts",
+      "Overall tiny size relative to people standing next to it"
+    ],
+    "tail": [
+      "Thin tubular tail boom",
+      "Small two-blade tail rotor with upper and lower vertical fins and a small horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Only one door per side on a tiny two-seat bubble cabin",
+    "Engine and frame largely exposed below the rotor mast",
+    "Very thin two-blade rotor on a tall slender mast"
+  ],
+  "confusedWith": [
+    {
+      "id": "r44",
+      "howToTell": "The R22 is smaller with one door per side and an open engine bay; the R44 has two doors per side, four seats and a cowled engine."
+    },
+    {
+      "id": "s-300",
+      "howToTell": "The R22 has a two-blade rotor and an unbraced tubular boom; the Schweizer/Hughes 300 has three blades and a boom held up by struts."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has an open lattice (truss) tail boom and a fishbowl canopy; the R22 has an enclosed tubular boom and a pointed cabin."
+    },
+    {
+      "id": "guimbal-cabri-g2",
+      "howToTell": "The Cabri G2 has three blades and a ducted tail fan in the fin; the R22 has a two-blade teetering rotor and an exposed tail rotor."
+    },
+    {
+      "id": "enstrom-280",
+      "howToTell": "The Enstrom 280 has a three-blade rotor and a wider three-seat egg-shaped canopy; the R22 has a thin two-blade rotor and only two seats."
+    },
+    {
+      "id": "brantly-b2",
+      "howToTell": "The Brantly B-2 has three narrow rotor blades and a vertical engine behind its bubble; the R22 has a two-blade teetering rotor."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Robinson R22"
+  ],
+  "usCount": {
+    "value": 746,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7640102",
+    "7640104",
+    "7640110",
+    "7640115"
+  ]
+}

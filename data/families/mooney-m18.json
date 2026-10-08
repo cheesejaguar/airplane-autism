@@ -1,0 +1,84 @@
+{
+  "id": "mooney-m18",
+  "name": "Mooney M-18 Mite",
+  "shortName": "M-18 Mite",
+  "aka": [
+    "Mite",
+    "M-18C",
+    "M-18L"
+  ],
+  "manufacturer": "Mooney Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M-18 (Crosley-powered, early)",
+    "M-18L (Lycoming O-145)",
+    "M-18C (Continental A65)",
+    "M-18C 55",
+    "M-18LA"
+  ],
+  "summary": "Tiny single-seat low-wing built for budget personal flying after the war; remarkable for its retractable tricycle gear. 283 were built before production ended in 1954.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Short, compact wing, noticeably smaller than a two-seat trainer's"
+    ],
+    "engines": [
+      "Single small 65 hp flat-four in a compact cowl",
+      "Small two-blade propeller"
+    ],
+    "fuselage": [
+      "Single-seat cockpit under a small canopy",
+      "Retractable tricycle gear, wheels folded away in flight",
+      "Very small, slim airframe"
+    ],
+    "tail": [
+      "Compact single fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tiny single-seat low-wing with retractable tricycle gear",
+    "Bantam-sized airframe with a very small cowl and short wing",
+    "Clean belly in flight with the wheels folded away"
+  ],
+  "confusedWith": [
+    {
+      "id": "mooney-m20",
+      "howToTell": "The M20 is a full four-seat cabin airplane; the Mite is a tiny single-seater less than half its size."
+    },
+    {
+      "id": "culver-v",
+      "howToTell": "The Culver V is a two-seat cabin aircraft with upward-bent outer wing panels; the Mite is a much smaller single-seater."
+    },
+    {
+      "id": "culver-cadet",
+      "howToTell": "The Cadet is a two-seat tailwheel low-wing; the Mite sits on retractable tricycle gear and has one seat."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Mooney Mite M-18"
+  ],
+  "usCount": {
+    "value": 96,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5870102",
+    "5870104",
+    "5870106",
+    "5870108"
+  ]
+}

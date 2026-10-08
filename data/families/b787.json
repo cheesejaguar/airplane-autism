@@ -1,0 +1,83 @@
+{
+  "id": "b787",
+  "name": "Boeing 787 Dreamliner",
+  "shortName": "787",
+  "aka": [
+    "Dreamliner",
+    "787-8",
+    "787-9",
+    "787-10"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody"
+  ],
+  "branches": [],
+  "firstFlight": 2009,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "787-8",
+    "787-9",
+    "787-10"
+  ],
+  "summary": "Carbon-composite long-haul twin flown in the US by United and American.",
+  "weft": {
+    "wings": [
+      "Long, very flexible wing that bends strongly upward in flight",
+      "Smoothly raked wingtips with no winglets"
+    ],
+    "engines": [
+      "Two large nacelles (GEnx or Trent 1000) with sawtooth chevrons on the rear edge"
+    ],
+    "fuselage": [
+      "Smooth, rounded nose with only four cockpit windows",
+      "Large, tall passenger windows",
+      "Two four-wheel main bogies"
+    ],
+    "tail": [
+      "Tall swept fin with a gently curved leading edge",
+      "Pointed, tapered tailcone"
+    ]
+  },
+  "tellTales": [
+    "Wings curving upward in flight and ending in raked tips",
+    "Sawtooth serrations at the back of each engine",
+    "Smooth dolphin-like nose with four cockpit windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "a350",
+      "howToTell": "The 787 has raked wingtips, serrated nacelle exhausts and a four-pane windshield; the A350 has curling winglets, smooth exhausts and a black cockpit mask."
+    },
+    {
+      "id": "b777",
+      "howToTell": "The 787 has four-wheel bogies and serrated exhausts; the 777 has six-wheel bogies, bigger smooth nacelles and a blade tailcone."
+    },
+    {
+      "id": "b767",
+      "howToTell": "The 787 has raked wingtips, chevron exhausts and a smooth rounded nose; the 767 has a pointed nose with a six-pane windshield and often blended winglets."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing 787 in flight",
+    "Boeing 787 on final approach",
+    "Boeing 787-9 on final approach"
+  ],
+  "usCount": {
+    "value": 194,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05628NI",
+    "1385609",
+    "1386010",
+    "1388002"
+  ]
+}

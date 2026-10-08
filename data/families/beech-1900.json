@@ -1,0 +1,97 @@
+{
+  "id": "beech-1900",
+  "name": "Beechcraft 1900",
+  "shortName": "1900",
+  "aka": [
+    "Beech 1900",
+    "1900C",
+    "1900D",
+    "C-12J"
+  ],
+  "manufacturer": "Beechcraft (Raytheon)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional",
+    "turboprop",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1982,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "1900C",
+    "1900D (stand-up cabin)",
+    "C-12J"
+  ],
+  "summary": "19-seat twin-turboprop commuter derived from the King Air, now mostly a cargo and commuter workhorse with Alpine Air, Ameriflight and Alaska operators.",
+  "weft": {
+    "wings": [
+      "Low-mounted straight wing",
+      "1900D has small winglets; 1900C has plain tips"
+    ],
+    "engines": [
+      "Two PT6A turboprops in long over-wing nacelles, with four-blade props"
+    ],
+    "fuselage": [
+      "Long, narrow commuter fuselage with many small windows",
+      "1900D has a taller, flat-topped stand-up cabin",
+      "Small horizontal 'stabilons' fins on the rear fuselage ahead of the tail"
+    ],
+    "tail": [
+      "T-tail",
+      "Small vertical 'tailets' under the tailplane tips",
+      "Twin ventral strakes under the tail (1900D)"
+    ]
+  },
+  "tellTales": [
+    "Small auxiliary fins on the rear fuselage and under the tailplane",
+    "Low-wing twin turboprop with a T-tail and a long thin body",
+    "Long row of small cabin windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "king-air-350",
+      "howToTell": "The 1900 is much longer with many small windows, stabilons and tailets; the King Air 350 is shorter with fewer windows and no auxiliary fins."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The 1900 has a T-tail and a much longer fuselage; the King Air 90 is a small cabin twin with a conventional low tail."
+    },
+    {
+      "id": "atr",
+      "howToTell": "The 1900 has a low wing and is far smaller; the ATR has a high wing and main gear in fuselage blisters."
+    },
+    {
+      "id": "beech-99",
+      "howToTell": "The Beech 99 is smaller and plainer, with a low conventional tail and no tail fins or stabilons; the 1900 has a T-tail with fins and a taller, bigger cabin."
+    },
+    {
+      "id": "metroliner",
+      "howToTell": "The Metro has a sharply pointed nose, a more slender fuselage and a low tailplane; the 1900 has a T-tail and fins on the tail cone."
+    },
+    {
+      "id": "saab-340",
+      "howToTell": "The Saab 340 is rounder with a low conventional tail and large engine nacelles slung from the wing; the 1900 is narrower with a T-tail and tail fins."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft 1900",
+    "Beechcraft 1900 on final approach"
+  ],
+  "usCount": {
+    "value": 148,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1154160",
+    "1154161",
+    "1154162",
+    "7150005"
+  ]
+}

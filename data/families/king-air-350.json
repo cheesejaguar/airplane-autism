@@ -1,0 +1,130 @@
+{
+  "id": "king-air-350",
+  "name": "Beechcraft King Air 200/250/350 / C-12 Huron",
+  "shortName": "King Air 350",
+  "aka": [
+    "Super King Air",
+    "King Air 200",
+    "B200",
+    "King Air 250",
+    "King Air 260",
+    "King Air 300",
+    "King Air 350",
+    "King Air 360",
+    "C-12 Huron",
+    "UC-12",
+    "RC-12 Guardrail",
+    "MC-12",
+    "T-54A Marlin"
+  ],
+  "manufacturer": "Beechcraft / Textron Aviation",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "utility",
+    "transport",
+    "isr",
+    "trainer"
+  ],
+  "branches": [
+    "army",
+    "usn",
+    "usmc"
+  ],
+  "firstFlight": 1972,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "King Air 200 / B200 / B200GT (C-12 / UC-12)",
+    "King Air 250 / 260 (T-54A Marlin)",
+    "King Air 300 / 350 / 350ER / 360 (winglets)",
+    "RC-12 Guardrail SIGINT (Army)",
+    "MC-12S / MC-12W ISR (Army)"
+  ],
+  "summary": "The T-tail Super King Air family, the US military's most widespread light twin as the C-12/UC-12 Huron, RC-12 Guardrail, MC-12 and the Navy's T-54A trainer.",
+  "weft": {
+    "wings": [
+      "Low, straight wing; winglets on the 350/360 and some 250/260s"
+    ],
+    "engines": [
+      "Two PT6A turboprops in long nacelles with exhaust stacks pointing outboard",
+      "Three- or four-blade propellers"
+    ],
+    "fuselage": [
+      "Longer cabin than the 90-series with more rounded-square windows",
+      "RC-12/MC-12: many antennas, wing-mounted pods or belly radomes"
+    ],
+    "tail": [
+      "T-tail with a swept fin",
+      "Small ventral strakes under the tail on the 350"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a pressurized twin turboprop with a mid-length cabin",
+    "Winglets on many examples",
+    "Exhaust stacks pointing outward from long engine nacelles"
+  ],
+  "confusedWith": [
+    {
+      "id": "king-air-90",
+      "howToTell": "The 200/250/350 has a T-tail and a longer cabin; the 90-series has a low tailplane (except the F90) and a short cabin."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The King Air is shorter with fewer, larger windows; the 1900 is a long airliner with many small windows and small stabilons on the tail cone."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The King Air is a twin; the PC-12 is a single-engine turboprop, though both have T-tails."
+    },
+    {
+      "id": "pa-42",
+      "howToTell": "The PA-42 Cheyenne III/400 is slimmer with small rounded windows and no winglets; the King Air 350 has larger rounded-square windows, a bulkier cabin and often winglets."
+    },
+    {
+      "id": "piaggio-p180",
+      "howToTell": "The Avanti has pusher propellers on its rear-mounted main wing and small forward foreplanes; the King Air 350 has tractor props ahead of a low wing and no foreplanes."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Super King Air on final approach",
+    "Beechcraft B300 King Air 350",
+    "C-12 Huron of the United States Army"
+  ],
+  "usCount": {
+    "value": 1900,
+    "source": "Textron Aviation production (~4,000 King Air 200/300/350 series) with ~45% active US-registered per FAA registry / JETNET (approx.), plus ~200 Army/Navy/USMC C-12/RC-12/MC-12/T-54A",
+    "asOf": "2025"
+  },
+  "faaModelCodes": [
+    "1152920",
+    "1152921",
+    "1152922",
+    "1152924",
+    "1152926",
+    "1152928",
+    "1152930",
+    "1152931",
+    "1152932",
+    "1152933",
+    "4220003",
+    "4220004",
+    "4220012",
+    "4220014",
+    "4220031",
+    "4220033",
+    "4220035",
+    "4220038",
+    "4220039",
+    "4222080",
+    "7150002",
+    "7150006",
+    "7150007",
+    "7150041",
+    "7150063"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "ch-47",
+  "name": "CH-47 Chinook",
+  "shortName": "CH-47",
+  "aka": [
+    "Chinook",
+    "Hook",
+    "MH-47G",
+    "Boeing 234"
+  ],
+  "manufacturer": "Boeing Vertol",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "transport",
+    "special-ops"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 1961,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "CH-47F",
+    "CH-47F Block II",
+    "MH-47G (160th SOAR)",
+    "CH-47D / Model 234 (civil logging and firefighting)"
+  ],
+  "summary": "Tandem-rotor heavy-lift helicopter used by the Army for troops, artillery and cargo, with special-operations MH-47Gs and a small number of civil logging/firefighting examples.",
+  "weft": {
+    "wings": [
+      "Two large three-blade rotors in tandem, front and rear, turning in opposite directions",
+      "Rear rotor mounted on a tall aft pylon, higher than the front rotor"
+    ],
+    "engines": [
+      "Two engines in external pods on either side of the rear rotor pylon",
+      "Exhausts pointing straight aft from the engine pods"
+    ],
+    "fuselage": [
+      "Long, boxy, rectangular fuselage with rows of round-cornered windows",
+      "Long fuel pods (sponsons) running along the lower sides",
+      "Four fixed wheels, two forward and two aft",
+      "Rear loading ramp under the aft pylon; MH-47G adds a long refueling probe and nose radar"
+    ],
+    "tail": [
+      "No tail rotor at all",
+      "No conventional fin or stabilizer; the aft pylon forms the tail"
+    ]
+  },
+  "tellTales": [
+    "Two big rotors, one at each end of the fuselage",
+    "No tail rotor and no tail fin",
+    "Engines hung on the outside of the tall rear pylon"
+  ],
+  "confusedWith": [
+    {
+      "id": "v-22",
+      "howToTell": "The Chinook's two rotors are at the front and back of the fuselage; the Osprey's two rotors sit on wingtip nacelles side by side."
+    },
+    {
+      "id": "ch-53e",
+      "howToTell": "The CH-53E has one huge seven-blade main rotor and a tail rotor; the Chinook has two three-blade rotors and no tail rotor."
+    },
+    {
+      "id": "ch-46",
+      "howToTell": "The CH-46 is smaller with a rounder body and stub sponsons; the Chinook is larger and boxier with full-length sponsons."
+    },
+    {
+      "id": "s-64",
+      "howToTell": "The S-64 has a single rotor on an open frame; the Chinook has two rotors on a boxy fuselage."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "CH-47 Chinook in flight",
+    "CH-47 Chinook"
+  ],
+  "usCount": {
+    "value": 500,
+    "source": "US Army CH-47F + MH-47G (FlightGlobal World Air Forces 2025) + ~35 FAA-registered civil CH-47D/234",
+    "asOf": "2025"
+  },
+  "faaModelCodes": [
+    "138160A",
+    "138160B",
+    "1385049",
+    "1385051",
+    "2340100",
+    "8840351"
+  ]
+}

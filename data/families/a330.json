@@ -1,0 +1,102 @@
+{
+  "id": "a330",
+  "name": "Airbus A330",
+  "shortName": "A330",
+  "aka": [
+    "A330-200",
+    "A330-300",
+    "A330-900neo",
+    "A330neo"
+  ],
+  "manufacturer": "Airbus",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody"
+  ],
+  "branches": [],
+  "firstFlight": 1992,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A330-200",
+    "A330-300",
+    "A330-900neo",
+    "A330-200F"
+  ],
+  "summary": "Long-range widebody twin sharing its wing with the A340; flown in the US by Delta (including the A330-900neo) and Hawaiian.",
+  "weft": {
+    "wings": [
+      "Long-span, high-aspect-ratio swept wing",
+      "Small, sharply canted angular winglets on the -200/-300",
+      "A330neo has long curved sharklet-style tips instead"
+    ],
+    "engines": [
+      "Two large underwing turbofans (CF6, PW4000 or Trent 700)",
+      "A330neo carries even bigger Trent 7000 nacelles"
+    ],
+    "fuselage": [
+      "Long, slender 8-abreast widebody fuselage",
+      "Rounded Airbus nose with six-pane windshield",
+      "Two four-wheel main bogies"
+    ],
+    "tail": [
+      "Tall swept fin with a long dorsal fillet",
+      "Low-set tailplane; tailcone ends in a horizontal wedge"
+    ]
+  },
+  "tellTales": [
+    "Small sharp angled winglets on a long, slender twin-aisle twin",
+    "Long slim widebody with only two engines and a blunt rounded nose",
+    "Very long wingspan relative to the fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "b767",
+      "howToTell": "The A330 is longer and slimmer with a blunt Airbus nose and small angular winglets; the 767 is short and stubby with a pointed nose and, if fitted, tall blended winglets."
+    },
+    {
+      "id": "a350",
+      "howToTell": "The A330 lacks the black 'raccoon mask' cockpit outline and has angular winglets (or straight sharklets) rather than the A350's swept-back curling tips."
+    },
+    {
+      "id": "b777",
+      "howToTell": "The A330 has four-wheel main bogies and smaller engines; the 777 has six-wheel bogies, enormous round engines and a blade-like tailcone."
+    },
+    {
+      "id": "kc-46",
+      "howToTell": "A civil A330 has no refuelling boom, drogue pods or military grey paint; the KC-46 is a 767 with a pointed nose and a boom under the tail."
+    },
+    {
+      "id": "a300",
+      "howToTell": "The A300-600 is shorter, with a fatter fuselage and tiny wingtip fences; the A330 is longer with large engines and angled winglets."
+    },
+    {
+      "id": "md-11",
+      "howToTell": "The MD-11 has a third engine in the tail; the A330 has only two wing engines."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus A330 in flight",
+    "Airbus A330 on final approach",
+    "Airbus A330"
+  ],
+  "usCount": {
+    "value": 134,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3940018",
+    "3940024",
+    "3940030",
+    "3940031",
+    "3940035",
+    "3940070",
+    "3940098",
+    "3940314"
+  ]
+}

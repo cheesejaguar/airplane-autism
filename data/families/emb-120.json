@@ -1,0 +1,80 @@
+{
+  "id": "emb-120",
+  "name": "Embraer EMB-120 Brasilia",
+  "shortName": "EMB-120",
+  "aka": [
+    "Brasilia",
+    "EMB-120ER",
+    "EMB-120 Brasilia",
+    "Embraer 120"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1983,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "EMB-120 / EMB-120RT",
+    "EMB-120ER (extended range)",
+    "EMB-120 freighter conversions"
+  ],
+  "summary": "Brazilian 30-seat pressurized regional turboprop with a low wing and a T-tail, popular with US commuter airlines in the 1990s.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with a slight taper"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW118 turboprops in nacelles slung from the low wing",
+      "Four-blade propellers"
+    ],
+    "fuselage": [
+      "Slender, round fuselage with a long, pointed nose and small oval windows",
+      "Airstair door at the rear left"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin",
+      "Dorsal fillet at the fin root"
+    ]
+  },
+  "tellTales": [
+    "Low-wing regional turboprop with a T-tail",
+    "Slender fuselage with a long, pointed nose",
+    "Small oval windows and nacelles reaching behind the trailing edge"
+  ],
+  "confusedWith": [
+    {
+      "id": "saab-340",
+      "howToTell": "The Saab 340 has a conventional low tail and a shorter, rounder fuselage; the EMB-120 has a T-tail and a slimmer fuselage."
+    },
+    {
+      "id": "atr",
+      "howToTell": "The ATR has a high wing with a T-tail; the EMB-120 has a low wing."
+    },
+    {
+      "id": "dhc-8",
+      "howToTell": "The Dash 8 has a high wing and long nacelles holding the main gear; the EMB-120 has a low wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Embraer EMB 120"
+  ],
+  "usCount": {
+    "value": 39,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3260201",
+    "3260203"
+  ]
+}

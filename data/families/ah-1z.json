@@ -1,0 +1,78 @@
+{
+  "id": "ah-1z",
+  "name": "AH-1Z Viper",
+  "shortName": "AH-1Z",
+  "aka": [
+    "Viper",
+    "Zulu Cobra",
+    "SuperCobra"
+  ],
+  "manufacturer": "Bell",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "attack"
+  ],
+  "branches": [
+    "usmc"
+  ],
+  "firstFlight": 2000,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AH-1Z"
+  ],
+  "summary": "The Marine Corps' twin-engine attack helicopter, the final evolution of the Cobra line, sharing engines, tail boom and rotor system with the UH-1Y.",
+  "weft": {
+    "wings": [
+      "Four-blade composite bearingless main rotor",
+      "Long stub wings with weapon stations and AIM-9 rails at the tips"
+    ],
+    "engines": [
+      "Two engines blended along the top of the narrow fuselage",
+      "Exhausts angled up and outward behind the engine fairings"
+    ],
+    "fuselage": [
+      "Very narrow fuselage with tandem stepped cockpits",
+      "Target sight turret ball on the nose and a three-barrel 20 mm turret under the chin",
+      "Skid landing gear"
+    ],
+    "tail": [
+      "Four-blade tail rotor on a tall fin",
+      "Small horizontal stabilizers on the tail boom"
+    ]
+  },
+  "tellTales": [
+    "Narrow tandem-seat gunship on skids with a four-blade main rotor",
+    "Long stub wings with missile rails at the tips",
+    "Sensor ball on the very tip of the nose above a chin gun turret"
+  ],
+  "confusedWith": [
+    {
+      "id": "ah-64",
+      "howToTell": "The Viper is slimmer and sits on skids; the Apache has wheels and a tailwheel, bulky side engine pods and a box-shaped nose turret."
+    },
+    {
+      "id": "uh-1y",
+      "howToTell": "Both share engines, rotor and tail, but the Viper has a narrow tandem gunship body with stub wings while the Venom has a wide side-by-side cockpit and troop cabin."
+    },
+    {
+      "id": "ah-1-cobra",
+      "howToTell": "The single-engine Cobra has two blades and one engine; the AH-1Z has four blades and twin engines."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "AH-1Z Viper in flight",
+    "AH-1Z Viper (United States Marine Corps)",
+    "AH-1Z Viper"
+  ],
+  "usCount": {
+    "value": 180,
+    "source": "USMC H-1 program: 349 AH-1Z/UH-1Y delivered, ~189 AH-1Z (NAVAIR / FlightGlobal 2026)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

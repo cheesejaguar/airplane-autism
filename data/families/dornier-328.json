@@ -1,0 +1,82 @@
+{
+  "id": "dornier-328",
+  "name": "Dornier 328",
+  "shortName": "Dornier 328",
+  "aka": [
+    "Do 328",
+    "Dornier 328JET",
+    "328-300",
+    "Fairchild Dornier 328"
+  ],
+  "manufacturer": "Dornier / Fairchild Dornier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Dornier 328-100 (turboprop)",
+    "Dornier 328JET / 328-300 (turbofan)"
+  ],
+  "summary": "A 30-seat regional airliner built in turboprop and 'JET' versions; most US-registered examples are the 328JET, flown by small airlines and charter operators.",
+  "weft": {
+    "wings": [
+      "High, straight wing with tapered tips",
+      "328JET carries underwing turbofan pods; the turboprop has nacelles on the wing"
+    ],
+    "engines": [
+      "Two turboprops on the wing (PW119B) or two turbofans in underwing pods (328JET)"
+    ],
+    "fuselage": [
+      "Short, stubby fuselage with a rounded nose",
+      "Upswept tail cone"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "High wing, T-tail and a short, stubby fuselage",
+    "Turboprops on the wings, or small turbofan pods under a high wing",
+    "Rounded nose and upswept tail cone"
+  ],
+  "confusedWith": [
+    {
+      "id": "atr",
+      "howToTell": "The ATR 42/72 has a longer, larger fuselage with a longer wing; the Dornier 328 is shorter and stubbier."
+    },
+    {
+      "id": "beech-1900",
+      "howToTell": "The 1900 has a low-mounted wing and a different tail; the Dornier 328 has a high wing and a T-tail."
+    },
+    {
+      "id": "erj145",
+      "howToTell": "The ERJ145 has a low wing and rear-mounted engines; the Dornier 328JET has a high wing and underwing engines."
+    },
+    {
+      "id": "bae-146",
+      "howToTell": "The BAe 146 has four engines on a high wing; the Dornier 328 has two engines."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Dornier 328",
+    "Dornier 328JET"
+  ],
+  "usCount": {
+    "value": 20,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2990220",
+    "2996000",
+    "3370601"
+  ]
+}

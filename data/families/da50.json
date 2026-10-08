@@ -1,0 +1,79 @@
+{
+  "id": "da50",
+  "name": "Diamond DA50 RG / DA50 C",
+  "shortName": "DA50",
+  "aka": [
+    "DA50 RG",
+    "DA50 C",
+    "DA50 Magnum",
+    "Diamond DA50"
+  ],
+  "manufacturer": "Diamond Aircraft Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2016,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DA50 Magnum (fixed gear)",
+    "DA50 RG (retractable gear)"
+  ],
+  "summary": "Five-seat composite piston single from Diamond, a larger sibling of the DA40 and DA62 with a T-tail and a roomy cabin.",
+  "weft": {
+    "wings": [
+      "Long-span, slender low wing"
+    ],
+    "engines": [
+      "Single piston engine in a smooth nose",
+      "Composite propeller"
+    ],
+    "fuselage": [
+      "Smooth, flush composite fuselage with a large wraparound canopy",
+      "Roomy five-seat cabin with large windows",
+      "Retractable tricycle gear (RG)"
+    ],
+    "tail": [
+      "T-tail with a swept fin",
+      "Tailplane perched on top of the fin"
+    ]
+  },
+  "tellTales": [
+    "Sleek, glossy composite single with a T-tail and big canopy",
+    "Long, slender wing",
+    "Large, wraparound windscreen and windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "da40",
+      "howToTell": "The DA40 is smaller with fixed gear and a bubble canopy; the DA50 is larger with a roomier cabin and, in the RG, retracting gear."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 has two engines; the DA50 has one engine in the nose."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The Cirrus has a conventional low tailplane and fixed gear; the DA50 has a T-tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Diamond DA50"
+  ],
+  "usCount": {
+    "value": 28,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2990305",
+    "2990306"
+  ]
+}

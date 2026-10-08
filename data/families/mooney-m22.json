@@ -1,0 +1,72 @@
+{
+  "id": "mooney-m22",
+  "name": "Mooney M22 Mustang",
+  "shortName": "M22 Mustang",
+  "aka": [
+    "Mustang",
+    "Mark 22"
+  ],
+  "manufacturer": "Mooney Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M22 Mustang (1966-70, 36 built)"
+  ],
+  "summary": "Mooney's pressurized five-seat single, sold at a loss and built in only 36 examples. It looks like a bigger Mooney M20 with a taller tail.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Wing similar to the M20 Ranger"
+    ],
+    "engines": [
+      "Single turbocharged Lycoming flat-six in a large cowl"
+    ],
+    "fuselage": [
+      "Longer, wider fuselage than an M20 with a pressurized cabin and small windows",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Tall fin with a forward-raked trailing edge (the classic Mooney shape) and a large dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Low-wing single with a notably tall, forward-raked tail and a long, fat body",
+    "Small cabin windows on a retractable-gear single",
+    "Tall fin with a forward-raked trailing edge"
+  ],
+  "confusedWith": [
+    {
+      "id": "mooney-m20",
+      "howToTell": "The M20 has a smaller fin and a narrower fuselage; the M22 has a taller fin, a larger leading-edge fillet and a longer, wider body."
+    },
+    {
+      "id": "pa-46",
+      "howToTell": "The Malibu has a conventional upright fin and a rounded fuselage; the M22 has a forward-raked fin."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The A36 has a conventional upright fin and large cabin windows; the M22 has a forward-raked tail and small windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Mooney M22 Mustang"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5870402"
+  ]
+}

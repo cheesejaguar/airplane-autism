@@ -1,0 +1,111 @@
+{
+  "id": "citation-cj",
+  "name": "Cessna CitationJet / CJ series / M2",
+  "shortName": "Citation CJ",
+  "aka": [
+    "CitationJet",
+    "CJ1",
+    "CJ1+",
+    "CJ2",
+    "CJ2+",
+    "CJ3",
+    "CJ3+",
+    "CJ3 Gen2",
+    "CJ4",
+    "CJ4 Gen2",
+    "Citation M2",
+    "Model 525"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "525 CitationJet / CJ1 / CJ1+",
+    "525 Citation M2 / M2 Gen2",
+    "525A CJ2 / CJ2+",
+    "525B CJ3 / CJ3+ / CJ3 Gen2",
+    "525C CJ4 / CJ4 Gen2"
+  ],
+  "summary": "Cessna's best-selling light-jet line, from the original CitationJet through the CJ4, flown by owner-pilots, charter firms and corporate flight departments across the US.",
+  "weft": {
+    "wings": [
+      "Low, essentially straight (unswept) wing on the CJ1-CJ3 and M2",
+      "CJ4 has a moderately swept wing",
+      "No winglets"
+    ],
+    "engines": [
+      "Two small Williams FJ44 turbofans in pods high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Slim tube-shaped fuselage with small rounded windows",
+      "Long tapered nose with a small baggage door ahead of the windscreen"
+    ],
+    "tail": [
+      "T-tail: horizontal stabilizer mounted on top of the swept fin"
+    ]
+  },
+  "tellTales": [
+    "T-tail on a small twinjet with a straight, unswept wing",
+    "Two small engine pods on the rear fuselage, no winglets",
+    "Slim fuselage with small rounded windows and a long pointed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "citation-ii",
+      "howToTell": "The CJ series has a T-tail; the older Citation II/V/Bravo/Encore has its tailplane low on the tail cone with strong dihedral."
+    },
+    {
+      "id": "phenom-100",
+      "howToTell": "The CJ/M2 has a straight unswept wing and small windows; the Phenom 100 has a slightly swept wing, very large windows and a curvier nose."
+    },
+    {
+      "id": "phenom-300",
+      "howToTell": "The CJ4 has no winglets and a slimmer fuselage; the Phenom 300 has upturned winglets and much larger cabin windows."
+    },
+    {
+      "id": "citation-mustang",
+      "howToTell": "The CJ/M2 has a T-tail; the Mustang's tailplane sits low on the tail cone with dihedral."
+    },
+    {
+      "id": "citation-i",
+      "howToTell": "The Citation I has a low-set tailplane; the CitationJet has a T-tail."
+    },
+    {
+      "id": "beech-390",
+      "howToTell": "The Premier I has a swept wing and round windows; the CitationJet has a straight wing and squarer windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 525",
+    "Cessna 525C CitationJet CJ4",
+    "Cessna 525B CitationJet CJ3"
+  ],
+  "usCount": {
+    "value": 1878,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05642I6",
+    "2076601",
+    "2076611",
+    "2076615",
+    "2076616",
+    "2076618",
+    "2076619",
+    "2076628",
+    "2076653",
+    "2076655"
+  ]
+}

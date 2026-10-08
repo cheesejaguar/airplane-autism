@@ -1,0 +1,76 @@
+{
+  "id": "guimbal-cabri-g2",
+  "name": "Guimbal Cabri G2",
+  "shortName": "Cabri G2",
+  "aka": [
+    "Cabri"
+  ],
+  "manufacturer": "Hélicoptères Guimbal",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2005,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Cabri G2",
+    "Cabri G2 on floats",
+    "Cabri G2 training fleet"
+  ],
+  "summary": "A French two-seat piston light helicopter used heavily for flight training, with a three-blade rotor and a small ducted tail fan.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor, short and stubby",
+      "Rotor head set low on a short mast with a smooth fairing"
+    ],
+    "engines": [
+      "Single piston engine behind the cabin under a smooth cowl",
+      "No exhaust stack on the roof"
+    ],
+    "fuselage": [
+      "Rounded two-seat egg-shaped cabin with a big glazed bubble",
+      "Skids on short struts; one door each side"
+    ],
+    "tail": [
+      "Small ducted fan tail set in the base of the fin",
+      "Stubby tail boom with an X- or V-shaped tail stabilizer around the fan"
+    ]
+  },
+  "tellTales": [
+    "Small two-seat egg of a helicopter with a ducted tail fan",
+    "Three-blade rotor on a short stubby mast",
+    "Tiny size and rounded nose, with a piston engine and no roof exhaust"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The R22 has a two-blade rotor and an open exposed tail rotor on a thin boom; the Cabri has three blades and a tail fan inside the fin."
+    },
+    {
+      "id": "ec120",
+      "howToTell": "The EC120 is larger with five seats, a single turbine exhaust and a bigger fenestron; the Cabri is a tiny two-seater with a piston engine."
+    },
+    {
+      "id": "r44",
+      "howToTell": "The R44 has four seats, a two-blade rotor and an exposed tail rotor; the Cabri is smaller and has a ducted tail fan."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Guimbal Cabri G2"
+  ],
+  "usCount": {
+    "value": 65,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9000001"
+  ]
+}

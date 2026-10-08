@@ -1,0 +1,128 @@
+{
+  "id": "maule",
+  "name": "Maule M-series",
+  "shortName": "Maule",
+  "aka": [
+    "M-4 Rocket",
+    "M-5 Lunar Rocket",
+    "M-7",
+    "Orion"
+  ],
+  "manufacturer": "Maule Aircraft / Maule Air",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "M-4 Rocket",
+    "M-5 Lunar Rocket",
+    "M-6 Super Rocket",
+    "M-7 / MX-7 (incl. tricycle MT-7 and turbine M-7-420)",
+    "M-9"
+  ],
+  "summary": "Family of four-to-five-seat STOL bush planes with tube-and-fabric fuselages, popular on floats and in the backcountry.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing with long-span flaps"
+    ],
+    "engines": [
+      "Single flat-four or flat-six in a short, deep cowl",
+      "Two- or three-blade prop"
+    ],
+    "fuselage": [
+      "Tube-and-fabric four-to-five-seat fuselage with large rear windows and rear cargo door",
+      "Tailwheel gear on most (some tricycle versions); often on floats"
+    ],
+    "tail": [
+      "Swept fin with a squared-off top and large rudder"
+    ]
+  },
+  "tellTales": [
+    "Fabric-covered high-wing four-seater on a tailwheel",
+    "Swept fin with a squared-off top",
+    "Short, stubby nose and large rear cabin windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The 180/185 is all-metal with a smoothly tapered rear fuselage; the Maule is fabric-covered with a square-topped swept fin."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub is a narrow tandem two-seater with a rounded tail; the Maule is a wider four-seater with a squared-off swept fin."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria is a narrow tandem two-seater; the Maule has a wider four-seat cabin and a swept fin."
+    },
+    {
+      "id": "aeronca-sedan",
+      "howToTell": "The Maule has a squared, boxier fuselage and tail; the Sedan has a rounded fabric fuselage and a curved tail."
+    },
+    {
+      "id": "aviat-husky",
+      "howToTell": "The Maule seats four with side-by-side front seats in a boxier cabin; the Husky seats two in tandem."
+    },
+    {
+      "id": "helio-courier",
+      "howToTell": "A Maule's wing is braced by a lift strut and has simple flaps; the Helio Courier has a strut-free cantilever wing with slats and huge flaps, a taller fin and much taller gear."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Maule M-7",
+    "Maule M-5"
+  ],
+  "usCount": {
+    "value": 1161,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5460102",
+    "5460104",
+    "5460105",
+    "5460106",
+    "5460107",
+    "5460108",
+    "5460109",
+    "5460110",
+    "5460111",
+    "5460112",
+    "5460114",
+    "5460132",
+    "5460133",
+    "5460134",
+    "5460135",
+    "5460136",
+    "5460140",
+    "5460160",
+    "5460175",
+    "5460184",
+    "5460185",
+    "5460186",
+    "5460187",
+    "5460188",
+    "5460189",
+    "5460190",
+    "5460204",
+    "5470010",
+    "5470112",
+    "5470203",
+    "5470204",
+    "5470205",
+    "5470206",
+    "5470207",
+    "5470208",
+    "5470211",
+    "5470414"
+  ]
+}

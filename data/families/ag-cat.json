@@ -1,0 +1,95 @@
+{
+  "id": "ag-cat",
+  "name": "Grumman G-164 Ag-Cat",
+  "shortName": "Ag-Cat",
+  "aka": [
+    "Ag Cat",
+    "G-164",
+    "Super Ag-Cat",
+    "Ag-Cat Turbine"
+  ],
+  "manufacturer": "Grumman / Schweizer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1957,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "G-164 (Continental W670)",
+    "G-164A (Pratt & Whitney R-985)",
+    "G-164B Super Ag-Cat (R-1340)",
+    "Turbine Ag-Cat (PT6 conversions)"
+  ],
+  "summary": "Single-engine agricultural biplane built by Grumman, then Schweizer; a purpose-built crop sprayer with the cockpit set high and aft behind a large hopper. Many have been re-engined with turbines.",
+  "weft": {
+    "wings": [
+      "Biplane wing cell braced by interplane struts",
+      "Rounded wingtips, upper and lower wings of similar span"
+    ],
+    "engines": [
+      "Single radial engine in a round cowling (some with turbine conversions)",
+      "Large two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Hopper ahead of the cockpit",
+      "High, aft-set single-seat cockpit with a raised canopy",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional tail with a tall fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Biplane with a radial engine and a spraying hopper",
+    "High cockpit set well back behind the upper wing",
+    "Tailwheel crop duster configuration"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Ag-Cat is a single-seat sprayer with a hopper and a high rear cockpit; the Stearman is a trainer with two open cockpits and no hopper."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Ag-Cat is a biplane; the Thrush is a monoplane."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The Ag-Cat is a biplane; the Air Tractor is a monoplane with a long single wing."
+    },
+    {
+      "id": "pa-25",
+      "howToTell": "The Ag-Cat is a biplane with a radial; the Pawnee is a small, strut-braced monoplane with a flat engine."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Grumman G-164 Ag-Cat"
+  ],
+  "usCount": {
+    "value": 489,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1260000",
+    "3952702",
+    "3952704",
+    "3952801",
+    "3952802",
+    "3952803",
+    "3960202",
+    "3960203",
+    "3979904",
+    "3979908",
+    "8059055",
+    "8059056"
+  ]
+}

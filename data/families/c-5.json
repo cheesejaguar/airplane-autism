@@ -1,0 +1,73 @@
+{
+  "id": "c-5",
+  "name": "C-5M Super Galaxy",
+  "shortName": "C-5M",
+  "aka": [
+    "Super Galaxy",
+    "Galaxy",
+    "FRED"
+  ],
+  "manufacturer": "Lockheed / Lockheed Martin",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "heavy-lift"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1968,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "C-5M Super Galaxy (re-engined C-5A/B/C)"
+  ],
+  "summary": "The largest aircraft in the US military: a four-engine strategic airlifter with nose and tail loading for outsize cargo.",
+  "weft": {
+    "wings": [
+      "High-mounted swept wing with marked droop (anhedral)",
+      "No winglets; very long span"
+    ],
+    "engines": [
+      "Four large high-bypass turbofans on pylons under the wing"
+    ],
+    "fuselage": [
+      "Extremely long fuselage with a raised upper deck",
+      "Large rounded nose that hinges upward as a visor for front loading",
+      "Many-wheeled landing gear in sponsons along the lower fuselage"
+    ],
+    "tail": [
+      "T-tail: very tall swept fin with the horizontal tail on top"
+    ]
+  },
+  "tellTales": [
+    "Huge high-winged four-jet transport with a T-tail and no winglets",
+    "Very long fuselage ending in a large rounded nose",
+    "Wings that droop noticeably toward the tips"
+  ],
+  "confusedWith": [
+    {
+      "id": "c-17",
+      "howToTell": "The C-5 is much longer with a rounded visor nose and no winglets; the C-17 is shorter and stockier with upturned winglets."
+    },
+    {
+      "id": "b747",
+      "howToTell": "The C-5 has a high wing and a T-tail; the 747 has a low wing, a conventional tail and an upper-deck hump only at the front."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Lockheed C-5 Galaxy in flight",
+    "C-5M Super Galaxy",
+    "Lockheed C-5 Galaxy"
+  ],
+  "usCount": {
+    "value": 52,
+    "source": "USAF C-5M Super Galaxy fact sheet",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

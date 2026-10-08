@@ -1,0 +1,113 @@
+{
+  "id": "c180",
+  "name": "Cessna 180/185 Skywagon",
+  "shortName": "C180/185",
+  "aka": [
+    "Skywagon",
+    "AgCarryall",
+    "U-17"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1952,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "180 / 180A–180K (1953–81)",
+    "185 / A185E / A185F Skywagon",
+    "U-17 (military 185)",
+    "Float, amphibian and ski conversions"
+  ],
+  "summary": "Rugged tailwheel four-to-six-seat high-wing utility singles, the classic bush and floatplane Cessnas of Alaska and the backcountry.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single lift strut per side",
+      "Constant-chord inner section with tapered outer panels"
+    ],
+    "engines": [
+      "Six-cylinder engine in a deep cowling",
+      "Two- or three-blade constant-speed prop"
+    ],
+    "fuselage": [
+      "Conventional tailwheel gear with spring-steel main legs",
+      "All-metal four-to-six-seat cabin sitting nose-high on the ground",
+      "Frequently on floats, skis or oversized tundra tires"
+    ],
+    "tail": [
+      "Rounded straight fin on early 180s; taller squared fin with dorsal fillet on later 180s and the 185"
+    ]
+  },
+  "tellTales": [
+    "All-metal strut-braced high-wing four-seater on a tailwheel",
+    "Deep nose cowl — a heavy airplane, not a light two-seat taildragger",
+    "Often on floats or big bush tires"
+  ],
+  "confusedWith": [
+    {
+      "id": "c182",
+      "howToTell": "The 180/185 is a taildragger; the 182 has tricycle gear."
+    },
+    {
+      "id": "maule",
+      "howToTell": "The Maule has a fabric-covered tube fuselage, a swept square-topped fin and a short stubby nose; the 180/185 is all-metal with a smoothly tapered rear fuselage."
+    },
+    {
+      "id": "dhc-2",
+      "howToTell": "The Beaver is larger with a round radial-engine cowl and a boxy fuselage; the 180/185 has a flat-engine cowl."
+    },
+    {
+      "id": "c305",
+      "howToTell": "The 180 seats four side-by-side with one rear window; the Bird Dog seats two in tandem under an enormous glazed rear cabin."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 180 has a bigger cowl, a taller swept fin and more cabin glazing; the 170 is smaller with a slimmer cowl and a smaller fin."
+    },
+    {
+      "id": "c195",
+      "howToTell": "The 180 has a flat engine in a slimmer cowl and a lift strut; the 195 has a big radial engine in a round cowl and no wing struts."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 180 Skywagon",
+    "Cessna 185",
+    "Cessna A185F Skywagon"
+  ],
+  "usCount": {
+    "value": 4024,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2070107",
+    "2072602",
+    "2072604",
+    "2072606",
+    "2072608",
+    "2072610",
+    "2072612",
+    "2072614",
+    "2072616",
+    "2072618",
+    "2072622",
+    "2072624",
+    "2072802",
+    "2072804",
+    "2072806",
+    "2072808",
+    "2072812",
+    "2072816",
+    "2072818",
+    "2072821"
+  ]
+}

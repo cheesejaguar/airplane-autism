@@ -1,0 +1,101 @@
+{
+  "id": "uh-60",
+  "name": "UH-60 Black Hawk",
+  "shortName": "UH-60",
+  "aka": [
+    "Black Hawk",
+    "S-70",
+    "HH-60 Pave Hawk",
+    "HH-60W Jolly Green II"
+  ],
+  "manufacturer": "Sikorsky (Lockheed Martin)",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "transport",
+    "search-rescue",
+    "special-ops"
+  ],
+  "branches": [
+    "army",
+    "usaf"
+  ],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "UH-60A/L/M/V",
+    "HH-60M MEDEVAC",
+    "MH-60M (160th SOAR)",
+    "HH-60G Pave Hawk / HH-60W Jolly Green II (USAF)",
+    "S-70 / civil UH-60A firefighters"
+  ],
+  "summary": "Twin-turbine medium utility helicopter that is the US Army's standard assault and medevac transport; USAF combat-rescue Pave Hawks and Jolly Green IIs and many civil firefighting conversions share the airframe.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor with swept tips (wide-chord on the UH-60M)",
+      "Optional stub wings (ESSS) carrying external fuel tanks on long-range missions"
+    ],
+    "engines": [
+      "Two engines side by side on the cabin roof behind the rotor mast",
+      "Exhausts on each side of the roof, often with angled IR suppressors"
+    ],
+    "fuselage": [
+      "Long, low, flat-sided cabin with large sliding doors on both sides",
+      "Fixed main wheels well forward under the cockpit doors",
+      "Small fixed tailwheel at the very rear of the tail cone",
+      "Cockpit windscreen in a sloping, flat-paneled nose"
+    ],
+    "tail": [
+      "Four-blade tail rotor canted upward on the right side of the fin",
+      "Large all-moving horizontal stabilator low on the tail pylon",
+      "Long tail cone with a slight upward kink to the fin"
+    ]
+  },
+  "tellTales": [
+    "Tailwheel sits at the far end of the tail cone, a long way behind the main wheels",
+    "Tail rotor visibly tilted from vertical on a swept fin above a big low stabilator",
+    "Long, low cabin with two engines side by side on the roof and wheels, not skids"
+  ],
+  "confusedWith": [
+    {
+      "id": "mh-60",
+      "howToTell": "The Army Black Hawk usually wears green or black, has a big sliding door on each side and lacks the Navy/Coast Guard hoist, folding-tail hinge, chin FLIR and sensor/weapon pylons; on the MH-60R and Jayhawk the tailwheel is also far forward under the cabin."
+    },
+    {
+      "id": "s-92",
+      "howToTell": "The S-92 is a much taller, boxier airliner-like helicopter with retractable gear in sponsons and a rear ramp; the Black Hawk is long, low and has fixed gear with a tailwheel."
+    },
+    {
+      "id": "uh-1y",
+      "howToTell": "The UH-1Y sits on skids with a narrow nose and an unswept fin; the Black Hawk has wheels, a tailwheel and a canted tail rotor over a low stabilator."
+    },
+    {
+      "id": "mi-8",
+      "howToTell": "The Mi-8 is a bulky machine with a blunt nose and fixed wheels; the Black Hawk has a slimmer body and a canted tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "UH-60 Black Hawk in flight",
+    "UH-60 Black Hawk"
+  ],
+  "usCount": {
+    "value": 2700,
+    "source": "US Army fleet ~2,300 UH/HH-60 (Army FY2026 aviation data) + USAF HH-60G/W + ~450 FAA-registered civil UH-60/S-70 (FAA registry)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "8140330",
+    "8141835",
+    "8141900",
+    "8141920",
+    "8142220",
+    "8146004",
+    "8146010",
+    "8780001"
+  ]
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "existingId": "stearman",
+    "newId": "waco-f-series",
+    "howToTell": "The Waco F-series is smaller and slimmer, with a wide front cockpit seating two and a smoother fuselage; the Stearman has narrow tandem cockpits and a bulkier airframe."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "travel-air-2000",
+    "howToTell": "The Travel Air has big overhanging 'elephant-ear' balanced ailerons and an earlier, boxier 1920s look; the Stearman has plain ailerons."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "waco-10",
+    "howToTell": "The Waco 10 is a 1920s barnstormer with a wide passenger cockpit under the upper wing ahead of the pilot, often with an OX-5 nose radiator; the Stearman has two narrow tandem cockpits and a bare radial."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "waco-taperwing",
+    "howToTell": "The Taperwing's wings visibly taper toward the tips; the Stearman's wings are straight with constant chord."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "meyers-otw",
+    "howToTell": "The Meyers OTW is a much smaller, lighter biplane with a small radial; the Stearman is a large, heavy biplane with a big radial."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "great-lakes-2t1",
+    "howToTell": "The Great Lakes is a small biplane with a cowled flat-four engine and a swept-back upper wing; the Stearman has a large bare radial."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "fleet-biplane",
+    "howToTell": "The Fleet is a much smaller, lighter biplane with a small Kinner radial; the Stearman is large and heavy with a big radial."
+  },
+  {
+    "existingId": "stearman",
+    "newId": "fairchild-kr",
+    "howToTell": "The Fairchild KR is a small, light 1920s biplane with a small radial; the Stearman is much larger and heavier with a big radial."
+  },
+  {
+    "existingId": "yak-52",
+    "newId": "yak-50",
+    "howToTell": "The Yak-50 is a single-seater with a tailwheel and retractable main gear; the Yak-52 has two seats in tandem and a retractable tricycle undercarriage."
+  },
+  {
+    "existingId": "yak-52",
+    "newId": "yak-55",
+    "howToTell": "The Yak-55 is a single-seat mid-wing aerobatic monoplane with fixed gear and a tailwheel; the Yak-52 has two seats and retractable tricycle gear."
+  },
+  {
+    "existingId": "citabria",
+    "newId": "mudry-cap-10",
+    "howToTell": "The CAP 10 is a low-wing taildragger with two seats side by side under a bubble canopy and a ventral fin; the Citabria is a high-wing tandem-seat aircraft."
+  },
+  {
+    "existingId": "da20",
+    "newId": "mudry-cap-10",
+    "howToTell": "The CAP 10 is a taildragger with a ventral fin under the tail and a bubble canopy; the DA20 has a nosewheel and a wider, flatter canopy."
+  },
+  {
+    "existingId": "luscombe-8",
+    "newId": "monocoupe-90",
+    "howToTell": "The Monocoupe has a small radial engine and a distinctive reverse-curve rear fuselage; the Luscombe is all-metal with a flat-four engine and a smoother fuselage line."
+  }
+]

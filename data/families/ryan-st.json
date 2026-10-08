@@ -1,0 +1,88 @@
+{
+  "id": "ryan-st",
+  "name": "Ryan ST / PT-22 Recruit",
+  "shortName": "Ryan PT-22",
+  "aka": [
+    "PT-22 Recruit",
+    "Ryan STA",
+    "Ryan ST3KR",
+    "Ryan STM"
+  ],
+  "manufacturer": "Ryan Aeronautical Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1934,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Ryan STA / STA Special (inline Menasco)",
+    "ST3KR / PT-22 Recruit (Kinner radial)",
+    "STM military export"
+  ],
+  "summary": "Sleek 1930s low-wing sport trainer, with the Kinner-powered PT-22 Recruit as the USAAF primary trainer; widely used as a sport and aerobatic airplane today.",
+  "weft": {
+    "wings": [
+      "Thin, clean low wing with rounded tips",
+      "Slightly tapered outer wing panels"
+    ],
+    "engines": [
+      "Small five-cylinder Kinner radial with exposed cylinders (ST3KR / PT-22) or an inline (STA)",
+      "Narrow, short nose"
+    ],
+    "fuselage": [
+      "Open tandem cockpits with a small windscreen for each seat",
+      "Narrow, shapely fuselage that tapers smoothly",
+      "Fixed gear with large streamlined wheel spats"
+    ],
+    "tail": [
+      "Small, rounded fin and rudder",
+      "Rounded horizontal tail with a trim look"
+    ]
+  },
+  "tellTales": [
+    "Slender low-wing monoplane with open tandem cockpits and big wheel spats",
+    "Short nose with a small five-cylinder radial (or slim inline)",
+    "Clean, thin wing and very trim, sporty fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "fairchild-m62",
+      "howToTell": "The Cornell has a longer nose, wider wing centre section and plainer main gear; the Ryan is smaller, trimmer and often has wheel spats."
+    },
+    {
+      "id": "bt-13",
+      "howToTell": "The BT-13 is much bigger and heavier with a large radial and an enclosed greenhouse; the Ryan is a small open-cockpit trainer."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is a biplane; the Ryan is a low-wing monoplane."
+    },
+    {
+      "id": "n3n",
+      "howToTell": "The N3N is a biplane; the Ryan is a low-wing monoplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Ryan ST",
+    "Ryan PT-22 warbirds"
+  ],
+  "usCount": {
+    "value": 140,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7830402",
+    "7830404",
+    "7830502",
+    "7830504"
+  ]
+}

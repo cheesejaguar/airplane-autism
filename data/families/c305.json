@@ -1,0 +1,92 @@
+{
+  "id": "c305",
+  "name": "Cessna 305 / O-1 Bird Dog",
+  "shortName": "O-1 Bird Dog",
+  "aka": [
+    "O-1 Bird Dog",
+    "L-19",
+    "Cessna 305A",
+    "TL-19"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "L-19A / O-1A",
+    "O-1E (long-range, taller fin)",
+    "TL-19D / TO-1D instrument trainer",
+    "Cessna 305A (civil)"
+  ],
+  "summary": "Cessna's tandem two-seat observation and forward-air-control aircraft, the Army and Marine light spotter of Korea and Vietnam; hundreds were sold surplus and many fly as private warbirds.",
+  "weft": {
+    "wings": [
+      "High, strut-braced rectangular wing with full-length flaps",
+      "Wide-chord straight wing with rounded tips"
+    ],
+    "engines": [
+      "Single six-cylinder flat engine with a two-blade metal propeller",
+      "Smooth, boxy cowl"
+    ],
+    "fuselage": [
+      "Two seats in tandem under a large bubble-like glazed cabin with a big rear window",
+      "Spring-steel main gear legs on a conventional tailwheel layout",
+      "Slender, tapering rear fuselage"
+    ],
+    "tail": [
+      "Tall, squared-off fin and rudder (taller on the O-1E)",
+      "Horizontal tail braced with struts to the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Tandem high-wing with huge wraparound windows behind the front seat",
+    "Spring-steel gear legs and a squared-off tall tail on a slender airplane",
+    "Long strut-braced wing with big full-span flaps"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-l-5",
+      "howToTell": "The L-5 has a rounded, fuller fuselage and an inline-looking six-cylinder nose; the Bird Dog has a squarer, more angular tail and spring-steel main gear legs."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The 180 has a four-seat cabin and a single rear window; the Bird Dog is a tandem two-seater with an enormous glazed rear canopy."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub has a two-bay flat-sided cabin and a rounded tail; the Bird Dog sits taller with a larger engine and squarer tail."
+    },
+    {
+      "id": "sm1019",
+      "howToTell": "The SM.1019 has a long turboprop nose, a different tail and an extra-long gear; the Bird Dog has a stubby piston cowl."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna L-19 Bird Dog"
+  ],
+  "usCount": {
+    "value": 231,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2073902",
+    "2074001",
+    "2074002",
+    "2074003",
+    "2074004",
+    "2074014",
+    "2074016",
+    "2074032"
+  ]
+}

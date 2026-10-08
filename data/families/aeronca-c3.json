@@ -1,0 +1,92 @@
+{
+  "id": "aeronca-c3",
+  "name": "Aeronca C-2 / C-3 / K Scout",
+  "shortName": "Aeronca C-3",
+  "aka": [
+    "C-2",
+    "C-3 Master",
+    "K Scout",
+    "KC",
+    "KCA"
+  ],
+  "manufacturer": "Aeronautical Corporation of America (Aeronca)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1929,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "C-2 (1930, single seat)",
+    "C-3 (side-by-side, razorback fuselage)",
+    "C-3 Master (1935, roundback)",
+    "K Scout (1937, strut-braced, enclosed cabin)",
+    "KC / KCA / CF (four-cylinder engines)"
+  ],
+  "summary": "Early Aeronca light planes: the C-2 and C-3 were tiny wire-braced 'flying bathtubs', and the K Scout of 1937 brought a conventional enclosed cabin.",
+  "weft": {
+    "wings": [
+      "High wing braced by wires from a pylon over the cabin on C-2/C-3; strut-braced on the K",
+      "Short, thick wing"
+    ],
+    "engines": [
+      "Tiny two-cylinder (or small four-cylinder) engine up front",
+      "Cylinder heads often poke out of the short cowl"
+    ],
+    "fuselage": [
+      "C-3 has a raised 'razorback' spine and a bathtub-like side-by-side cockpit; the Master has a rounded back and enclosed cabin",
+      "Fixed tailwheel gear with external struts on the early models"
+    ],
+    "tail": [
+      "Small fin and rudder",
+      "Short rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Tiny prewar high-wing with bracing wires instead of lift struts (C-2/C-3)",
+    "Small engine with cylinders poking out of a short nose",
+    "Raised razorback spine behind a bathtub-like cockpit"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ is a postwar tandem two-seater with lift struts and a fully cowled flat-four; the C-3 has bracing wires, a bathtub cockpit and a tiny engine."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Chief is a rounder postwar side-by-side two-seater with lift struts and a proper cowled engine; the C-3 is smaller and wire-braced."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The J-3 has V-struts and a fully cowled flat-four with tandem seats; the C-3 has wires, side-by-side seats and a tiny engine."
+    },
+    {
+      "id": "piper-j2",
+      "howToTell": "The J-2/E-2 is a tandem V-strut Cub design; the C-2/C-3 has wire bracing and side-by-side or bathtub seating."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Aeronca C-3",
+    "Aeronca C-2",
+    "Aeronca K"
+  ],
+  "usCount": {
+    "value": 82,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0190101",
+    "0190204",
+    "0190302",
+    "0190402",
+    "0190406"
+  ]
+}

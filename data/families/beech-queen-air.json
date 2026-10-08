@@ -1,0 +1,86 @@
+{
+  "id": "beech-queen-air",
+  "name": "Beechcraft Queen Air",
+  "shortName": "Queen Air",
+  "aka": [
+    "Model 65",
+    "A65",
+    "65-80",
+    "65-88",
+    "L-23F (US Army)"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1958,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "65 (upright tail, short wing)",
+    "A65 / 65-80 (swept tail)",
+    "B80 / 65-88 (pressurized)",
+    "L-23F / U-8 (US Army)"
+  ],
+  "summary": "Large nine-seat Beechcraft twin built 1960–1978 from the Twin Bonanza, the airframe that evolved into the King Air.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with deep engine nacelles",
+      "Plain wingtips"
+    ],
+    "engines": [
+      "Two big six-cylinder piston engines in nacelles with no exhaust stacks",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Long, deep cabin with a row of rounded-square windows",
+      "Rounded nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Early models: tall, upright, squared-off fin",
+      "Later models: swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Looks like a King Air but with piston cowlings and no exhaust stacks",
+    "Long, deep cabin with a row of rounded-square windows",
+    "Upright squared fin (early) or swept fin with dorsal fillet (later)"
+  ],
+  "confusedWith": [
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has turboprop nacelles with exhaust stacks; the Queen Air has plain piston cowlings."
+    },
+    {
+      "id": "beech-50",
+      "howToTell": "The Twin Bonanza is much shorter with a smaller cabin; the Queen Air has a long, deep fuselage."
+    },
+    {
+      "id": "aero-commander-500",
+      "howToTell": "The Aero Commander has a high wing; the Queen Air has a low wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Queen Air"
+  ],
+  "usCount": {
+    "value": 42,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1152802",
+    "1152803",
+    "1152804",
+    "1152808",
+    "1152812"
+  ]
+}

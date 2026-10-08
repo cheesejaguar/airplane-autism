@@ -1,0 +1,78 @@
+{
+  "id": "cub-crafters-xcub",
+  "name": "CubCrafters XCub",
+  "shortName": "XCub",
+  "aka": [
+    "CC19",
+    "CC19-180",
+    "CC19-215"
+  ],
+  "manufacturer": "CubCrafters",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 2016,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "CC19-180 (180 hp)",
+    "CC19-215 (215 hp)"
+  ],
+  "summary": "Modern, factory-built evolution of the classic tandem bush plane with a bigger engine, a roomier cabin and oversized tires.",
+  "weft": {
+    "wings": [
+      "High wing braced by a V-strut on each side",
+      "Large flaps along the trailing edge"
+    ],
+    "engines": [
+      "Single Lycoming flat-four (180-215 hp) in a deep, bulky cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Enclosed tandem two-seat cabin with doors",
+      "Fixed tailwheel gear with oversized balloon tires"
+    ],
+    "tail": [
+      "Conventional tail with straight-edged fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Classic tandem bush-plane shape on V-struts but with a bulkier nose",
+    "Oversized balloon tires on a tailwheel airframe",
+    "Deep cowl and big prop on a small, narrow-fuselage airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub has a slimmer nose, smaller tires and a narrower cabin; this one looks beefier with a deeper cowl and much bigger tires."
+    },
+    {
+      "id": "maule",
+      "howToTell": "A Maule has side-by-side seating and a boxier cabin on a single lift strut; this has tandem seats on V-struts."
+    },
+    {
+      "id": "aviat-husky",
+      "howToTell": "The Husky has a wider, squarer cabin and tall squared tail on a single strut; this has V-struts on a slimmer, more traditional fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "CubCrafters CC19"
+  ],
+  "usCount": {
+    "value": 87,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05632CR",
+    "2470004",
+    "2470009"
+  ]
+}

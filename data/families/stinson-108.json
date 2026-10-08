@@ -1,0 +1,90 @@
+{
+  "id": "stinson-108",
+  "name": "Stinson 108 Voyager",
+  "shortName": "Stinson 108",
+  "aka": [
+    "Voyager",
+    "Station Wagon",
+    "Piper-Stinson 108"
+  ],
+  "manufacturer": "Stinson (Consolidated Vultee)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "108 / 108-1 (150 hp Franklin)",
+    "108-2 (150 hp Franklin)",
+    "108-3 (165 hp Franklin)",
+    "108 Station Wagon"
+  ],
+  "summary": "Postwar four-seat, fabric-covered high-wing tourer with a six-cylinder Franklin engine; built by Stinson, then Piper, in numbers above 5,000.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Partial leading-edge slots forward of the ailerons"
+    ],
+    "engines": [
+      "Single air-cooled flat-six Franklin engine",
+      "Fixed-pitch two-blade propeller in a rounded cowling"
+    ],
+    "fuselage": [
+      "Four-seat cabin with one large door each side and rear side windows",
+      "Fixed main gear with a tailwheel",
+      "Fabric-covered tube fuselage"
+    ],
+    "tail": [
+      "Large, curved fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat fabric high-wing taildragger with a long, rounded cowl",
+    "Large, curved tail with a tall rudder",
+    "Single strut each side above a roomy cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c170",
+      "howToTell": "The Stinson 108 has a fabric fuselage and a curvier tail with a large rounded fin; the 170 is a metal fuselage with a straighter, upright fin and flat spring-steel legs."
+    },
+    {
+      "id": "aeronca-sedan",
+      "howToTell": "The Stinson has an older rounded cowl for its Franklin flat-six and a curved tail; the Sedan has a squarer boxy cabin and all-metal wings."
+    },
+    {
+      "id": "pa-12",
+      "howToTell": "The Stinson is a four-seater with a deeper cabin; the PA-12 is a three-seat Cub-style aircraft with a rounded Cub tail."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The Stinson has a fabric rounded fuselage and a curved fin; the 180 has an all-metal fuselage and a swept, angular fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Stinson 108"
+  ],
+  "usCount": {
+    "value": 1322,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9230402",
+    "9230404",
+    "9230406",
+    "9230408",
+    "9230412",
+    "9230414",
+    "9230416",
+    "9230418"
+  ]
+}

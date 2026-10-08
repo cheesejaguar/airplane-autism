@@ -1,0 +1,74 @@
+{
+  "id": "ch-53k",
+  "name": "CH-53K King Stallion",
+  "shortName": "CH-53K",
+  "aka": [
+    "King Stallion"
+  ],
+  "manufacturer": "Sikorsky (Lockheed Martin)",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "heavy-lift",
+    "transport"
+  ],
+  "branches": [
+    "usmc"
+  ],
+  "firstFlight": 2015,
+  "engines": {
+    "count": 3,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "CH-53K"
+  ],
+  "summary": "All-new replacement for the CH-53E with three far more powerful engines, a wider cabin and composite rotor blades, now entering Marine Corps squadrons.",
+  "weft": {
+    "wings": [
+      "Seven-blade composite main rotor with swept, downward-bent (anhedral) blade tips",
+      "Smaller hub fairing that leaves more of the rotor head visible"
+    ],
+    "engines": [
+      "Three engines in the same layout as the E: side pods plus a third behind the mast",
+      "Reshaped, cleaner engine nacelles with larger intakes"
+    ],
+    "fuselage": [
+      "Wider, boxier cabin than the CH-53E",
+      "Larger, more angular sponsons with fuel inside, so no external drop tanks",
+      "Refueling probe on the right side of the nose and rear loading ramp",
+      "Glass-cockpit nose with a clean, unstained finish"
+    ],
+    "tail": [
+      "Fin canted to the left with a four-blade composite tail rotor",
+      "Straight, unbent horizontal stabilizer instead of a gull wing"
+    ]
+  },
+  "tellTales": [
+    "Seven blades with drooped, swept tips on a three-engine heavy-lifter",
+    "Straight horizontal stabilizer on a canted tail fin",
+    "Big clean sponsons with no drop tanks hanging off them"
+  ],
+  "confusedWith": [
+    {
+      "id": "ch-53e",
+      "howToTell": "The K has a straight stabilizer, larger sponsons with no drop tanks and drooped blade tips; the E has a bent gull-wing stabilizer and usually carries drop tanks."
+    },
+    {
+      "id": "ch-47",
+      "howToTell": "The K has one seven-blade main rotor and a tail rotor; the Chinook has two tandem rotors and no tail rotor."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Sikorsky CH-53K King Stallion in flight",
+    "CH-53K of the United States Marine Corps",
+    "Sikorsky CH-53K King Stallion"
+  ],
+  "usCount": {
+    "value": 30,
+    "source": "~25 production aircraft delivered plus test aircraft (The War Zone, 2026; NAVAIR)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

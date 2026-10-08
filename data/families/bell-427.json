@@ -1,0 +1,78 @@
+{
+  "id": "bell-427",
+  "name": "Bell 427",
+  "shortName": "Bell 427",
+  "aka": [
+    "Bell 427i"
+  ],
+  "manufacturer": "Bell Helicopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Bell 427",
+    "Bell 427i"
+  ],
+  "summary": "A light twin-turbine Bell with a four-blade rotor and smooth lines, a twin-engine cousin of the 407.",
+  "weft": {
+    "wings": [
+      "Four-blade bearingless main rotor on a smooth mast",
+      "Mast fairing blending into the cowling"
+    ],
+    "engines": [
+      "Twin turboshafts under the rear roof",
+      "Two exhausts at the rear of the engine deck"
+    ],
+    "fuselage": [
+      "Smooth swept cabin with large windows",
+      "Skids on short legs",
+      "Wide sliding rear doors"
+    ],
+    "tail": [
+      "Slim boom with a swept fin and horizontal stabilizer",
+      "Two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Four-blade rotor on a smooth swept light twin",
+    "Two exhausts at the rear of the engine deck",
+    "Large sliding doors on skids"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-407",
+      "howToTell": "The 407 has one engine and a single exhaust; the 427 is slightly longer with twin exhausts."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 is noticeably larger, with a bigger rear cabin; the 427 is smaller."
+    },
+    {
+      "id": "bell-206",
+      "howToTell": "The 206 has a two-blade rotor and a rounder body; the 427 has four blades and a smoother, swept body."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bell 427"
+  ],
+  "usCount": {
+    "value": 13,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1182152",
+    "1182207"
+  ]
+}

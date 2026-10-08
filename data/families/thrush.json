@@ -1,0 +1,119 @@
+{
+  "id": "thrush",
+  "name": "Thrush (Ayres) S2R",
+  "shortName": "Thrush",
+  "aka": [
+    "Ayres Thrush",
+    "Thrush Commander",
+    "Thrush 510",
+    "Thrush 710"
+  ],
+  "manufacturer": "Snow / Rockwell / Ayres / Thrush Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "turboprop"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Snow S-2 / Ag Commander / Thrush Commander (radial piston)",
+    "S2R-T11 to S2R-T34 (PT6 turboprop)",
+    "S2R-H80 (Walter/GE)",
+    "Thrush 510G / 510P",
+    "Thrush 710"
+  ],
+  "summary": "Long-running family of single-engine agricultural aircraft, from radial-engined Thrush Commanders to modern turboprop Thrush 510s and 710s.",
+  "weft": {
+    "wings": [
+      "Low, constant-chord wing with squared tips",
+      "Spray booms along the trailing edge"
+    ],
+    "engines": [
+      "Long slim turboprop nose with exhaust stacks on most; big round radial on older piston examples"
+    ],
+    "fuselage": [
+      "Large hopper ahead of a tall, upright cockpit with a boxy multi-pane canopy",
+      "Fixed tailwheel gear",
+      "Wire-cutter cable from canopy to fin"
+    ],
+    "tail": [
+      "Tall angular fin; strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Single-engine low-wing taildragger with a tall, boxy cockpit behind a hopper",
+    "Spray booms along the wing trailing edge",
+    "Long slim turboprop nose, or a round radial on older examples"
+  ],
+  "confusedWith": [
+    {
+      "id": "air-tractor",
+      "howToTell": "The Thrush appears shorter and stockier with a tall, boxy multi-pane cockpit canopy; the Air Tractor usually shows a longer, higher-aspect-ratio wing and a leaner look."
+    },
+    {
+      "id": "pa-25",
+      "howToTell": "The Thrush has a cantilever wing and a blunt radial or turbine nose; the Pawnee has a strut under each wing and a slim nose."
+    },
+    {
+      "id": "c188",
+      "howToTell": "The Thrush is a cantilever monoplane with a blunt nose; the Cessna 188 has struts and a flat engine."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Thrush is a monoplane; the Ag-Cat is a biplane."
+    },
+    {
+      "id": "pzl-m-18",
+      "howToTell": "The Thrush shares parts with the Dromader but is usually smaller; the PZL M-18 has the bigger ~1,000 hp radial and larger dimensions."
+    },
+    {
+      "id": "weatherly-620",
+      "howToTell": "The Thrush is usually larger, with a bigger radial or turbine up front and a stouter fuselage; the Weatherly 620 is a smaller R-985 airframe."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Ayres Thrush"
+  ],
+  "usCount": {
+    "value": 506,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0143010",
+    "0143022",
+    "0970101",
+    "0970102",
+    "0970105",
+    "0970106",
+    "0970107",
+    "0970111",
+    "0970112",
+    "0970202",
+    "0970210",
+    "0970215",
+    "0970216",
+    "0970217",
+    "0970218",
+    "0970219",
+    "0970222",
+    "7630202",
+    "8380202",
+    "8380206",
+    "8380302",
+    "8380307",
+    "8380310",
+    "8380312",
+    "8380315",
+    "8380326",
+    "8380327",
+    "8380328"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "t-38",
+  "name": "T-38 Talon",
+  "shortName": "T-38",
+  "aka": [
+    "Talon",
+    "White Rocket"
+  ],
+  "manufacturer": "Northrop",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "trainer"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1959,
+  "engines": {
+    "count": 2,
+    "type": "turbojet"
+  },
+  "variants": [
+    "T-38C",
+    "AT-38C"
+  ],
+  "summary": "Supersonic twin-jet advanced trainer used for USAF pilot training and as a companion trainer, being replaced by the T-7A Red Hawk.",
+  "weft": {
+    "wings": [
+      "Small thin low-mounted trapezoidal wing",
+      "No leading-edge root extensions and no wingtip missile rails"
+    ],
+    "engines": [
+      "Two small engines with exhausts close together at the tail",
+      "Small side intakes just ahead of the wing root"
+    ],
+    "fuselage": [
+      "Very slim, needle-nosed fuselage with a pinched 'coke bottle' waist",
+      "Tandem two-seat cockpit under a long canopy, rear seat raised",
+      "Usually white or, with bomber and fighter companion units, gloss black"
+    ],
+    "tail": [
+      "Single swept vertical fin",
+      "All-moving horizontal tail set low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim needle-nosed jet with two seats under a long canopy",
+    "Waisted fuselage with small side intakes and no wing-root extensions",
+    "Small thin low wings with bare wingtips"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-5",
+      "howToTell": "The T-38 is a slim two-seater with no wing-root extensions or wingtip rails; the F-5 has LERX, wingtip missile rails and usually a single seat in camouflage."
+    },
+    {
+      "id": "t-45",
+      "howToTell": "The T-38 has two engines and a needle nose on a waisted body; the T-45 has one engine, a blunter nose and a drooping tailplane."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 is a straight-wing, single-engine jet with big tip tanks and a very long canopy; the T-38 has swept wings, twin engines and a sleek pointed nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Northrop T-38 Talon in flight",
+    "Northrop T-38 Talon of the United States Air Force"
+  ],
+  "usCount": {
+    "value": 440,
+    "source": "USAF T-38 fact sheet / FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

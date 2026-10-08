@@ -1,0 +1,79 @@
+{
+  "id": "v-22",
+  "name": "V-22 Osprey",
+  "shortName": "V-22",
+  "aka": [
+    "Osprey",
+    "MV-22B",
+    "CV-22B",
+    "CMV-22B"
+  ],
+  "manufacturer": "Bell Boeing",
+  "sector": "military",
+  "category": "tiltrotor",
+  "roles": [
+    "transport",
+    "special-ops",
+    "search-rescue"
+  ],
+  "branches": [
+    "usmc",
+    "usaf",
+    "usn"
+  ],
+  "firstFlight": 1989,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "MV-22B (USMC)",
+    "CV-22B (USAF special operations)",
+    "CMV-22B (USN carrier onboard delivery)"
+  ],
+  "summary": "Tiltrotor that takes off like a helicopter and cruises like a turboprop by rotating its wingtip engine nacelles, flown by the Marines, Air Force special operations and the Navy.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing with an engine nacelle at each tip",
+      "Huge three-blade proprotors, pointing up for hover or forward for cruise"
+    ],
+    "engines": [
+      "Two engines inside the tilting wingtip nacelles",
+      "Nacelles rotate through 90 degrees between vertical and horizontal"
+    ],
+    "fuselage": [
+      "Boxy fuselage with sponsons housing retractable tricycle gear",
+      "Rear loading ramp under an upswept tail",
+      "Refueling probe on the nose; CV-22 has a bulged radar nose; CMV-22B has larger sponsons"
+    ],
+    "tail": [
+      "H-tail: twin vertical fins at the ends of the horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Two enormous rotors on tilting wingtip nacelles",
+    "Twin vertical fins on an H-shaped tail",
+    "Wing with no engines except at the tips"
+  ],
+  "confusedWith": [
+    {
+      "id": "ch-47",
+      "howToTell": "The Osprey's rotors sit side by side on wingtips and it has an H-tail; the Chinook's rotors are front and rear on a wingless fuselage."
+    },
+    {
+      "id": "c-130j",
+      "howToTell": "The C-130 has four turboprops on a high wing and a single tall fin; the Osprey has two huge tilting rotors at the wingtips and twin fins."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "V-22 Osprey in flight",
+    "Bell-Boeing V-22 Osprey"
+  ],
+  "usCount": {
+    "value": 390,
+    "source": "USMC MV-22B ~290, USAF CV-22B ~50, USN CMV-22B ~45 (FlightGlobal World Air Forces 2025)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

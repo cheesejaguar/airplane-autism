@@ -1,0 +1,85 @@
+{
+  "id": "c140",
+  "name": "Cessna 120/140",
+  "shortName": "C120/140",
+  "aka": [
+    "Cessna 120",
+    "Cessna 140",
+    "Cessna 140A"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "120 (no flaps, no rear quarter windows)",
+    "140 (flaps, fabric wings, V-struts)",
+    "140A (metal wings, single strut)"
+  ],
+  "summary": "Postwar two-seat tailwheel high-wing from Cessna: a simple, affordable sport and training airplane that predates the tricycle-gear Cessna 150.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts (120/140) or a single strut per side (140A)",
+      "Constant-chord wing; fabric-covered on 120/140, metal on 140A"
+    ],
+    "engines": [
+      "Single small flat-four in a neat, round cowling",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Two-seat cabin with one door per side",
+      "Fixed spring-steel main gear with a tailwheel",
+      "Rear quarter windows on the 140 (absent on most 120s)"
+    ],
+    "tail": [
+      "Rounded fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Small two-seat strut-braced high-wing on a tailwheel",
+    "Flat spring-steel main gear legs under a compact, boxy cabin",
+    "Rounded fin and rudder on a compact tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "luscombe-8",
+      "howToTell": "The 120/140 has flat spring-steel gear legs and Cessna's squarer lines; the Luscombe 8 has short oleo-style struts with exposed rubber cord and an all-metal, rounder fuselage."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 120/140 has a tailwheel and a nose-high stance; the 150 sits on tricycle gear."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The 140 has a side-by-side cabin with a metal fuselage and spring-steel gear; the Champ is tandem seating with a fabric fuselage and a distinct long, narrow cabin."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 120/140 is a short two-seater; the 170 is longer with a bigger four-seat cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 140",
+    "Cessna 120"
+  ],
+  "usCount": {
+    "value": 2408,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2071402",
+    "2071602",
+    "2071604"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "pa-46",
+  "name": "Piper PA-46 Malibu / Mirage / Meridian / M-series",
+  "shortName": "PA-46",
+  "aka": [
+    "Malibu",
+    "Malibu Mirage",
+    "Matrix",
+    "Meridian",
+    "M350",
+    "M500",
+    "M600",
+    "M700 Fury",
+    "JetPROP DLX"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "turboprop",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-46-310P Malibu (piston)",
+    "PA-46-350P Malibu Mirage / M350 (piston)",
+    "PA-46R-350T Matrix (unpressurized piston)",
+    "PA-46-500TP Meridian / M500 (turboprop)",
+    "M600 / M700 Fury (turboprop)",
+    "JetPROP DLX (turboprop conversion)"
+  ],
+  "summary": "Pressurized six-seat single built in both piston (Malibu, Mirage, M350) and PT6A turboprop (Meridian, M500, M600, M700) forms.",
+  "weft": {
+    "wings": [
+      "Low, long-span, slender straight wing",
+      "No winglets"
+    ],
+    "engines": [
+      "Single engine: flat-six piston with a short nose and two- or three-blade prop, or PT6A turboprop with a longer nose, exhaust stacks and four-blade prop"
+    ],
+    "fuselage": [
+      "Slim fuselage with a few small windows and a split airstair door at left rear"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Modestly swept fin"
+    ]
+  },
+  "tellTales": [
+    "Long slender wing on a slim low-wing single",
+    "Conventional low tail with a modestly swept fin",
+    "Small pressurized cabin with only a few small windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "tbm",
+      "howToTell": "The PA-46 has a slimmer fuselage and a long, slender wing without winglets; the TBM is larger and stouter with a shorter tapered wing and (on the 900 and later) winglets."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The PA-46 is much smaller with a low tail; the PC-12 has a T-tail and winglets."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The PA-46 is pressurized with a few small windows and a longer slimmer wing; the Bonanza A36 has larger windows and a shorter, broader wing."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The PA-46 has retractable gear and a pressurized slim cabin; the Cirrus SR has fixed gear and gull-wing doors."
+    },
+    {
+      "id": "da50",
+      "howToTell": "The DA50 has a T-tail and a composite airframe; the PA-46 has a conventional low tailplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper PA-46-500TP Malibu Meridian",
+    "Piper PA-46-350P Malibu Mirage",
+    "Piper PA-46 Malibu"
+  ],
+  "usCount": {
+    "value": 1574,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7104605",
+    "7104606",
+    "7104607",
+    "7104608",
+    "7104610",
+    "7104618",
+    "7104619",
+    "7104620",
+    "7104622",
+    "7104623",
+    "7104627",
+    "7104650",
+    "7104652",
+    "7105752",
+    "7107573"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "c-130h",
+  "name": "C-130H Hercules",
+  "shortName": "C-130H",
+  "aka": [
+    "Hercules",
+    "Herk"
+  ],
+  "manufacturer": "Lockheed",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "transport"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1954,
+  "engines": {
+    "count": 4,
+    "type": "turboprop"
+  },
+  "variants": [
+    "C-130H",
+    "LC-130H (ski-equipped)",
+    "WC-130H",
+    "EC-130H",
+    "HC-130H"
+  ],
+  "summary": "Legacy four-turboprop tactical airlifter, now mostly with Air National Guard and Reserve units as they convert to the C-130J.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing with tapered outer panels",
+      "Long-span wing above a wide fuselage"
+    ],
+    "engines": [
+      "Four turboprops with four-blade, paddle-shaped propellers",
+      "Some Guard aircraft upgraded with eight-blade straight-bladed propellers",
+      "Engine nacelles extend well ahead of the wing leading edge"
+    ],
+    "fuselage": [
+      "Wide, boxy fuselage with an upswept tail and rear loading ramp",
+      "Landing-gear sponsons bulging out along the lower fuselage sides",
+      "Small 'eyebrow' windows above the cockpit windscreen; LC-130H often seen on skis"
+    ],
+    "tail": [
+      "Tall single vertical fin with a dorsal fillet",
+      "Large horizontal tail set at the top of the upswept rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Four-blade paddle propellers on a high-winged four-turboprop",
+    "Small eyebrow windows above the cockpit windscreen",
+    "Bulging gear sponsons and an upswept tail with rear ramp"
+  ],
+  "confusedWith": [
+    {
+      "id": "c-130j",
+      "howToTell": "The C-130H has four-blade paddle props (or eight-blade straight props on some) and eyebrow windows over the cockpit; the C-130J has six-blade curved scimitar props and no eyebrow windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Lockheed C-130H Hercules of the United States Air Force",
+    "Lockheed C-130H Hercules"
+  ],
+  "usCount": {
+    "value": 140,
+    "source": "FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "5262502",
+    "5262507",
+    "526414U",
+    "526414Z"
+  ]
+}

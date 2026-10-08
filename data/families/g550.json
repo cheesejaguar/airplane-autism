@@ -1,0 +1,114 @@
+{
+  "id": "g550",
+  "name": "Gulfstream GIV / GV / G450 / G550",
+  "shortName": "G550/GIV",
+  "aka": [
+    "GIV",
+    "GIV-SP",
+    "G300",
+    "G400",
+    "G350",
+    "G450",
+    "GV",
+    "G500 (2003)",
+    "G550",
+    "C-20F/G/H",
+    "C-37A",
+    "C-37B",
+    "EA-37B Compass Call"
+  ],
+  "manufacturer": "Gulfstream Aerospace",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "vip",
+    "transport",
+    "electronic-warfare"
+  ],
+  "branches": [
+    "usaf",
+    "usn",
+    "army",
+    "uscg"
+  ],
+  "firstFlight": 1985,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "GIV / GIV-SP (C-20F/G/H)",
+    "G300 / G400 / G350 / G450",
+    "GV (C-37A)",
+    "G500 / G550 (C-37B)",
+    "EA-37B Compass Call (USAF)"
+  ],
+  "summary": "Classic large-cabin Gulfstreams; the GV/G550 serves as the USAF/Navy/Army/Coast Guard C-37A/B VIP transport and the EA-37B Compass Call electronic-attack platform.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets"
+    ],
+    "engines": [
+      "Two Rolls-Royce turbofans (Tay on GIV/G450, BR710 on GV/G550) in long nacelles on the rear fuselage"
+    ],
+    "fuselage": [
+      "Long, slim fuselage with large oval windows (six per side on GIV/G450, seven on GV/G550)",
+      "Long pointed nose"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "Row of large oval windows along a long, slim fuselage",
+    "T-tail and upturned winglets on a big twinjet",
+    "Long, slender engine nacelles on the rear fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "g650",
+      "howToTell": "The GIV/G550 has a slimmer fuselage, smaller ovals and a pointed nose; the G650/G700 is fatter with bigger ovals, a blunter rounded nose and a more swept wing."
+    },
+    {
+      "id": "global",
+      "howToTell": "The Gulfstream has oval windows; the Global has rounded-rectangle windows on an even longer fuselage."
+    },
+    {
+      "id": "challenger-600",
+      "howToTell": "The Gulfstream is longer and slimmer with oval windows; the Challenger 600-series has a short, fat wide-body fuselage with rounded-rectangle windows."
+    },
+    {
+      "id": "g280",
+      "howToTell": "The GIV/G550 is a much larger long-range jet with longer nacelles and more windows; the G280 is a short super-midsize."
+    },
+    {
+      "id": "gulfstream-ii-iii",
+      "howToTell": "The Gulfstream II/III is shorter and older-looking with long Spey nacelles and (on the II) plain wingtips; the G550 is longer with more windows and winglets."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Gulfstream IV",
+    "Gulfstream V",
+    "Gulfstream G550 on final approach"
+  ],
+  "usCount": {
+    "value": 1167,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3970109",
+    "3980101",
+    "3980115",
+    "3980116",
+    "3980119",
+    "3980203",
+    "3980204",
+    "3980205",
+    "3980208",
+    "3980220",
+    "3980295"
+  ]
+}

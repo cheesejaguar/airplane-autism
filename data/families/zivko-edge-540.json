@@ -1,0 +1,79 @@
+{
+  "id": "zivko-edge-540",
+  "name": "Zivko Edge 540",
+  "shortName": "Edge 540",
+  "aka": [
+    "Edge 540",
+    "Edge 540T",
+    "Edge 540V2",
+    "Edge 540V3"
+  ],
+  "manufacturer": "Zivko Aeronautics",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1996,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Edge 540 (single seat)",
+    "Edge 540T (tandem two seat)",
+    "Edge 540V2 / V3 (updated models)"
+  ],
+  "summary": "Single-seat all-composite unlimited aerobatic monoplane used in the Red Bull Air Race and in airshow and competition flying.",
+  "weft": {
+    "wings": [
+      "Thin, straight mid-set carbon-composite wing with a symmetrical section",
+      "Long ailerons and no flaps"
+    ],
+    "engines": [
+      "Six-cylinder Lycoming AEIO-540 in a tight cowl",
+      "Three-blade composite propeller"
+    ],
+    "fuselage": [
+      "Single seat under a large bubble canopy",
+      "Smooth all-composite fuselage",
+      "Fixed spring-composite gear with a tailwheel"
+    ],
+    "tail": [
+      "Large rudder and fin on a sleek tapering tail"
+    ]
+  },
+  "tellTales": [
+    "Single-seat taildragger with a large bubble canopy and three-blade prop",
+    "Thin, straight composite wing with huge ailerons",
+    "Smooth all-composite fuselage and tight engine cowl"
+  ],
+  "confusedWith": [
+    {
+      "id": "extra-300",
+      "howToTell": "Most Extras are two-seaters with a long canopy and a fabric-covered rear fuselage; the Edge 540 is a single-seater with an all-composite smooth fuselage."
+    },
+    {
+      "id": "xtremeair-xa42",
+      "howToTell": "The XA42 is a two-seater with a longer canopy; the Edge 540 is a single-seater."
+    },
+    {
+      "id": "pitts",
+      "howToTell": "The Pitts is a biplane; the Edge is a monoplane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Zivko Edge 540"
+  ],
+  "usCount": {
+    "value": 24,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056037G",
+    "05607SQ"
+  ]
+}

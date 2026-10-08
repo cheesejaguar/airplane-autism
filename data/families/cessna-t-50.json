@@ -1,0 +1,80 @@
+{
+  "id": "cessna-t-50",
+  "name": "Cessna T-50 Bobcat",
+  "shortName": "Bobcat",
+  "aka": [
+    "AT-8",
+    "AT-17",
+    "UC-78",
+    "C-78",
+    "Crane (RCAF)",
+    "JRC-1 (US Navy)",
+    "Bamboo Bomber"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "trainer",
+    "warbird"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "T-50 (civil)",
+    "AT-8 / AT-17 / UC-78 / C-78 (US military)",
+    "Crane Mk I / IA (RCAF)",
+    "JRC-1 (US Navy)"
+  ],
+  "summary": "Fabric-and-wood Cessna twin of 1939, the 'Bamboo Bomber' used as a WWII twin-engine trainer and light transport and still flown by vintage owners.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with rounded tips"
+    ],
+    "engines": [
+      "Two small Jacobs radial engines in neat nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Slim cabin under a long glazed canopy with many small framed panes",
+      "Tailwheel gear"
+    ],
+    "tail": [
+      "Single rounded fin and rudder",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Small twin radial taildragger with a single tail fin",
+    "Long glazed canopy with many small panes",
+    "Slim tapered low wing with small round engines"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-18",
+      "howToTell": "The Beech 18 is larger with twin oval fins; the Bobcat has a single fin."
+    },
+    {
+      "id": "at-6",
+      "howToTell": "The AT-6 Texan has one big radial engine in the nose; the Bobcat has an engine on each wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna T-50",
+    "Cessna C-78 Bobcat"
+  ],
+  "usCount": {
+    "value": 36,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2071302"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "p-40",
+  "name": "P-40 Warhawk",
+  "shortName": "P-40",
+  "aka": [
+    "Warhawk",
+    "Kittyhawk",
+    "Tomahawk"
+  ],
+  "manufacturer": "Curtiss-Wright",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1938,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P-40B / C Tomahawk",
+    "P-40E Kittyhawk",
+    "P-40F / L (Merlin)",
+    "P-40K / M / N",
+    "TP-40N two-seat"
+  ],
+  "summary": "Early-WWII American fighter flown by the Flying Tigers; around two dozen fly in the US, often in shark-mouth markings.",
+  "weft": {
+    "wings": [
+      "Low wing with rounded tips and pronounced dihedral",
+      "Main gear retracts rearward into the wing"
+    ],
+    "engines": [
+      "Inline V-12 with a deep chin radiator scoop right behind the propeller",
+      "Three-blade prop"
+    ],
+    "fuselage": [
+      "Framed canopy with a tall rear deck",
+      "Tailwheel gear",
+      "Often painted with a shark-mouth on the chin"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Deep radiator scoop under the nose, right behind the propeller",
+    "Shark-mouth paint on the chin is common",
+    "Rounded tail and wingtips with a framed canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "p-51",
+      "howToTell": "The Mustang's radiator scoop is under the belly behind the cockpit; the P-40's is under the nose."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Curtiss P-40 Warhawk"
+  ],
+  "usCount": {
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2622203",
+    "2622206",
+    "2622210",
+    "2622212"
+  ]
+}

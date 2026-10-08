@@ -1,0 +1,84 @@
+{
+  "id": "enstrom-480",
+  "name": "Enstrom 480 / 480B",
+  "shortName": "Enstrom 480",
+  "aka": [
+    "480B",
+    "TH-28",
+    "Guardian"
+  ],
+  "manufacturer": "Enstrom Helicopter Corporation",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1989,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "480",
+    "480B",
+    "480B Guardian (law enforcement)",
+    "TH-28 (military trainer)"
+  ],
+  "summary": "A five-seat turbine development of the 280 Shark: sleek and low-slung, used for patrol, training and corporate flying.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor on a low mast"
+    ],
+    "engines": [
+      "Single turboshaft behind the cabin with a short exhaust stub",
+      "Smooth swept cowling, no tall stack"
+    ],
+    "fuselage": [
+      "Sleek swept canopy, long and low compared with the 280",
+      "Five seats, skids"
+    ],
+    "tail": [
+      "Slim tapering tail boom with a vertical fin",
+      "Horizontal stabilizer low on the boom and a two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Sleek, low-slung turbine helicopter with a three-blade rotor",
+    "Long swept canopy and a slim tail boom",
+    "Single exhaust stub behind a lean cowling"
+  ],
+  "confusedWith": [
+    {
+      "id": "enstrom-280",
+      "howToTell": "The 480 is larger and more streamlined, with a turbine exhaust and five seats; the 280 is a rounder three-seater with a piston engine."
+    },
+    {
+      "id": "bell-505",
+      "howToTell": "The Bell 505 has a two-blade rotor and a blunt, boxy nose; the Enstrom 480 has three blades and a sleek swept canopy."
+    },
+    {
+      "id": "md-500",
+      "howToTell": "The MD 500 has an egg-shaped pod and a five-blade rotor; the Enstrom 480 has three blades and a long sleek canopy."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has a tall boxy cabin and a three-blade rotor on a taller mast; the 480 is lower and more swept, with a smaller cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Enstrom 480"
+  ],
+  "usCount": {
+    "value": 59,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3300510",
+    "3300560",
+    "3300561"
+  ]
+}

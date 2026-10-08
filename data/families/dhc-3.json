@@ -1,0 +1,83 @@
+{
+  "id": "dhc-3",
+  "name": "DHC-3 Otter",
+  "shortName": "Otter",
+  "aka": [
+    "DHC-3",
+    "Single Otter",
+    "Otter",
+    "Turbo Otter",
+    "Vazar Turbo Otter",
+    "Texas Turbine Otter"
+  ],
+  "manufacturer": "de Havilland Canada",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "seaplane",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1951,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DHC-3 Otter (Pratt & Whitney R-1340 radial)",
+    "Turbine conversions (Polar PT6A, Vazar, Texas Turbine)"
+  ],
+  "summary": "Large single-engine bush plane, the bigger sibling of the Beaver, usually seen on floats or tundra tires.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut on each side",
+      "Large, wide, constant-chord wing with big flaps"
+    ],
+    "engines": [
+      "Large radial engine in a round cowling (turbine conversions have a longer, narrower nose)",
+      "Three-blade propeller"
+    ],
+    "fuselage": [
+      "Large, boxy, slab-sided fuselage with several large cabin windows",
+      "Large cargo-style doors; often on floats or skis"
+    ],
+    "tail": [
+      "Tall angular fin and rudder",
+      "Straight-edged fin top"
+    ]
+  },
+  "tellTales": [
+    "Very large high-wing single with a round radial nose and a strut each side",
+    "Big, boxy fuselage with a tall angular tail, often on floats",
+    "Three-blade propeller"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-2",
+      "howToTell": "The Beaver is smaller, with a two-blade prop and fewer cabin windows; the Otter is a bigger aircraft with a three-blade prop."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The Caravan has tricycle gear and a turboprop nose; the Otter has a round radial nose and a tailwheel or floats."
+    },
+    {
+      "id": "kodiak",
+      "howToTell": "The Kodiak has a turboprop nose, tricycle gear and a more modern shape; the Otter has a round radial nose and a boxy, 1950s fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "De Havilland Canada DHC-3 Otter"
+  ],
+  "usCount": {
+    "value": 61,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2800202",
+    "2802412",
+    "2821704"
+  ]
+}

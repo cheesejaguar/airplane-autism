@@ -1,0 +1,73 @@
+{
+  "id": "ea-18g",
+  "name": "EA-18G Growler",
+  "shortName": "EA-18G",
+  "aka": [
+    "Growler"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "electronic-warfare"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 2006,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "EA-18G Block I",
+    "EA-18G with Next Generation Jammer pods"
+  ],
+  "summary": "Two-seat electronic-attack version of the F/A-18F Super Hornet, flown by Navy carrier and expeditionary squadrons to jam and destroy enemy air defenses.",
+  "weft": {
+    "wings": [
+      "Super Hornet wing with dogtooth leading edge and large LERX",
+      "Bulbous receiver pods at the wingtips instead of missile rails",
+      "Large jamming pods on underwing and centerline pylons"
+    ],
+    "engines": [
+      "Two engines with round exhausts side by side",
+      "Rectangular caret-style intakes under the LERX"
+    ],
+    "fuselage": [
+      "Two-seat tandem cockpit under a long canopy",
+      "Small blade antennas along the spine and behind the cockpit",
+      "Jamming pods have a small propeller turbine at the front (older pods) or a smooth angular shape (newer pods)"
+    ],
+    "tail": [
+      "Twin outward-canted vertical fins",
+      "Large all-moving horizontal tails"
+    ]
+  },
+  "tellTales": [
+    "Fat pods on the wingtips instead of missiles",
+    "Big jamming pods with little nose propellers hung under the wings",
+    "Two-seat canopy on a twin-fin carrier jet"
+  ],
+  "confusedWith": [
+    {
+      "id": "fa-18ef",
+      "howToTell": "The Growler has bulbous wingtip pods and big jamming pods; the Super Hornet carries missiles on its wingtips and fuel tanks or weapons underneath."
+    },
+    {
+      "id": "fa-18cd",
+      "howToTell": "The Growler is the larger Super Hornet airframe with rectangular intakes, wingtip pods and two seats; the legacy Hornet has rounded intakes and wingtip missiles."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "EA-18G Growler in flight",
+    "Boeing EA-18G Growler"
+  ],
+  "usCount": {
+    "value": 160,
+    "source": "FlightGlobal World Air Forces 2026 / US Navy fact file",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "f-5",
+  "name": "F-5 Tiger II",
+  "shortName": "F-5",
+  "aka": [
+    "Tiger II",
+    "F-5N",
+    "F-5F"
+  ],
+  "manufacturer": "Northrop",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter",
+    "trainer"
+  ],
+  "branches": [
+    "usn",
+    "usmc"
+  ],
+  "firstFlight": 1972,
+  "engines": {
+    "count": 2,
+    "type": "turbojet"
+  },
+  "variants": [
+    "F-5N (single-seat, ex-Swiss)",
+    "F-5F (two-seat)",
+    "F-5N+/F-5F+ upgraded aggressors"
+  ],
+  "summary": "Small, light twin-jet fighter used by Navy and Marine Corps adversary squadrons to simulate enemy fighters, often in exotic camouflage.",
+  "weft": {
+    "wings": [
+      "Small thin trapezoidal wing, mounted low on the fuselage",
+      "Small leading-edge root extensions blending into the intakes",
+      "Wingtip missile rails, usually with training missiles"
+    ],
+    "engines": [
+      "Two small engines with exhausts close together at the tail",
+      "Small side intakes just behind the cockpit"
+    ],
+    "fuselage": [
+      "Slender, pointed 'shark' nose",
+      "Single-seat bubble canopy (F model has two seats)",
+      "Waisted (area-ruled) fuselage, often in blue-grey or desert aggressor camouflage"
+    ],
+    "tail": [
+      "Single swept vertical fin",
+      "Low-mounted all-moving horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tiny fighter with a needle nose and missiles on the wingtips",
+    "Two small exhausts side by side under a single fin",
+    "Small wing-root extensions blending into side intakes"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-38",
+      "howToTell": "The F-5 has wing-root extensions, wingtip missile rails and usually a single seat in camouflage; the T-38 is a slim two-seat trainer with no LERX or wingtip rails."
+    },
+    {
+      "id": "f-16",
+      "howToTell": "The F-5 has small side intakes and two exhausts; the F-16 has a big chin intake under the nose and one large exhaust."
+    },
+    {
+      "id": "mirage-f1",
+      "howToTell": "The Mirage F1 is a single-engine jet with a strongly swept high-set wing and a long pointed nose; the F-5 is a smaller twin-engine jet with a thin straight-edged wing and a shark nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Northrop F-5N (US Navy)",
+    "Northrop F-5 in flight",
+    "Northrop F-5 Tiger II"
+  ],
+  "usCount": {
+    "value": 45,
+    "source": "NAVAIR adversary program / Seapower Magazine (44 F-5N/F plus ex-Swiss additions)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": [
+    "1900315",
+    "645035E",
+    "645035F"
+  ]
+}

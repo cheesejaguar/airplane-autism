@@ -1,0 +1,89 @@
+{
+  "id": "aviat-husky",
+  "name": "Aviat Husky",
+  "shortName": "Husky",
+  "aka": [
+    "Husky A-1",
+    "A-1B",
+    "A-1C-180",
+    "A-1C-200"
+  ],
+  "manufacturer": "Aviat Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1986,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "A-1 (180 hp)",
+    "A-1A / A-1B (180 hp, higher gross weight)",
+    "A-1C-180 / A-1C-200 (200 hp, 1998 on)"
+  ],
+  "summary": "Tandem two-seat, strut-braced bush and utility plane from Wyoming; a modern Super Cub-class type often seen on floats or big tundra tires.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Large flaps and a rugged, short-field wing"
+    ],
+    "engines": [
+      "Single Lycoming flat-four (180–200 hp) in a deep cowl",
+      "Constant-speed propeller, often two- or three-blade"
+    ],
+    "fuselage": [
+      "Tandem two-seat cabin with large glazing, wider than a Super Cub's",
+      "Tailwheel gear, usually with oversized tundra tires or floats"
+    ],
+    "tail": [
+      "Tall, squared fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tandem two-seat bush plane with a deep nose and a big constant-speed prop",
+    "Strut-braced high wing with big flaps",
+    "Tall squared tail over a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-18",
+      "howToTell": "The Husky has a bigger engine and a wider, deeper cabin; the PA-18 is slimmer with a smaller cowl."
+    },
+    {
+      "id": "maule",
+      "howToTell": "The Husky seats two in tandem; the Maule seats four with side-by-side front seats and a boxier cabin."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Husky has a deeper fuselage, big flaps and a bigger engine; the Citabria has a slimmer cabin and a smaller cowl."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The Husky has two tandem seats and an angular tail; the 180 has side-by-side seating and four seats."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Aviat A-1 Husky"
+  ],
+  "usCount": {
+    "value": 991,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "221020X",
+    "2210302",
+    "2210400",
+    "2210405",
+    "2210406",
+    "2210410",
+    "2210411"
+  ]
+}

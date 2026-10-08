@@ -1,0 +1,90 @@
+{
+  "id": "stinson-l-5",
+  "name": "Stinson L-5 Sentinel",
+  "shortName": "L-5 Sentinel",
+  "aka": [
+    "L-5",
+    "Sentinel",
+    "Flying Jeep",
+    "Vultee V-77"
+  ],
+  "manufacturer": "Stinson (Vultee)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1941,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "L-5 / L-5B",
+    "L-5E (flaps, upgraded)",
+    "L-5G",
+    "Stinson V-77 Reliant (civil sibling)"
+  ],
+  "summary": "Standard US Army liaison airplane of WWII, the 'Flying Jeep', with tandem seats, big flaps and a Lycoming six; many were sold surplus and fly as private warbirds.",
+  "weft": {
+    "wings": [
+      "High, strut-braced wing with large drooping flaps",
+      "Slotted flaps and wide-chord, rounded tips"
+    ],
+    "engines": [
+      "Single six-cylinder flat engine in a smooth rounded cowl",
+      "Two-blade metal propeller"
+    ],
+    "fuselage": [
+      "Tandem seats under a long glazed cabin with an enormous rear window and skylight",
+      "Long, slender rear fuselage that tapers to the tail",
+      "Long-travel main gear on a tailwheel airplane"
+    ],
+    "tail": [
+      "Rounded fin and rudder with a balanced horn",
+      "Horizontal tail strut-braced to the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Tandem high-wing with a long, heavily glazed cabin and a huge rear window",
+    "Smooth rounded cowl and slender, tapering fuselage with a braced tail",
+    "Huge flaps that droop steeply on the strut-braced wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "c305",
+      "howToTell": "The Bird Dog has a squarer, taller tail and spring-steel gear legs; the L-5 has a rounder tail and a smoother, curvier fuselage."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Cub has a tiny rectangular cabin and a small four-cylinder nose; the L-5 is larger with a long glazed greenhouse and a six-cylinder cowl."
+    },
+    {
+      "id": "aeronca-tandem",
+      "howToTell": "The L-3 is much smaller with a stubby nose; the L-5 is bigger with a longer cowl and a sloping glazed rear."
+    },
+    {
+      "id": "stinson-108",
+      "howToTell": "The Stinson 108 is a four-seat civilian derivative with a bigger cabin and two rows of side seats; the L-5 is a tandem two-seater."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Stinson L-5 Sentinel"
+  ],
+  "usCount": {
+    "value": 188,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8630202",
+    "8630204",
+    "8630210",
+    "8630212",
+    "8630214",
+    "8631802"
+  ]
+}

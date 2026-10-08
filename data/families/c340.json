@@ -1,0 +1,102 @@
+{
+  "id": "c340",
+  "name": "Cessna 340/414/421",
+  "shortName": "C340/414/421",
+  "aka": [
+    "Golden Eagle",
+    "Chancellor",
+    "340A",
+    "421C"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "340 / 340A (pressurized, six seats)",
+    "414 / 414A Chancellor",
+    "421 / 421B / 421C Golden Eagle",
+    "RAM and other engine conversions"
+  ],
+  "summary": "Family of pressurized cabin-class piston twins used by owner-pilots, charter and small freight operators.",
+  "weft": {
+    "wings": [
+      "Low straight wing; tip tanks on the 340 and early 414/421, plain tips on 414A/421C"
+    ],
+    "engines": [
+      "Two flat-six engines in long nacelles with baggage lockers at the rear",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Portly, round-section pressurized cabin with small rounded windows",
+      "Long nose with baggage compartment",
+      "Airstair door at the rear on the left (414/421)"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet",
+      "Conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Portly round-section cabin with small porthole-like windows on a piston twin",
+    "Long nacelles extending behind the wing",
+    "Swept fin with dorsal fillet"
+  ],
+  "confusedWith": [
+    {
+      "id": "c310",
+      "howToTell": "The 310 has a slim unpressurized fuselage with large rectangular windows; the 340/414/421 is fatter with smaller rounded windows."
+    },
+    {
+      "id": "pa-31",
+      "howToTell": "The Navajo has large square windows and a less-rounded fuselage; the Cessna has small rounded windows on a round pressurized cabin."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has turboprop nacelles with exhaust stacks; the 340/414/421 have piston cowlings with no stacks."
+    },
+    {
+      "id": "c441",
+      "howToTell": "The Conquest has turboprop cowlings with big spinners and a larger, longer fuselage; the 340/414/421 has piston engines with stub exhausts and a slightly smaller airframe."
+    },
+    {
+      "id": "c402",
+      "howToTell": "The 402 is unpressurized with a long, straight-sided cabin and larger windows; the 340/414/421 have a portly pressurized cabin with small porthole-like windows."
+    },
+    {
+      "id": "beech-60",
+      "howToTell": "The Duke has plain wingtips, a smooth round fuselage and a swept fin without a dorsal fillet; the 340 is portly with a dorsal fillet and, on early models, tip tanks."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 340",
+    "Cessna 414",
+    "Cessna 421"
+  ],
+  "usCount": {
+    "value": 1998,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2075601",
+    "2075902",
+    "2075907",
+    "2075908",
+    "2076010",
+    "2076012",
+    "2076014",
+    "2076016",
+    "2076404",
+    "2076405"
+  ]
+}

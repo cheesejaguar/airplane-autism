@@ -1,0 +1,88 @@
+{
+  "id": "partenavia-p68",
+  "name": "Partenavia P.68 / Vulcanair P.68",
+  "shortName": "P.68",
+  "aka": [
+    "P.68 Victor",
+    "P.68C",
+    "P.68R",
+    "P.68 Observer",
+    "Vulcanair P68"
+  ],
+  "manufacturer": "Partenavia / Vulcanair",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1970,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "P.68 / P.68B Victor",
+    "P.68R (retractable gear)",
+    "P.68C / P.68C-TC",
+    "P.68 Observer (glazed nose)",
+    "AP68TP (turboprop)"
+  ],
+  "summary": "Italian six-seat high-wing twin built since 1970, used for light transport, training and observation work; the Observer has a glazed nose.",
+  "weft": {
+    "wings": [
+      "High, strut-free rectangular wing",
+      "Observer 2 has upturned wingtips"
+    ],
+    "engines": [
+      "Two Lycoming engines in slim nacelles on the wing",
+      "Two- or three-blade props"
+    ],
+    "fuselage": [
+      "Slim cabin with large flat side windows",
+      "Long, pointed nose (glazed on the Observer)",
+      "Fixed tricycle gear in small pod-like fairings on most"
+    ],
+    "tail": [
+      "Tall, angular fin with a large, boxy horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "High-wing light twin with a long, sharply pointed nose",
+    "No wing struts, with fixed gear in small pods",
+    "Tall angular fin with a boxy horizontal tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "bn-2-islander",
+      "howToTell": "The Islander is blockier with a rectangular cabin and a blunter nose; the P.68 is slimmer with a long pointed nose."
+    },
+    {
+      "id": "tecnam-p2006t",
+      "howToTell": "The P2006T is smaller with a rounded nose and retractable gear; the P.68 is a larger six-seater with fixed gear."
+    },
+    {
+      "id": "tecnam-p2012",
+      "howToTell": "The P2012 has a row of large round windows and a rounded nose; the P.68 has flat rectangular windows and a long pointed nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Partenavia P.68"
+  ],
+  "usCount": {
+    "value": 39,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6780103",
+    "6780104",
+    "6780105",
+    "6780106",
+    "6780109",
+    "6780113",
+    "6780126"
+  ]
+}

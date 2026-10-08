@@ -1,0 +1,69 @@
+{
+  "id": "a-10",
+  "name": "A-10 Thunderbolt II",
+  "shortName": "A-10",
+  "aka": [
+    "Warthog",
+    "Hog"
+  ],
+  "manufacturer": "Fairchild Republic",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "attack"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1972,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A-10C"
+  ],
+  "summary": "Straight-winged, heavily armored close-air-support jet built around a huge 30 mm cannon; being drawn down by the Air Force but still in service.",
+  "weft": {
+    "wings": [
+      "Long straight low-mounted wing with slightly drooped tips",
+      "Main landing gear in pods under the wing leading edge, wheels partly exposed when retracted",
+      "Many underwing pylons for bombs, rockets and Maverick missiles"
+    ],
+    "engines": [
+      "Two large round turbofan pods mounted high on the rear fuselage",
+      "Engines set between the wing and tail, above the fuselage"
+    ],
+    "fuselage": [
+      "Long blunt nose with a cannon muzzle protruding beneath it",
+      "Bubble canopy set far forward",
+      "Usually dark two-tone grey with a painted false canopy underneath"
+    ],
+    "tail": [
+      "Twin vertical fins mounted at the tips of a straight horizontal tail (H-tail)",
+      "Tail shields the engine exhausts from the sides"
+    ]
+  },
+  "tellTales": [
+    "Two big round engine pods perched on the upper rear fuselage",
+    "Twin fins at the tips of a straight tailplane",
+    "Long straight wings with semi-exposed main wheels in pods"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-15c",
+      "howToTell": "The A-10 has straight wings, engine pods mounted above the rear fuselage and fins at the tailplane tips; the F-15 has swept wings, engines buried in the fuselage and fins on the body."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Fairchild A-10 Thunderbolt II in flight",
+    "Fairchild A-10 Thunderbolt II"
+  ],
+  "usCount": {
+    "value": 103,
+    "source": "FY2026 National Defense Authorization Act minimum inventory / Defense News",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

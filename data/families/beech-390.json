@@ -1,0 +1,71 @@
+{
+  "id": "beech-390",
+  "name": "Beechcraft Premier I (390)",
+  "shortName": "Premier I",
+  "aka": [
+    "Premier I",
+    "Premier IA",
+    "Raytheon 390"
+  ],
+  "manufacturer": "Raytheon / Hawker Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1998,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Premier I",
+    "Premier IA (upgraded avionics)"
+  ],
+  "summary": "Raytheon's all-composite light jet with a carbon-fiber fuselage, built in modest numbers and still seen on charter and corporate ramps.",
+  "weft": {
+    "wings": [
+      "Low, modestly swept wing",
+      "No winglets"
+    ],
+    "engines": [
+      "Two Williams FJ44 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Smooth, rounded fuselage with a short row of round windows",
+      "Smoothly rounded nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin and swept stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Row of round (portlike) windows on a smooth, small fuselage",
+    "T-tail with plain wingtips and no winglets",
+    "Small, rounded nose and compact rear pods"
+  ],
+  "confusedWith": [
+    {
+      "id": "phenom-300",
+      "howToTell": "The Phenom 300 has upturned winglets and larger oval windows; the Premier has plain tips and smaller round windows."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The CitationJet has a straight wing and a stubbier fuselage with squarer windows; the Premier has a swept wing, a smoother fuselage and round windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Premier I"
+  ],
+  "usCount": {
+    "value": 123,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4220006",
+    "7150030"
+  ]
+}

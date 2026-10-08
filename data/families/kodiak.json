@@ -1,0 +1,96 @@
+{
+  "id": "kodiak",
+  "name": "Kodiak 100",
+  "shortName": "Kodiak",
+  "aka": [
+    "Quest Kodiak",
+    "Daher Kodiak",
+    "Kodiak 900"
+  ],
+  "manufacturer": "Quest Aircraft / Daher",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "turboprop",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 2004,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Kodiak 100 Series I–III",
+    "Kodiak 900 (stretched)",
+    "Amphibian versions"
+  ],
+  "summary": "Rugged single-engine STOL utility turboprop popular with bush, mission and float operators.",
+  "weft": {
+    "wings": [
+      "High-mounted, strut-braced wing with drooped leading-edge cuffs",
+      "One strut per side"
+    ],
+    "engines": [
+      "Single PT6A turboprop in a short, deep nose with a large four-blade prop"
+    ],
+    "fuselage": [
+      "Short, deep, stubby fuselage",
+      "Tall fixed tricycle gear giving a high stance",
+      "Large rear cargo door and large windows"
+    ],
+    "tail": [
+      "Big tall fin with a straight leading edge and a long dorsal fillet",
+      "Wide-span tailplane"
+    ]
+  },
+  "tellTales": [
+    "Stubby single turboprop on tall fixed gear with a strut-braced high wing",
+    "Disproportionately large tail fin",
+    "Four-blade prop on a short, deep nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "c208",
+      "howToTell": "The Kodiak is shorter and stubbier with a taller stance and bigger tail; the Caravan is long and boxy, often with a belly cargo pod."
+    },
+    {
+      "id": "c206",
+      "howToTell": "The Kodiak is larger with a turboprop nose and a four-blade prop; the 206 is a piston single with a smaller tail."
+    },
+    {
+      "id": "pc-12",
+      "howToTell": "The Kodiak has a strut-braced high wing and fixed gear; the PC-12 has a low wing, retractable gear and a T-tail."
+    },
+    {
+      "id": "pc-6",
+      "howToTell": "The Porter is a tailwheel aircraft with a long, tapering nose; the Kodiak has fixed tricycle gear and a short, deep nose."
+    },
+    {
+      "id": "dhc-3",
+      "howToTell": "The Otter has a big round radial nose and a tailwheel or floats; the Kodiak has a turboprop nose and tricycle gear."
+    },
+    {
+      "id": "gippsaero-ga8",
+      "howToTell": "The Kodiak has a turbine nose and a big three-blade propeller; the GippsAero GA8 has a flat-six cowl and a smaller prop."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Quest Kodiak",
+    "Quest Kodiak 100"
+  ],
+  "usCount": {
+    "value": 229,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05622SV",
+    "7320001",
+    "7320005",
+    "7320010",
+    "7320201"
+  ]
+}

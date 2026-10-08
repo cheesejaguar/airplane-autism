@@ -1,0 +1,81 @@
+{
+  "id": "crj700",
+  "name": "Bombardier CRJ700/900",
+  "shortName": "CRJ700/900",
+  "aka": [
+    "CRJ550",
+    "CRJ700",
+    "CRJ900",
+    "CRJ1000"
+  ],
+  "manufacturer": "Bombardier / Mitsubishi",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1999,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "CRJ550",
+    "CRJ700",
+    "CRJ900 / CRJ900 NextGen"
+  ],
+  "summary": "Stretched, re-winged development of the CRJ200 seating 50–90; flown by Endeavor, PSA, SkyWest, GoJet and Mesa.",
+  "weft": {
+    "wings": [
+      "Larger swept wing with leading-edge slats",
+      "Upturned winglets"
+    ],
+    "engines": [
+      "Two CF34-8C turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Long, slim 4-abreast fuselage — the 900 looks especially long and thin",
+      "Long pointed nose"
+    ],
+    "tail": [
+      "T-tail with a larger tailplane spanning wider than on the CRJ200",
+      "Swept fin"
+    ]
+  },
+  "tellTales": [
+    "Long, thin tube with rear engines and a T-tail",
+    "Winglets on a slatted wing",
+    "Pointed nose on a 4-abreast body"
+  ],
+  "confusedWith": [
+    {
+      "id": "crj200",
+      "howToTell": "The CRJ700/900 is much longer with a bigger slatted wing and larger tailplane; the CRJ200 is short and compact."
+    },
+    {
+      "id": "e175",
+      "howToTell": "The CRJ700/900 has rear-mounted engines and a T-tail; the E175 has underwing engines, a low tail and a fatter double-bubble fuselage."
+    },
+    {
+      "id": "b717",
+      "howToTell": "The CRJ is slimmer and has winglets and a longer pointed nose; the 717 has a fat 5-abreast body, plain wingtips and a bullet fairing on the T-tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "CRJ900",
+    "CRJ900 on final approach",
+    "CRJ700"
+  ],
+  "usCount": {
+    "value": 575,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390015",
+    "1390016",
+    "1390021"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "c337",
+  "name": "Cessna 336/337 Skymaster",
+  "shortName": "Skymaster",
+  "aka": [
+    "Super Skymaster",
+    "Push-Pull",
+    "O-2A (USAF)",
+    "T337 Turbo",
+    "P337 Pressurized",
+    "Reims FTB337"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1961,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "336 (fixed gear)",
+    "337 / 337A–H Super Skymaster (retractable gear)",
+    "T337 turbocharged",
+    "P337 pressurized",
+    "O-2A / O-2B (US military forward air control)"
+  ],
+  "summary": "Unusual centerline-thrust twin with one tractor and one pusher engine on a twin-boom tail, built 1963–1982; the USAF flew it as the O-2 forward air control aircraft.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut on each side",
+      "Plain, constant-chord panels with no engines on them"
+    ],
+    "engines": [
+      "One engine and propeller in the nose",
+      "A second pusher engine and prop behind the cabin, between the tail booms"
+    ],
+    "fuselage": [
+      "Short, pod-style cabin with big side windows",
+      "Fixed gear on the 336, retractable on the 337"
+    ],
+    "tail": [
+      "Twin booms running back from the wing to twin fins and rudders",
+      "Horizontal stabilizer spans between the booms behind the rear prop"
+    ]
+  },
+  "tellTales": [
+    "Propellers at both the nose and the rear of the cabin",
+    "Twin tail booms joined by a horizontal stabilizer",
+    "Strut-braced high wing with no engines on it"
+  ],
+  "confusedWith": [
+    {
+      "id": "c182",
+      "howToTell": "The 182 has a single engine and a single fin on a normal fuselage; the Skymaster has a rear pusher prop and twin tail booms."
+    },
+    {
+      "id": "bn-2-islander",
+      "howToTell": "The Islander has both engines on the wing and a conventional single tail with no booms; the Skymaster has its engines on the fuselage centerline."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Cessna Skymaster"
+  ],
+  "usCount": {
+    "value": 645,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2074007",
+    "2075602",
+    "2075702",
+    "2075704",
+    "2075706",
+    "2075707",
+    "2075708",
+    "2075712",
+    "2075714",
+    "2075717",
+    "2075719",
+    "2075721",
+    "2075723",
+    "2075724",
+    "2075725",
+    "2075726",
+    "2075730",
+    "2075731",
+    "2075732",
+    "2075733",
+    "7535726"
+  ]
+}

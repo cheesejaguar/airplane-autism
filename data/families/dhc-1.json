@@ -1,0 +1,92 @@
+{
+  "id": "dhc-1",
+  "name": "DHC-1 Chipmunk",
+  "shortName": "Chipmunk",
+  "aka": [
+    "T.10",
+    "Chippy",
+    "DHC-1"
+  ],
+  "manufacturer": "de Havilland Canada",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DHC-1 Series 22",
+    "T.10 (RAF)",
+    "DHC-1A-1",
+    "Navy/Army Air Corps variants"
+  ],
+  "summary": "The RAF's primary trainer for decades, a small, elegant tailwheel aerobatic airplane with a Gipsy Major inline engine; popular in the US as a private warbird and aerobatic sport airplane.",
+  "weft": {
+    "wings": [
+      "Low, cantilever, slightly tapered wing with rounded tips",
+      "Fabric-covered wing with notable dihedral"
+    ],
+    "engines": [
+      "Inverted inline four-cylinder Gipsy Major with a very slim nose and two-blade propeller",
+      "Exhaust stubs visible low on the cowl"
+    ],
+    "fuselage": [
+      "Long, sliding bubble canopy covering two seats in tandem",
+      "Fixed conventional gear with wide-track main legs",
+      "Slender metal fuselage with a pronounced hump behind the canopy"
+    ],
+    "tail": [
+      "Rounded fin with a moderate sweep",
+      "Braced horizontal tail with a sloped line"
+    ]
+  },
+  "tellTales": [
+    "Slim inline-engine nose and a long bubble canopy on a tiny tailwheel trainer",
+    "Fixed wide-spaced main gear on a low-wing, tandem two-seater",
+    "Rounded, light-airplane silhouette with a gently tapered wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 is a larger airplane with a flat-six cowl and retractable-looking, higher-stance gear on later models; the Chipmunk is small with a slim inline nose and fixed gear."
+    },
+    {
+      "id": "bulldog",
+      "howToTell": "The Bulldog has side-by-side seats and a short nose with tricycle gear; the Chipmunk has tandem seats and a tailwheel."
+    },
+    {
+      "id": "stampe-sv4",
+      "howToTell": "The Stampe is a biplane; the Chipmunk is a low-wing monoplane."
+    },
+    {
+      "id": "pitts",
+      "howToTell": "The Pitts is a tiny biplane; the Chipmunk is a monoplane with a bubble canopy."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "De Havilland Canada DHC-1 Chipmunk"
+  ],
+  "usCount": {
+    "value": 94,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2801701",
+    "2801702",
+    "2801704",
+    "2801712",
+    "2801714",
+    "2801736",
+    "2801738",
+    "2801739"
+  ]
+}

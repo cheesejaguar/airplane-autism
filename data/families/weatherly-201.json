@@ -1,0 +1,81 @@
+{
+  "id": "weatherly-201",
+  "name": "Weatherly 201 Ag Plane",
+  "shortName": "Weatherly 201",
+  "aka": [
+    "201B",
+    "201C"
+  ],
+  "manufacturer": "Weatherly Aviation Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "201 / 201A",
+    "201B (wider canopy, wing-root leading edge fillet)",
+    "201C"
+  ],
+  "summary": "1960s California single-seat ag plane powered by a 450 hp R-985 radial. All-metal cantilever low wing with six degrees of dihedral and a tailwheel.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Unswept wing with visible dihedral"
+    ],
+    "engines": [
+      "Single Pratt & Whitney R-985 radial in a round cowl",
+      "Two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Hopper ahead of a single-seat cockpit set high and aft",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Single-seat crop duster with a radial nose and a strut-free low wing",
+    "Hopper in front of a high, aft cockpit",
+    "Tailwheel gear under an all-metal airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "weatherly-620",
+      "howToTell": "The 620 is the larger later version with a longer wing and bigger hopper; the 201 is smaller and earlier."
+    },
+    {
+      "id": "thrush",
+      "howToTell": "The Thrush is usually larger with a bigger radial or turbine nose; the Weatherly is a smaller R-985 airplane."
+    },
+    {
+      "id": "pa-36",
+      "howToTell": "The PA-36 has a flat piston engine in a slimmer cowl; the Weatherly 201 has a big round radial cowl."
+    },
+    {
+      "id": "air-tractor",
+      "howToTell": "The Air Tractor is bigger and heavier with a taller cockpit; the Weatherly 201 is a smaller radial airplane."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Weatherly 201"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9630408",
+    "9630410"
+  ]
+}

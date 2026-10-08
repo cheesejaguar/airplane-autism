@@ -1,0 +1,93 @@
+{
+  "id": "a320neo",
+  "name": "Airbus A320neo family",
+  "shortName": "A320neo fam.",
+  "aka": [
+    "A319neo",
+    "A320neo",
+    "A321neo",
+    "A321LR",
+    "A321XLR"
+  ],
+  "manufacturer": "Airbus",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody"
+  ],
+  "branches": [],
+  "firstFlight": 2014,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A320neo",
+    "A321neo",
+    "A321LR / A321XLR",
+    "A321neo ACF (Airbus Cabin Flex)"
+  ],
+  "summary": "Re-engined A320 family with CFM LEAP-1A or Pratt & Whitney GTF engines; flown in the US by Frontier, Spirit, American, Delta, United, JetBlue and Hawaiian.",
+  "weft": {
+    "wings": [
+      "Same low swept wing as the ceo, but every airframe has tall curved sharklets",
+      "Never has the small arrowhead wingtip fences"
+    ],
+    "engines": [
+      "Much larger-diameter nacelles (LEAP-1A or PW1100G GTF) hanging low and close to the ground",
+      "Nacelles extend far forward of the wing leading edge",
+      "Smooth nacelle lip with a short exhaust; no serrated chevrons"
+    ],
+    "fuselage": [
+      "Same circular 6-abreast fuselage and blunt nose as the original family",
+      "A321neo ACF may lack the over-wing exit doors and has a reshuffled door layout"
+    ],
+    "tail": [
+      "Identical tall swept fin and low-set tailplane to the ceo",
+      "Tailcone ends in a horizontal wedge"
+    ]
+  },
+  "tellTales": [
+    "Engines so big the nacelle bottoms nearly scrape the ground",
+    "Tall curved sharklets at every wingtip",
+    "Fat engine fronts that sit well forward of the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "a320ceo",
+      "howToTell": "The neo's nacelles are visibly fatter and hang lower and further forward; the ceo has smaller engines, and if you see wingtip fences it is a ceo."
+    },
+    {
+      "id": "b737max",
+      "howToTell": "The neo has a blunt rounded nose, smooth nacelle exhausts and curved sharklets; the 737 MAX has a pointed nose, sawtooth chevron exhausts and a split twin-blade wingtip."
+    },
+    {
+      "id": "a220",
+      "howToTell": "The neo has a wider 6-abreast body and tall sharklets; the A220 is slimmer with plain wingtips and big square windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Airbus A320neo on final approach",
+    "Airbus A321neo on final approach",
+    "Airbus A320neo family"
+  ],
+  "usCount": {
+    "value": 635,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3930898",
+    "3930910",
+    "3930915",
+    "3930916",
+    "3940045",
+    "3940051",
+    "3940307",
+    "3940310",
+    "3940320",
+    "3940325",
+    "3940899"
+  ]
+}

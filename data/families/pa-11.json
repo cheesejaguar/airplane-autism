@@ -1,0 +1,75 @@
+{
+  "id": "pa-11",
+  "name": "Piper PA-11 Cub Special",
+  "shortName": "PA-11",
+  "aka": [
+    "Cub Special"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-11 (Continental A65-8, 65 hp)",
+    "PA-11 with Continental C90-8 (90 hp)"
+  ],
+  "summary": "Later production variant of the J-3 Cub: tandem two-seat, strut-braced high-wing taildragger with a fully enclosed cowling and a shallower windshield.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single small flat-four fully enclosed in a smooth cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Tandem two-seat fabric fuselage",
+      "Windshield raked at a shallow angle",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded Cub-style fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Classic light taildragger profile with a fully enclosed engine cowl",
+    "Tandem seats under a strut-braced high wing",
+    "Rounded, rolled-edge tail over a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The PA-11 has a fully enclosed cowling and a more sloping windshield; the J-3 often shows cylinder heads and has a more upright windshield."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The PA-11 has rounded tips and a rounded tail with a small engine; the Super Cub has squared tips, a squared fin and a bigger engine."
+    },
+    {
+      "id": "piper-j5",
+      "howToTell": "The PA-11 is a narrow tandem two-seater; the J-5 Cruiser has a wider cabin with a bench rear seat."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-11 Cub Special"
+  ],
+  "usCount": {
+    "value": 408,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7101102",
+    "7101104"
+  ]
+}

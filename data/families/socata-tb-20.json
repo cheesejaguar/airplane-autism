@@ -1,0 +1,84 @@
+{
+  "id": "socata-tb-20",
+  "name": "Socata TB 20/21 Trinidad",
+  "shortName": "TB20",
+  "aka": [
+    "Trinidad",
+    "TB 21 Trinidad TC",
+    "TB 20 GT"
+  ],
+  "manufacturer": "Socata (Daher)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1980,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "TB 20 Trinidad (250 hp, retractable gear)",
+    "TB 21 Trinidad TC (turbocharged)",
+    "TB 20 / TB 21 GT"
+  ],
+  "summary": "French four-seat, low-wing, retractable-gear tourer related to the fixed-gear TB 9/10; a fast, well-built type common in Europe and Canada but uncommon in the US.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts"
+    ],
+    "engines": [
+      "Single Lycoming flat-six in a smooth, rounded cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Roomy four-seat cabin with a wide windshield",
+      "Retractable tricycle gear",
+      "Streamlined, rounded fuselage"
+    ],
+    "tail": [
+      "Swept fin with a rounded tip",
+      "Horizontal tail set low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Low-wing four-seater with retractable tricycle gear and a rounded cabin",
+    "Smooth rounded cowl with a constant-speed prop",
+    "Swept fin on a conventional tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The TB 20 has a rounder, wider cabin with a large wraparound windshield; the PA-28 has a narrower, boxier cabin and an all-flying stabilator."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The TB 20 has a swept-back fin and a wide cabin; the Mooney has a forward-swept fin and a narrow cabin."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The TB 20 has a swept fin and a smaller cabin; the A36 has a bigger cabin with rear cargo doors."
+    },
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The TB 20 is all-metal with retractable gear; the SR series is composite with fixed gear and a parachute hatch on the rear deck."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Socata TB-20"
+  ],
+  "usCount": {
+    "value": 242,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680602",
+    "8680695",
+    "8680697",
+    "8680699"
+  ]
+}

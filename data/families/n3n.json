@@ -1,0 +1,78 @@
+{
+  "id": "n3n",
+  "name": "Naval Aircraft Factory N3N Canary",
+  "shortName": "N3N Canary",
+  "aka": [
+    "N3N-3",
+    "Yellow Peril",
+    "Canary"
+  ],
+  "manufacturer": "Naval Aircraft Factory",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "N3N-1",
+    "N3N-3 (floatplane or landplane)"
+  ],
+  "summary": "The US Navy's last biplane trainer, 'Yellow Peril', a Naval Aircraft Factory design flown as landplane and floatplane until 1961 and now a favorite of private warbird owners.",
+  "weft": {
+    "wings": [
+      "Biplane with a single bay of struts on each side",
+      "Upper and lower wings of similar size with rounded tips"
+    ],
+    "engines": [
+      "Wright Whirlwind radial in a smooth round cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Open tandem cockpits",
+      "Often a bright overall yellow finish",
+      "Fixed conventional gear (or a central float with outer wing floats on the seaplane)"
+    ],
+    "tail": [
+      "Squarish fin and rudder",
+      "Braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Open-cockpit biplane in overall bright yellow with a round radial nose",
+    "Single-bay biplane with a squat, rounded fuselage",
+    "Round cowl, squarish tail and a squat, short-coupled body"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman has longer, more angular lines and a larger, rougher radial; the N3N is squatter with a smooth round cowl and a stubby fuselage."
+    },
+    {
+      "id": "ryan-st",
+      "howToTell": "The Ryan is a monoplane; the N3N is a biplane."
+    },
+    {
+      "id": "dh-82",
+      "howToTell": "The Tiger Moth has an inline engine and a long, slim fuselage with a pointed nose; the N3N has a fat radial nose."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Naval Aircraft Factory N3N"
+  ],
+  "usCount": {
+    "value": 130,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6120202"
+  ]
+}

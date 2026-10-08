@@ -1,0 +1,74 @@
+{
+  "id": "dc-6",
+  "name": "Douglas DC-6 / C-118",
+  "shortName": "DC-6",
+  "aka": [
+    "DC-6A",
+    "DC-6B",
+    "C-118 Liftmaster",
+    "R6D",
+    "VC-118"
+  ],
+  "manufacturer": "Douglas Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1946,
+  "engines": {
+    "count": 4,
+    "type": "piston"
+  },
+  "variants": [
+    "DC-6 / DC-6A (freighter)",
+    "DC-6B (passenger)",
+    "DC-6C (convertible)",
+    "C-118 Liftmaster / R6D (military)"
+  ],
+  "summary": "Four-engine piston airliner built 1946–1958 and the basis of the military C-118; a handful still work as cargo and firefighting aircraft.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing"
+    ],
+    "engines": [
+      "Four large Double Wasp radial engines in round nacelles along the wing",
+      "Big propellers"
+    ],
+    "fuselage": [
+      "Long, round pressurized fuselage with a row of rounded-square windows",
+      "Tricycle gear",
+      "Large cargo door forward on freighters"
+    ],
+    "tail": [
+      "Single tall fin with a straight horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four radial piston engines with big propellers",
+    "Single tall fin on a long, round fuselage",
+    "Tricycle gear on an old-fashioned airliner"
+  ],
+  "confusedWith": [
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 has two engines, a taildragger stance and is far smaller; the DC-6 has four engines and a nose wheel."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Douglas DC-6"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3021706",
+    "3021710",
+    "3021712"
+  ]
+}

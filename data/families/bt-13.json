@@ -1,0 +1,87 @@
+{
+  "id": "bt-13",
+  "name": "Vultee BT-13 Valiant",
+  "shortName": "BT-13 Valiant",
+  "aka": [
+    "Vibrator",
+    "BT-13A",
+    "BT-13B",
+    "SNV",
+    "BT-15"
+  ],
+  "manufacturer": "Vultee Aircraft (Consolidated Vultee)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "BT-13 / BT-13A / BT-13B",
+    "BT-15 (Wright radial)",
+    "SNV-1 / SNV-2 (Navy)"
+  ],
+  "summary": "Fixed-gear WWII basic trainer, the 'Vibrator', used by most American pilots as the second stage between primary and advanced training; many survive in private hands.",
+  "weft": {
+    "wings": [
+      "Low wing with a straight, tapered outer panel and slight dihedral at the tips",
+      "Wide centre section with simple flaps"
+    ],
+    "engines": [
+      "Large Pratt & Whitney Wasp Junior radial in a smooth round cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Long glazed greenhouse over tandem seats",
+      "Fixed main gear (with fairings on early BT-13)",
+      "Deep, rounded fuselage with a metal skin"
+    ],
+    "tail": [
+      "Rounded fin and rudder",
+      "Braced horizontal tail with a fabric-covered look"
+    ]
+  },
+  "tellTales": [
+    "Big radial nose and a long greenhouse over tandem seats on a fixed-gear low-wing",
+    "Fixed landing gear on a fairly large, heavy-looking trainer",
+    "Rounded rudder and a deep, round-bellied fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "at-6",
+      "howToTell": "The Texan has retractable gear, a bigger canopy hump and a more angular wing and tail; the Valiant has fixed gear and a rounded profile."
+    },
+    {
+      "id": "fairchild-m62",
+      "howToTell": "The Cornell is a smaller airplane with a slim nose or small radial; the Valiant has a big Wasp radial and a long greenhouse."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The Texan II is a modern turboprop with retractable gear; the Valiant has a big piston radial and fixed gear."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Vultee BT-13 Valiant"
+  ],
+  "usCount": {
+    "value": 88,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2420204",
+    "2420208",
+    "2420222",
+    "2420224",
+    "2420228",
+    "2420302",
+    "2420312"
+  ]
+}

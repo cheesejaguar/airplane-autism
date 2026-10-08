@@ -1,0 +1,81 @@
+{
+  "id": "crj200",
+  "name": "Bombardier CRJ100/200",
+  "shortName": "CRJ200",
+  "aka": [
+    "Canadair Regional Jet",
+    "CRJ100",
+    "CRJ440",
+    "CRJ450"
+  ],
+  "manufacturer": "Bombardier (Canadair)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "CRJ100",
+    "CRJ200",
+    "CRJ440",
+    "CRJ450 (converted CRJ200)",
+    "Challenger 850 (business version)"
+  ],
+  "summary": "50-seat regional jet developed from the Challenger 600 business jet; still flown in large numbers by SkyWest for United, Delta and American.",
+  "weft": {
+    "wings": [
+      "Low swept wing with small upturned winglets",
+      "Simple wing with no leading-edge slats"
+    ],
+    "engines": [
+      "Two CF34 turbofans in pods on the rear fuselage, close behind the wing"
+    ],
+    "fuselage": [
+      "Short, slim 4-abreast tube with a long, pointed nose",
+      "Small oval cabin windows"
+    ],
+    "tail": [
+      "T-tail with a swept fin",
+      "Small swept tailplane perched on top of the fin"
+    ]
+  },
+  "tellTales": [
+    "Short, small jet with rear engines and a T-tail",
+    "Small winglets on a simple wing",
+    "Long pointed nose on a 4-abreast tube"
+  ],
+  "confusedWith": [
+    {
+      "id": "crj700",
+      "howToTell": "The CRJ200 is short and compact with a small slat-less wing; the CRJ700/900 is much longer with a bigger wing, leading-edge slats and larger engines."
+    },
+    {
+      "id": "erj145",
+      "howToTell": "The CRJ200 has a fatter 4-abreast body with engines tucked close behind the wing; the ERJ145 is a pencil-thin 3-abreast tube with engines mounted further aft."
+    },
+    {
+      "id": "challenger-600",
+      "howToTell": "The CRJ200 has a much longer fuselage with many more windows and an airline-style door layout; the Challenger is short and stubby with only a few large oval windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "CRJ200",
+    "CRJ200 on final approach"
+  ],
+  "usCount": {
+    "value": 365,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390008",
+    "1900309"
+  ]
+}

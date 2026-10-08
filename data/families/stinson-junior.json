@@ -1,0 +1,79 @@
+{
+  "id": "stinson-junior",
+  "name": "Stinson Junior (S / R / SR)",
+  "shortName": "Stinson Junior",
+  "aka": [
+    "SM-2 Junior",
+    "Junior S",
+    "Junior R",
+    "Junior SR"
+  ],
+  "manufacturer": "Stinson Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SM-2 Junior (1928, 110 hp Warner Scarab)",
+    "Junior S",
+    "Junior R (deeper fuselage, stub wing)",
+    "Junior SR"
+  ],
+  "summary": "Late-1920s and early-1930s four-seat cabin monoplane, one of the first with a fully enclosed cabin. The Junior R introduced low stub wings to carry the gear.",
+  "weft": {
+    "wings": [
+      "High wing braced by struts on each side",
+      "Outrigger landing gear braced against the wing struts"
+    ],
+    "engines": [
+      "Single radial engine, often uncowled with cylinders exposed",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Enclosed four-seat cabin",
+      "Fixed tailwheel gear; the Junior R has a low stub wing carrying the gear"
+    ],
+    "tail": [
+      "Conventional fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Vintage cabin high-wing with a radial engine and struts bracing both wing and gear",
+    "Exposed or lightly cowled radial nose",
+    "Tall fixed gear braced to the wing struts"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant (1933) is the cleaner, more refined cowled successor; the Junior is earlier and boxier, often with an exposed radial."
+    },
+    {
+      "id": "curtiss-robin",
+      "howToTell": "The Robin is a three-seater with a pylon and a different wing support; the Junior has a four-seat cabin and a full strut brace."
+    },
+    {
+      "id": "waco-cabin",
+      "howToTell": "The Waco cabin biplane has two sets of wings; the Junior is a high-wing monoplane."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Stinson Junior"
+  ],
+  "usCount": {
+    "value": 21,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8630404",
+    "8630406"
+  ]
+}

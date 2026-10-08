@@ -1,0 +1,107 @@
+[
+  {
+    "existingId": "baron",
+    "newId": "beech-95",
+    "howToTell": "The Travel Air looks like a smaller Baron but has a tall, upright, squared-off fin; the Baron's fin is swept back and its cabin and engines are larger."
+  },
+  {
+    "existingId": "baron",
+    "newId": "beech-60",
+    "howToTell": "The Duke is a bigger, pressurized six-seater with a rounder fuselage, small rounded windows and large three-blade props; the Baron is smaller and sleeker."
+  },
+  {
+    "existingId": "baron",
+    "newId": "aerostar",
+    "howToTell": "The Aerostar has short, narrow wings, a long slim pointed nose and large rectangular windows; the Baron has a longer tapered wing and a more conventional rounded fuselage."
+  },
+  {
+    "existingId": "baron",
+    "newId": "beech-50",
+    "howToTell": "The Twin Bonanza has big, deep, widely spaced engines and a tall, upright, squared-off fin; the Baron has slim nacelles and a swept fin."
+  },
+  {
+    "existingId": "pa-23",
+    "newId": "pa-30",
+    "howToTell": "The Twin Comanche is slimmer and sleeker with a sloping nose and a raked fin; the Apache/Aztec is boxier with a thick wing."
+  },
+  {
+    "existingId": "pa-24",
+    "newId": "pa-30",
+    "howToTell": "The Twin Comanche has an engine on each wing; the single-engine Comanche has one engine in the nose."
+  },
+  {
+    "existingId": "pa-34",
+    "newId": "beech-76",
+    "howToTell": "The Duchess is a short four-seat T-tail twin; the Seneca has a conventional low tail and a longer six-seat cabin."
+  },
+  {
+    "existingId": "pa-44",
+    "newId": "beech-76",
+    "howToTell": "Both are T-tail four-seat twins; the Duchess has a rounder Beech-style cabin and smooth nose, while the Seminole's cabin is boxier and PA-28 derived."
+  },
+  {
+    "existingId": "pa-44",
+    "newId": "ga-7",
+    "howToTell": "The Cougar has a conventional low tail and a smooth rounded fuselage; the Seminole has a T-tail."
+  },
+  {
+    "existingId": "c310",
+    "newId": "c402",
+    "howToTell": "The 402 is a bigger, longer-cabin twin seating six to ten; the 310 is smaller and slimmer."
+  },
+  {
+    "existingId": "c340",
+    "newId": "c402",
+    "howToTell": "The 402 is unpressurized with a long, straight-sided cabin and larger windows; the 340/414/421 have a portly pressurized cabin with small porthole-like windows."
+  },
+  {
+    "existingId": "c340",
+    "newId": "beech-60",
+    "howToTell": "The Duke has plain wingtips, a smooth round fuselage and a swept fin without a dorsal fillet; the 340 is portly with a dorsal fillet and, on early models, tip tanks."
+  },
+  {
+    "existingId": "pa-31",
+    "newId": "c402",
+    "howToTell": "The 402 has a straighter-sided cabin and, on early models, big wingtip tanks; the Navajo has a tapered wing with plain tips and a dorsal strake on the fin."
+  },
+  {
+    "existingId": "da42",
+    "newId": "tecnam-p2006t",
+    "howToTell": "The P2006T is a high-wing twin with a conventional low tail; the DA42 is a low-wing composite twin with a T-tail and long slender wings."
+  },
+  {
+    "existingId": "beech-18",
+    "newId": "cessna-t-50",
+    "howToTell": "The Bobcat is smaller with a single rounded fin and a long glazed canopy; the Beech 18 has twin oval fins."
+  },
+  {
+    "existingId": "dc-3",
+    "newId": "dc-6",
+    "howToTell": "The DC-6 has four engines and a nose wheel; the DC-3 has two engines and sits on a tailwheel."
+  },
+  {
+    "existingId": "c182",
+    "newId": "c337",
+    "howToTell": "The Skymaster has two engines (one in the nose, one pusher behind the cabin) and twin tail booms; the 182 has one engine and a single fin."
+  },
+  {
+    "existingId": "dhc-6",
+    "newId": "bn-2-islander",
+    "howToTell": "The Islander has piston engines, no wing struts and a boxy fuselage with a short nose; the Twin Otter has turboprops, wing struts and a long pointed nose."
+  },
+  {
+    "existingId": "king-air-90",
+    "newId": "beech-queen-air",
+    "howToTell": "The Queen Air has piston cowlings with no exhaust stacks; the King Air has turboprop nacelles with exhaust stacks."
+  },
+  {
+    "existingId": "king-air-90",
+    "newId": "aero-commander-500",
+    "howToTell": "The Commander has a high wing and piston cowlings; the King Air has a low wing and turboprop nacelles with exhaust stacks."
+  },
+  {
+    "existingId": "grumman-aa5",
+    "newId": "ga-7",
+    "howToTell": "The Cougar has an engine on each wing and a side door; the AA-1/AA-5 has one engine and a sliding canopy."
+  }
+]

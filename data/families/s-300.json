@@ -1,0 +1,97 @@
+{
+  "id": "s-300",
+  "name": "Schweizer 300 / Hughes 269",
+  "shortName": "Schweizer 300",
+  "aka": [
+    "Hughes 269",
+    "Hughes 300",
+    "Sikorsky S-300C",
+    "TH-55 Osage",
+    "300CBi"
+  ],
+  "manufacturer": "Schweizer / Hughes (now Sikorsky)",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "trainer",
+    "piston-single",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Hughes 269A/B/C",
+    "TH-55A Osage (Army trainer, retired)",
+    "Schweizer 300C / 300CB / 300CBi",
+    "Sikorsky S-300C"
+  ],
+  "summary": "Light piston training helicopter with a three-blade rotor and strut-braced tail boom, long used for flight training, agriculture and police patrol.",
+  "weft": {
+    "wings": [
+      "Three-blade fully articulated main rotor"
+    ],
+    "engines": [
+      "Piston engine mounted behind and below the seats, largely exposed",
+      "Exhaust and cooling ducts visible in the open engine bay"
+    ],
+    "fuselage": [
+      "Rounded goldfish-bowl bubble cabin for two or three seats",
+      "Skids with oleo shock struts"
+    ],
+    "tail": [
+      "Thin tubular tail boom braced by two diagonal struts from the fuselage",
+      "Small two-blade tail rotor with a small vertical and horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Three-blade rotor on a tiny piston bubble helicopter",
+    "Thin tail boom held up by diagonal bracing struts",
+    "Exposed engine under and behind the bubble"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The R22 has a two-blade rotor and an unbraced boom; the 300 has three blades and a strut-braced boom."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has an open lattice truss boom and two blades; the 300 has a tubular strut-braced boom and three blades."
+    },
+    {
+      "id": "enstrom-280",
+      "howToTell": "The Enstrom 280 has a rounder, bulbous canopy with three seats abreast; the Schweizer 300 has a narrower cabin and a slim open tail boom."
+    },
+    {
+      "id": "brantly-b2",
+      "howToTell": "The Brantly B-2 has narrow blades and a vertical engine behind the bubble; the Schweizer 300 has a deeper cabin and a horizontal engine."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Hughes Model 269",
+    "Sikorsky S-300"
+  ],
+  "usCount": {
+    "value": 400,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4470402",
+    "4470404",
+    "4470502",
+    "4470504",
+    "4471002",
+    "4471004",
+    "8059498",
+    "8059501",
+    "8059502",
+    "8059503",
+    "8059504"
+  ]
+}

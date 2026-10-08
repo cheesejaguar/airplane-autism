@@ -1,0 +1,97 @@
+{
+  "id": "waco-f-series",
+  "name": "WACO F-series / UPF-7 open-cockpit biplane",
+  "shortName": "WACO F-series",
+  "aka": [
+    "UPF-7",
+    "WACO F",
+    "WACO YMF",
+    "WACO RNF",
+    "WACO UBF",
+    "WACO QCF"
+  ],
+  "manufacturer": "Waco Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1930,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F-series sport biplanes (INF, RNF, UBF, UMF, QCF)",
+    "UPF-7 (Continental W-670 trainer, CPTP)",
+    "YMF / YMF-5 (Jacobs-powered Super)",
+    "WACO YMF-5 Classic (modern production)"
+  ],
+  "summary": "Open-cockpit 1930s sport and primary-training biplane; the UPF-7 became a Civilian Pilot Training Program workhorse and many survive as show and airshow aircraft.",
+  "weft": {
+    "wings": [
+      "Staggered biplane with a single bay of interplane struts and flying wires",
+      "Wings are rounded at the tips with ailerons on the wings"
+    ],
+    "engines": [
+      "Radial engine (Continental, Jacobs, Warner or Kinner) in the nose, often with a partial or ring cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Tandem open cockpits with a wide front cockpit that seats two passengers",
+      "Smooth, deep fuselage decking",
+      "Wide-track fixed tailwheel gear, often with wheel pants"
+    ],
+    "tail": [
+      "Rounded fin and rudder (enlarged on later YMF)"
+    ]
+  },
+  "tellTales": [
+    "Open-cockpit biplane with a wide front cockpit seating two side by side",
+    "Radial-engined biplane with a smooth, streamlined fuselage",
+    "Wide-track fixed tailwheel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman has a larger, bulkier airframe with narrow tandem cockpits and a bare radial; the Waco's front cockpit is wide and its fuselage is smoother and slimmer."
+    },
+    {
+      "id": "waco-10",
+      "howToTell": "The Waco 10 family is the earlier barnstormer with a water-cooled OX-5 radiator on many examples and a more upright, slab-sided look; the F-series is later and more streamlined."
+    },
+    {
+      "id": "travel-air-2000",
+      "howToTell": "The Travel Air 2000 has big 'elephant-ear' ailerons with overhanging horns; the Waco F-series ailerons are conventional."
+    },
+    {
+      "id": "waco-taperwing",
+      "howToTell": "The Taperwing has wings that visibly taper toward the tips; the F-series wings are untapered with rounded tips."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Waco F Series"
+  ],
+  "usCount": {
+    "value": 352,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2240101",
+    "9600404",
+    "9600408",
+    "9600409",
+    "9600410",
+    "9600411",
+    "9600413",
+    "9600416",
+    "9600422",
+    "9600425",
+    "9601302",
+    "9601610"
+  ]
+}

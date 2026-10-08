@@ -1,0 +1,87 @@
+{
+  "id": "b737max",
+  "name": "Boeing 737 MAX",
+  "shortName": "737 MAX",
+  "aka": [
+    "737-7",
+    "737-8",
+    "737-9",
+    "737-10",
+    "MAX 8",
+    "MAX 9"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "narrowbody"
+  ],
+  "branches": [],
+  "firstFlight": 2016,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "737 MAX 7",
+    "737 MAX 8 / 8-200",
+    "737 MAX 9",
+    "737 MAX 10"
+  ],
+  "summary": "Fourth-generation re-engined 737 with CFM LEAP-1B engines; flown in the US by Southwest, United, American and Alaska.",
+  "weft": {
+    "wings": [
+      "Same long swept 737 wing",
+      "'AT' split winglet: an upper blade and a sizeable lower blade forming a straight-edged V at the tip, with no curved blending"
+    ],
+    "engines": [
+      "Larger, rounder LEAP-1B nacelles mounted further forward and higher",
+      "Sawtooth chevrons on the rear edge of each nacelle"
+    ],
+    "fuselage": [
+      "Pointed 737 nose with V-notched cockpit side windows",
+      "Slightly taller nose gear gives a nose-up stance on the ground",
+      "Exposed main-wheel hubs like earlier 737s"
+    ],
+    "tail": [
+      "Reshaped, longer and more pointed tailcone without the stubby wedge",
+      "Dorsal fillet sweeping into a tall fin"
+    ]
+  },
+  "tellTales": [
+    "Sawtooth serrations at the back of the engine nacelles",
+    "Wingtip split into upper and lower straight blades",
+    "Pointed nose on a low-slung single-aisle twin"
+  ],
+  "confusedWith": [
+    {
+      "id": "b737ng",
+      "howToTell": "The MAX has sawtooth chevron exhausts, rounder bigger engines, a twin-blade 'AT' winglet and a pointed tailcone; the NG has smooth exhausts and flat-bottomed intakes."
+    },
+    {
+      "id": "a320neo",
+      "howToTell": "The MAX has a pointed nose, chevron exhausts and a split twin-blade wingtip; the A320neo has a blunt rounded nose, smooth exhausts and curved sharklets."
+    },
+    {
+      "id": "p-8",
+      "howToTell": "The P-8 has raked wingtips, smooth NG-style nacelles, few windows and grey Navy paint; the MAX has split winglets and chevron exhausts."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Boeing 737 MAX on final approach",
+    "Boeing 737 MAX"
+  ],
+  "usCount": {
+    "value": 843,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "138441D",
+    "13844FZ",
+    "13845FZ",
+    "138469A",
+    "138470A"
+  ]
+}

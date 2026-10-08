@@ -1,0 +1,90 @@
+{
+  "id": "challenger-300",
+  "name": "Bombardier Challenger 300/350/3500",
+  "shortName": "Challenger 300/350",
+  "aka": [
+    "Challenger 300",
+    "Challenger 350",
+    "Challenger 3500",
+    "BD-100"
+  ],
+  "manufacturer": "Bombardier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 2001,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Challenger 300",
+    "Challenger 350 (canted winglets)",
+    "Challenger 3500"
+  ],
+  "summary": "The best-selling super-midsize business jet family (1,000 delivered by 2025), a mainstay of US fractional and charter fleets.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets (canted outward on the 350/3500)"
+    ],
+    "engines": [
+      "Two Honeywell HTF7000-series turbofans in pods high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Long, slim fuselage that tapers into a long pointed tail cone",
+      "Rounded-rectangle windows",
+      "Long, drooped nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Long, tapering tail cone extending well behind the engines",
+    "Upturned winglets and a T-tail on a medium-large twinjet",
+    "Rounded-rectangle windows and a long drooped nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "praetor",
+      "howToTell": "Very hard to separate: the Challenger 300/350 cabin tapers into a longer tail cone and its winglets cant outward (350/3500), whereas the Praetor has more upright winglets and a stubbier tail cone ending close behind the engines."
+    },
+    {
+      "id": "g280",
+      "howToTell": "The Challenger 300/350 has rounded-rectangle windows; the G280 has oval windows."
+    },
+    {
+      "id": "challenger-600",
+      "howToTell": "The Challenger 300 is slimmer with a tapering body; the Challenger 600-series has a fat, wide fuselage and a prominent belly fairing."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The Challenger 300/350 has a slim, tapering body with prominent upturned winglets; the Latitude/Longitude has a fat, round fuselage with plain tips or only small winglets."
+    },
+    {
+      "id": "g200",
+      "howToTell": "The G200 has oval windows and a short, thick tail cone; the Challenger 300 has rounded-rectangle windows and a long tapering tail cone."
+    },
+    {
+      "id": "hawker-4000",
+      "howToTell": "The Hawker 4000 has plain wingtips with no winglets; the Challenger 300/350 has upturned winglets."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Bombardier Challenger 300",
+    "Bombardier Challenger 350"
+  ],
+  "usCount": {
+    "value": 814,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390044",
+    "1390050"
+  ]
+}

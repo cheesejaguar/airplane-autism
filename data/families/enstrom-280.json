@@ -1,0 +1,91 @@
+{
+  "id": "enstrom-280",
+  "name": "Enstrom 280 / F-28",
+  "shortName": "Enstrom 280",
+  "aka": [
+    "Shark",
+    "F-28",
+    "280FX"
+  ],
+  "manufacturer": "Enstrom Helicopter Corporation",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F-28A",
+    "F-28C",
+    "F-28F",
+    "280C Shark",
+    "280FX",
+    "280F"
+  ],
+  "summary": "A three-seat piston light helicopter used for training, private flying and light utility work, easily spotted by its three-blade rotor and egg-shaped bubble canopy.",
+  "weft": {
+    "wings": [
+      "Three-blade fully articulated main rotor on a short, fat mast",
+      "Broad-chord blades, noticeably thicker than the thin two-blade rotors on Robinsons"
+    ],
+    "engines": [
+      "Single piston engine mounted behind the cabin under a rounded cowling",
+      "No turbine exhaust stack on the roof"
+    ],
+    "fuselage": [
+      "Rounded egg-shaped bubble canopy with three seats abreast",
+      "One door each side; skids on curved struts",
+      "Smooth teardrop pod blends into the tail boom"
+    ],
+    "tail": [
+      "Tapered tubular boom with a small swept vertical fin",
+      "Horizontal stabilizer mounted low on the boom and a two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Three-blade rotor on a piston-powered bubble-canopy helicopter",
+    "Rounded egg-shaped canopy with three seats across and one door each side",
+    "Thick, short mast with no tall engine stack on the roof"
+  ],
+  "confusedWith": [
+    {
+      "id": "r22",
+      "howToTell": "The 280 has a three-blade rotor and a wider three-seat canopy; the R22 has a two-blade teetering rotor, two seats and an exposed engine frame."
+    },
+    {
+      "id": "s-300",
+      "howToTell": "Both have three-blade rotors and bubble canopies; the Enstrom has a rounder, bulbous pod with three seats, while the Schweizer 300 has a more open, tapered tail boom and a narrower cabin."
+    },
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has a two-blade rotor with a stabilizer bar and an open truss boom; the Enstrom has a three-blade rotor and an enclosed boom."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Enstrom 280",
+    "Enstrom F-28"
+  ],
+  "usCount": {
+    "value": 237,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3300406",
+    "3300407",
+    "3300412",
+    "3300502",
+    "3300505",
+    "3300506",
+    "330050A",
+    "3300550"
+  ]
+}

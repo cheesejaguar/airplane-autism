@@ -1,0 +1,80 @@
+{
+  "id": "iai-westwind",
+  "name": "IAI 1124 Westwind",
+  "shortName": "Westwind",
+  "aka": [
+    "IAI 1124",
+    "Westwind",
+    "Westwind II",
+    "Jet Commander"
+  ],
+  "manufacturer": "Israel Aircraft Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "1124 Westwind I",
+    "1124A Westwind II",
+    "1123 Westwind"
+  ],
+  "summary": "IAI's turbofan-powered development of the Aero Commander Jet Commander (1963), a rugged older business jet with distinctive wingtip tanks.",
+  "weft": {
+    "wings": [
+      "Low, slightly swept wing with large, long wingtip fuel tanks"
+    ],
+    "engines": [
+      "Two Garrett TFE731 turbofans in pods high on the rear fuselage"
+    ],
+    "fuselage": [
+      "Slim, round fuselage with a row of oval windows",
+      "Rounded nose"
+    ],
+    "tail": [
+      "Swept fin with a low-set horizontal stabilizer on the rear fuselage (not a T-tail)"
+    ]
+  },
+  "tellTales": [
+    "Long cylindrical tip tanks on the ends of the wings",
+    "Low-set tailplane on a swept fin, with rear engine pods",
+    "Slim body with a row of oval windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "learjet-35",
+      "howToTell": "The Learjet 35 has a T-tail and a smaller, narrower fuselage; the Westwind has a low-set tailplane and a slightly larger body."
+    },
+    {
+      "id": "g150",
+      "howToTell": "The Astra/G150 has a T-tail and no tip tanks; the Westwind has tip tanks and a low-set tailplane."
+    },
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 has small round windows and plain wingtips; the Westwind has oval windows and large tip tanks."
+    },
+    {
+      "id": "learjet-24",
+      "howToTell": "The Learjet 24/25 is smaller with a T-tail and small turbojet pods; the Westwind is larger with a low-set tailplane."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "IAI Westwind"
+  ],
+  "usCount": {
+    "value": 66,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4500102",
+    "4500103"
+  ]
+}

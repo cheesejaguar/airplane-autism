@@ -1,0 +1,90 @@
+{
+  "id": "erj145",
+  "name": "Embraer ERJ 135/140/145",
+  "shortName": "ERJ145",
+  "aka": [
+    "ERJ",
+    "EMB-145",
+    "ERJ-135",
+    "ERJ-140",
+    "ERJ-145XR"
+  ],
+  "manufacturer": "Embraer",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "ERJ 135",
+    "ERJ 140",
+    "ERJ 145 / 145XR",
+    "Legacy 600 (business jet derivative)"
+  ],
+  "summary": "Slender 37–50-seat regional jet family flown in the US by CommuteAir for United, JSX and Contour.",
+  "weft": {
+    "wings": [
+      "Low wing with moderate sweep",
+      "Plain tips on most; small winglets on the ERJ145XR"
+    ],
+    "engines": [
+      "Two Rolls-Royce AE3007 turbofans in pods high on the rear fuselage, well behind the wing"
+    ],
+    "fuselage": [
+      "Very slim 3-abreast cigar-shaped fuselage",
+      "Long, pointed, slightly drooping nose",
+      "Small round windows; ERJ135 is noticeably shorter"
+    ],
+    "tail": [
+      "T-tail with a swept fin",
+      "Small ventral strakes under the rear fuselage on some versions"
+    ]
+  },
+  "tellTales": [
+    "Pencil-thin fuselage with rear engines and a T-tail",
+    "Long drooping pointed snout",
+    "Engines mounted far aft, well behind the wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "crj200",
+      "howToTell": "The ERJ145 is slimmer (3-abreast) with a longer pointed nose and engines set further aft; the CRJ200 is fatter with winglets and engines close behind the wing."
+    },
+    {
+      "id": "e175",
+      "howToTell": "The ERJ145 has rear engines and a T-tail on a very thin body; the E175 has underwing engines and a low tail."
+    },
+    {
+      "id": "praetor",
+      "howToTell": "The ERJ145 is far longer with a row of many small airline windows; the Praetor/Legacy 500 is a short business jet with a few large windows."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Embraer ERJ 145",
+    "Embraer ERJ 145 on final approach",
+    "Embraer ERJ 135"
+  ],
+  "usCount": {
+    "value": 420,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3260210",
+    "3260212",
+    "3260214",
+    "3260221",
+    "3260302",
+    "3260305",
+    "3260306",
+    "3260307",
+    "3260308"
+  ]
+}

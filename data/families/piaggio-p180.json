@@ -1,0 +1,78 @@
+{
+  "id": "piaggio-p180",
+  "name": "Piaggio P.180 Avanti",
+  "shortName": "Avanti",
+  "aka": [
+    "P180",
+    "Avanti II",
+    "Avanti EVO",
+    "P.180 Avanti"
+  ],
+  "manufacturer": "Piaggio Aero",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "light",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1986,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "P.180 Avanti",
+    "Avanti II",
+    "Avanti EVO (five-blade props, winglets)"
+  ],
+  "summary": "Italian pusher twin turboprop with a three-surface layout: forward canard, mid-fuselage main wing and T-tail.",
+  "weft": {
+    "wings": [
+      "Small forward wings (foreplanes) just behind the cockpit",
+      "Main wing is set far aft and mid-mounted, with the engines on its trailing edge"
+    ],
+    "engines": [
+      "Two PT6A turboprops facing backward (pushers) on the main wing",
+      "Five-blade composite pusher propellers"
+    ],
+    "fuselage": [
+      "Long, slender, pointed nose with a swept windshield",
+      "Long row of oval windows"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin",
+      "Twin ventral fins under the tail cone"
+    ]
+  },
+  "tellTales": [
+    "Propellers facing backward on pushers",
+    "Small foreplane wings behind the cockpit and a big mid-set main wing",
+    "T-tail on a slender, pointed fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "king-air-350",
+      "howToTell": "The King Air 350 has tractor props, a T-tail and no forward wing; the Avanti has pusher props, forward foreplanes and a rear-mounted main wing."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has props in front of its wings and no canards; the Avanti has pusher propellers at the rear of the wings and has small foreplanes."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Piaggio P.180 Avanti"
+  ],
+  "usCount": {
+    "value": 99,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6960204",
+    "6960206",
+    "6960220"
+  ]
+}

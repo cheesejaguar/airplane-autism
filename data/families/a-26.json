@@ -1,0 +1,88 @@
+{
+  "id": "a-26",
+  "name": "Douglas A-26 Invader",
+  "shortName": "A-26 Invader",
+  "aka": [
+    "B-26 Invader",
+    "Invader",
+    "On Mark Marksman"
+  ],
+  "manufacturer": "Douglas Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "bomber",
+    "attack"
+  ],
+  "branches": [],
+  "firstFlight": 1942,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "A-26B (solid nose with guns)",
+    "A-26C (glazed bombardier nose)",
+    "B-26K / Counter Invader",
+    "On Mark Marketeer / Marksman (civil)"
+  ],
+  "summary": "Fast twin-engine WWII attack bomber that also flew in Korea and Vietnam; a dozen fly in private hands, some in glazed-nose or gun-nose configuration.",
+  "weft": {
+    "wings": [
+      "Mid-mounted, straight, tapered wing",
+      "Large flaps and square-ish tips"
+    ],
+    "engines": [
+      "Two R-2800 radial engines in big round cowls with three or four-blade propellers",
+      "Engines carried at the leading edge of the wing"
+    ],
+    "fuselage": [
+      "Slim, streamlined fuselage with a bubble canopy over the pilots",
+      "Glazed bombardier nose (A-26C) or solid nose with machine guns (A-26B)",
+      "Tricycle landing gear"
+    ],
+    "tail": [
+      "Single tall fin with a large squared rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim twin-radial bomber with a single tall tail and a bubble canopy",
+    "Mid-set wing and a tricycle-gear stance on a twin-engine attack bomber",
+    "Glazed or gun nose on a clean, sleek fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-25",
+      "howToTell": "The B-25 has twin fins and a gull wing; the A-26 has one tall fin and a straight wing."
+    },
+    {
+      "id": "grumman-s-2",
+      "howToTell": "The Tracker is a high-wing with a fat fuselage; the A-26 is a mid-wing with a slim fuselage."
+    },
+    {
+      "id": "beech-18",
+      "howToTell": "The Beech 18 is much smaller with twin fins and tailwheel gear; the A-26 has a single tall fin and tricycle gear."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 is a low-wing airliner with tailwheel gear; the A-26 is a sleek attack bomber with tricycle gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Douglas A-26 Invader"
+  ],
+  "usCount": {
+    "value": 27,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3020504",
+    "3020506",
+    "3020514",
+    "3020524"
+  ]
+}

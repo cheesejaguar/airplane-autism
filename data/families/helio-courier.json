@@ -1,0 +1,89 @@
+{
+  "id": "helio-courier",
+  "name": "Helio Courier",
+  "shortName": "Courier",
+  "aka": [
+    "Super Courier",
+    "Helioplane"
+  ],
+  "manufacturer": "Helio Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "H-391 / H-391B Courier",
+    "H-250 Courier",
+    "H-295 / H-395 Super Courier (geared GO-480)",
+    "HT-295 (tricycle-gear version)",
+    "H-700 (1980s, direct-drive engine and winglets)"
+  ],
+  "summary": "Four-seat STOL bush plane famous for flying off tiny strips. A strut-free high wing with automatic slats and huge flaps sits on very tall gear.",
+  "weft": {
+    "wings": [
+      "High cantilever wing with no lift struts",
+      "Full-span leading-edge slats and very large flaps, with short ailerons confined to the outer wing"
+    ],
+    "engines": [
+      "Single engine in a long, smooth cowling",
+      "Large three-blade propeller on the geared 295 hp models"
+    ],
+    "fuselage": [
+      "Tall, boxy four-seat cabin with large side windows",
+      "Very tall, long-travel main gear; tailwheel on most (tricycle on HT-295)"
+    ],
+    "tail": [
+      "Unusually tall fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "High wing with no struts, a slatted leading edge and huge flaps",
+    "Very tall landing gear under a boxy four-seat cabin",
+    "Unusually tall fin and rudder"
+  ],
+  "confusedWith": [
+    {
+      "id": "c180",
+      "howToTell": "The Cessna 180/185 has a lift strut under each wing and plain flaps; this aircraft's high wing has no struts and carries full-span slats and giant flaps on much taller gear."
+    },
+    {
+      "id": "maule",
+      "howToTell": "A Maule's wing is braced by a lift strut and has simple flaps; this one is a strut-free cantilever wing with a visibly taller fin and much taller gear."
+    },
+    {
+      "id": "foundation-bush-hawk",
+      "howToTell": "The Bush Hawk is a strut-braced high-wing with a large flat-six and plain flaps; the strut-free slatted wing here is the giveaway."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The 182 is a strut-braced high-wing with tricycle gear and standard flaps; this aircraft has a cantilever wing, slats and a tailwheel."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Helio Courier"
+  ],
+  "usCount": {
+    "value": 108,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4300106",
+    "4300202",
+    "4300302",
+    "4300400",
+    "4300500",
+    "4300802",
+    "4300803"
+  ]
+}

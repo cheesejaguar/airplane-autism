@@ -1,0 +1,79 @@
+{
+  "id": "howard-dga",
+  "name": "Howard DGA-15 / DGA-11",
+  "shortName": "Howard DGA",
+  "aka": [
+    "DGA-15",
+    "DGA-15P",
+    "DGA-11",
+    "Howard Pete",
+    "GH-1 Nightingale",
+    "UC-70"
+  ],
+  "manufacturer": "Howard Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1939,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DGA-11 (Jacobs L-4)",
+    "DGA-15J (Jacobs L6MB)",
+    "DGA-15P (P&W R-985 Wasp Junior)",
+    "DGA-15W (Wright)",
+    "GH / NH / UC-70 military versions"
+  ],
+  "summary": "Large, wood-built 1940s high-wing cabin monoplane that seats a pilot and four; the DGA-15P with a Wasp Junior is a strong bush and cross-country classic.",
+  "weft": {
+    "wings": [
+      "High-wing monoplane with one strut per side",
+      "Straight wings with rounded tips"
+    ],
+    "engines": [
+      "Large radial engine (Wasp Junior, Jacobs or Whirlwind) under a cowl",
+      "Two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Deep, wide cabin with large side windows seating five",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Large rounded fin and rudder, sometimes with finlets on the tailplane"
+    ]
+  },
+  "tellTales": [
+    "High-wing monoplane with a deep, wide cabin and a big radial engine",
+    "Single strut per side and a straight, rounded-tip wing",
+    "Fixed tailwheel gear under a bulbous, spacious cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant SR-7 and later have a gull wing that dips near the root; the Howard wing is straight and the cabin is deeper and wider."
+    },
+    {
+      "id": "curtiss-robin",
+      "howToTell": "The Robin has a pair of parallel diagonal bracing struts under each wing; the Howard has a single strut per side."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Howard DGA-15"
+  ],
+  "usCount": {
+    "value": 90,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4690302",
+    "4690506"
+  ]
+}

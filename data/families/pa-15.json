@@ -1,0 +1,82 @@
+{
+  "id": "pa-15",
+  "name": "Piper PA-15/17 Vagabond",
+  "shortName": "Vagabond",
+  "aka": [
+    "PA-15",
+    "PA-17"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-15 Vagabond (solid gear)",
+    "PA-17 Vagabond (bungee gear, dual controls, 65 hp)"
+  ],
+  "summary": "Small side-by-side two-seat high-wing taildragger: Piper's first postwar design, built from Cub parts with a shortened wing (the original 'short-wing Piper').",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Short, narrow wing, one bay shorter than a Cub's"
+    ],
+    "engines": [
+      "Single small flat-four in a neat cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Compact side-by-side two-seat cabin",
+      "Fabric-covered tube fuselage with a tailwheel",
+      "Cub-style main gear"
+    ],
+    "tail": [
+      "Rounded Cub-style fin and rudder and horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tiny side-by-side two-seat high-wing on a tailwheel",
+    "Short, stubby wing with a strut each side",
+    "Cub-style tail on a compact fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Vagabond has a shorter wing and seats two side by side; the Cub has a longer wing and tandem seating."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Vagabond is side-by-side with a short wing; the Champ is tandem with a longer wing and cabin."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Vagabond is smaller with a shorter wing and Cub-style tail; the Taylorcraft is larger with a longer wing and a bigger cabin."
+    },
+    {
+      "id": "piper-j4",
+      "howToTell": "The Vagabond has a one-bay-shorter wing and a lighter, more compact cabin; the J-4 Cub Coupe has the full Cub wing and a wider cabin."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Piper PA-15 Vagabond",
+    "Piper PA-17 Vagabond"
+  ],
+  "usCount": {
+    "value": 243,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7101502",
+    "7101702"
+  ]
+}

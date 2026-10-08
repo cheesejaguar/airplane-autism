@@ -1,0 +1,84 @@
+{
+  "id": "beech-99",
+  "name": "Beechcraft 99 Airliner",
+  "shortName": "Beech 99",
+  "aka": [
+    "Airliner",
+    "99A",
+    "B99",
+    "C99",
+    "Beechcraft 99",
+    "Beech Airliner"
+  ],
+  "manufacturer": "Beech Aircraft / Raytheon",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Beech 99 / 99A (PT6A-20/-27)",
+    "B99 / C99 (PT6A-36/-28, longer)"
+  ],
+  "summary": "Stretched Queen Air airframe with PT6A turboprops, built as a 15-seat commuter airliner and later used heavily in air cargo.",
+  "weft": {
+    "wings": [
+      "Low, tapered straight wing",
+      "Plain wingtips"
+    ],
+    "engines": [
+      "Two PT6A turboprops in long nacelles with exhaust stacks",
+      "Three-blade propellers"
+    ],
+    "fuselage": [
+      "Long, narrow fuselage with a pointed nose and a row of small windows",
+      "Entry door at the rear left; freighters have a large cargo door"
+    ],
+    "tail": [
+      "Conventional low-set tailplane",
+      "Swept fin with a dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "Long, narrow fuselage with a row of small windows and a pointed nose",
+    "Low-wing twin turboprop with long nacelles and exhaust stacks",
+    "Plain, conventional tail with no extra fins"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-1900",
+      "howToTell": "The 1900 is bigger with a taller cabin, T-tail and fins on the rear fuselage and tail; the 99 is smaller, rounder and plainer."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air 90 is shorter with a smaller cabin and fewer windows; the 99 is a long, narrow airliner with a longer row of small windows."
+    },
+    {
+      "id": "metroliner",
+      "howToTell": "The Metro has a sharper shark-like nose and a slimmer fuselage; the 99 has a blunter nose and a deeper cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Model 99"
+  ],
+  "usCount": {
+    "value": 90,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1154002",
+    "1154003",
+    "1154004",
+    "1154006"
+  ]
+}

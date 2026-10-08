@@ -1,0 +1,84 @@
+{
+  "id": "fairchild-kr",
+  "name": "Fairchild KR Biplane",
+  "shortName": "Fairchild KR",
+  "aka": [
+    "KR-21",
+    "KR-31",
+    "KR-34",
+    "Fairchild 21",
+    "Kreider-Reisner"
+  ],
+  "manufacturer": "Kreider-Reisner / Fairchild Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "KR-21 (Kinner K-5, Warner Scarab)",
+    "KR-31 (OX-5)",
+    "KR-34 (Wright J-6)",
+    "KR-34CA (military)"
+  ],
+  "summary": "Late-1920s two-seat sport and training biplane from Hagerstown; a few dozen remain on the registry.",
+  "weft": {
+    "wings": [
+      "Staggered biplane with interplane struts and bracing wires",
+      "Later models have tapered wings"
+    ],
+    "engines": [
+      "Radial engine (Kinner, Warner or Wright), usually uncowled",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits with the pilot at the rear",
+      "Mixed-construction fuselage",
+      "Fixed tailskid gear"
+    ],
+    "tail": [
+      "Rounded fin and rudder with a tailskid"
+    ]
+  },
+  "tellTales": [
+    "Small tandem open-cockpit biplane with an uncowled radial",
+    "Staggered wings with strut-and-wire bracing and a tailskid",
+    "Light sport-trainer biplane of the late 1920s"
+  ],
+  "confusedWith": [
+    {
+      "id": "fleet-biplane",
+      "howToTell": "The two are alike in size and layout; the Fleet Models 2 and 7 have a distinctive looped radius rod on the port main gear leg."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger with a heavy radial; the Fairchild is a small, light biplane."
+    },
+    {
+      "id": "waco-10",
+      "howToTell": "The Waco 10 has a wide passenger cockpit under the wing ahead of the pilot; the Fairchild has two narrow tandem cockpits."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Fairchild KR-34",
+    "Fairchild KR-21"
+  ],
+  "usCount": {
+    "value": 24,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3371302",
+    "3371402",
+    "3371506"
+  ]
+}

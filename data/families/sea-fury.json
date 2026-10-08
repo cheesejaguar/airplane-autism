@@ -1,0 +1,85 @@
+{
+  "id": "sea-fury",
+  "name": "Hawker Sea Fury",
+  "shortName": "Sea Fury",
+  "aka": [
+    "Hawker Sea Fury FB.11",
+    "Sea Fury T.20",
+    "Fury"
+  ],
+  "manufacturer": "Hawker Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1944,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Sea Fury FB.11",
+    "Sea Fury T.20 (two-seat trainer)",
+    "Racing conversions with R-3350"
+  ],
+  "summary": "The Royal Navy's last piston fighter, with a Bristol Centaurus sleeve-valve radial and a five-blade propeller; a handful fly in the US and race at Reno.",
+  "weft": {
+    "wings": [
+      "Long, straight, tapered low wing with rounded tips",
+      "Folding wing on the naval version",
+      "Narrow, tall main gear with a wide track"
+    ],
+    "engines": [
+      "Large radial (or racing R-3350) in a long, smooth cowl",
+      "Five-blade propeller on the Centaurus; fewer blades on racers"
+    ],
+    "fuselage": [
+      "Long, slim fuselage with a bubble canopy",
+      "Arrestor hook at the tail",
+      "Tailwheel gear on a slender body"
+    ],
+    "tail": [
+      "Tall fin with a large rounded rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Large radial in a long, smooth cowl with a five-blade propeller",
+    "Long, slim fuselage with a bubble canopy and a straight low wing",
+    "Arrestor hook and tall main gear on a slim fighter"
+  ],
+  "confusedWith": [
+    {
+      "id": "p-51",
+      "howToTell": "The Mustang has an inline V-12 nose and a belly scoop; the Sea Fury has a radial cowl and no belly scoop."
+    },
+    {
+      "id": "f8f-bearcat",
+      "howToTell": "The Bearcat is smaller and stubbier with a bigger-looking cowl; the Sea Fury is longer and slimmer."
+    },
+    {
+      "id": "f4u-corsair",
+      "howToTell": "The Corsair has inverted gull wings; the Sea Fury has a straight wing."
+    },
+    {
+      "id": "p-47",
+      "howToTell": "The Thunderbolt is a huge barrel-chested airframe with a chin intake; the Sea Fury is slim with a smooth cowl."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Hawker Sea Fury"
+  ],
+  "usCount": {
+    "value": 13,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4220102",
+    "4220120"
+  ]
+}

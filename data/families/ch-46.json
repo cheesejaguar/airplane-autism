@@ -1,0 +1,81 @@
+{
+  "id": "ch-46",
+  "name": "CH-46 Sea Knight / Boeing Vertol 107",
+  "shortName": "CH-46",
+  "aka": [
+    "Sea Knight",
+    "Boeing Vertol 107",
+    "Phrog",
+    "V-107"
+  ],
+  "manufacturer": "Boeing Vertol",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "transport",
+    "heavy-lift",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1958,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Boeing Vertol 107-II",
+    "CH-46D",
+    "CH-46E",
+    "Kawasaki KV-107"
+  ],
+  "summary": "A tandem-rotor transport helicopter, retired by the Marine Corps and still flown by commercial heavy-lift operators as the Vertol 107.",
+  "weft": {
+    "wings": [
+      "Two three-blade rotors in tandem, one forward and one raised aft",
+      "Rotors overlap little; no tail rotor needed"
+    ],
+    "engines": [
+      "Two turboshafts in pods on either side of the aft pylon",
+      "Exhausts at the rear of each engine"
+    ],
+    "fuselage": [
+      "Long rounded fuselage with a rear loading ramp",
+      "Short stub sponsons holding the fixed main wheels",
+      "Row of windows and a cabin door on the right side"
+    ],
+    "tail": [
+      "No tail rotor",
+      "Aft rotor pylon rises on the tail with a vertical fin"
+    ]
+  },
+  "tellTales": [
+    "Two rotors in tandem, front and rear",
+    "Rear loading ramp on a rounded fuselage",
+    "Engines at the base of the tall aft pylon"
+  ],
+  "confusedWith": [
+    {
+      "id": "ch-47",
+      "howToTell": "The Chinook is larger and boxier with full-length fuel sponsons; the CH-46 is smaller with stub sponsons and a rounder body."
+    },
+    {
+      "id": "v-22",
+      "howToTell": "The Osprey has tilting rotors on wing tips; the CH-46 has two rotors on pylons with no wings."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "CH-46 Sea Knight in flight",
+    "CH-46 Sea Knight"
+  ],
+  "usCount": {
+    "value": 14,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1351610",
+    "1351611",
+    "1385007"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "dhc-8",
+  "name": "DHC-8 Dash 8 (100/200/300)",
+  "shortName": "Dash 8 (100-300)",
+  "aka": [
+    "Dash 8",
+    "DHC-8",
+    "DHC-8-100",
+    "DHC-8-200",
+    "DHC-8-300",
+    "Dash 8-100",
+    "Dash 8-200",
+    "Dash 8-300",
+    "Q100",
+    "Q200",
+    "Q300"
+  ],
+  "manufacturer": "de Havilland Canada / Bombardier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1983,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Dash 8-100 / Q100 (37 seats)",
+    "Dash 8-200 / Q200 (more powerful engines)",
+    "Dash 8-300 / Q300 (stretched, 50 seats)"
+  ],
+  "summary": "Canadian high-wing regional turboprop with a T-tail and long nacelles that house the main landing gear, in the earlier, shorter series.",
+  "weft": {
+    "wings": [
+      "High, straight wing with slight taper"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW120-series turboprops in long nacelles",
+      "Nacelles extend far behind the wing and house the main landing gear"
+    ],
+    "fuselage": [
+      "Slender fuselage with a long pointed nose and small oval windows",
+      "The -300 is noticeably longer than the -100/-200",
+      "Passenger door at the rear left"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin",
+      "Dorsal fillet at the fin root"
+    ]
+  },
+  "tellTales": [
+    "High-wing regional turboprop with a T-tail and very long engine nacelles",
+    "Main landing gear folds into the engine nacelles",
+    "Long pointed nose and slender fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-8-q400",
+      "howToTell": "The Q400 is much longer with six-blade propellers and a bigger tail; the 100/200/300 are shorter with three- or four-blade props."
+    },
+    {
+      "id": "atr",
+      "howToTell": "The ATR's landing gear folds into blisters on the fuselage and its nacelles are shorter; the Dash 8's gear folds into the long engine nacelles."
+    },
+    {
+      "id": "emb-120",
+      "howToTell": "The EMB-120 has a low wing; the Dash 8 has a high wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "De Havilland Canada DHC-8-100",
+    "De Havilland Canada DHC-8-200",
+    "De Havilland Canada DHC-8-300"
+  ],
+  "usCount": {
+    "value": 29,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1386002",
+    "1390007",
+    "2809007",
+    "2809020"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "global",
+  "name": "Bombardier Global series",
+  "shortName": "Global",
+  "aka": [
+    "Global Express",
+    "Global Express XRS",
+    "Global 5000",
+    "Global 5500",
+    "Global 6000",
+    "Global 6500",
+    "Global 7500",
+    "Global 8000",
+    "BD-700",
+    "E-11A"
+  ],
+  "manufacturer": "Bombardier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1996,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Global Express / XRS",
+    "Global 5000 / 5500",
+    "Global 6000 / 6500",
+    "Global 7500 / 8000",
+    "E-11A BACN (small USAF fleet)"
+  ],
+  "summary": "Bombardier's large-cabin, ultra-long-range jets; a few serve the USAF as the E-11A communications relay aircraft.",
+  "weft": {
+    "wings": [
+      "Low wing with strong sweep and blended upturned winglets"
+    ],
+    "engines": [
+      "Two Rolls-Royce BR710 or Pearl turbofans in long nacelles mounted well aft on the rear fuselage"
+    ],
+    "fuselage": [
+      "Very long, slim fuselage with many rounded-rectangle windows",
+      "Long pointed nose",
+      "Global 7500/8000 is especially long"
+    ],
+    "tail": [
+      "Tall T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Very long, slim fuselage with a row of rounded-rectangle windows",
+    "Tall T-tail with engines set far back near the tail",
+    "Strongly swept wing with blended winglets"
+  ],
+  "confusedWith": [
+    {
+      "id": "g650",
+      "howToTell": "The Global has rounded-rectangle windows; the G650/G700 has large oval windows."
+    },
+    {
+      "id": "g550",
+      "howToTell": "The Global has rounded-rectangle windows and a longer fuselage; the GIV/G550 has oval windows."
+    },
+    {
+      "id": "challenger-600",
+      "howToTell": "The Global is much longer and slimmer; the Challenger 600-series is short and fat."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Bombardier Global 5000",
+    "Bombardier Global Express on final approach",
+    "Bombardier Global 7500"
+  ],
+  "usCount": {
+    "value": 580,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390006",
+    "1390022",
+    "1390052"
+  ]
+}

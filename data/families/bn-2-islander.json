@@ -1,0 +1,91 @@
+{
+  "id": "bn-2-islander",
+  "name": "Britten-Norman BN-2 Islander",
+  "shortName": "Islander",
+  "aka": [
+    "BN-2A",
+    "BN-2B",
+    "Defender",
+    "BN-2T Turbine Islander"
+  ],
+  "manufacturer": "Britten-Norman",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility",
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "BN-2 / BN-2A",
+    "BN-2B (current production)",
+    "BN-2T Turbine Islander (turboprop)",
+    "Defender (military)"
+  ],
+  "summary": "Rugged British light utility twin built since 1965, a workhorse for island and bush airlines and for freight and survey work.",
+  "weft": {
+    "wings": [
+      "High, untapered rectangular wing with no struts",
+      "Some versions carry tip tanks"
+    ],
+    "engines": [
+      "Two piston engines on the wing leading edge, set well out from the fuselage",
+      "Two- or three-blade props"
+    ],
+    "fuselage": [
+      "Boxy, slab-sided rectangular-section cabin with large windows",
+      "Fixed tricycle gear on short legs",
+      "Long, bulbous baggage nose on later versions"
+    ],
+    "tail": [
+      "Tall, straight-edged fin and rudder",
+      "Plain constant-chord horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Boxy, slab-sided cabin under a straight, strut-free high wing",
+    "Fixed landing gear with engines set far out on the wing",
+    "Tall, plain, straight-edged tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-6",
+      "howToTell": "The Twin Otter has turboprops, a strut-braced wing and a much longer pointed nose; the Islander has piston engines and no wing struts."
+    },
+    {
+      "id": "tecnam-p2012",
+      "howToTell": "The P2012 is newer and smoother with round windows and a swept fin; the Islander is boxy with square windows and a straight-edged tail."
+    },
+    {
+      "id": "partenavia-p68",
+      "howToTell": "The P.68 is slimmer with a long pointed nose; the Islander is blockier with a rectangular cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Britten-Norman Islander"
+  ],
+  "usCount": {
+    "value": 55,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1520204",
+    "1520209",
+    "1520210",
+    "1520220",
+    "1520226",
+    "1520227",
+    "1520350",
+    "7080220",
+    "7080221",
+    "7090120"
+  ]
+}

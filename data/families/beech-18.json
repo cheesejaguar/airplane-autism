@@ -1,0 +1,95 @@
+{
+  "id": "beech-18",
+  "name": "Beechcraft Model 18",
+  "shortName": "Beech 18",
+  "aka": [
+    "Twin Beech",
+    "C-45 Expeditor",
+    "SNB",
+    "AT-11 Kansan"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "C18S / D18S / E18S / G18S / H18",
+    "C-45 Expeditor / SNB (military)",
+    "AT-11 Kansan",
+    "Volpar tricycle and turboprop conversions"
+  ],
+  "summary": "Twin-radial light transport built 1937–1970, used as a military trainer/transport, airliner and freighter; many fly as vintage aircraft.",
+  "weft": {
+    "wings": [
+      "Low wing with tapered outer panels"
+    ],
+    "engines": [
+      "Two round radial engines in short nacelles",
+      "Two-blade props"
+    ],
+    "fuselage": [
+      "Tailwheel gear; sits nose-high on the ground",
+      "Streamlined fuselage with a row of round-cornered windows",
+      "Short rounded nose"
+    ],
+    "tail": [
+      "Twin oval fins and rudders at the ends of the horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Twin radial engines with twin oval tail fins",
+    "Taildragger stance with the nose pointing up",
+    "Compact, streamlined fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "b-25",
+      "howToTell": "The B-25 is much larger with a shoulder-mounted gull wing, tricycle gear and a glazed or gun nose; the Beech 18 is a low-wing taildragger."
+    },
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 is far larger with a single tall fin; the Beech 18 has twin oval fins."
+    },
+    {
+      "id": "cessna-t-50",
+      "howToTell": "The Bobcat is smaller with a single rounded fin and a long glazed canopy; the Beech 18 has twin oval fins."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Beechcraft Model 18",
+    "Beechcraft C-45"
+  ],
+  "usCount": {
+    "value": 264,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1150202",
+    "1150902",
+    "1150904",
+    "1150911",
+    "1151004",
+    "1151006",
+    "1151008",
+    "1151010",
+    "1151012",
+    "1151014",
+    "1151018",
+    "1151019",
+    "1151021",
+    "1151022",
+    "1151040",
+    "1151044"
+  ]
+}

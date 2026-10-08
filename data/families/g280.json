@@ -1,0 +1,85 @@
+{
+  "id": "g280",
+  "name": "Gulfstream G280",
+  "shortName": "G280",
+  "aka": [
+    "Gulfstream G250",
+    "IAI G280"
+  ],
+  "manufacturer": "Gulfstream Aerospace / Israel Aerospace Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 2009,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "G280"
+  ],
+  "summary": "Super-midsize Gulfstream built with IAI in Israel; the smallest jet in the current Gulfstream line.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets"
+    ],
+    "engines": [
+      "Two Honeywell HTF7250G turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Large oval windows on a medium-length fuselage",
+      "Long pointed nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin and swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Large oval windows on a medium-size twinjet with a T-tail",
+    "Upturned winglets on a swept wing",
+    "Long pointed nose and fairly slim fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "challenger-300",
+      "howToTell": "The G280 has big oval windows; the Challenger 300/350 has rounded-rectangle windows."
+    },
+    {
+      "id": "g550",
+      "howToTell": "The G280 is much smaller with fewer oval windows and HTF7250G engines; the GIV/G550 is a long-range large jet with a much longer fuselage."
+    },
+    {
+      "id": "praetor",
+      "howToTell": "The G280 has oval windows; the Praetor/Legacy 500 has rounded-rectangle windows."
+    },
+    {
+      "id": "citation-latitude",
+      "howToTell": "The G280 has oval windows on a slimmer fuselage; the Latitude/Longitude has rounded-rectangle windows on a fatter, rounder body."
+    },
+    {
+      "id": "g200",
+      "howToTell": "The G200 is the shorter, older design with smaller winglets; the G280 is longer with taller, more prominent winglets."
+    },
+    {
+      "id": "hawker-4000",
+      "howToTell": "The Hawker 4000 has plain wingtips; the G280 has large winglets."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Gulfstream G280"
+  ],
+  "usCount": {
+    "value": 268,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3980211",
+    "3980218",
+    "4500314"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "air-tractor",
+  "name": "Air Tractor AT-400/500/800",
+  "shortName": "Air Tractor",
+  "aka": [
+    "AT-502",
+    "AT-602",
+    "AT-802",
+    "Fire Boss"
+  ],
+  "manufacturer": "Air Tractor",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "turboprop"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "AT-401 (radial piston)",
+    "AT-402 / AT-502 (PT6)",
+    "AT-504 two-seat trainer",
+    "AT-602",
+    "AT-802 / AT-802A (incl. Fire Boss amphibious firefighter)"
+  ],
+  "summary": "The dominant US family of single-engine agricultural and firefighting aircraft, mostly turboprop-powered.",
+  "weft": {
+    "wings": [
+      "Long, straight constant-chord low wing with squared tips",
+      "Spray booms along the trailing edge"
+    ],
+    "engines": [
+      "Long turboprop nose with exhaust stacks (radial on the oldest piston versions)",
+      "Three- or four-blade prop"
+    ],
+    "fuselage": [
+      "Large chemical hopper ahead of the cockpit",
+      "Single-seat (some two-seat) enclosed cockpit set high behind the hopper",
+      "Fixed tailwheel gear with spring-steel main legs"
+    ],
+    "tail": [
+      "Tall angular fin with a large rudder",
+      "Wire-cutter cable from cockpit roof to the fin"
+    ]
+  },
+  "tellTales": [
+    "Single-engine low-wing taildragger with a hopper in front of a high-set cockpit",
+    "Spray booms along the wing trailing edge",
+    "Long turboprop nose with exhaust stacks"
+  ],
+  "confusedWith": [
+    {
+      "id": "thrush",
+      "howToTell": "The Air Tractor usually shows a longer, higher-aspect-ratio wing and a leaner look; the Thrush appears shorter and stockier with a tall, boxy multi-pane cockpit canopy."
+    },
+    {
+      "id": "pa-25",
+      "howToTell": "The Air Tractor is a large cantilever monoplane with a radial or turbine nose; the Pawnee is a small strut-braced monoplane with a flat engine."
+    },
+    {
+      "id": "c188",
+      "howToTell": "The Air Tractor is bigger, cantilever and radial or turbine powered; the Cessna 188 is a small strut-braced low-wing with a flat engine."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Air Tractor is a monoplane; the Ag-Cat is a biplane."
+    },
+    {
+      "id": "pa-36",
+      "howToTell": "The Air Tractor is bigger and heavier, with a taller cockpit and usually a radial or turbine nose; the PA-36 is a slimmer flat-engine piston plane."
+    },
+    {
+      "id": "pzl-m-18",
+      "howToTell": "The Air Tractor has a taller cockpit and usually a turbine or smaller radial; the PZL M-18 has a large round radial cowl and a long glazed cockpit."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Air Tractor AT-802",
+    "Air Tractor AT-502",
+    "Air Tractor AT-802 in flight"
+  ],
+  "usCount": {
+    "value": 1670,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0390103",
+    "0390202",
+    "0390203",
+    "0390204",
+    "0390205",
+    "0390206",
+    "0390207",
+    "0390208",
+    "0390302",
+    "0390303",
+    "0390305",
+    "0390306",
+    "0390307",
+    "0390308",
+    "0390309",
+    "0390310"
+  ]
+}

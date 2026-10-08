@@ -1,0 +1,79 @@
+{
+  "id": "pilatus-p3",
+  "name": "Pilatus P-3",
+  "shortName": "Pilatus P-3",
+  "aka": [
+    "P-3",
+    "P3"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1953,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P-3-03",
+    "P-3-05"
+  ],
+  "summary": "Swiss tandem two-seat primary trainer of the 1950s with a flat-six piston engine and retractable gear, the forerunner of the PC-7, flown by the Swiss Air Force and now by private owners.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing with squared tips",
+      "Clean laminar-flow shape with no tip tanks"
+    ],
+    "engines": [
+      "Single six-cylinder flat engine in a smooth cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Tandem seats under a long sliding canopy",
+      "Retractable tricycle landing gear",
+      "Slim fuselage with a pronounced dorsal line behind the canopy"
+    ],
+    "tail": [
+      "Rounded fin and rudder",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim tandem two-seater with a long sliding canopy and retractable nose-wheel gear",
+    "Smooth flat-six cowl and a straight tapered low wing with no tip tanks",
+    "Looks like a piston-powered forerunner of the Pilatus turboprops"
+  ],
+  "confusedWith": [
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has permanent wingtip tanks and a thinner fuselage; the P-3 has plain wingtips."
+    },
+    {
+      "id": "t-34",
+      "howToTell": "The T-34 has a different canopy, a higher stance and a heavier, more rounded fuselage; the P-3 is slimmer."
+    },
+    {
+      "id": "pc-7",
+      "howToTell": "The PC-7 has a turboprop nose with a chin scoop and a taller canopy; the P-3 has a smooth piston cowl."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Pilatus P-3 in flight"
+  ],
+  "usCount": {
+    "value": 22,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7090101",
+    "7090107",
+    "7090108"
+  ]
+}

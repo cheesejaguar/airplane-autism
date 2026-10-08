@@ -1,0 +1,112 @@
+{
+  "id": "c150",
+  "name": "Cessna 150/152",
+  "shortName": "C150/152",
+  "aka": [
+    "Cessna 150",
+    "Cessna 152",
+    "Aerobat"
+  ],
+  "manufacturer": "Cessna",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1957,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "150 / 150A–E (straight fin, 1959–65)",
+    "150F–150M (swept fin, 1966–77)",
+    "152 (1977–85)",
+    "A150 / A152 Aerobat"
+  ],
+  "summary": "Small two-seat high-wing trainer built in huge numbers from 1958 to 1985; still one of the most common primary trainers and rental aircraft in the US.",
+  "weft": {
+    "wings": [
+      "Strut-braced high wing, one lift strut per side",
+      "Constant-chord inner wing with tapered outer panels",
+      "Short span relative to four-seat look-alikes"
+    ],
+    "engines": [
+      "Single small flat-four in a short, narrow cowling",
+      "Two-blade fixed-pitch propeller with small spinner"
+    ],
+    "fuselage": [
+      "Tiny two-seat side-by-side cabin with a door each side",
+      "Fixed tricycle gear with spring-steel main legs",
+      "Short, stubby fuselage; nose wheel looks large for the airframe"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet on 1966+ models, straight fin on early ones",
+      "Conventional low-set horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing over a very small two-seat cabin",
+    "Short, stubby proportions — clearly smaller than four-seat high-wings",
+    "Fixed tricycle gear on spring-steel legs"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The 150/152 is visibly smaller and stubbier with a two-seat cabin; the 172 has a longer four-seat cabin and longer wing."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 is a low-wing composite with a T-tail and bubble canopy; the 150/152 is a strut-braced metal high-wing with a low tail."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Luscombe is a taildragger; the 150/152 sits on tricycle gear."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 150 sits on tricycle gear with a nosewheel; the 120/140 is a tailwheel aircraft with a nose-high stance and spring-steel gear legs."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Tomahawk is a low-wing with a T-tail."
+    },
+    {
+      "id": "beech-77",
+      "howToTell": "The 150 is a strut-braced high-wing with a conventional tail; the Skipper is a low-wing with a T-tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 150",
+    "Cessna 152"
+  ],
+  "usCount": {
+    "value": 9532,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2071802",
+    "2071804",
+    "2071806",
+    "2071808",
+    "2071810",
+    "2071812",
+    "2071814",
+    "2071816",
+    "2071818",
+    "2071820",
+    "2071822",
+    "2071824",
+    "2071826",
+    "2071828",
+    "2071830",
+    "2071831",
+    "2071835",
+    "2071836",
+    "7530132"
+  ]
+}

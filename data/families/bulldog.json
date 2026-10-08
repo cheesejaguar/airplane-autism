@@ -1,0 +1,84 @@
+{
+  "id": "bulldog",
+  "name": "Scottish Aviation Bulldog",
+  "shortName": "Bulldog",
+  "aka": [
+    "Bulldog T.1",
+    "Bulldog 120"
+  ],
+  "manufacturer": "Scottish Aviation (Beagle)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "aerobatic"
+  ],
+  "branches": [],
+  "firstFlight": 1969,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Bulldog Series 100 / 120 / 121",
+    "Bulldog T.1 (RAF)"
+  ],
+  "summary": "Scottish side-by-side aerobatic trainer derived from the Beagle Pup, used by the RAF and many air forces and now popular as a private sport and display airplane.",
+  "weft": {
+    "wings": [
+      "Low, tapered cantilever wing with squared tips",
+      "Small flaps"
+    ],
+    "engines": [
+      "Single four-cylinder Lycoming with a two-blade propeller",
+      "Short, snub nose"
+    ],
+    "fuselage": [
+      "Large one-piece sliding bubble canopy over side-by-side seats",
+      "Fixed tricycle gear with fairings",
+      "Short, compact fuselage"
+    ],
+    "tail": [
+      "Tall, sharply swept fin and rudder",
+      "Horizontal stabilizer mounted on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Huge bubble canopy over side-by-side seats on a stubby low-wing airplane",
+    "Tall swept fin and fixed tricycle gear with a short nose",
+    "Compact, almost cartoonish proportions"
+  ],
+  "confusedWith": [
+    {
+      "id": "dhc-1",
+      "howToTell": "The Chipmunk has tandem seats and a tailwheel; the Bulldog has side-by-side seats and a nose wheel."
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The P-Mentor has a modern composite look and wheel pants; the Bulldog has a much bigger, more bubble-like canopy and a tall, sharply swept fin."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 has retractable gear and tip tanks; the Bulldog has fixed gear and no tip tanks."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 is a rounder composite; the Bulldog is an angular metal airplane with a tall swept fin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Scottish Aviation Bulldog"
+  ],
+  "usCount": {
+    "value": 47,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8060103",
+    "8060105",
+    "8060106"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "falcon-2000",
+  "name": "Dassault Falcon 2000",
+  "shortName": "Falcon 2000",
+  "aka": [
+    "Falcon 2000EX",
+    "Falcon 2000DX",
+    "Falcon 2000LX",
+    "Falcon 2000S",
+    "Falcon 2000LXS"
+  ],
+  "manufacturer": "Dassault Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1993,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Falcon 2000",
+    "Falcon 2000EX / EASy / DX",
+    "Falcon 2000LX / S / LXS (winglets)"
+  ],
+  "summary": "Twin-engine derivative of the Falcon 900 with the same wide cabin cross-section, popular with US corporate and fractional (NetJets) fleets.",
+  "weft": {
+    "wings": [
+      "Low swept wing; blended winglets on the LX/S/LXS"
+    ],
+    "engines": [
+      "Two turbofans (CFE738 or PW308C) in pods on the rear fuselage",
+      "No third engine in the tail"
+    ],
+    "fuselage": [
+      "Wide fuselage with a long pointed nose and rounded-rectangle windows"
+    ],
+    "tail": [
+      "Cruciform tail: horizontal stabilizer partway up the swept fin, not on top",
+      "Clean fin root without an intake"
+    ]
+  },
+  "tellTales": [
+    "Tailplane set partway up the fin on a large twinjet",
+    "Clean fin root without any intake, only two engine pods",
+    "Wide fuselage with a long pointed nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "falcon-trijet",
+      "howToTell": "The Falcon 2000 has two engines and a clean fin root; the Falcon 50/900/7X/8X has a third engine with an intake at the base of the fin."
+    },
+    {
+      "id": "challenger-600",
+      "howToTell": "The Falcon 2000's tailplane is partway up the fin; the Challenger 600 has a T-tail."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Falcon 2000 is larger with rounded-rectangle windows; the Hawker 800 is smaller with oval windows and a big belly fairing."
+    },
+    {
+      "id": "falcon-20",
+      "howToTell": "The Falcon 20 is an older design with small round windows, plain wingtips and a low-set tailplane; the Falcon 2000 has oval windows and a cruciform tail."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Dassault Falcon 2000",
+    "Dassault Falcon 2000EX"
+  ],
+  "usCount": {
+    "value": 462,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2730012",
+    "2730110",
+    "2730170"
+  ]
+}

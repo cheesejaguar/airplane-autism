@@ -1,0 +1,101 @@
+{
+  "id": "shorts-360",
+  "name": "Shorts 330 / 360 / C-23 Sherpa",
+  "shortName": "Shorts 360",
+  "aka": [
+    "Short 330",
+    "Shorts 330",
+    "SD3-30",
+    "Short 360",
+    "SD3-60",
+    "C-23 Sherpa",
+    "C-23A",
+    "C-23B",
+    "C-23B+",
+    "Sherpa"
+  ],
+  "manufacturer": "Short Brothers",
+  "sector": "both",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional",
+    "cargo",
+    "transport"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "Shorts 330 / SD3-30",
+    "Shorts 360 / SD3-60",
+    "C-23A / C-23B Sherpa (military cargo variant of the 330)",
+    "C-23B+ (360-based; Army and National Guard)"
+  ],
+  "summary": "Boxy, slab-sided twin turboprop nicknamed 'the flying shoebox', used as a commuter, a freighter and by the US Army and National Guard as the C-23 Sherpa.",
+  "weft": {
+    "wings": [
+      "High, straight wing braced by a strut on each side",
+      "Wing sits atop a deep, rectangular fuselage"
+    ],
+    "engines": [
+      "Two PT6A turboprops in nacelles on top of the wing",
+      "Five- or six-blade propellers"
+    ],
+    "fuselage": [
+      "Extremely boxy, slab-sided rectangular fuselage with a flat belly and a rounded nose",
+      "Landing gear retracts into large blister sponsons on the lower sides",
+      "Sherpa has a rear cargo ramp"
+    ],
+    "tail": [
+      "330 / C-23A/B: twin fins and rudders like the Skyvan",
+      "360 / C-23B+: a single tall swept fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Boxy, slab-sided fuselage with a flat belly",
+    "High wing with a strut on each side and engines on top of the wing",
+    "Landing gear bulges (sponsons) on the lower fuselage sides"
+  ],
+  "confusedWith": [
+    {
+      "id": "short-skyvan",
+      "howToTell": "The Skyvan has fixed wheels in its sponsons, a blunter nose and a shorter fuselage; the 330/360 has retracting gear and a longer fuselage."
+    },
+    {
+      "id": "casa-212",
+      "howToTell": "The C-212 has an unbraced high wing with engines on the leading edge; the Shorts has wing struts and engines perched on top of the wing."
+    },
+    {
+      "id": "dornier-228",
+      "howToTell": "The Dornier 228 has a long pointed nose and no wing struts; the Shorts is a squared box with wing struts and a blunt nose."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Short 360",
+    "Short 330",
+    "C-23 Sherpa"
+  ],
+  "usCount": {
+    "value": 62,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8100602",
+    "8100605",
+    "8100606",
+    "8100607",
+    "8100633",
+    "8100636",
+    "8110101",
+    "8110102",
+    "8110608"
+  ]
+}

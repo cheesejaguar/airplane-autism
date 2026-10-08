@@ -1,0 +1,86 @@
+{
+  "id": "beech-17",
+  "name": "Beechcraft Staggerwing (Model 17)",
+  "shortName": "Staggerwing",
+  "aka": [
+    "Staggerwing",
+    "Beech 17",
+    "D17S",
+    "GB-2 Traveler",
+    "UC-43"
+  ],
+  "manufacturer": "Beech Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1932,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "A17F to G17S civil models",
+    "D17S (Wasp Junior, most common)",
+    "GB-1 / GB-2 Traveler (US Navy)",
+    "UC-43 Traveler (USAAF)",
+    "Model 17 variants with Jacobs, Wright or Wasp Junior engines"
+  ],
+  "summary": "1930s luxury cabin biplane with unmistakable negative stagger; fast and elegant, with about 785 built and a devoted survivor community.",
+  "weft": {
+    "wings": [
+      "Biplane with negative stagger: the lower wing sits ahead of the upper wing",
+      "Upper and lower wings are of similar size"
+    ],
+    "engines": [
+      "Single round radial engine under a smooth cowl",
+      "Two-blade or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Fully enclosed cabin with a steeply raked windscreen",
+      "Slim fabric-covered fuselage",
+      "Retractable main gear with a fixed tailwheel"
+    ],
+    "tail": [
+      "Single tall fin and rounded rudder with a tailwheel"
+    ]
+  },
+  "tellTales": [
+    "Biplane whose lower wing sits ahead of the upper wing",
+    "Enclosed cabin with a steeply raked windscreen under a biplane wing stack",
+    "Cowled radial and retractable main gear on a biplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "waco-cabin",
+      "howToTell": "The Waco cabin biplane has the upper wing forward, a small stub lower wing and fixed spatted gear; the Staggerwing has the lower wing forward and retractable gear."
+    },
+    {
+      "id": "stinson-reliant",
+      "howToTell": "The Reliant is a high-wing monoplane; the Staggerwing has two wings with the lower one forward."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Beechcraft Staggerwing",
+    "Beechcraft Staggerwing in flight"
+  ],
+  "usCount": {
+    "value": 178,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1150504",
+    "1150512",
+    "1150518",
+    "1150538",
+    "1150550",
+    "1150556",
+    "1150558",
+    "1150564"
+  ]
+}

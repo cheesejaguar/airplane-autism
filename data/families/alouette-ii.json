@@ -1,0 +1,81 @@
+{
+  "id": "alouette-ii",
+  "name": "Aérospatiale Alouette II / SA315B Lama",
+  "shortName": "Alouette II",
+  "aka": [
+    "SA318",
+    "SA315B Lama",
+    "Artouste",
+    "Lama"
+  ],
+  "manufacturer": "Sud Aviation / Aérospatiale",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1951,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "SE3130 Alouette II",
+    "SA318C Alouette II Astazou",
+    "SA315B Lama"
+  ],
+  "summary": "A classic French light turbine helicopter with an open-frame tail boom and bubble cockpit; the Lama variant holds high-altitude records.",
+  "weft": {
+    "wings": [
+      "Three-blade main rotor on a short mast"
+    ],
+    "engines": [
+      "Single turboshaft exposed on top behind the cabin",
+      "Engine and gearbox sit above the cabin, with no cowling on early versions"
+    ],
+    "fuselage": [
+      "Bubble cockpit with a bare frame of tubes behind the seats",
+      "Skids; open lattice structure behind the cabin"
+    ],
+    "tail": [
+      "Long open tubular lattice boom",
+      "Two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Bare open tubular tail boom behind a bubble cockpit",
+    "Turbine perched above the cabin on a tubular frame",
+    "Three-blade rotor and skids"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-47",
+      "howToTell": "The Bell 47 has a two-blade rotor and a stabilizer bar; the Alouette has three blades and a visible turbine on top."
+    },
+    {
+      "id": "hiller-uh-12",
+      "howToTell": "The Hiller has two blades with paddles and a piston engine; the Alouette has three blades and a turbine."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has an enclosed body and tail boom; the Alouette II has an open lattice behind the cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Aérospatiale SA 313/SA 318 Alouette II"
+  ],
+  "usCount": {
+    "value": 26,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680501",
+    "8680502",
+    "8680511",
+    "8680615"
+  ]
+}

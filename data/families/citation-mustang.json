@@ -1,0 +1,83 @@
+{
+  "id": "citation-mustang",
+  "name": "Cessna Citation Mustang",
+  "shortName": "Citation Mustang",
+  "aka": [
+    "Mustang",
+    "Model 510"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 2005,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "510 Citation Mustang"
+  ],
+  "summary": "Very light jet produced 2006-2017 (about 480 built), popular with owner-pilots and air-taxi operators.",
+  "weft": {
+    "wings": [
+      "Low, straight (unswept) wing without winglets"
+    ],
+    "engines": [
+      "Two small Pratt & Whitney Canada PW615F turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Very short fuselage with only a few small windows per side",
+      "Rounded nose with a small baggage compartment"
+    ],
+    "tail": [
+      "Tailplane mounted low on the tail cone with dihedral (not a T-tail)",
+      "Swept fin"
+    ]
+  },
+  "tellTales": [
+    "Tiny twinjet with its tailplane low on the tail cone, not on top of the fin",
+    "Straight unswept wing and only a handful of small windows",
+    "Two small engine pods on a very short rear fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "phenom-100",
+      "howToTell": "The Mustang's tailplane is low on the tail cone; the Phenom 100 has a T-tail and much larger windows."
+    },
+    {
+      "id": "hondajet",
+      "howToTell": "The Mustang's engines are on the rear fuselage; the HondaJet's engines sit on pylons on top of the wings."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The Mustang has a low-set tailplane with dihedral; the CJ/M2 has a T-tail."
+    },
+    {
+      "id": "citation-ii",
+      "howToTell": "The Mustang is far smaller with only a few windows; the Citation II/V is a longer jet with many more windows."
+    },
+    {
+      "id": "eclipse-500",
+      "howToTell": "The Eclipse 500 is stubbier with bulbous wingtip pods and tiny engines; the Mustang has plain wingtips and a longer cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna Citation Mustang",
+    "Cessna Citation Mustang take offs"
+  ],
+  "usCount": {
+    "value": 265,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2076617",
+    "2076627"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "aw139",
+  "name": "Leonardo AW139 / MH-139 Grey Wolf",
+  "shortName": "AW139",
+  "aka": [
+    "AB139",
+    "MH-139A Grey Wolf",
+    "Grey Wolf"
+  ],
+  "manufacturer": "Leonardo (AgustaWestland); MH-139 by Boeing",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "ems",
+    "search-rescue",
+    "vip",
+    "transport"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 2001,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AW139",
+    "MH-139A Grey Wolf (USAF)"
+  ],
+  "summary": "Medium twin used by US offshore, EMS, law-enforcement and VIP operators; the USAF's MH-139A Grey Wolf version guards ICBM fields and replaces the UH-1N.",
+  "weft": {
+    "wings": [
+      "Five-blade fully articulated main rotor"
+    ],
+    "engines": [
+      "Two engines side by side on the roof with exhausts angled outward at the back"
+    ],
+    "fuselage": [
+      "Long fuselage with a pointed nose and large rectangular cabin windows",
+      "Retractable tricycle gear, main wheels folding into side sponsons",
+      "Large sliding cabin doors",
+      "MH-139: gray USAF paint, FLIR ball and hoist"
+    ],
+    "tail": [
+      "Four-blade open tail rotor",
+      "Horizontal stabilizer near the base of the fin"
+    ]
+  },
+  "tellTales": [
+    "Five main rotor blades on a medium twin",
+    "Main wheels retract into stubby side sponsons",
+    "Long pointed nose and large rectangular cabin windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "aw109",
+      "howToTell": "The AW139 is bigger with five blades and sponsons; the AW109 is slim with four blades and no sponsons."
+    },
+    {
+      "id": "s-76",
+      "howToTell": "The S-76 has four blades and no sponsons; the AW139 has five blades and gear sponsons."
+    },
+    {
+      "id": "bell-412",
+      "howToTell": "The 412 has four blades on a boxy Huey cabin with skids; the AW139 has five blades and retractable wheels."
+    },
+    {
+      "id": "aw169",
+      "howToTell": "The AW169 is smaller and sleeker with smaller sponsons; the AW139 is larger and boxier."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "AgustaWestland AW139",
+    "AgustaWestland MH-139 Grey Wolf"
+  ],
+  "usCount": {
+    "value": 185,
+    "source": "FAA registry make/model inquiry (AW139/AB139) + 27 MH-139A delivered (Air & Space Forces / Boeing 2026)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "0260106",
+    "0260110",
+    "0260111",
+    "0260400",
+    "33601QG"
+  ]
+}

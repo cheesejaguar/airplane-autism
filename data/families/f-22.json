@@ -1,0 +1,73 @@
+{
+  "id": "f-22",
+  "name": "F-22 Raptor",
+  "shortName": "F-22",
+  "aka": [
+    "Raptor"
+  ],
+  "manufacturer": "Lockheed Martin / Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F-22A Block 30/35 (combat-coded)",
+    "F-22A Block 20 (training)"
+  ],
+  "summary": "Twin-engine stealth air-superiority fighter, the first operational fifth-generation fighter, flown only by the US Air Force.",
+  "weft": {
+    "wings": [
+      "Large diamond-shaped wing: swept leading edge with a forward-swept trailing edge",
+      "Mid-mounted, blending smoothly into the flat fuselage sides",
+      "Planform edges aligned with the tail surfaces for stealth"
+    ],
+    "engines": [
+      "Two engines with flat, rectangular two-dimensional thrust-vectoring nozzles",
+      "Large parallelogram-shaped intakes on each side, raked sharply back below the canopy"
+    ],
+    "fuselage": [
+      "Broad, flat-sided fuselage with a sharp chined nose",
+      "Large frameless bubble canopy, often gold-tinted",
+      "Internal weapons bays; normally no external stores"
+    ],
+    "tail": [
+      "Twin large vertical fins canted outward, set wide apart",
+      "Large diamond-shaped all-moving horizontal tails extending to the rear of the nozzles"
+    ]
+  },
+  "tellTales": [
+    "Flat, rectangular twin exhaust nozzles",
+    "Diamond-shaped wings and tails with matching angled edges",
+    "Large sharply raked intakes on both sides below a frameless canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-35",
+      "howToTell": "The F-22 is larger and flatter with two rectangular nozzles and diamond wings; the F-35 has a single round sawtooth nozzle and a fatter body."
+    },
+    {
+      "id": "f-15c",
+      "howToTell": "The F-22 has outward-canted fins, angular stealth edges and flat nozzles; the F-15 has upright fins, boxy intakes and round nozzles."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "F-22 Raptor in flight",
+    "Lockheed Martin F-22 Raptor"
+  ],
+  "usCount": {
+    "value": 184,
+    "source": "USAF FY2026 budget / Air & Space Forces Magazine",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

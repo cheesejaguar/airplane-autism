@@ -1,0 +1,82 @@
+{
+  "id": "rc-135",
+  "name": "RC-135 Rivet Joint (and variants)",
+  "shortName": "RC-135",
+  "aka": [
+    "Rivet Joint",
+    "Cobra Ball",
+    "Combat Sent",
+    "Constant Phoenix"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "isr"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "RC-135V/W Rivet Joint",
+    "RC-135S Cobra Ball",
+    "RC-135U Combat Sent",
+    "WC-135R Constant Phoenix",
+    "TC-135W (trainer)"
+  ],
+  "summary": "Family of four-engine reconnaissance aircraft built on the C-135 airframe, chiefly the RC-135V/W Rivet Joint signals-intelligence platform.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with dihedral, as on the KC-135",
+      "Cobra Ball has its right wing painted black"
+    ],
+    "engines": [
+      "Four high-bypass turbofans in fat nacelles on pylons"
+    ],
+    "fuselage": [
+      "Long 'hog nose' thimble radome extending ahead of the cockpit",
+      "Long bulged antenna fairings ('cheeks') along both sides of the forward fuselage",
+      "Rows of blade and wire antennas under the belly; no refueling boom at the tail"
+    ],
+    "tail": [
+      "Tall swept single fin, as on the KC-135",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Elongated thimble-shaped nose",
+    "Long bulged fairings along both sides of the forward fuselage",
+    "Rows of small blade antennas under the belly"
+  ],
+  "confusedWith": [
+    {
+      "id": "kc-135",
+      "howToTell": "The RC-135 has a long thimble nose, cheek fairings and belly antennas with no boom; the KC-135 has a plain nose and a refueling boom under the tail."
+    },
+    {
+      "id": "e-6",
+      "howToTell": "The RC-135 has a thimble nose and cheek fairings; the E-6 is longer with wingtip pods and a plain nose."
+    },
+    {
+      "id": "e-3",
+      "howToTell": "The RC-135 has cheek fairings and no radar disc; the E-3 carries a large rotating disc on struts above the fuselage."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing RC-135W Rivet Joint",
+    "Boeing RC-135V Rivet Joint",
+    "Boeing RC-135"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "USAF RC-135V/W, RC-135S, RC-135U and WC-135 fact sheets",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

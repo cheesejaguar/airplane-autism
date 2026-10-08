@@ -1,0 +1,122 @@
+{
+  "id": "aeronca-champ",
+  "name": "Aeronca 7 Champ",
+  "shortName": "Champ",
+  "aka": [
+    "Champion",
+    "7AC",
+    "L-16"
+  ],
+  "manufacturer": "Aeronca / Champion Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1944,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "7AC Champion",
+    "7BCM / L-16A",
+    "7CCM / L-16B",
+    "7DC",
+    "7EC Traveler"
+  ],
+  "summary": "Postwar tandem two-seat fabric taildragger, a popular trainer and the ancestor of the Citabria.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts",
+      "Rectangular wing with rounded tips"
+    ],
+    "engines": [
+      "Small flat-four, often with cylinder heads exposed",
+      "Two-blade wooden prop"
+    ],
+    "fuselage": [
+      "Tandem two-seat cabin with a large, greenhouse-like window area",
+      "Deep, rounded forward fuselage tapering sharply to the tail",
+      "Tailwheel gear with oleo/spring main legs"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Deep, rounded forward fuselage with lots of window area on a small tandem taildragger",
+    "Rounded fin and rudder",
+    "Fuselage underside sweeps up steeply toward the tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Cub has a slimmer, boxier fuselage with less glazing; the Champ's forward fuselage is deeper and rounder with more windows."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria has a squared-off tail and squared wingtips; the Champ's tail and tips are rounded."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Luscombe is all-metal with side-by-side seats; the Champ is fabric-covered with tandem seats."
+    },
+    {
+      "id": "aeronca-tandem",
+      "howToTell": "The Champ is a post-war design with a lower cabin and a slim fuselage; the wartime L-3/O-58 has a taller greenhouse, wider glazing and a rounded-looking tail."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The Champ is a tandem fabric aircraft; the 120/140 is a side-by-side all-metal fuselage with fabric wings (or metal on the 140A) and spring-steel gear."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Champ seats two in tandem in a long narrow cabin; the Chief seats two side by side in a deeper, rounder cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aeronca Champion",
+    "Aeronca 7AC Champion"
+  ],
+  "usCount": {
+    "value": 2940,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1220438",
+    "2110102",
+    "2110104",
+    "2110106",
+    "2110108",
+    "2110110",
+    "2110113",
+    "2110114",
+    "2110116",
+    "2110117",
+    "2110120",
+    "2110124",
+    "2110140",
+    "2110144",
+    "2110145",
+    "2110148",
+    "2110151",
+    "2110154",
+    "2110158",
+    "2110162",
+    "21101MA",
+    "21101ML",
+    "21101MW",
+    "21101NB",
+    "21101NL",
+    "21101NM",
+    "21101NX",
+    "2120001",
+    "2120002",
+    "2120004"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "bell-214",
+  "name": "Bell 214",
+  "shortName": "Bell 214",
+  "aka": [
+    "214B BigLifter",
+    "214ST",
+    "Super Transport"
+  ],
+  "manufacturer": "Bell Helicopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "utility",
+    "transport",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1970,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Bell 214B / 214B-1 BigLifter",
+    "Bell 214ST Super Transport"
+  ],
+  "summary": "A heavy Bell utility helicopter derived from the Huey: a single-engine BigLifter and a larger twin-engine Super Transport, used for logging, firefighting and offshore work.",
+  "weft": {
+    "wings": [
+      "Very wide-chord two-blade main rotor on both versions",
+      "No stabilizer bar above the rotor head, unlike a Huey"
+    ],
+    "engines": [
+      "Single turbine with one large exhaust duct on the older version; twin exhausts on the larger twin",
+      "Big engine hump on the roof"
+    ],
+    "fuselage": [
+      "Big boxy Huey-like cabin with large sliding doors",
+      "Skids on tall legs; the twin is bulkier and longer"
+    ],
+    "tail": [
+      "Tall boom with a large vertical fin and a two-blade tail rotor",
+      "Horizontal stabilizer on the boom"
+    ]
+  },
+  "tellTales": [
+    "Oversized Huey-like body with no stabilizer bar above the rotor head",
+    "Very wide-chord two-blade rotor over a big engine hump",
+    "One large exhaust duct on the roof, or a bulkier twin-exhaust version, on skids"
+  ],
+  "confusedWith": [
+    {
+      "id": "uh-1",
+      "howToTell": "A Huey has a stabilizer bar above the head and a slimmer body; the 214 has wide-chord blades with no bar and a bigger engine hump."
+    },
+    {
+      "id": "bell-412",
+      "howToTell": "The 412 is smaller and rounder with a four-blade rotor; the 214 keeps a two-blade rotor and is larger and bulkier."
+    },
+    {
+      "id": "bell-222",
+      "howToTell": "The 222/430 have a sleek swept nose and smooth cowling; the 214 is a boxy utility machine."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bell 214",
+    "Bell 214ST",
+    "Bell 214A/C Isfahan"
+  ],
+  "usCount": {
+    "value": 25,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1182105",
+    "1182106"
+  ]
+}

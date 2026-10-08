@@ -1,0 +1,85 @@
+{
+  "id": "brunner-winkle-bird",
+  "name": "Brunner-Winkle Bird",
+  "shortName": "Bird biplane",
+  "aka": [
+    "Bird",
+    "Bird A",
+    "Bird BK",
+    "Bird CK",
+    "Brunner-Winkle Bird"
+  ],
+  "manufacturer": "Brunner-Winkle Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Bird A (OX-5)",
+    "Bird B / BK (Kinner K-5)",
+    "Bird C / CK (Kinner)"
+  ],
+  "summary": "Late-1920s New York three-seat sport and joyriding biplane known for easy handling; a rare antique today.",
+  "weft": {
+    "wings": [
+      "Staggered single-bay biplane with external struts and wire bracing",
+      "Upper wing is much larger than the lower wing (about twice the area)"
+    ],
+    "engines": [
+      "Kinner K-5 radial, usually uncowled with exposed cylinders (early model had a water-cooled OX-5 V-8)",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Open cockpits seating three, with the pilot behind two passengers",
+      "Forward fuselage skinned in metal, aft fabric-covered",
+      "Fixed tailskid gear"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Biplane whose upper wing is much larger than the lower wing",
+    "Rare three-seat open-cockpit 1920s biplane with an exposed radial",
+    "Metal-skinned forward fuselage on a biplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "waco-10",
+      "howToTell": "The Waco 10 has wings of similar size and an all-fabric fuselage; the Bird has an upper wing about twice the area of the lower and a metal-skinned forward fuselage."
+    },
+    {
+      "id": "travel-air-2000",
+      "howToTell": "The Travel Air has big overhanging balanced ailerons; the Bird has conventional ailerons."
+    },
+    {
+      "id": "fleet-biplane",
+      "howToTell": "The Fleet is a two-seater with tandem cockpits; the Bird seats three."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Brunner-Winkle Bird",
+    "Brunner-Winkle Bird A",
+    "Bird BK"
+  ],
+  "usCount": {
+    "value": 32,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6840102",
+    "6840106",
+    "6840112",
+    "6840126",
+    "6840132"
+  ]
+}

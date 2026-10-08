@@ -1,0 +1,84 @@
+{
+  "id": "piper-j4",
+  "name": "Piper J-4 Cub Coupe",
+  "shortName": "Cub Coupe",
+  "aka": [
+    "Cub Coupe",
+    "J-4A",
+    "J-4E"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1938,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "J-4 (50 hp)",
+    "J-4A (65 hp, enclosed cowl)",
+    "J-4B / J-4E / J-4F (Franklin / Continental / Lycoming)"
+  ],
+  "summary": "Piper's first side-by-side design: a wider-fuselage Cub variant of 1938–42 with a fully enclosed rear deck.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Cub-style rounded tips"
+    ],
+    "engines": [
+      "Single small flat-four, cowled on later versions",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Wider fabric fuselage with side-by-side seating",
+      "Fully enclosed rear deck",
+      "Fixed gear with a tailwheel"
+    ],
+    "tail": [
+      "Rounded Cub-style fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Side-by-side two-seat cabin under a strut-braced high wing",
+    "Rounded, rolled-edge tail and a fully enclosed rear fuselage",
+    "Compact side-by-side cabin on a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Coupe seats two side by side in a wider fuselage; the J-3 seats two in tandem."
+    },
+    {
+      "id": "pa-15",
+      "howToTell": "The Coupe has the full-length Cub wing and a wider cabin; the Vagabond has a shorter wing."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Coupe has a Cub-style rounded tail and wing; the Taylorcraft has a different, narrower fuselage and a more angular cabin."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Coupe has a Cub wing and tail; the Chief has a deeper, rounder fuselage and its own tail shape."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Piper J-4"
+  ],
+  "usCount": {
+    "value": 179,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7100602",
+    "7100604",
+    "7100610",
+    "7100614"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "aerostar",
+  "name": "Piper/Ted Smith Aerostar",
+  "shortName": "Aerostar",
+  "aka": [
+    "Ted Smith Aerostar 600",
+    "Aerostar 601",
+    "Aerostar 601P",
+    "Aerostar 602P",
+    "Aerostar 700",
+    "PA-60"
+  ],
+  "manufacturer": "Ted Smith Aircraft / Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "600 / 601 (unpressurized)",
+    "601P / 602P (pressurized, turbocharged)",
+    "700P (geared engines)",
+    "PA-60-600 to PA-60-700P (Piper designations)"
+  ],
+  "summary": "Fast, sleek six-seat piston twin designed by Ted Smith and built 1968–1984, noted for its high wing loading and speed.",
+  "weft": {
+    "wings": [
+      "Short-span, narrow-chord wing set low-to-mid on the fuselage",
+      "Plain wingtips"
+    ],
+    "engines": [
+      "Slim nacelles that blend smoothly into the wing",
+      "Two- or three-blade props"
+    ],
+    "fuselage": [
+      "Long, slender fuselage with a sharply tapered nose and dark wraparound windscreen",
+      "Row of large rectangular side windows"
+    ],
+    "tail": [
+      "Tall swept fin with a curved, raked top",
+      "Horizontal tail set low on the aft fuselage"
+    ]
+  },
+  "tellTales": [
+    "Short, narrow wings on a long, slender fuselage",
+    "Sharply pointed nose with a dark wraparound windscreen",
+    "Tall, curved swept fin on a slim tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "baron",
+      "howToTell": "The Baron has a longer, tapered wing and a more traditional rounded fuselage; the Aerostar has short narrow wings and a long, slim pointed nose."
+    },
+    {
+      "id": "c340",
+      "howToTell": "The 340 has wingtip tanks (early models) and a portly fuselage with small round windows; the Aerostar has plain tips and large rectangular windows."
+    },
+    {
+      "id": "beech-60",
+      "howToTell": "The Duke has small rounded windows on a rounder fuselage with bigger props; the Aerostar has large rectangular windows and short, narrow wings."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper Aerostar"
+  ],
+  "usCount": {
+    "value": 397,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1710606",
+    "7106001",
+    "7106010",
+    "7106012",
+    "7106014",
+    "7106015",
+    "7106016",
+    "7106023",
+    "8360602",
+    "8360605",
+    "8360606",
+    "8360608"
+  ]
+}

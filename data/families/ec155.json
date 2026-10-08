@@ -1,0 +1,81 @@
+{
+  "id": "ec155",
+  "name": "Airbus EC155 / H155",
+  "shortName": "EC155",
+  "aka": [
+    "H155",
+    "Dauphin (large)"
+  ],
+  "manufacturer": "Eurocopter / Airbus Helicopters",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "vip",
+    "ems",
+    "utility",
+    "transport"
+  ],
+  "branches": [],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "EC155 B",
+    "EC155 B1",
+    "H155"
+  ],
+  "summary": "A stretched, upgraded Dauphin with a five-blade rotor, ducted tail fan and retractable gear; used offshore and for VIP transport.",
+  "weft": {
+    "wings": [
+      "Five-blade main rotor",
+      "Smooth mast fairing"
+    ],
+    "engines": [
+      "Twin turboshafts under the roof",
+      "Exhausts at the rear of the cowling"
+    ],
+    "fuselage": [
+      "Long glazed cabin, stretched compared to a Dauphin, with an extra side window",
+      "Retractable wheeled gear"
+    ],
+    "tail": [
+      "Fenestron (ducted fan) tail with a vertical fin",
+      "Swept horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Ducted tail fan on a big twin with retractable wheels",
+    "Five-blade rotor",
+    "Long cabin with large oval windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "as365",
+      "howToTell": "The Dauphin is shorter with a four-blade rotor; the EC155 has five blades and a longer cabin."
+    },
+    {
+      "id": "h160",
+      "howToTell": "The H160 has curved Blue Edge blade tips and a sleeker butterfly tail; the EC155 is boxier."
+    },
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 has a conventional tail rotor and bigger sponsons; the EC155 has a ducted fan."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Airbus Helicopters H155 Dauphin"
+  ],
+  "usCount": {
+    "value": 13,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1145101",
+    "8680991",
+    "8681000"
+  ]
+}

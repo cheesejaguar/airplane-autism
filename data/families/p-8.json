@@ -1,0 +1,71 @@
+{
+  "id": "p-8",
+  "name": "P-8 Poseidon",
+  "shortName": "P-8",
+  "aka": [
+    "Poseidon"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "maritime-patrol",
+    "isr"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 2009,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "P-8A"
+  ],
+  "summary": "Twin-jet maritime patrol and anti-submarine aircraft derived from the Boeing 737-800, replacing the P-3 Orion in Navy patrol squadrons.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with raked wingtips and no winglets",
+      "Underwing hardpoints for torpedoes and missiles"
+    ],
+    "engines": [
+      "Two high-bypass turbofans on pylons under the wing"
+    ],
+    "fuselage": [
+      "Narrowbody airliner fuselage in grey with only a few cabin windows",
+      "Retractable sensor turret under the forward belly",
+      "Weapons bay doors and antenna fairings along the belly"
+    ],
+    "tail": [
+      "Single swept fin with an extended dorsal fillet",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Raked, pointed wingtips with no winglets on a grey twin-jet narrowbody",
+    "Very few cabin windows",
+    "Small sensor turret under the forward belly"
+  ],
+  "confusedWith": [
+    {
+      "id": "b737ng",
+      "howToTell": "The P-8 is grey with raked wingtips, very few windows and belly sensors; the airliner has full rows of windows and usually upturned winglets."
+    },
+    {
+      "id": "kc-46",
+      "howToTell": "The P-8 is a smaller narrowbody with raked wingtips and no boom; the KC-46 is a widebody with a refueling boom and wing pods."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Boeing P-8 Poseidon in flight",
+    "Boeing P-8 Poseidon of United States Navy"
+  ],
+  "usCount": {
+    "value": 125,
+    "source": "US Navy P-8A fact file / FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

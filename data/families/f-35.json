@@ -1,0 +1,83 @@
+{
+  "id": "f-35",
+  "name": "F-35 Lightning II",
+  "shortName": "F-35",
+  "aka": [
+    "Lightning II",
+    "JSF"
+  ],
+  "manufacturer": "Lockheed Martin",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter",
+    "attack"
+  ],
+  "branches": [
+    "usaf",
+    "usn",
+    "usmc"
+  ],
+  "firstFlight": 2006,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F-35A (USAF, conventional takeoff, internal gun)",
+    "F-35B (USMC, short takeoff/vertical landing)",
+    "F-35C (USN/USMC carrier version, larger wing)"
+  ],
+  "summary": "Single-engine stealth multirole fighter flown in three versions by the Air Force, Marine Corps and Navy; now the most numerous US combat jet type.",
+  "weft": {
+    "wings": [
+      "Mid-mounted trapezoidal wing with swept leading edge and gently forward-swept trailing edge",
+      "Wing and tail edges all set at matching angles for stealth",
+      "F-35C has a visibly larger wing with folding outer panels"
+    ],
+    "engines": [
+      "Single engine with one large round nozzle whose edge is serrated (sawtooth)",
+      "Bump-type diverterless intakes on each side behind the cockpit, with no splitter plate",
+      "F-35B shows a large hinged lift-fan door on the spine behind the canopy when hovering"
+    ],
+    "fuselage": [
+      "Wide, deep fuselage with a chined nose and smooth stealth panels",
+      "One-piece canopy with no bow frame, blending into a humped spine",
+      "Weapons carried internally; usually a clean underside with sawtooth-edged bay doors"
+    ],
+    "tail": [
+      "Twin outward-canted vertical fins mounted on the sides of the rear fuselage",
+      "All-moving horizontal tails that extend aft past the exhaust nozzle"
+    ]
+  },
+  "tellTales": [
+    "Twin canted fins straddling a single sawtooth-edged exhaust",
+    "Bulged intakes on the fuselage sides with no gap or splitter plate",
+    "Bulky, wide-bodied fighter with no external weapons or pylons"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-22",
+      "howToTell": "The F-35 has one engine with a round nozzle and a much bulkier body; the F-22 is larger with two flat rectangular exhausts and wide-set fins."
+    },
+    {
+      "id": "f-16",
+      "howToTell": "The F-35 has twin canted fins and side intakes on a fat fuselage; the F-16 has a single fin and a chin intake under the nose."
+    },
+    {
+      "id": "fa-18ef",
+      "howToTell": "The F-35 has one engine and bump intakes with no pylons; the Super Hornet has two side-by-side exhausts, rectangular intakes under big LERX and usually carries external stores."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "F-35 Lightning II in flight",
+    "Lockheed Martin F-35 Lightning II"
+  ],
+  "usCount": {
+    "value": 750,
+    "source": "F-35 Joint Program Office deliveries / FlightGlobal World Air Forces 2026",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

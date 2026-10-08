@@ -1,0 +1,84 @@
+{
+  "id": "meyers-otw",
+  "name": "Meyers OTW / MAC-145",
+  "shortName": "Meyers OTW",
+  "aka": [
+    "OTW",
+    "OTW-145",
+    "OTW-160",
+    "MAC-145",
+    "Out To Win"
+  ],
+  "manufacturer": "Meyers Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1936,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "OTW-125 (Warner Scarab)",
+    "OTW-145 (Warner Super Scarab)",
+    "OTW-160 (Kinner R-5)",
+    "MAC-145 (later postwar designation)"
+  ],
+  "summary": "Compact 1930s civilian primary-training biplane built in the late 1930s and 1940s; about 100 were built and survivors still fly at airshows.",
+  "weft": {
+    "wings": [
+      "Compact, staggered single-bay biplane with fabric-covered wooden wings",
+      "Rounded wingtips and strut-and-wire bracing"
+    ],
+    "engines": [
+      "Small radial engine (Kinner R-5 or Warner Scarab)",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits",
+      "Welded-tube fuselage covered in fabric",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Compact tandem open-cockpit biplane with a small radial engine",
+    "Short, rounded wings with a single bay of struts",
+    "Slim fabric-covered fuselage and fixed tailwheel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "fleet-biplane",
+      "howToTell": "Both are small radial-powered tandem biplanes and easy to confuse; the Meyers is the later, more refined 1930s design while the Fleet has a plainer, usually uncowled-Kinner look."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger with a big uncowled radial; the Meyers is a small biplane with a small radial."
+    },
+    {
+      "id": "waco-f-series",
+      "howToTell": "The Waco has a wide front cockpit seating two; the Meyers has two narrow tandem cockpits."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Meyers OTW"
+  ],
+  "usCount": {
+    "value": 62,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5650104",
+    "5650202",
+    "5650206",
+    "5650208"
+  ]
+}

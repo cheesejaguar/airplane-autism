@@ -1,0 +1,81 @@
+{
+  "id": "ah-1-cobra",
+  "name": "Bell AH-1 Cobra (single-engine)",
+  "shortName": "AH-1 Cobra",
+  "aka": [
+    "AH-1G",
+    "AH-1F",
+    "AH-1S",
+    "TH-1"
+  ],
+  "manufacturer": "Bell Helicopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "attack"
+  ],
+  "branches": [],
+  "firstFlight": 1965,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AH-1G",
+    "AH-1S",
+    "AH-1F",
+    "TAH-1P"
+  ],
+  "summary": "The classic single-engine Cobra attack helicopter, now flown by a few warbird owners.",
+  "weft": {
+    "wings": [
+      "Two-blade rotor with a stabilizer bar above the head",
+      "Stub wings with weapon pylons"
+    ],
+    "engines": [
+      "Single turbine behind the cockpit",
+      "Exhaust at the rear, often with an infrared suppressor on the AH-1F"
+    ],
+    "fuselage": [
+      "Very narrow tandem cockpit with the gunner in front and the pilot higher behind",
+      "Chin turret or nose sight (trainers lack the turret)",
+      "Skids"
+    ],
+    "tail": [
+      "Slim tail boom",
+      "Tail rotor with a vertical fin and horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Very narrow tandem-seat attack helicopter",
+    "Stub wings with weapon pylons",
+    "Chin turret under the nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "ah-1z",
+      "howToTell": "The AH-1Z has four blades and twin engines; the single-engine Cobra has two blades and one engine."
+    },
+    {
+      "id": "ah-64",
+      "howToTell": "The Apache is larger, with twin engines and a four-blade rotor; the Cobra is slimmer with two blades."
+    },
+    {
+      "id": "uh-1",
+      "howToTell": "The Huey has a wide cabin and no stub wings; the Cobra is a narrow tandem attack ship."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "AH-1 Cobra"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1181513",
+    "1181906"
+  ]
+}

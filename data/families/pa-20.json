@@ -1,0 +1,82 @@
+{
+  "id": "pa-20",
+  "name": "Piper PA-16 Clipper / PA-20 Pacer",
+  "shortName": "Pacer",
+  "aka": [
+    "Pacer",
+    "PA-16 Clipper"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-16 Clipper (two-seat, shorter fuselage)",
+    "PA-20-115 / -125 / -135 Pacer (four-seat)"
+  ],
+  "summary": "Tailwheel four-seat 'short-wing Piper' of 1949–54: the Pacer is the conventional-gear forerunner of the Tri-Pacer, with the same short rectangular wing and boxy fabric fuselage. The PA-16 Clipper is a shorter two-seat version.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Short, rectangular constant-chord wing with rounded tips"
+    ],
+    "engines": [
+      "Single flat-four in a short cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Boxy, slab-sided fabric fuselage",
+      "Four-seat cabin (two-seat Clipper)",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Tall, squared fin and rudder on a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Short rectangular high wing on a boxy fabric fuselage with a tailwheel",
+    "Squared, tall tail on a stubby, nose-high airplane",
+    "Strut-braced high wing with a deep, four-window cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-22",
+      "howToTell": "The Pacer sits on a tailwheel; the Tri-Pacer is the same airframe with a nosewheel."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The Pacer has a short, rectangular fabric wing and a boxy fuselage; the 170 has a longer wing with tapered outer panels and a rounded, metal fuselage."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The Pacer is a deeper four-seat cabin with a short, stubby wing; the Super Cub is a tandem two-seater with a longer, narrower wing."
+    },
+    {
+      "id": "stinson-108",
+      "howToTell": "The Pacer has a short wing and a squared tail; the Stinson 108 has a longer wing and a large, curved tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-20 Pacer",
+    "Piper PA-16 Clipper"
+  ],
+  "usCount": {
+    "value": 575,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7101602",
+    "7102002",
+    "7102010"
+  ]
+}

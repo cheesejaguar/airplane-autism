@@ -1,0 +1,86 @@
+{
+  "id": "bucker-jungmann",
+  "name": "Bücker Bü 131 Jungmann / CASA 1.131",
+  "shortName": "Jungmann",
+  "aka": [
+    "Bü 131",
+    "Jungmann",
+    "CASA 1.131",
+    "C.A.S.A. 1.131E",
+    "Bu 131"
+  ],
+  "manufacturer": "Bücker Flugzeugbau / CASA",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "warbird"
+  ],
+  "branches": [],
+  "firstFlight": 1934,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Bü 131A (Hirth HM 60R)",
+    "Bü 131B (Hirth HM 504)",
+    "CASA 1.131E (ENMA Tigre)",
+    "Many other licence-built versions"
+  ],
+  "summary": "Compact German 1930s trainer biplane that is also a favourite sport aerobatic type; licence-built in Spain, Czechoslovakia, Switzerland and elsewhere.",
+  "weft": {
+    "wings": [
+      "Swept-back, staggered biplane wings of near-equal span",
+      "Ailerons on both upper and lower wings"
+    ],
+    "engines": [
+      "Inverted inline four-cylinder Hirth or Tigre engine with a neat metal-covered nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two open cockpits in tandem",
+      "Metal-covered front fuselage with fabric aft",
+      "Fixed gear with spring tailwheel"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Compact swept-wing biplane with ailerons on all four wing panels",
+    "Neat inline-engine nose with two tandem open cockpits",
+    "Short, stubby rounded fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "dh-82",
+      "howToTell": "The Tiger Moth has lower-wing ailerons only; the Jungmann has ailerons on both upper and lower wings and a stubbier, smoother nose."
+    },
+    {
+      "id": "stampe-sv4",
+      "howToTell": "The Jungmann has visibly swept-back wings; the Stampe wings look straighter with little sweep."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is much larger with a radial engine; the Jungmann is a small, light inline-engine biplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bücker Bü 131",
+    "CASA 1.131 Jungmann"
+  ],
+  "usCount": {
+    "value": 36,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1590114",
+    "1590115",
+    "1590118",
+    "2410100",
+    "2410101"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "t-45",
+  "name": "T-45 Goshawk",
+  "shortName": "T-45",
+  "aka": [
+    "Goshawk"
+  ],
+  "manufacturer": "McDonnell Douglas / Boeing / BAE Systems",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "trainer"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1988,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "T-45C"
+  ],
+  "summary": "Carrier-capable single-engine jet trainer derived from the BAE Hawk, used for Navy and Marine Corps strike pilot training.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with moderate sweep",
+      "Full-span leading-edge slats for slow carrier approaches"
+    ],
+    "engines": [
+      "Single jet engine",
+      "Small semicircular intakes on the fuselage sides just ahead of the wing root"
+    ],
+    "fuselage": [
+      "Stepped tandem two-seat cockpit under a large canopy",
+      "Strong carrier landing gear and tailhook",
+      "White and orange Navy training colors"
+    ],
+    "tail": [
+      "Single swept vertical fin",
+      "All-moving horizontal tail with marked anhedral (droop)",
+      "Small fins on the rear fuselage just ahead of the tailplane"
+    ]
+  },
+  "tellTales": [
+    "White and orange carrier trainer with a stepped tandem canopy",
+    "Single fin with a low tailplane drooping downward",
+    "Small intakes on the fuselage sides above the wing root"
+  ],
+  "confusedWith": [
+    {
+      "id": "t-38",
+      "howToTell": "The T-45 has one engine, a deeper fuselage and a drooping tailplane; the T-38 has two engines and a needle nose on a waisted body."
+    },
+    {
+      "id": "l-39",
+      "howToTell": "The T-45 has a single swept fin with drooping tailplane and swept wings; the L-39 has straight wings with tip tanks and intakes set further back."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "McDonnell Douglas T-45 Goshawk in flight",
+    "McDonnell Douglas T-45 Goshawk"
+  ],
+  "usCount": {
+    "value": 190,
+    "source": "FlightGlobal World Air Forces 2026 / NAVAIR",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

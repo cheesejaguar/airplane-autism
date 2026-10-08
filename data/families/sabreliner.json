@@ -1,0 +1,88 @@
+{
+  "id": "sabreliner",
+  "name": "North American Sabreliner",
+  "shortName": "Sabreliner",
+  "aka": [
+    "T-39",
+    "NA-265",
+    "Sabre 40",
+    "Sabre 60",
+    "Sabre 65"
+  ],
+  "manufacturer": "North American Aviation (Rockwell)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer",
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1958,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "T-39A / B / D (USAF/USN trainer)",
+    "Sabre 40 / 60 (turbojet)",
+    "Sabre 65 (CF700 turbofan)",
+    "Sabre 75 / 80"
+  ],
+  "summary": "North American business jet designed for the T-39 military trainer program, using a thin swept wing and tail resembling the F-86 Sabre; many ex-military examples remain in private service.",
+  "weft": {
+    "wings": [
+      "Thin swept wing at mid-height",
+      "Wing and tail styled after the F-86"
+    ],
+    "engines": [
+      "Two engines mounted on the rear fuselage with short fairings",
+      "Round intakes ahead of each engine pod"
+    ],
+    "fuselage": [
+      "Sleek, narrow fuselage with a pointed nose and small oval windows",
+      "Tricycle gear",
+      "Tapering rear fuselage carrying the engine pods"
+    ],
+    "tail": [
+      "Swept fin with a conventional low-set tailplane",
+      "Distinctive sharp tail sweep reminiscent of the F-86"
+    ]
+  },
+  "tellTales": [
+    "Swept-wing business jet with rear-mounted engines and a conventional (non-T) tail",
+    "Thin, sharply swept wing and tail that look like a scaled-up fighter",
+    "Small oval windows on a narrow fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "learjet-35",
+      "howToTell": "The Learjet has wingtip tanks and delta fins under the tail; the Sabreliner has a thicker, more swept wing and no tip tanks."
+    },
+    {
+      "id": "hawker-800",
+      "howToTell": "The Hawker has a longer, rounder fuselage with a ventral fin and larger windows; the Sabreliner has a narrow fuselage with small oval windows."
+    },
+    {
+      "id": "citation-ii",
+      "howToTell": "The Citation has a straight wing, T-tail and engines on the rear fuselage; the Sabreliner has a swept wing and a conventional tail."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has straight wings with tip tanks; the Sabreliner has swept wings with no tip tanks."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "North American Sabreliner"
+  ],
+  "usCount": {
+    "value": 27,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7630106",
+    "7630107"
+  ]
+}

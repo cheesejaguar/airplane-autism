@@ -1,0 +1,125 @@
+{
+  "id": "c172",
+  "name": "Cessna 172 Skyhawk",
+  "shortName": "C172",
+  "aka": [
+    "Skyhawk",
+    "Cutlass",
+    "Hawk XP"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1955,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "172 / 172A (straight fin, 1956–59)",
+    "172B–172P (swept fin)",
+    "172R / 172S Skyhawk SP",
+    "172RG Cutlass (retractable)",
+    "R172K Hawk XP"
+  ],
+  "summary": "Four-seat high-wing single and the most-produced aircraft in history; the default US flight-school and rental airplane.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single lift strut per side",
+      "Constant-chord inboard section with tapered outer panels",
+      "Slight dihedral"
+    ],
+    "engines": [
+      "Single flat-four in a slim, compact cowling",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Four-seat cabin with one door per side and rear side windows",
+      "Fixed tricycle gear with spring-steel mains, often with wheel fairings",
+      "Wraparound rear window on post-1963 models"
+    ],
+    "tail": [
+      "Swept fin with long dorsal fillet (straight fin on 1956–59 models)",
+      "Conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing over a four-seat cabin on fixed tricycle gear",
+    "Slim nose with a narrow cowl and two-blade prop",
+    "Swept fin with a long dorsal fillet"
+  ],
+  "confusedWith": [
+    {
+      "id": "c182",
+      "howToTell": "The 172 has a slimmer nose, smaller cowl and usually a two-blade prop; the 182 has a deeper, blunter cowling, larger spinner and often a three-blade prop."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 172 is larger with a four-seat cabin and longer wing; the 150/152 is a stubby two-seater."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The 172 is a strut-braced high-wing; the PA-28 is a low-wing with no struts."
+    },
+    {
+      "id": "c177",
+      "howToTell": "The 172 has a lift strut under each wing and a conventional horizontal tail; the 177 Cardinal has a strutless cantilever wing, a steeply raked windshield and a one-piece stabilator."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The 172 has a nosewheel; the 170 is the tailwheel version, with flat spring-steel main gear and a nose-high ground stance."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 172 is a four-seater on tricycle gear; the 120/140 is a short two-seater on a tailwheel."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 172 in flight",
+    "Cessna 172"
+  ],
+  "usCount": {
+    "value": 21693,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2072202",
+    "2072401",
+    "2072402",
+    "2072404",
+    "2072406",
+    "2072408",
+    "2072410",
+    "2072412",
+    "2072413",
+    "2072414",
+    "2072417",
+    "2072418",
+    "2072420",
+    "2072421",
+    "2072424",
+    "2072426",
+    "2072430",
+    "2072431",
+    "2072432",
+    "2072434",
+    "2072436",
+    "2072437",
+    "2072438",
+    "2072439",
+    "2072449",
+    "2072502",
+    "2072504",
+    "2072506",
+    "2072508",
+    "7530137",
+    "7530206"
+  ]
+}

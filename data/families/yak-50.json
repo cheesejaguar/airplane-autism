@@ -1,0 +1,74 @@
+{
+  "id": "yak-50",
+  "name": "Yakovlev Yak-50",
+  "shortName": "Yak-50",
+  "aka": [
+    "Yak-50"
+  ],
+  "manufacturer": "Yakovlev Design Bureau",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "warbird"
+  ],
+  "branches": [],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Yak-50 (M-14P, 360 hp)",
+    "Yak-50 with M-14PF / M-14R variants"
+  ],
+  "summary": "Single-seat Soviet aerobatic trainer and competition type derived from the Yak-18; 314 built and twice world aerobatic champion.",
+  "weft": {
+    "wings": [
+      "All-metal low-set monoplane wing with fabric-covered control surfaces",
+      "No flaps"
+    ],
+    "engines": [
+      "Nine-cylinder Vedeneyev M-14P radial under a rounded cowl with a reduction gearbox",
+      "Two- or three-blade propeller"
+    ],
+    "fuselage": [
+      "Single seat under a sliding bubble canopy",
+      "Retractable main wheels; tailwheel stays exposed"
+    ],
+    "tail": [
+      "Fin and rudder with an exposed tailwheel"
+    ]
+  },
+  "tellTales": [
+    "Single-seat low-wing radial monoplane with retractable main wheels",
+    "Rounded radial cowl and sliding canopy on a tailwheel aircraft",
+    "Exposed tailwheel with tucked-up main gear in flight"
+  ],
+  "confusedWith": [
+    {
+      "id": "yak-52",
+      "howToTell": "The Yak-52 has two seats and a retractable tricycle undercarriage; the Yak-50 is a single-seat taildragger."
+    },
+    {
+      "id": "yak-55",
+      "howToTell": "The Yak-55 has fixed gear and a mid-set wing; the Yak-50 has a low wing and retractable main wheels."
+    },
+    {
+      "id": "sukhoi-su-26",
+      "howToTell": "The Su-26 has fixed spring gear and a mid-set wing; the Yak-50 has a low wing and retractable mains."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Yakovlev Yak-50"
+  ],
+  "usCount": {
+    "value": 32,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9830110"
+  ]
+}

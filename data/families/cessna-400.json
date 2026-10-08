@@ -1,0 +1,92 @@
+{
+  "id": "cessna-400",
+  "name": "Cessna 350/400 Corvalis",
+  "shortName": "Corvalis",
+  "aka": [
+    "Columbia 350",
+    "Columbia 400",
+    "Corvalis TT",
+    "TTx"
+  ],
+  "manufacturer": "Cessna / Columbia Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2003,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Columbia 350 / Cessna 350 (normally aspirated)",
+    "Columbia 400 / Cessna 400 (turbocharged)",
+    "Cessna T240 Corvalis TTx (turbocharged)"
+  ],
+  "summary": "Composite four-seat low-wing from Columbia Aircraft, later Cessna, descended from the Lancair ES; it is among the fastest fixed-gear piston singles.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts",
+      "Smooth composite wing with a long, tapered planform"
+    ],
+    "engines": [
+      "Single flat-six in a sleek, tapered cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Sleek composite fuselage with a low, wide-cabin profile",
+      "Fixed tricycle gear with streamlined fairings"
+    ],
+    "tail": [
+      "Swept fin and rudder",
+      "Conventional horizontal stabilizer and elevator"
+    ]
+  },
+  "tellTales": [
+    "Slippery low-wing with fixed gear in streamlined fairings",
+    "Low, wide, sleek cabin with a swept tail",
+    "Long, tapered nose with a constant-speed prop"
+  ],
+  "confusedWith": [
+    {
+      "id": "cirrus-sr",
+      "howToTell": "The Corvalis has no parachute hatch behind the cabin and a smoother, more sloping windshield; the SR series shows its CAPS cover on the rear deck."
+    },
+    {
+      "id": "da40",
+      "howToTell": "The Corvalis has a conventional tail and a wide closed cabin; the DA40 has a T-tail and a bubble canopy."
+    },
+    {
+      "id": "tecnam-p2010",
+      "howToTell": "The Corvalis is a low-wing with fixed gear in fairings; the P2010 is a high-wing."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Corvalis is a wide composite aircraft with a swept tail; the M20 has a narrow cabin and a forward-swept fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Columbia 400",
+    "Cessna 350"
+  ],
+  "usCount": {
+    "value": 777,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2073320",
+    "2073321",
+    "2073323",
+    "2073460",
+    "2073461",
+    "5150000",
+    "5150001",
+    "5150002",
+    "5150011",
+    "5150012"
+  ]
+}

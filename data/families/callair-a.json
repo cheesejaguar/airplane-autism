@@ -1,0 +1,90 @@
+{
+  "id": "callair-a",
+  "name": "Callair A-series",
+  "shortName": "Callair A",
+  "aka": [
+    "Callair A-2",
+    "A-3",
+    "A-4",
+    "A-5",
+    "A-6"
+  ],
+  "manufacturer": "Call Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "agricultural",
+    "utility",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model A / A-1 (prototype)",
+    "A-2 (two-seat cabin tourer)",
+    "A-4 (three-seat, converted for ag work)",
+    "A-5 (production ag plane)",
+    "A-6"
+  ],
+  "summary": "Wyoming-built cabin tourer that evolved into one of the first purpose-built crop dusters. It is unusual for combining a braced low wing, a tailwheel and a fabric cabin.",
+  "weft": {
+    "wings": [
+      "Low wing braced to the fuselage by struts on each side",
+      "Fabric-covered wing"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a simple cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Fabric-covered tube fuselage with a two- to three-seat cabin; ag versions have a hopper",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder",
+      "Horizontal tail on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced low wing on a tailwheel airplane, which is rare",
+    "Fabric-covered cabin or ag airframe with struts under each wing",
+    "Older piston low-wing duster with a flat-engine nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "callair-a9",
+      "howToTell": "The A-9 is the later single-seat hopper airplane with a bigger flat-six; the A-series are the earlier two- to three-seat cabin and early ag variants."
+    },
+    {
+      "id": "pa-25",
+      "howToTell": "The Pawnee is a similar strut-braced low-wing ag plane with a Piper-style tail and a single-seat raised cockpit; the A-series often keeps a cabin."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 140 is a high-wing; this is a low-wing with struts below the wing."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "CallAir A-2",
+    "Callair A-4"
+  ],
+  "usCount": {
+    "value": 44,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1850104",
+    "1850106",
+    "1850108",
+    "1850110",
+    "1850114",
+    "1850120",
+    "4570620"
+  ]
+}

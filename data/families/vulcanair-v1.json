@@ -1,0 +1,74 @@
+{
+  "id": "vulcanair-v1",
+  "name": "Vulcanair V1.0",
+  "shortName": "V1.0",
+  "aka": [
+    "V1.0",
+    "Vulcanair V1"
+  ],
+  "manufacturer": "Vulcanair",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 2012,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "V1.0 (Lycoming IO-360-M1A, 180 hp)"
+  ],
+  "summary": "Italian four-seat trainer and tourer, derived from the Partenavia P.64 Oscar and built to compete head-on with the Cessna 172.",
+  "weft": {
+    "wings": [
+      "High wing braced by a strut on each side",
+      "Rectangular, constant-chord planform"
+    ],
+    "engines": [
+      "Single Lycoming flat-four (180 hp) in a smooth cowl",
+      "Two-blade or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Four-seat cabin with two front doors and a third door on the right rear",
+      "Fixed tricycle gear with wheel fairings"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat strut-braced high-wing with a rectangular, untapered wing",
+    "Fixed tricycle gear with wheel fairings",
+    "Extra door on the right rear of the cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The 172 has tapered outer wing panels and only two doors; the V1.0 has a constant-chord rectangular wing and a rear right door."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The 182 has a bigger cowl and a three-blade propeller; the V1.0 has a smaller cowl and a rectangular wing."
+    },
+    {
+      "id": "symphony-sa160",
+      "howToTell": "The SA160 is a two-seater with a glossy composite body; the V1.0 is a four-seater with a rectangular wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Vulcanair V1.0"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6780115"
+  ]
+}

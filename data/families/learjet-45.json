@@ -1,0 +1,90 @@
+{
+  "id": "learjet-45",
+  "name": "Learjet 40/45/70/75",
+  "shortName": "Learjet 45",
+  "aka": [
+    "Learjet 40",
+    "Learjet 40XR",
+    "Learjet 45",
+    "Learjet 45XR",
+    "Learjet 70",
+    "Learjet 75",
+    "Learjet 75 Liberty"
+  ],
+  "manufacturer": "Bombardier Learjet",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "Learjet 40 / 40XR (short body)",
+    "Learjet 45 / 45XR",
+    "Learjet 70",
+    "Learjet 75 / 75 Liberty (blended winglets)"
+  ],
+  "summary": "Last generation of Learjets (production ended 2022), widely used for charter and corporate travel in the US.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets (blended on the 70/75)",
+      "No tip tanks"
+    ],
+    "engines": [
+      "Two Honeywell TFE731-20/40 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Slim fuselage with a long pointed nose and moderate-size windows",
+      "Two small ventral delta fins under the tail"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin"
+    ]
+  },
+  "tellTales": [
+    "Pair of small ventral fins forming a V under the tail",
+    "Winglets on a sleek twinjet with a long pointed nose",
+    "T-tail on a tall swept fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "learjet-35",
+      "howToTell": "The 40/45/70/75 is larger with winglets; the 35/36 has wingtip fuel tanks and the 31 is smaller with smaller windows."
+    },
+    {
+      "id": "phenom-300",
+      "howToTell": "The Learjet 45/75 has a long pointed nose, smaller windows and ventral fins; the Phenom 300 has very large windows and a rounded nose."
+    },
+    {
+      "id": "beechjet-400",
+      "howToTell": "The Learjet 45 has winglets and ventral fins; the Beechjet/Hawker 400 has plain wingtips."
+    },
+    {
+      "id": "citation-cj",
+      "howToTell": "The Learjet 45 has winglets and a swept wing; the CJ series has plain wingtips on a straight wing."
+    },
+    {
+      "id": "learjet-55",
+      "howToTell": "The Learjet 55/60 has a shorter, stubbier wing with small winglets and a boxier cabin; the 45 has a longer-span wing with larger winglets and a more tapered fuselage."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Learjet 45",
+    "Learjet 40",
+    "Learjet 75"
+  ],
+  "usCount": {
+    "value": 363,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5170805"
+  ]
+}

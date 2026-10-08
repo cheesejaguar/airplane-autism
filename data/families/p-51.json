@@ -1,0 +1,89 @@
+{
+  "id": "p-51",
+  "name": "P-51 Mustang",
+  "shortName": "P-51",
+  "aka": [
+    "Mustang",
+    "TF-51D",
+    "Cavalier Mustang"
+  ],
+  "manufacturer": "North American Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P-51A",
+    "P-51B / C (framed 'razorback' canopy)",
+    "P-51D / K (bubble canopy)",
+    "TF-51D two-seat",
+    "Cavalier Mustang"
+  ],
+  "summary": "Iconic WWII long-range escort fighter with a Merlin V-12; the most numerous fighter warbird flying in the US.",
+  "weft": {
+    "wings": [
+      "Low, laminar-flow wing with a straight leading edge and squared tips",
+      "Wide-track inward-retracting main gear"
+    ],
+    "engines": [
+      "Liquid-cooled inline V-12 with a long pointed nose",
+      "Four-blade propeller (three on early versions)",
+      "Large radiator scoop under the belly behind the cockpit"
+    ],
+    "fuselage": [
+      "Bubble canopy (D/K) or framed canopy with a razorback rear deck (B/C)",
+      "Slender fuselage on tailwheel gear"
+    ],
+    "tail": [
+      "Fin with dorsal fillet on the D model",
+      "Squared-off horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Big air scoop under the belly behind the cockpit",
+    "Long pointed inline-engine nose with a four-blade prop",
+    "Bubble canopy on a slim single-seat fighter"
+  ],
+  "confusedWith": [
+    {
+      "id": "p-40",
+      "howToTell": "The P-40's radiator scoop is under the nose right behind the prop; the P-51's scoop is under the belly behind the cockpit."
+    },
+    {
+      "id": "t-28",
+      "howToTell": "The T-28 has a round radial nose and tricycle gear; the P-51 has a pointed inline nose and a tailwheel."
+    },
+    {
+      "id": "sea-fury",
+      "howToTell": "The Sea Fury has a big radial nose with a smooth round cowl and a five-blade propeller; the Mustang has a pointed inline nose and a belly scoop."
+    },
+    {
+      "id": "p-47",
+      "howToTell": "The Thunderbolt is much bigger with a barrel-shaped fuselage, a round radial nose and an oval chin intake; the Mustang is slim with a pointed inline nose and a belly scoop."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "North American P-51 Mustang in flight",
+    "North American P-51D Mustang"
+  ],
+  "usCount": {
+    "value": 130,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6402302",
+    "6402304",
+    "6402309",
+    "6402319"
+  ]
+}

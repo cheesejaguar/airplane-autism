@@ -1,0 +1,72 @@
+{
+  "id": "republic-rc-3",
+  "name": "Republic RC-3 Seabee",
+  "shortName": "Seabee",
+  "aka": [
+    "Seabee",
+    "RC-3",
+    "Spencer Air Car"
+  ],
+  "manufacturer": "Republic Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "RC-3 Seabee (215 hp Franklin)",
+    "RC-3-1",
+    "Aftermarket Lycoming / Continental conversions"
+  ],
+  "summary": "All-metal four-seat amphibian with a high wing and pusher engine mounted above and behind the cabin; built in 1946–47 and still popular with amphibian owners.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Fixed wing-tip floats"
+    ],
+    "engines": [
+      "Single pusher engine mounted above and behind the cabin",
+      "Two-blade pusher propeller"
+    ],
+    "fuselage": [
+      "Boat hull with a step",
+      "Egg-shaped cabin with a large windshield",
+      "Retractable tricycle gear into the hull"
+    ],
+    "tail": [
+      "Single fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Amphibian hull with a pusher engine above the cabin",
+    "Strut-braced high wing with tip floats",
+    "Egg-shaped cabin and a compact, single tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "lake-la-4",
+      "howToTell": "The Seabee has a lift strut each side and a lower engine tucked behind the cabin; the Lake has a strutless wing, a taller pylon-mounted engine and a T-tail."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Republic Seabee"
+  ],
+  "usCount": {
+    "value": 125,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3080202",
+    "3080203",
+    "3080204"
+  ]
+}

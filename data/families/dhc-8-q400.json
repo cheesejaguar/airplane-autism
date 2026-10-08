@@ -1,0 +1,75 @@
+{
+  "id": "dhc-8-q400",
+  "name": "DHC-8 Q400",
+  "shortName": "Q400",
+  "aka": [
+    "Dash 8 Q400",
+    "DHC-8-400",
+    "Dash 8-400",
+    "Q400",
+    "Q400 NextGen"
+  ],
+  "manufacturer": "de Havilland Canada / Bombardier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "turboprop",
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1998,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "DHC-8-400 / Q400",
+    "Q400 NextGen",
+    "Q400 airtanker conversions"
+  ],
+  "summary": "The largest and fastest Dash 8, a 70- to 90-seat regional turboprop with six-blade propellers and a T-tail.",
+  "weft": {
+    "wings": [
+      "High, straight wing with a slight taper"
+    ],
+    "engines": [
+      "Two PW150A turboprops with six-blade propellers",
+      "Long nacelles extend well behind the wing and house the main gear"
+    ],
+    "fuselage": [
+      "Long, slender fuselage with a long pointed nose",
+      "Rows of small oval windows"
+    ],
+    "tail": [
+      "T-tail with a tall swept fin",
+      "Dorsal fillet"
+    ]
+  },
+  "tellTales": [
+    "High-wing turboprop with six-blade props and very long engine nacelles",
+    "Very long, slim fuselage with a T-tail",
+    "Main gear folds into the engine nacelles"
+  ],
+  "confusedWith": [
+    {
+      "id": "atr",
+      "howToTell": "The ATR 72 has a shorter, stubbier fuselage with landing gear in fuselage blisters; the Q400 has a much longer fuselage and long nacelles housing the gear."
+    },
+    {
+      "id": "dhc-8",
+      "howToTell": "The earlier Dash 8s are shorter, with smaller propellers; the Q400 is much longer and has six-blade props."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "De Havilland Canada DHC-8-400"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390042"
+  ]
+}

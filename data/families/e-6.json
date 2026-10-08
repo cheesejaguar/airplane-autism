@@ -1,0 +1,74 @@
+{
+  "id": "e-6",
+  "name": "E-6B Mercury",
+  "shortName": "E-6B",
+  "aka": [
+    "Mercury",
+    "TACAMO"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "utility"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1987,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "E-6B"
+  ],
+  "summary": "Four-engine airborne command post and strategic communications relay (TACAMO) based on the Boeing 707-320, linking national command to ballistic-missile submarines and bombers.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with dihedral",
+      "Elongated pods at the wingtips (electronic and antenna pods)"
+    ],
+    "engines": [
+      "Four high-bypass turbofans in fat nacelles on pylons"
+    ],
+    "fuselage": [
+      "Long narrowbody airliner fuselage with few windows",
+      "Usually white upper fuselage over grey",
+      "Fairings under the belly for trailing-wire antennas; no refueling boom"
+    ],
+    "tail": [
+      "Tall swept single fin",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-engine narrowbody with pods on the wingtips",
+    "White-topped Navy jet with no refueling boom and no radar disc",
+    "Small fairings under the belly for trailing antennas"
+  ],
+  "confusedWith": [
+    {
+      "id": "kc-135",
+      "howToTell": "The E-6 has wingtip pods, no boom and a longer fuselage; the KC-135 has plain wingtips and a refueling boom."
+    },
+    {
+      "id": "e-3",
+      "howToTell": "The E-6 has wingtip pods and no radar disc; the E-3 carries a large disc on struts above the rear fuselage."
+    },
+    {
+      "id": "rc-135",
+      "howToTell": "The E-6 has wingtip pods and a plain nose; the RC-135 has a thimble nose and cheek fairings."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Boeing E-6"
+  ],
+  "usCount": {
+    "value": 16,
+    "source": "US Navy E-6B fact file",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

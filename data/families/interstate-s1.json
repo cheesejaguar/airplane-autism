@@ -1,0 +1,80 @@
+{
+  "id": "interstate-s1",
+  "name": "Interstate S-1 Cadet",
+  "shortName": "Interstate S-1",
+  "aka": [
+    "Interstate Cadet",
+    "S-1A",
+    "S-1B",
+    "Arctic Tern"
+  ],
+  "manufacturer": "Interstate Aircraft / Arctic Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "S-1A Cadet (65–90 hp Franklin)",
+    "S-1B1 / S-1B2 (150 hp; Arctic Tern bush version)",
+    "L-6 Grasshopper (military)"
+  ],
+  "summary": "Tandem two-seat, strut-braced high-wing taildragger of wood-and-fabric construction with robust oleo-spring gear; the S-1B2 became the Arctic Tern bush plane.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Wooden wing structure with fabric covering"
+    ],
+    "engines": [
+      "Single flat-four in a rounded cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Tandem two-seat cabin",
+      "Welded steel-tube fabric fuselage",
+      "Sturdy oleo / spring main gear with a tailwheel"
+    ],
+    "tail": [
+      "Conventional fin and rudder on a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Tandem two-seat high-wing taildragger with sturdy oleo main gear",
+    "Strut-braced wing over a rounded fabric fuselage",
+    "Cub-like layout with a more robust undercarriage"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The Interstate has sturdier oleo-sprung main gear; the Cub's gear is light and bungee-sprung."
+    },
+    {
+      "id": "pa-11",
+      "howToTell": "Both are tandem Cub-like taildraggers; the Interstate has heavier oleo gear and a more robust build."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Interstate Cadet"
+  ],
+  "usCount": {
+    "value": 111,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0790208",
+    "1850202",
+    "1850204",
+    "1850208",
+    "1850302",
+    "1850303"
+  ]
+}

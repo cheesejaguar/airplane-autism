@@ -1,0 +1,94 @@
+{
+  "id": "aeronca-tandem",
+  "name": "Aeronca 65-T Defender / O-58 / L-3 Grasshopper",
+  "shortName": "Aeronca L-3",
+  "aka": [
+    "L-3 Grasshopper",
+    "O-58",
+    "65-TC Defender",
+    "Aeronca Defender"
+  ],
+  "manufacturer": "Aeronca Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1938,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Aeronca 65-TC / 65-TF Defender",
+    "O-58 / O-58A / O-58B",
+    "L-3B / L-3C",
+    "L-3E / L-3F"
+  ],
+  "summary": "Tiny two-seat tandem liaison and artillery-spotting airplane derived from the prewar Aeronca Defender, flown by the US Army as the O-58 and L-3 Grasshopper; the common ex-military L-3 survivors are now privately owned sport airplanes.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut on each side",
+      "Wide-chord rectangular wing with rounded tips",
+      "Fabric-covered wing with a simple, flap-free outline"
+    ],
+    "engines": [
+      "Single small flat-four with a two-blade fixed-pitch propeller",
+      "Plain rounded cowl with the cylinder heads showing on some examples"
+    ],
+    "fuselage": [
+      "Two seats in tandem under a large greenhouse with a big glazed rear window",
+      "Deep, fabric-covered, tapering rear fuselage",
+      "Fixed tailwheel gear on simple spring struts"
+    ],
+    "tail": [
+      "Rounded fin and rudder with a gentle curve",
+      "Rounded horizontal tail, unbraced or lightly braced"
+    ]
+  },
+  "tellTales": [
+    "Tandem two-seater with a deep, heavily glazed greenhouse behind the wing",
+    "Tiny high-wing airplane with a rounded tail and a short, stubby cowl",
+    "Single wing strut each side with a wide-chord, rectangular wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has a lower, more cockpit-hugging cabin with a slim fuselage, while the Defender-based L-3 has a taller greenhouse that flows into a deeper rear fuselage."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Cub has a narrow, flat-sided fuselage with a small cabin and a squared-off tail; the L-3 has a deeper, heavily glazed cabin and a rounded tail."
+    },
+    {
+      "id": "stinson-l-5",
+      "howToTell": "The L-5 is a much bigger, sleeker airplane with a six-cylinder cowl and a long sloping rear window; the L-3 is tiny with a short stubby nose."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Taylorcraft is side-by-side with a sharply tapered rear fuselage; the L-3 seats two in tandem."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aeronca L-3 Grasshopper"
+  ],
+  "usCount": {
+    "value": 238,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0190902",
+    "0190906",
+    "0190908",
+    "0190910",
+    "0190918",
+    "0191002",
+    "0191006",
+    "0191008",
+    "0191010"
+  ]
+}

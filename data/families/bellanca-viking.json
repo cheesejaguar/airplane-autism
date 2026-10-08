@@ -1,0 +1,86 @@
+{
+  "id": "bellanca-viking",
+  "name": "Bellanca Viking / Super Viking 17-30/31",
+  "shortName": "Viking",
+  "aka": [
+    "Super Viking",
+    "Bellanca 260",
+    "17-30A",
+    "17-31A Turbo Viking"
+  ],
+  "manufacturer": "Bellanca Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1967,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "17-30 / 17-30A Viking (300 hp)",
+    "17-31 / 17-31A Turbo Viking",
+    "17-31ATC Super Viking (turbo, 300 hp)"
+  ],
+  "summary": "Fast four-seat, low-wing retractable-gear tourer from the 1960s–70s, descended from the Cruisair line and recognized by its large vertical fin.",
+  "weft": {
+    "wings": [
+      "Low wing, no struts",
+      "Long, straight, tapered wing"
+    ],
+    "engines": [
+      "Single six-cylinder Continental in a long cowl",
+      "Constant-speed propeller on a pointed spinner"
+    ],
+    "fuselage": [
+      "Slim four-seat cabin with a streamlined, sloping nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Oversized, tall vertical fin with a rounded top",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing four-seater with a tall, oversized fin",
+    "Slim, sloping nose with a retractable tricycle gear",
+    "Long, clean wing with no struts"
+  ],
+  "confusedWith": [
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The Viking has a much larger, taller fin and a slimmer cabin; the A36 has a shorter fin and a deeper cabin with a big rear cargo door."
+    },
+    {
+      "id": "bonanza-v35",
+      "howToTell": "The Viking has a single tall vertical fin and a normal horizontal tail; the V35 has a V-tail."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Viking's fin is tall and swept back; the Mooney's tail is forward-swept with a small cabin."
+    },
+    {
+      "id": "commander-112",
+      "howToTell": "The Viking has a very tall fin and slim fuselage; the Commander 112/114 has a bulkier, deeper cabin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bellanca Viking"
+  ],
+  "usCount": {
+    "value": 605,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1220432",
+    "1220433",
+    "1220434",
+    "1220435",
+    "1220437"
+  ]
+}

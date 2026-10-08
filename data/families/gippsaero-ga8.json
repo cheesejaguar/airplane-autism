@@ -1,0 +1,86 @@
+{
+  "id": "gippsaero-ga8",
+  "name": "GippsAero GA8 Airvan",
+  "shortName": "GA8 Airvan",
+  "aka": [
+    "Airvan",
+    "Airvan 8",
+    "Mahindra Airvan 8",
+    "GA8-TC 320"
+  ],
+  "manufacturer": "GippsAero (Mahindra Aerospace)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "GA8 Airvan (Lycoming IO-540, 300 hp)",
+    "GA8-TC 320 Airvan (turbocharged, 320 hp)",
+    "GA8 floatplane"
+  ],
+  "summary": "Australian eight-seat utility single built for remote strips: tourist flights, freight, parachuting and survey. A big, boxy high-wing with fixed tricycle gear.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single strut on each side",
+      "Long straight wing with big flaps"
+    ],
+    "engines": [
+      "Single Lycoming flat-six in a blunt cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Very large, slab-sided cabin with long rectangular side windows",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "Tall, straight-edged fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Huge slab-sided cabin that looks like a flying van",
+    "Single strut each side on a high wing, fixed tricycle gear",
+    "Long rectangular windows and a blunt flat-six nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "c206",
+      "howToTell": "The 206 is smaller with a shorter cabin and a lower body; the Airvan has a much taller, longer, boxier fuselage."
+    },
+    {
+      "id": "c208",
+      "howToTell": "The Caravan has a turboprop's long tapered nose with exhaust stubs; the Airvan has a short, blunt piston cowl."
+    },
+    {
+      "id": "kodiak",
+      "howToTell": "The Kodiak has a turbine nose and a big three-blade propeller; the Airvan has a flat-six cowl and a smaller prop."
+    },
+    {
+      "id": "pa-32",
+      "howToTell": "The PA-32 is a low-wing; the Airvan is a boxy strut-braced high-wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Gippsland GA8"
+  ],
+  "usCount": {
+    "value": 41,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0563295",
+    "3900102",
+    "3900105",
+    "3900110"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "bell-407",
+  "name": "Bell 407",
+  "shortName": "Bell 407",
+  "aka": [
+    "407GX",
+    "407GXi",
+    "407GXP"
+  ],
+  "manufacturer": "Bell",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 1,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "407",
+    "407GX",
+    "407GXP",
+    "407GXi",
+    "407HP conversions"
+  ],
+  "summary": "Four-blade development of the LongRanger and a mainstay of US air medical, law enforcement, tour and utility operators.",
+  "weft": {
+    "wings": [
+      "Four-blade soft-in-plane main rotor with a composite hub"
+    ],
+    "engines": [
+      "Single turbine on the roof with an exhaust stack angled up and aft",
+      "Engine cowling slightly bulkier than the 206's"
+    ],
+    "fuselage": [
+      "LongRanger-style stretched cabin, about 8 in. wider than the 206",
+      "Larger cabin windows than the 206 series",
+      "Skids, often with high skid gear or floats"
+    ],
+    "tail": [
+      "Long slim tail boom with endplate-fin horizontal stabilizer",
+      "Two-blade tail rotor on a fin with a ventral part"
+    ]
+  },
+  "tellTales": [
+    "Four blades on a light single-engine cabin with a JetRanger-style tail",
+    "Horizontal stabilizer with small endplate fins",
+    "Single exhaust stack on the roof"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-206",
+      "howToTell": "The 407 has four main rotor blades and a wider cabin with bigger windows; the 206 has two blades."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 is a twin with two exhausts and a larger, deeper cabin; the 407 has one engine and one exhaust."
+    },
+    {
+      "id": "h125",
+      "howToTell": "The H125 has three main blades and a taller, rounder cabin; the 407 has four blades on a slimmer LongRanger-style cabin."
+    },
+    {
+      "id": "bell-427",
+      "howToTell": "The Bell 427 has twin exhausts and is slightly longer; the 407 has a single engine and exhaust."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Bell 407"
+  ],
+  "usCount": {
+    "value": 906,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1182154",
+    "1182206",
+    "1182215"
+  ]
+}

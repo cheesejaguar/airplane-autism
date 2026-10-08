@@ -1,0 +1,84 @@
+{
+  "id": "convair-240",
+  "name": "Convair 240/340/440 / C-131 Samaritan",
+  "shortName": "Convair 240-440",
+  "aka": [
+    "Convair 240",
+    "Convair 340",
+    "Convair 440",
+    "Metropolitan",
+    "CV-240",
+    "CV-340",
+    "CV-440",
+    "C-131 Samaritan",
+    "T-29",
+    "Convair 580",
+    "CV-580"
+  ],
+  "manufacturer": "Convair",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "transport",
+    "cargo",
+    "regional"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "Convair 240 (two-engine Pratt & Whitney R-2800 radials)",
+    "Convair 340 / 440 Metropolitan (stretched)",
+    "Convair 580 / 600 / 640 (turboprop conversions)",
+    "C-131 Samaritan military versions (T-29, C-131A/D/E/F)"
+  ],
+  "summary": "Postwar twin-engine airliner and a DC-3 successor, with radial engines and tricycle gear, still seen as cargo planes and in turboprop Convair 580 form.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with large, round nacelles"
+    ],
+    "engines": [
+      "Two large radial engines (Convair 580: turboprops) in round nacelles",
+      "Large propellers"
+    ],
+    "fuselage": [
+      "Round, airliner-style fuselage with small, evenly spaced oval windows",
+      "Rounded nose with a flat windshield",
+      "Tricycle landing gear (nosewheel, not a taildragger)"
+    ],
+    "tail": [
+      "Single, tall rounded fin",
+      "Conventional low tailplane"
+    ]
+  },
+  "tellTales": [
+    "Twin-radial or turboprop low-wing airliner with a nosewheel and level stance",
+    "Round fuselage with a long row of small oval windows",
+    "Tall rounded fin and low tailplane on a DC-3-sized airliner"
+  ],
+  "confusedWith": [
+    {
+      "id": "dc-3",
+      "howToTell": "The DC-3 is a taildragger that sits tail-low on the ground; the Convair has a nosewheel, sits level and is a larger, more modern airframe."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Convair CV-240",
+    "Convair CV-340",
+    "Convair C-131 Samaritan"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "242270A",
+    "2422902",
+    "2423005"
+  ]
+}

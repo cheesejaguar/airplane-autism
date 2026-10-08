@@ -1,0 +1,85 @@
+{
+  "id": "bellanca-14-19",
+  "name": "Bellanca 14-19 Cruisemaster",
+  "shortName": "Cruisemaster",
+  "aka": [
+    "Bellanca 260",
+    "Downer 14-19"
+  ],
+  "manufacturer": "Bellanca / Downer Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1949,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "14-19 Cruisemaster (190 hp)",
+    "14-19-2 Cruisemaster (230 hp)",
+    "14-19-3 / 260 (260 hp, nosewheel)"
+  ],
+  "summary": "Four-seat, low-wing retractable-gear Bellanca with a three-fin 'cardboard Constellation' tail; the 260 added a nosewheel.",
+  "weft": {
+    "wings": [
+      "Low wing, no struts",
+      "Fabric-covered wing"
+    ],
+    "engines": [
+      "Single flat-six (190–260 hp) in a deep cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Fabric-covered steel-tube fuselage with a four-seat cabin",
+      "Hydraulically retractable gear (tailwheel on early versions, nosewheel on the 260)"
+    ],
+    "tail": [
+      "Three vertical fins: a central fin plus an oval end-plate fin on each horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Triple-fin tail on a four-seat low-wing",
+    "Retractable main gear and a long, tapering fuselage",
+    "Low wing with no struts"
+  ],
+  "confusedWith": [
+    {
+      "id": "bonanza-v35",
+      "howToTell": "The Cruisemaster has three vertical fins on a conventional tail; the V35 has a V-tail."
+    },
+    {
+      "id": "bellanca-14-13",
+      "howToTell": "The Cruisemaster is the larger, more powerful retractable version; the 14-13 has a smaller cowl and fixed gear."
+    },
+    {
+      "id": "bellanca-viking",
+      "howToTell": "The Cruisemaster has a triple-fin tail; the Viking has a single, oversized fin."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Cruisemaster has a triple-fin tail; the Mooney has a single forward-swept fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bellanca 14-19"
+  ],
+  "usCount": {
+    "value": 167,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3080102",
+    "3080104",
+    "3080106",
+    "3080114",
+    "3080116",
+    "3080118",
+    "3080126"
+  ]
+}

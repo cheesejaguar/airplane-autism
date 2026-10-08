@@ -1,0 +1,79 @@
+{
+  "id": "beech-60",
+  "name": "Beechcraft Duke (60)",
+  "shortName": "Duke",
+  "aka": [
+    "Model 60",
+    "A60",
+    "B60"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "60 Duke",
+    "A60 Duke",
+    "B60 Duke"
+  ],
+  "summary": "Pressurized, turbocharged six-seat piston twin built 1968–1983, sitting between the Baron and the Queen Air in Beechcraft's line.",
+  "weft": {
+    "wings": [
+      "Low, tapered wing with plain tips",
+      "Engines set well out from the fuselage"
+    ],
+    "engines": [
+      "Two large turbocharged six-cylinder engines",
+      "Three-blade props with big spinners"
+    ],
+    "fuselage": [
+      "Smooth, rounded pressurized fuselage with small rounded windows",
+      "Long, rounded nose",
+      "Airstair door at the rear on the left"
+    ],
+    "tail": [
+      "Swept fin with a conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Row of small rounded cabin windows on a smooth, round-section twin",
+    "Big three-blade props on large turbocharged engines",
+    "Long, smooth nose with a swept fin and plain wingtips"
+  ],
+  "confusedWith": [
+    {
+      "id": "baron",
+      "howToTell": "The unpressurized Baron has larger windows and is smaller; the pressurized 58P is close, but the Duke is bigger and rounder with a rear airstair door on the left."
+    },
+    {
+      "id": "c340",
+      "howToTell": "The 340 has wingtip tanks on early models, a portly cabin and a swept fin with a dorsal fillet; the Duke has plain wingtips and a smoother fuselage."
+    },
+    {
+      "id": "aerostar",
+      "howToTell": "The Aerostar has short, narrow wings and large rectangular windows; the Duke has a long tapered wing and small rounded windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Duke"
+  ],
+  "usCount": {
+    "value": 248,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1153602",
+    "1153604",
+    "1153605"
+  ]
+}

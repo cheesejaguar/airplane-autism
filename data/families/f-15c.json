@@ -1,0 +1,78 @@
+{
+  "id": "f-15c",
+  "name": "F-15C/D Eagle",
+  "shortName": "F-15C/D",
+  "aka": [
+    "Eagle",
+    "Platinum Eagle"
+  ],
+  "manufacturer": "McDonnell Douglas / Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1972,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F-15C (single-seat)",
+    "F-15D (two-seat trainer)"
+  ],
+  "summary": "Twin-engine, twin-tail air-superiority fighter now flown only by a few Air National Guard units as it is replaced by the F-15EX and F-35A.",
+  "weft": {
+    "wings": [
+      "Large high-mounted wing with about 45 degrees of leading-edge sweep",
+      "Cropped (clipped) wingtips and no leading-edge root extensions",
+      "Wing area noticeably large for the airframe"
+    ],
+    "engines": [
+      "Two engines with round nozzles side by side",
+      "Big rectangular box intakes on each side of the cockpit, which tilt with the nose"
+    ],
+    "fuselage": [
+      "Bubble canopy set high on a flat-topped fuselage",
+      "Smooth fuselage sides with no conformal fuel tanks",
+      "Usually light two-tone air-superiority grey; the D model has a second seat under a longer canopy"
+    ],
+    "tail": [
+      "Twin vertical fins standing nearly upright, not canted",
+      "Horizontal stabilizers with a notched (dogtooth) leading edge"
+    ]
+  },
+  "tellTales": [
+    "Twin upright fins over two round exhausts",
+    "Large boxy intakes on the fuselage sides",
+    "Smooth-sided single-seat airframe in light grey with no conformal tanks"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-15e",
+      "howToTell": "The C model is usually a single-seater in light grey with smooth sides; the Strike Eagle has two seats, conformal tanks along the intakes and often bombs on stub pylons."
+    },
+    {
+      "id": "f-22",
+      "howToTell": "The F-15C has upright fins, boxy intakes and round nozzles; the F-22 has outward-canted fins, angular stealth shaping and flat nozzles."
+    },
+    {
+      "id": "fa-18cd",
+      "howToTell": "The F-15C is larger with upright fins at the very tail and box intakes; the Hornet has canted fins mounted forward and small intakes under LERX."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "F-15C/D Eagle in flight",
+    "F-15C/D Eagle"
+  ],
+  "usCount": {
+    "value": 55,
+    "source": "USAF FY2026 budget documents / Air National Guard (Fresno, New Orleans, Klamath Falls)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

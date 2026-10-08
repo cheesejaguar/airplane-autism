@@ -1,0 +1,98 @@
+{
+  "id": "fairchild-24",
+  "name": "Fairchild 24 Argus",
+  "shortName": "Fairchild 24",
+  "aka": [
+    "Fairchild Argus",
+    "UC-61 Forwarder",
+    "Fairchild 24 Ranger"
+  ],
+  "manufacturer": "Fairchild Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1932,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "24 C8 / C8F (Warner Scarab radial)",
+    "24 G / H (Ranger inline)",
+    "24 J / K / R (revised tail)",
+    "UC-61 / Argus (military)"
+  ],
+  "summary": "Four-seat, high-wing prewar and wartime tourer (and USAAF UC-61 Forwarder / RAF Argus) with a roomy cabin, produced from 1932 into the late 1940s. Some have a radial nose, others an inverted inline engine.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Wing with rounded tips"
+    ],
+    "engines": [
+      "Radial engine with a blunt cylindrical nose, or an inverted inline engine with a tapered nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Deep four-seat cabin with a large windshield",
+      "Fixed main gear with a tailwheel",
+      "Fabric-covered steel-tube fuselage"
+    ],
+    "tail": [
+      "Rudder and fin revised to a more graceful shape in 1938",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat high-wing with a long glass cabin and a tailwheel",
+    "Blunt radial nose or sleek inline nose over a strut-braced wing",
+    "Large rounded tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-108",
+      "howToTell": "The Fairchild 24 has an older, deeper cabin and either a radial or an inline nose; the Stinson 108 has a flat-six nose and a curvier tail."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The Fairchild 24 has a larger, deeper cabin and a sloping nose; the 170 is a smaller, slimmer all-metal fuselage with flat spring-steel gear."
+    },
+    {
+      "id": "aeronca-sedan",
+      "howToTell": "The Fairchild 24 is older and larger with a longer glazed cabin; the Sedan is a squarer fabric aircraft with all-metal wings and a flat-six engine."
+    },
+    {
+      "id": "c195",
+      "howToTell": "The Fairchild 24 has a smaller radial or inline nose and a strut-braced wing; the 195 has a big radial in a deep cowl and a strutless wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Fairchild 24"
+  ],
+  "usCount": {
+    "value": 223,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3370204",
+    "3370208",
+    "3370216",
+    "3370220",
+    "3370302",
+    "3370402",
+    "3370408",
+    "3370414",
+    "3370502",
+    "3370508",
+    "3370514",
+    "3370516",
+    "3370602",
+    "3370608",
+    "3370620",
+    "3370626"
+  ]
+}

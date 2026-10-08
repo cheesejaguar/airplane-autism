@@ -1,0 +1,82 @@
+{
+  "id": "pc-7",
+  "name": "Pilatus PC-7",
+  "shortName": "PC-7",
+  "aka": [
+    "Pilatus PC-7",
+    "PC-7 Mk II",
+    "Turbo Trainer"
+  ],
+  "manufacturer": "Pilatus Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "PC-7 (original)",
+    "PC-7 Mk II"
+  ],
+  "summary": "Swiss turboprop basic trainer derived from the P-3, used by dozens of air forces and displayed by private owners; the PT6A-powered trainer that preceded the PC-9 and T-6.",
+  "weft": {
+    "wings": [
+      "Low, straight, tapered wing with squared-off tips",
+      "Slight dihedral on the outer panels"
+    ],
+    "engines": [
+      "Single PT6A turboprop with a three-blade propeller",
+      "Slim, long cowl with a chin scoop and exhaust stacks"
+    ],
+    "fuselage": [
+      "Tandem seats under a long bubble canopy, rear seat higher",
+      "Retractable tricycle gear",
+      "Rounded dorsal hump behind the canopy"
+    ],
+    "tail": [
+      "Swept fin with a dorsal fillet",
+      "Horizontal stabilizer mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Slim turboprop trainer with a three-blade propeller and a long tandem canopy",
+    "Long cowl with a chin scoop and exhaust stubs ahead of a low, straight wing",
+    "Stepped tandem seating on a small military trainer"
+  ],
+  "confusedWith": [
+    {
+      "id": "pc-9",
+      "howToTell": "The PC-9 has a four-blade propeller and a longer, more powerful engine; the PC-7 has a three-blade propeller and a shorter cowl."
+    },
+    {
+      "id": "emb-312",
+      "howToTell": "The Tucano has a short snub nose and a long flat canopy; the PC-7 has a longer nose and a more upright canopy."
+    },
+    {
+      "id": "t-6",
+      "howToTell": "The T-6 Texan II has a four-blade propeller, a larger tail and a taller canopy; the PC-7 has three blades and a lower profile."
+    },
+    {
+      "id": "sf260",
+      "howToTell": "The SF.260 is a piston airplane with tip tanks; the PC-7 is a turboprop without tip tanks."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Pilatus PC-7 in flight"
+  ],
+  "usCount": {
+    "value": 17,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7090401"
+  ]
+}

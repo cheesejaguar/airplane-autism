@@ -1,0 +1,83 @@
+{
+  "id": "aeronca-sedan",
+  "name": "Aeronca 15AC Sedan",
+  "shortName": "Aeronca Sedan",
+  "aka": [
+    "Sedan",
+    "15AC",
+    "S15AC"
+  ],
+  "manufacturer": "Aeronca Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "15AC Sedan (145 hp Continental)",
+    "S15AC Sedan floatplane"
+  ],
+  "summary": "Aeronca's last and largest postwar design: a four-seat, strut-braced high-wing with fabric fuselage, all-metal wings and a roomy, upright cabin.",
+  "weft": {
+    "wings": [
+      "High wing braced by a one-piece strut each side",
+      "All-metal wing with rounded tips"
+    ],
+    "engines": [
+      "Single Continental (or Franklin) flat-four or flat-six in a rounded cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Deep, boxy four-seat cabin with large windows",
+      "Fabric-covered fuselage",
+      "Bungee-cord main gear with a tailwheel"
+    ],
+    "tail": [
+      "Tall, curved fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Large, upright four-seat cabin under a strut-braced high wing",
+    "Fabric-covered fuselage on a tailwheel with a tall tail",
+    "Rounded cowl"
+  ],
+  "confusedWith": [
+    {
+      "id": "stinson-108",
+      "howToTell": "The Sedan has an upright boxy cabin with all-metal wings; the Stinson has a rounder cabin with a larger curved fin."
+    },
+    {
+      "id": "c170",
+      "howToTell": "The Sedan has a fabric fuselage and a deeper cabin; the 170 has a metal fuselage and spring-steel gear."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Sedan is a large four-seater; the Chief is a small two-seater."
+    },
+    {
+      "id": "maule",
+      "howToTell": "The Sedan is a classic rounded fabric aircraft; the Maule has a squared, boxier fuselage and a more modern nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aeronca 15AC Sedan"
+  ],
+  "usCount": {
+    "value": 167,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0191202",
+    "0191204"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "tecnam-p2010",
+  "name": "Tecnam P2010",
+  "shortName": "P2010",
+  "aka": [
+    "Tecnam P2010 TDI",
+    "P2010 R"
+  ],
+  "manufacturer": "Costruzioni Aeronautiche Tecnam",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2012,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "P2010 (Lycoming IO-360)",
+    "P2010 TDI (Continental CD-155 diesel)"
+  ],
+  "summary": "Modern four-seat high-wing from Italy with a carbon-fibre fuselage, metal wings and an all-moving stabilator; offered with a Lycoming or a diesel engine and a three-door cabin.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Semi-tapered wing with flaps on the inboard section"
+    ],
+    "engines": [
+      "Single flat-four in a smoothly shaped cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Sleek carbon-fibre fuselage with large, wraparound windows",
+      "Three doors: two front and one on the right rear",
+      "Fixed tricycle gear with all three wheels in streamlined fairings"
+    ],
+    "tail": [
+      "Swept fin",
+      "All-moving stabilator"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing on a sleek, modern fuselage with streamlined wheel fairings",
+    "Three-door cabin with big windows",
+    "All-moving tail on a swept fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The P2010 has a sleeker fuselage, faired wheels and a stabilator; the 172 has unfaired struts, a conventional tail and the older squared cabin."
+    },
+    {
+      "id": "c182",
+      "howToTell": "The P2010 is smaller with a lighter-looking nose; the 182 has a deeper, blunter cowl."
+    },
+    {
+      "id": "cessna-400",
+      "howToTell": "The P2010 is a high-wing; the Cessna 400 is a low-wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Tecnam P2010"
+  ],
+  "usCount": {
+    "value": 122,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0330402",
+    "0330403",
+    "056336U"
+  ]
+}

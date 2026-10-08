@@ -1,0 +1,90 @@
+{
+  "id": "da20",
+  "name": "Diamond DA20 Katana / Eclipse",
+  "shortName": "DA20",
+  "aka": [
+    "Katana",
+    "Eclipse",
+    "DV20"
+  ],
+  "manufacturer": "Diamond Aircraft Industries",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1991,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DV20 Katana (Rotax)",
+    "DA20-A1 Katana",
+    "DA20-C1 Eclipse / Evolution (Continental)"
+  ],
+  "summary": "Two-seat composite trainer with a T-tail and bubble canopy, used for primary training and by the US Air Force Academy for screening.",
+  "weft": {
+    "wings": [
+      "Long, slender motor-glider-like low wing"
+    ],
+    "engines": [
+      "Single small engine in a slim cowl",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Two-seat side-by-side cockpit under a large bubble canopy",
+      "Fixed tricycle gear with spring main legs and wheel pants",
+      "Very slim tail boom"
+    ],
+    "tail": [
+      "T-tail"
+    ]
+  },
+  "tellTales": [
+    "Small two-seat composite trainer with a T-tail",
+    "Large bubble canopy and very slim tail boom",
+    "Long thin wing like a motor glider"
+  ],
+  "confusedWith": [
+    {
+      "id": "da40",
+      "howToTell": "The DA40 has a longer four-seat cabin with rear windows; the DA20 is a short two-seater."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 150/152 is a strut-braced metal high-wing; the DA20 is a low-wing composite with a T-tail."
+    },
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-1/AA-5 has a conventional low tail and stubby wing; the DA20 has a T-tail and long slender wing."
+    },
+    {
+      "id": "tecnam-p-mentor",
+      "howToTell": "The DA20 is a lower, rounder composite with a longer glazed canopy; the P-Mentor has an upright fin, a straighter wing and an alloy-and-carbon look."
+    },
+    {
+      "id": "slingsby-t67",
+      "howToTell": "The Firefly has a larger bubble canopy and fixed tricycle gear with fairings; the DA20 has a rounder canopy and a distinct tail shape."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The DA20 is a composite with a conventional tail and a clear bubble canopy; the Tomahawk is metal with a T-tail and a framed cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Diamond DA20"
+  ],
+  "usCount": {
+    "value": 346,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2990000",
+    "2990001"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "mq-9",
+  "name": "MQ-9 Reaper",
+  "shortName": "MQ-9",
+  "aka": [
+    "Reaper",
+    "Predator B"
+  ],
+  "manufacturer": "General Atomics Aeronautical Systems",
+  "sector": "military",
+  "category": "uas",
+  "roles": [
+    "isr",
+    "attack"
+  ],
+  "branches": [
+    "usaf",
+    "usmc"
+  ],
+  "firstFlight": 2001,
+  "engines": {
+    "count": 1,
+    "type": "turboprop"
+  },
+  "variants": [
+    "MQ-9A Block 1",
+    "MQ-9A Block 5"
+  ],
+  "summary": "Long-endurance remotely piloted hunter-killer aircraft used by the Air Force and Marine Corps for ISR and precision strike.",
+  "weft": {
+    "wings": [
+      "Long, straight, high-aspect-ratio wing mounted mid-fuselage",
+      "Underwing pylons for Hellfire missiles, bombs or fuel tanks"
+    ],
+    "engines": [
+      "Single turboprop with a pusher propeller at the very rear"
+    ],
+    "fuselage": [
+      "No cockpit: bulbous nose housing a satellite dish",
+      "Sensor ball and radar under the nose",
+      "Fat, rounded fuselage, larger than earlier Predator-family drones"
+    ],
+    "tail": [
+      "Y-shaped tail: two surfaces angled upward in a V plus a single fin pointing down",
+      "Propeller sits between the tail surfaces"
+    ]
+  },
+  "tellTales": [
+    "Upward V-tail with a fin underneath, forming a Y",
+    "Rear pusher propeller on a windowless bulbous fuselage",
+    "Long straight wings carrying missiles or bombs"
+  ],
+  "confusedWith": [
+    {
+      "id": "mq-1c",
+      "howToTell": "The MQ-9 has an upward V-tail with a fin underneath and a fatter body; the MQ-1C has a downward-pointing inverted V-tail and a slimmer body."
+    },
+    {
+      "id": "u-2",
+      "howToTell": "The MQ-9 is a windowless drone with a rear propeller and Y-tail; the U-2 is a piloted jet with a canopy and a single fin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "General Atomics MQ-9 Reaper"
+  ],
+  "usCount": {
+    "value": 135,
+    "source": "Congressional Research Service IF13318 (Air Force testimony, May 2026)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

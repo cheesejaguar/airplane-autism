@@ -1,0 +1,99 @@
+{
+  "id": "pa-31",
+  "name": "Piper PA-31 Navajo / Chieftain",
+  "shortName": "PA-31",
+  "aka": [
+    "Navajo",
+    "Chieftain",
+    "Navajo Chieftain"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1964,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-31 / PA-31-310 Navajo",
+    "PA-31-325 Navajo C/R",
+    "PA-31-350 Chieftain (stretched)",
+    "PA-31P Pressurized Navajo",
+    "(PA-31T Cheyenne turboprops are a separate family)"
+  ],
+  "summary": "Cabin-class piston twin widely used by commuter, charter and freight operators, especially the stretched Chieftain.",
+  "weft": {
+    "wings": [
+      "Low wing with tapered outer panels"
+    ],
+    "engines": [
+      "Two flat-six engines in long nacelles with baggage lockers at the rear",
+      "Three-blade props"
+    ],
+    "fuselage": [
+      "Large unpressurized cabin with big squarish windows",
+      "Long nose with baggage compartment",
+      "Rear airstair/split door on the left"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet",
+      "Low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Cabin-class piston twin with large squarish windows",
+    "Long nose and long nacelles",
+    "Swept fin with dorsal strake above a low tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "c340",
+      "howToTell": "The 340/414/421 have a rounder pressurized fuselage with small rounded windows; the Navajo has larger square windows."
+    },
+    {
+      "id": "king-air-90",
+      "howToTell": "The King Air has turboprop nacelles with exhaust stacks; the Navajo has piston nacelles without stacks."
+    },
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca is smaller with a short nose and a single-engine-style cabin; the Navajo is a larger cabin-class twin with a long nose."
+    },
+    {
+      "id": "pa-31t",
+      "howToTell": "The Cheyenne has smoother turbine nacelles, prop spinners and a long pointed nose; the Navajo has piston-engine cowlings and a blunter nose."
+    },
+    {
+      "id": "pa-42",
+      "howToTell": "The PA-42 Cheyenne III/400 has a T-tail and turboprop nacelles; the Navajo has a low horizontal tail and piston-engine cowlings."
+    },
+    {
+      "id": "c402",
+      "howToTell": "The 402 has a straighter-sided cabin and, on early models, big wingtip tanks; the Navajo has a tapered wing with plain tips and a dorsal strake on the fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-31 Navajo",
+    "Piper PA-31-350 Navajo Chieftain"
+  ],
+  "usCount": {
+    "value": 710,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7103102",
+    "7103103",
+    "7103104",
+    "7103105",
+    "7103110",
+    "7103111",
+    "7103120"
+  ]
+}

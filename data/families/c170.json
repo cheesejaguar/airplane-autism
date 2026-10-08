@@ -1,0 +1,83 @@
+{
+  "id": "c170",
+  "name": "Cessna 170",
+  "shortName": "C170",
+  "aka": [
+    "Cessna 170A",
+    "Cessna 170B"
+  ],
+  "manufacturer": "Cessna Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "170 (fabric wings, V-struts)",
+    "170A (metal wings, single strut)",
+    "170B (Fowler-type flaps, tapered outer wing)"
+  ],
+  "summary": "Four-seat tailwheel Cessna from 1948–56 and direct predecessor of the 172; in essence a 172 on conventional gear.",
+  "weft": {
+    "wings": [
+      "High wing braced by a V-strut (early 170) or one strut per side (170A/B)",
+      "Tapered outboard panels on the 170B"
+    ],
+    "engines": [
+      "Single flat-six in a slim, round cowling",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Four-seat cabin with one door per side",
+      "Fixed spring-steel main gear with a tailwheel",
+      "Rear side windows, elliptical on early models, squarer from 1955"
+    ],
+    "tail": [
+      "Swept-back fin and rudder shared with the 190/195",
+      "Conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Four-seat strut-braced high-wing with a tailwheel and a slim nose",
+    "Flat spring-steel main gear legs and a slim round nose",
+    "Swept-back fin and rudder over a tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The 170 sits on a tailwheel with a nose-high ground stance; the 172 has a nosewheel and a squared or swept fin."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The 170 has a slimmer cowl and a smaller fin; the 180 has a bigger cowl and a taller swept fin."
+    },
+    {
+      "id": "c195",
+      "howToTell": "The 170 has a slim flat-engine nose; the 195 has a big round radial engine and a deeper cowl."
+    },
+    {
+      "id": "c140",
+      "howToTell": "The 170 is a larger four-seater with a longer cabin and a third side window; the 140 is a short two-seater."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Cessna 170"
+  ],
+  "usCount": {
+    "value": 2028,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2072302",
+    "2072304",
+    "2072306"
+  ]
+}

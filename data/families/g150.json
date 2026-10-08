@@ -1,0 +1,82 @@
+{
+  "id": "g150",
+  "name": "IAI Astra / Gulfstream G100 / G150",
+  "shortName": "Astra/G150",
+  "aka": [
+    "IAI 1125 Astra",
+    "Astra SPX",
+    "Gulfstream G100",
+    "Gulfstream G150"
+  ],
+  "manufacturer": "Israel Aircraft Industries / Gulfstream",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1984,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "IAI 1125 Astra",
+    "Astra SPX / Gulfstream G100 (winglets)",
+    "Gulfstream G150 (longer cabin, 2006 onward)"
+  ],
+  "summary": "Israel Aircraft Industries' compact 'Westwind successor', sold under Gulfstream marketing as the G100 and the stretched G150.",
+  "weft": {
+    "wings": [
+      "Low swept wing, slim and highly tapered",
+      "Upturned winglets on SPX/G100/G150; plain tips on early Astras"
+    ],
+    "engines": [
+      "Two Honeywell TFE731 turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Compact, slim fuselage with small oval windows",
+      "Short, rounded nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Small T-tail twinjet with a narrow cabin and small oval windows",
+    "Slim swept wing, often with small winglets",
+    "Compact rear engines on a short body"
+  ],
+  "confusedWith": [
+    {
+      "id": "g200",
+      "howToTell": "The G200 is a larger, wider-bodied aircraft with a longer fuselage and more windows; the G150/Astra is small and narrow."
+    },
+    {
+      "id": "learjet-45",
+      "howToTell": "Both are small T-tail jets, often with winglets; the Learjet 45 has a more tapered fuselage and sharper nose, while the Astra/G150 has a boxier, wider cabin and a rounder nose."
+    },
+    {
+      "id": "iai-westwind",
+      "howToTell": "The Westwind has large wingtip fuel tanks and a low-set tailplane; the Astra has a T-tail and clean wingtips or winglets."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Gulfstream G150",
+    "Gulfstream G100"
+  ],
+  "usCount": {
+    "value": 155,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4500106",
+    "4500205",
+    "4500304",
+    "4500305",
+    "4500309",
+    "4500401"
+  ]
+}

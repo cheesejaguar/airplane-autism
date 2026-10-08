@@ -1,0 +1,81 @@
+{
+  "id": "fairchild-22",
+  "name": "Fairchild 22",
+  "shortName": "Fairchild 22",
+  "aka": [
+    "Fairchild 22 C7",
+    "C7A",
+    "C7B",
+    "C7D",
+    "C7F"
+  ],
+  "manufacturer": "Kreider-Reisner / Fairchild",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1931,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "C7 (Michigan Rover)",
+    "C7A (Cirrus Hi-Drive)",
+    "C7B (Menasco Pirate)",
+    "C7D / C7F (Warner Scarab radial)"
+  ],
+  "summary": "Early-1930s two-seat sport and training monoplane with a parasol wing, held above the fuselage on struts, and two tandem open cockpits.",
+  "weft": {
+    "wings": [
+      "Parasol wing mounted above the fuselage on struts, with a gap between the wing and the fuselage"
+    ],
+    "engines": [
+      "Inverted inline four-cylinder or small radial in the nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two tandem open cockpits",
+      "Fixed tailwheel gear"
+    ],
+    "tail": [
+      "Braced conventional tail unit with a rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "Parasol wing held above the fuselage by struts",
+    "Two tandem open cockpits under the wing",
+    "Braced tail unit and tailwheel gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "curtiss-wright-junior",
+      "howToTell": "The Junior has a different, shorter parasol wing and pylon; the Fairchild 22's wing is braced with struts above the cockpits."
+    },
+    {
+      "id": "fairchild-24",
+      "howToTell": "The 24 is a cabin high-wing with enclosed seats; the 22 has a parasol wing and open cockpits."
+    },
+    {
+      "id": "piper-j2",
+      "howToTell": "The J-2 is a high-wing with a fuselage-mounted wing and V-struts; the Fairchild 22 has a parasol wing."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Fairchild 22"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3370104",
+    "3370110",
+    "3370112",
+    "3370116"
+  ]
+}

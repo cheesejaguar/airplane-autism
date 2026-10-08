@@ -1,0 +1,78 @@
+{
+  "id": "alarus-ch2000",
+  "name": "Alarus CH 2000",
+  "shortName": "Alarus",
+  "aka": [
+    "Zenair CH 2000",
+    "CH 2000",
+    "SAMA CH2000"
+  ],
+  "manufacturer": "AMD / Zenair",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1992,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Zenair CH 2000 (1995-99)",
+    "AMD Alarus CH 2000 (2000-2011)",
+    "SAMA CH2000 (military surveillance, Iraqi Air Force)"
+  ],
+  "summary": "All-metal two-seat trainer designed by Chris Heintz, built in Canada as the Zenair CH 2000 and in Florida as the AMD Alarus.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Straight, constant-chord wing"
+    ],
+    "engines": [
+      "Single Lycoming flat-four in a blunt cowl",
+      "Two-blade fixed-pitch propeller"
+    ],
+    "fuselage": [
+      "Wide two-seat side-by-side cabin under a large glazed canopy",
+      "Fixed tricycle gear"
+    ],
+    "tail": [
+      "Conventional single fin and rudder with a low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "All-metal two-seat low-wing with a wide, roomy cabin and large glazing",
+    "Plain constant-chord wing on fixed tricycle gear",
+    "Blunt, simple nose on a trainer-type airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "liberty-xl2",
+      "howToTell": "The XL-2 has a sleek composite fuselage and a large bubble-like windscreen; the Alarus is plainer, with an all-metal skin and a blunter nose."
+    },
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 is a four-seater with a long fuselage; the Alarus is a compact two-seater."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a T-tail and composite skin; the Alarus has a conventional tail and riveted metal skin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "AMD Alarus"
+  ],
+  "usCount": {
+    "value": 48,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0033001",
+    "9950100"
+  ]
+}

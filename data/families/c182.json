@@ -1,0 +1,116 @@
+{
+  "id": "c182",
+  "name": "Cessna 182 Skylane",
+  "shortName": "C182",
+  "aka": [
+    "Skylane",
+    "Skylane RG"
+  ],
+  "manufacturer": "Cessna / Textron Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1955,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "182 / 182A–182R (1956–86)",
+    "182S / 182T (1997–)",
+    "T182T turbo",
+    "R182 Skylane RG (retractable)"
+  ],
+  "summary": "Heavier, more powerful four-seat sibling of the 172, popular for cross-country flying, Civil Air Patrol and skydiving.",
+  "weft": {
+    "wings": [
+      "High wing braced by a single lift strut per side",
+      "Same planform family as the smaller four-seat high-wing, slightly larger"
+    ],
+    "engines": [
+      "Big six-cylinder engine in a deep, blunt cowling with cowl flaps at the rear",
+      "Constant-speed prop with large spinner; three-blade common on later models"
+    ],
+    "fuselage": [
+      "Wider, deeper four-seat cabin with wraparound rear window",
+      "Fixed tricycle gear with a shorter, sturdier nose strut",
+      "Overall heavier, more robust look than the 172"
+    ],
+    "tail": [
+      "Swept fin with dorsal fillet",
+      "Larger horizontal tail than the 172"
+    ]
+  },
+  "tellTales": [
+    "Strut-braced high wing with a deep, chunky nose cowl",
+    "Three-blade prop and large spinner on many examples",
+    "Cowl flaps visible at the lower rear of the cowling"
+  ],
+  "confusedWith": [
+    {
+      "id": "c172",
+      "howToTell": "The 182 has a deeper, blunter cowling, larger spinner and often a three-blade prop; the 172's nose is slimmer with a two-blade prop."
+    },
+    {
+      "id": "c206",
+      "howToTell": "The 206 has a longer cabin with an extra window and a large double cargo door on the right; the 182 has a shorter cabin with one door per side."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The 180/185 is a taildragger; the 182 has a nose wheel."
+    },
+    {
+      "id": "c337",
+      "howToTell": "The Skymaster has two engines (one in the nose, one pusher behind the cabin) and twin tail booms; the 182 has one engine and a single fin."
+    },
+    {
+      "id": "c177",
+      "howToTell": "The 182 has a lift strut and a deeper, blunter cowl; the 177 Cardinal has a strutless wing, a smoother nose and a one-piece stabilator."
+    },
+    {
+      "id": "c195",
+      "howToTell": "The 182 has a flat engine, a lift strut and (mostly) a nosewheel; the 195 has a big radial engine, no struts and a tailwheel."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Cessna 182 Skylane"
+  ],
+  "usCount": {
+    "value": 13497,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2072701",
+    "2072702",
+    "2072703",
+    "2072704",
+    "2072706",
+    "2072708",
+    "2072710",
+    "2072712",
+    "2072714",
+    "2072716",
+    "2072718",
+    "2072722",
+    "2072723",
+    "2072724",
+    "2072726",
+    "2072728",
+    "2072730",
+    "2072731",
+    "2072732",
+    "2072733",
+    "2072734",
+    "2072735",
+    "2072736",
+    "2072738",
+    "2072779",
+    "2075816",
+    "7530302"
+  ]
+}

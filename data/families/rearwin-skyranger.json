@@ -1,0 +1,91 @@
+{
+  "id": "rearwin-skyranger",
+  "name": "Rearwin Sportster / Cloudster / Skyranger",
+  "shortName": "Skyranger",
+  "aka": [
+    "Rearwin Sportster",
+    "Rearwin Cloudster",
+    "Rearwin Skyranger 7000",
+    "Commonwealth 185"
+  ],
+  "manufacturer": "Rearwin Aircraft (Commonwealth)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Sportster 9000",
+    "Cloudster 8125",
+    "Skyranger 175 / 180F",
+    "Commonwealth Rearwin 185 / 7000"
+  ],
+  "summary": "Prewar two-seat, strut-braced high-wing cabin monoplane from Kansas City; a compact tourer with large windows and a tail enlarged to meet spin requirements.",
+  "weft": {
+    "wings": [
+      "High wing braced by struts",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single small radial or flat-four in a rounded cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two-seat cabin with large windows",
+      "Fixed gear with a tailwheel or tail skid",
+      "Fabric-covered steel-tube fuselage"
+    ],
+    "tail": [
+      "Large vertical tail"
+    ]
+  },
+  "tellTales": [
+    "Compact strut-braced high-wing with a big window area",
+    "Rounded, 1930s-style cabin on fixed taildragger gear",
+    "Large vertical tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Rearwin has a roomier, more glazed cabin with a larger vertical tail; the Taylorcraft is slimmer."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The Rearwin has older, more upright 1930s lines; the Chief is rounder and postwar."
+    },
+    {
+      "id": "luscombe-8",
+      "howToTell": "The Rearwin is fabric-covered with struts; the Luscombe is all-metal with a polished skin."
+    },
+    {
+      "id": "j-3",
+      "howToTell": "The Rearwin has side-by-side seating; the Cub has tandem seating."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Rearwin Sportster",
+    "Rearwin 175 Skyranger"
+  ],
+  "usCount": {
+    "value": 119,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2370402",
+    "2370504",
+    "2370602",
+    "2370604",
+    "2370608",
+    "2371202",
+    "2371408",
+    "7070304"
+  ]
+}

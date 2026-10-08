@@ -1,0 +1,80 @@
+{
+  "id": "fa-18ef",
+  "name": "F/A-18E/F Super Hornet",
+  "shortName": "F/A-18E/F",
+  "aka": [
+    "Super Hornet",
+    "Rhino"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter",
+    "attack"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1995,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F/A-18E (single-seat)",
+    "F/A-18F (two-seat)",
+    "Block III"
+  ],
+  "summary": "Twin-engine carrier-based multirole fighter, the backbone of US Navy carrier air wings; larger successor to the legacy Hornet.",
+  "weft": {
+    "wings": [
+      "Mid-mounted trapezoidal wing with a distinct dogtooth notch in the leading edge",
+      "Large, broad leading-edge root extensions (LERX) running forward to the cockpit",
+      "Underwing pylons splayed (toed) outward; wingtip missile rails"
+    ],
+    "engines": [
+      "Two engines with round exhausts side by side",
+      "Rectangular, angular (caret-style) intakes beneath the LERX"
+    ],
+    "fuselage": [
+      "Larger, heavier fuselage than the legacy Hornet with a long nose",
+      "Bubble canopy; F model has a two-seat tandem cockpit"
+    ],
+    "tail": [
+      "Twin outward-canted vertical fins set forward of the exhausts",
+      "Large all-moving horizontal tails"
+    ]
+  },
+  "tellTales": [
+    "Rectangular, angular intakes under big wing-root extensions",
+    "Twin outward-canted fins on a carrier fighter with outward-splayed wing pylons",
+    "Dogtooth notch in the wing leading edge"
+  ],
+  "confusedWith": [
+    {
+      "id": "fa-18cd",
+      "howToTell": "The Super Hornet is bigger with rectangular intakes, a wing dogtooth and larger LERX; the legacy Hornet has rounded D-shaped intakes and a straight leading edge."
+    },
+    {
+      "id": "ea-18g",
+      "howToTell": "The Super Hornet carries missile rails at the wingtips; the Growler has bulbous wingtip receiver pods and large jamming pods under the wings."
+    },
+    {
+      "id": "f-35",
+      "howToTell": "The Super Hornet has two side-by-side exhausts, rectangular intakes and external pylons; the F-35 has one sawtooth exhaust and a clean stealth shape."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "F/A-18E Super Hornet in flight",
+    "F/A-18F Super Hornet in flight",
+    "F/A-18E/F Super Hornet"
+  ],
+  "usCount": {
+    "value": 540,
+    "source": "FlightGlobal World Air Forces 2026 / US Navy fact file",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

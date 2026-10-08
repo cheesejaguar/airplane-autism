@@ -1,0 +1,75 @@
+{
+  "id": "ah-64",
+  "name": "AH-64 Apache",
+  "shortName": "AH-64",
+  "aka": [
+    "Apache",
+    "Apache Guardian",
+    "Longbow"
+  ],
+  "manufacturer": "Boeing (originally Hughes / McDonnell Douglas)",
+  "sector": "military",
+  "category": "rotorcraft",
+  "roles": [
+    "attack"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "AH-64D Apache Longbow",
+    "AH-64E Apache Guardian"
+  ],
+  "summary": "The US Army's heavy twin-engine attack helicopter, with tandem crew stations, a nose sensor turret, a chin-mounted 30 mm cannon and Hellfire-carrying stub wings.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor, often with a round Longbow radar dome sitting on top of the mast",
+      "Short stub wings with four pylons for Hellfire missiles and rocket pods"
+    ],
+    "engines": [
+      "Two engines in separate pods on either side of the fuselage behind the cockpit",
+      "Exhausts with angled 'black hole' IR suppressors pointing outward and back"
+    ],
+    "fuselage": [
+      "Tandem stepped cockpits with flat-plate glazing, gunner in front and lower",
+      "Large sensor turret (TADS/PNVS) on the nose with a 30 mm chain gun under the chin",
+      "Fixed main gear with long trailing legs and a tailwheel",
+      "Bulky avionics bays along both sides of the forward fuselage"
+    ],
+    "tail": [
+      "Four-blade tail rotor in an uneven 'X' (scissor) arrangement",
+      "Large horizontal stabilator mounted low at the base of the fin"
+    ]
+  },
+  "tellTales": [
+    "Ball-shaped radar dome perched on top of the main rotor (on radar-equipped aircraft)",
+    "Bulky angular nose turret above a cannon hanging under the chin",
+    "Wheeled gear with tailwheel under a narrow stepped tandem cockpit"
+  ],
+  "confusedWith": [
+    {
+      "id": "ah-1z",
+      "howToTell": "The Apache sits on tall wheeled gear with a tailwheel and bulky side engine pods; the Viper rests on skids and has a slimmer, smoother fuselage with engines blended on top."
+    },
+    {
+      "id": "uh-60",
+      "howToTell": "Both have wheels and a tailwheel, but the Apache has a narrow tandem cockpit, nose turret and weapon wings instead of the Black Hawk's wide troop cabin."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "AH-64 Apache",
+    "AH-64E Apache Guardian"
+  ],
+  "usCount": {
+    "value": 800,
+    "source": "US Army ~824 AH-64D/E (Army FY2026 aviation data / FlightGlobal World Air Forces 2025)",
+    "asOf": "2025"
+  },
+  "faaModelCodes": []
+}

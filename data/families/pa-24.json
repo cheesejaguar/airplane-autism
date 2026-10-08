@@ -1,0 +1,89 @@
+{
+  "id": "pa-24",
+  "name": "Piper PA-24 Comanche",
+  "shortName": "PA-24",
+  "aka": [
+    "Comanche",
+    "Comanche 250",
+    "Comanche 400"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1956,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Comanche 180",
+    "Comanche 250",
+    "Comanche 260 / 260B / 260C",
+    "Comanche 400 (eight-cylinder)"
+  ],
+  "summary": "Sleek, fast four-to-six-seat retractable single built 1958–72, prized by owner-pilots and served by an active type club.",
+  "weft": {
+    "wings": [
+      "Low, strongly tapered laminar-flow wing",
+      "Pronounced dihedral"
+    ],
+    "engines": [
+      "Single flat engine in a long, sleek cowl",
+      "Two- or three-blade constant-speed prop"
+    ],
+    "fuselage": [
+      "Sleek four-to-six-seat cabin with a single right-side door",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "Swept fin with all-moving stabilator"
+    ]
+  },
+  "tellTales": [
+    "Sleek retractable low-wing single with a swept fin and stabilator",
+    "Strongly tapered wing with marked dihedral",
+    "Long, tapered nose"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "Most PA-28s have fixed gear and a constant-chord or only partly tapered wing; the Comanche has retractable gear and a fully tapered wing."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney's vertical tail appears swept forward; the Comanche's fin is swept back."
+    },
+    {
+      "id": "bonanza-a36",
+      "howToTell": "The Bonanza has a conventional elevator and a larger, rounder cabin with rear double doors; the Comanche has a stabilator and a single door."
+    },
+    {
+      "id": "pa-30",
+      "howToTell": "The Twin Comanche has an engine on each wing; the single-engine Comanche has one engine in the nose."
+    },
+    {
+      "id": "meyers-200",
+      "howToTell": "The Comanche has a wider, rounder cabin and an all-moving stabilator; the Meyers 200 is narrower and sleeker."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-24 Comanche"
+  ],
+  "usCount": {
+    "value": 2341,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7102402",
+    "7102403",
+    "7102404",
+    "7102406",
+    "7102408"
+  ]
+}

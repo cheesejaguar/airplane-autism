@@ -1,0 +1,74 @@
+{
+  "id": "spartan-executive",
+  "name": "Spartan 7W Executive",
+  "shortName": "Spartan Executive",
+  "aka": [
+    "Spartan 7W",
+    "Executive",
+    "7W Executive"
+  ],
+  "manufacturer": "Spartan Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1936,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "7W Executive (P&W R-985)",
+    "7X (prototype)",
+    "7W-P (photo-reconnaissance)",
+    "Spartan 12 (successor)"
+  ],
+  "summary": "Sleek all-metal 1930s executive transport with a 450 hp Wasp Junior; only 34 were built and a dozen or so still fly.",
+  "weft": {
+    "wings": [
+      "All-metal low-wing cantilever monoplane",
+      "Smooth, tapered wing"
+    ],
+    "engines": [
+      "Big nine-cylinder Pratt & Whitney Wasp Junior radial under a smooth cowl",
+      "Constant-speed propeller"
+    ],
+    "fuselage": [
+      "Enclosed cabin seating four or five, with a raked windscreen",
+      "Retractable main gear with a tailwheel"
+    ],
+    "tail": [
+      "Large-area single fin and rudder with a big tailplane"
+    ]
+  },
+  "tellTales": [
+    "Sleek low-wing taildragger with a big radial engine and retractable gear",
+    "Enclosed cabin and polished all-metal skin",
+    "Large single fin and rudder on a graceful low-wing airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "beech-17",
+      "howToTell": "The Staggerwing is a biplane with fabric covering; the Spartan is an all-metal low-wing monoplane."
+    },
+    {
+      "id": "navion",
+      "howToTell": "The Navion has an inline engine, a tricycle undercarriage and a sliding canopy; the Spartan has a big radial and a tailwheel."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Spartan Executive"
+  ],
+  "usCount": {
+    "value": 19,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8430302"
+  ]
+}

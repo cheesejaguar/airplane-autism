@@ -1,0 +1,78 @@
+{
+  "id": "jmb-vl-3",
+  "name": "JMB VL-3 Evolution",
+  "shortName": "VL-3",
+  "aka": [
+    "VL-3 Sprint",
+    "Aveko VL-3",
+    "Gobosh 800XP"
+  ],
+  "manufacturer": "JMB Aircraft (Aveko)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 2003,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "VL-3 FG (fixed gear)",
+    "VL-3 RG (retractable gear)",
+    "VL-3C-1 (US light-sport)"
+  ],
+  "summary": "Czech composite two-seat light-sport aircraft with a short, slender wing and very clean lines.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Small, short-span wing"
+    ],
+    "engines": [
+      "Single Rotax 912 in a small, smooth cowl",
+      "Composite propeller"
+    ],
+    "fuselage": [
+      "Slim composite fuselage with a snug bubble canopy",
+      "Fixed or retractable tricycle gear, usually with streamlined fairings"
+    ],
+    "tail": [
+      "Small, clean tail surfaces on a slender tail cone"
+    ]
+  },
+  "tellTales": [
+    "Tiny glossy composite two-seat low-wing with a snug bubble canopy",
+    "Short, slender wing and streamlined faired gear",
+    "Small Rotax cowl on a very clean airframe"
+  ],
+  "confusedWith": [
+    {
+      "id": "da20",
+      "howToTell": "The DA20 has a T-tail and a bigger, more rounded cabin; the VL-3 is smaller with a short-span wing."
+    },
+    {
+      "id": "liberty-xl2",
+      "howToTell": "The XL-2 is larger with a rectangular wing and a big windscreen; the VL-3 is tiny with a short, slender wing."
+    },
+    {
+      "id": "alarus-ch2000",
+      "howToTell": "The Alarus is a plainer all-metal two-seater with a blunt nose; the VL-3 is a slicker composite airframe."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Aveko VL-3 Sprint"
+  ],
+  "usCount": {
+    "value": 29,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4370103",
+    "4370107",
+    "4370108"
+  ]
+}

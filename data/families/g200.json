@@ -1,0 +1,82 @@
+{
+  "id": "g200",
+  "name": "Gulfstream G200 / Galaxy",
+  "shortName": "G200",
+  "aka": [
+    "IAI Galaxy",
+    "Gulfstream G200",
+    "Galaxy"
+  ],
+  "manufacturer": "Israel Aircraft Industries / Gulfstream",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet"
+  ],
+  "branches": [],
+  "firstFlight": 1997,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "IAI Galaxy",
+    "Gulfstream G200"
+  ],
+  "summary": "IAI's super-midsize Galaxy, marketed by Gulfstream as the G200 and later succeeded by the G280.",
+  "weft": {
+    "wings": [
+      "Low swept wing with small upturned winglets"
+    ],
+    "engines": [
+      "Two Pratt & Whitney Canada PW306A turbofans in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Wide, round-ish fuselage with a row of oval windows",
+      "Drooped, rounded nose"
+    ],
+    "tail": [
+      "T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Wide-bodied, rounded fuselage with a row of oval windows",
+    "T-tail with winglets on a mid-size twinjet",
+    "Short, thick tail cone behind the engines"
+  ],
+  "confusedWith": [
+    {
+      "id": "g280",
+      "howToTell": "The G280 is longer with taller, more prominent winglets; the G200 has smaller winglets and a shorter fuselage."
+    },
+    {
+      "id": "challenger-300",
+      "howToTell": "The Challenger 300 has a longer tapering tail cone and rounded-rectangle windows; the G200 has oval windows and a short, thick tail cone."
+    },
+    {
+      "id": "g150",
+      "howToTell": "The G150 is smaller and narrower with a shorter fuselage; the G200 is bigger with a wider cabin."
+    },
+    {
+      "id": "falcon-2000",
+      "howToTell": "The Falcon 2000 has a cruciform tail with the stabilizer partway up the fin; the G200 has a true T-tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Gulfstream G200"
+  ],
+  "usCount": {
+    "value": 151,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4500105",
+    "4500107",
+    "4500307",
+    "4500308",
+    "4500311",
+    "4500400"
+  ]
+}

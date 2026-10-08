@@ -1,0 +1,103 @@
+{
+  "id": "h145",
+  "name": "Airbus H145 / EC145 / UH-72 Lakota",
+  "shortName": "H145",
+  "aka": [
+    "EC145",
+    "BK117 C-2",
+    "BK117 D-2/D-3",
+    "UH-72 Lakota",
+    "Lakota"
+  ],
+  "manufacturer": "Airbus Helicopters (Eurocopter / MBB-Kawasaki)",
+  "sector": "both",
+  "category": "rotorcraft",
+  "roles": [
+    "ems",
+    "utility",
+    "trainer",
+    "transport"
+  ],
+  "branches": [
+    "army"
+  ],
+  "firstFlight": 1999,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "EC145 (BK117 C-2)",
+    "UH-72A Lakota",
+    "H145 (BK117 D-2) with Fenestron",
+    "UH-72B Lakota",
+    "H145 D3 (five-blade)"
+  ],
+  "summary": "Light-medium twin used widely for US air ambulance and police work; the Army's UH-72 Lakota is the standard National Guard utility and flight-training helicopter.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor (EC145/D2) or five-blade bearingless rotor (H145 D3)"
+    ],
+    "engines": [
+      "Two engines side by side on the roof with exhausts at the rear of the cowling"
+    ],
+    "fuselage": [
+      "Tall, boxy cabin with large sliding side doors",
+      "Rear clamshell doors under a high-mounted tail boom",
+      "Tall skids lifting the cabin well off the ground",
+      "Army versions in black or green with 'ARMY' titles"
+    ],
+    "tail": [
+      "EC145 / UH-72A: open two-blade tail rotor",
+      "H145 (D2/D3) / UH-72B: shrouded Fenestron",
+      "Horizontal stabilizer with endplate fins"
+    ]
+  },
+  "tellTales": [
+    "Tall, boxy twin-engine cabin perched on high skids",
+    "Clamshell doors under a high tail boom",
+    "Big sliding side doors on a light twin"
+  ],
+  "confusedWith": [
+    {
+      "id": "h135",
+      "howToTell": "The H145 is larger and taller with high skids and sliding doors; the H135 is compact, low and always has a Fenestron."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 has a rounder, lower cabin and a scissor four-blade tail rotor; the H145 has a tall box cabin with a two-blade or Fenestron tail."
+    },
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 is larger with five blades, retractable wheels and sponsons; the H145 sits on skids."
+    },
+    {
+      "id": "bk117",
+      "howToTell": "The BK 117 is a smaller, boxier pod; the H145 is larger with a longer, sleeker cabin and a different nose."
+    },
+    {
+      "id": "bo-105",
+      "howToTell": "The Bo 105 is a short stubby pod with a very short mast; the H145 is much larger with sliding doors."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Airbus Helicopters H145",
+    "Airbus Helicopters UH-72 Lakota",
+    "Eurocopter EC 145"
+  ],
+  "usCount": {
+    "value": 740,
+    "source": "US Army ~470 UH-72A/B (Army 2025) + ~270 FAA-registered EC145/H145 (BK117 C-2/D-2/D-3)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": [
+    "1145009",
+    "3940080",
+    "5620025",
+    "5620034",
+    "5620036",
+    "5620037",
+    "5626002"
+  ]
+}

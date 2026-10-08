@@ -1,0 +1,86 @@
+{
+  "id": "f4f-wildcat",
+  "name": "Grumman F4F / FM-2 Wildcat",
+  "shortName": "Wildcat",
+  "aka": [
+    "FM-2 Wildcat",
+    "F4F-4",
+    "Martlet",
+    "FM-2"
+  ],
+  "manufacturer": "Grumman (General Motors / Eastern Aircraft)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "F4F-3 / F4F-4",
+    "FM-1 (GM-built)",
+    "FM-2 (Wright R-1820, taller tail)",
+    "Martlet (Fleet Air Arm)"
+  ],
+  "summary": "Stubby carrier fighter that held the line in the early Pacific war; the GM-built FM-2 with a tall tail is the version most seen flying today.",
+  "weft": {
+    "wings": [
+      "Mid-mounted straight wing with squared tips",
+      "Wings that fold along the fuselage for carrier storage"
+    ],
+    "engines": [
+      "Single radial engine in a round cowl with a three-blade propeller",
+      "Short, blunt nose"
+    ],
+    "fuselage": [
+      "Short, round barrel fuselage",
+      "Bubble-style sliding canopy on FM-2",
+      "Narrow-track main gear that folds into the fuselage"
+    ],
+    "tail": [
+      "Tall, squarish fin on the FM-2",
+      "Horizontal tail mounted on the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Short, chubby barrel fuselage with a mid-wing and a round radial nose",
+    "Tall squarish fin on a small single-seat carrier fighter",
+    "Narrow gear that folds into the fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "f4u-corsair",
+      "howToTell": "The Corsair is a bigger fighter with an inverted gull wing and a long nose; the Wildcat is shorter with straight wings."
+    },
+    {
+      "id": "f8f-bearcat",
+      "howToTell": "The Bearcat has a low wing, a long cowl and a tall tail; the Wildcat is stubbier with a mid wing."
+    },
+    {
+      "id": "p-40",
+      "howToTell": "The P-40 has an inline engine with a radiator scoop under the nose; the Wildcat has a round radial."
+    },
+    {
+      "id": "tbm-avenger",
+      "howToTell": "The Avenger is a larger three-seat bomber with a bulbous body; the Wildcat is a small single-seat fighter."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "General Motors FM-2 Wildcat",
+    "Grumman F4F Wildcat"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3950102"
+  ]
+}

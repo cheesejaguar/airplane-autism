@@ -1,0 +1,84 @@
+{
+  "id": "pipistrel-virus-sw",
+  "name": "Pipistrel Virus SW",
+  "shortName": "Virus SW",
+  "aka": [
+    "Virus",
+    "Virus SW 100",
+    "SW 121",
+    "Explorer"
+  ],
+  "manufacturer": "Pipistrel",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1999,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Virus SW 80 / 100 / 121",
+    "Virus SW 121A Explorer",
+    "Virus (long wing, 12.5 m)"
+  ],
+  "summary": "Slovenian light-sport two-seater with a glider-like airframe: slender wings, a T-tail and a pod-and-boom fuselage. Sold as a light-sport aircraft, ultralight and kit.",
+  "weft": {
+    "wings": [
+      "High cantilever wing, long and slender, glider-like",
+      "Air brakes (spoilers) on the upper surface"
+    ],
+    "engines": [
+      "Single Rotax 912/914 in a small, pointed cowl",
+      "Two- or three-blade composite propeller"
+    ],
+    "fuselage": [
+      "Pod-and-boom composite fuselage with a smooth teardrop cabin",
+      "Fixed tricycle gear with streamlined fairings"
+    ],
+    "tail": [
+      "T-tail with the horizontal stabilizer on top of the fin"
+    ]
+  },
+  "tellTales": [
+    "Slender high-wing motorglider look with a T-tail",
+    "Slim pod-and-boom fuselage with a small pointed cowl",
+    "Long thin wing and fixed streamlined gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "symphony-sa160",
+      "howToTell": "The SA160 has a strut-braced wing and a conventional tail; the Virus has a strut-free slender wing, a pod-and-boom fuselage and a T-tail."
+    },
+    {
+      "id": "da20",
+      "howToTell": "The DA20 is low-wing; the Virus SW is high-wing, with a more glider-like boom tail."
+    },
+    {
+      "id": "c150",
+      "howToTell": "The 150 is a boxy strut-braced high-wing with a conventional tail; the Virus is a smooth, strut-free glider-like high-wing with a T-tail."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Pipistrel Virus"
+  ],
+  "usCount": {
+    "value": 47,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "05617ML",
+    "05617MN",
+    "05631H5",
+    "056321O",
+    "05638MD",
+    "05639XB",
+    "05641KF"
+  ]
+}

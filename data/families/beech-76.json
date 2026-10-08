@@ -1,0 +1,74 @@
+{
+  "id": "beech-76",
+  "name": "Beechcraft Duchess (76)",
+  "shortName": "Duchess",
+  "aka": [
+    "Model 76",
+    "Beech 76"
+  ],
+  "manufacturer": "Beechcraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-twin",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "76 Duchess (single production version)"
+  ],
+  "summary": "Four-seat twin trainer built 1978–1983 from Musketeer-family components, recognizable by its T-tail and counter-rotating engines.",
+  "weft": {
+    "wings": [
+      "Low, straight wing with rounded tips"
+    ],
+    "engines": [
+      "Two small Lycoming engines in compact nacelles",
+      "Counter-rotating two-blade props"
+    ],
+    "fuselage": [
+      "Rounded Musketeer-style four-seat cabin",
+      "Smooth rounded nose",
+      "Retractable tricycle gear"
+    ],
+    "tail": [
+      "T-tail: horizontal stabilizer on top of a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Small low-wing twin with a T-tail",
+    "Rounded four-seat cabin with a smooth nose",
+    "Compact engine nacelles on a straight wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-44",
+      "howToTell": "Both are T-tail four-seat twins; the Duchess has a rounder Beech-style cabin and smooth nose, while the Seminole's cabin is boxier and PA-28 derived."
+    },
+    {
+      "id": "pa-34",
+      "howToTell": "The Seneca has a conventional low tail and a longer six-seat cabin; the Duchess has a T-tail and a shorter cabin."
+    },
+    {
+      "id": "da42",
+      "howToTell": "The DA42 is a smooth composite twin with long slender wings and winglets; the Duchess is a metal twin with a short, straight wing."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Beechcraft Duchess"
+  ],
+  "usCount": {
+    "value": 143,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1153005"
+  ]
+}

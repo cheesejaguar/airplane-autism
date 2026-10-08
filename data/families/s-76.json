@@ -1,0 +1,86 @@
+{
+  "id": "s-76",
+  "name": "Sikorsky S-76",
+  "shortName": "S-76",
+  "aka": [
+    "Spirit",
+    "S-76C++",
+    "S-76D"
+  ],
+  "manufacturer": "Sikorsky",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "vip",
+    "transport",
+    "ems",
+    "search-rescue"
+  ],
+  "branches": [],
+  "firstFlight": 1977,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "S-76A",
+    "S-76B",
+    "S-76C/C+/C++",
+    "S-76D"
+  ],
+  "summary": "Sleek medium twin designed for offshore oil and corporate transport, still used in the US for VIP, Gulf of Mexico and EMS work.",
+  "weft": {
+    "wings": [
+      "Four-blade main rotor with swept tips"
+    ],
+    "engines": [
+      "Two engines side by side on the roof behind the mast"
+    ],
+    "fuselage": [
+      "Long, streamlined fuselage with a long pointed nose",
+      "Retractable tricycle gear, main wheels folding into the rear fuselage (no sponsons)",
+      "Row of large square passenger windows"
+    ],
+    "tail": [
+      "Four-blade open tail rotor",
+      "Horizontal stabilizer mounted on the tail boom ahead of the fin"
+    ]
+  },
+  "tellTales": [
+    "Long pointed nose on a sleek twin with retractable wheels and no sponsons",
+    "Four blades over a row of square airliner-style windows",
+    "Four-blade open tail rotor"
+  ],
+  "confusedWith": [
+    {
+      "id": "aw139",
+      "howToTell": "The AW139 has five blades and gear sponsons; the S-76 has four blades and retracts its wheels into the fuselage."
+    },
+    {
+      "id": "as365",
+      "howToTell": "The Dauphin has a shrouded Fenestron; the S-76 has an open four-blade tail rotor."
+    },
+    {
+      "id": "s-92",
+      "howToTell": "The S-92 is far larger and boxier with sponsons and a rear ramp; the S-76 is slim and pointed."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Sikorsky S-76"
+  ],
+  "usCount": {
+    "value": 157,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "4900103",
+    "4900105",
+    "8143006",
+    "8143007",
+    "8143008",
+    "8143009",
+    "8143021"
+  ]
+}

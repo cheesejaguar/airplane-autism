@@ -1,0 +1,95 @@
+{
+  "id": "b747",
+  "name": "Boeing 747",
+  "shortName": "747",
+  "aka": [
+    "Jumbo Jet",
+    "Queen of the Skies",
+    "747-400F",
+    "747-8F"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1969,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "747-400 / 747-400F / 747-400BCF",
+    "747-8F / 747-8I",
+    "VC-25A (Air Force One)",
+    "E-4B"
+  ],
+  "summary": "Four-engined jumbo with the iconic upper-deck hump; US examples are now almost all freighters with Atlas, UPS, Kalitta and National.",
+  "weft": {
+    "wings": [
+      "Large, highly swept low wing",
+      "Upturned winglets on the -400; long raked wingtips on the -8",
+      "Classic -100/-200 variants have plain tips"
+    ],
+    "engines": [
+      "Four engines on separate underwing pylons",
+      "747-8 GEnx nacelles have sawtooth chevrons"
+    ],
+    "fuselage": [
+      "Distinctive raised upper-deck hump behind the cockpit (short on -400F freighters, long on passenger and -8 versions)",
+      "Freighters have no cabin windows and a hinged nose door",
+      "Four main-gear bogies under the belly"
+    ],
+    "tail": [
+      "Very tall swept fin",
+      "Large low-set tailplane"
+    ]
+  },
+  "tellTales": [
+    "Hump on the forward upper fuselage",
+    "Four engines under a large swept wing",
+    "Huge widebody with four main-gear bogies"
+  ],
+  "confusedWith": [
+    {
+      "id": "b777",
+      "howToTell": "The 747 has four engines and an upper-deck hump; the 777 has two enormous engines, a uniform tube and six-wheel bogies."
+    },
+    {
+      "id": "c-5",
+      "howToTell": "The 747 has a low wing with engines below it and a hump only over the front; the C-5 has a high wing, a T-tail and a full-length upward-opening visor nose."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "Boeing 747 in flight",
+    "Boeing 747-400 on final approach",
+    "Boeing 747-8 on final approach"
+  ],
+  "usCount": {
+    "value": 127,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1384812",
+    "138488E",
+    "13848B2",
+    "13848BH",
+    "13848BP",
+    "13848BQ",
+    "13848BS",
+    "13848BT",
+    "13848CJ",
+    "13848CK",
+    "13848GA",
+    "13848QF",
+    "13848ZZ",
+    "1384935",
+    "1384947",
+    "1384961"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "a350",
+  "name": "Airbus A350",
+  "shortName": "A350",
+  "aka": [
+    "A350 XWB",
+    "A350-900",
+    "A350-1000"
+  ],
+  "manufacturer": "Airbus",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody"
+  ],
+  "branches": [],
+  "firstFlight": 2013,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "A350-900",
+    "A350-1000",
+    "A350F (on order)"
+  ],
+  "summary": "Carbon-composite long-haul twin; in the US flown by Delta (A350-900, with A350-1000s on order).",
+  "weft": {
+    "wings": [
+      "Long, flexible wing that bends visibly upward in flight",
+      "Curved blended winglets that sweep up and curl rearward"
+    ],
+    "engines": [
+      "Two very large Rolls-Royce Trent XWB nacelles",
+      "Smooth nacelle trailing edges — no sawtooth chevrons"
+    ],
+    "fuselage": [
+      "Black 'raccoon mask' painted outline around the six cockpit windows",
+      "Smooth, rounded nose that slopes down steeply",
+      "Main bogies with four wheels (-900) or six wheels (-1000)"
+    ],
+    "tail": [
+      "Tall swept fin; low-set tailplane",
+      "Tapered tailcone ending in a rounded point"
+    ]
+  },
+  "tellTales": [
+    "Black mask framing the cockpit windows",
+    "Curling, swept-back blended wingtips",
+    "Smooth engine exhausts with no serrations on a large widebody twin"
+  ],
+  "confusedWith": [
+    {
+      "id": "b787",
+      "howToTell": "The A350 has a black 'raccoon mask' around the cockpit and curling blended winglets; the 787 has raked wingtips with no winglet and serrated engine exhausts."
+    },
+    {
+      "id": "b777",
+      "howToTell": "The A350 has curling winglets and a raccoon-mask cockpit; the 777 has a blade-like tailcone and raked or square tips — note the A350-1000 also has six-wheel bogies."
+    },
+    {
+      "id": "a330",
+      "howToTell": "The A350 has the black cockpit mask and more strongly curved winglets on a flexing wing; the A330 has small sharp angular winglets."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Airbus A350",
+    "Airbus A350 on final approach",
+    "Airbus A350-900 on final approach"
+  ],
+  "usCount": {
+    "value": 38,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3940050",
+    "3940315"
+  ]
+}

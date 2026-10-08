@@ -1,0 +1,84 @@
+{
+  "id": "fouga-magister",
+  "name": "Fouga CM.170 Magister",
+  "shortName": "Fouga Magister",
+  "aka": [
+    "CM.170 Magister",
+    "Magister",
+    "Fouga CM 170R"
+  ],
+  "manufacturer": "Fouga (Potez / Aérospatiale)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1952,
+  "engines": {
+    "count": 2,
+    "type": "turbojet"
+  },
+  "variants": [
+    "CM.170-1 Magister",
+    "CM.170R",
+    "CM.175 Zéphyr (naval)"
+  ],
+  "summary": "French two-engine jet trainer famous for its V-shaped butterfly tail; used by the Patrouille de France and exported widely, a few fly in private hands in the US.",
+  "weft": {
+    "wings": [
+      "Straight, mid-set wing with large permanent tip tanks",
+      "Slight dihedral with rounded tips"
+    ],
+    "engines": [
+      "Two small turbojets buried in the fuselage side by side",
+      "Small intakes at the wing roots"
+    ],
+    "fuselage": [
+      "Short, stubby fuselage with a long tandem canopy",
+      "Retractable tricycle gear",
+      "Twin engine nozzles under the tail"
+    ],
+    "tail": [
+      "V-tail (butterfly) with two angled surfaces and no vertical fin"
+    ]
+  },
+  "tellTales": [
+    "V-shaped butterfly tail with no vertical fin",
+    "Straight wings with tip tanks on a small two-engine jet",
+    "Short stubby fuselage with a long tandem canopy"
+  ],
+  "confusedWith": [
+    {
+      "id": "l-29",
+      "howToTell": "The L-29 has a conventional tail and one tailpipe; the Magister has a V-tail and twin nozzles."
+    },
+    {
+      "id": "bac-strikemaster",
+      "howToTell": "The Strikemaster has side-by-side seats and a conventional tail; the Magister has tandem seats and a V-tail."
+    },
+    {
+      "id": "t-33",
+      "howToTell": "The T-33 has a conventional tail and a long slim nose; the Magister has a V-tail."
+    },
+    {
+      "id": "ts-11-iskra",
+      "howToTell": "The Iskra has a conventional tail and a single engine; the Magister has a V-tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Fouga Magister",
+    "Fouga Magister warbirds"
+  ],
+  "usCount": {
+    "value": 35,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056129S",
+    "3650101"
+  ]
+}

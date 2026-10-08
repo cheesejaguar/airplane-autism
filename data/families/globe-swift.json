@@ -1,0 +1,83 @@
+{
+  "id": "globe-swift",
+  "name": "Globe/Temco Swift",
+  "shortName": "Swift",
+  "aka": [
+    "Globe Swift",
+    "Temco Swift",
+    "GC-1A",
+    "GC-1B"
+  ],
+  "manufacturer": "Globe Aircraft / Temco",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1942,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "GC-1A Swift (85 hp)",
+    "GC-1B Swift (125 hp)",
+    "Temco / Univair Swift with larger engines"
+  ],
+  "summary": "All-metal two-seat, low-wing sport plane with retractable main gear and a tailwheel; a sleek postwar fighter-like lookalike from Texas.",
+  "weft": {
+    "wings": [
+      "Low wing with no struts",
+      "Straight, tapered wing with rounded tips"
+    ],
+    "engines": [
+      "Single small flat-four or flat-six in a slim, tightly cowled nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Slender fuselage with two seats side by side under a long, sloping canopy",
+      "Retractable main gear with a fixed tailwheel",
+      "Sloping rear deck"
+    ],
+    "tail": [
+      "Tall, swept fin",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Compact, sleek low-wing two-seater with a long, sloping canopy",
+    "Retractable gear with a tailwheel",
+    "Tight, short cowl and a tall fin"
+  ],
+  "confusedWith": [
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Swift is a small two-seater with a tailwheel and a swept-back fin; the Mooney is a four-seater with tricycle gear and a forward-swept fin."
+    },
+    {
+      "id": "navion",
+      "howToTell": "The Swift is a smaller two-seater with a tailwheel; the Navion is a four-seater with a long canopy and tricycle gear."
+    },
+    {
+      "id": "ercoupe",
+      "howToTell": "The Swift has a single fin, retractable gear and a tailwheel; the Ercoupe has a twin-fin tail and fixed tricycle gear."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Globe Swift"
+  ],
+  "usCount": {
+    "value": 565,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9230102",
+    "9230104",
+    "9230108",
+    "9230110",
+    "9230112"
+  ]
+}

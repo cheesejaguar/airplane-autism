@@ -1,0 +1,94 @@
+{
+  "id": "challenger-600",
+  "name": "Bombardier Challenger 600 series",
+  "shortName": "Challenger 600",
+  "aka": [
+    "Canadair Challenger",
+    "CL-600",
+    "Challenger 601",
+    "Challenger 604",
+    "Challenger 605",
+    "Challenger 650"
+  ],
+  "manufacturer": "Canadair / Bombardier",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "business-jet",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1978,
+  "engines": {
+    "count": 2,
+    "type": "turbofan"
+  },
+  "variants": [
+    "CL-600 (Lycoming ALF502, no winglets)",
+    "601-1A / 601-3A / 601-3R",
+    "604",
+    "605",
+    "650"
+  ],
+  "summary": "Wide-cabin large business jet in production since 1980; the CRJ regional airliner is a stretched development of the same design.",
+  "weft": {
+    "wings": [
+      "Low swept wing with upturned winglets (601 onward)"
+    ],
+    "engines": [
+      "Two GE CF34 turbofans (Lycoming ALF502 on the original 600) in pods on the rear fuselage"
+    ],
+    "fuselage": [
+      "Short, very wide and deep fuselage that looks fat for its length",
+      "Large rounded windows (larger on the 605/650)",
+      "Prominent belly fairing under the wing center section"
+    ],
+    "tail": [
+      "T-tail with a swept fin"
+    ]
+  },
+  "tellTales": [
+    "Short, fat wide-body fuselage on a T-tail twinjet",
+    "Prominent belly fairing under the wing root",
+    "Upturned winglets and engines high on the rear fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "crj200",
+      "howToTell": "The Challenger 600 is much shorter with fewer, larger windows; the CRJ200 is a long stretch with many small airliner windows and overwing exits."
+    },
+    {
+      "id": "challenger-300",
+      "howToTell": "The Challenger 600-series is fatter and deeper with a belly fairing; the Challenger 300/350 is slimmer with a long tapered tail cone."
+    },
+    {
+      "id": "falcon-2000",
+      "howToTell": "The Challenger 600 has a T-tail; the Falcon 2000 has its tailplane partway up the fin."
+    },
+    {
+      "id": "g550",
+      "howToTell": "The Challenger 600 is short and fat with rounded-rectangle windows; the GIV/G550 is long and slim with oval windows."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bombardier Challenger 604",
+    "Bombardier Challenger 605",
+    "Bombardier Challenger 600"
+  ],
+  "usCount": {
+    "value": 589,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1390009",
+    "139000A",
+    "1900302",
+    "1900304",
+    "1900305",
+    "1900306",
+    "1900308",
+    "1900314"
+  ]
+}

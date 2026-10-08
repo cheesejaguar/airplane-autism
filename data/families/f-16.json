@@ -1,0 +1,82 @@
+{
+  "id": "f-16",
+  "name": "F-16 Fighting Falcon",
+  "shortName": "F-16",
+  "aka": [
+    "Viper"
+  ],
+  "manufacturer": "General Dynamics / Lockheed Martin",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "fighter",
+    "attack"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1974,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "F-16C Block 30/40/50/52",
+    "F-16D (two-seat)",
+    "F-16V upgrade"
+  ],
+  "summary": "Compact single-engine multirole fighter and the most numerous fighter in the USAF inventory, flown by active, Guard and Reserve units as well as the Thunderbirds.",
+  "weft": {
+    "wings": [
+      "Mid-mounted cropped-delta wing with strong leading-edge sweep",
+      "Long curved leading-edge root extensions (LERX) blending into the fuselage",
+      "Wingtip missile rails, usually carrying AIM-9 or AIM-120"
+    ],
+    "engines": [
+      "Single engine",
+      "Distinctive smiling chin-mounted intake under the cockpit",
+      "Single round exhaust nozzle"
+    ],
+    "fuselage": [
+      "Blended slim fuselage with frameless bubble canopy set high and well forward",
+      "Pointed radome nose",
+      "Two small ventral fins under the rear fuselage, angled outward"
+    ],
+    "tail": [
+      "Single tall swept vertical fin, often with a drag-chute or antenna fairing at the base",
+      "All-moving horizontal stabilizers with slight anhedral"
+    ]
+  },
+  "tellTales": [
+    "Gaping intake mouth under the nose — no side intakes",
+    "One engine and one vertical tail on a small, slim airframe",
+    "Bubble canopy with no frame in front of the pilot"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-35",
+      "howToTell": "The F-16 has a single tail and a chin intake; the F-35 has twin canted tails and side-mounted intakes on a much fatter fuselage."
+    },
+    {
+      "id": "fa-18cd",
+      "howToTell": "The F-16 has one engine and one tail; the Hornet has two engines, twin canted tails and intakes under the LERX on both sides."
+    },
+    {
+      "id": "f-22",
+      "howToTell": "The F-22 is far larger with twin canted tails, diamond-shaped wings and angular side intakes; the F-16 has a single tail and chin intake."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "F-16 Fighting Falcon in flight",
+    "F-16 Fighting Falcon"
+  ],
+  "usCount": {
+    "value": 840,
+    "source": "USAF F-16 fact sheet / FlightGlobal World Air Forces 2025",
+    "asOf": "2025"
+  },
+  "faaModelCodes": [
+    "5260429"
+  ]
+}

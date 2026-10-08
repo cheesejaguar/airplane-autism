@@ -1,0 +1,84 @@
+{
+  "id": "grumman-widgeon",
+  "name": "Grumman G-44 Widgeon",
+  "shortName": "Widgeon",
+  "aka": [
+    "G-44",
+    "G-44A",
+    "Super Widgeon",
+    "SCAN 30",
+    "J4F (US Navy/Coast Guard)"
+  ],
+  "manufacturer": "Grumman",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "seaplane",
+    "piston-twin"
+  ],
+  "branches": [],
+  "firstFlight": 1940,
+  "engines": {
+    "count": 2,
+    "type": "piston"
+  },
+  "variants": [
+    "G-44 (inline Ranger engines)",
+    "G-44A (postwar, Lycoming radials)",
+    "SCAN 30 (French-built)",
+    "McKinnon Super Widgeon (flat-six engines)"
+  ],
+  "summary": "Small amphibious flying boat built from 1941 to the late 1940s, with two engines on a high wing; many fly in Alaska, the Caribbean and Pacific Northwest.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing",
+      "Small stabilizing floats near the wingtips"
+    ],
+    "engines": [
+      "Two engines on the wing leading edge, close to the hull",
+      "Engine type varies by version: inline, radial or flat-six"
+    ],
+    "fuselage": [
+      "Short, deep boat hull with a stepped bottom",
+      "Main wheels fold up into the hull sides",
+      "Small cockpit windscreen at the front of the hull"
+    ],
+    "tail": [
+      "Single tall fin and rudder",
+      "Horizontal tail braced by struts"
+    ]
+  },
+  "tellTales": [
+    "Short, stubby boat hull with two engines on a high wing",
+    "Main wheels that retract into the sides of the hull",
+    "Strut-braced horizontal tail on a small amphibian"
+  ],
+  "confusedWith": [
+    {
+      "id": "grumman-goose",
+      "howToTell": "The Goose is much bigger, with large round radial engines and a longer, deeper hull with more windows; the Widgeon is a small five-seater."
+    },
+    {
+      "id": "grumman-mallard",
+      "howToTell": "The Mallard is larger, with tricycle gear (nose wheel), wingtip tanks and a long row of square windows."
+    },
+    {
+      "id": "hu-16",
+      "howToTell": "The HU-16 Albatross is far larger, with two big radials, a tall tail and a long hull with Navy or Coast Guard markings."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Grumman G-44 Widgeon"
+  ],
+  "usCount": {
+    "value": 82,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3951502",
+    "3951508",
+    "3951602"
+  ]
+}

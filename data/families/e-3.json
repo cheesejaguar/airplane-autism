@@ -1,0 +1,78 @@
+{
+  "id": "e-3",
+  "name": "E-3 Sentry (AWACS)",
+  "shortName": "E-3",
+  "aka": [
+    "Sentry",
+    "AWACS"
+  ],
+  "manufacturer": "Boeing",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "aew"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1975,
+  "engines": {
+    "count": 4,
+    "type": "turbofan"
+  },
+  "variants": [
+    "E-3B",
+    "E-3G"
+  ],
+  "summary": "Four-engine airborne warning and control aircraft built on the Boeing 707-320 airframe, carrying a large rotating radar dome; a dwindling fleet awaiting the E-7.",
+  "weft": {
+    "wings": [
+      "Low-mounted swept wing with dihedral",
+      "Plain wingtips without winglets"
+    ],
+    "engines": [
+      "Four long, slender low-bypass engines in narrow nacelles on pylons",
+      "Engines noticeably thinner than those on re-engined KC-135s"
+    ],
+    "fuselage": [
+      "Narrowbody airliner-shaped fuselage with very few windows",
+      "Large flat radar disc (rotodome) mounted on two struts above the rear fuselage",
+      "Refueling receptacle on top behind the cockpit"
+    ],
+    "tail": [
+      "Tall swept single fin with a probe at the tip",
+      "Low-mounted swept horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Large disc radar on struts above the rear fuselage of a four-engine jet",
+    "Four slim, long engine pods",
+    "Narrowbody airliner shape with almost no windows"
+  ],
+  "confusedWith": [
+    {
+      "id": "e-2",
+      "howToTell": "The E-3 is a large four-jet airliner shape; the E-2 is a small twin-turboprop carrier aircraft with a four-fin tail."
+    },
+    {
+      "id": "kc-135",
+      "howToTell": "The E-3 carries a large radar disc on struts and has slimmer engines; the KC-135 has no disc and a refueling boom."
+    },
+    {
+      "id": "e-6",
+      "howToTell": "The E-3 has a radar disc above the fuselage; the E-6 has no disc but has pods at its wingtips."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Boeing E-3 Sentry in flight",
+    "E-3 Sentry (United States Air Force)",
+    "Boeing E-3 Sentry"
+  ],
+  "usCount": {
+    "value": 15,
+    "source": "FY2026 NDAA retirement freeze (16 aircraft) less one lost in March 2026, per The War Zone",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

@@ -1,0 +1,105 @@
+{
+  "id": "grumman-aa5",
+  "name": "Grumman American AA-1 / AA-5",
+  "shortName": "AA-1/AA-5",
+  "aka": [
+    "Yankee",
+    "Traveler",
+    "Cheetah",
+    "Tiger",
+    "Lynx"
+  ],
+  "manufacturer": "American Aviation / Grumman American / Gulfstream American",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1963,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "AA-1 Yankee / AA-1A Trainer / AA-1B / AA-1C T-Cat & Lynx (two-seat)",
+    "AA-5 Traveler",
+    "AA-5A Cheetah",
+    "AA-5B / AG-5B Tiger"
+  ],
+  "summary": "Light two- and four-seat low-wing singles with bonded aluminum construction and a sliding canopy, known for sporty handling.",
+  "weft": {
+    "wings": [
+      "Short, constant-chord low wing with squared tips"
+    ],
+    "engines": [
+      "Single flat-four",
+      "Two-blade prop"
+    ],
+    "fuselage": [
+      "Sliding bubble canopy instead of doors",
+      "Fixed tricycle gear with skinny tubular main legs and a castering nose wheel",
+      "Short, compact fuselage"
+    ],
+    "tail": [
+      "Swept fin with conventional low horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Low-wing light single with a sliding canopy rather than doors",
+    "Fixed tricycle gear with skinny tubular main legs",
+    "Short, compact proportions"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 has a car-style door on the right and oleo-strut gear; the Grumman has a sliding canopy and slim tube main legs."
+    },
+    {
+      "id": "mooney-m20",
+      "howToTell": "The Mooney has retractable gear and a forward-looking tail; the Grumman has fixed gear and a swept fin."
+    },
+    {
+      "id": "ercoupe",
+      "howToTell": "The Ercoupe has twin tail fins; the Grumman has a single fin."
+    },
+    {
+      "id": "ga-7",
+      "howToTell": "The Cougar has an engine on each wing and a side door; the AA-1/AA-5 has one engine and a sliding canopy."
+    },
+    {
+      "id": "pa-38",
+      "howToTell": "The AA-5 has a conventional tail and a sliding canopy; the Tomahawk has a T-tail and hinged doors."
+    },
+    {
+      "id": "beech-musketeer",
+      "howToTell": "The AA-5 has a sliding bubble canopy and a shorter, rounder fuselage; the Musketeer has a hinged-cabin four-seat layout and a taller swept fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Grumman American AA-5",
+    "Grumman American AA-5B Tiger",
+    "Grumman American AA-1"
+  ],
+  "usCount": {
+    "value": 2499,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "0630610",
+    "0630710",
+    "0630820",
+    "0631410",
+    "3960100",
+    "3960103",
+    "3960104",
+    "3960105",
+    "3960106",
+    "3970104",
+    "3970106",
+    "3990100",
+    "3990101"
+  ]
+}

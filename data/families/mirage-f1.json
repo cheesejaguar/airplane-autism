@@ -1,0 +1,84 @@
+{
+  "id": "mirage-f1",
+  "name": "Dassault Mirage F1",
+  "shortName": "Mirage F1",
+  "aka": [
+    "F1",
+    "Mirage F1CT",
+    "F1CR",
+    "F1B"
+  ],
+  "manufacturer": "Dassault Aviation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "fighter"
+  ],
+  "branches": [],
+  "firstFlight": 1966,
+  "engines": {
+    "count": 1,
+    "type": "turbojet"
+  },
+  "variants": [
+    "Mirage F1C / F1CT / F1CR",
+    "Mirage F1B (two-seat)",
+    "F1M / F1EQ (export)"
+  ],
+  "summary": "French swept-wing single-engine supersonic fighter now operated in the US by contractor adversary-training companies; flown as a civil-registered adversary aircraft.",
+  "weft": {
+    "wings": [
+      "High-set, strongly swept wing with extended leading-edge slats",
+      "Wing pylons that often carry drop tanks or missiles"
+    ],
+    "engines": [
+      "Single SNECMA Atar turbojet with a large round afterburner nozzle",
+      "Two fixed half-round intakes on the fuselage sides beside the cockpit"
+    ],
+    "fuselage": [
+      "Long, slender pointed nose with a pitot probe on the radome",
+      "Bubble canopy on a long fuselage",
+      "Narrow, tall main gear"
+    ],
+    "tail": [
+      "Single tall swept fin",
+      "Low-mounted all-moving tailplane"
+    ]
+  },
+  "tellTales": [
+    "Swept high wing and a long pointed nose with a probe on a single-engine fighter",
+    "Fixed half-round side intakes beside the cockpit",
+    "One large engine nozzle and a tall single fin with a low tailplane"
+  ],
+  "confusedWith": [
+    {
+      "id": "f-5",
+      "howToTell": "The F-5 is a smaller twin-engine fighter with a straight wing and long chin-line LERX; the F1 is single-engine with a strongly swept high wing."
+    },
+    {
+      "id": "f-16",
+      "howToTell": "The F-16 has a chin intake and bubble canopy with a blended wing; the F1 has two side intakes and a distinctive swept wing."
+    },
+    {
+      "id": "f-86",
+      "howToTell": "The Sabre is a subsonic jet with a nose intake; the F1 has side intakes and a bigger afterburner nozzle."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Dassault Mirage F1 in flight",
+    "Dassault Mirage F1"
+  ],
+  "usCount": {
+    "value": 40,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2730177",
+    "2730178",
+    "2730179",
+    "2730180"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "dart-g",
+  "name": "Dart G",
+  "shortName": "Dart G",
+  "aka": [
+    "Culver Dart",
+    "Dart GC",
+    "Dart GK",
+    "Dart GW"
+  ],
+  "manufacturer": "Dart Aircraft Company / Culver Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "light"
+  ],
+  "branches": [],
+  "firstFlight": 1937,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Dart G (Lambert R-266 radial)",
+    "Dart GC (Continental O-200)",
+    "Dart GK (Ken-Royce)",
+    "Dart GW (Warner Scarab Junior)"
+  ],
+  "summary": "1930s two-seat low-wing sport plane from Al Mooney's Dart Aircraft Company, the ancestor of the Culver Cadet. Fixed gear and a tailwheel, usually powered by a small radial.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts"
+    ],
+    "engines": [
+      "Small five-cylinder radial in a neat cowl (flat-four on the GC)",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Compact two-seat fuselage with clean lines",
+      "Fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Single fin and rudder",
+      "Conventional horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Small prewar low-wing two-seater with a radial nose",
+    "No struts and fixed tailwheel gear on a very clean airframe",
+    "Compact fuselage with small, tidy tail surfaces"
+  ],
+  "confusedWith": [
+    {
+      "id": "culver-cadet",
+      "howToTell": "The Cadet has a flat-four, a smoother metal fuselage and retractable main gear; the Dart has a radial nose and fixed gear."
+    },
+    {
+      "id": "monocoupe-90",
+      "howToTell": "The Monocoupe is a high-wing; the Dart is a low-wing."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Dart G"
+  ],
+  "usCount": {
+    "value": 18,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2700102",
+    "2700104",
+    "2700106",
+    "2700108"
+  ]
+}

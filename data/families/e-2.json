@@ -1,0 +1,70 @@
+{
+  "id": "e-2",
+  "name": "E-2 Hawkeye",
+  "shortName": "E-2",
+  "aka": [
+    "Hawkeye",
+    "Advanced Hawkeye"
+  ],
+  "manufacturer": "Northrop Grumman",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "aew"
+  ],
+  "branches": [
+    "usn"
+  ],
+  "firstFlight": 1960,
+  "engines": {
+    "count": 2,
+    "type": "turboprop"
+  },
+  "variants": [
+    "E-2D Advanced Hawkeye",
+    "E-2C Hawkeye 2000"
+  ],
+  "summary": "Carrier-based twin-turboprop airborne early warning aircraft with a large rotating radar dome on top, flown from every US aircraft carrier.",
+  "weft": {
+    "wings": [
+      "High-mounted straight wing that folds back along the fuselage on deck",
+      "Long-span wing relative to the short fuselage"
+    ],
+    "engines": [
+      "Two turboprops with eight-blade propellers",
+      "Large engine nacelles slung under the wing"
+    ],
+    "fuselage": [
+      "Short, stubby fuselage with a large flat radar disc (rotodome) on a pylon above",
+      "Tailhook and sturdy carrier landing gear",
+      "E-2D has a refueling probe over the cockpit on newer aircraft"
+    ],
+    "tail": [
+      "Four vertical fins on a dihedral horizontal tail",
+      "Wide tailplane spanning the rear of the fuselage"
+    ]
+  },
+  "tellTales": [
+    "Large disc radar above a small twin-turboprop",
+    "Four vertical fins on an upswept tailplane",
+    "Short, stubby fuselage with a high folding wing"
+  ],
+  "confusedWith": [
+    {
+      "id": "e-3",
+      "howToTell": "The E-2 is a small twin-turboprop with a four-fin tail; the E-3 is a large four-jet airliner with a single tall fin."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "E-2D Hawkeye",
+    "E-2C Hawkeye",
+    "Northrop Grumman E-2 Hawkeye"
+  ],
+  "usCount": {
+    "value": 80,
+    "source": "FlightGlobal World Air Forces 2026 / NAVAIR E-2D program",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

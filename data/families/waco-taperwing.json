@@ -1,0 +1,89 @@
+{
+  "id": "waco-taperwing",
+  "name": "WACO Taperwing (ASO / ATO / BSO / CSO / CTO / DSO)",
+  "shortName": "WACO Taperwing",
+  "aka": [
+    "Waco ATO",
+    "Waco ASO",
+    "Waco CTO",
+    "Waco 10-T",
+    "Taperwing"
+  ],
+  "manufacturer": "Waco Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "aerobatic",
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1928,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Waco 10-T (OX-5)",
+    "ASO (Wright J-5)",
+    "ATO (Wright J-5, tapered wing)",
+    "BSO / BTO",
+    "CSO / CTO (Wright J-6)",
+    "DSO / DTO (Wright J-6)"
+  ],
+  "summary": "High-performance development of the Waco 10 with tapered wings and powerful radial engines; the barnstorming and air-racing Taperwing is a prized antique.",
+  "weft": {
+    "wings": [
+      "Tapered biplane wings: chord narrows toward the tips on both upper and lower wings",
+      "Ailerons on both upper and lower wings"
+    ],
+    "engines": [
+      "Powerful radial engine (Wright Whirlwind, Continental or Warner), often with a ring cowl",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Tandem open cockpits with a front cockpit for two passengers ahead of the pilot",
+      "Split-axle fixed tailwheel gear"
+    ],
+    "tail": [
+      "Rounded fin and rudder with an adjustable tailplane"
+    ]
+  },
+  "tellTales": [
+    "Biplane whose upper and lower wings narrow toward the tips",
+    "Radial-engined open-cockpit biplane with a wide front cockpit",
+    "Strut-linked ailerons on both upper and lower wings"
+  ],
+  "confusedWith": [
+    {
+      "id": "waco-10",
+      "howToTell": "The Waco 10 has straight, untapered wings; the Taperwing wings narrow toward the tips."
+    },
+    {
+      "id": "waco-f-series",
+      "howToTell": "The F-series has straight, rounded wings and a more streamlined fuselage; the Taperwing wings visibly taper."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman has straight, constant-chord wings and a bare radial; the Taperwing wings taper."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Waco ATO",
+    "Waco ASO",
+    "Waco CTO"
+  ],
+  "usCount": {
+    "value": 66,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "9601202",
+    "9601204",
+    "9601206",
+    "9601208",
+    "9601212",
+    "9601214"
+  ]
+}

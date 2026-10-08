@@ -1,0 +1,76 @@
+{
+  "id": "md-11",
+  "name": "McDonnell Douglas MD-11",
+  "shortName": "MD-11",
+  "aka": [
+    "MD-11F",
+    "MD-11 Freighter"
+  ],
+  "manufacturer": "McDonnell Douglas / Boeing",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "widebody",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1990,
+  "engines": {
+    "count": 3,
+    "type": "turbofan"
+  },
+  "variants": [
+    "MD-11 (passenger)",
+    "MD-11F (freighter, converted or built)"
+  ],
+  "summary": "A three-engine widebody derived from the DC-10, now flown almost entirely as a freighter, with its US fleet being retired.",
+  "weft": {
+    "wings": [
+      "Low swept wing with distinctive winglets"
+    ],
+    "engines": [
+      "Three engines: one under each wing and one in the tail at the base of the fin"
+    ],
+    "fuselage": [
+      "Long, widebody fuselage",
+      "Freighters have no main-deck windows and a large cargo door forward on the left"
+    ],
+    "tail": [
+      "Tail engine mounted at the base of a tall swept fin",
+      "Low-set tailplane"
+    ]
+  },
+  "tellTales": [
+    "Third engine mounted in the tail at the base of the fin",
+    "Wing-mounted engines plus a tail engine on a widebody",
+    "Winglets on a long widebody"
+  ],
+  "confusedWith": [
+    {
+      "id": "a330",
+      "howToTell": "The A330 has only two engines and no tail engine; the MD-11 has a third engine in the tail."
+    },
+    {
+      "id": "b767",
+      "howToTell": "The 767 has two engines and no engine in the tail; the MD-11 has a tail-mounted third engine."
+    },
+    {
+      "id": "b777",
+      "howToTell": "The 777 has two huge engines and no tail engine; the MD-11 has three engines including one in the tail."
+    }
+  ],
+  "difficulty": 1,
+  "commonsCategories": [
+    "McDonnell Douglas MD-11"
+  ],
+  "usCount": {
+    "value": 98,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "3023600",
+    "3023602",
+    "3023604"
+  ]
+}

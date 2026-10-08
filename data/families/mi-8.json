@@ -1,0 +1,81 @@
+{
+  "id": "mi-8",
+  "name": "Mil Mi-8 / Mi-17 / Mi-171 Hip",
+  "shortName": "Mi-8/17",
+  "aka": [
+    "Hip",
+    "Mi-17",
+    "Mi-171"
+  ],
+  "manufacturer": "Mil Moscow Helicopter Plant",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "transport",
+    "utility",
+    "cargo"
+  ],
+  "branches": [],
+  "firstFlight": 1961,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Mi-8T",
+    "Mi-17",
+    "Mi-171"
+  ],
+  "summary": "A big twin-turbine Russian transport helicopter flown worldwide and by a few US contractors.",
+  "weft": {
+    "wings": [
+      "Five-blade main rotor on a stout mast"
+    ],
+    "engines": [
+      "Twin turboshafts side by side on the roof with round intakes",
+      "Often has dust filters on the intakes of the Mi-17"
+    ],
+    "fuselage": [
+      "Blunt rounded nose with large cockpit windows",
+      "Large sliding cabin door and rear clamshell doors",
+      "Fixed tricycle wheeled gear; may carry large side-mounted fuel tanks"
+    ],
+    "tail": [
+      "Straight boom with a three-blade tail rotor",
+      "Small horizontal stabilizer"
+    ]
+  },
+  "tellTales": [
+    "Bulbous blunt nose with large cockpit windows",
+    "Two engines side by side on the roof",
+    "Fixed wheeled landing gear"
+  ],
+  "confusedWith": [
+    {
+      "id": "uh-60",
+      "howToTell": "The Black Hawk is slimmer with a canted tail rotor and no rear clamshell doors; the Mi-8 is a bulky boxy machine with a blunt nose."
+    },
+    {
+      "id": "as332",
+      "howToTell": "The Super Puma has a deep angular nose and four blades; the Mi-8 has a rounder blunt nose and five blades."
+    },
+    {
+      "id": "bell-412",
+      "howToTell": "The 412 is much smaller and uses skids; the Mi-8 is big with fixed wheeled gear."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Mil Mi-8",
+    "Mil Mi-17"
+  ],
+  "usCount": {
+    "value": 11,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056379V",
+    "4831705"
+  ]
+}

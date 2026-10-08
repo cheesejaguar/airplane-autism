@@ -1,0 +1,71 @@
+{
+  "id": "u-2",
+  "name": "U-2 Dragon Lady",
+  "shortName": "U-2",
+  "aka": [
+    "Dragon Lady",
+    "U-2S",
+    "TU-2S"
+  ],
+  "manufacturer": "Lockheed Martin",
+  "sector": "military",
+  "category": "fixed-wing",
+  "roles": [
+    "isr"
+  ],
+  "branches": [
+    "usaf"
+  ],
+  "firstFlight": 1955,
+  "engines": {
+    "count": 1,
+    "type": "turbofan"
+  },
+  "variants": [
+    "U-2S",
+    "TU-2S (two-seat trainer)"
+  ],
+  "summary": "Single-engine high-altitude reconnaissance aircraft with glider-like wings, flying above 70,000 ft from Beale AFB; retirement repeatedly proposed but blocked by Congress.",
+  "weft": {
+    "wings": [
+      "Extremely long, narrow, straight wings like a glider",
+      "Large sensor pods often mounted mid-wing",
+      "Skid plates at the wingtips"
+    ],
+    "engines": [
+      "Single jet engine",
+      "Small intakes on each side of the fuselage behind the cockpit"
+    ],
+    "fuselage": [
+      "Long slim fuselage, usually all black",
+      "Bicycle landing gear with detachable 'pogo' outrigger wheels under the wings",
+      "Single-seat canopy (TU-2S has a raised second cockpit); often a long dorsal antenna fairing"
+    ],
+    "tail": [
+      "Single swept vertical fin",
+      "Horizontal tail mounted low on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Glider-like, extremely long straight wings on a jet",
+    "All-black finish with large pods mid-wing",
+    "Small side intakes behind a single-seat cockpit"
+  ],
+  "confusedWith": [
+    {
+      "id": "mq-9",
+      "howToTell": "The U-2 has a cockpit canopy, a jet engine and a single fin; the MQ-9 is a windowless drone with a rear propeller and a Y-shaped tail."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Lockheed U-2S",
+    "Lockheed U-2"
+  ],
+  "usCount": {
+    "value": 23,
+    "source": "Air & Space Forces Magazine / House Appropriations FY2027 defense bill reporting (20 U-2S, 3 TU-2S)",
+    "asOf": "2026"
+  },
+  "faaModelCodes": []
+}

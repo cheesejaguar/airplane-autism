@@ -1,0 +1,107 @@
+{
+  "id": "j-3",
+  "name": "Piper J-3 Cub",
+  "shortName": "J-3",
+  "aka": [
+    "Cub",
+    "L-4 Grasshopper",
+    "NE-1"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1938,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "J-3C (Continental)",
+    "J-3F (Franklin)",
+    "J-3L (Lycoming)",
+    "L-4 Grasshopper / NE-1 (military)"
+  ],
+  "summary": "Iconic yellow tandem two-seat light trainer of the late 1930s–40s that trained a generation of WWII pilots; many still fly.",
+  "weft": {
+    "wings": [
+      "High wing braced by V-struts",
+      "Rectangular constant-chord wing with rounded tips, no flaps"
+    ],
+    "engines": [
+      "Small flat-four with cylinder heads sticking out of each side of the cowl",
+      "Two-blade wooden prop"
+    ],
+    "fuselage": [
+      "Narrow tandem two-seat fabric-covered fuselage",
+      "Tailwheel with bungee-sprung V-strut main gear",
+      "Usually painted yellow with a black lightning-bolt stripe"
+    ],
+    "tail": [
+      "Small rounded fin and rudder",
+      "Strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Engine cylinder heads poking out of each side of the nose",
+    "Bright yellow paint with a black lightning-bolt flash along the fuselage",
+    "Tiny V-strut high-wing taildragger with tandem seats"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-18",
+      "howToTell": "The Super Cub has a fully enclosed cowl, flaps and often big tires; the J-3 shows exposed cylinder heads and has no flaps."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has a deeper, rounder forward fuselage with more glazing; the J-3 is slimmer and boxier with exposed cylinders."
+    },
+    {
+      "id": "citabria",
+      "howToTell": "The Citabria has a squared-off tail, squared wingtips and spring-steel gear legs; the J-3 has a rounded tail and V-strut gear."
+    },
+    {
+      "id": "stinson-l-5",
+      "howToTell": "The L-4/J-3 Cub is a tiny narrow-fuselage airplane with a squared tail; the larger L-5 has a long glazed cabin and a six-cylinder cowl."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The J-3 seats two in tandem under a narrow roof; the Taylorcraft seats two side by side in a wider cabin."
+    },
+    {
+      "id": "aeronca-chief",
+      "howToTell": "The J-3 seats two in tandem in a narrow fuselage; the Chief seats two side by side in a deep, round-sided cabin."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Piper J-3 Cub"
+  ],
+  "usCount": {
+    "value": 3594,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7100502",
+    "7100503",
+    "7100506",
+    "7100510",
+    "7100516",
+    "7100518",
+    "7100520",
+    "7100521",
+    "7100525",
+    "7100526",
+    "7100527",
+    "7100528",
+    "7100532",
+    "7100536",
+    "7100542",
+    "7100546"
+  ]
+}

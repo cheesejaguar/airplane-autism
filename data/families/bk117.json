@@ -1,0 +1,85 @@
+{
+  "id": "bk117",
+  "name": "MBB BK 117 (A/B/C-1)",
+  "shortName": "BK 117",
+  "aka": [
+    "BK117",
+    "Kawasaki BK117",
+    "MBB BK 117"
+  ],
+  "manufacturer": "MBB / Kawasaki / Eurocopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "ems",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1979,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "BK 117 A-1/A-3",
+    "BK 117 B-1/B-2",
+    "BK 117 C-1",
+    "BK 117 C-2 (EC145)"
+  ],
+  "summary": "A boxy German-Japanese light twin used widely for EMS and utility; the ancestor of the EC145/H145.",
+  "weft": {
+    "wings": [
+      "Four-blade rigid hingeless rotor",
+      "Short mast with a compact head"
+    ],
+    "engines": [
+      "Twin turboshafts side by side on the roof",
+      "Two short exhaust stubs at the rear of the humps"
+    ],
+    "fuselage": [
+      "Boxy pod with large clamshell doors at the rear of the cabin",
+      "Skids with a short body, boxy blunt nose"
+    ],
+    "tail": [
+      "Long boom with a distinctive upward kink",
+      "Horizontal stabilizer with fin end plates and a conventional tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Compact boxy pod with rear clamshell cargo doors",
+    "Twin engines under a hump with four-blade rotor",
+    "Tail boom with a pronounced upward sweep"
+  ],
+  "confusedWith": [
+    {
+      "id": "h145",
+      "howToTell": "The H145 is bigger with a longer cabin and a sleeker nose, and often has sliding doors; the BK 117 is a smaller, boxier pod."
+    },
+    {
+      "id": "bo-105",
+      "howToTell": "The Bo 105 is shorter and has a more stubby look; the BK 117 is longer and has a taller cabin."
+    },
+    {
+      "id": "h135",
+      "howToTell": "The H135 has a fenestron tail; the BK 117 has a conventional tail rotor."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "MBB/Kawasaki BK 117",
+    "MBB/Kawasaki BK117 family"
+  ],
+  "usCount": {
+    "value": 27,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "5626012",
+    "5626013",
+    "5626015",
+    "5626025",
+    "5626027"
+  ]
+}

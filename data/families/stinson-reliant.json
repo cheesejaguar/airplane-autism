@@ -1,0 +1,94 @@
+{
+  "id": "stinson-reliant",
+  "name": "Stinson SR Reliant",
+  "shortName": "Stinson Reliant",
+  "aka": [
+    "Reliant",
+    "SR-10",
+    "SR-8",
+    "SR-9",
+    "UC-81",
+    "AT-19",
+    "V-77"
+  ],
+  "manufacturer": "Stinson Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "vip"
+  ],
+  "branches": [],
+  "firstFlight": 1933,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "SR-5 / SR-6 (straight wing)",
+    "SR-7 to SR-10 (gull wing)",
+    "UC-81 (USAAF)",
+    "AT-19 / Reliant I (Royal Navy)",
+    "L-12 (USAAF liaison)"
+  ],
+  "summary": "1930s four-to-five-seat cabin monoplane with a distinctive gull-wing from the SR-7 onward; about 1,300 were built, civil and military.",
+  "weft": {
+    "wings": [
+      "High-wing monoplane braced with struts",
+      "SR-7 and later have a gull wing, thickest and broadest at mid-span, with one strut per side"
+    ],
+    "engines": [
+      "Round radial engine (Lycoming, Wright, Jacobs or Pratt & Whitney) under a cowl",
+      "Two-blade or constant-speed propeller"
+    ],
+    "fuselage": [
+      "Enclosed cabin with large side windows seating four or five",
+      "Visible step up between the fuselage and the wing roots",
+      "Fixed tailwheel gear, often spatted"
+    ],
+    "tail": [
+      "Rounded fin and rudder"
+    ]
+  },
+  "tellTales": [
+    "High-wing cabin monoplane with a gull-shaped wing",
+    "Single strut per side from a dipped wing root",
+    "Big radial with a tall enclosed cabin"
+  ],
+  "confusedWith": [
+    {
+      "id": "howard-dga",
+      "howToTell": "The Howard has a straight wing and a deeper, wider cabin; the Reliant SR-7 and later have a dipped gull wing."
+    },
+    {
+      "id": "curtiss-robin",
+      "howToTell": "The Robin has two parallel diagonal bracing struts per side; the Reliant has a single strut and a gull wing."
+    },
+    {
+      "id": "beech-17",
+      "howToTell": "The Staggerwing is a biplane; the Reliant is a high-wing monoplane."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Stinson Reliant"
+  ],
+  "usCount": {
+    "value": 50,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8631104",
+    "8631112",
+    "8631304",
+    "8631404",
+    "8631408",
+    "8631416",
+    "8631508",
+    "8631518",
+    "8631526",
+    "8631614",
+    "8631616"
+  ]
+}

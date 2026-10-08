@@ -1,0 +1,91 @@
+{
+  "id": "bell-222",
+  "name": "Bell 222 / 230 / 430",
+  "shortName": "Bell 222/430",
+  "aka": [
+    "Bell 230",
+    "Bell 430"
+  ],
+  "manufacturer": "Bell Helicopter",
+  "sector": "civil",
+  "category": "rotorcraft",
+  "roles": [
+    "light",
+    "vip",
+    "ems",
+    "utility"
+  ],
+  "branches": [],
+  "firstFlight": 1976,
+  "engines": {
+    "count": 2,
+    "type": "turboshaft"
+  },
+  "variants": [
+    "Bell 222",
+    "222B",
+    "222UT",
+    "Bell 230",
+    "Bell 430"
+  ],
+  "summary": "A family of sleek twin-turbine Bell executive and EMS helicopters; the 222/230 have two-blade rotors, the later 430 has a four-blade bearingless rotor.",
+  "weft": {
+    "wings": [
+      "Two-blade main rotor on the earlier models, four-blade rotor on the largest, stretched version",
+      "Sleek low mast fairing; the earliest model has small stub-wing sponsons"
+    ],
+    "engines": [
+      "Twin turboshafts side by side behind the cabin under a long smooth cowling",
+      "Exhaust stacks at the top rear of the cowl"
+    ],
+    "fuselage": [
+      "Smooth aerodynamic body with a long swept nose and a wide cabin with large windows",
+      "Undercarriage is either skids on faired legs or retractable wheels in sponsons, depending on model"
+    ],
+    "tail": [
+      "Slim boom with a swept vertical fin",
+      "Horizontal stabilizer with end plates and a two-blade tail rotor"
+    ]
+  },
+  "tellTales": [
+    "Sleek executive-style twin-turbine helicopter with a long smooth cowl",
+    "Long swept nose with a wide, large-windowed cabin",
+    "Either wheels retracting into stub sponsons or skids on faired legs, under a swept tailboom with end-plate stabilizers"
+  ],
+  "confusedWith": [
+    {
+      "id": "bell-412",
+      "howToTell": "The 412 is a boxy utility helicopter with a squared-off nose and wide sliding doors; the 222/430 are smoother with a long swept nose."
+    },
+    {
+      "id": "aw109",
+      "howToTell": "The AW109 has a four-blade rotor and a more compact body with a different tail; the 222 has two blades and distinctive stub-wing sponsons, while the 430 is larger and uses skids."
+    },
+    {
+      "id": "h135",
+      "howToTell": "The H135 has a ducted tail fan; the 222/430 have an open conventional tail rotor."
+    },
+    {
+      "id": "bell-429",
+      "howToTell": "The 429 is a bit smaller and has larger sliding doors and a different cowl; the 430 has a longer cabin and a sleeker nose."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Bell 222",
+    "Bell 430",
+    "Bell 230"
+  ],
+  "usCount": {
+    "value": 51,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "1182122",
+    "1182124",
+    "1182149",
+    "1182150",
+    "1182151"
+  ]
+}

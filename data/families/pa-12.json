@@ -1,0 +1,83 @@
+{
+  "id": "pa-12",
+  "name": "Piper PA-12 Super Cruiser / PA-14 Family Cruiser",
+  "shortName": "PA-12",
+  "aka": [
+    "Super Cruiser",
+    "Family Cruiser (PA-14)"
+  ],
+  "manufacturer": "Piper Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single"
+  ],
+  "branches": [],
+  "firstFlight": 1945,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "PA-12 Super Cruiser (108 hp Lycoming O-235)",
+    "PA-12S floatplane",
+    "PA-14 Family Cruiser (four-seat)"
+  ],
+  "summary": "Three-seat development of the J-5 Cub Cruiser: a fully cowled, strut-braced Cub-style high-wing with a wide cabin and a bench seat in the rear.",
+  "weft": {
+    "wings": [
+      "High wing braced by one strut per side",
+      "Rounded wingtips"
+    ],
+    "engines": [
+      "Single flat-four fully enclosed in a smooth Cub-style cowl",
+      "Fixed-pitch two-blade propeller"
+    ],
+    "fuselage": [
+      "Wide three-seat cabin with a bench seat in the rear",
+      "Fabric-covered fuselage, tailwheel gear",
+      "Large side windows along the cabin"
+    ],
+    "tail": [
+      "Rounded Cub-style fin and rudder",
+      "Conventional horizontal tail with rounded tips"
+    ]
+  },
+  "tellTales": [
+    "Cub-like profile with a noticeably wider, deeper cabin",
+    "Fully cowled engine in front of a rounded Cub tail",
+    "Strut-braced high wing and tailwheel"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The PA-12 has a wider three-seat cabin and a fully enclosed cowl; the J-3 is a narrow tandem two-seater, often with cylinders partly visible."
+    },
+    {
+      "id": "pa-18",
+      "howToTell": "The PA-12 has rounded wingtips and a rounded tail; the PA-18 has squared tips and a squared fin and rudder."
+    },
+    {
+      "id": "stinson-108",
+      "howToTell": "The PA-12 has a rounded Cub tail and a three-seat cabin; the Stinson 108 is a four-seater with a six-cylinder nose and a larger curved fin."
+    },
+    {
+      "id": "c180",
+      "howToTell": "The PA-12 is a smaller fabric aircraft with a rounded tail; the 180 is an all-metal aircraft with a bigger cowl and angular fin."
+    }
+  ],
+  "difficulty": 4,
+  "commonsCategories": [
+    "Piper PA-12 Super Cruiser"
+  ],
+  "usCount": {
+    "value": 1280,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "7101202",
+    "7101204",
+    "7101402"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "porterfield-65",
+  "name": "Porterfield Collegiate / Flyabout (CP-50, CP-65, LP-65)",
+  "shortName": "Porterfield",
+  "aka": [
+    "Collegiate",
+    "Flyabout",
+    "Skinny Bird",
+    "CP-65",
+    "LP-65"
+  ],
+  "manufacturer": "Porterfield Aircraft Corporation",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1935,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "Model 35 Flyabout (LeBlond radial)",
+    "CP-40 / CP-50 / CP-65 Collegiate (Continental)",
+    "LP-50 / LP-65 (Lycoming)",
+    "FP-60 / FP-65 (Franklin)"
+  ],
+  "summary": "Prewar two-seat high-wing trainers and sport planes from Kansas City. The Collegiate is nicknamed the 'Skinny Bird' for its very narrow fuselage.",
+  "weft": {
+    "wings": [
+      "High wing braced by two parallel struts per side (not a V)",
+      "Nearly symmetrical airfoil, straight wing with rounded tips"
+    ],
+    "engines": [
+      "Single small flat-four, cowled",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Very narrow, slab-sided fuselage ('Skinny Bird')",
+      "Tandem seats under a long glazed roof",
+      "Fixed gear with a tailwheel or tailskid"
+    ],
+    "tail": [
+      "Conventional fin and rudder with a high-set fixed tailplane"
+    ]
+  },
+  "tellTales": [
+    "Light-plane-sized high-wing with two parallel struts per side instead of a V",
+    "Very narrow, slab-sided fuselage",
+    "Tandem seats under a long glazed roof"
+  ],
+  "confusedWith": [
+    {
+      "id": "j-3",
+      "howToTell": "The J-3 has V-struts and a rounder, wider fuselage; the Porterfield has parallel struts and a skinny slab-sided body."
+    },
+    {
+      "id": "aeronca-champ",
+      "howToTell": "The Champ has V-struts and a rounded teardrop fuselage; the Porterfield has parallel struts and a narrow slab-sided fuselage."
+    },
+    {
+      "id": "taylorcraft-bc",
+      "howToTell": "The Taylorcraft has side-by-side seats and V-type bracing; the Porterfield has tandem seats and twin parallel struts."
+    },
+    {
+      "id": "interstate-s1",
+      "howToTell": "The Interstate Cadet has a V-strut braced wing and robust oleo gear; the Porterfield has paired parallel struts."
+    }
+  ],
+  "difficulty": 5,
+  "commonsCategories": [
+    "Porterfield Collegiate",
+    "Porterfield 35"
+  ],
+  "usCount": {
+    "value": 71,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "6480104",
+    "6480114",
+    "6480118",
+    "6480122",
+    "6480124",
+    "6480134",
+    "6480148",
+    "6480154"
+  ]
+}

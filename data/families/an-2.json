@@ -1,0 +1,81 @@
+{
+  "id": "an-2",
+  "name": "Antonov An-2 Colt",
+  "shortName": "An-2",
+  "aka": [
+    "Colt",
+    "An-2T",
+    "Annushka"
+  ],
+  "manufacturer": "Antonov",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "utility",
+    "agricultural"
+  ],
+  "branches": [],
+  "firstFlight": 1947,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "An-2T (12-passenger)",
+    "An-2P / An-2TP",
+    "Agricultural (hopper) versions",
+    "Float and ski versions"
+  ],
+  "summary": "Huge Soviet single-bay utility biplane with a 1,000 hp radial. Mass-produced for passenger, cargo and ag work; a few operate in the US.",
+  "weft": {
+    "wings": [
+      "Large single-bay biplane; the upper wing is noticeably longer than the lower",
+      "Automatic leading-edge slats on the upper wing"
+    ],
+    "engines": [
+      "Single nine-cylinder radial (about 1,000 hp) in a big round cowl",
+      "Large four-blade propeller"
+    ],
+    "fuselage": [
+      "Large, deep fuselage with a roomy cabin and rectangular windows",
+      "Tall fixed main gear with a tailwheel"
+    ],
+    "tail": [
+      "Large fin and rudder",
+      "Strut-braced horizontal tail"
+    ]
+  },
+  "tellTales": [
+    "Giant single-bay biplane with a short lower wing",
+    "Huge radial and four-blade prop up front",
+    "Tall fixed gear under a deep, boxy fuselage"
+  ],
+  "confusedWith": [
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman is a small open-cockpit trainer biplane; the An-2 is far bigger with a deep enclosed cabin and a longer upper wing."
+    },
+    {
+      "id": "ag-cat",
+      "howToTell": "The Ag-Cat is a small single-seat biplane duster; the An-2 is a giant airframe with a large passenger cabin."
+    },
+    {
+      "id": "beech-17",
+      "howToTell": "The Staggerwing has a lower wing farther forward than the upper and a sleek cabin; the An-2 is a big boxy biplane with a long upper wing."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Antonov An-2",
+    "Antonov An-2 in Austria"
+  ],
+  "usCount": {
+    "value": 12,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "056129T",
+    "9820200"
+  ]
+}

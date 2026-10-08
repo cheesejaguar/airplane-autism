@@ -1,0 +1,79 @@
+{
+  "id": "lake-la-4",
+  "name": "Lake LA-4 Buccaneer / Renegade",
+  "shortName": "Lake LA-4",
+  "aka": [
+    "Buccaneer",
+    "Renegade",
+    "Lake 250",
+    "Seawolf"
+  ],
+  "manufacturer": "Lake Aircraft",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "seaplane"
+  ],
+  "branches": [],
+  "firstFlight": 1948,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "LA-4 / LA-4-200 Buccaneer (four-seat)",
+    "Lake 250 / LA-250 Renegade (six-seat, longer hull)",
+    "LA-4S Seaplane (no gear)"
+  ],
+  "summary": "Four-seat amphibian flying boat with a pylon-mounted pusher engine high above the cabin and a T-tail; the retractable wheels live in the hull.",
+  "weft": {
+    "wings": [
+      "Cantilever shoulder wing with no struts",
+      "Fixed wing-tip floats or pontoons"
+    ],
+    "engines": [
+      "Single pusher engine on a pylon above the hull",
+      "Pusher propeller behind the engine"
+    ],
+    "fuselage": [
+      "Boat hull with a step below the cabin",
+      "Retractable tricycle gear stowed in the hull",
+      "Cabin set below the engine pylon"
+    ],
+    "tail": [
+      "T-tail with the horizontal stabilizer atop the fin"
+    ]
+  },
+  "tellTales": [
+    "Amphibian boat hull with a high, pylon-mounted pusher engine",
+    "Cantilever wing with floats at the tips",
+    "T-tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "republic-rc-3",
+      "howToTell": "The Lake has a cantilever wing, a pylon engine and a T-tail; the Seabee has a lift strut each side and a conventional tail arrangement."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "Lake LA-4-200 Buccaneer"
+  ],
+  "usCount": {
+    "value": 333,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2400102",
+    "2400108",
+    "5110102",
+    "5110202",
+    "5110302",
+    "5110310",
+    "5110320",
+    "5110321",
+    "5110322"
+  ]
+}

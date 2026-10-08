@@ -1,0 +1,82 @@
+{
+  "id": "dh-82",
+  "name": "de Havilland DH.82 Tiger Moth",
+  "shortName": "Tiger Moth",
+  "aka": [
+    "Tiger Moth",
+    "DH.82A",
+    "DH.82C",
+    "Jackaroo"
+  ],
+  "manufacturer": "de Havilland Aircraft Company",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "warbird",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1931,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "DH.82A (Gipsy Major)",
+    "DH.82B Queen Bee (target drone)",
+    "DH.82C (Canada, enclosed canopy)",
+    "Thruxton Jackaroo (cabin conversion)"
+  ],
+  "summary": "British primary-trainer biplane that taught tens of thousands of pilots to fly in World War II; hundreds are still flown worldwide.",
+  "weft": {
+    "wings": [
+      "Staggered single-bay biplane with a swept-back upper wing over a straighter lower wing",
+      "Ailerons on the lower wings only"
+    ],
+    "engines": [
+      "Inverted inline four-cylinder de Havilland Gipsy engine with a long, low cowled nose",
+      "Two-blade propeller"
+    ],
+    "fuselage": [
+      "Two open cockpits in tandem with fold-down side doors",
+      "Fixed split-axle gear with a tailwheel or skid"
+    ],
+    "tail": [
+      "Large rounded fin and rudder with a tailplane"
+    ]
+  },
+  "tellTales": [
+    "Biplane with a swept-back upper wing and ailerons only on the lower wings",
+    "Low inline-engine nose with two tandem open cockpits",
+    "Narrow-track fixed gear and rounded tail"
+  ],
+  "confusedWith": [
+    {
+      "id": "stampe-sv4",
+      "howToTell": "The Stampe has ailerons on all four wing panels; the Tiger Moth has ailerons on the lower wings only."
+    },
+    {
+      "id": "bucker-jungmann",
+      "howToTell": "The Jungmann has ailerons on both upper and lower wings and a stubbier, smoother nose; the Tiger Moth has lower-wing ailerons only."
+    },
+    {
+      "id": "stearman",
+      "howToTell": "The Stearman has a big radial engine; the Tiger Moth has a slim inline engine nose."
+    }
+  ],
+  "difficulty": 2,
+  "commonsCategories": [
+    "De Havilland DH.82 Tiger Moth"
+  ],
+  "usCount": {
+    "value": 66,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "2800101",
+    "2800125",
+    "2801002",
+    "2801006"
+  ]
+}

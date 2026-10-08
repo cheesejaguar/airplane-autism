@@ -1,0 +1,89 @@
+{
+  "id": "socata-tb-9",
+  "name": "Socata TB 9/10 Tampico / Tobago",
+  "shortName": "TB 9/10",
+  "aka": [
+    "Tampico",
+    "Tobago",
+    "TB 200",
+    "TB 9C"
+  ],
+  "manufacturer": "Socata (Daher)",
+  "sector": "civil",
+  "category": "fixed-wing",
+  "roles": [
+    "piston-single",
+    "trainer"
+  ],
+  "branches": [],
+  "firstFlight": 1977,
+  "engines": {
+    "count": 1,
+    "type": "piston"
+  },
+  "variants": [
+    "TB 9 Tampico / Tampico Club (160 hp, fixed pitch)",
+    "TB 10 Tobago (180 hp, constant speed)",
+    "TB 200 Tobago XL (200 hp)"
+  ],
+  "summary": "French four-seat touring and training single with fixed gear, the fixed-gear cousin of the retractable TB 20. Known for its wide, airy cabin.",
+  "weft": {
+    "wings": [
+      "Low cantilever wing with no struts",
+      "Wing sits below a fuselage that bulges above the wing line"
+    ],
+    "engines": [
+      "Single flat-four in a smooth cowl",
+      "Two-blade propeller (fixed pitch on TB 9, constant speed on TB 10 and up)"
+    ],
+    "fuselage": [
+      "Rounded cabin hump with side windows rising into the roof",
+      "Wide four-seat cabin with a large glass area",
+      "Fixed tricycle gear, usually with wheel fairings"
+    ],
+    "tail": [
+      "Single swept fin",
+      "Conventional horizontal tail on the rear fuselage"
+    ]
+  },
+  "tellTales": [
+    "Rounded, bulging cabin above the wing with windows rising into the roof",
+    "Low wing with fixed, faired tricycle gear",
+    "Wide, deep cabin that looks fatter than other low-wing four-seaters"
+  ],
+  "confusedWith": [
+    {
+      "id": "pa-28",
+      "howToTell": "The PA-28 has a plain slab-sided fuselage; this has a rounded, humped cabin with side windows curving into the roof."
+    },
+    {
+      "id": "grumman-aa5",
+      "howToTell": "The AA-5 has a sliding bubble canopy over a stubby cabin; this has a conventional wide windshield and a hump-backed cabin."
+    },
+    {
+      "id": "socata-tb-20",
+      "howToTell": "The TB 20 has retractable tricycle gear and a bigger engine; this one has fixed, faired gear."
+    },
+    {
+      "id": "socata-rallye",
+      "howToTell": "The Rallye is a shorter, stubbier older design with a slatted wing; this is a rounder, more modern four-seater without slats."
+    }
+  ],
+  "difficulty": 3,
+  "commonsCategories": [
+    "Socata TB family",
+    "Socata TB-10",
+    "Socata TB-9"
+  ],
+  "usCount": {
+    "value": 93,
+    "source": "FAA Releasable Aircraft Database — valid registrations",
+    "asOf": "2026-10"
+  },
+  "faaModelCodes": [
+    "8680693",
+    "8680694",
+    "8680696",
+    "8680750"
+  ]
+}
